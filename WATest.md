@@ -91,9 +91,93 @@ $$
 $$
 ***********
 </div>
+
+
+
+<div class="flex-child">
+__$b)$__
+
+$$
+\begin{align*}
+3651&   \\
++4235& \\ 
+&  \\ \hline
+& \\ 
+\end{align*} 
+$$
+
+[[7886]]
+***********
+$$
+\begin{align*}
+3651&   \\
++4235& \\ 
+&  \\ \hline
+7886& \\ 
+\end{align*} 
+$$
+***********
+</div>
+
+
+
+
+<div class="flex-child">
+__$c)$__
+
+$$
+\begin{align*}
+4507&   \\
++4265& \\ 
+ 	&  \\ \hline
+& \\ 
+\end{align*} 
+$$
+
+[[8772]]
+***********
+$$\begin{align*}
+4507&   \\
++4265& \\ 
+\textcolor[rgb]{1,0,0}{1}\textcolor[rgb]{1,1,1}{0}	&  \\ \hline
+8772& \\ 
+\end{align*} 
+$$
+***********
+</div>
+
+
+
+
+<div class="flex-child">
+__$d)$__
+
+$$
+\begin{align*}
+1337&   \\
++6785& \\ 
+ &  \\ \hline
+& \\ 
+\end{align*}
+$$
+
+[[8122]]
+***********
+$$
+\begin{align*}
+1337&   \\
++6785& \\ 
+\textcolor[rgb]{1,0,0}{111}\textcolor[rgb]{1,1,1}{0}	&  \\ \hline
+8122& \\ 
+\end{align*}
+$$
+***********
+</div>
+
+
+</section>
  
  
-## Aufgabe 2
 
 
 
