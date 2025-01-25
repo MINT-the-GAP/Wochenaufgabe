@@ -38,27 +38,76 @@ script: dist/index.js
 
 -->
 
+<!--
+@embed
+<script run-once modify="false">
+fetch("@1")
+  .then(response => {
+    if (!response.ok) {
+      const error = `HTTP error! status: ${response.status}`
+      send.lia(error)
+      throw new Error(error);
+    }
+    return response.text();
+  })
+  .then(html => {
+    html = html.split('')
+
+    for(let i=0; i<html.length; i++) {
+      if (html[i] === '"') {
+        html[i] = "'"
+      }
+    }
+
+    send.lia(`HTML: <iframe @0 srcdoc="${html.join('')}"></iframe>`)
+  })
+  .catch(error => {
+    console.warn('Error fetching and extracting text:', error);
+    send.lia(error)
+  });
+
+"LIA: wait"
+</script>
+@end
+
+persistent: true
+-->
+
+
+
+
+
 # Wochenaufgabe 1
 
 Bei den Wochenaufgaben 1 erwarten euch spannende Rechenherausforderungen, die euch dabei helfen, das Rechnen zu üben und noch besser zu werden! Diese Aufgaben sind wie kleine Detektivspiele für eure Mathematikfähigkeiten und decken viele verschiedene Themen ab. Hier ein kleiner Überblick, was euch erwartet:
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Kompass.png)<!--style="width: 32px;"--> **Additionen:**\
+![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Kompass.png)<!--style="width: 32px; float: left"--> **Additionen:**\
 Ihr größere Zahlen addieren, indem ihr Zehnerstapel bildet – zum Beispiel addiert ihr große Zahlen übereinander und findet heraus, was an den einzelnen Stellen zusammen dabei rauskommt. Mit etwas Übung macht das schnell richtig Spaß!
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png)<!--style="width: 32px;"-->  **Subtraktionen:**\
+![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png)<!--style="width: 32px; float: left"-->  **Subtraktionen:**\
 Das Gegenteil der Addition ist die Subtraktion, auch hier sucht ihr Zehnerstapel nur rückwärts – zum Beispiel subtrahiert ihr große Zahlen übereinander und findet heraus, was an den einzelnen Stellen noch übrig bleibt. Mit etwas Übung macht das schnell richtig Spaß!
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png)<!--style="width: 32px;"-->  **Multiplikationen:**\
+![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png)<!--style="width: 32px; float: left"-->  **Multiplikationen:**\
 Bei der Multiplikation mit größeren Zahlen braucht man dennoch nur das Einmaleins, in dem ihr die jeweiligen Ziffern multipliziert – multipliziert die einzelnen Ziffern und addiert diese anschließend an den Stellen der Zahl. Mit etwas Übung macht das schnell richtig Spaß!
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png)<!--style="width: 32px;"-->  **Divisionen:**\
+![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png)<!--style="width: 32px; float: left"-->  **Divisionen:**\
 Wie oft passt die Zahl in eine andere? Beantwortet die Frage Schritt für Schritt für die Division – Fragt bei jeder Ziffer und subtrahiert das Produkt von den vorherigen Ziffern bis keine neue Ziffer mehr nach unten gezogen werden kann. Mit etwas Übung macht das schnell richtig Spaß!
 
 
 
 Übung macht den Meister – und jede Aufgabe ist ein kleiner Schritt zum großen Erfolg!
 
-**Seid neugierig, probiert die Aufgaben aus und habt Spaß beim Rechnen! ![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png)<!--style="width: 32px;"-->**
+![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png)<!--style="width: 32px; float: left"--> **Seid neugierig, probiert die Aufgaben aus und habt Spaß beim Rechnen! **\
+
+
+>Energetische Icons (Wieso ist das erste so weit oben bzw. die anderen die so weit unten????????) 
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/donot.png) <!--style="width: 32px; float: left; "--> 
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Kompass.png)<!--style="width: 32px; float: left; "-->
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png) <!--style="width: 32px; float: left; "--> 
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png) <!--style="width: 32px; float: left; "--> 
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png) <!--style="width: 32px; float: left; "--> 
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png) <!--style="width: 32px; float: left; "--> 
+
 
 ## Aufgabe 1
 
@@ -154,22 +203,22 @@ __$d)$__
 
 $$
 \begin{align*}
-1337&   \\
-+6785& \\ 
- &  \\ \hline
+9337&   \\
+-6785& \\ 
+	&  \\ \hline
 & \\ 
-\end{align*}
+\end{align*} 
 $$
 
-[[8122]]
+[[2552]]
 ***********
 $$
 \begin{align*}
-1337&   \\
-+6785& \\ 
-\textcolor{red}{111}\textcolor{white}{0}	&  \\ \hline
-8122& \\ 
-\end{align*}
+9337&   \\
+-6785& \\ 
+\textcolor{red}{11}\textcolor{white}{00}}	&  \\ \hline
+2552& \\ 
+\end{align*}  
 $$
 ***********
 </div>
@@ -732,48 +781,26 @@ $$
 
 ## GeoGebra-Versuche
 
-<!--
-@embed
-<script run-once modify="false">
-fetch("@1")
-  .then(response => {
-    if (!response.ok) {
-      const error = `HTTP error! status: ${response.status}`
-      send.lia(error)
-      throw new Error(error);
-    }
-    return response.text();
-  })
-  .then(html => {
-    html = html.split('')
 
-    for(let i=0; i<html.length; i++) {
-      if (html[i] === '"') {
-        html[i] = "'"
-      }
-    }
 
-    send.lia(`HTML: <iframe @0 srcdoc="${html.join('')}"></iframe>`)
-  })
-  .catch(error => {
-    console.warn('Error fetching and extracting text:', error);
-    send.lia(error)
-  });
-
-"LIA: wait"
-</script>
-@end
-
-persistent: true
--->
 
 <section class="flex-container">
 
 
 
 <div class="flex-child">
-Auch wenn ich die Darstellungen in GeoGebra nicht ansprechend finde, ist es bei vielen LehrerInnen verbreitet... Wir bräuchten sowas in ansprechender...
 
+> ~~__Auch wenn ich die Darstellungen in GeoGebra nicht ansprechend finde, ist es bei vielen LehrerInnen verbreitet... Wir bräuchten sowas in ansprechender...__~~
+
+
+<!--
+persistent: true
+-->
+@[embed(style="height: 380px; width: 700px; border: none")](https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html)
+
+<!--
+persistent: true
+-->
 @[embed(style="height: 380px; width: 700px; border: none")](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Downloadbalken.html)
 
 
