@@ -39,7 +39,7 @@ script: dist/index.js
 -->
 
 
-# Wochenaufgaben Test
+# Wochenaufgaben 
 
 Die Wochenaufgaben dienen zur Wiederholung von grundlegenden Themen innerhalb des Unterrichts, welche in vielen Aufgaben im Unterricht in Verbindung mit neuem Lerninhalt vorkommen können.
 Hierbei werden gut verteilt Aufgaben aus allen vorherigen Jahrgangstufen in unregelmäßigen Abständen aufgegriffen.
