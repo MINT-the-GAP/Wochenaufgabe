@@ -768,7 +768,7 @@ $$
 
 <br>
 
-> Hier muss dringend der "Anzeigebereich" dynamsischer werden, da das iFrame ansonsten kaum Interaktion zulässt. In der mobilen Variante, müsste man das iFrame automatisch drehen lassen. \
+> Ich glaube ich nutze CSS wieder mal falsch, da sich aufm Handy die iFrames nicht in ihrer Größe anpassen, wenn ich von Quer- zu Hochformat oder vise versa wechsel. \
 
 <iframe style="border: 0px none; margin-left: 0px; margin-top: 0px; height: 55%; width: 150%;" name="moep" src="https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html" scrolling="no"></iframe>
 
