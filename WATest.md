@@ -73,6 +73,15 @@ Wie oft passt die Zahl in eine andere? Beantwortet die Frage Schritt für Schrit
 >![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png) <!--style="width: 32px; float: left; "--> 
 >![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png) <!--style="width: 32px; float: left; "--> 
 
+Normaler HTML-Code: Scheint besser zu funktionieren als das externe Bild.
+
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/donot.png" alt="Achtung" width="32">
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Kompass.png" alt="Orientieren" width="32">
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png" alt="Erkunden" width="32">
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png" alt="Ordnen und Sichern" width="32">
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png" alt="Vernetzen" width="32">
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png" alt="Reflektieren" width="32">
+
 
 ## Aufgabe 1
 
