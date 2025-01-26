@@ -37,42 +37,7 @@ import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.m
 script: dist/index.js
 
 -->
-
-<!--
-@embed
-<script run-once modify="false">
-fetch("@1")
-  .then(response => {
-    if (!response.ok) {
-      const error = `HTTP error! status: ${response.status}`
-      send.lia(error)
-      throw new Error(error);
-    }
-    return response.text();
-  })
-  .then(html => {
-    html = html.split('')
-
-    for(let i=0; i<html.length; i++) {
-      if (html[i] === '"') {
-        html[i] = "'"
-      }
-    }
-
-    send.lia(`HTML: <iframe @0 srcdoc="${html.join('')}"></iframe>`)
-  })
-  .catch(error => {
-    console.warn('Error fetching and extracting text:', error);
-    send.lia(error)
-  });
-
-"LIA: wait"
-</script>
-@end
-
-persistent: true
--->
-
+ 
 
 
 
@@ -688,7 +653,7 @@ $$
 <div class="flex-child">
 
 
-$$
+
 
 
 \begin{tikzpicture}[scale=1.25, >=latex]
@@ -768,7 +733,7 @@ $$
     
 	\end{tikzpicture}
 
-$$
+
 
 
 
@@ -780,36 +745,32 @@ $$
 
 
 
-## GeoGebra-Versuche
+## GeoGebra-Versuche + VierVieren
 
 
-
-
-<section class="flex-container">
-
-
-
-<div class="flex-child">
+ 
 
 > ~~__Auch wenn ich die Darstellungen in GeoGebra nicht ansprechend finde, ist es bei vielen LehrerInnen verbreitet... Wir bräuchten sowas in ansprechender...__~~
+ 
+  iFrames, die auf andere Seiten verweisen? Kann man nutzen... \
+
+<br>
+
+> Hier muss dringend der "Anzeigebereich" dynamsischer werden, da das iFrame ansonsten kaum Interaktion zulässt. In der mobilen Variante, müsste man das iFrame automatisch drehen lassen. \
+
+<iframe style="border: 0px none; margin-left: 0px; margin-top: 0px; height: 55%; width: 150%;" name="moep" src="https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html" scrolling="no"></iframe>
+
+ 
+<br>
+ 
 
 
-<!--
-persistent: true
--->
-@[embed(style="height: 380px; width: 700px; border: none")](https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html)
+<iframe style="border: 0px none; margin-left: 0px; margin-top: 0px; height: 50%; width: 125%;" name="moep" src="https://wochenaufgaben.gsg-freiberg.de/viervieren/index.html" scrolling="no"></iframe>
 
-<!--
-persistent: true
--->
-@[embed(style="height: 380px; width: 700px; border: none")](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Downloadbalken.html)
+ 
 
 
-</div>
-
-
-</section>
-
+ 
 
 ## Weitere TeX-Versuche
 
