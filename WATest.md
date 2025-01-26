@@ -203,22 +203,22 @@ __$d)$__
 
 $$
 \begin{align*}
-9337&   \\
--6785& \\ 
-	&  \\ \hline
+1337&   \\
++6785& \\ 
+ &  \\ \hline
 & \\ 
-\end{align*} 
+\end{align*}
 $$
 
-[[2552]]
+[[8122]]
 ***********
 $$
 \begin{align*}
-9337&   \\
--6785& \\ 
-\textcolor{red}{11}\textcolor{white}{00}}	&  \\ \hline
-2552& \\ 
-\end{align*}  
+1337&   \\
++6785& \\ 
+\textcolor{red}{111}\textcolor{white}{0}	&  \\ \hline
+8122& \\ 
+\end{align*}
 $$
 ***********
 </div>
@@ -349,27 +349,28 @@ $$
 
 
 
+
 <div class="flex-child">
 __$d)$__
 
 $$
 \begin{align*}
-1337&   \\
-+6785& \\ 
- &  \\ \hline
+9337&   \\
+-6785& \\ 
+	&  \\ \hline
 & \\ 
-\end{align*}
+\end{align*} 
 $$
 
-[[8122]]
+[[2552]]
 ***********
 $$
 \begin{align*}
-1337&   \\
-+6785& \\ 
-\textcolor{red}{111}\textcolor{white}{0}	&  \\ \hline
-8122& \\ 
-\end{align*}
+9337&   \\
+-6785& \\ 
+\textcolor{red}{11}\textcolor{white}{00}}	&  \\ \hline
+2552& \\ 
+\end{align*}  
 $$
 ***********
 </div>
@@ -467,8 +468,8 @@ __$c)$__
 
 $$
 \begin{align*}
-5034 \cdot 5 &   \\ \hline 
- 
+5034 \cdot 5 &   \\ \hline  
+ & \\
 \end{align*} 
 $$
 
@@ -802,6 +803,104 @@ persistent: true
 persistent: true
 -->
 @[embed(style="height: 380px; width: 700px; border: none")](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Downloadbalken.html)
+
+
+</div>
+
+
+</section>
+
+
+## Weitere TeX-Versuche
+
+
+
+
+<section class="flex-container">
+
+
+
+<div class="flex-child">
+
+
+
+> \mathds{1} geht nicht, wird gebraucht   
+
+> \label geht nicht, wie kann sonst referenziert verlinkt werden?   
+
+> \slashed geht nicht, wichtig grade beim Kürzen    
+
+
+Bei der Quantisierung soll eine Phasenraumkoordinate $(q,p)$ auf einen Operator $(Q,P)$ abgebildet werden. Dabei befinden sich die Phasenraumkoordinaten in einer assoziativen Algebra $F(\mathbb{R}^{2n}) = \left\{ f : \mathbb{R}^{2n} \rightarrow \mathbb{C}\right\} $, wobei $f$ eine Funktion und die Obsverablenalgebra $\mathcal{A}$ kommutativ ist. Dagegen sind die Observablen (selbstadjungierte lineare beschränkte Operatoren) auf $\mathcal{B}(\mathcal{H})$ vorzufinden. Diese Algebra ist nichtkommutativ.
+ 
+Unter einer Darstellung $\rho$ versteht man: \
+
+ 
+
+Definition 4 Darstellung: Eine Darstellung $\rho : \mathcal{A} \rightarrow L(V)$ einer Algebra $\mathcal{A}$ ist ein $^*$-Homomorphismus von $\mathcal{A}$ in $L(V)$. Eine Darstellung $\rho$ hat folgende Eigenschaften: \
+ 
+1.  $L(V) = \left\{\phi: V \rightarrow V \right\}$ wobei $\phi$ linear ist. \
+
+2.  $V$ ein Vektorraum ist. \
+
+3.  $ \rho(\alpha a + \beta b) = \alpha \rho(a) + \beta \rho(b)$. \
+
+4.  $\rho(ab) = \rho(a)\rho(b) \; ; \; \rho(\mathds{1})= \text{Id} $   \
+
+5.  $\rho(a^*) = \rho(a)^*$, falls $V$ ein Hilbertraum $\mathcal{H}$ und $\mathcal{A}$ eine $^*$-Algebra ist.
+
+ 
+ 
+
+Falls zusätzlich $a \neq 0 \Rightarrow \rho(a) \neq 0 $ gilt, handelt es sich um eine treue Darstellung \\
+
+
+Photodisintegration: \
+
+$$
+\begin{equation}
+\begin{split}
+\lambda^{-1}_{MFP} (p) = \frac{m^2_{A,Z}}{2 \beta_{CR} \vec{p}^{\,2}} \int_{\epsilon_{thr}}^\infty \frac{d \epsilon}{\epsilon^2} \frac{d N (\epsilon)}{d V d \epsilon} \int^{\bar{\epsilon}'}_{\underline{\epsilon}'} d \epsilon' \left(\epsilon' - \frac{\eta^{(n)}_{A,Z}}{m_{A,Z}^2} \frac{\left|\vec{p}\right|^{n+2}}{M_{Pl}^n} \right) \sigma (\epsilon')  \;\; ,
+\end{split}
+\label{eqn:5.1.7}
+\end{equation}
+$$
+
+
+Moyal-Product \
+
+$$
+
+\begin{equation}
+\begin{split}
+   f \star_{Moyal} g & = \sum_{r=0}^\infty \frac{1}{r!} \left(\frac{i \lambda_{Pl}^2}{2}\right)^r \sum_{s=0}^r \left(  \begin{array}{c} r \\ s \end{array} \right) (-1)^{r-s} \\
+ &  \times \sum_{i_1,...,i_r} \frac{\partial^r f}{ \partial q^{i_1} \cdots \partial q^{i_s} \partial p_{i_{s+1}} \cdots \partial p^{i_r} } \frac{\partial^r g}{ \partial p_{i_1} \cdots \partial p_{i_s} \partial q_{i_{s+1}} \cdots \partial q^{i_r} } \;\; ,
+\end{split}
+\label{eqn:4.3.3}
+\end{equation}
+$$
+
+Lagrangian QED MSME\
+
+$$
+
+\begin{equation}
+\begin{split}
+\mathcal{L}_{MSME}^{QED} = &\bar{\psi} \left(i \gamma^\mu D_\mu - m_e \right) \psi - \frac{1}{4} F^{\mu\nu}F_{\mu\nu} + i \zeta  \bar{\psi} \gamma^i D_i \psi  \\ 
+& + \frac{i g}{M_{Pl}^2} D_j \bar{\psi} \gamma^i D_i D_j \psi + \frac{\xi}{4 M^2_{Pl}} F_{k j} \partial_i^2 F^{k j} \;\; ,
+\end{split} 
+\end{equation}    
+$$
+
+
+$$
+
+\begin{equation}
+\begin{split}
+ \slashed{\partial}
+\end{split} 
+\end{equation}    
+$$
 
 
 
