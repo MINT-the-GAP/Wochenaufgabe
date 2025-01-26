@@ -532,7 +532,7 @@ $$
 ***********
 $$
 \begin{alignat*}{6}
-&6&5&4&8&8&:2= 32744    \\ 
+&6&5&4&8&8&:2= 32744 \\ 
 -&6&&&&&  \\  \cline{1-2}  
 &0&5&&&&  \\   
 &-&4&&&&  \\  \cline{2-3} 
@@ -583,6 +583,9 @@ $$
 
 
 <div class="flex-child">
+
+
+
 __$c)$__
 
 $$
@@ -801,6 +804,29 @@ $$
 > \slashed geht nicht, wichtig grade beim Kürzen    
 
 
+<br>
+<br>
+
+ **Aufgabe 1:** Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt. 
+<br>
+
+- [[Vektor]       (Skalar)    [nicht definiert]]
+- [    [ ]           [X]             [ ]     ]  $$\left|\vec{a} \times \vec{b}\right|$$
+- [    ( )           ( )             (X)     ]  $$\vec{c} \times \left( \vec{a} \circ \vec{b}\right) $$
+- [    [X]           [ ]             [ ]     ]  $$s \vec{a} \times \left(\vec{b} \times r \vec{c}\right)$$
+- [    (X)           ( )             ( )     ]  $$\left( \vec{c} \circ \vec{b}\right)  \cdot \vec{a}  $$
+- [    [ ]           [ ]             [X]     ]  $$\dfrac{\left(\vec{a} \times \vec{c}\right)^2}{\vec{a} \times \vec{b}}$$ 
+
+<br>
+<br>
+<br>
+~~**Weitere Tests:**~~
+<br>
+<br>
+<br>
+
+
+
 Bei der Quantisierung soll eine Phasenraumkoordinate $(q,p)$ auf einen Operator $(Q,P)$ abgebildet werden. Dabei befinden sich die Phasenraumkoordinaten in einer assoziativen Algebra $F(\mathbb{R}^{2n}) = \left\{ f : \mathbb{R}^{2n} \rightarrow \mathbb{C}\right\} $, wobei $f$ eine Funktion und die Obsverablenalgebra $\mathcal{A}$ kommutativ ist. Dagegen sind die Observablen (selbstadjungierte lineare beschränkte Operatoren) auf $\mathcal{B}(\mathcal{H})$ vorzufinden. Diese Algebra ist nichtkommutativ.
  
 Unter einer Darstellung $\rho$ versteht man: \
@@ -871,6 +897,7 @@ $$
 \end{split} 
 \end{equation}    
 $$
+
 
 
 
