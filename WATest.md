@@ -719,7 +719,7 @@ $$
 
 > ~~__Auch wenn ich die Darstellungen in GeoGebra nicht ansprechend finde, ist es bei vielen LehrerInnen verbreitet... Wir bräuchten sowas in ansprechender...__~~
 
-iFrames, die auf andere Seiten verweisen? Kann man nutzen... \
+iFrames, die auf andere Seiten verweisen? Kann man nutzen...
 
 > Ich glaube ich nutze CSS wieder mal falsch, da sich aufm Handy die iFrames nicht in ihrer Größe anpassen, wenn ich von Quer- zu Hochformat oder vise versa wechsel. \
 
@@ -743,17 +743,21 @@ iFrames, die auf andere Seiten verweisen? Kann man nutzen... \
 
 
 
-> \mathds{1} geht nicht, wird gebraucht
+> `\mathds{1}` geht nicht, wird gebraucht
+>
+> habe es als `\mathbb` eingefügt, für eine spezielle Schriftart müssten wir diese noch einbinden
 
-> \label geht nicht, wie kann sonst referenziert verlinkt werden?
+> `\label` geht nicht, wie kann sonst referenziert verlinkt werden?
+>
+> das kann als html-link nachgebildet werden mit `\href{url}{name}`.
 
-> \slashed geht nicht, wichtig grade beim Kürzen
+> `\slashed` geht nicht, wichtig grade beim Kürzen ... dass müsste nachgebildet werden, zBsp:`\rlap{/}\partial`
 
 
 <br>
 <br>
 
- **Aufgabe 1:** Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt.
+**Aufgabe 1:** Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt.
 <br>
 
 - [[Vektor]       (Skalar)    [nicht definiert]]
@@ -779,17 +783,17 @@ Unter einer Darstellung $\rho$ versteht man: \
 
 
 
-Definition 4 Darstellung: Eine Darstellung $\rho : \mathcal{A} \rightarrow L(V)$ einer Algebra $\mathcal{A}$ ist ein $^*$-Homomorphismus von $\mathcal{A}$ in $L(V)$. Eine Darstellung $\rho$ hat folgende Eigenschaften: \
+Definition 4 Darstellung: Eine Darstellung $\rho : \mathcal{A} \rightarrow L(V)$ einer Algebra $\mathcal{A}$ ist ein $^*$-Homomorphismus von $\mathcal{A}$ in $L(V)$. Eine Darstellung $\rho$ hat folgende Eigenschaften:
 
-1.  $L(V) = \left\{\phi: V \rightarrow V \right\}$ wobei $\phi$ linear ist. \
+1. $L(V) = \left\{\phi: V \rightarrow V \right\}$ wobei $\phi$ linear ist.
 
-2.  $V$ ein Vektorraum ist. \
+2. $V$ ein Vektorraum ist.
 
-3.  $ \rho(\alpha a + \beta b) = \alpha \rho(a) + \beta \rho(b)$. \
+3. $ \rho(\alpha a + \beta b) = \alpha \rho(a) + \beta \rho(b)$.
 
-4.  $\rho(ab) = \rho(a)\rho(b) \; ; \; \rho(\mathds{1})= \text{Id} $   \
+4. $\rho(ab) = \rho(a)\rho(b) \; ; \; \rho(\mathbb{1})= \text{Id} $
 
-5.  $\rho(a^*) = \rho(a)^*$, falls $V$ ein Hilbertraum $\mathcal{H}$ und $\mathcal{A}$ eine $^*$-Algebra ist.
+5. $\rho(a^*) = \rho(a)^*$, falls $V$ ein Hilbertraum $\mathcal{H}$ und $\mathcal{A}$ eine $^*$-Algebra ist.
 
 
 
@@ -805,6 +809,7 @@ $$
 \lambda^{-1}_{MFP} (p) = \frac{m^2_{A,Z}}{2 \beta_{CR} \vec{p}^{\,2}} \int_{\epsilon_{thr}}^\infty \frac{d \epsilon}{\epsilon^2} \frac{d N (\epsilon)}{d V d \epsilon} \int^{\bar{\epsilon}'}_{\underline{\epsilon}'} d \epsilon' \left(\epsilon' - \frac{\eta^{(n)}_{A,Z}}{m_{A,Z}^2} \frac{\left|\vec{p}\right|^{n+2}}{M_{Pl}^n} \right) \sigma (\epsilon')  \;\; ,
 \end{split}
 \label{eqn:5.1.7}
+\text{\href{https://www.google.com}{Google}}
 \end{equation}
 $$
 
@@ -838,9 +843,9 @@ $$
 $$
 
 \begin{equation}
-\begin{split}
- \slashed{\partial}
-\end{split}
+  \begin{split}
+    \rlap{/}\partial
+  \end{split}
 \end{equation}
 $$
 
