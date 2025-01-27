@@ -15,7 +15,7 @@ input {
     gap: 20px;
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     min-width: 350px;
     margin-right: 20px;
@@ -37,7 +37,7 @@ import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.m
 script: dist/index.js
 
 -->
- 
+
 
 
 
@@ -65,13 +65,13 @@ Wie oft passt die Zahl in eine andere? Beantwortet die Frage Schritt für Schrit
 ![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png)<!--style="width: 32px; float: left"--> **Seid neugierig, probiert die Aufgaben aus und habt Spaß beim Rechnen! **\
 
 
->Energetische Icons (Wieso ist das erste so weit oben bzw. die anderen die so weit unten????????) 
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/donot.png) <!--style="width: 32px; float: left; "--> 
+>Energetische Icons (Wieso ist das erste so weit oben bzw. die anderen die so weit unten????????)
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/donot.png) <!--style="width: 32px; float: left; "-->
 >![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Kompass.png)<!--style="width: 32px; float: left; "-->
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png) <!--style="width: 32px; float: left; "--> 
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png) <!--style="width: 32px; float: left; "--> 
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png) <!--style="width: 32px; float: left; "--> 
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png) <!--style="width: 32px; float: left; "--> 
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png) <!--style="width: 32px; float: left; "-->
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png) <!--style="width: 32px; float: left; "-->
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png) <!--style="width: 32px; float: left; "-->
+>![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png) <!--style="width: 32px; float: left; "-->
 
 Normaler HTML-Code: Scheint besser zu funktionieren als das externe Bild.
 
@@ -96,10 +96,10 @@ __$a)$__
 $$
 \begin{align*}
 2415&   \\
-+1213& \\ 
++1213& \\
 	&  \\ \hline
-  & \\ 
-\end{align*} 
+  & \\
+\end{align*}
 $$
 
 [[3628]]
@@ -107,10 +107,10 @@ $$
 $$
 \begin{align*}
 2415&   \\
-+1213& \\ 
++1213& \\
 	&  \\ \hline
-  3628& \\ 
-\end{align*} 
+  3628& \\
+\end{align*}
 $$
 ***********
 </div>
@@ -123,10 +123,10 @@ __$b)$__
 $$
 \begin{align*}
 3651&   \\
-+4235& \\ 
++4235& \\
 &  \\ \hline
-& \\ 
-\end{align*} 
+& \\
+\end{align*}
 $$
 
 [[7886]]
@@ -134,10 +134,10 @@ $$
 $$
 \begin{align*}
 3651&   \\
-+4235& \\ 
++4235& \\
 &  \\ \hline
-7886& \\ 
-\end{align*} 
+7886& \\
+\end{align*}
 $$
 ***********
 </div>
@@ -151,20 +151,20 @@ __$c)$__
 $$
 \begin{align*}
 4507&   \\
-+4265& \\ 
++4265& \\
  	&  \\ \hline
-& \\ 
-\end{align*} 
+& \\
+\end{align*}
 $$
 
 [[8772]]
 ***********
 $$\begin{align*}
 4507&   \\
-+4265& \\ 
++4265& \\
 \textcolor{red}{1}\textcolor{white}{0}	&  \\ \hline
-8772& \\ 
-\end{align*} 
+8772& \\
+\end{align*}
 $$
 ***********
 </div>
@@ -178,9 +178,9 @@ __$d)$__
 $$
 \begin{align*}
 1337&   \\
-+6785& \\ 
++6785& \\
  &  \\ \hline
-& \\ 
+& \\
 \end{align*}
 $$
 
@@ -189,9 +189,9 @@ $$
 $$
 \begin{align*}
 1337&   \\
-+6785& \\ 
++6785& \\
 \textcolor{red}{111}\textcolor{white}{0}	&  \\ \hline
-8122& \\ 
+8122& \\
 \end{align*}
 $$
 ***********
@@ -206,9 +206,9 @@ __$e)$__
 $$
 \begin{align*}
 5952&   \\
-+6873& \\ 
++6873& \\
  &  \\ \hline
-& \\ 
+& \\
 \end{align*}
 $$
 
@@ -217,9 +217,9 @@ $$
 $$
 \begin{align*}
 5952&   \\
-+6873& \\ 
++6873& \\
 \textcolor{red}{111}\textcolor{white}{00}&  \\ \hline
-12825& \\ 
+12825& \\
 \end{align*}
 $$
 ***********
@@ -227,8 +227,8 @@ $$
 
 
 </section>
- 
- 
+
+
 
 
 
@@ -247,10 +247,10 @@ __$a)$__
 $$
 \begin{align*}
 2415&   \\
--1213& \\ 
+-1213& \\
 	&  \\ \hline
-  & \\ 
-\end{align*} 
+  & \\
+\end{align*}
 $$
 
 [[1202]]
@@ -258,10 +258,10 @@ $$
 $$
 \begin{align*}
 2415&   \\
--1213& \\ 
+-1213& \\
 	&  \\ \hline
-  1202& \\ 
-\end{align*} 
+  1202& \\
+\end{align*}
 $$
 ***********
 </div>
@@ -274,10 +274,10 @@ __$b)$__
 $$
 \begin{align*}
 3659&   \\
--2235& \\ 
+-2235& \\
 &  \\ \hline
-& \\ 
-\end{align*} 
+& \\
+\end{align*}
 $$
 
 [[1424]]
@@ -285,10 +285,10 @@ $$
 $$
 \begin{align*}
 3659&   \\
--2235& \\ 
+-2235& \\
 &  \\ \hline
-1424& \\ 
-\end{align*} 
+1424& \\
+\end{align*}
 $$
 ***********
 </div>
@@ -302,20 +302,20 @@ __$c)$__
 $$
 \begin{align*}
 4507&   \\
--4265& \\ 
+-4265& \\
 	&  \\ \hline
-& \\ 
-\end{align*} 
+& \\
+\end{align*}
 $$
 
 [[242]]
 ***********
 $$\begin{align*}
 4507&   \\
--4265& \\ 
+-4265& \\
 \textcolor{red}{1}\textcolor{white}{00}	&  \\ \hline
-242& \\ 
-\end{align*} 
+242& \\
+\end{align*}
 $$
 ***********
 </div>
@@ -330,10 +330,10 @@ __$d)$__
 $$
 \begin{align*}
 9337&   \\
--6785& \\ 
+-6785& \\
 	&  \\ \hline
-& \\ 
-\end{align*} 
+& \\
+\end{align*}
 $$
 
 [[2552]]
@@ -341,10 +341,10 @@ $$
 $$
 \begin{align*}
 9337&   \\
--6785& \\ 
+-6785& \\
 \textcolor{red}{11}\textcolor{white}{00}}	&  \\ \hline
-2552& \\ 
-\end{align*}  
+2552& \\
+\end{align*}
 $$
 ***********
 </div>
@@ -358,9 +358,9 @@ __$e)$__
 $$
 \begin{align*}
 7952&   \\
--6873& \\ 
+-6873& \\
  &  \\ \hline
-& \\ 
+& \\
 \end{align*}
 $$
 
@@ -369,9 +369,9 @@ $$
 $$
 \begin{align*}
 7952&   \\
--6873& \\ 
+-6873& \\
 \textcolor{red}{11}\textcolor{white}{0}&  \\ \hline
-1079& \\ 
+1079& \\
 \end{align*}
 $$
 ***********
@@ -396,18 +396,18 @@ __$a)$__
 
 $$
 \begin{align*}
-3423 \cdot 2 &   \\ \hline 
+3423 \cdot 2 &   \\ \hline
  & \\
-\end{align*} 
+\end{align*}
 $$
 
 [[6846]]
 ***********
 $$
 \begin{align*}
-3423 \cdot 2 &   \\ \hline 
+3423 \cdot 2 &   \\ \hline
  6846& \\
-\end{align*} 
+\end{align*}
 $$
 ***********
 </div>
@@ -419,18 +419,18 @@ __$b)$__
 
 $$
 \begin{align*}
-2302 \cdot 3 &   \\ \hline 
+2302 \cdot 3 &   \\ \hline
  & \\
-\end{align*} 
+\end{align*}
 $$
 
 [[6906]]
 ***********
 $$
 \begin{align*}
-2302 \cdot 3 &   \\ \hline 
+2302 \cdot 3 &   \\ \hline
  6906& \\
-\end{align*} 
+\end{align*}
 $$
 ***********
 </div>
@@ -443,17 +443,17 @@ __$c)$__
 
 $$
 \begin{align*}
-5034 \cdot 5 &   \\ \hline  
+5034 \cdot 5 &   \\ \hline
  & \\
-\end{align*} 
+\end{align*}
 $$
 
 [[25170]]
 ***********
 $$\begin{align*}
-50_{\textcolor{red}{1}}3_{\textcolor{red}{2}}4 \cdot 5 &   \\ \hline 
+50_{\textcolor{red}{1}}3_{\textcolor{red}{2}}4 \cdot 5 &   \\ \hline
  25170
-\end{align*} 
+\end{align*}
 $$
 ***********
 </div>
@@ -466,7 +466,7 @@ __$d)$__
 
 $$
 \begin{align*}
-1536 \cdot 7 &   \\ \hline 
+1536 \cdot 7 &   \\ \hline
  & \\
 \end{align*}
 $$
@@ -475,7 +475,7 @@ $$
 ***********
 $$
 \begin{align*}
-1_{\textcolor{red}{3}}5_{\textcolor{red}{2}}3_{\textcolor{red}{4}}6 \cdot 7 &   \\ \hline 
+1_{\textcolor{red}{3}}5_{\textcolor{red}{2}}3_{\textcolor{red}{4}}6 \cdot 7 &   \\ \hline
  10752& \\
 \end{align*}
 $$
@@ -490,7 +490,7 @@ __$e)$__
 
 $$
 \begin{align*}
-4841 \cdot 9 &   \\ \hline 
+4841 \cdot 9 &   \\ \hline
  & \\
 \end{align*}
 $$
@@ -499,7 +499,7 @@ $$
 ***********
 $$
 \begin{align*}
-4_{\textcolor{red}{7}}8_{\textcolor{red}{3}}41 \cdot 9 &   \\ \hline 
+4_{\textcolor{red}{7}}8_{\textcolor{red}{3}}41 \cdot 9 &   \\ \hline
  42569& \\
 \end{align*}
 $$
@@ -525,26 +525,26 @@ __$a)$__
 
 $$
 \begin{alignat*}{6}
-&6&5&4&8&8&:2=     \\  
-\end{alignat*} 
+&6&5&4&8&8&:2=     \\
+\end{alignat*}
 $$
 
 [[32744]]
 ***********
 $$
 \begin{alignat*}{6}
-&6&5&4&8&8&:2= 32744 \\ 
--&6&&&&&  \\  \cline{1-2}  
-&0&5&&&&  \\   
-&-&4&&&&  \\  \cline{2-3} 
-&&1&4&&&  \\   
-&-&1&4&&&  \\  \cline{3-4} 
-&&&0&8&&  \\   
+&6&5&4&8&8&:2= 32744 \\
+-&6&&&&&  \\  \cline{1-2}
+&0&5&&&&  \\
+&-&4&&&&  \\  \cline{2-3}
+&&1&4&&&  \\
+&-&1&4&&&  \\  \cline{3-4}
+&&&0&8&&  \\
 &&&-&8&&  \\  \cline{4-5}
-&&&&0&8&  \\   
-&&&&-&8&  \\  \cline{5-6} 
-&&&&&0&  \\    
-\end{alignat*} 
+&&&&0&8&  \\
+&&&&-&8&  \\  \cline{5-6}
+&&&&&0&  \\
+\end{alignat*}
 $$
 ***********
 </div>
@@ -556,26 +556,26 @@ __$b)$__
 
 $$
 \begin{alignat*}{6}
-&2&4&3&6&9&:3=     \\   
-\end{alignat*} 
+&2&4&3&6&9&:3=     \\
+\end{alignat*}
 $$
 
 [[08123]]
 ***********
 $$
 \begin{alignat*}{6}
-&2&4&3&6&9&:3= 08123    \\  
--&0&&&&&  \\  \cline{1-2}  
-&2&4&&&&  \\   
--&2&4&&&&  \\  \cline{2-3} 
-&&0&3&&&  \\   
-&&-&3&&&  \\  \cline{3-4} 
-&&&0&6&&  \\   
+&2&4&3&6&9&:3= 08123    \\
+-&0&&&&&  \\  \cline{1-2}
+&2&4&&&&  \\
+-&2&4&&&&  \\  \cline{2-3}
+&&0&3&&&  \\
+&&-&3&&&  \\  \cline{3-4}
+&&&0&6&&  \\
 &&&-&6&&  \\  \cline{4-5}
-&&&&0&9&  \\   
-&&&&-&9&  \\  \cline{5-6} 
-&&&&&0&  \\    
-\end{alignat*} 
+&&&&0&9&  \\
+&&&&-&9&  \\  \cline{5-6}
+&&&&&0&  \\
+\end{alignat*}
 $$
 ***********
 </div>
@@ -591,26 +591,26 @@ __$c)$__
 
 $$
 \begin{alignat*}{6}
-&1&8&6&0&6&:7=     \\ 
-\end{alignat*} 
+&1&8&6&0&6&:7=     \\
+\end{alignat*}
 $$
 
 [[02658]]
 ***********
 $$
 \begin{alignat*}{6}
-&1&8&6&0&6&:7= 02658    \\ 
--&0&&&&&  \\  \cline{1-2}  
-&1&8&&&&  \\   
--&1&4&&&&  \\  \cline{2-3} 
-&&4&6&&&  \\   
-&-&4&2&&&  \\  \cline{3-4} 
-&&&4&0&&  \\   
+&1&8&6&0&6&:7= 02658    \\
+-&0&&&&&  \\  \cline{1-2}
+&1&8&&&&  \\
+-&1&4&&&&  \\  \cline{2-3}
+&&4&6&&&  \\
+&-&4&2&&&  \\  \cline{3-4}
+&&&4&0&&  \\
 &&-&3&5&&  \\  \cline{4-5}
-&&&&5&6&  \\   
-&&&-&5&6&  \\  \cline{5-6} 
-&&&&&0&  \\      
-\end{alignat*} 
+&&&&5&6&  \\
+&&&-&5&6&  \\  \cline{5-6}
+&&&&&0&  \\
+\end{alignat*}
 $$
 ***********
 </div>
@@ -623,31 +623,31 @@ __$d)$__
 
 $$
 \begin{alignat*}{6}
-&8&5&4&7&3&:9=     \\  
-\end{alignat*} 
+&8&5&4&7&3&:9=     \\
+\end{alignat*}
 $$
 
 [[09497]]
 ***********
 $$
 \begin{alignat*}{6}
-&8&5&4&7&3&:9= 09497    \\   
--&0&&&&&  \\  \cline{1-2}  
-&8&5&&&&  \\   
--&8&1&&&&  \\  \cline{2-3} 
-&&4&4&&&  \\   
-&-&3&6&&&  \\  \cline{3-4} 
-&&&8&7&&  \\   
+&8&5&4&7&3&:9= 09497    \\
+-&0&&&&&  \\  \cline{1-2}
+&8&5&&&&  \\
+-&8&1&&&&  \\  \cline{2-3}
+&&4&4&&&  \\
+&-&3&6&&&  \\  \cline{3-4}
+&&&8&7&&  \\
 &&-&8&1&&  \\  \cline{4-5}
-&&&&6&3&  \\   
-&&&-&6&3&  \\  \cline{5-6} 
-&&&&&0&  \\    
-\end{alignat*} 
+&&&&6&3&  \\
+&&&-&6&3&  \\  \cline{5-6}
+&&&&&0&  \\
+\end{alignat*}
 $$
 ***********
 </div>
 
- 
+
 
 
 </section>
@@ -672,7 +672,7 @@ $$
 \begin{tikzpicture}[scale=1.25, >=latex]
 
 
-\draw[black!70, step=5mm,   thin, dashed] (-0,-0) grid (4,4);  
+\draw[black!70, step=5mm,   thin, dashed] (-0,-0) grid (4,4);
 
 \draw[black!70, step=10mm,   thin] (-0,-0) grid (4,4);
 
@@ -696,18 +696,18 @@ $$
 \draw[-, black!100, thin]  (0.1,2) -- (-0.1,2) node[left] {2};
 \draw[-, black!100, thin]  (0.1,3) -- (-0.1,3) node[left] {3};
 \draw[-, black!100, thin]  (0.1,4) -- (-0.1,4) node[left] {4};
- 
+
 
 
  \draw [ black!100, thick]  (ya) --(o) --  (xa);
 
-	\draw[thick,color=black, ]  plot[samples=100, domain=-0:4] (\x, {\x } ) node[right] {$x_a(t)$};  
-	\draw[thick,color=red, ]    plot[samples=100, domain=-0:2] (\x, {\x*2 } ) node[above] {$x_b(t)$};  
-	\draw[thick,color=blue, ]   plot[samples=100, domain=-0:4] (\x, {\x*0.5 } ) node[right] {$x_c(t)$};   
+	\draw[thick,color=black, ]  plot[samples=100, domain=-0:4] (\x, {\x } ) node[right] {$x_a(t)$};
+	\draw[thick,color=red, ]    plot[samples=100, domain=-0:2] (\x, {\x*2 } ) node[above] {$x_b(t)$};
+	\draw[thick,color=blue, ]   plot[samples=100, domain=-0:4] (\x, {\x*0.5 } ) node[right] {$x_c(t)$};
 		
     \begin{scope}[xshift=7cm]
-    
-\draw[black!70, step=5mm,   thin, dashed] (-0,-0) grid (4,4);  
+
+\draw[black!70, step=5mm,   thin, dashed] (-0,-0) grid (4,4);
 
 \draw[black!70, step=10mm,   thin] (-0,-0) grid (4,4);
 
@@ -731,19 +731,19 @@ $$
 \draw[-, black!100, thin]  (0.1,2) -- (-0.1,2) node[left] {2};
 \draw[-, black!100, thin]  (0.1,3) -- (-0.1,3) node[left] {3};
 \draw[-, black!100, thin]  (0.1,4) -- (-0.1,4) node[left] {4};
- 
+
 
 
  \draw [ black!100, thick]  (ya) --(o) --  (xa);
- 
+
 		
-	\draw[thick,color=gray, ]   plot[samples=100, domain=-0:4] (\x, {\x*0.75 } ) node[right] {$x_d(t)$};  
-	\draw[thick,color=purple, ] plot[samples=100, domain=-0:4] (\x, {\x*0.6666 } ) node[right] {$x_e(t)$};  
-	\draw[thick,color=brown, ]  plot[samples=100, domain=-0:2.6666] (\x, {\x*1.5 } ) node[above] {$x_f(t)$};  
-      
+	\draw[thick,color=gray, ]   plot[samples=100, domain=-0:4] (\x, {\x*0.75 } ) node[right] {$x_d(t)$};
+	\draw[thick,color=purple, ] plot[samples=100, domain=-0:4] (\x, {\x*0.6666 } ) node[right] {$x_e(t)$};
+	\draw[thick,color=brown, ]  plot[samples=100, domain=-0:2.6666] (\x, {\x*1.5 } ) node[above] {$x_f(t)$};
+
     \end{scope}
-    
-    
+
+
 	\end{tikzpicture}
 
 
@@ -761,10 +761,10 @@ $$
 ## GeoGebra-Versuche + VierVieren
 
 
- 
+
 
 > ~~__Auch wenn ich die Darstellungen in GeoGebra nicht ansprechend finde, ist es bei vielen LehrerInnen verbreitet... Wir bräuchten sowas in ansprechender...__~~
- 
+
   iFrames, die auf andere Seiten verweisen? Kann man nutzen... \
 
 <br>
@@ -773,17 +773,17 @@ $$
 
 <iframe style="border: 0px none; margin-left: 0px; margin-top: 0px; height: 55%; width: 150%;" name="moep" src="https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html" scrolling="no"></iframe>
 
- 
+
 <br>
- 
+
 
 
 <iframe style="border: 0px none; margin-left: 0px; margin-top: 0px; height: 50%; width: 125%;" name="moep" src="https://wochenaufgaben.gsg-freiberg.de/viervieren/index.html" scrolling="no"></iframe>
 
- 
 
 
- 
+
+
 
 ## Weitere TeX-Versuche
 
@@ -798,17 +798,17 @@ $$
 
 
 
-> \mathds{1} geht nicht, wird gebraucht   
+> \mathds{1} geht nicht, wird gebraucht
 
-> \label geht nicht, wie kann sonst referenziert verlinkt werden?   
+> \label geht nicht, wie kann sonst referenziert verlinkt werden?
 
-> \slashed geht nicht, wichtig grade beim Kürzen    
+> \slashed geht nicht, wichtig grade beim Kürzen
 
 
 <br>
 <br>
 
- **Aufgabe 1:** Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt. 
+ **Aufgabe 1:** Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt.
 <br>
 
 - [[Vektor]       (Skalar)    [nicht definiert]]
@@ -816,7 +816,7 @@ $$
 - [    ( )           ( )             (X)     ]  $$\vec{c} \times \left( \vec{a} \circ \vec{b}\right) $$
 - [    [X]           [ ]             [ ]     ]  $$s \vec{a} \times \left(\vec{b} \times r \vec{c}\right)$$
 - [    (X)           ( )             ( )     ]  $$\left( \vec{c} \circ \vec{b}\right)  \cdot \vec{a}  $$
-- [    [ ]           [ ]             [X]     ]  $$\dfrac{\left(\vec{a} \times \vec{c}\right)^2}{\vec{a} \times \vec{b}}$$ 
+- [    [ ]           [ ]             [X]     ]  $$\dfrac{\left(\vec{a} \times \vec{c}\right)^2}{\vec{a} \times \vec{b}}$$
 
 <br>
 <br>
@@ -829,13 +829,13 @@ $$
 
 
 Bei der Quantisierung soll eine Phasenraumkoordinate $(q,p)$ auf einen Operator $(Q,P)$ abgebildet werden. Dabei befinden sich die Phasenraumkoordinaten in einer assoziativen Algebra $F(\mathbb{R}^{2n}) = \left\{ f : \mathbb{R}^{2n} \rightarrow \mathbb{C}\right\} $, wobei $f$ eine Funktion und die Obsverablenalgebra $\mathcal{A}$ kommutativ ist. Dagegen sind die Observablen (selbstadjungierte lineare beschränkte Operatoren) auf $\mathcal{B}(\mathcal{H})$ vorzufinden. Diese Algebra ist nichtkommutativ.
- 
+
 Unter einer Darstellung $\rho$ versteht man: \
 
- 
+
 
 Definition 4 Darstellung: Eine Darstellung $\rho : \mathcal{A} \rightarrow L(V)$ einer Algebra $\mathcal{A}$ ist ein $^*$-Homomorphismus von $\mathcal{A}$ in $L(V)$. Eine Darstellung $\rho$ hat folgende Eigenschaften: \
- 
+
 1.  $L(V) = \left\{\phi: V \rightarrow V \right\}$ wobei $\phi$ linear ist. \
 
 2.  $V$ ein Vektorraum ist. \
@@ -846,8 +846,8 @@ Definition 4 Darstellung: Eine Darstellung $\rho : \mathcal{A} \rightarrow L(V)$
 
 5.  $\rho(a^*) = \rho(a)^*$, falls $V$ ein Hilbertraum $\mathcal{H}$ und $\mathcal{A}$ eine $^*$-Algebra ist.
 
- 
- 
+
+
 
 Falls zusätzlich $a \neq 0 \Rightarrow \rho(a) \neq 0 $ gilt, handelt es sich um eine treue Darstellung \\
 
@@ -883,10 +883,10 @@ $$
 
 \begin{equation}
 \begin{split}
-\mathcal{L}_{MSME}^{QED} = &\bar{\psi} \left(i \gamma^\mu D_\mu - m_e \right) \psi - \frac{1}{4} F^{\mu\nu}F_{\mu\nu} + i \zeta  \bar{\psi} \gamma^i D_i \psi  \\ 
+\mathcal{L}_{MSME}^{QED} = &\bar{\psi} \left(i \gamma^\mu D_\mu - m_e \right) \psi - \frac{1}{4} F^{\mu\nu}F_{\mu\nu} + i \zeta  \bar{\psi} \gamma^i D_i \psi  \\
 & + \frac{i g}{M_{Pl}^2} D_j \bar{\psi} \gamma^i D_i D_j \psi + \frac{\xi}{4 M^2_{Pl}} F_{k j} \partial_i^2 F^{k j} \;\; ,
-\end{split} 
-\end{equation}    
+\end{split}
+\end{equation}
 $$
 
 
@@ -895,8 +895,8 @@ $$
 \begin{equation}
 \begin{split}
  \slashed{\partial}
-\end{split} 
-\end{equation}    
+\end{split}
+\end{equation}
 $$
 
 
