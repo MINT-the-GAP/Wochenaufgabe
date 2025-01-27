@@ -515,6 +515,23 @@ $$
 
 ## Aufgabe 4
 
+underline wäre das einzige, für cline gibt es auch keine Unterstützung.
+
+$$
+\begin{alignat*}{6}
+  & 6 & 5 & 4 & 8 & 8 & :2 = 32744 \\
+\underline - & \underline 6  &   &   &   &   &\\
+  &\underline{0}& \underline  5 &   &   &   &\\
+  & - & 4 &   &   &   &\\
+  &   & 1 & 4 &   &   &\\
+  & - & 1 & 4 &   &   &\\
+  &   &   & 0 & 8 &   &\\
+  &   &   & - & 8 &   &\\
+  &   &   &   & 0 & 8 &\\
+  &   &   &   & - & 8 &\\
+  &   &   &   &   & 0 &\\
+\end{alignat*}
+$$
 
 Berechne den Wert der Terms.
 
@@ -545,6 +562,26 @@ $$
 &&&&-&8&  \\  \cline{5-6}
 &&&&&0&  \\
 \end{alignat*}
+
+\begin{array}{ccccccc}
+6 & 5 & 4 & 8 & 8 & : & 2=32744 \\ % Main equation
+- & 6 & & & & & \\ % Subtraction step
+\rule{0.6em}{0.4pt} & \rule{0.6em}{0.4pt} & & & & & \\ % Horizontal line spanning first two columns
+0 & 5 & & & & & \\ % Result after subtraction
+- & 4 & & & & & \\ % Next subtraction step
+& \rule{0.6em}{0.4pt} & \rule{0.6em}{0.4pt} & & & & \\ % Horizontal line spanning second and third columns
+1 & 4 & & & & & \\ % Result after subtraction
+- & 1 & 4 & & & & \\ % Next subtraction step
+& & \rule{0.6em}{0.4pt} & \rule{0.6em}{0.4pt} & & & \\ % Horizontal line spanning third and fourth columns
+0 & 8 & & & & & \\ % Result after subtraction
+- & 8 & & & & & \\ % Next subtraction step
+& & & \rule{0.6em}{0.4pt} & \rule{0.6em}{0.4pt} & & \\ % Horizontal line spanning fourth and fifth columns
+0 & 8 & & & & & \\ % Result after subtraction
+- & 8 & & & & & \\ % Next subtraction step
+& & & & \rule{0.6em}{0.4pt} & \rule{0.6em}{0.4pt} & \\ % Horizontal line spanning fifth and sixth columns
+0 & & & & & & \\ % Final result
+\end{array}
+
 $$
 ***********
 </div>
@@ -723,12 +760,33 @@ iFrames, die auf andere Seiten verweisen? Kann man nutzen...
 
 > Ich glaube ich nutze CSS wieder mal falsch, da sich aufm Handy die iFrames nicht in ihrer Größe anpassen, wenn ich von Quer- zu Hochformat oder vise versa wechsel. \
 
-??[GeoGebra](https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html)
+<div style="overflow-x: auto;">
+<iframe
+    src="https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html"
+    style="
+      width: 100%;
+      aspect-ratio: 16 / 7.4;
+      border: none;
+      min-width: 900px;
+    "
+    scrolling="no"
+></iframe>
+</div>
 
 ---
 
-??[GeoGebra](https://wochenaufgaben.gsg-freiberg.de/viervieren/index.html)
-
+<div style="overflow-x: auto;">
+<iframe
+    src="https://wochenaufgaben.gsg-freiberg.de/viervieren/index.html"
+    style="
+      width: 100%;
+      aspect-ratio: 16 / 7;
+      border: none;
+      min-width: 900px;
+    "
+    scrolling="no"
+></iframe>
+</div>
 
 ## Weitere TeX-Versuche
 
