@@ -31,6 +31,7 @@ input {
 
 formula: \carry   \textcolor{red}{\scriptsize #1}
 formula: \digit   \rlap{\carry{#1}}\phantom{#2}#2
+formula: \permil  \text{‰}
 
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 
@@ -383,7 +384,7 @@ $$
 
 ## Aufgabe 3
 
-> 06846 wird bei a) nicht als Lösung akzeptiert, obwohl es richtig ist. Das bedeutet, dass $\frac{1}{4} = 0,25 = 0,250 = 25\% = 250 \permil = 250 \textperthousand$ bei späteren Aufgaben (Klasse 5) auch nicht jeweils als richtig angesehen wird. Ist ein automatisierter Abgleich von äquivalenten Lösungen möglich? Und Promill wird nicht richtig angezeigt wie man sieht. \
+> 06846 wird bei a) nicht als Lösung akzeptiert, obwohl es richtig ist. Das bedeutet, dass $\frac{1}{4} = 0,25 = 0,250 = 25\% = 250 \permil = 250 \permil$ bei späteren Aufgaben (Klasse 5) auch nicht jeweils als richtig angesehen wird. Ist ein automatisierter Abgleich von äquivalenten Lösungen möglich? Und Promill wird nicht richtig angezeigt wie man sieht. \
 
 Berechne den Wert der Terms.
 
