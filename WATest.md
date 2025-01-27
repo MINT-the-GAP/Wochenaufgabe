@@ -715,32 +715,19 @@ $$
 \end{tikzpicture}
 ```
 
-
 ## GeoGebra-Versuche + VierVieren
-
-
-
 
 > ~~__Auch wenn ich die Darstellungen in GeoGebra nicht ansprechend finde, ist es bei vielen LehrerInnen verbreitet... Wir bräuchten sowas in ansprechender...__~~
 
-  iFrames, die auf andere Seiten verweisen? Kann man nutzen... \
-
-<br>
+iFrames, die auf andere Seiten verweisen? Kann man nutzen... \
 
 > Ich glaube ich nutze CSS wieder mal falsch, da sich aufm Handy die iFrames nicht in ihrer Größe anpassen, wenn ich von Quer- zu Hochformat oder vise versa wechsel. \
 
-<iframe style="border: 0px none; margin-left: 0px; margin-top: 0px; height: 55%; width: 150%;" name="moep" src="https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html" scrolling="no"></iframe>
+??[GeoGebra](https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html)
 
+---
 
-<br>
-
-
-
-<iframe style="border: 0px none; margin-left: 0px; margin-top: 0px; height: 50%; width: 125%;" name="moep" src="https://wochenaufgaben.gsg-freiberg.de/viervieren/index.html" scrolling="no"></iframe>
-
-
-
-
+??[GeoGebra](https://wochenaufgaben.gsg-freiberg.de/viervieren/index.html)
 
 
 ## Weitere TeX-Versuche
