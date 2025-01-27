@@ -34,8 +34,9 @@ formula: \digit   \rlap{\carry{#1}}\phantom{#2}#2
 formula: \permil  \text{‰}
 
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
+import: https://raw.githubusercontent.com/LiaTemplates/Tikz-Jax/main/README.md
 
-script: dist/index.js
+script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 -->
 
@@ -646,115 +647,73 @@ $$
 ***********
 </div>
 
-
-
-
 </section>
-
-
-
-
 
 ## Tikz-Tests
 
+```latex  @tikz
+\begin{tikzpicture}
+  \draw[black!70, step=5mm,   thin, dashed] (-0,-0) grid (4,4);
 
-<section class="flex-container">
-
-
-
-<div class="flex-child">
-
-
-
-
-
-\begin{tikzpicture}[scale=1.25, >=latex]
-
-
-\draw[black!70, step=5mm,   thin, dashed] (-0,-0) grid (4,4);
-
-\draw[black!70, step=10mm,   thin] (-0,-0) grid (4,4);
+  \draw[black!70, step=10mm,   thin] (-0,-0) grid (4,4);
 
   \coordinate (ya) at (0,-0.25);
   \coordinate (xa) at (-0.25,0);
   \coordinate (o) at (0,0);
 
-
-
   \coordinate (y) at (0,4.25*1.0644);
+  \coordinate (x) at (4.25*1.0644,0);
+  \draw[<->, black!100, thick] (y) node[above] {$x(t)$ in $[m]$} -- (0,0) --  (x) node[right]
+      {$t$ in $[s]$};
+
+  \draw[-, black!100, thin]  (0,0.1) -- (0,-0.1) node[below=0.25cm,left] {0};
+  \draw[-, black!100, thin]  (1,0.1) -- (1,-0.1) node[below] {1};
+  \draw[-, black!100, thin]  (2,0.1) -- (2,-0.1) node[below] {2};
+  \draw[-, black!100, thin]  (3,0.1) -- (3,-0.1) node[below] {3};
+  \draw[-, black!100, thin]  (4,0.1) -- (4,-0.1) node[below] {4};
+  \draw[-, black!100, thin]  (0.1,1) -- (-0.1,1) node[left] {1};
+  \draw[-, black!100, thin]  (0.1,2) -- (-0.1,2) node[left] {2};
+  \draw[-, black!100, thin]  (0.1,3) -- (-0.1,3) node[left] {3};
+  \draw[-, black!100, thin]  (0.1,4) -- (-0.1,4) node[left] {4};
+
+  \draw [ black!100, thick]  (ya) --(o) --  (xa);
+
+  \draw[thick,color=black, ]  plot[samples=100, domain=-0:4] (\x, {\x } ) node[right] {$x_a(t)$};
+  \draw[thick,color=red, ]    plot[samples=100, domain=-0:2] (\x, {\x*2 } ) node[above] {$x_b(t)$};
+  \draw[thick,color=blue, ]   plot[samples=100, domain=-0:4] (\x, {\x*0.5 } ) node[right] {$x_c(t)$};
+
+  \begin{scope}[xshift=7cm]
+    \draw[black!70, step=5mm,   thin, dashed] (-0,-0) grid (4,4);
+    \draw[black!70, step=10mm,   thin] (-0,-0) grid (4,4);
+
+    \coordinate (ya) at (0,-0.25);
+    \coordinate (xa) at (-0.25,0);
+    \coordinate (o) at (0,0);
+
+    \coordinate (y) at (0,4.25*1.0644);
     \coordinate (x) at (4.25*1.0644,0);
     \draw[<->, black!100, thick] (y) node[above] {$x(t)$ in $[m]$} -- (0,0) --  (x) node[right]
-    {$t$ in $[s]$};
+      {$t$ in $[s]$};
 
-\draw[-, black!100, thin]  (0,0.1) -- (0,-0.1) node[below=0.25cm,left] {0};
-\draw[-, black!100, thin]  (1,0.1) -- (1,-0.1) node[below] {1};
-\draw[-, black!100, thin]  (2,0.1) -- (2,-0.1) node[below] {2};
-\draw[-, black!100, thin]  (3,0.1) -- (3,-0.1) node[below] {3};
-\draw[-, black!100, thin]  (4,0.1) -- (4,-0.1) node[below] {4};
-\draw[-, black!100, thin]  (0.1,1) -- (-0.1,1) node[left] {1};
-\draw[-, black!100, thin]  (0.1,2) -- (-0.1,2) node[left] {2};
-\draw[-, black!100, thin]  (0.1,3) -- (-0.1,3) node[left] {3};
-\draw[-, black!100, thin]  (0.1,4) -- (-0.1,4) node[left] {4};
+    \draw[-, black!100, thin]  (0,0.1) -- (0,-0.1) node[below=0.25cm,left] {0};
+    \draw[-, black!100, thin]  (1,0.1) -- (1,-0.1) node[below] {1};
+    \draw[-, black!100, thin]  (2,0.1) -- (2,-0.1) node[below] {2};
+    \draw[-, black!100, thin]  (3,0.1) -- (3,-0.1) node[below] {3};
+    \draw[-, black!100, thin]  (4,0.1) -- (4,-0.1) node[below] {4};
+    \draw[-, black!100, thin]  (0.1,1) -- (-0.1,1) node[left] {1};
+    \draw[-, black!100, thin]  (0.1,2) -- (-0.1,2) node[left] {2};
+    \draw[-, black!100, thin]  (0.1,3) -- (-0.1,3) node[left] {3};
+    \draw[-, black!100, thin]  (0.1,4) -- (-0.1,4) node[left] {4};
 
+    \draw [ black!100, thick]  (ya) --(o) --  (xa);
 
+    \draw[thick,color=gray, ]   plot[samples=100, domain=-0:4] (\x, {\x*0.75 } ) node[right] {$x_d(t)$};
+    \draw[thick,color=purple, ] plot[samples=100, domain=-0:4] (\x, {\x*0.6666 } ) node[right] {$x_e(t)$};
+    \draw[thick,color=brown, ]  plot[samples=100, domain=-0:2.6666] (\x, {\x*1.5 } ) node[above] {$x_f(t)$};
 
- \draw [ black!100, thick]  (ya) --(o) --  (xa);
-
-	\draw[thick,color=black, ]  plot[samples=100, domain=-0:4] (\x, {\x } ) node[right] {$x_a(t)$};
-	\draw[thick,color=red, ]    plot[samples=100, domain=-0:2] (\x, {\x*2 } ) node[above] {$x_b(t)$};
-	\draw[thick,color=blue, ]   plot[samples=100, domain=-0:4] (\x, {\x*0.5 } ) node[right] {$x_c(t)$};
-		
-    \begin{scope}[xshift=7cm]
-
-\draw[black!70, step=5mm,   thin, dashed] (-0,-0) grid (4,4);
-
-\draw[black!70, step=10mm,   thin] (-0,-0) grid (4,4);
-
-  \coordinate (ya) at (0,-0.25);
-  \coordinate (xa) at (-0.25,0);
-  \coordinate (o) at (0,0);
-
-
-
-  \coordinate (y) at (0,4.25*1.0644);
-    \coordinate (x) at (4.25*1.0644,0);
-    \draw[<->, black!100, thick] (y) node[above] {$x(t)$ in $[m]$} -- (0,0) --  (x) node[right]
-    {$t$ in $[s]$};
-
-\draw[-, black!100, thin]  (0,0.1) -- (0,-0.1) node[below=0.25cm,left] {0};
-\draw[-, black!100, thin]  (1,0.1) -- (1,-0.1) node[below] {1};
-\draw[-, black!100, thin]  (2,0.1) -- (2,-0.1) node[below] {2};
-\draw[-, black!100, thin]  (3,0.1) -- (3,-0.1) node[below] {3};
-\draw[-, black!100, thin]  (4,0.1) -- (4,-0.1) node[below] {4};
-\draw[-, black!100, thin]  (0.1,1) -- (-0.1,1) node[left] {1};
-\draw[-, black!100, thin]  (0.1,2) -- (-0.1,2) node[left] {2};
-\draw[-, black!100, thin]  (0.1,3) -- (-0.1,3) node[left] {3};
-\draw[-, black!100, thin]  (0.1,4) -- (-0.1,4) node[left] {4};
-
-
-
- \draw [ black!100, thick]  (ya) --(o) --  (xa);
-
-		
-	\draw[thick,color=gray, ]   plot[samples=100, domain=-0:4] (\x, {\x*0.75 } ) node[right] {$x_d(t)$};
-	\draw[thick,color=purple, ] plot[samples=100, domain=-0:4] (\x, {\x*0.6666 } ) node[right] {$x_e(t)$};
-	\draw[thick,color=brown, ]  plot[samples=100, domain=-0:2.6666] (\x, {\x*1.5 } ) node[above] {$x_f(t)$};
-
-    \end{scope}
-
-
-	\end{tikzpicture}
-
-
-
-
-
-</div>
-
-
-</section>
-
-
+  \end{scope}
+\end{tikzpicture}
+```
 
 
 ## GeoGebra-Versuche + VierVieren
