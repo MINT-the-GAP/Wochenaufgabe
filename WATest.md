@@ -38,49 +38,47 @@ script: dist/index.js
 
 -->
 
-
-
-
-
 # Wochenaufgabe 1
 
 Bei den Wochenaufgaben 1 erwarten euch spannende Rechenherausforderungen, die euch dabei helfen, das Rechnen zu üben und noch besser zu werden! Diese Aufgaben sind wie kleine Detektivspiele für eure Mathematikfähigkeiten und decken viele verschiedene Themen ab. Hier ein kleiner Überblick, was euch erwartet:
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Kompass.png)<!--style="width: 32px; float: left"--> **Additionen:**\
+![Komposs](pic/Kompass.png)<!-- style="width: 32px;" -->
+**Additionen:**\
 Ihr größere Zahlen addieren, indem ihr Zehnerstapel bildet – zum Beispiel addiert ihr große Zahlen übereinander und findet heraus, was an den einzelnen Stellen zusammen dabei rauskommt. Mit etwas Übung macht das schnell richtig Spaß!
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png)<!--style="width: 32px; float: left"-->  **Subtraktionen:**\
+![Arbeit](pic/Work.png)<!-- style="width: 32px" -->
+**Subtraktionen:**\
 Das Gegenteil der Addition ist die Subtraktion, auch hier sucht ihr Zehnerstapel nur rückwärts – zum Beispiel subtrahiert ihr große Zahlen übereinander und findet heraus, was an den einzelnen Stellen noch übrig bleibt. Mit etwas Übung macht das schnell richtig Spaß!
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png)<!--style="width: 32px; float: left"-->  **Multiplikationen:**\
+![Puzzle](pic/Puzzle.png)<!-- style="width: 32px" -->
+**Multiplikationen:**\
 Bei der Multiplikation mit größeren Zahlen braucht man dennoch nur das Einmaleins, in dem ihr die jeweiligen Ziffern multipliziert – multipliziert die einzelnen Ziffern und addiert diese anschließend an den Stellen der Zahl. Mit etwas Übung macht das schnell richtig Spaß!
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png)<!--style="width: 32px; float: left"-->  **Divisionen:**\
+![Netz](pic/Netz.png)<!-- style="width: 32px" -->
+**Divisionen:**\
 Wie oft passt die Zahl in eine andere? Beantwortet die Frage Schritt für Schritt für die Division – Fragt bei jeder Ziffer und subtrahiert das Produkt von den vorherigen Ziffern bis keine neue Ziffer mehr nach unten gezogen werden kann. Mit etwas Übung macht das schnell richtig Spaß!
-
-
 
 Übung macht den Meister – und jede Aufgabe ist ein kleiner Schritt zum großen Erfolg!
 
-![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png)<!--style="width: 32px; float: left"--> **Seid neugierig, probiert die Aufgaben aus und habt Spaß beim Rechnen! **\
-
+![Refelkt](pic/Reflekt.png)<!--style="width: 32px"-->
+**Seid neugierig, probiert die Aufgaben aus und habt Spaß beim Rechnen!**
 
 >Energetische Icons (Wieso ist das erste so weit oben bzw. die anderen die so weit unten????????)
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/donot.png) <!--style="width: 32px; float: left; "-->
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Kompass.png)<!--style="width: 32px; float: left; "-->
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png) <!--style="width: 32px; float: left; "-->
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png) <!--style="width: 32px; float: left; "-->
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png) <!--style="width: 32px; float: left; "-->
->![externes Bild](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png) <!--style="width: 32px; float: left; "-->
+> ![externes Bild](pic/donot.png)<!--style="width: 32px; float: left; "-->
+> ![externes Bild](pic/Kompass.png)<!--style="width: 32px; float: left; "-->
+> ![externes Bild](pic/Work.png)<!--style="width: 32px; float: left; "-->
+> ![externes Bild](pic/Puzzle.png)<!--style="width: 32px; float: left; "-->
+> ![externes Bild](pic/Netz.png)<!--style="width: 32px; float: left; "-->
+> ![externes Bild](pic/Reflekt.png)<!--style="width: 32px; float: left; "-->
 
 Normaler HTML-Code: Scheint besser zu funktionieren als das externe Bild.
 
-<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/donot.png" alt="Achtung" width="32">
-<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Kompass.png" alt="Orientieren" width="32">
-<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Work.png" alt="Erkunden" width="32">
-<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Puzzle.png" alt="Ordnen und Sichern" width="32">
-<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Netz.png" alt="Vernetzen" width="32">
-<img src="https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Reflekt.png" alt="Reflektieren" width="32">
+<img src="pic/donot.png" alt="Achtung" width="32">
+<img src="pic/Kompass.png" alt="Orientieren" width="32">
+<img src="pic/Work.png" alt="Erkunden" width="32">
+<img src="pic/Puzzle.png" alt="Ordnen und Sichern" width="32">
+<img src="pic/Netz.png" alt="Vernetzen" width="32">
+<img src="pic/Reflekt.png" alt="Reflektieren" width="32">
 
 
 ## Aufgabe 1
