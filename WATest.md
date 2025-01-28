@@ -934,7 +934,7 @@ $$
 
 <div style="overflow-x: auto;">
 <iframe
-    src="/zeichnen.html"
+    src="https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html"
     style="
       width: 100%;
       aspect-ratio: 16 / 7;
