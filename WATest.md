@@ -932,6 +932,40 @@ $$
 
 
 
+<div style="overflow-x: auto;">
+<iframe
+    src="https://www.bildung-bedeutet-freiheit.de/zeichnen.html"
+    style="
+      width: 100%;
+      aspect-ratio: 16 / 7;
+      border: none;
+      min-width: 900px;
+    "
+    scrolling="no"
+></iframe>
+</div>
+
+
+
+
+</div> 
+
+
+</section>
+
+
+
+## GeoGebra-Zeichnen
+
+
+
+<section class="flex-container">
+
+
+
+<div class="flex-child">
+
+
 
 <div style="overflow-x: auto;">
 <iframe
@@ -945,6 +979,7 @@ $$
     scrolling="no"
 ></iframe>
 </div>
+
 
 
 
