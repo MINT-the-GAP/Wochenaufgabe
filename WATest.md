@@ -902,11 +902,48 @@ $$
 
 \begin{equation}
   \begin{split}
-    \rlap{/}\partial
+    \rlap{\,/}\partial
+    \rlap{\,/}A
+    \rlap{\,|}A
+    \rlap{\,\textbackslash}A
   \end{split}
 \end{equation}
 $$
 
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+## GeoGebra-Zeichnen
+
+
+
+<section class="flex-container">
+
+
+
+<div class="flex-child">
+
+
+<div style="overflow-x: auto;">
+<iframe
+    src="/zeichnen.html"
+    style="
+      width: 100%;
+      aspect-ratio: 16 / 7;
+      border: none;
+      min-width: 900px;
+    "
+    scrolling="no"
+></iframe>
+</div>
 
 
 
