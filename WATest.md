@@ -40,6 +40,10 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 -->
 
+<!--
+import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
+-->
+
 # Wochenaufgabe 1
 
 Bei den Wochenaufgaben 1 erwarten euch spannende Rechenherausforderungen, die euch dabei helfen, das Rechnen zu üben und noch besser zu werden! Diese Aufgaben sind wie kleine Detektivspiele für eure Mathematikfähigkeiten und decken viele verschiedene Themen ab. Hier ein kleiner Überblick, was euch erwartet:
@@ -932,9 +936,7 @@ $$
 
  
 
-<!--
-import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
--->
+
 
 ``` mermaid @mermaid
 MINT the GAP
