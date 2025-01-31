@@ -920,7 +920,7 @@ $$
 
 
 
-## GeoGebra-Zeichnen
+## Roadmap Skizze
 
 
 
@@ -930,20 +930,30 @@ $$
 
 <div class="flex-child">
 
+ 
 
+<!--
+import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
+-->
 
-<div style="overflow-x: auto;">
-<iframe
-    src="https://www.bildung-bedeutet-freiheit.de/zeichnen.html"
-    style="
-      width: 100%;
-      aspect-ratio: 16 / 7;
-      border: none;
-      min-width: 900px;
-    "
-    scrolling="no"
-></iframe>
-</div>
+``` mermaid @mermaid
+MINT the GAP
+  MINT the GAP
+    E-Learnings
+      Schrifterkennung
+      CAS
+      Automatisierung
+        Drag&Drop PDFs
+    Arbeitsorga
+      Schulleitertagung 12.03.
+      Antrag 15.02
+        Letter of Intent (Wie viele Schulen?)
+            LiaScript Video
+            Stand-Alone-Präsi
+            Probierumgebungen
+    RemoteLab
+      Probelabor
+```
 
 
 
@@ -954,36 +964,4 @@ $$
 </section>
 
 
-
-## GeoGebra-Zeichnen
-
-
-
-<section class="flex-container">
-
-
-
-<div class="flex-child">
-
-
-
-<div style="overflow-x: auto;">
-<iframe
-    src="https://www.bildung-bedeutet-freiheit.de/zeichnen.html"
-    style="
-      width: 100%;
-      aspect-ratio: 16 / 7;
-      border: none;
-      min-width: 900px;
-    "
-    scrolling="no"
-></iframe>
-</div>
-
-
-
-
-</div> 
-
-
-</section>
+ 
