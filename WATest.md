@@ -35,14 +35,12 @@ formula: \permil  \text{‰}
 
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 import: https://raw.githubusercontent.com/LiaTemplates/Tikz-Jax/main/README.md
+import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 -->
 
-<!--
-import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
--->
 
 # Wochenaufgabe 1
 
@@ -924,7 +922,7 @@ $$
 
 
 
-## Roadmap Skizze
+# Roadmap Skizze
 
 
 
@@ -940,7 +938,7 @@ $$
 
 ``` mermaid @mermaid
 MINT the GAP
-  MINT the GAP
+  root((MINT the GAP))
     E-Learnings
       Schrifterkennung
       CAS
@@ -966,4 +964,27 @@ MINT the GAP
 </section>
 
 
- 
+
+# Mindmaps with Mermaid
+
+https://mermaid.js.org/syntax/mindmap.html
+
+``` mermaid @mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+```
