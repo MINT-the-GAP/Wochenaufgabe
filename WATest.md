@@ -933,26 +933,43 @@ $$
 <div class="flex-child">
 
  
+**Nächstes Treffen: Montag, den 10.02. um 13:30 Uhr an der TUBAF**
 
 
 
 ``` mermaid @mermaid
-MINT the GAP
+mindmap
   root((MINT the GAP))
-    E-Learnings
-      Schrifterkennung
-      CAS
-      Automatisierung
-        Drag&Drop PDFs
+
     Arbeitsorga
       Schulleitertagung 12.03.
+      Workshop
+      Unterstützer
       Antrag 15.02
-        Letter of Intent (Wie viele Schulen?)
+        Letter of Intent <br> Wie viele Schulen?
             LiaScript Video
             Stand-Alone-Präsi
             Probierumgebungen
+
     RemoteLab
       Probelabor
+      Buchungssystem
+
+    E-Learnings
+      Inklusionsoptionen
+      Schrifterkennung
+        Divisionsdarstellung
+      Zeichnungen umwandeln
+      CAS
+        Lösungsdarstellungen
+      Automatisierung
+        Drag&Drop PDFs
+        Drag&Drop .docx
+        Drag&Drop GeoGebra
+        Tabellenkalkulation - Excel
+      Lokales Speichern
+      Lehrer-Schüler-Verbindungen
+      Elaborierte Rückmeldung
 ```
 
 
