@@ -430,3 +430,61 @@ $4577,76\,\text{€} \cdot 1,02 = 4669,3152 \,\text{€} \qquad$
 
 
 </section>
+
+
+
+## Aufgabe 11
+
+In der gegebenen Tabelle sind die absoluten Stimmen bei einer Umfrage für die Wahlmöglichkeiten und prozentuale Anteile dargestellt. \
+
+  <br>  
+  <br>
+
+$a)\;\;$ **Fülle** die fehlenden Tabellenfelder **aus**. **Runde** auf drei Nachkommastellen bei den relativen Anteilen.
+
+  <br> 
+  <br>  
+
+| Wahloption | absolute Stimmenanzahl |  relativer Stimmenanteil in $\%$ | 
+| :------: | :------: | :------: |
+| A     |   2600   |    [[18,056]]   |  
+| B     |   4400   |    [[30,556]]   |  
+| C     |   1900   |    [[21,528]]   |  
+| D     |   3100   |    [[13,194]]   |  
+| E     |   [[2400]]   |    $16,\bar{6}$  |  
+
+  <br>  
+  <br>
+
+<section class="flex-container">
+
+<div class="flex-child"> 
+
+
+$b)\;\;$ **Zeichne** ein Kreisdiagramm zu den Werten aus der Tabelle.
+
+
+  <br> 
+
+*********** 
+  
+```latex  @tikz
+\begin{tikzpicture}[scale=4,>=latex]        
+ 
+\draw[thick,fill=red,opacity=0.95] (0,0) -- (0:1)  arc (0:-60:1) -- (0,0); \node at (-30:0.5) {$A$} ;
+\draw[thick,fill=green,opacity=0.95] (0,0) -- (300:1)  arc (300:225:1) -- (0,0);  \node at (260:0.5) {$B$} ;
+\draw[thick,fill=blue,opacity=0.95] (0,0) -- (225:1)  arc (225:115:1) -- (0,0);  \node at (170:0.5) {$C$} ;
+\draw[thick,fill=orange,opacity=0.95] (0,0) -- (115:1)  arc (115:47.5:1) -- (0,0);  \node at (85:0.5) {$D$} ;
+\draw[thick,fill=gray,opacity=0.95] (0,0) -- (47.5:1)  arc (47.5:0:1) -- (0,0);   \node at (22:0.5) {$E$} ;
+\draw[thick] (0,0) circle (1cm);   
+    
+\end{tikzpicture}
+``` 
+
+***********
+</div>
+
+ 
+
+
+</section>
