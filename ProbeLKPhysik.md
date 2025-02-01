@@ -43,27 +43,19 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 # Probeleistungskontrolle für Physik - Klasse 7: Energie
 
+<br>
+
+Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts.
 
 <br>
 
-Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts. 
-
-<br>
-
-Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst. 
-
+Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst.
 
 ## Aufgabe 1
 
-
-
-Ein Objekt fällt reibungsfrei aus einer Höhe von $5\,$m und hat zu Beginn des Falls schon eine kinetische Energie von $0,25\,$J. **Berechne** die Geschwindigkeit, mit der das Objekt auf den Boden auftrifft. Das objekt besitzt eine Masse von $150\,$g. Runde auf zwei Nachkommastellen. 
+Ein Objekt fällt reibungsfrei aus einer Höhe von $5\,$m und hat zu Beginn des Falls schon eine kinetische Energie von $0,25\,$J. **Berechne** die Geschwindigkeit, mit der das Objekt auf den Boden auftrifft. Das objekt besitzt eine Masse von $150\,$g. Runde auf zwei Nachkommastellen.
 
 <br>
-
-<section class="flex-container">
-
-<div class="flex-child">
 
 $v=$ [[10,07]] $\dfrac{\text{m}}{\text{s}}$
 ***********
@@ -79,79 +71,32 @@ v & = \sqrt{\frac{2 \cdot 0,25\,\text{J}}{0,15\,\text{kg}} + 2 \cdot 9,81\,\dfra
 v & \approx  10,07 \dfrac{\text{m}}{\text{s}}
 \end{align*}
 $$
+
 ***********
-
-
-
-</div>
- 
-
-
-</section>
-
-
-
-
 
 ## Aufgabe 2
 
-
-
-**Fülle den Lücken in den Sätzen aus.** \
+**Fülle den Lücken in den Sätzen aus.**
 
 <br>
 
-<section class="flex-container">
-
-<div class="flex-child">
-
-Die Ladung der Gravitation heißt [[Masse]].  
-
-<br>
-
-Wenn eine Ladung positiv geladen ist, dann handelt es sich um die [[elektrische]] Kraft.  
-
-<br>
-
-Eine Kraft, die von einer Punktladung aus auf eine Testladung wirkt, wird in der Entfernung [[schwächer]], da die [[Feldlinien]] einen immer größeren Abstand zu einander haben.  
-
-<br>
-
-Wird eine [[Äquipotentiallinie]] verlassen, dann wird Energie umgewandelt. Somit wird [[Arbeit]] verrichtet.  
-
-<br>
-
-[[Energie]] kann niemals verbraucht oder erzeugt, sondern nur [[umgewandelt]] werden.  
-
-<br>
-   
-
-
-</div>
- 
-
-
-</section>
-
-
-
-
+Die Ladung der Gravitation heißt [[ Masse ]].\
+Wenn eine Ladung positiv geladen ist, dann handelt es sich um die [[ elektrische ]] Kraft.\
+Eine Kraft, die von einer Punktladung aus auf eine Testladung wirkt, wird in der Entfernung [[ schwächer ]], da die [[ Feldlinien ]] einen immer größeren Abstand zu einander haben.\
+Wird eine [[ Äquipotentiallinie ]] verlassen, dann wird Energie umgewandelt. Somit wird [[ Arbeit ]] verrichtet.\
+[[ Energie ]] kann niemals verbraucht oder erzeugt, sondern nur [[ umgewandelt ]] werden.
 
 ## Aufgabe 3
 
-
-
 Ein Auto mit einer Masse von $1,4\,$t beschleundigt in $9\,$s von $50\,\dfrac{\text{km}}{\text{h}}$ auf $90\,\dfrac{\text{km}}{\text{h}}$. **Berechne** die erbrachte Leistung. Runde auf zwei Nachkommastellen.
 
-<br>
-
-<section class="flex-container">
-
-<div class="flex-child">
+---
 
 $P=$ [[33607,68]] W
 ***********
+
 $$
+
 \begin{align*}
 P & = \frac{W}{t}  \\
 P & = \frac{\Delta E}{t}  \\
@@ -160,24 +105,12 @@ P & = \frac{\dfrac{1}{2} m v_2^2 - \dfrac{1}{2} m v_1^2}{t}  \\
 P & = \frac{\dfrac{1}{2} \cdot 1,4\,\text{t} \cdot  \left( 90 \,\dfrac{\text{km}}{\text{h}} \right)^2 - \dfrac{1}{2} \cdot 1,4\,\text{t}  \cdot  \left( 50 \,\dfrac{\text{km}}{\text{h}} \right)^2 }{9\,\text{s}}  \\ 
 P & = \frac{\dfrac{1}{2} \cdot 1400\,\text{kg} \cdot  \left( 90 \,\dfrac{1000\,\text{m}}{3600\,\text{s}} \right)^2 - \dfrac{1}{2} \cdot 1400\,\text{kg}  \cdot  \left( 50 \,\dfrac{1000\,\text{m}}{3600\,\text{s}} \right)^2 }{9\,\text{s}}  \\ 
 \end{align*}
+
 $$
+
 ***********
 
-
-
-</div>
- 
-
-
-</section>
-
-
-
-
-
 ## Aufgabe 4
-
-
 
 $a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, welche homogen auf den gezeichneten Linien verteilt sind. **Zeichne** die Äquipotentiallinien **ein**.
 
@@ -367,10 +300,6 @@ $a)\;\;$  **Begründe**, warum Arbeit nicht gemessen werden kann.
 <section class="flex-container">
 
 <div class="flex-child">
-  
-
- 
-   
 
 
 ***********
