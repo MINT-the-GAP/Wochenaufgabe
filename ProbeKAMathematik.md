@@ -42,8 +42,17 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 -->
 
 
+# Probeklassenarbeit für Mathematik - Klasse 7: Prozentrechnung
 
-# Aufgabe 1
+<br>
+
+Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts. 
+
+<br>
+
+Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst. 
+
+## Aufgabe 1
 
 
 
@@ -127,7 +136,7 @@ __$b)$__
 
 
 
-# Aufgabe 2
+## Aufgabe 2
 
 
 
@@ -160,7 +169,7 @@ $p=\dfrac{W}{G} =\dfrac{15}{24} = \dfrac{5}{8} = 62,5 \% $
 
 
 
-# Aufgabe 3
+## Aufgabe 3
 
 Ein Kapital von $7500$€ wurde ein Jahr zu einem Jahreszins von $2\%$ angelegt. **Berechne** die resultierende Geldmenge.
 
@@ -188,7 +197,7 @@ $7500\,\text{€} \cdot 1,02 = 7650\,\text{€}$
 
 
 
-# Aufgabe 4
+## Aufgabe 4
 
 Die gesamte Downloaddauer beträgt $40\,$min. **Zeichne** in den Downloadbalken den dort beschriebenen Stand des Downloads **ein**.
 
@@ -241,7 +250,7 @@ $1- \dfrac{12\,\text{min}}{40\,\text{min}} = 70\% $
 
 
 
-# Aufgabe 5
+## Aufgabe 5
 
 Bei Befragungen wurden jeweils insgesamt $44000$ Menschen interviewt. **Bestimme** die Anzahl der Menschen, die aus dem Kreisdiagramm die jeweiligen Antworten gaben.
 
@@ -297,7 +306,7 @@ $d: \;\; G \cdot p_d  =44000 \cdot 0,139 = 6116  $  <br>
 
 
 
-# Aufgabe 6
+## Aufgabe 6
 
 Ein gebrauchter PKW wurde für $12880$€ verkauft. Das waren $70\%$ des Neuwertes. **Berechne** den Neuwert.
 
@@ -324,7 +333,7 @@ $12880\,\text{€} : \dfrac{70}{100} = 12880\,\text{€} \cdot \dfrac{100}{70} =
 
 
 
-# Aufgabe 7
+## Aufgabe 7
 
 Es wurde eine Umgehungsstraße von $3500\,$m Länge gebaut. $37\%$ der Straße sind bereits fertiggestellt. **Berechne**, wie viel Meter noch gebaut werden müssen.
 
@@ -347,7 +356,7 @@ $3500\,\text{m} \cdot (1-0,37) = 2205 \,\text{m} \qquad$
 </section>
 
 
-# Aufgabe 8
+## Aufgabe 8
 
 Nach einer Mieterhöhung von $4\%$ muss eine Familie jetzt $883,60$€ an Miete zahlen. **Berechne**, wie hoch die Miete vor der Erhöhung war.
 
@@ -371,7 +380,7 @@ $883,60\,\text{€} \cdot \dfrac{100}{104} = 849,615 \,\text{€} \qquad$
 
 
 
-# Aufgabe 9
+## Aufgabe 9
 
 Eine Uhr wird mit einem Nettopreis von $109,24$€ beworben, sodass noch $19\%$ Steuern beim Kauf hinzu kommen. Da nach dem Kauf ein Mangel an der Uhr festgestellt wurde, gibt der Händler dem Kunden $10\%$ vom bezahlten Preis zurück. **Berechne**, wie viel Geld der Kunde für die Uhr ausgegeben hat. 
 
@@ -397,7 +406,7 @@ $129,996\,\text{€} \cdot  0,9  = 116,996 \,\text{€} \qquad$
 
 
 
-# Aufgabe 10
+## Aufgabe 10
 
 Jedes Jahr bekommt ein Bankkunde $2\%$ Zinsen auf seine Ersparnisse. Hierbei wurden $4400$€ eingezahlt. **Berechne**, wie viel Geld sich nach drei Jahren auf dem Konto befinden.
 

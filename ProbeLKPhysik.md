@@ -41,9 +41,19 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 -->
 
+# Probeleistungskontrolle für Physik - Klasse 7: Energie
 
 
-# Aufgabe 1
+<br>
+
+Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts. 
+
+<br>
+
+Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst. 
+
+
+## Aufgabe 1
 
 
 
@@ -83,7 +93,7 @@ $$
 
 
 
-# Aufgabe 2
+## Aufgabe 2
 
 
 
@@ -127,7 +137,7 @@ Wird eine [[Äquipotentiallinie]] verlassen, dann wird Energie umgewandelt. Somi
 
 
 
-# Aufgabe 3
+## Aufgabe 3
 
 
 
@@ -165,7 +175,7 @@ $$
 
 
 
-# Aufgabe 4
+## Aufgabe 4
 
 
 
