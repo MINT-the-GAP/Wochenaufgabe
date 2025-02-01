@@ -57,7 +57,7 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 
 
 
-**Ein Objekt fällt reibungsfrei aus einer Höhe von $5\,$m und hat zu Beginn des Falls schon eine kinetische Energie von $0,25\,$J. Berechne die Geschwindigkeit, mit der das Objekt auf den Boden auftrifft. Das objekt besitzt eine Masse von $150\,$g. Runde auf zwei Nachkommastellen.**
+Ein Objekt fällt reibungsfrei aus einer Höhe von $5\,$m und hat zu Beginn des Falls schon eine kinetische Energie von $0,25\,$J. **Berechne** die Geschwindigkeit, mit der das Objekt auf den Boden auftrifft. Das objekt besitzt eine Masse von $150\,$g. Runde auf zwei Nachkommastellen. 
 
 <br>
 
@@ -141,7 +141,7 @@ Wird eine [[Äquipotentiallinie]] verlassen, dann wird Energie umgewandelt. Somi
 
 
 
-**Ein Auto mit einer Masse von $1,4\,$t beschleundigt in $9\,$s von $50\,\dfrac{\text{km}}{\text{h}}$ auf $90\,\dfrac{\text{km}}{\text{h}}$. Berechne die erbrachte Leistung. Runde auf zwei Nachkommastellen.**
+Ein Auto mit einer Masse von $1,4\,$t beschleundigt in $9\,$s von $50\,\dfrac{\text{km}}{\text{h}}$ auf $90\,\dfrac{\text{km}}{\text{h}}$. **Berechne** die erbrachte Leistung. Runde auf zwei Nachkommastellen.
 
 <br>
 
@@ -179,7 +179,7 @@ $$
 
 
 
-**$a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, welche homogen auf den gezeichneten Linien verteilt sind. Zeichne die Äquipotentiallinien ein.**
+$a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, welche homogen auf den gezeichneten Linien verteilt sind. **Zeichne** die Äquipotentiallinien **ein**.
 
 <br>
 
@@ -242,7 +242,7 @@ $$
 
 
 
-**$b)\;\;$ Gegeben seien die dargestellten Stabmagnete. Zeichne die magnetischen Feldlinien ein.**
+$b)\;\;$ Gegeben seien die dargestellten Stabmagnete. **Zeichne** die magnetischen Feldlinien **ein**.
 
 
 
@@ -353,4 +353,152 @@ $$
 
 
  
+
+
+
+
+## Aufgabe 5
+
+$a)\;\;$  **Begründe**, warum Arbeit nicht gemessen werden kann. 
+
+
+<br>
+
+<section class="flex-container">
+
+<div class="flex-child">
+  
+
+ 
+   
+
+
+***********
+Arbeit ist eine Prozessgröße, die den Unterschied zwischen zwei Energiezuständen beschreibt. Wie dieser Prozess ausgestaltet ist, ist nicht zu messen, da durch den Vergleich von zwei zeitlichen Messwerten schon eine Differenz von Energien betrachtet wird. 
+***********
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ 
+
+Der gezeigte Graph (links) stellt die Feldliniendichte als Funktion dar, welche von einer Punktladung ausgeht (rechte Darstellung). 
+
+<br>
+
+
+<center>
+```latex  @tikz 
+\begin{tikzpicture}[scale=2,>=latex]       
+
+
+
+      \draw[black!70, step=1.0644*5mm,   thin, dashed] (-1.0644*1,-1.0644*4) grid (1.0644*4,1.0644*1);  
+      \draw[black!70, step=1.0644*10mm,   thin] (-1.0644*1,-1.0644*4) grid (1.0644*4,1.0644*1);
+
+  \coordinate (ya) at (0,-1.0644*4.25);
+  \coordinate (xa) at (-1.0644*1.25,0);
+  \coordinate (o) at (0,0);
+ 
+  \coordinate (y) at (0,1.25*1.0644);
+    \coordinate (x) at (1.25*4.0644,0);
+    \draw[<->, black!100, thick] (y) node[above] {$V(r)$} -- (0,0) --  (x) node[right]  {$r$};
+
+\draw[-, black!100, thin]  (1.0644*0,0.1) -- (1.0644*0,-0.1) node[below=0.25cm,left] {0};
+\draw[-, black!100, thin]  (1.0644*1,0.1) -- (1.0644*1,-0.1) node[below] {}; 
+\draw[-, black!100, thin]  (1.0644*2,0.1) -- (1.0644*2,-0.1) node[below] {}; 
+\draw[-, black!100, thin]  (1.0644*3,0.1) -- (1.0644*3,-0.1) node[below] {}; 
+\draw[-, black!100, thin]  (1.0644*4,0.1) -- (1.0644*4,-0.1) node[below] {}; 
+\draw[-, black!100, thin]  (0.1,1.0644*1) -- (-0.1,1.0644*1) node[left] {}; 
+
+\draw[-, black!100, thin]  (-1.0644*1,0.1) -- (-1.0644*1,-0.1) node[below] {}; 
+\draw[-, black!100, thin]  (0.1,-1.0644*1) -- (-0.1,-1.0644*1) node[left] {};
+\draw[-, black!100, thin]  (0.1,-1.0644*2) -- (-0.1,-1.0644*2) node[left] {};
+\draw[-, black!100, thin]  (0.1,-1.0644*3) -- (-0.1,-1.0644*3) node[left] {};
+\draw[-, black!100, thin]  (0.1,-1.0644*4) -- (-0.1,-1.0644*4) node[left] {};
+
+
+\draw[fill=blue, thin]  (0,-1.0644*4) circle (1.0644*0.25);
+
+ \draw [ black!100, thick]  (ya) --(o) --  (xa);
+
+
+	\draw[ultra thick,color=black, ] plot[samples=100, domain=0.25:4.33] (1.0644*\x, {-1.0644/\x} ) node[below] {$$}; 
+	\draw[ultra thick,color=blue, ] plot[samples=100, domain=0.25:0.33] (1.0644*\x, {-1.0644/\x} ) node[below] {$$};  
+	\draw[ultra thick,color=green, ] plot[samples=100, domain=0.33:0.5] (1.0644*\x, {-1.0644/\x} ) node[below] {$$};  
+	\draw[ultra thick,color=yellow, ] plot[samples=100, domain=0.5:0.9] (1.0644*\x, {-1.0644/\x} ) node[below] {$$}; 
+	\draw[ultra thick,color=orange, ] plot[samples=100, domain=0.9:1.5] (1.0644*\x, {-1.0644/\x} ) node[below] {$$};  
+	\draw[ultra thick,color=red, ] plot[samples=100, domain=1.5:4.33] (1.0644*\x, {-1.0644/\x} ) node[below] {$$};  
+		 
+    
+    
+    
+    \begin{scope}[xshift=9cm,yshift=-1.75cm] 
+    \draw[<->, black!100, thick] (-3,0) -- (3,0) node[right]  {$r$};
+    \draw[<->, black!100, thick] (0,-3) -- (0,3) node[right]  {$r$};
+    \begin{scope}[rotate=45]
+    \draw[<->, black!100, thick] (-3,0) -- (3,0) node[right]  {$r$};
+    \draw[<->, black!100, thick] (0,-3) -- (0,3) node[right]  {$r$};
+    \end{scope}
+    \draw[ultra thick,fill=blue] (0,0) circle (0.25cm);
+    \draw[ultra thick,blue] (0,0) circle (0.5cm);
+    \draw[ultra thick,green] (0,0) circle (1cm);
+    \draw[ultra thick,yellow] (0,0) circle (1.5cm);
+    \draw[ultra thick,orange] (0,0) circle (2.0cm);
+    \draw[ultra thick,red] (0,0) circle (2.5cm);
+    
+    \end{scope}
+    
+\end{tikzpicture} 
+```
+</center>
+
+<br>
+ 
+<div class="flex-child">
+  
+$b)\;\;$ **Erkläre**, wie am Graphen erkannt werden kann, dass Arbeit verrichtet wird.  
+
+
+<br>
+
+
+
+***********
+Wenn sich ein Objekt in diesem Potential bewegt, dann wird durch die Veränderung des Ortes (Abszissenwerte) ein neuer Potentialwert (Ordinatenwert) zugeordnet. Dieser Unterschied der Ordinatenwerte gibt Aufschluss auf die verrichtete Arbeit.
+***********
+
+</div>
+
+
+
+
+<div class="flex-child">
+  
+$c)\;\;$ **Beschreibe**, wie sich der gleiche Arbeitswert am Graphen an unterschiedlichen Orten $r$ darstellt.  
+
+
+<br>
+
+
+
+***********
+Befindet man sich dicht am Koordinatenursprung wird der Potentialunterschied bei einer kleinen Ortsveränderung sehr groß, während bei einer weiteren Entfernung vom Koordinatenursprung der Ortsunterschied deutlich größer sein muss, um den gleichen Potentialunterschiedswert zu erreichen. Dies wird auch die "Goldene Regel" genannt, da man entweder viel Kraft über wenig Strecke oder wenig Kraft über viel Strecke ausüben muss, um die gleiche Arbeit zu verrichten. (Wie beim Hebelgesetz) 
+***********
+
+</div>
+
+
+
+
+
+</section>
+
+
  
