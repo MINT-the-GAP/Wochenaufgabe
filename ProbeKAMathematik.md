@@ -41,395 +41,227 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 -->
 
-
 # Probeklassenarbeit für Mathematik - Klasse 7: Prozentrechnung
 
 <br>
 
-Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts. 
+Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts.
 
 <br>
 
-Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst. 
+Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst.
 
 ## Aufgabe 1
 
-
-
 **Gib** den darstellten roten Anteil vom Ganzen in der Prozentdarstellung **an**. **Gib** Periodizitäten gerundet auf zwei Nachkommastellen **an**. Falls ansonsten gerundet werden muss, **gib** zwei Nachkomma stellen **an**.
 
-<br>
-<br>
-
-<section class="flex-container">
-
-<div class="flex-child">
-
-
-
-__$a)$__
- 
-<br>
-
-```latex  @tikz
-\begin{tikzpicture}[scale=2,>=latex]        
- 
-\draw[thick,fill=red,opacity=0.5] (0,0) -- (0:1)  arc (0:300:1) -- (0,0);  
-\foreach \n in {60,120,...,360} { \draw[opacity=0.5,rotate=\n] (0,0) -- (0:1)  arc (0:60:1) -- (0,0); } 
-\draw[thick] (0,0) circle (1cm);   
-    
-\end{tikzpicture}
-``` 
-
-<br>
+<lia-chart option="{
+  tooltip: {
+    trigger: 'item'
+  },
+  series: [
+  {
+    type: 'pie',
+    radius: '50%',
+    label: {
+      show: false
+    },
+    data: [
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } }
+    ],
+    emphasis: {
+      itemStyle: {
+        shadowBlur: 10,
+        shadowOffsetX: 0,
+        shadowColor: 'rgba(0, 0, 0, 0.5)'
+      }
+    }
+  }]
+}"></lia-chart>
 
 [[83,33%]]
 
+---
 
-</div>
-
-
-<br>
-<br>
-<br>
-<br>
-
-
-<div class="flex-child">
-
-
-
-__$b)$__
- 
-<br>
-
-```latex  @tikz
-\begin{tikzpicture}[scale=2,>=latex]        
- 
- 
-\draw[thick,fill=white,opacity=0.5] (0,0) rectangle (0.5,2); 
-\draw[thick,fill=white,opacity=0.5] (0.5,0) rectangle (1,2); 
-\draw[thick,fill=white,opacity=0.5] (1,0) rectangle (1.5,2); 
-\draw[thick,fill=white,opacity=0.5] (1.5,0) rectangle (2,2); 
-\draw[thick,fill=red,opacity=0.5] (2,0) rectangle (2.5,2); 
-\draw[thick,fill=white,opacity=0.5] (2.5,0) rectangle (3,2);  
-\draw[thick,fill=red,opacity=0.5] (3,0) rectangle (3.5,2); 
-\draw[thick,fill=red,opacity=0.5] (3.5,0) rectangle (4,2);  
-    
-\end{tikzpicture}
-``` 
+<center>
+<svg width="400" height="100" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="50" height="200" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="50" y="0" width="50" height="200" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="100" y="0" width="50" height="200" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="150" y="0" width="50" height="200" fill="lightcoral" stroke="black" stroke-width="1"/>
+  <rect x="200" y="0" width="50" height="200" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="250" y="0" width="50" height="200" fill="lightcoral" stroke="black" stroke-width="1"/>
+  <rect x="300" y="0" width="50" height="200" fill="lightcoral" stroke="black" stroke-width="1"/>
+  <rect x="350" y="0" width="50" height="200" fill="lightcoral" stroke="black" stroke-width="1"/>
+</svg>
+</center>
 
 <br>
 
 [[37,5%]]
 
-
-</div>
- 
-
-
-</section>
-
-
-
-
-
-
-
 ## Aufgabe 2
-
-
 
 In einer Schulklasse kommen $15$ von $24$ Schülern mit dem Fahrrad. **Berechne** den prozentualen Anteil.
 
-<br>
-<br>
-
-<section class="flex-container">
-
-<div class="flex-child">
-
 [[62,5%]]
 ***********
- 
-$p=\dfrac{W}{G} =\dfrac{15}{24} = \dfrac{5}{8} = 62,5 \% $
- 
+
+$$ p=\dfrac{W}{G} =\dfrac{15}{24} = \dfrac{5}{8} = 62,5 \% $$
+
 ***********
-
- 
-
-</div>
- 
-
-
-</section>
-
-
-
-
-
 
 ## Aufgabe 3
 
 Ein Kapital von $7500$€ wurde ein Jahr zu einem Jahreszins von $2\%$ angelegt. **Berechne** die resultierende Geldmenge.
 
-
- <br>
- <br>
-
-
-<section class="flex-container">
-
-<div class="flex-child">
- 
-
-[[6846]]
+[[7650]]
 ***********
-$7500\,\text{€} \cdot 1,02 = 7650\,\text{€}$
+
+$$ 7500\,\text{€} \cdot 1,02 = 7650\,\text{€} $$
+
 ***********
-</div>
-
- 
-
-
-</section>
-
-
-
 
 ## Aufgabe 4
 
 Die gesamte Downloaddauer beträgt $40\,$min. **Zeichne** in den Downloadbalken den dort beschriebenen Stand des Downloads **ein**.
 
- <br>
- <br>
+<br>
 
+<progress value="0" max="100" style="width: 33%; scale: 3; position: relative; left: calc(100% / 3); margin-bottom: 1rem">0%</progress>
 
-<section class="flex-container">
+Downloading... verbleibende Zeit: $12\,$min
 
-<div class="flex-child">
- 
-```latex  @tikz
-\begin{tikzpicture}[scale=1.5,>=latex]        
- 
- 
- \node[right] at (0,1) {Downloading... verbleibende Zeit: $12\,$min};
-\draw[thick,fill=gray,opacity=0.5,rounded corners=2pt] (0,0) rectangle (10,0.5); 
-%\draw[thick,fill=blue,opacity=0.5,rounded corners=2pt] (0.025,0.025) rectangle (7,0.475);  
-    
-\end{tikzpicture}
-``` 
- 
- <br>
- <br>
+[[70%]]
 ***********
-```latex  @tikz
-\begin{tikzpicture}[scale=1.5,>=latex]        
- 
- 
- \node[right] at (0,1) {Downloading... verbleibende Zeit: $12\,$min};
-\draw[thick,fill=gray,opacity=0.5,rounded corners=2pt] (0,0) rectangle (10,0.5); 
-\draw[thick,fill=blue,opacity=0.5,rounded corners=2pt] (0.025,0.025) rectangle (7,0.475);  
-    
-\end{tikzpicture}
-``` 
- 
- <br>
 
-$1- \dfrac{12\,\text{min}}{40\,\text{min}} = 70\% $
+<progress value="70" max="100" style="width: 33%; scale: 3; position: relative; left: calc(100% / 3)">70%</progress>
+
+$$ 1- \dfrac{12\,\text{min}}{40\,\text{min}} = 70\% $$
+
 ***********
-</div>
-
- 
-
-
-</section>
-
-
-
-
-
 
 ## Aufgabe 5
 
 Bei Befragungen wurden jeweils insgesamt $44000$ Menschen interviewt. **Bestimme** die Anzahl der Menschen, die aus dem Kreisdiagramm die jeweiligen Antworten gaben.
 
-  <br>  
-  <br>
+<lia-chart option="{
+  series: [{
+    type: 'pie',
+    radius: '50%',
+    label: {
+      show: true,
+      formatter: '{b}: {c}%'
+    },
+    data: [
+      { value: 25.0, name: 'a', itemStyle: { color: 'blue' } },
+      { value: 33.3, name: 'b', itemStyle: { color: 'red' } },
+      { value: 27.8, name: 'c', itemStyle: { color: 'green' } },
+      { value: 13.9, name: 'd', itemStyle: { color: 'orange' } }
+    ],
+    emphasis: {
+      itemStyle: {
+        shadowBlur: 10,
+        shadowOffsetX: 0,
+        shadowColor: 'rgba(0, 0, 0, 0.5)'
+      }
+    }
+  }]
+}"></lia-chart>
 
-<section class="flex-container">
-
-<div class="flex-child">
- 
- <br>
- <br>
-
-```latex  @tikz
-\begin{tikzpicture}[scale=1.5,>=latex]        
- 
- 
-    \foreach \start/\end/\middle/\percent/\anchor		/\color		/\name			/\smeter in 	{
-							0			/90		/45			/25{,}0		 /above			/blue!		/a 						/1 				,
-							90		/210	/150		/33{,}3		/above			/red!			/b						/1 						,
-							210		/310	/260		/27{,}8		/below			/green!		/c						/1 						,
-							310		/360	/340		/13{,}9		/right			/orange!	/d						/1 						 	}
-  {
-    \draw[fill=\color , opacity=0.25 , thick] (0,0) -- (\end:2.4cm) arc (\end:\start:2.4cm)
-      node[opacity=0.99] at (\middle:1.5cm) {\percent \%};
-    \draw (\middle:2.4cm) -- (\middle:2.65cm) ;
-		\node (A) at (\middle:2.85cm)   {$\name$};
-  };
-    
-\end{tikzpicture}
-``` 
- 
- <br>
- <br>
-*********** 
-
-$p_i  = \dfrac{W}{G} \quad \left| \cdot G \right. $  <br>
-$G \cdot p_i  = W  $  <br>
-$a: \;\; G \cdot p_a  =44000 \cdot 0,25 = 11000  $  <br>
-$b: \;\; G \cdot p_b  =44000 \cdot 0,333 = 14652  $  <br>
-$c: \;\; G \cdot p_c  =44000 \cdot 0,278 = 12232  $  <br>
-$d: \;\; G \cdot p_d  =44000 \cdot 0,139 = 6116  $  <br>
+> a: [[ 11000 ]] Menschen
+>
+> b: [[ 14652 ]] Menschen
+>
+> c: [[ 12232 ]] Menschen
+>
+> d: [[  6116 ]] Menschen
 ***********
-</div>
+$p_i  = \dfrac{W}{G} \quad \left| \cdot G \right. $
 
- 
+$G \cdot p_i  = W  $
 
+$a: \;\; G \cdot p_a  =44000 \cdot 0,25 = 11000  $
 
-</section>
+$b: \;\; G \cdot p_b  =44000 \cdot 0,333 = 14652  $
 
+$c: \;\; G \cdot p_c  =44000 \cdot 0,278 = 12232  $
 
+$d: \;\; G \cdot p_d  =44000 \cdot 0,139 = 6116  $
 
-
-
+***********
 
 ## Aufgabe 6
 
-Ein gebrauchter PKW wurde für $12880$€ verkauft. Das waren $70\%$ des Neuwertes. **Berechne** den Neuwert.
+Ein gebrauchter PKW wurde für $12880$€ verkauft. Das waren $70\%$ des Neuwertes. **Berechne** den Neuwert des PKW in €.
 
-  <br>  
-  <br>
-
-<section class="flex-container">
-
-<div class="flex-child">
-[[18400]] $€$   
-*********** 
-
-$p  = \dfrac{W}{G} \quad \left| \cdot G \right. $  <br>
-$G \cdot p  = W  \quad \left| : p \right. $  <br>
-$G  = \dfrac{W}{p}   $  <br>
-$12880\,\text{€} : \dfrac{70}{100} = 12880\,\text{€} \cdot \dfrac{100}{70} = 18400 \,\text{€} $
+[[18400]]
 ***********
-</div>
 
- 
+$$ p = \dfrac{W}{G} \quad \left| \cdot G \right. $$
 
+$$ G \cdot p  = W  \quad \left| : p \right. $$
 
-</section>
+$$ G  = \dfrac{W}{p} $$
 
+$$ 12880\,\text{€} : \dfrac{70}{100} = 12880\,\text{€} \cdot \dfrac{100}{70} = 18400 \,\text{€} $$
 
+***********
 
 ## Aufgabe 7
 
-Es wurde eine Umgehungsstraße von $3500\,$m Länge gebaut. $37\%$ der Straße sind bereits fertiggestellt. **Berechne**, wie viel Meter noch gebaut werden müssen.
+Es wurde eine Umgehungsstraße von $3500\,$ m Länge gebaut. $ 37 \% $ der Straße sind bereits fertiggestellt. **Berechne**, wie viel Meter noch gebaut werden müssen:
 
-  <br>  
-  <br>
-
-<section class="flex-container">
-
-<div class="flex-child">
-[[2205]] $\,\text{m}$   
-*********** 
- 
-$3500\,\text{m} \cdot (1-0,37) = 2205 \,\text{m} \qquad$
+[[2205]]
 ***********
-</div>
 
- 
+$$ 3500\,\text{m} \cdot (1-0,37) = 2205 \,\text{m} \qquad $$
 
-
-</section>
-
+***********
 
 ## Aufgabe 8
 
 Nach einer Mieterhöhung von $4\%$ muss eine Familie jetzt $883,60$€ an Miete zahlen. **Berechne**, wie hoch die Miete vor der Erhöhung war.
 
-  <br>  
-  <br>
-
-<section class="flex-container">
-
-<div class="flex-child">
-[[849,615]] $\,\text{€}$   
+[[849,615]]
 *********** 
- 
-$883,60\,\text{€} \cdot \dfrac{100}{104} = 849,615 \,\text{€} \qquad$
+
+$$ 883,60\,\text{€} \cdot \dfrac{100}{104} = 849,615 \,\text{€} \qquad $$
+
 ***********
-</div>
-
- 
-
-
-</section>
-
-
 
 ## Aufgabe 9
 
-Eine Uhr wird mit einem Nettopreis von $109,24$€ beworben, sodass noch $19\%$ Steuern beim Kauf hinzu kommen. Da nach dem Kauf ein Mangel an der Uhr festgestellt wurde, gibt der Händler dem Kunden $10\%$ vom bezahlten Preis zurück. **Berechne**, wie viel Geld der Kunde für die Uhr ausgegeben hat. 
+Eine Uhr wird mit einem Nettopreis von $109,24$€ beworben, sodass noch $19\%$ Steuern beim Kauf hinzu kommen. Da nach dem Kauf ein Mangel an der Uhr festgestellt wurde, gibt der Händler dem Kunden $10\%$ vom bezahlten Preis zurück. **Berechne**, wie viel Geld der Kunde für die Uhr ausgegeben hat.
 
-  <br>  
-  <br>
-
-<section class="flex-container">
-
-<div class="flex-child">
-[[116,996]] $\,\text{€}$   
-*********** 
- 
-$109,24\,\text{€} \cdot  1,19  = 129,996 \,\text{€} \qquad$   <br>
-$129,996\,\text{€} \cdot  0,9  = 116,996 \,\text{€} \qquad$ 
+[[116,996]]
 ***********
-</div>
 
- 
+$$ 109,24\,\text{€} \cdot  1,19  = 129,996 \,\text{€} \qquad $$
+$$ 129,996\,\text{€} \cdot  0,9  = 116,996 \,\text{€} \qquad $$ 
 
-
-</section>
-
-
-
+***********
 
 ## Aufgabe 10
 
 Jedes Jahr bekommt ein Bankkunde $2\%$ Zinsen auf seine Ersparnisse. Hierbei wurden $4400$€ eingezahlt. **Berechne**, wie viel Geld sich nach drei Jahren auf dem Konto befinden.
 
-  <br>  
-  <br>
-
-
-<section class="flex-container">
-
-<div class="flex-child">
-[[4669,3152]] $\,\text{€}$   
-*********** 
- 
-$4400\,\text{€} \cdot 1,02 = 4488 \,\text{€} \qquad$   <br>
-$4488\,\text{€} \cdot 1,02 = 4577,76 \,\text{€} \qquad$   <br>
-$4577,76\,\text{€} \cdot 1,02 = 4669,3152 \,\text{€} \qquad$ 
+[[4669,3152]]
 ***********
-</div>
 
- 
+$$ 4400\,\text{€} \cdot 1,02 = 4488 \,\text{€} \qquad $$
 
+$$ 4488\,\text{€} \cdot 1,02 = 4577,76 \,\text{€} \qquad $$
 
-</section>
+$$ 4577,76\,\text{€} \cdot 1,02 = 4669,3152 \,\text{€} \qquad$$
+
+***********
+
 
 
 
