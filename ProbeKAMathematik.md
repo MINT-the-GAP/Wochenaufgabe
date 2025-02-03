@@ -4,6 +4,10 @@ version:  0.0.1
 language: de
 
 @style
+main > *:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
 input {
     text-align: center;
 }
@@ -43,11 +47,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 # Probeklassenarbeit für Mathematik - Klasse 7: Prozentrechnung
 
-<br>
-
 Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts.
-
-<br>
 
 Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst.
 
@@ -84,7 +84,7 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
   }]
 }"></lia-chart>
 
-[[83,33%]]
+--> [[ 83,33 ]] $ \% $
 
 ---
 
@@ -101,15 +101,14 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 </svg>
 </center>
 
-<br>
 
-[[37,5%]]
+--> [[ 37,5 ]] $ \% $
 
 ## Aufgabe 2
 
 In einer Schulklasse kommen $15$ von $24$ Schülern mit dem Fahrrad. **Berechne** den prozentualen Anteil.
 
-[[62,5%]]
+--> [[ 62,5 ]] $ \% $
 ***********
 
 $$ p=\dfrac{W}{G} =\dfrac{15}{24} = \dfrac{5}{8} = 62,5 \% $$
@@ -118,9 +117,10 @@ $$ p=\dfrac{W}{G} =\dfrac{15}{24} = \dfrac{5}{8} = 62,5 \% $$
 
 ## Aufgabe 3
 
-Ein Kapital von $7500$€ wurde ein Jahr zu einem Jahreszins von $2\%$ angelegt. **Berechne** die resultierende Geldmenge.
+Ein Kapital von $7500$€ wurde ein Jahr zu einem Jahreszins von $2\%$ angelegt.
+**Berechne** die resultierende Geldmenge.
 
-[[7650]]
+--> [[ 7650 ]]
 ***********
 
 $$ 7500\,\text{€} \cdot 1,02 = 7650\,\text{€} $$
@@ -129,15 +129,14 @@ $$ 7500\,\text{€} \cdot 1,02 = 7650\,\text{€} $$
 
 ## Aufgabe 4
 
-Die gesamte Downloaddauer beträgt $40\,$min. **Zeichne** in den Downloadbalken den dort beschriebenen Stand des Downloads **ein**.
-
-<br>
+Die gesamte Downloaddauer beträgt $40\,$min.
+**Zeichne** in den Downloadbalken den dort beschriebenen Stand des Downloads **ein**.
 
 <progress value="0" max="100" style="width: 33%; scale: 3; position: relative; left: calc(100% / 3); margin-bottom: 1rem">0%</progress>
 
 Downloading... verbleibende Zeit: $12\,$min
 
-[[70%]]
+--> [[ 70 ]] $ \% $
 ***********
 
 <progress value="70" max="100" style="width: 33%; scale: 3; position: relative; left: calc(100% / 3)">70%</progress>
@@ -200,7 +199,7 @@ $d: \;\; G \cdot p_d  =44000 \cdot 0,139 = 6116  $
 
 Ein gebrauchter PKW wurde für $12880$€ verkauft. Das waren $70\%$ des Neuwertes. **Berechne** den Neuwert des PKW in €.
 
-[[18400]]
+--> [[ 18400 ]] €
 ***********
 
 $$ p = \dfrac{W}{G} \quad \left| \cdot G \right. $$
@@ -217,7 +216,7 @@ $$ 12880\,\text{€} : \dfrac{70}{100} = 12880\,\text{€} \cdot \dfrac{100}{70}
 
 Es wurde eine Umgehungsstraße von $3500\,$ m Länge gebaut. $ 37 \% $ der Straße sind bereits fertiggestellt. **Berechne**, wie viel Meter noch gebaut werden müssen:
 
-[[2205]]
+--> [[ 2205 ]]
 ***********
 
 $$ 3500\,\text{m} \cdot (1-0,37) = 2205 \,\text{m} \qquad $$
@@ -226,10 +225,11 @@ $$ 3500\,\text{m} \cdot (1-0,37) = 2205 \,\text{m} \qquad $$
 
 ## Aufgabe 8
 
-Nach einer Mieterhöhung von $4\%$ muss eine Familie jetzt $883,60$€ an Miete zahlen. **Berechne**, wie hoch die Miete vor der Erhöhung war.
+Nach einer Mieterhöhung von $4\%$ muss eine Familie jetzt $ 883,60 $ € an Miete zahlen.
+**Berechne**, wie hoch die Miete vor der Erhöhung war.
 
-[[849,615]]
-*********** 
+--> [[ 849,615 ]] €
+***********
 
 $$ 883,60\,\text{€} \cdot \dfrac{100}{104} = 849,615 \,\text{€} \qquad $$
 
@@ -239,7 +239,7 @@ $$ 883,60\,\text{€} \cdot \dfrac{100}{104} = 849,615 \,\text{€} \qquad $$
 
 Eine Uhr wird mit einem Nettopreis von $109,24$€ beworben, sodass noch $19\%$ Steuern beim Kauf hinzu kommen. Da nach dem Kauf ein Mangel an der Uhr festgestellt wurde, gibt der Händler dem Kunden $10\%$ vom bezahlten Preis zurück. **Berechne**, wie viel Geld der Kunde für die Uhr ausgegeben hat.
 
-[[116,996]]
+--> [[ 116,996 ]] €
 ***********
 
 $$ 109,24\,\text{€} \cdot  1,19  = 129,996 \,\text{€} \qquad $$
@@ -249,9 +249,10 @@ $$ 129,996\,\text{€} \cdot  0,9  = 116,996 \,\text{€} \qquad $$
 
 ## Aufgabe 10
 
-Jedes Jahr bekommt ein Bankkunde $2\%$ Zinsen auf seine Ersparnisse. Hierbei wurden $4400$€ eingezahlt. **Berechne**, wie viel Geld sich nach drei Jahren auf dem Konto befinden.
+Jedes Jahr bekommt ein Bankkunde $2\%$ Zinsen auf seine Ersparnisse. Hierbei wurden $4400$€ eingezahlt.
+**Berechne**, wie viel Geld sich nach drei Jahren auf dem Konto befinden.
 
-[[4669,3152]]
+--> [[ 4669,3152 ]] €
 ***********
 
 $$ 4400\,\text{€} \cdot 1,02 = 4488 \,\text{€} \qquad $$
@@ -262,46 +263,35 @@ $$ 4577,76\,\text{€} \cdot 1,02 = 4669,3152 \,\text{€} \qquad$$
 
 ***********
 
-
-
-
 ## Aufgabe 11
 
-In der gegebenen Tabelle sind die absoluten Stimmen bei einer Umfrage für die Wahlmöglichkeiten und prozentuale Anteile dargestellt. \
+In der gegebenen Tabelle sind die absoluten Stimmen bei einer Umfrage für die Wahlmöglichkeiten und prozentuale Anteile dargestellt.
 
-  <br>  
-  <br>
+$a)\;\;$ **Fülle** die fehlenden Tabellenfelder **aus**.
+**Runde** auf drei Nachkommastellen bei den relativen Anteilen.
 
-$a)\;\;$ **Fülle** die fehlenden Tabellenfelder **aus**. **Runde** auf drei Nachkommastellen bei den relativen Anteilen.
-
-  <br> 
-  <br>  
-
-| Wahloption | absolute Stimmenanzahl |  relativer Stimmenanteil in $\%$ | 
-| :------: | :------: | :------: |
-| A     |   2600   |    [[18,056]]   |  
-| B     |   4400   |    [[30,556]]   |  
-| C     |   1900   |    [[21,528]]   |  
-| D     |   3100   |    [[13,194]]   |  
-| E     |   [[2400]]   |    $16,\bar{6}$  |  
-
-  <br>  
-  <br>
-
-<section class="flex-container">
-
-<div class="flex-child"> 
-
+<!-- data-type="none" -->
+| Wahloption | absolute Stimmenanzahl | relativer Stimmenanteil in $\%$ |
+| :--------: | :--------------------: | :-----------------------------: |
+|     A      |          2600          |          [[ 18,056 ]]           |
+|     B      |          4400          |          [[ 30,556 ]]           |
+|     C      |          1900          |          [[ 21,528 ]]           |
+|     D      |          3100          |          [[ 13,194 ]]           |
+|     E      |       [[ 2400 ]]       |          $16,\bar{6}$           |
 
 $b)\;\;$ **Zeichne** ein Kreisdiagramm zu den Werten aus der Tabelle.
 
-
-  <br> 
-
-*********** 
+<!--
+data-type="piechart" 
+data-title="Wahlergebnis"
+-->
+|     A     |     B     |    C     |     D     |     E     |
+| :-------: | :-------: | :------: | :-------: | :-------: |
+| [[ 123 ]] | [[ 333 ]] | [[ 18 ]] | [[ 222 ]] | [[ 333 ]] |
+***********
   
 ```latex  @tikz
-\begin{tikzpicture}[scale=4,>=latex]        
+\begin{tikzpicture}[scale=4,>=latex]
  
 \draw[thick,fill=red,opacity=0.95] (0,0) -- (0:1)  arc (0:-60:1) -- (0,0); \node at (-30:0.5) {$A$} ;
 \draw[thick,fill=green,opacity=0.95] (0,0) -- (300:1)  arc (300:225:1) -- (0,0);  \node at (260:0.5) {$B$} ;
@@ -309,14 +299,84 @@ $b)\;\;$ **Zeichne** ein Kreisdiagramm zu den Werten aus der Tabelle.
 \draw[thick,fill=orange,opacity=0.95] (0,0) -- (115:1)  arc (115:47.5:1) -- (0,0);  \node at (85:0.5) {$D$} ;
 \draw[thick,fill=gray,opacity=0.95] (0,0) -- (47.5:1)  arc (47.5:0:1) -- (0,0);   \node at (22:0.5) {$E$} ;
 \draw[thick] (0,0) circle (1cm);   
-    
+
 \end{tikzpicture}
-``` 
+```
 
 ***********
-</div>
 
- 
+## Zufallsaufgaben
 
+<script input="submit" output="Aufgabe" default="Neue Aufgabe" modify="false">
+  if (!window.randomMath) { window.randomMath = 0 }
+  "Neue Aufgabe " + window.randomMath++
+</script>
 
-</section>
+---
+
+<script run-once modify="false">
+// @input(`Aufgabe`)
+// Zufällige Prozentzahl (10 bis 90 in 10er-Schritten)
+const percentage = (Math.floor(Math.random() * 9) + 1) * 10;
+// Zufällige Basiszahl (zwischen 50 und 500, in 50er-Schritten)
+const base = (Math.floor(Math.random() * 10) + 1) * 50;
+// Berechnung des Ergebnisses
+const result = Math.round((percentage / 100) * base);
+
+// Auswahl einer Zahl zur Markierung (0 => Prozentsatz, 1 => Basis, 2 => Ergebnis)
+const markedNumber = Math.floor(Math.random() * 3);
+let problem = ""
+
+if (markedNumber === 0) {
+  // Prozentsatz unbekannt
+  problem = `[[ ${percentage} ]] % von ${base} = ${result}`;
+} else if (markedNumber === 1) {
+  // Basis unbekannt
+  problem = `${percentage}% von [[ ${base} ]] = ${result}`
+} else {
+  // Ergebnis unbekannt
+  problem = `${percentage}% von ${base} = [[ ${result} ]]`
+}
+
+// Lösungsschritte vereinfacht und in einem aligned-Block
+let solution = "***************\n\n";
+
+if (markedNumber === 0) {
+  // Prozentsatz x ist unbekannt: x% von base = result
+  // => x/100 = result/base => x = (result * 100)/base
+  const xVal = (result * 100) / base;
+  solution += `$$
+    \\begin{aligned}
+      \\frac{x}{100} &= \\frac{${result}}{${base}} \\\\[5mm]
+      x&=\\frac{${result} \\cdot 100}{${base}} \\\\[5mm]
+      x&=${xVal}
+    \\end{aligned}
+    $$\n\n`;
+} else if (markedNumber === 1) {
+  // Basis x ist unbekannt: percentage% von x = result
+  // => percentage/100 = result/x => x = (result * 100)/percentage
+  const xVal = (result * 100) / percentage;
+  solution += `$$
+    \\begin{aligned}
+      \\frac{${percentage}}{100}&=\\frac{${result}}{x} \\\\[5mm]
+      x&=\\frac{${result} \\cdot 100}{${percentage}} \\\\[5mm]
+        x&=${xVal}
+    \\end{aligned}
+    $$\n\n`;
+} else {
+  // Ergebnis x ist unbekannt: percentage% von base = x
+  // => percentage/100 = x/base => x = (percentage * base)/100
+  const xVal = Math.round((percentage * base) / 100);
+  solution += `$$
+    \\begin{aligned}
+      \\frac{${percentage}}{100}&=\\frac{x}{${base}} \\\\[5mm]
+      x&=\\frac{${percentage} \\cdot ${base}}{100} \\\\[5mm]
+      x&=${xVal}
+    \\end{aligned}
+    $$\n\n`;
+}
+
+solution += "***************";
+
+"LIASCRIPT: \n--> " + problem + "\n" + solution;
+</script>
