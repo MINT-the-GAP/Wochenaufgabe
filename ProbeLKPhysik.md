@@ -114,10 +114,7 @@ $$
 
 $a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, welche homogen auf den gezeichneten Linien verteilt sind. **Zeichne** die Äquipotentiallinien **ein**.
 
-
-[[!]]
-<script>true</script>
-***************************
+ 
 
 <center>
 
@@ -137,8 +134,7 @@ $a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, 
 ```
 
 </center>
-
-***********
+ 
 
 [[!]]
 <script>true</script>
@@ -180,9 +176,6 @@ $a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, 
 
 $b)\;\;$ Gegeben seien die dargestellten Stabmagnete. **Zeichne** die magnetischen Feldlinien **ein**.
 
-[[!]]
-<script>true</script>
-***************************
 
 <center>
 
@@ -213,8 +206,7 @@ $b)\;\;$ Gegeben seien die dargestellten Stabmagnete. **Zeichne** die magnetisch
 ```
 
 </center>
-
-***********
+ 
 
 [[!]]
 <script>true</script>
@@ -294,11 +286,11 @@ $b)\;\;$ Gegeben seien die dargestellten Stabmagnete. **Zeichne** die magnetisch
 
 $a)\;\;$  **Begründe**, warum Arbeit nicht gemessen werden kann. 
 
-<br>
 
 
-
-***********
+[[!]]
+<script>true</script>
+***************************
 Arbeit ist eine Prozessgröße, die den Unterschied zwischen zwei Energiezuständen beschreibt. Wie dieser Prozess ausgestaltet ist, ist nicht zu messen, da durch den Vergleich von zwei zeitlichen Messwerten schon eine Differenz von Energien betrachtet wird. 
 ***********
 
@@ -393,11 +385,18 @@ $b)\;\;$ **Erkläre**, wie am Graphen erkannt werden kann, dass Arbeit verrichte
 
 
 
-***********
+
+[[!]]
+<script>true</script>
+***************************
 Wenn sich ein Objekt in diesem Potential bewegt, dann wird durch die Veränderung des Ortes (Abszissenwerte) ein neuer Potentialwert (Ordinatenwert) zugeordnet. Dieser Unterschied der Ordinatenwerte gibt Aufschluss auf die verrichtete Arbeit.
 ***********
 
 
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -409,6 +408,14 @@ $c)\;\;$ **Beschreibe**, wie sich der gleiche Arbeitswert am Graphen an untersch
 
 
 
-***********
+
+[[!]]
+<script>true</script>
+***************************
 Befindet man sich dicht am Koordinatenursprung wird der Potentialunterschied bei einer kleinen Ortsveränderung sehr groß, während bei einer weiteren Entfernung vom Koordinatenursprung der Ortsunterschied deutlich größer sein muss, um den gleichen Potentialunterschiedswert zu erreichen. Dies wird auch die "Goldene Regel" genannt, da man entweder viel Kraft über wenig Strecke oder wenig Kraft über viel Strecke ausüben muss, um die gleiche Arbeit zu verrichten. (Wie beim Hebelgesetz) 
 ***********
+
+<br>
+<br>
+<br>
+<br>

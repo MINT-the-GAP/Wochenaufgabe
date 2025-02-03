@@ -120,7 +120,7 @@ $$ p=\dfrac{W}{G} =\dfrac{15}{24} = \dfrac{5}{8} = 62,5 \% $$
 Ein Kapital von $7500$€ wurde ein Jahr zu einem Jahreszins von $2\%$ angelegt.
 **Berechne** die resultierende Geldmenge.
 
---> [[ 7650 ]]
+--> [[ 7650 ]] €
 ***********
 
 $$ 7500\,\text{€} \cdot 1,02 = 7650\,\text{€} $$
