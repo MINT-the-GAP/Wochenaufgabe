@@ -114,13 +114,13 @@ $$
 
 $a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, welche homogen auf den gezeichneten Linien verteilt sind. **Zeichne** die Äquipotentiallinien **ein**.
 
-<br>
 
-<section class="flex-container">
+[[!]]
+<script>true</script>
+***************************
 
-<div class="flex-child">
- 
 <center>
+
 ```latex  @tikz
 \begin{tikzpicture}[scale=2,>=latex]       
 
@@ -135,12 +135,17 @@ $a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, 
     
 \end{tikzpicture}
 ```
-</center>
 
+</center>
 
 ***********
 
- <center>
+[[!]]
+<script>true</script>
+************
+
+<center>
+
 ```latex  @tikz
 \begin{tikzpicture}[scale=2,>=latex]       
 
@@ -162,13 +167,10 @@ $a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, 
     
 \end{tikzpicture}
 ```
+
 </center>
 
 ***********
-
-
-</div>
-
 
 <br>
 <br>
@@ -178,13 +180,12 @@ $a)\;\;$ Gegeben sei die dargestellte Ladungskonfiguration von $Q_-$ und $Q_+$, 
 
 $b)\;\;$ Gegeben seien die dargestellten Stabmagnete. **Zeichne** die magnetischen Feldlinien **ein**.
 
+[[!]]
+<script>true</script>
+***************************
 
-
-
-
-<div class="flex-child">
-  
 <center>
+
 ```latex  @tikz 
 \begin{tikzpicture}[scale=2,>=latex]       
 
@@ -210,11 +211,17 @@ $b)\;\;$ Gegeben seien die dargestellten Stabmagnete. **Zeichne** die magnetisch
     
 \end{tikzpicture} 
 ```
+
 </center>
 
-
 ***********
+
+[[!]]
+<script>true</script>
+************
+
 <center>
+
 ```latex  @tikz 
 \begin{tikzpicture}[scale=2,>=latex]       
 
@@ -275,16 +282,8 @@ $b)\;\;$ Gegeben seien die dargestellten Stabmagnete. **Zeichne** die magnetisch
 \end{tikzpicture} 
 ```
 </center>
+
 ***********
-
-</div>
-
-
-
-
-
-</section>
-
 
  
 
