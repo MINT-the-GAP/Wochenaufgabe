@@ -270,24 +270,16 @@ In der gegebenen Tabelle sind die absoluten Stimmen bei einer Umfrage für die W
 $a)\;\;$ **Fülle** die fehlenden Tabellenfelder **aus**.
 **Runde** auf drei Nachkommastellen bei den relativen Anteilen.
 
-  <br> 
-  <br>  
+<!-- data-type="none" -->
+| Wahloption | absolute Stimmenanzahl | relativer Stimmenanteil in $\%$ |
+| :--------: | :--------------------: | :-----------------------------: |
+|     A      |          2600          |          [[ 18,056 ]]           |
+|     B      |          4400          |          [[ 30,556 ]]           |
+|     C      |          1900          |          [[ 21,528 ]]           |
+|     D      |          3100          |          [[ 13,194 ]]           |
+|     E      |       [[ 2400 ]]       |          $16,\bar{6}$           |
 
-| Wahloption | absolute Stimmenanzahl |  relativer Stimmenanteil in $\%$ | 
-| :------: | :------: | :------: |
-| A     |   2600   |    [[18,056]]   |  
-| B     |   4400   |    [[30,556]]   |  
-| C     |   1900   |    [[21,528]]   |  
-| D     |   3100   |    [[13,194]]   |  
-| E     |   [[2400]]   |    $16,\bar{6}$  |  
-
-  <br>  
-  <br>
-
-<section class="flex-container">
-
-<div class="flex-child"> 
-
+---
 
 $b)\;\;$ **Zeichne** ein Kreisdiagramm zu den Werten aus der Tabelle.
 
@@ -314,22 +306,8 @@ data-title="Wahlergebnis"
 ```
 
 ***********
-</div>
-
- 
-
-
-</section>
-
-
-
-
-
-
 
 ## GeoGebra-Aufgaben
-
-
 
 <div style="overflow-x: auto;">
 <iframe
@@ -343,7 +321,6 @@ data-title="Wahlergebnis"
     scrolling="no"
 ></iframe>
 </div>
-
 
 ## Random Übungen
 
