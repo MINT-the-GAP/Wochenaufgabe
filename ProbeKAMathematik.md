@@ -112,7 +112,7 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
   <rect x="150" y="0" width="50" height="200" fill="lightcoral" stroke="black" stroke-width="1"/>
   <rect x="200" y="0" width="50" height="200" fill="white" stroke="black" stroke-width="1"/>
   <rect x="250" y="0" width="50" height="200" fill="lightcoral" stroke="black" stroke-width="1"/>
-  <rect x="300" y="0" width="50" height="200" fill="lightcoral" stroke="black" stroke-width="1"/>
+  <rect x="300" y="0" width="50" height="200" fill="white" stroke="black" stroke-width="1"/>
   <rect x="350" y="0" width="50" height="200" fill="lightcoral" stroke="black" stroke-width="1"/>
 </svg>
 </center>
@@ -297,7 +297,7 @@ $a)\;\;$ **Fülle** die fehlenden Tabellenfelder **aus**.
 
 ---
 
-$b)\;\;$ **Zeichne** ein Kreisdiagramm zu den Werten aus der Tabelle.
+$b)\;\;$ **Zeichne** ein Kreisdiagramm zu den Werten aus der Tabelle. (Trage die passenden Winkelwerte in die Tabelle ein, die den relativen Anteil entsprechen, um dein Kreisdiagramm nachzustellen.)
 
 <!--
 data-type="piechart" 
@@ -305,23 +305,8 @@ data-title="Wahlergebnis"
 -->
 |     A     |     B     |    C     |     D     |     E     |
 | :-------: | :-------: | :------: | :-------: | :-------: |
-| [[ 123 ]] | [[ 333 ]] | [[ 18 ]] | [[ 222 ]] | [[ 333 ]] |
-***********
-  
-```latex  @tikz
-\begin{tikzpicture}[scale=4,>=latex]
- 
-\draw[thick,fill=red,opacity=0.95] (0,0) -- (0:1)  arc (0:-60:1) -- (0,0); \node at (-30:0.5) {$A$} ;
-\draw[thick,fill=green,opacity=0.95] (0,0) -- (300:1)  arc (300:225:1) -- (0,0);  \node at (260:0.5) {$B$} ;
-\draw[thick,fill=blue,opacity=0.95] (0,0) -- (225:1)  arc (225:115:1) -- (0,0);  \node at (170:0.5) {$C$} ;
-\draw[thick,fill=orange,opacity=0.95] (0,0) -- (115:1)  arc (115:47.5:1) -- (0,0);  \node at (85:0.5) {$D$} ;
-\draw[thick,fill=gray,opacity=0.95] (0,0) -- (47.5:1)  arc (47.5:0:1) -- (0,0);   \node at (22:0.5) {$E$} ;
-\draw[thick] (0,0) circle (1cm);   
+| [[ 65 ]] | [[ 110 ]] | [[ 77,5 ]] | [[ 47,5 ]] | [[ 60 ]] |
 
-\end{tikzpicture}
-```
-
-***********
 
 ## GeoGebra-Aufgaben
 
