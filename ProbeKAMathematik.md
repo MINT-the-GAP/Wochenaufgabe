@@ -71,6 +71,7 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 
 **Gib** den darstellten roten Anteil vom Ganzen in der Prozentdarstellung **an**. **Gib** Periodizitäten gerundet auf zwei Nachkommastellen **an**. Falls ansonsten gerundet werden muss, **gib** zwei Nachkommastellen **an**.
 
+$a)\;\;$
 <lia-chart option="{
   tooltip: {
     trigger: 'item'
@@ -104,6 +105,7 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 
 ---
 
+$b)\;\;$
 <center>
 <svg width="400" height="100" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width="50" height="200" fill="white" stroke="black" stroke-width="1"/>
@@ -119,6 +121,94 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 
 
 --> [[ 37,5 ]] $ \% $
+
+---
+
+$c)\;\;$
+<lia-chart option="{
+  tooltip: {
+    trigger: 'item'
+  },
+  series: [
+  {
+    type: 'pie',
+    radius: '50%',
+    label: {
+      show: false
+    },
+    data: [
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } }
+    ],
+    emphasis: {
+      itemStyle: {
+        shadowBlur: 10,
+        shadowOffsetX: 0,
+        shadowColor: 'rgba(0, 0, 0, 0.5)'
+      }
+    }
+  }]
+}"></lia-chart>
+
+--> [[ 55,56 ]] $ \% $
+
+
+
+---
+
+$d)\;\;$
+<lia-chart option="{
+  tooltip: {
+    trigger: 'item'
+  },
+  series: [
+  {
+    type: 'pie',
+    radius: '50%',
+    label: {
+      show: false
+    },
+    data: [
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'lightcoral', borderColor: 'black', borderWidth: 2  } },
+      { value: 1,  itemStyle: { color: 'white', borderColor: 'black', borderWidth: 2 } }
+    ],
+    emphasis: {
+      itemStyle: {
+        shadowBlur: 10,
+        shadowOffsetX: 0,
+        shadowColor: 'rgba(0, 0, 0, 0.5)'
+      }
+    }
+  }]
+}"></lia-chart>
+
+--> [[ 56,25 ]] $ \% $
+
+<br>
+<br>
+<br>
+<br>
 
 ## Aufgabe 2
 
@@ -210,6 +300,12 @@ $c: \;\; G \cdot p_c  =44000 \cdot 0,278 = 12232  $
 $d: \;\; G \cdot p_d  =44000 \cdot 0,139 = 6116  $
 
 ***********
+
+<br>
+<br>
+<br>
+<br>
+
 
 ## Aufgabe 6
 
@@ -307,6 +403,10 @@ data-title="Wahlergebnis"
 | :-------: | :-------: | :------: | :-------: | :-------: |
 | [[ 65 ]] | [[ 110 ]] | [[ 77.5 ]] | [[ 47.5 ]] | [[ 60 ]] |
 
+<br>
+<br>
+<br>
+<br>
 
 ## GeoGebra-Aufgaben
 
@@ -322,6 +422,11 @@ data-title="Wahlergebnis"
     scrolling="no"
 ></iframe>
 </div>
+
+<br>
+<br>
+<br>
+<br>
 
 ## Random Übungen
 
