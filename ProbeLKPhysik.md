@@ -419,3 +419,24 @@ Befindet man sich dicht am Koordinatenursprung wird der Potentialunterschied bei
 <br>
 <br>
 <br>
+
+
+
+$d)\;\;$ **Beschreibe**, wie sich die Stärke der wirkenden Kraft am Graphen an unterschiedlichen Orten $r$ darstellt.  
+
+
+<br>
+
+
+
+
+[[!]]
+<script>true</script>
+***************************
+Legt man an den Graphen an einem Punkt eine Tangente an, dann erkennt man eine lineare Funktion. Die Steigung dieser linearen Funktion gibt die an dem Punkt wirkende Kraft an. (Der Wert muss natürlich noch mittels Proportionalitätskonstanten auf das Einheitensystem gebracht werden.)
+***********
+
+<br>
+<br>
+<br>
+<br>

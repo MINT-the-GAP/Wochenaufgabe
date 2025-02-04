@@ -69,7 +69,7 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 
 ## Aufgabe 1
 
-**Gib** den darstellten roten Anteil vom Ganzen in der Prozentdarstellung **an**. **Gib** Periodizitäten gerundet auf zwei Nachkommastellen **an**. Falls ansonsten gerundet werden muss, **gib** zwei Nachkomma stellen **an**.
+**Gib** den darstellten roten Anteil vom Ganzen in der Prozentdarstellung **an**. **Gib** Periodizitäten gerundet auf zwei Nachkommastellen **an**. Falls ansonsten gerundet werden muss, **gib** zwei Nachkommastellen **an**.
 
 <lia-chart option="{
   tooltip: {
