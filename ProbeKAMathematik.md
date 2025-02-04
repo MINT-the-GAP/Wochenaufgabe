@@ -43,6 +43,22 @@ import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/RE
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
+@round
+<script>
+  let value = `@input`;
+  if (value.startsWith("@")) {
+    ""
+  } else {
+    value = JSON.parse(value);
+    value = value[0]
+    value = value.replace(/,/g, ".");
+    value = parseFloat(value);
+    value = Math.round(value * Math.pow(10,@1)) / Math.pow(10,@1);
+    value == @0
+  }
+</script>
+@end
+
 -->
 
 # Probeklassenarbeit für Mathematik - Klasse 7: Prozentrechnung
@@ -85,6 +101,7 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 }"></lia-chart>
 
 --> [[ 83,33 ]] $ \% $
+@round(83.33, 2)
 
 ---
 
@@ -103,12 +120,14 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 
 
 --> [[ 37,5 ]] $ \% $
+@round(37.5, 1)
 
 ## Aufgabe 2
 
 In einer Schulklasse kommen $15$ von $24$ Schülern mit dem Fahrrad. **Berechne** den prozentualen Anteil.
 
 --> [[ 62,5 ]] $ \% $
+@round(62.5, 1)
 ***********
 
 $$ p=\dfrac{W}{G} =\dfrac{15}{24} = \dfrac{5}{8} = 62,5 \% $$
@@ -121,6 +140,7 @@ Ein Kapital von $7500$€ wurde ein Jahr zu einem Jahreszins von $2\%$ angelegt.
 **Berechne** die resultierende Geldmenge.
 
 --> [[ 7650 ]] €
+@round(7650, 2)
 ***********
 
 $$ 7500\,\text{€} \cdot 1,02 = 7650\,\text{€} $$
@@ -137,6 +157,7 @@ Die gesamte Downloaddauer beträgt $40\,$min.
 Downloading... verbleibende Zeit: $12\,$min
 
 --> [[ 70 ]] $ \% $
+@round(70, 2)
 ***********
 
 <progress value="70" max="100" style="width: 33%; scale: 3; position: relative; left: calc(100% / 3)">70%</progress>
@@ -200,6 +221,7 @@ $d: \;\; G \cdot p_d  =44000 \cdot 0,139 = 6116  $
 Ein gebrauchter PKW wurde für $12880$€ verkauft. Das waren $70\%$ des Neuwertes. **Berechne** den Neuwert des PKW in €.
 
 --> [[ 18400 ]] €
+@round(18400, 2)
 ***********
 
 $$ p = \dfrac{W}{G} \quad \left| \cdot G \right. $$
@@ -217,6 +239,7 @@ $$ 12880\,\text{€} : \dfrac{70}{100} = 12880\,\text{€} \cdot \dfrac{100}{70}
 Es wurde eine Umgehungsstraße von $3500\,$ m Länge gebaut. $ 37 \% $ der Straße sind bereits fertiggestellt. **Berechne**, wie viel Meter noch gebaut werden müssen:
 
 --> [[ 2205 ]]
+@round(2205, 2)
 ***********
 
 $$ 3500\,\text{m} \cdot (1-0,37) = 2205 \,\text{m} \qquad $$
@@ -229,6 +252,7 @@ Nach einer Mieterhöhung von $4\%$ muss eine Familie jetzt $ 883,60 $ € an Mie
 **Berechne**, wie hoch die Miete vor der Erhöhung war.
 
 --> [[ 849,615 ]] €
+@round(849.615, 2)
 ***********
 
 $$ 883,60\,\text{€} \cdot \dfrac{100}{104} = 849,615 \,\text{€} \qquad $$
@@ -240,6 +264,7 @@ $$ 883,60\,\text{€} \cdot \dfrac{100}{104} = 849,615 \,\text{€} \qquad $$
 Eine Uhr wird mit einem Nettopreis von $109,24$€ beworben, sodass noch $19\%$ Steuern beim Kauf hinzu kommen. Da nach dem Kauf ein Mangel an der Uhr festgestellt wurde, gibt der Händler dem Kunden $10\%$ vom bezahlten Preis zurück. **Berechne**, wie viel Geld der Kunde für die Uhr ausgegeben hat.
 
 --> [[ 116,996 ]] €
+@round(116.996, 2)
 ***********
 
 $$ 109,24\,\text{€} \cdot  1,19  = 129,996 \,\text{€} \qquad $$
@@ -253,6 +278,7 @@ Jedes Jahr bekommt ein Bankkunde $2\%$ Zinsen auf seine Ersparnisse. Hierbei wur
 **Berechne**, wie viel Geld sich nach drei Jahren auf dem Konto befinden.
 
 --> [[ 4669,3152 ]] €
+@round(4669.3152, 2)
 ***********
 
 $$ 4400\,\text{€} \cdot 1,02 = 4488 \,\text{€} \qquad $$
