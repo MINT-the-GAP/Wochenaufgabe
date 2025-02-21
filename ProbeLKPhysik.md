@@ -436,6 +436,153 @@ $d)\;\;$ **Beschreibe**, wie sich die Stärke der wirkenden Kraft am Graphen an 
 Legt man an den Graphen an einem Punkt eine Tangente an, dann erkennt man eine lineare Funktion. Die Steigung dieser linearen Funktion gibt die an dem Punkt wirkende Kraft an. (Der Wert muss natürlich noch mittels Proportionalitätskonstanten auf das Einheitensystem gebracht werden.)
 ***********
 
+
+
+## Aufgabe 6
+
+__$a)\;\;$__ Ein Kran hebt eine Masse von $4,5$t auf eine Höhe von $23\,$m. Berechne die potentielle Energie der Masse nach dem Anheben und gib die verrichtete Arbeit an.
+
+
+$E_{pot}=$ [[  1015335  ]] J und $W=$ [[  1015335  ]] J
+***********
+
+$$
+
+\begin{align*}
+E_{pot} & = m g h  \\
+E_{pot} & = 4500\,\text{kg} \cdot 9,81\,\dfrac{\text{m}}{\text{s}^2} 23\,\text{m} \\ 
+E_{pot} & = 1015335 \,\text{J} \\ 
+\end{align*}
+
+$$
+
+***********
+
+<br>
+
+__$b)\;\;$__ Der Kran hebt diese Masse in $72\,$s. Berechne die erbrachte Leistung.
+
+
+$P=$ [[  14101,875  ]] W
+***********
+
+$$
+
+\begin{align*}
+P & = \dfrac{\Delta E_{pot}}{t}  \\
+P & = \dfrac{1015335 \,\text{J}}{72\,\text{s}}  \\
+P & = 14101,875 \,\text{W} \\ 
+\end{align*}
+
+$$
+
+***********
+
+<br>
+
+__$c)\;\;$__ Als die Masse oben ankommt, löst sich durch eine schlechte Sicherung die Masse aus der Verankerung. Berechne die Geschwindigkeit, mit der die Masse unter der Annahme, dass kein Luftwiderstand existiert, auf dem Boden aufschlägt. Runde auf drei Nachkommastellen.
+
+$v=$ [[  21,243  ]] $\dfrac{\text{m}}{\text{s}}$
+***********
+
+$$
+
+\begin{align*}
+E_{pot} & = E_{kin}  \\
+E_{pot} & = \dfrac{1}{2} \cdot m \cdot v^2 \quad \left|  \cdot \dfrac{2}{m}  \right.  \\
+\dfrac{2 \cdot E_{pot}}{m} & =   v^2  \\
+\Rightarrow\;\;  v & =  \sqrt{\dfrac{2 \cdot E_{pot}}{m}}  \\
+v & =  \sqrt{\dfrac{2 \cdot 1015335 \,\text{J}  }{ 4500\,\text{kg} }}  \\
+v & \approx 21,243  \,\dfrac{\text{m}}{\text{s}} \\ 
+\end{align*}
+
+$$
+
+***********
+
+
+
+
+
+
+## Aufgabe 7
+
+__$a)\;\;$__ Eine elektrische Energie von $2600\,$J wurde in $40\,$s umgewandelt. Berechne die erbrachte Leistung.
+
+
+$P=$ [[  65  ]] W
+***********
+
+$$
+
+\begin{align*}
+P & = \dfrac{\Delta E_{el}}{t}  \\
+P & = \dfrac{2600 \,\text{J}}{40\,\text{s}}  \\
+P & = 65 \,\text{W} \\ 
+\end{align*}
+
+$$
+
+***********
+
+
+
+<br>
+
+
+__$b)\;\;$__ Auf einem Kaloriemeter wurde eine umgewandelte Energie von $14400\,$J gemessen, während eine konstante Leistung von $24\,$W erbracht wurde. Berechne wie lange diese Leistung erbracht wurde. Gib die Zeit in Minuten an.
+
+
+$t=$ [[  10  ]] min
+***********
+
+$$
+
+\begin{align*}
+P & = \dfrac{\Delta E}{t}  \left|  \cdot t  \right.  \\
+P t & =  \Delta E   \left|  \cdot : P  \right.  \\
+t & = \dfrac{\Delta E}{P}    \\
+t & = \dfrac{14400 \,\text{J}}{24\,\text{W}}  \\
+t & = 600 \,\text{s} \\ 
+t & = 10 \,\text{min} \\ 
+\end{align*}
+
+$$
+
+***********
+
+
+
+
+
+
+<br>
+
+
+__$c)\;\;$__ Es wurde über einen Zeitraum von $45\,$min eine Leistung von $75\,$W erbracht. Berechne den Wert der verrichteten Arbeit.
+
+
+$W=$ [[  202500  ]] J
+***********
+
+$$
+
+\begin{align*}
+P & = \dfrac{W}{t}  \left|  \cdot t  \right.  \\
+P t & =  W     \\
+W & = P t    \\
+W & = 75\,\text{J} \cdot 45\,\text{min}  \\
+W & = 75\,\text{J} \cdot 45 \cdot 60\,\text{s}  \\
+W & = 202500 \,\text{W} \\  
+\end{align*}
+
+$$
+
+***********
+
+
+<br>
+
 <br>
 <br>
 <br>
