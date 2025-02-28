@@ -226,17 +226,83 @@ $l\approx$ [[  2,729  ]] m
 $$
 \begin{align*}
   k \lambda &= g \sin \alpha  \qquad \text{mit:} \;\;   \alpha = \arctan \left(\frac{h}{l}\right)  \\
- k \lambda &= g \sin  \left( \arctan \left(\frac{h}{l}\right) \right)  \quad \left| :g \right.   \\
- \dfrac{k \lambda}{ g} &=  \sin  \left( \arctan \left(\frac{h}{l}\right) \right)     \\
-\Rightarrow\;\; \arcsin  \left(\dfrac{k \lambda}{ g} \right)  &=  \arctan \left(\frac{h}{l}\right)     \\
-\Rightarrow\;\; \tan \left( \arcsin  \left(\dfrac{k \lambda}{ g} \right) \right)  &=  \frac{h}{l}   \quad \left| \cdot l \right.     \\
-l \tan \left( \arcsin  \left(\dfrac{k \lambda}{ g} \right) \right)  &=  h   \quad \left| : \tan \left( \arcsin  \left(\dfrac{k \lambda}{ g} \right) \right) \right.     \\
-l   &=  \frac{h}{\tan \left( \arcsin  \left(\dfrac{k \lambda}{ g} \right) \right)}  \quad \text{mit:} \;\; g = \dfrac{0,02\,\text{m}}{4250}   \\
-l   & \approx  2,729 \,\text{m}  \\
+  k \lambda &= g \sin  \left( \arctan \left(\frac{h}{l}\right) \right)  \quad \left| :g \right.   \\
+  \dfrac{k \lambda}{ g} &=  \sin  \left( \arctan \left(\frac{h}{l}\right) \right)     \\
+  \Rightarrow\;\; \arcsin  \left(\dfrac{k \lambda}{ g} \right)  &=  \arctan \left(\frac{h}{l}\right)     \\
+  \Rightarrow\;\; \tan \left( \arcsin  \left(\dfrac{k \lambda}{ g} \right) \right)  &=  \frac{h}{l}   \quad \left| \cdot l \right.     \\
+  l \tan \left( \arcsin  \left(\dfrac{k \lambda}{ g} \right) \right)  &=  h   \quad \left| : \tan \left( \arcsin  \left(\dfrac{k \lambda}{ g} \right) \right) \right.     \\
+  l   &=  \frac{h}{\tan \left( \arcsin  \left(\dfrac{k \lambda}{ g} \right) \right)}  \quad \text{mit:} \;\; g = \dfrac{0,02\,\text{m}}{4250}   \\
+  l   & \approx  2,729 \,\text{m}  \\
 \end{align*}
 $$
 
 ***********
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+## Aufgabe 6
+
+Unter der Berücksichtigung des Snellius'schen Gesetzes verändert sich der Winkel zum Lot eines Lichtstrahls, wenn dieser in ein dichteres Medium eindringt. Der Lichtstrahl wechselt vom optisch dünnerem Medium Luft $n_{\alpha}=1$ in ein optisch dickeres Medium mit dem Berechungsindex $n_2=2,420$. **Berechne** gerundet auf drei Nachkommastellen den Winkel im optischen dickerem Medium, wenn der Einfallswinkel $\alpha=42^\circ$ beträgt.
+
+
+<br>
+
+$\beta \approx$ [[  16,051  ]] $^\circ$
+***********
+$$
+\begin{align*}
+  \dfrac{\sin(\alpha)}{\sin(\beta)} & = \dfrac{n_{\alpha}}{n_{\beta}}   \\
+  \dfrac{\sin(\beta)}{\sin(\alpha)} & = \dfrac{n_{\beta}}{n_{\alpha}}  \left|  \cdot \sin(\alpha)  \right. \\
+  \sin(\beta) & = \dfrac{n_{\beta}}{n_{\alpha}} \sin(\alpha)   \\
+\Rightarrow\;\;  \beta & = \arcsin \left( \dfrac{n_{\beta}}{n_{\alpha}} \sin(\alpha) \right)   \\
+  \beta & = \arcsin \left( \dfrac{ 1 }{ 2,420 } \sin(42^\circ) \right)   \\
+  \beta & \approx 16,051^\circ   \\
+\end{align*}
+$$
+
+***********
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+## Aufgabe 7
+
+
+**Erkläre** anhand der Abbildung, wie bei dünnen Schichten von Medien es zur Interenz durch die Lichtstrahlen 1 und 3 kommen kann.
+
+<center>
+
+![Scnellius](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/Snellius.jpg)
+
+</center>
+
+
+
+[[!]]
+<script>true</script>
+************
+
+Da ein Teil des Lichts innerhalb des Mediums reflektiert wird, kann der Weg des Lichtstrahls 3 beschrieben werden. Da der Lichtstrahl 1 und 3 somit unterschiedliche Wege zurücklegen, kann es nur zur einer konstruktiven Interferenz kommen, wenn Wellenberg auf Wellenberg trifft. Dazu muss die Mediumsdicke $d$ klein genug sein, sodass sich die Lichtstrahlen mit ihren Divergenzwinkeln überlagern. Ist dies gegeben, muss der passende Einfallswinkel gefunden werden, sodass Wellenberg auf Wellenberg trotz Wegunterschied trifft.
+
+
+************
 
 
 <br>
