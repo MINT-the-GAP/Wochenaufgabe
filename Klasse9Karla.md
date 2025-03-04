@@ -50,7 +50,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts.
 
-Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst.
+Diese Datei ist für dich, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst.
 
 ## Aufgabe 1
 
@@ -67,6 +67,7 @@ $$
  & a)\;\; x = 720\,\text{m} \;\;\;\wedge\;\;\; t = 18\,\text{s}
 \end{align*} 
 $$
+
 
 </div>
 
