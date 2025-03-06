@@ -45,7 +45,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 -->
 
-# Zusätzliche Übungsaufgaben
+# Klausurähnliche Aufgaben zum Üben
 
 
 Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts.
@@ -58,9 +58,6 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 **Berechne** das Skalarprodukt der gegebenen Vektoren.
 
 
-<section class="flex-container">
-
-<div class="flex-child">
 
 
 $$
@@ -71,9 +68,6 @@ $$
 
 $\vec{a} \circ \vec{b} = $ [[  -13  ]] 
 
-</div>
-
-<div class="flex-child">
 
 $$
 \begin{align*}     
@@ -83,9 +77,6 @@ $$
 
 $\vec{a} \circ \vec{b} = $ [[  30   ]] 
 
-</div>
-
-<div class="flex-child">
 
 $$
 \begin{align*}     
@@ -94,10 +85,6 @@ $$
 $$
 
 $\vec{a} \circ \vec{b} = $ [[  47   ]] 
-
-</div>
-
-</section>
 
 
 <br>
@@ -120,9 +107,6 @@ $\vec{a} \circ \vec{b} = $ [[  47   ]]
 **Berechne** das Vektorprodukt der gegebenen Vektoren. Gib die Werte Komponentenweise an.
 
 
-<section class="flex-container">
-
-<div class="flex-child">
 
 $$
 \begin{align*}     
@@ -136,10 +120,6 @@ $x_1=$[[  1   ]] \
 $x_2=$[[  26  ]] \
 $x_3=$[[  16  ]] 
 
-</div>
-
-<div class="flex-child">
-
 $$
 \begin{align*}     
  & b)\;\; \vec{a} = \left( \begin{array}{c} -2 \\ 6 \\ 5 \end{array} \right) \;\;\;\wedge\;\;\; \vec{b} = \left( \begin{array}{c} 1 \\ 7 \\ -2 \end{array} \right)
@@ -152,9 +132,6 @@ $x_1=$[[  -47  ]] \
 $x_2=$[[   1   ]] \
 $x_3=$[[  -20  ]] 
 
-</div>
-
-<div class="flex-child">
 
 $$
 \begin{align*}     
@@ -167,10 +144,6 @@ $\vec{a} \times \vec{b} = \left( \begin{array}{c} x_1 \\ x_2 \\ x_3 \end{array} 
 $x_1=$[[  -44  ]] \
 $x_2=$[[  -2   ]] \
 $x_3=$[[  -37  ]] 
-
-</div>
-
-</section>
 
 
 <br>
@@ -231,6 +204,39 @@ $$
 $$
 \begin{align*}     
  & E: \vec{x} = \left( \begin{array}{c} -3 \\ -2 \\ 5 \end{array} \right) + \lambda \left( \begin{array}{c} 4 \\ 3 \\ -1 \end{array} \right) + \mu \left( \begin{array}{c} 6 \\ 0 \\ -4 \end{array} \right)
+\end{align*} 
+$$
+***********
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+## Aufgabe 5
+
+
+Gegeben sei die Ebenengleichung $E: \vec{x} = \left( \begin{array}{c} -2 \\ 4 \\ -3 \end{array} \right) + \lambda \left( \begin{array}{c} 2 \\ 2 \\ 5 \end{array} \right) + \mu \left( \begin{array}{c} -2 \\ 1 \\ 3 \end{array} \right)$. **Gib** eine orthogonale Geradengleichung **an**, die durch den selben Aufpunkt verläuft.
+
+
+[[!]]
+<script>true</script>
+***************************
+$$
+\begin{align*}     
+  \left( \begin{array}{c} 2 \\ 2 \\ 5 \end{array} \right) \times \left( \begin{array}{c} -2 \\ 1 \\ 3 \end{array} \right) & = \left( \begin{array}{c} 1 \\ -16 \\ 6 \end{array} \right) 
+ \Rightarrow\;\; g: \vec{x} &= \left( \begin{array}{c} -2 \\ 4 \\ -3 \end{array} \right) + \rho \left( \begin{array}{c} 1 \\ -16 \\ 6 \end{array} \right) 
 \end{align*} 
 $$
 ***********
