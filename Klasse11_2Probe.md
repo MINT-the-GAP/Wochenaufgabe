@@ -254,3 +254,137 @@ $$
 <br>
 <br>
 <br>
+
+
+
+
+
+## Aufgabe 6
+
+
+**Entscheide**, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt.
+<br>
+
+- [[Vektor]       (Skalar)    [nicht definiert]]
+- [    [X]           [ ]             [ ]     ]  $$ \vec{r} \cdot \left( \vec{n} \circ \vec{s}\right) $$
+- [    ( )           (X)             ( )     ]  $$ \lambda{\vec{d}}^{\,2} \cdot \left|\vec{k}\right| $$
+- [    [ ]           [ ]             [X]     ]  $$ \left|\vec{a}\right| \times s \cdot \vec{b} $$
+- [    ( )           (X)             ( )     ]  $$ \left( \vec{z} \times \lambda\vec{x}\right) \circ \vec{c} $$
+- [    [ ]           [ ]             [X]     ]  $$ \dfrac{\vec{u}-\mu \vec{v}}{\vec{u}+\vec{v}} $$
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+## Aufgabe 7
+
+
+Gegeben seien der Punkt $A(2|0|1)$ sowie die Vektoren $\stackrel{\longrightarrow}{BC} = \left( \begin{array}{c} 1 \\ 4 \\ -3 \end{array} \right)$ und $\stackrel{\longrightarrow}{BD} = \left( \begin{array}{c} 5 \\ 1 \\ 4 \end{array} \right)$, welche ein Parallelogramm beschrieben.
+
+
+
+<br>
+
+**$a)\;\;$** Bestimme die Koordinaten der drei fehlenden Eckpunkte.
+
+$B($[[  -2 ]]$|$[[  3  ]]$|$[[  -6 ]]$)$ \
+$C($[[  -1 ]]$|$[[  7  ]]$|$[[  -9 ]]$)$ \
+$D($[[  3  ]]$|$[[  4  ]]$|$[[  -2 ]]$)$ 
+***************************
+$$
+\begin{align*}
+ \stackrel{\longrightarrow}{0D} & = \stackrel{\longrightarrow}{0A} + \stackrel{\longrightarrow}{BC} = \left( \begin{array}{c} 2 \\ 0 \\ 1 \end{array} \right) + \left( \begin{array}{c} 1 \\ 4 \\ -3 \end{array} \right) = \left( \begin{array}{c} 3 \\ 4 \\ -2 \end{array} \right) \\
+ \stackrel{\longrightarrow}{0B} & = \stackrel{\longrightarrow}{0D} - \stackrel{\longrightarrow}{BD} = \left( \begin{array}{c} 3 \\ 4 \\ -2 \end{array} \right) - \left( \begin{array}{c} 5 \\ 1 \\ 4 \end{array} \right) = \left( \begin{array}{c} -2 \\ 3 \\ -6 \end{array} \right) \\
+ \stackrel{\longrightarrow}{0C} & = \stackrel{\longrightarrow}{0B} + \stackrel{\longrightarrow}{BC} = \left( \begin{array}{c} -2 \\ 3 \\ -6 \end{array} \right) + \left( \begin{array}{c} 1 \\ 4 \\ -3 \end{array} \right) = \left( \begin{array}{c} -1 \\ 7 \\ -9 \end{array} \right) \\
+\end{align*}
+$$
+***********
+
+<br>
+
+**$b)\;\;$** Bestimme den Schwerpunkt des Parallelogramms.
+
+$S($[[ 0,5 ]]$|$[[ 3,5 ]]$|$[[  -4 ]]$)$ 
+***************************
+$$
+\begin{align*}
+   \stackrel{\longrightarrow}{0S} & = \stackrel{\longrightarrow}{0D} - \dfrac{1}{2}\stackrel{\longrightarrow}{BD} = \left( \begin{array}{c} 3 \\ 4 \\ -2 \end{array} \right) - \dfrac{1}{2} \left( \begin{array}{c} 5 \\ 1 \\ 4 \end{array} \right) = \left( \begin{array}{c} 0,5 \\ 3,5 \\ -4 \end{array} \right) \\
+\end{align*}
+$$
+***********
+
+<br>
+
+**$c)\;\;$** Bestimme den Umfang des Parallelogramms. Runde den Wert auf drei Nachkommastellen.
+
+$u=$ [[  27,403  ]]$LE$ 
+***************************
+$$
+\begin{align*}
+   \left| \stackrel{\longrightarrow}{BC} \right| &=\left|  \left( \begin{array}{c} 1 \\ 4 \\ -3 \end{array} \right) \right| = \sqrt{1^2+4^2+3^2} \approx 5,099 \,\text{LE} \\
+   \left| \stackrel{\longrightarrow}{AB} \right| &=\left| \left( \begin{array}{c} -4 \\ 3 \\ -7 \end{array} \right) \right| = \sqrt{4^2+3^2+7^2} \approx 8,602 \,\text{LE} \\
+   u & = 2 \cdot \left| \stackrel{\longrightarrow}{BC} \right| + 2 \cdot \left| \stackrel{\longrightarrow}{AB} \right| \approx 27,403 \,\text{LE}
+\end{align*}
+$$
+***********
+
+
+
+<br>
+
+**$d)\;\;$** Bestimme den Flächeninhalt des Parallelogramms. Runde den Wert auf drei Nachkommastellen.
+
+$A=$ [[  32,909  ]]$LE$ 
+***************************
+$$
+\begin{align*}
+  A & =  \left| \stackrel{\longrightarrow}{BC} \times \stackrel{\longrightarrow}{AB} \right| = \left|  \left( \begin{array}{c} 19 \\ -19 \\ 19 \end{array} \right) \right|  \approx 32,909 \,\text{LE}
+\end{align*}
+$$
+***********
+
+
+
+<br>
+
+**$e)\;\;$** Bestimme die Winkel des Parallelogramms. Runde den Wert auf drei Nachkommastellen.
+
+$\varphi_{\text{klein}}=$ [[   41,387  ]]$^\circ$ \
+$\varphi_{\text{groß}}=$ [[  138,613  ]]$^\circ$ 
+***************************
+$$
+\begin{align*}
+   \stackrel{\longrightarrow}{BC} \circ \stackrel{\longrightarrow}{AB} & = \left| \stackrel{\longrightarrow}{BC}\right|  \left|\stackrel{\longrightarrow}{AB} \right| \sin(\varphi) \\
+   \Rightarrow\;\; \varphi & = \arcsin \left( \dfrac{\stackrel{\longrightarrow}{BC} \circ \stackrel{\longrightarrow}{AB}}{\left| \stackrel{\longrightarrow}{BC}\right|  \left|\stackrel{\longrightarrow}{AB} \right|}  \right) \approx 41,387^\circ \\
+   \varphi_{\text{groß}} & = 180^\circ - 41,387^\circ \approx 138,613^\circ 
+\end{align*}
+$$
+***********
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
