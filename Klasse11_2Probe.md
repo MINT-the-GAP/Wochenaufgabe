@@ -49,7 +49,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 > Letztes Update am 08.03.2025 gegen 18 Uhr
 
-Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts.
+Swipe (Wische) entweder weiter oder klicke unten links neben der Seitenzahl auf den Pfeil nach rechts.
 
 Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum Üben hast. Es sind viele verschiedene Aufgabentypen abgebildet, sodass du alles nochmal bei der Bearbeitung dieser Aufgaben wiederholst.
 
