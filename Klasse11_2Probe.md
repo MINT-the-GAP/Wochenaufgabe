@@ -45,7 +45,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 -->
 
-# Klausurähnliche Aufgaben zum Üben
+# Klausurähnliche Aufgaben - Mathematik 11/2
 
 > Letztes Update am 08.03.2025 gegen 18 Uhr
 
@@ -456,7 +456,7 @@ $$
 
 <br>
 
-__$b)\;\;$__ $ \frac{3}{5}x^6 + \frac{5}{4}x^3+x $
+__$b)\;\;$__ $ g(x) = \frac{3}{5}x^6 + \frac{5}{4}x^3+x $
 
 [[!]]
 <script>true</script>
