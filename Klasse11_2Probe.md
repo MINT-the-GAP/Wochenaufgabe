@@ -47,7 +47,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 # Klausurähnliche Aufgaben - Mathematik 11/2
 
-> Letztes Update am 08.03.2025 gegen 18 Uhr
+> Letztes Update am 22.03.2025 gegen 18 Uhr
 
 Swipe (Wische) entweder weiter oder klicke unten links neben der Seitenzahl auf den Pfeil nach rechts.
 
@@ -366,14 +366,14 @@ $$
 
 **$e)\;\;$** Bestimme die Winkel des Parallelogramms. Runde den Wert auf drei Nachkommastellen.
 
-$\varphi_{\text{klein}}=$ [[   41,387  ]]$^\circ$ \
-$\varphi_{\text{groß}}=$ [[  138,613  ]]$^\circ$ 
+$\varphi_{\text{klein}}=$ [[   48,611  ]]$^\circ$ \
+$\varphi_{\text{groß}}=$ [[  131,389  ]]$^\circ$ 
 ***************************
 $$
 \begin{align*}
-   \stackrel{\longrightarrow}{BC} \circ \stackrel{\longrightarrow}{AB} & = \left| \stackrel{\longrightarrow}{BC}\right|  \left|\stackrel{\longrightarrow}{AB} \right| \sin(\varphi) \\
-   \Rightarrow\;\; \varphi & = \arcsin \left( \dfrac{\stackrel{\longrightarrow}{BC} \circ \stackrel{\longrightarrow}{AB}}{\left| \stackrel{\longrightarrow}{BC}\right|  \left|\stackrel{\longrightarrow}{AB} \right|}  \right) \approx 41,387^\circ \\
-   \varphi_{\text{groß}} & = 180^\circ - 41,387^\circ \approx 138,613^\circ 
+   \stackrel{\longrightarrow}{BC} \circ \stackrel{\longrightarrow}{AB} & = \left| \stackrel{\longrightarrow}{BC}\right|  \left|\stackrel{\longrightarrow}{AB} \right| \cos(\varphi) \\
+   \Rightarrow\;\; \varphi & = \arccos \left( \dfrac{\stackrel{\longrightarrow}{BC} \circ \stackrel{\longrightarrow}{AB}}{\left| \stackrel{\longrightarrow}{BC}\right|  \left|\stackrel{\longrightarrow}{AB} \right|}  \right) \approx 48,611^\circ \\
+   \varphi_{\text{groß}} & = 180^\circ - 48,611^\circ \approx 131,389^\circ 
 \end{align*}
 $$
 ***********
@@ -655,6 +655,107 @@ $$
 </center>
 
 ***********
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+## Aufgabe 11
+
+
+Gegeben seien der Punkte $D(4|-2|6)$ und $B(3|6|-1)$ sowie der Vektor $\stackrel{\longrightarrow}{AC} = \left( \begin{array}{c} 7 \\ 3 \\ -4 \end{array} \right)$, welche ein Parallelogramm beschrieben.
+
+
+
+<br>
+
+**$a)\;\;$** Bestimme die Koordinaten der zwei fehlenden Eckpunkte.
+
+$A($[[  1   ]]$|$[[  0,5 ]]$|$[[  5,5 ]]$)$ \
+$C($[[  7   ]]$|$[[  3,5 ]]$|$[[ -0,5 ]]$)$ 
+***************************
+$$
+\begin{align*}
+\stackrel{\longrightarrow}{DB} & = \stackrel{\longrightarrow}{0B} - \stackrel{\longrightarrow}{0D} = \left( \begin{array}{c} 3 \\ 6 \\ -1 \end{array} \right) - \left( \begin{array}{c} 4 \\ -2 \\ 6 \end{array} \right) = \left( \begin{array}{c} -1 \\ 8 \\ -7 \end{array} \right) \\
+ \stackrel{\longrightarrow}{0C} & = \stackrel{\longrightarrow}{0D} + \dfrac{1}{2} \stackrel{\longrightarrow}{DB}  + \dfrac{1}{2} \stackrel{\longrightarrow}{AC}  = \left( \begin{array}{c} 4 \\ -2 \\ 6 \end{array} \right) + \dfrac{1}{2} \left( \begin{array}{c} -1 \\ 8 \\ -7 \end{array} \right) + \dfrac{1}{2} \left( \begin{array}{c} 7 \\ 3 \\ -4  \end{array} \right) = \left( \begin{array}{c} 7 \\ 3,5 \\ -0,5 \end{array} \right) \\ 
+ \stackrel{\longrightarrow}{0A} & = \stackrel{\longrightarrow}{0D} + \dfrac{1}{2} \stackrel{\longrightarrow}{DB}  - \dfrac{1}{2} \stackrel{\longrightarrow}{AC}  = \left( \begin{array}{c} 4 \\ -2 \\ 6 \end{array} \right) + \dfrac{1}{2} \left( \begin{array}{c} -1 \\ 8 \\ -7 \end{array} \right) - \dfrac{1}{2} \left( \begin{array}{c} 7 \\ 3 \\ -4  \end{array} \right) = \left( \begin{array}{c} 1 \\ 0,5 \\ 5,5 \end{array} \right) \\ 
+\end{align*}
+$$
+***********
+
+<br>
+
+**$b)\;\;$** Bestimme den Schwerpunkt des Parallelogramms.
+
+$S($[[ 3,5 ]]$|$[[  2  ]]$|$[[ 2,5 ]]$)$ 
+***************************
+$$
+\begin{align*}
+ \stackrel{\longrightarrow}{0S} & = \stackrel{\longrightarrow}{0D} + \dfrac{1}{2} \stackrel{\longrightarrow}{DB}   = \left( \begin{array}{c} 4 \\ -2 \\ 6 \end{array} \right) + \dfrac{1}{2} \left( \begin{array}{c} -1 \\ 8 \\ -7 \end{array} \right)  = \left( \begin{array}{c} 3,5 \\ 2 \\ 2,5 \end{array} \right) \\ 
+\end{align*}
+$$
+***********
+
+<br>
+
+**$c)\;\;$** Bestimme den Umfang des Parallelogramms. Runde den Wert auf drei Nachkommastellen.
+
+$u=$ [[  25,367  ]]$LE$ 
+***************************
+$$
+\begin{align*}
+\stackrel{\longrightarrow}{AB} & = \stackrel{\longrightarrow}{0B} - \stackrel{\longrightarrow}{0A} = \left( \begin{array}{c} 3 \\ 6 \\ -1 \end{array} \right) - \left( \begin{array}{c} 1 \\ 0,5 \\ 5,5 \end{array} \right) = \left( \begin{array}{c} 2 \\ 5,5 \\ -6,5 \end{array} \right) \\
+\stackrel{\longrightarrow}{AD} & = \stackrel{\longrightarrow}{0D} - \stackrel{\longrightarrow}{0A} = \left( \begin{array}{c} 4 \\ -2 \\ 6 \end{array} \right) - \left( \begin{array}{c} 1 \\ 0,5 \\ 5,5 \end{array} \right) = \left( \begin{array}{c} 3 \\ -2,5 \\ 0,5 \end{array} \right) \\
+   \left| \stackrel{\longrightarrow}{BC} \right| &=\left|  \left( \begin{array}{c} 2 \\ 5,5 \\ -6,5 \end{array} \right) \right| = \sqrt{2^2+5,5^2+6,5^2} \approx 8,746 \,\text{LE} \\
+   \left| \stackrel{\longrightarrow}{AB} \right| &=\left| \left( \begin{array}{c} 3 \\ -2,5 \\ 0,5 \end{array} \right) \right| = \sqrt{3^2+2,5^2+0,5^2} \approx 3,937 \,\text{LE} \\
+   u & = 2 \cdot \left| \stackrel{\longrightarrow}{BC} \right| + 2 \cdot \left| \stackrel{\longrightarrow}{AB} \right| \approx 25,367 \,\text{LE}
+\end{align*}
+$$
+***********
+
+
+
+<br>
+
+**$d)\;\;$** Bestimme den Flächeninhalt des Parallelogramms. Runde den Wert auf drei Nachkommastellen.
+
+$A=$ [[  32,631  ]]$LE$ 
+***************************
+$$
+\begin{align*}
+  A & =  \left| \stackrel{\longrightarrow}{BC} \times \stackrel{\longrightarrow}{AB} \right| = \left|  \left( \begin{array}{c} -13,5 \\ -20,5 \\ -21,5 \end{array} \right) \right|  \approx 32,631 \,\text{LE}
+\end{align*}
+$$
+***********
+
+
+
+<br>
+
+**$e)\;\;$** Bestimme die Winkel des Parallelogramms. Runde den Wert auf drei Nachkommastellen.
+
+$\varphi_{\text{klein}}=$ [[   71,371  ]]$^\circ$ \
+$\varphi_{\text{groß}}=$ [[  108,629  ]]$^\circ$ 
+***************************
+$$
+\begin{align*}
+   \stackrel{\longrightarrow}{BC} \circ \stackrel{\longrightarrow}{AB} & = \left| \stackrel{\longrightarrow}{BC}\right|  \left|\stackrel{\longrightarrow}{AB} \right| \cos(\varphi) \\
+   \Rightarrow\;\; \varphi & = \arccos \left( \dfrac{\stackrel{\longrightarrow}{BC} \circ \stackrel{\longrightarrow}{AB}}{\left| \stackrel{\longrightarrow}{BC}\right|  \left|\stackrel{\longrightarrow}{AB} \right|}  \right) \approx 108,629^\circ \\
+   \varphi_{\text{groß}} & = 180^\circ - 108,629^\circ \approx 71,371^\circ 
+\end{align*}
+$$
+***********
+
 
 <br>
 <br>
