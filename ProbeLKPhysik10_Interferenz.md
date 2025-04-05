@@ -41,7 +41,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 -->
 
-# Probeleistungskontrolle für Physik - Klasse 12: Wellenoptik
+# Probeleistungskontrolle für Physik - Klasse 10: Wellenoptik
 
 <br>
 
