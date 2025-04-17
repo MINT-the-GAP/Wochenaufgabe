@@ -45,7 +45,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 <br>
 
-> Letztes Update wurde am 17.04.2025 um 19:32 Uhr hochgeladen.
+> Letztes Update wurde am 17.04.2025 um 20:06 Uhr hochgeladen.
 
 <br>
 
@@ -168,6 +168,10 @@ __$e)\;\;$__ Wenn die Objekte als Autos angesehen werden würden, mit welcher Ge
 __$f)\;\;$__ Welches Objekt hat die größte Beschleunigung? \
 [[   F   ]] 
 
+
+
+__$g)\;\;$__ Wie groß ist die Beschleunigung von $B$ im letzten Segment? \
+[[  0,5  ]] $\dfrac{\text{m}}{\text{s}^2}$
 
 
 <br>
@@ -466,6 +470,86 @@ $$
 </center>
 
 ***********
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Aufgabe 3
+
+
+Ein Autofahrer ist in seinem SUV mit einer Geschwindigkeit von $175\,\dfrac{\text{km}}{\text{h}}$ unterwegs.\
+
+__$a)\;\;$__ Der Fahrer besitzt eine Reaktionszeit von $0,7\,$s. **Berechne**, wie weit der SUV sich fortbewegt, bevor eine Bremsung beginnen kann. (Runde auf drei Nachkommastellen.) \
+
+
+$x_R(t) \approx$ [[  34,029  ]] m
+***********
+$$
+\begin{align*}
+   x_R(t) & = v t = 175 \frac{\text{km}}{\text{h}} \cdot 0,7\,\text{s} = 175 \dfrac{\text{1000m}}{\text{3600s}}  \cdot 0,7\,\text{s} \approx 34,029 \,\text{m}   \\
+\end{align*}
+$$
+***********
+
+
+<br>
+<br>
+__$b)\;\;$__ Die Bremsen des SUV haben eine Beschleunigung von $4,1\,\dfrac{\text{m}}{\text{s}^2}$. **Berechne** die Bremsdauer. (Runde auf drei Nachkommastellen.)  \
+
+
+
+$t_B \approx$ [[  11,856  ]] s
+***********
+$$
+\begin{align*}
+   v(t) & = a t + v_0  \quad \left|  -v_0  \right.  \\
+   v(t) - v_0 & = a t     \quad \left|  : a  \right.  \\
+   \dfrac{v(t) - v_0}{a} & =  t    \\
+   \dfrac{0 \frac{\text{m}}{\text{s}} - 175 \dfrac{\text{1000m}}{\text{3600s}}}{- 4,1\,\dfrac{\text{m}}{\text{s}^2}} & =  t \approx 11,856\,\text{s}   \\
+\end{align*}
+$$
+***********
+
+
+<br>
+<br>
+__$c)\;\;$__ **Berechne** den Bremsweg des SUVs. (Runde auf drei Nachkommastellen.) \
+
+
+$x_B(t) \approx$ [[  288,176  ]] m
+***********
+$$
+\begin{align*}
+   x_B(t) & = \dfrac{1}{2}at^2 + v t \\
+   x_B(t) & = \dfrac{1}{2} \cdot \left( - 4,1\,\dfrac{\text{m}}{\text{s}^2} \right) \cdot (11,856\,\text{s})^2 + 175 \dfrac{\text{1000m}}{\text{3600s}}  \cdot 11,856\,\text{s} \\
+   x_B(t) & \approx 288,176 \,\text{m}   \\
+\end{align*}
+$$
+***********
+
+
+<br>
+<br>
+__$d)\;\;$__ **Berechne** den Anhalteweg des SUVs. (Runde auf drei Nachkommastellen.) \
+
+
+$x_A(t) \approx$ [[  322,203  ]] m
+***********
+$$
+\begin{align*}
+   x_A(t) & = x_B(t) + x_R(t) \approx 322,203 \,\text{m} \\
+\end{align*}
+$$
+***********
+
 
 <br>
 <br>
