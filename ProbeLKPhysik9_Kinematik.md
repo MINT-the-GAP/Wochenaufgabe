@@ -45,7 +45,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 <br>
 
-> Letztes Update wurde am 18.04.2025 um 11:36 Uhr hochgeladen.
+> Letztes Update wurde am 18.04.2025 um 19:28 Uhr hochgeladen.
 
 <br>
 
@@ -576,6 +576,61 @@ $$
 $$
 ***********
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Aufgabe 4
+
+Auf einem Flugzeugträger fährt ein Matrose mit einer Geschwindigkeit von $14\,\dfrac{\text{km}}{h}$ zur Oberfläche des Decks entgegen der Fahrtrichtung des Schiffs. Der Flugzeugträger fährt mit einer Geschwindigkeit von $32\,\dfrac{\text{km}}{h}$ zur Wasseroberfläche, während dem Schiff ein Motorboot mit einer Geschwindigkeit von $45\,\dfrac{\text{km}}{h}$ zum Schiff entgegen kommt. 
+**Berechne** die Geschwindigkeit des Motorboots aus der Sicht des Fahrradfahrers. \
+
+
+[[   5   ]] $\dfrac{\text{km}}{\text{h}}$
+***********
+$$
+\begin{align*}
+   32\,\dfrac{\text{km}}{h} - 14\,\dfrac{\text{km}}{h} = 18\,\dfrac{\text{km}}{h} \\
+   45\,\dfrac{\text{km}}{h} - 32\,\dfrac{\text{km}}{h} = 13\,\dfrac{\text{km}}{h} \\
+   18\,\dfrac{\text{km}}{h} - 13\,\dfrac{\text{km}}{h} = 5\,\dfrac{\text{km}}{h} \\
+\end{align*}
+$$
+***********
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Aufgabe 5
+
+Ein Fluss besitzt eine Fließgeschwindigkeit von $7\,\dfrac{\text{km}}{h}$ zur Erde. Aus dem Fluss rudert ein Mensch mit einer Geschwindigkeit von $11\,\dfrac{\text{km}}{h}$ in Richtung der Fließgeschindigkeit des Flusses, während auf dem Deich ein Jogger mit $8\,\dfrac{\text{km}}{h}$ zum Boden entgegen der Fließrichtung läuft.  
+**Berechne** die Geschwindigkeit des Joggers aus der Sicht des Ruderers. \
+
+
+[[   26  ]] $\dfrac{\text{km}}{\text{h}}$
+***********
+$$
+\begin{align*}
+   7\,\dfrac{\text{km}}{h} + 11\,\dfrac{\text{km}}{h} = 18\,\dfrac{\text{km}}{h} \\
+   18\,\dfrac{\text{km}}{h} + 8\,\dfrac{\text{km}}{h} = 26\,\dfrac{\text{km}}{h} \\
+\end{align*}
+$$
+***********
 
 <br>
 <br>
