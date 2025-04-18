@@ -45,7 +45,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 <br>
 
-> Letztes Update wurde am 17.04.2025 um 20:06 Uhr hochgeladen.
+> Letztes Update wurde am 18.04.2025 um 11:36 Uhr hochgeladen.
 
 <br>
 
@@ -124,7 +124,7 @@ Im folgenden Koordinatensystem wurden die Bewegungen von einigen Objekten darste
 
 	\draw[ultra thick,color=blue, ] plot[samples=100, domain=0:3] (\x, { \x*2.5   } ) node[right] {$$}; 
 	\draw[ultra thick,color=blue, ] plot[samples=100, domain=3:4.5] (\x, {7.5 } ) node[right] {$$}; 
-	\draw[ultra thick,color=blue, ] plot[samples=100, domain=4.5:8] (\x, {  -1/9*(\x - 4.5)*(\x - 4.5) + 7.5   } ) node[right]  {$C$};  
+	\draw[ultra thick,color=blue, ] plot[samples=100, domain=4.5:8] (\x, {  -1/8*(\x - 4.5)*(\x - 4.5) + 7.5   } ) node[right]  {$C$};  
 
 	\draw[ultra thick,color=purple, ] plot[samples=100, domain=0:6.6666] (\x, {  \x*\x/10+3.5 } ) node[above] {$D$};   
 
@@ -133,6 +133,12 @@ Im folgenden Koordinatensystem wurden die Bewegungen von einigen Objekten darste
 	\draw[ultra thick,color=orange, ] plot[samples=100, domain=2.5:4] (\x, {\x*1.66666666 - 4.16666666666 } ) node[right] {$$};
 	\draw[ultra thick,color=orange, ] plot[samples=100, domain=4:6] (\x, { 2.5 } ) node[right] {$$};
 	\draw[ultra thick,color=orange, ] plot[samples=100, domain=6:8] (\x, { 1/2*(\x - 6)*(\x - 6) + 2.5 } ) node[right] {$F$};  
+
+  
+
+	\draw[ultra thick,color=green, ] plot[samples=100, domain=2:4] (\x, {\x*3/4 - 1.5 } ) node[right] {$$};  
+	\draw[ultra thick,color=green, ] plot[samples=100, domain=4:5] (\x, {\x*4 - 14.5 } ) node[right] {$$};  
+	\draw[ultra thick,color=green, ] plot[samples=100, domain=5:8] (\x, {\x*4/5 + 1.5 } ) node[right] {$G$};  
     
 \end{tikzpicture}
 ```
@@ -172,6 +178,26 @@ __$f)\;\;$__ Welches Objekt hat die größte Beschleunigung? \
 
 __$g)\;\;$__ Wie groß ist die Beschleunigung von $B$ im letzten Segment? \
 [[  0,5  ]] $\dfrac{\text{m}}{\text{s}^2}$
+
+
+__$h)\;\;$__ Wie groß ist der größte Betrag der Geschwindigkeit von $G$? \
+[[   4   ]] $\dfrac{\text{m}}{\text{s}}$
+
+
+__$i)\;\;$__ Welche Geschwindigkeit besitzt das Objekt $F$ zum Zeitpunkt $t=7\,$s? \
+
+[[   1   ]] $\dfrac{\text{m}}{\text{s}}$
+[[?]] Skizziere eine Tangente an der Stelle der des Graphens. Die Tangente beschreibt die momentane Geschwindigkeit.
+
+
+
+__$j)\;\;$__ Wie groß ist der Betrag der Beschleunigung von $C$ im letzten Segment? \
+[[  0,25  ]] $\dfrac{\text{m}}{\text{s}^2}$
+
+
+
+__$k)\;\;$__ Wie groß ist der Betrag der Beschleunigung von $D$? \
+[[  0,2   ]] $\dfrac{\text{m}}{\text{s}^2}$
 
 
 <br>
@@ -559,6 +585,165 @@ $$
 <br>
 <br>
 <br>
+<br>
+<br>
+
+# Herausforderungsaufgabe 
+
+> Diese Aufgabe stellt eine kleine Herausforderung da. Solltest du diese Aufgabe lösen können, sollte dich in der Leistungskontrolle kaum noch was überraschen können. 
+
+
+<br>
+
+Bei einem Überholmanöver muss das dahinterliegende Fahrzeug die Geschwindigkeit erhöhen, es darf den Sicherheitsabstand von $10\,$m nicht unterschreiten und nicht schneller als die maximale Geschwindigkeitsbegrenzung werden. \
+
+
+<br>
+<br>
+
+__$a)\;\;$__ Lies die weiteren Aufgabenteile und **skizziere** den Überholvorgang. \
+
+
+[[!]]
+<script>true</script>
+***********
+
+<center>
+
+```latex  @tikz
+\begin{tikzpicture}[scale=1,>=latex]       
+
+\draw[ultra thick, white] (-1,3) -- (-1,3) ;
+\draw[ultra thick, white] (-1,-1) -- (-1,-1) ;
+\draw[ultra thick, white] (13,3) -- (13,3) ;
+
+\draw[ultra thick] (0,0) -- (2,0) node[midway, below] {$l_1=4,5\,\text{m}$} -- (2,1) -- (0,1) -- (0,0) ;
+
+
+\draw[ultra thick, |<->|] (2,-0.25) -- (4,-0.25)  node[midway, below] {$s=10\,\text{m}$} ;
+
+\draw[ultra thick] (4,0) -- (8,0) node[midway, below] {$l_2=17\,\text{m}$} -- (8,1) -- (4,1) -- (4,0) ;
+
+\draw[ultra thick, |<->|] (8,-0.25) -- (10,-0.25)  node[midway, below] {$s=10\,\text{m}$} ;
+
+
+\draw[ultra thick, dashed] (10,0) -- (12,0) node[midway, below] {$l_1=4,5\,\text{m}$} -- (12,1) -- (10,1) -- (10,0) ;
+
+\draw[ultra thick,red, |->] (0,2.5) -- (7,2.5) node[midway, above] {$a > 0$};
+\draw[ultra thick,orange, |->] (7,2.5) -- (11,2.5)  node[midway, above] {$a = 0$};
+
+\end{tikzpicture}
+```
+
+</center>
+
+***********
+
+<br>
+<br>
+
+__$b)\;\;$__ Das dahinterliegende Fahrzeug hat vor dem Überholmanöver die gleiche Geschwindigkeit wie das Fahrzeug davor von $70\,\dfrac{\text{km}}{\text{h}}$. Insgesamt ist eine Geschwindigkeit von $100\,\dfrac{\text{km}}{\text{h}}$ erlaubt. **Berechne**, wie lang eine Beschleunigung auf die maximal erlaubte Geschwindigkeit dauern würde, wenn das Fahrzeug mit $3,4\,\dfrac{\text{m}}{\text{s}^2}$ beschleunigt. (Runde auf drei Nackommastellen.) \
+
+
+$t_B \approx$ [[  2,451  ]] s 
+***********
+$$
+\begin{align*}
+   v(t) & = at + v_0 \quad \left| -v_0 \right.   \\
+   v(t) -v_0 & = at   \quad \left| :a \right.   \\
+   \dfrac{v(t) -v_0}{a} & = t     \\
+   \dfrac{100\,\dfrac{\text{km}}{\text{h}} - 70\,\dfrac{\text{km}}{\text{h}}}{3,4\,\dfrac{\text{m}}{\text{s}^2}} & = t  \\
+   \dfrac{30\,\dfrac{\text{1000m}}{\text{3600s}} }{3,4\,\dfrac{\text{m}}{\text{s}^2}} & = t  \approx 2,451 \,\text{s} \\
+\end{align*}
+$$
+***********
+
+
+
+<br>
+<br>
+
+__$c)\;\;$__ Das dahinterliegende Fahrzeug hat eine Länge von $4,5\,$m. Das Fahrzeug davor hat eine Länge von $17\,$m. **Berechne** Die Strecke die während der Beschleunigungsphase im Bezug zum zu überholenden Auto zurückgelegt wird. (Runde auf drei Nackommastellen.) \
+
+
+$x_B(t) \approx$ [[  10,212  ]] m
+***********
+$$
+\begin{align*}
+   x_B(t) & = \dfrac{1}{2} a t^2 + v_0 t 
+   x_B(t) & = \dfrac{1}{2} \cdot 3,4\,\dfrac{\text{m}}{\text{s}^2} \cdot \left(2,451 \,\text{s}\right)^2 \approx 10,212 \,\text{m} \\
+\end{align*}
+$$
+***********
+
+<br>
+<br>
+
+__$d)\;\;$__ Das dahinterliegende Fahrzeug hat eine Länge von $4,5\,$m. Das Fahrzeug davor hat eine Länge von $17\,$m. **Berechne** Die Strecke die während der Beschleunigungsphase auf der Straße zurückgelegt wird. (Runde auf drei Nackommastellen.) \
+
+
+$x_{B,S}(t) \approx$ [[  57,870  ]] m
+***********
+$$
+\begin{align*}
+   x_{B,S}(t) & = \dfrac{1}{2} a t^2 + v_0 t 
+   x_{B,S}(t) & = \dfrac{1}{2} \cdot 3,4\,\dfrac{\text{m}}{\text{s}^2} \cdot \left(2,451 \,\text{s}\right)^2 + 70\,\dfrac{\text{1000m}}{\text{3600s}} \cdot 2,451 \,\text{s} \approx 57,870 \,\text{m} \\
+\end{align*}
+$$
+***********
+
+
+<br>
+<br>
+
+__$e)\;\;$__ **Berechne** die Dauer beim Überholmanöver, die mit konstanter Geschwindigkeit gefahren werden muss. \
+
+
+$t_k \approx$ [[  6,205  ]] s
+***********
+$$
+\begin{align*}
+   \delta l & = l - x_B(t)  \\
+   \delta l & = 4,5\,\text{m} + 10 \,\text{m} + 17\,\text{m} + 10 \,\text{m} - 10,212 \,\text{m} \approx 51,712 \,\text{m} \\
+   \Rightarrow\;\; l & = \Delta v t \quad \left| :v \right. \\
+   \dfrac{l}{\Delta v} & = t     \\
+   \dfrac{51,712 \,\text{m}}{ 30\,\dfrac{\text{1000m}}{\text{3600s}} } & \approx t    \approx  6,205  \,\text{s}  \\
+\end{align*}
+$$
+***********
+
+
+<br>
+<br>
+
+__$f)\;\;$__ **Berechne** die auf der Straße zurückgelegte Strecke während des Überholmanövers. \
+
+
+$x(t) \approx$ [[  230,245  ]] m
+***********
+$$
+\begin{align*}
+   x_S(t) & = v t = 100\,\dfrac{\text{1000m}}{\text{3600s}} \cdot 6,205  \,\text{s} \approx  172,375  \,\text{m} \\
+   x(t) & = x_{B,S}(t) + x_S(t)   \\
+   x(t) & = 57,870  \,\text{m} + 172,375  \,\text{m} \approx 230,245 \,\text{m} \\
+\end{align*}
+$$
+***********
+
+<br>
+<br>
+
+__$g)\;\;$__ **Begründe**, warum die errechneten Werte nicht der Realität entsprechen können. \
+
+
+[[!]]
+<script>true</script>
+***********
+
+In der Realität gibt es keine konstante Beschleunigung bei Autos, da der Motor unterschiedlich auf die diversen Geschwindigkeiten aufgrund der Reibung reagiert. Auch ist eine Straße niemals komplett gerade und der Windeinfluss ist auch nicht zu vernachlässigen. Somit würde die gesamten realen Werte nochmals höher ausfallen als die hier berechneten.
+
+***********
+
 
 
 
