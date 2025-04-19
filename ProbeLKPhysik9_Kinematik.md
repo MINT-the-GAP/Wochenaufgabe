@@ -200,6 +200,11 @@ __$k)\;\;$__ Wie groß ist der Betrag der Beschleunigung von $D$? \
 [[  0,2   ]] $\dfrac{\text{m}}{\text{s}^2}$
 
 
+
+__$l)\;\;$__ Wie weit sind $G$ und $C$ bei $4\,$s von einander entfernt? \
+[[   6   ]] $\text{m}$
+
+
 <br>
 <br>
 <br>
@@ -209,7 +214,7 @@ __$k)\;\;$__ Wie groß ist der Betrag der Beschleunigung von $D$? \
 <br>
 <br>
 
-# Aufgabe 2
+## Aufgabe 2
 
 
 <center>
@@ -508,7 +513,7 @@ $$
 <br>
 <br>
 
-# Aufgabe 3
+## Aufgabe 3
 
 
 Ein Autofahrer ist in seinem SUV mit einer Geschwindigkeit von $175\,\dfrac{\text{km}}{\text{h}}$ unterwegs.\
@@ -588,9 +593,9 @@ $$
 <br>
 <br>
 
-# Aufgabe 4
+## Aufgabe 4
 
-Auf einem Flugzeugträger fährt ein Matrose mit einer Geschwindigkeit von $14\,\dfrac{\text{km}}{h}$ zur Oberfläche des Decks entgegen der Fahrtrichtung des Schiffs. Der Flugzeugträger fährt mit einer Geschwindigkeit von $32\,\dfrac{\text{km}}{h}$ zur Wasseroberfläche, während dem Schiff ein Motorboot mit einer Geschwindigkeit von $45\,\dfrac{\text{km}}{h}$ zum Schiff entgegen kommt. 
+Auf einem Flugzeugträger fährt ein Matrose mit einer Geschwindigkeit von $14\,\dfrac{\text{km}}{\text{h}}$ zur Oberfläche des Decks entgegen der Fahrtrichtung des Schiffs. Der Flugzeugträger fährt mit einer Geschwindigkeit von $32\,\dfrac{\text{km}}{\text{h}}$ zur Wasseroberfläche, während dem Schiff ein Motorboot mit einer Geschwindigkeit von $45\,\dfrac{\text{km}}{\text{h}}$ zum Schiff entgegen kommt. 
 **Berechne** die Geschwindigkeit des Motorboots aus der Sicht des Fahrradfahrers. \
 
 
@@ -598,9 +603,9 @@ Auf einem Flugzeugträger fährt ein Matrose mit einer Geschwindigkeit von $14\,
 ***********
 $$
 \begin{align*}
-   32\,\dfrac{\text{km}}{h} - 14\,\dfrac{\text{km}}{h} = 18\,\dfrac{\text{km}}{h} \\
-   45\,\dfrac{\text{km}}{h} - 32\,\dfrac{\text{km}}{h} = 13\,\dfrac{\text{km}}{h} \\
-   18\,\dfrac{\text{km}}{h} - 13\,\dfrac{\text{km}}{h} = 5\,\dfrac{\text{km}}{h} \\
+   32\,\dfrac{\text{km}}{\text{h}} - 14\,\dfrac{\text{km}}{\text{h}} = 18\,\dfrac{\text{km}}{\text{h}} \\
+   45\,\dfrac{\text{km}}{\text{h}} - 32\,\dfrac{\text{km}}{\text{h}} = 13\,\dfrac{\text{km}}{\text{h}} \\
+   18\,\dfrac{\text{km}}{\text{h}} - 13\,\dfrac{\text{km}}{\text{h}} = 5\,\dfrac{\text{km}}{\text{h}} \\
 \end{align*}
 $$
 ***********
@@ -616,9 +621,9 @@ $$
 <br>
 <br>
 
-# Aufgabe 5
+## Aufgabe 5
 
-Ein Fluss besitzt eine Fließgeschwindigkeit von $7\,\dfrac{\text{km}}{h}$ zur Erde. Aus dem Fluss rudert ein Mensch mit einer Geschwindigkeit von $11\,\dfrac{\text{km}}{h}$ in Richtung der Fließgeschindigkeit des Flusses, während auf dem Deich ein Jogger mit $8\,\dfrac{\text{km}}{h}$ zum Boden entgegen der Fließrichtung läuft.  
+Ein Fluss besitzt eine Fließgeschwindigkeit von $7\,\dfrac{\text{km}}{\text{\text{h}}}$ zur Erde. Aus dem Fluss rudert ein Mensch mit einer Geschwindigkeit von $11\,\dfrac{\text{km}}{\text{\text{h}}}$ in Richtung der Fließgeschindigkeit des Flusses, während auf dem Deich ein Jogger mit $8\,\dfrac{\text{km}}{\text{\text{h}}}$ zum Boden entgegen der Fließrichtung läuft.  
 **Berechne** die Geschwindigkeit des Joggers aus der Sicht des Ruderers. \
 
 
@@ -626,8 +631,8 @@ Ein Fluss besitzt eine Fließgeschwindigkeit von $7\,\dfrac{\text{km}}{h}$ zur E
 ***********
 $$
 \begin{align*}
-   7\,\dfrac{\text{km}}{h} + 11\,\dfrac{\text{km}}{h} = 18\,\dfrac{\text{km}}{h} \\
-   18\,\dfrac{\text{km}}{h} + 8\,\dfrac{\text{km}}{h} = 26\,\dfrac{\text{km}}{h} \\
+   7\,\dfrac{\text{km}}{\text{h}} + 11\,\dfrac{\text{km}}{\text{h}} = 18\,\dfrac{\text{km}}{\text{h}} \\
+   18\,\dfrac{\text{km}}{\text{h}} + 8\,\dfrac{\text{km}}{\text{h}} = 26\,\dfrac{\text{km}}{\text{h}} \\
 \end{align*}
 $$
 ***********
@@ -643,7 +648,7 @@ $$
 <br>
 <br>
 
-# Herausforderungsaufgabe 
+## Herausforderungsaufgabe 
 
 > Diese Aufgabe stellt eine kleine Herausforderung da. Solltest du diese Aufgabe lösen können, sollte dich in der Leistungskontrolle kaum noch was überraschen können. 
 
