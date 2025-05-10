@@ -225,6 +225,9 @@ $$
     & = \dfrac{1}{3} \left( 4,5 \,\text{cm}\right)^2  \cdot 9,2 \,\text{cm}  \\
     & = 62,1\,\text{cm}^3 \\
 \end{align*}
+$$
+<br>
+$$
 \begin{align*}
     \rho & = \dfrac{m}{V}  \quad \left|  \cdot V  \right.  \\
     m & = V \cdot \rho   \\
@@ -263,7 +266,9 @@ $$
     & = \dfrac{18816\,\text{g} }{  12\,\frac{\text{g}}{\text{cm}^3} } \\
     & = 1568\,\text{cm}^3  \\
 \end{align*}
-
+$$
+<br>
+$$
 \begin{align*}
     V_P & = \dfrac{1}{3} a^2 k  \quad \left|  \cdot 3  \right.   \\
     3 V_P & =  a^2 k  \quad \left|  :k  \right.   \\
@@ -274,7 +279,9 @@ $$
     a & =  \sqrt{196\,\text{cm}^2}     \\
     a & =  14\,\text{cm}     \\
 \end{align*}
-
+$$
+<br>
+$$
 \begin{align*}
     h_a^2 & = k^2 + \left(\dfrac{b}{2}\right)^2 \qquad \text{mit:} \;\; a=b \\
     h_a^2 & = k^2 + \left(\dfrac{a}{2}\right)^2  \\
@@ -284,7 +291,9 @@ $$
     h_a  & = \sqrt{ 625\,\text{cm}^2 }  \\
     h_a  & = 25\,\text{cm} \\
 \end{align*}
-
+$$
+<br>
+$$
 \begin{align*}
     O_P & = a^2 + 2 a h_a \\
     & = \left( 14 \,\text{cm}\right)^2 + 2 \cdot 14 \,\text{cm} \cdot 25 \,\text{cm} \\

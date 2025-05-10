@@ -178,3 +178,55 @@ Einheit: [[     mA        ]]
 <br>
 <br>
 <br>
+
+
+## Aufgabe 2
+
+
+
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+
+## Aufgabe 3
+
+
+
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+
+## Aufgabe 4
+
+
+
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+
+## Aufgabe 5
+
+
+
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
