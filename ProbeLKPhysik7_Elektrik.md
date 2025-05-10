@@ -46,7 +46,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 <br>
 
-> Letztes Update am 10.05.2025 gegen 10 Uhr
+> Letztes Update am 10.05.2025 gegen 20 Uhr
 
 <br>
 
@@ -182,7 +182,87 @@ Einheit: [[     mA        ]]
 
 ## Aufgabe 2
 
+**Gib** die dargestellten Bauelemente **an**.
 
+<br>
+
+__$a)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen1.png)
+
+<!-- data-solution-button="off" -->
+[[  Diode            ]] 
+
+<br>
+
+__$b)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen2.png)
+
+<!-- data-solution-button="off" -->
+[[  Transistor       ]] 
+
+<br>
+
+__$c)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen3.png)
+
+<!-- data-solution-button="off" -->
+[[  Amperemeter      ]] 
+
+<br>
+
+__$d)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen4.png)
+
+<!-- data-solution-button="off" -->
+[[  Kondensator      ]] 
+
+<br>
+
+__$e)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen5.png)
+
+<!-- data-solution-button="off" -->
+[[  Spule            ]] 
+
+<br>
+
+__$f)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen6.png)
+
+<!-- data-solution-button="off" -->
+[[  Voltmeter        ]] 
+
+<br>
+
+__$g)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen7.png)
+
+<!-- data-solution-button="off" -->
+[[  Erde             ]] 
+
+<br>
+
+__$h)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen8.png)
+
+<!-- data-solution-button="off" -->
+[[  Spannungsquelle  ]] 
+
+<br>
+
+__$i)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen9.png)
+
+<!-- data-solution-button="off" -->
+[[  Transformator    ]] 
+
+<br>
+
+__$j)\;\;$__
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/SchaltungNennen10.png)
+
+<!-- data-solution-button="off" -->
+[[  Antenne          ]] 
 
 
 <br>
@@ -195,6 +275,13 @@ Einheit: [[     mA        ]]
 
 ## Aufgabe 3
 
+**Fülle** die Lücken im Lückentext **aus**.
+
+
+Je dicker ein Leiter ist, desto [[    kleiner    ]] ist der Widerstand. \
+Ein [[  Amperemeter  ]] muss in Reihe geschaltet werden, um die Stromstärke zu messen. \
+Ein Voltmeter muss [[  parallel  ]] geschaltet werden, um die [[   Spannung   ]] zu messen. \
+Je länger ein Leiter ist, desto [[    größer    ]] ist der Widerstand. \
 
 
 
@@ -208,6 +295,39 @@ Einheit: [[     mA        ]]
 
 ## Aufgabe 4
 
+**Gib** die gefragten Stromstärkenwerte **an**.
+
+
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/Zweig2.png)
+
+
+<br>
+
+__$a)\;\;$__ Gegeben sei: $I_1=4\,$A.
+
+<!-- data-solution-button="3" -->
+$I_4 =$ [[  4     ]]A
+
+<br>
+
+__$b)\;\;$__ Gegeben sei: $I_1=2,3\,$A $\;\;\wedge\;\; I_3 = 1,9\,$A.
+
+<!-- data-solution-button="3" -->
+$I_2 =$ [[  4,2   ]]A
+
+<br>
+
+__$c)\;\;$__ Gegeben sei: $I_2=1,75\,$A $\;\;\wedge\;\; I_1 = 0,58\,$A.
+
+<!-- data-solution-button="3" -->
+$I_3 =$ [[  1,17  ]]A
+
+<br>
+
+__$d)\;\;$__ Gegeben sei: $I_2=0,84\,$A $\;\;\wedge\;\; I_4 = 377\,$mA.
+
+<!-- data-solution-button="3" -->
+$I_1 =$ [[  463   ]]mA
 
 
 
@@ -222,6 +342,86 @@ Einheit: [[     mA        ]]
 ## Aufgabe 5
 
 
+
+**Gib** die gefragten Spannungswerte **an**.
+
+
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/Zweig1.png)
+
+
+<br>
+
+__$a)\;\;$__ Gegeben sei:  $U_1=24\,$V $\;\;\wedge\;\; U_2 = 7,2\,$V.
+
+<!-- data-solution-button="3" -->
+$U_2 =$ [[  16,8    ]]V
+
+<br>
+
+
+__$b)\;\;$__ Gegeben sei:  $U_3=1,2\,$V $\;\;\wedge\;\; U_4 = 480\,$mV.
+
+<!-- data-solution-button="3" -->
+$U_5 =$ [[  1,68    ]]V
+
+<br>
+
+
+__$c)\;\;$__ Gegeben sei:  $U_4=970\,$mV $\;\;\wedge\;\; U_5 = 2,5\,$V $\;\;\wedge\;\; U_1 = 14\,$V.
+
+<!-- data-solution-button="3" -->
+$U_2 =$ [[  11,5    ]]V
+
+<br>
+
+
+__$d)\;\;$__ Gegeben sei:  $U_1=6,2\,$V $\;\;\wedge\;\; U_2 = 1750\,$mV $\;\;\wedge\;\; U_4 = 980\,$mV.
+
+<!-- data-solution-button="3" -->
+$U_3 =$ [[  3470   ]]mV
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+
+## Aufgabe 6
+
+**Gib** die gefragten Stromstärkenwerte **an**.
+
+
+![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/Zweig3.png)
+
+<br>
+
+__$a)\;\;$__  Gegeben sei: $I_1=0,6\,$A $\;\;\wedge\;\; I_2 = 0,24\,$A $\;\;\wedge\;\; I_6 = 0,77\,$A.
+
+<!-- data-solution-button="3" -->
+$I_5 =$ [[  1610   ]]mA
+
+<br>
+
+__$b)\;\;$__  Gegeben sei: $I_2=50\,$mA $\;\;\wedge\;\; I_3 = 115\,$mA $\;\;\wedge\;\; I_4 = 0,027\,$A.
+
+<!-- data-solution-button="3" -->
+$I_7 =$ [[  0,192  ]]A
+
+<br>
+
+__$c)\;\;$__  Gegeben sei: $I_5=1,22\,$A $\;\;\wedge\;\; I_6 = 594\,$mA $\;\;\wedge\;\; I_2 = 0,287\,$A.
+
+<!-- data-solution-button="3" -->
+$I_1 =$ [[   339   ]]mA
+
+<br>
+
+__$d)\;\;$__  Gegeben sei: $I_1=0,42\,$A $\;\;\wedge\;\; I_2 = 145\,$mA $\;\;\wedge\;\; I_3 = 0,3\,$A $\;\;\wedge\;\; I_5 = 1,4\,$A.
+
+<!-- data-solution-button="3" -->
+$I_4 =$ [[   535  ]]mA
 
 
 <br>
