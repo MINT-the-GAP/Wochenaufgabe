@@ -255,7 +255,7 @@ Gegeben sei eine Pyramide mit quadratischer Grundfläche mit einer Höhe von $24
 
 
 <!-- data-solution-button="3" -->
-$O=$  [[   137200  ]] cm$^2$
+$O=$  [[   896  ]] cm$^2$
 ***********************
 
 $$ 
@@ -297,7 +297,7 @@ $$
 \begin{align*}
     O_P & = a^2 + 2 a h_a \\
     & = \left( 14 \,\text{cm}\right)^2 + 2 \cdot 14 \,\text{cm} \cdot 25 \,\text{cm} \\
-    & = 137200\,\text{cm}^2 \\
+    & = 896\,\text{cm}^2 \\
 \end{align*}
 $$
 
