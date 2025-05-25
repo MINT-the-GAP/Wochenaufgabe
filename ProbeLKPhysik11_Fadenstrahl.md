@@ -43,7 +43,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 # Probeleistungskontrolle für Physik - Klasse 11: Ionen in elektrischen und magnetischen Feldern
 
-> Letztes Update: 25.05.2025 gegen 10:00 Uhr \
+> Letztes Update: 25.05.2025 gegen 16:00 Uhr \
 
 Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts. \
 
@@ -254,3 +254,178 @@ $r_4:$ [[$H_2O$|($C_2H_5_OH$)|$CO_2$|$Ar$]] \
 ***********
 
 
+
+__$f)\;\;$__ **Bestimmen** Sie mit dem Periodensystem im Tafelwerk die Massen der Moleküle aus Aufgabenteil $e)$.
+
+<!-- data-solution-button="3" -->
+$m_1 \approx$ [[ 29,9146 ]] $\cdot 10^{-27}$kg 
+@Algebrite.check2(29.9146,0.05)
+***********
+ $ 1,66054 \cdot  10^{-27} \,\text{kg} \cdot (15,999 +2 \cdot 1,008) \approx 29,9146 \cdot  10^{-27} \,\text{kg} $
+***********
+
+<!-- data-solution-button="3" -->
+$m_2 \approx$ [[ 66,3386 ]] $\cdot 10^{-27}$kg 
+@Algebrite.check2(66.3386,0.05)
+***********
+ $ 1,66054 \cdot  10^{-27} \,\text{kg} \cdot 39,95 \approx 66,3386\cdot  10^{-27} \,\text{kg} $
+***********
+
+<!-- data-solution-button="3" -->
+$m_1 \approx$ [[ 73,077 ]] $\cdot 10^{-27}$kg 
+@Algebrite.check2(73.077,0.05)
+***********
+ $ 1,66054 \cdot  10^{-27} \,\text{kg} \cdot (2 \cdot 15,999 + 12,01) \approx 73,077 \cdot  10^{-27} \,\text{kg} $
+***********
+
+<!-- data-solution-button="3" -->
+$m_1 \approx$ [[ 76,4961 ]] $\cdot 10^{-27}$kg 
+@Algebrite.check2(76.4961,0.05)
+***********
+ $ 1,66054 \cdot  10^{-27} \,\text{kg} \cdot (15,999 +2 \cdot 12,01 + 6 \cdot 1,008) \approx 76,4961 \cdot  10^{-27} \,\text{kg} $
+***********
+
+
+
+__$g)\;\;$__ **Zeigen** Sie durch die Berechnung der zu erwartenden Radien bei einfach negativ ionisierten Molekülen, dass Ihre Messungen Aufgabe $d)$ nicht stimmen.
+
+
+
+<!-- data-solution-button="3" -->
+$r_1 \approx$ [[ 3,1971 ]] cm 
+@Algebrite.check2(3.1971,0.001)
+***********
+$$
+\begin{align*}
+  F_L & = F_{Z} \\
+  qvB & = \frac{m_1 v^2}{r_1}  \quad \left| \cdot r  \right.  \\
+  qvB r_1 & =  m_1 v^2   \quad \left| : qvB  \right.  \\
+  r_1 & =  \frac{m_1 v^2}{qvB }      \\
+  r_1 & =  \frac{m_1 v}{qB}      \\
+  r_1 & =  \frac{ 29,9146 \cdot  10^{-27} \,\text{kg} \cdot  98142,857143\,\frac{\text{m}}{\text{s}} }{1,6022 \cdot 10^{-19}\, \text{C} \cdot 0,573144\, \text{T}}      \\
+  r_1 & \approx  3,1971 \,\text{cm}       \\
+\end{align*}
+$$
+***********
+
+<!-- data-solution-button="3" -->
+$r_2 \approx$ [[ 7,08997 ]] cm
+@Algebrite.check2(7.08997,0.001)
+***********
+$$
+\begin{align*}
+  F_L & = F_{Z} \\
+  qvB & = \frac{m_2 v^2}{r_2}  \quad \left| \cdot r  \right.  \\
+  qvB r_2 & =  m_2 v^2   \quad \left| : qvB  \right.  \\
+  r_2 & =  \frac{m_2 v^2}{qvB }      \\
+  r_2 & =  \frac{m_2 v}{qB}      \\
+  r_2 & =  \frac{ 66,3386\cdot  10^{-27} \,\text{kg} \cdot  98142,857143\,\frac{\text{m}}{\text{s}} }{1,6022 \cdot 10^{-19}\, \text{C} \cdot 0,573144\, \text{T}}      \\
+  r_2 & \approx 7,08997  \,\text{cm}       \\
+\end{align*}
+$$
+***********
+
+<!-- data-solution-button="3" -->
+$r_3 \approx$ [[ 7,8101 ]] cm
+@Algebrite.check2(7.8101,0.001)
+***********
+$$
+\begin{align*}
+  F_L & = F_{Z} \\
+  qvB & = \frac{m_3 v^2}{r_3}  \quad \left| \cdot r  \right.  \\
+  qvB r_3 & =  m_3 v^2   \quad \left| : qvB  \right.  \\
+  r_3 & =  \frac{m_3 v^2}{qvB }      \\
+  r_3 & =  \frac{m_3 v}{qB}      \\
+  r_3 & =  \frac{ 73,077 \cdot  10^{-27} \,\text{kg} \cdot  98142,857143\,\frac{\text{m}}{\text{s}} }{1,6022 \cdot 10^{-19}\, \text{C} \cdot 0,573144\, \text{T}}      \\
+  r_3 & \approx  7,8101 \,\text{cm}       \\
+\end{align*}
+$$
+***********
+
+<!-- data-solution-button="3" -->
+$r_4 \approx$ [[ 8,1756 ]] cm
+@Algebrite.check2(8.1756,0.001)
+***********
+$$
+\begin{align*}
+  F_L & = F_{Z} \\
+  qvB & = \frac{m_4 v^2}{r_4}  \quad \left| \cdot r  \right.  \\
+  qvB r_4 & =  m_4 v^2   \quad \left| : qvB  \right.  \\
+  r_4 & =  \frac{m_4 v^2}{qvB }      \\
+  r_4 & =  \frac{m_4 v}{qB}      \\
+  r_4 & =  \frac{ 76,4961 \cdot  10^{-27} \,\text{kg} \cdot  98142,857143\,\frac{\text{m}}{\text{s}} }{1,6022 \cdot 10^{-19}\, \text{C} \cdot 0,573144\, \text{T}}      \\
+  r_4 & \approx  8,1756 \,\text{cm}       \\
+\end{align*}
+$$
+***********
+
+__$h)\;\;$__ **Berechnen** Sie für die einzelnen Moleküle die benötigten Beschleunigungsspannungen. \
+
+
+
+
+<!-- data-solution-button="3" -->
+$U_{B,1} \approx$ [[ 899,194974 ]] V
+@Algebrite.check2(899.194974,0.003)
+***********
+$$
+\begin{align*}
+  E_{el} & = E_{kin} \\
+  U_{B,1} e & = \frac{1}{2} m_1 v^2 \quad \left| : e  \right.   \\
+  U_{B,1}  & = \frac{m_1 v^2}{2 e}  \\
+  U_{B,1}  & = \frac{29,9146 \cdot  10^{-27} \,\text{kg} \left( 98142,857143\,\frac{\text{m}}{\text{s}} \right)^2}{2 \cdot 1,6022 \cdot 10^{-19}\, \text{C}}  \\
+  U_{B,1} & \approx  899,194974 \,\text{V}       \\
+\end{align*}
+$$
+***********
+
+
+
+<!-- data-solution-button="3" -->
+$U_{B,2} \approx$ [[ 1994,054266 ]] V
+@Algebrite.check2(1994.054266,0.003)
+***********
+$$
+\begin{align*}
+  E_{el} & = E_{kin} \\
+  U_{B,2} e & = \frac{1}{2} m_2 v^2 \quad \left| : e  \right.   \\
+  U_{B,2}  & = \frac{m_2 v^2}{2 e}  \\
+  U_{B,2}  & = \frac{66,3386 \cdot  10^{-27} \,\text{kg} \left( 98142,857143\,\frac{\text{m}}{\text{s}} \right)^2}{2 \cdot 1,6022 \cdot 10^{-19}\, \text{C}}  \\
+  U_{B,2} & \approx  1994,054266 \,\text{V}       \\
+\end{align*}
+$$
+***********
+
+
+
+<!-- data-solution-button="3" -->
+$U_{B,3} \approx$ [[ 2196,602033 ]] V
+@Algebrite.check2(2196.602033,0.003)
+***********
+$$
+\begin{align*}
+  E_{el} & = E_{kin} \\
+  U_{B,3} e & = \frac{1}{2} m_3 v^2 \quad \left| : e  \right.   \\
+  U_{B,3}  & = \frac{m_3 v^2}{2 e}  \\
+  U_{B,3}  & = \frac{73,077 \cdot  10^{-27} \,\text{kg} \left( 98142,857143\,\frac{\text{m}}{\text{s}} \right)^2}{2 \cdot 1,6022 \cdot 10^{-19}\, \text{C}}  \\
+  U_{B,3} & \approx  2196,602033 \,\text{V}       \\
+\end{align*}
+$$
+***********
+
+
+
+<!-- data-solution-button="3" -->
+$U_{B,4} \approx$ [[ 2299,375847 ]] V
+@Algebrite.check2(2299.375847,0.003)
+***********
+$$
+\begin{align*}
+  E_{el} & = E_{kin} \\
+  U_{B,4} e & = \frac{1}{2} m_4 v^2 \quad \left| : e  \right.   \\
+  U_{B,4}  & = \frac{m_4 v^2}{2 e}  \\
+  U_{B,4}  & = \frac{76,4961 \cdot  10^{-27} \,\text{kg} \left( 98142,857143\,\frac{\text{m}}{\text{s}} \right)^2}{2 \cdot 1,6022 \cdot 10^{-19}\, \text{C}}  \\
+  U_{B,4} & \approx  2299,375847 \,\text{V}       \\
+\end{align*}
+$$
+***********
