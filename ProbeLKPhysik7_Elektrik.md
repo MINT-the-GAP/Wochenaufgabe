@@ -66,7 +66,7 @@ __$a)\;\;$__
 ![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/MesswerteAufgabe1.png)
 
 <!-- data-solution-button="3" -->
-Wert: [[  10,6  ]] 
+Wert: [[  11,6  ]] 
 @Algebrite.check2(10.6,0.2)
 
 Größe: [[  Spannung     ]] \
@@ -78,7 +78,7 @@ __$b)\;\;$__
 ![](https://www.bildung-bedeutet-freiheit.de/LiaDateien/Physik/MesswerteAufgabe2.png)
 
 <!-- data-solution-button="3" -->
-Wert: [[  900  ]] 
+Wert: [[  90  ]] 
 @Algebrite.check2(900,50)
 
 Größe: [[  Stromstärke  ]] \
