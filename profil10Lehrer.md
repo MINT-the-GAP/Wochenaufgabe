@@ -307,12 +307,14 @@ E_{kin} & =  \dfrac{p^2}{2m} \\
 $$
 
 
+{{2}}
 Unter der Annahme, dass sich die Masse $m$ eines betrachteten Objektes nicht verändert, kann der Impuls $p$ in Abhänigkeit von der Geschwindigkeit $v$ in einem $v$-$p$-Koordinatensystem dargestellt werden: 
 
 
-
+{{2}}
+<center>
 ```latex  @tikz
-\begin{tikzpicture} [>=latex, scale=0.8]
+\begin{tikzpicture} [>=latex, scale=2]
 
 \draw[black!70, step=5mm, very thin, dashed] (-1.5,-1.5) grid (7.5,7.5);
 \draw[black!70, step=10mm, very thin] (-1.5,-1.5) grid (7.5,7.5);
@@ -323,18 +325,63 @@ Unter der Annahme, dass sich die Masse $m$ eines betrachteten Objektes nicht ver
 
   \coordinate (y) at (0,8);
     \coordinate (x) at (8,0);
-    \draw[<->, black!100, thick] (y) node[above] {$p(v)$} -- (0,0) --  (x) node[right]  {$v$};
+    \draw[<->, black!100, thick] (\huge  $y$) node[above] {\huge $p(v)$} -- (0,0) --  (x) node[right]  {\huge $v$};
 
-\draw[-, red!100, very thick]  (6,6) -- (6,-0.1) node[below] {};
+% \draw[-, red!100, very thick]  (6,6) -- (6,-0.1) node[below] { v_0 };
 
  \draw [ black!100, thick]  (ya) --(o) --  (xa);
 
-  \draw[thick,color=black, thick] plot[samples=50, domain=-0.5:4] (\x*2, 2*\x ) node[right] {$p(v) = m v$}; 
+  \draw[thick,color=black, thick] plot[samples=50, domain=-0.5:4] (\x*2, 2*\x ) node[right] {\huge $p(v) = m v$}; 
 
 
 \end{tikzpicture}
 
 ```
+</center>
 
 
+{{2}}
+__Aufgabe 3:__ **Beschreibe**, wo sich in diesem Diagramm die Energie wiederfindet und **begründe** deine Aussagen mit einer Herleitung. \
 
+
+{{3}}
+Der Flächeninhalt zwischen der Abszisse und dem Graphen entspricht dem Wert der Energie. Für die Herleitung wird eine beliebige Geschwindigkeit $v_0$ verwendet.
+
+
+{{3}}
+<center>
+```latex  @tikz
+\begin{tikzpicture} [>=latex, scale=2]
+
+\draw[black!70, step=5mm, very thin, dashed] (-1.5,-1.5) grid (7.5,7.5);
+\draw[black!70, step=10mm, very thin] (-1.5,-1.5) grid (7.5,7.5);
+
+  \coordinate (ya) at (0,-1.5);
+  \coordinate (xa) at (-1.5,0);
+  \coordinate (o) at (0,0);
+
+  \coordinate (y) at (0,8);
+    \coordinate (x) at (8,0);
+    \draw[<->, black!100, thick] (\huge  $y$) node[above] {\huge $p(v)$} -- (0,0) --  (x) node[right]  {\huge $v$};
+
+  \draw[-, red!100, very thick]  (6,6) -- (6,-0.1) node[below] { v_0 };
+
+ \draw [ black!100, thick]  (ya) --(o) --  (xa);
+
+  \draw[thick,color=black, thick] plot[samples=50, domain=-0.5:4] (\x*2, 2*\x ) node[right] {\huge $p(v) = m v$}; 
+
+
+\end{tikzpicture}
+
+```
+</center>
+
+{{3}}
+$$
+\begin{align*} 
+A & = \dfrac{1}{2} v_0 p(v_0)   \qquad \text{mit: }  p(v_0) = mv_0  \\
+A & = \dfrac{1}{2} v_0 mv_0    \\
+A & = \dfrac{1}{2} mv_0^2    \\
+A & = E_{kin}    \\
+\end{align*}
+$$
