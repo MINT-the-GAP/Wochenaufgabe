@@ -29,7 +29,10 @@ input {
         margin-right: 0;
     }
 }
+
 @end
+
+
 
 formula: \carry   \textcolor{red}{\scriptsize #1}
 formula: \digit   \rlap{\carry{#1}}\phantom{#2}#2
@@ -38,6 +41,7 @@ formula: \permil  \text{‰}
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 import: https://raw.githubusercontent.com/LiaTemplates/Tikz-Jax/main/README.md
 import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
+import: https://raw.githubusercontent.com/LiaTemplates/JSXGraph/0.0.1/README.md
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
@@ -76,7 +80,7 @@ __Aufgabe 2:__ **Begründe**, warum dieser Ablauf aus dem Unterricht nichts mit 
 {{2}}
 __Aufgabe 3:__ **Recherchiere** im Internet zu den folgenden Personen und beschreib, warum sie berühmt wurden.
 
-{{3}}
+{{2}}
 <!-- data-type="none" data-sortable="false" -->
 |             |             |             |
 | Leonhard Euler| William Thomson Baron Kelvin | Bernhard Riemann | 
@@ -87,7 +91,7 @@ __Aufgabe 3:__ **Recherchiere** im Internet zu den folgenden Personen und beschr
 
 <br>
 
-{{4}}
+{{3}}
 __Aufgabe 4:__ **Erörtere** mögliche Antworten auf die Frage: "Warum sind diese Personen nicht so berühmt, wie sie es sein sollten?"
 
 
@@ -134,17 +138,17 @@ Ein wesentliches Werkzeug in der Physik besteht darin, Analogien zwischen unters
 
 Ein einfaches Beispiel liefert die Bewegung bei konstanter Geschwindigkeit. Die Grundgleichung lautet
 
-$$ s=v \cdot t $$
+$$ x=v \cdot t $$
 
-und beschreibt, dass der zurückgelegte Weg ss direkt proportional zur Zeit $t$ ist, wenn die Geschwindigkeit $v$ konstant bleibt. Diese Beziehung bedeutet: Verdoppelt sich die Zeit, so verdoppelt sich auch der Weg. In einem Diagramm ergibt das eine gerade Linie.
+und beschreibt, dass der zurückgelegte Weg $x$ direkt proportional zur Zeit $t$ ist, wenn die Geschwindigkeit $v$ konstant bleibt. Diese Beziehung bedeutet: Verdoppelt sich die Zeit, so verdoppelt sich auch der Weg. In einem Diagramm ergibt das eine gerade Linie.
 
 Eine sehr ähnliche mathematische Struktur findet sich in der Elektrizitätslehre bei der Definition der Stromstärke:
 
 $$ Q=I \cdot t $$
 
-Hier bezeichnet $Q$ die transportierte elektrische Ladung, $I$ die Stromstärke und tt die Zeit. Auch hier gilt: Bei konstantem $I$ wächst die transportierte Ladung linear mit der Zeit.
+Hier bezeichnet $Q$ die transportierte elektrische Ladung, $I$ die Stromstärke und $t$ die Zeit. Auch hier gilt: Bei konstantem $I$ wächst die transportierte Ladung linear mit der Zeit.
 
-Diese beiden Gleichungen sind formal gleich aufgebaut. Der Weg ss spielt dabei die Rolle der elektrischen Ladung $Q$, und die Geschwindigkeit $v$ entspricht der Stromstärke $I$. Aus dieser Analogie folgt, dass viele Überlegungen, die für Bewegungen gelten, auch für den Stromtransport gelten: Ein größerer Strom „befördert“ in gleicher Zeit mehr Ladung, genauso wie eine größere Geschwindigkeit in gleicher Zeit mehr Strecke zurücklegt. Diagramme, die $s$ gegen $t$ oder $Q$ gegen $t$ darstellen, sehen nahezu identisch aus.
+Diese beiden Gleichungen sind formal gleich aufgebaut. Der Weg ss spielt dabei die Rolle der elektrischen Ladung $Q$, und die Geschwindigkeit $v$ entspricht der Stromstärke $I$. Aus dieser Analogie folgt, dass viele Überlegungen, die für Bewegungen gelten, auch für den Stromtransport gelten: Ein größerer Strom „befördert“ in gleicher Zeit mehr Ladung, genauso wie eine größere Geschwindigkeit in gleicher Zeit mehr Strecke zurücklegt. Diagramme, die $x$ gegen $t$ oder $Q$ gegen $t$ darstellen, sehen nahezu identisch aus.
 
 Solche Analogien sind nicht nur ein Hilfsmittel für das Verständnis, sondern können auch zur Vorhersage dienen. Wer die eine Struktur verstanden hat, kann sofort Aussagen über die andere machen, ohne diese erneut von Grund auf entwickeln zu müssen. Durch das Erkennen solcher Parallelen wird die Vielfalt der physikalischen Erscheinungen auf gemeinsame Prinzipien zurückgeführt, und Zusammenhänge werden klarer. Die Fähigkeit, Analogien zu erkennen, gehört daher zu den zentralen Denkweisen der Physik.
 
@@ -191,11 +195,17 @@ $$
 
 
 {{3}}
-> Die Energie $E$ ist eine Erhaltungsgröße. Das bedeutet, dass die Gesamtenergie in einem System bevor etwas passiert und nachdem etwas passiert ist stets gleich groß sein muss. $$
+> Die Energie $E$ ist eine Erhaltungsgröße. Das bedeutet, dass die Gesamtenergie in einem System bevor etwas passiert und nachdem etwas passiert ist stets gleich groß sein muss.
+
+{{3}}
+> $$
 \begin{align*} 
 \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text{nachher}}
 \end{align*}
-$$ Energie $E$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Energie $E$ kann lediglich in andere Energieformen umgewandelt werden, was durch Arbeit $W$ passiert.
+$$
+
+{{3}}
+> Energie $E$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Energie $E$ kann lediglich in andere Energieformen umgewandelt werden, was durch Arbeit $W$ passiert.
 
 
 
@@ -232,14 +242,30 @@ p & = \textcolor{red}{F} \cdot \textcolor{green}{t} \qquad \text{mit: } \textcol
 $$
 
 
+{{1}}
+__Aufgabe 2:__ **Interpretiere** die Gleichung $F = \dfrac{p}{t}$ und entwickle aus dieser Interpretation eine neue Beschreibung in Form eines Wortes für die Kraft $F$. \
+<br>
+
+
+{{2}}
+Die Gleichung weist eine Analogie zur Geschwindigkeitsgleichung $v = \dfrac{x}{t}$ beziehungsweise zur Stromstärke $I = \dfrac{Q}{t}$ auf. Somit kann die Kraft auch als Impulsstrom bezeichnet werden.
+
+
+<br>
 
 
 {{3}}
-> Der Impuls $\vec{p}$ ist eine Erhaltungsgröße. Das bedeutet, dass der Gesamtimpuls in einem System bevor etwas passiert und nachdem etwas passiert ist stets gleich groß sein muss. $$
+> Der Impuls $\vec{p}$ ist eine Erhaltungsgröße. Das bedeutet, dass der Gesamtimpuls in einem System bevor etwas passiert und nachdem etwas passiert ist stets gleich groß sein muss.
+
+{{3}}
+> $$
 \begin{align*} 
 \underbrace{\vec{p}_1 + \vec{p}_2}_{\text{vorher}} & = \underbrace{\vec{p}'_1 + \vec{p}'_2}_{\text{nachher}}
 \end{align*}
-$$ Impuls $\vec{p}$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Impuls $\vec{p}$ kann lediglich in andere Teilimpulse zerglegt werden, was durch Kärfte $F$ passiert. Da der Impuls eine vektorielle Größe ist, muss auch immer die Orientierung mit erhalten bleiben.
+$$
+
+{{3}}
+> Impuls $\vec{p}$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Impuls $\vec{p}$ kann lediglich in andere Teilimpulse zerglegt werden, was durch Kärfte $F$ passiert. Da der Impuls eine vektorielle Größe ist, muss auch immer die Orientierung mit erhalten bleiben.
 
 
 
@@ -279,4 +305,36 @@ E_{kin} & = \dfrac{1}{2} m   \dfrac{p^2}{m^2}  \\
 E_{kin} & =  \dfrac{p^2}{2m} \\
 \end{align*}
 $$
+
+
+Unter der Annahme, dass sich die Masse $m$ eines betrachteten Objektes nicht verändert, kann der Impuls $p$ in Abhänigkeit von der Geschwindigkeit $v$ in einem $v$-$p$-Koordinatensystem dargestellt werden: 
+
+
+
+```latex  @tikz
+\begin{tikzpicture} [>=latex, scale=0.8]
+
+\draw[black!70, step=5mm, very thin, dashed] (-1.5,-1.5) grid (7.5,7.5);
+\draw[black!70, step=10mm, very thin] (-1.5,-1.5) grid (7.5,7.5);
+
+  \coordinate (ya) at (0,-1.5);
+  \coordinate (xa) at (-1.5,0);
+  \coordinate (o) at (0,0);
+
+  \coordinate (y) at (0,8);
+    \coordinate (x) at (8,0);
+    \draw[<->, black!100, thick] (y) node[above] {$p(v)$} -- (0,0) --  (x) node[right]  {$v$};
+
+\draw[-, red!100, very thick]  (6,6) -- (6,-0.1) node[below] {};
+
+ \draw [ black!100, thick]  (ya) --(o) --  (xa);
+
+  \draw[thick,color=black, thick] plot[samples=50, domain=-0.5:4] (\x*2, 2*\x ) node[right] {$p(v) = m v$}; 
+
+
+\end{tikzpicture}
+
+```
+
+
 

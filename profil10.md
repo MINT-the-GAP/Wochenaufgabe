@@ -76,7 +76,7 @@ __Aufgabe 2:__ **Begründe**, warum dieser Ablauf aus dem Unterricht nichts mit 
 {{2}}
 __Aufgabe 3:__ **Recherchiere** im Internet zu den folgenden Personen und beschreib, warum sie berühmt wurden.
 
-{{3}}
+{{2}}
 <!-- data-type="none" data-sortable="false" -->
 |             |             |             |
 | Leonhard Euler| William Thomson Baron Kelvin | Bernhard Riemann | 
@@ -87,7 +87,7 @@ __Aufgabe 3:__ **Recherchiere** im Internet zu den folgenden Personen und beschr
 
 <br>
 
-{{4}}
+{{3}}
 __Aufgabe 4:__ **Erörtere** mögliche Antworten auf die Frage: "Warum sind diese Personen nicht so berühmt, wie sie es sein sollten?"
 
 
