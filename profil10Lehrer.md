@@ -313,30 +313,8 @@ Unter der Annahme, dass sich die Masse $m$ eines betrachteten Objektes nicht ver
 
 {{2}}
 <center>
-```latex  @tikz
-\begin{tikzpicture} [>=latex, scale=2]
-
-\draw[black!70, step=5mm, very thin, dashed] (-1.5,-1.5) grid (7.5,7.5);
-\draw[black!70, step=10mm, very thin] (-1.5,-1.5) grid (7.5,7.5);
-
-  \coordinate (ya) at (0,-1.5);
-  \coordinate (xa) at (-1.5,0);
-  \coordinate (o) at (0,0);
-
-  \coordinate (y) at (0,8);
-    \coordinate (x) at (8,0);
-    \draw[<->, black!100, thick] (\huge  $y$) node[above] {\huge $p(v)$} -- (0,0) --  (x) node[right]  {\huge $v$};
-
-% \draw[-, red!100, very thick]  (6,6) -- (6,-0.1) node[below] { v_0 };
-
- \draw [ black!100, thick]  (ya) --(o) --  (xa);
-
-  \draw[thick,color=black, thick] plot[samples=50, domain=-0.5:4] (\x*2, 2*\x ) node[right] {\huge $p(v) = m v$}; 
-
-
-\end{tikzpicture}
-
-```
+<!-- style="width:600px" -->
+![](pvEnergie1.png)
 </center>
 
 
@@ -350,31 +328,10 @@ Der Flächeninhalt zwischen der Abszisse und dem Graphen entspricht dem Wert der
 
 {{3}}
 <center>
-```latex  @tikz
-\begin{tikzpicture} [>=latex, scale=2]
-
-\draw[black!70, step=5mm, very thin, dashed] (-1.5,-1.5) grid (7.5,7.5);
-\draw[black!70, step=10mm, very thin] (-1.5,-1.5) grid (7.5,7.5);
-
-  \coordinate (ya) at (0,-1.5);
-  \coordinate (xa) at (-1.5,0);
-  \coordinate (o) at (0,0);
-
-  \coordinate (y) at (0,8);
-    \coordinate (x) at (8,0);
-    \draw[<->, black!100, thick] (\huge  $y$) node[above] {\huge $p(v)$} -- (0,0) --  (x) node[right]  {\huge $v$};
-
-  \draw[-, red!100, very thick]  (6,6) -- (6,-0.1) node[below] { v_0 };
-
- \draw [ black!100, thick]  (ya) --(o) --  (xa);
-
-  \draw[thick,color=black, thick] plot[samples=50, domain=-0.5:4] (\x*2, 2*\x ) node[right] {\huge $p(v) = m v$}; 
-
-
-\end{tikzpicture}
-
-```
+<!-- style="width:600px" -->
+![](pvEnergie2.png)
 </center>
+
 
 {{3}}
 $$
@@ -385,3 +342,29 @@ A & = \dfrac{1}{2} mv_0^2    \\
 A & = E_{kin}    \\
 \end{align*}
 $$
+
+
+
+
+## Drehimpuls
+
+
+## Bahnkurve
+
+
+## Differentiation
+
+
+## Integration
+
+
+## Hamiliton-Formalismus
+
+
+## Euler-Lagrange-Gleichungen
+
+
+
+
+
+
