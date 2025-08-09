@@ -267,6 +267,102 @@ $$
 {{3}}
 > Impuls $\vec{p}$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Impuls $\vec{p}$ kann lediglich in andere Teilimpulse zerglegt werden, was durch Kärfte $F$ passiert. Da der Impuls eine vektorielle Größe ist, muss auch immer die Orientierung mit erhalten bleiben.
 
+<br>
+
+
+
+## Superposition
+
+Das Superpositionsprinzip beschreibt die Überlagerung mehrerer Wirkungen, die unabhängig voneinander betrachtet und anschließend vektoriell addiert werden können. Dieses Prinzip gilt nicht nur für Kräfte und Geschwindigkeiten, sondern ebenso für den Impuls.
+
+Wird ein Impulsvektor (in der Abbildung $\vec{c}$) in mehrere Komponenten zerlegt, beispielsweise in eine horizontale (in der Abbildung $\vec{a}$) und eine vertikale (in der Abbildung $\vec{b}$) Richtung, so beeinflussen sich diese Komponenten nicht gegenseitig. Eine Änderung des Impulses in einer Richtung hat keinen Einfluss auf die orthogonale Komponente. Dadurch lassen sich komplexe Bewegungsabläufe in Teilprobleme zerlegen, die separat untersucht werden können.
+
+
+
+<center>
+<!-- style="width:400px" -->
+![](Superposi1.png)
+</center>
+
+
+Wirken mehrere Kräfte gleichzeitig auf einen Körper, so kann jede Kraft eine eigene Impulsänderung hervorrufen. Nach dem Superpositionsprinzip ergibt sich die gesamte Impulsänderung aus der vektoriellen Summe der einzelnen Impulsänderungen. Diese Überlagerung gilt unabhängig davon, ob die Kräfte zeitgleich oder nacheinander wirken, solange die einzelnen Beiträge korrekt erfasst werden. Die Beträge ergeben sich in der Interpretation aus der Länge der Vektoren.
+
+<br>
+
+{{1}}
+__Aufgabe 1:__ **Gib** eine Gleichung **an**, die aus der horizontalen $\left|\vec{a}\right|$ und vertikalen Länge $\left|\vec{b}\right|$ die Länge von $\left|\vec{c}\right|$ berechnen lässt. \
+<br>
+
+
+{{2}} $$
+\begin{align*} 
+\left|\vec{c}\right| & = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2}   \\ 
+\end{align*}
+$$
+
+<br>
+{{3}} 
+Die Zerlegung des Impulses in Komponenten vereinfacht die Analyse, da jede Richtung separat berechnet werden kann. Nach der Bestimmung der Komponenten wird der Gesamtimpuls wieder durch Addition der Vektoren gewonnen. Dieses Vorgehen ist insbesondere bei Bewegungen in mehreren Dimensionen oder bei der gleichzeitigen Wirkung verschiedener Kräfte von Bedeutung, etwa bei Schrägwürfen oder zusammengesetzten Stoßvorgängen.
+
+{{3}} 
+Das Superpositionsprinzip stellt damit ein zentrales Werkzeug zur Behandlung komplexer Impulsänderungen dar und ermöglicht eine systematische und klare Analyse vielschichtiger physikalischer Prozesse.
+
+
+{{3}} 
+Addiert man die einzelnen Komponenten, dann bildet sich eine lange Diagonale eine Parallelogramms aus. Subtrahiert man die Komponenten, ergibt sich die kurze Diagonale:
+
+{{3}} 
+<center>
+<!-- style="width:400px" -->
+![](Superposi2.png)
+</center>
+
+<br>
+
+{{4}} 
+Bei Zusammenstößen zwischen zwei Körpern ist der Winkel nach dem Zusammenprall interessant, welcher sich über das Teildreieck des Parallelogramms mit der kurzen Diagonale berechnen lässt.
+
+{{4}} 
+<center>
+<!-- style="width:400px" -->
+![](Superposi3.png)
+</center>
+
+<br>
+
+
+{{5}}
+__Aufgabe 2:__ **Gib** eine Gleichung **an**, die die Länge von $\left|\vec{a}-\vec{b}\right|$ berechnen lässt. \
+<br>
+
+
+{{6}} $$
+\begin{align*} 
+\left|\vec{a}-\vec{b}\right| & = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi)}   \\ 
+\end{align*}
+$$
+
+
+<br>
+
+
+{{7}}
+__Aufgabe 3:__ **Löse** die Gleichung $\left|\vec{a}-\vec{b}\right| = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi)}$ nach dem Winkel $\varphi$ **auf**. \
+<br>
+
+
+{{8}}
+$$
+\begin{align*} 
+\left|\vec{a}-\vec{b}\right| & = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi)}  \\ 
+\Rightarrow\;\; \left|\vec{a}-\vec{b}\right|^2 & = \left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi) \quad \left| - \left|\vec{a}\right|^2  - \left|\vec{b}\right|^2  \right.  \\ 
+ \left|\vec{a}-\vec{b}\right|^2 - \left|\vec{a}\right|^2  - \left|\vec{b}\right|^2 & = -2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi) \quad \left|  \cdot (-1)  \right.  \\ 
+ \left|\vec{a}\right|^2  + \left|\vec{b}\right|^2 -  \left|\vec{a}-\vec{b}\right|^2 & = 2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi) \quad \left|  : 2\left|\vec{a}\right|\left|\vec{b}\right|  \right.  \\ 
+\dfrac{ \left|\vec{a}\right|^2  + \left|\vec{b}\right|^2 -  \left|\vec{a}-\vec{b}\right|^2}{ 2\left|\vec{a}\right|\left|\vec{b}\right| } & =  \cos(\varphi)    \\ 
+\Rightarrow\;\;  \arccos\left(  \dfrac{ \left|\vec{a}\right|^2  + \left|\vec{b}\right|^2 -  \left|\vec{a}-\vec{b}\right|^2}{ 2\left|\vec{a}\right|\left|\vec{b}\right| } \right) & =   \varphi    \\ 
+\end{align*}
+$$
+
 
 
 
@@ -280,8 +376,7 @@ __Aufgabe 1:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der I
 <br>
 
 
-{{1}}
-$$
+{{1}} $$
 \begin{align*} 
 E_{kin} & = \dfrac{1}{2} m v^2   \qquad \text{mit: }  p = mv \;\;\Rightarrow\;\; m = \dfrac{p}{v}   \\
 E_{kin} & = \dfrac{1}{2} \dfrac{p}{v} v^2 \\
@@ -346,22 +441,603 @@ $$
 
 
 
-## Drehimpuls
+{{2}}
+__Aufgabe 4:__ **Beschreibe**, wo sich in diesem Diagramm die Masse wiederfindet und **begründe** deine Vermutung. \
 
 
-## Bahnkurve
+
+{{3}}
+Die Steigung der Geraden gibt die Masse an, da dies der einzige freie Parameter der allgemeinen Geradengleichung ist und dieser auch konstant ist. Würde sich der Massenwert verringern, würde der Flächeninhalt des Dreiecks auch kleiner werden und andersherum. Folglich ist der Energiewert abhängig von der Steigung der Geraden, welche also als Masse interpretiert werden kann.
+
+
+
+
+{{2}}
+__Aufgabe 5:__ **Beschreibe**, wo sich in diesem Diagramm die Masse wiederfindet und **begründe** deine Vermutung. \
+
+
+
+### Übungen zu Erhaltungsgrößen
+
+__Aufgabe 1:__ Zentraler elastischer Stoß auf einer Geraden
+
+Zwei Körper mit den Massen $m_1$ und $m_2$ bewegen sich mit den Geschwindigkeiten $v_1$ und $v_2$ aufeinander zu.  
+Nach einem elastischen Stoß besitzen sie die Geschwindigkeiten $v_1'$ und $v_2'$.
+
+$a)\;\;$ **Gib** die Erhaltungsgleichungen für den Impuls und die kinetische Energie **an**.  
+
+$b)\;\;$ **Leite** daraus allgemeine Ausdrücke für $v_1'$ und $v_2'$ in Abhängigkeit von $m_1, m_2, v_1, v_2$ **her**.
+
+---
+
+{{1}}
+$a)\;\;$ **Schritt 1: Impuls- und Energieerhaltung**
+
+{{1}}
+$$
+\begin{align*}
+m_1 v_1 + m_2 v_2 &= m_1 v_1' + m_2 v_2' \quad &(1) \\
+\frac12 m_1 v_1^2 + \frac12 m_2 v_2^2 &= \frac12 m_1 {v_1'}^{2} + \frac12 m_2 {v_2'}^{2} \quad &(2)
+\end{align*}
+$$
+
+---
+
+{{2}}
+$b)\;\;$ **Schritt 2: Relativgeschwindigkeitsregel**
+
+{{2}}
+Gleichung (2) wird mit 2 multipliziert und mit (1) kombiniert.  
+Nach Umformung folgt die Relativgeschwindigkeitsregel:
+
+{{2}}
+$$
+v_1 - v_2 = -\,(v_1' - v_2') \quad (3)
+$$
+
+---
+
+{{3}}
+**Schritt 3: Aus (3) $v_1'$ ausdrücken und in (1) einsetzen**
+
+{{3}}
+Aus (3) ergibt sich:
+
+{{3}}
+$$
+v_1' = v_2' + v_2 - v_1
+$$
+
+{{3}}
+In (1) eingesetzt:
+
+{{3}}
+$$
+m_1 v_1 + m_2 v_2 = m_1 (v_2' + v_2 - v_1) + m_2 v_2'
+$$
+
+---
+
+{{4}}
+**Schritt 4: $v_2'$ bestimmen**
+
+{{4}}
+Nach Umformen:
+
+{{4}}
+$$
+(m_1 + m_2) v_2' = 2 m_1 v_1 + (m_2 - m_1) v_2
+$$
+
+{{4}}
+Damit:
+
+{{4}}
+$$
+v_2' = \frac{2 m_1}{m_1 + m_2} v_1 + \frac{m_2 - m_1}{m_1 + m_2} v_2
+$$
+
+---
+
+{{5}}
+**Schritt 5: $v_1'$ bestimmen**
+
+{{5}}
+Einsetzen in $v_1' = v_2' + v_2 - v_1$:
+
+{{5}}
+$$
+v_1' = \frac{m_1 - m_2}{m_1 + m_2} v_1 + \frac{2 m_2}{m_1 + m_2} v_2
+$$
+
+---
+
+{{6}}
+**Schritt 6: Präsentation der Lösung**
+
+{{6}}
+$$
+\begin{align*}
+v_1' &= \frac{m_1 - m_2}{m_1 + m_2} v_1 + \frac{2 m_2}{m_1 + m_2} v_2 \\
+v_2' &= \frac{2 m_1}{m_1 + m_2} v_1 + \frac{m_2 - m_1}{m_1 + m_2} v_2
+\end{align*}
+$$
+
+{{6}}
+Damit liegen die allgemeinen Geschwindigkeitsausdrücke für den eindimensionalen elastischen Stoß vor.
+
+---
+<br>
+---
+
+__Aufgabe 2:__ Vollständig inelastischer Stoß (Verkleben)
+
+Zwei Körper mit den Massen $m_1$ und $m_2$ bewegen sich mit den Geschwindigkeiten $v_1$ und $v_2$ aufeinander zu und bewegen sich nach dem Stoß gemeinsam mit der Geschwindigkeit $v'$.
+
+$a)\;\;$ **Bestimme** $v'$ aus der Impulserhaltung.
+
+$b)\;\;$ **Bestimme** die kinetische Energie vor und nach dem Stoß und leite den "Energieverlust" $\Delta E_{kin}$ her.
+
+$c)\;\;$ **Gib** optional den relativen "Verlust" $\dfrac{\Delta E_{kin}}{E_{kin,\text{vor}}}$ **an**.
+
+$d)\;\;$ **Erkläre**, wo die Energie aus dem relativen "Verlust" der kinetischen Energie hin ist.
+
+---
+
+{{7}}
+$a)\;\;$ Schritt 1: Impulserhaltung und gemeinsame Geschwindigkeit
+
+{{7}}
+$$
+\begin{align*}
+m_1 v_1 + m_2 v_2 &= (m_1 + m_2) \, v' \\
+\Rightarrow\quad
+v' &= \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
+\end{align*}
+$$
+
+---
+
+{{8}}
+$b)\;\;$ Schritt 2: Kinetische Energien vor und nach dem Stoß
+
+{{8}}
+$$
+\begin{align*}
+E_{kin,\text{vor}} &= \dfrac12 m_1 v_1^2 + \dfrac12 m_2 v_2^2 \\
+E_{kin,\text{nach}} &= \dfrac12 (m_1 + m_2)\,{v'}^{2}
+= \dfrac{(m_1 v_1 + m_2 v_2)^2}{2 (m_1 + m_2)}
+\end{align*}
+$$
+
+---
+
+{{9}}
+$c)\;\;$ Schritt 3: "Energieverlust" \(\Delta E_{kin} =  E_{kin,\text{vor}} - E_{kin,\text{nach}}\)
+
+{{9}}
+Nach Ausmultiplizieren und Zusammenfassen ergibt sich die Standardform:
+
+{{9}}
+$$
+\Delta E_{kin}
+= \dfrac12 \,\frac{m_1 m_2}{m_1 + m_2}\,(v_1 - v_2)^2
+$$
+
+{{9}}
+Diese Darstellung macht die Abhängigkeit von der Relativgeschwindigkeit $(v_1 - v_2)$ und der reduzierten Masse $\mu = \dfrac{m_1 m_2}{m_1 + m_2}$ sichtbar.
+
+---
+
+{{10}}
+Schritt 4 (optional): Relativer "Verlust"
+
+{{10}}
+$$ 
+\frac{\Delta E_{kin}}{E_{kin,\text{vor}}}
+= 1 - \frac{(m_1 v_1 + m_2 v_2)^2}{(m_1 + m_2)\,(m_1 v_1^2 + m_2 v_2^2)}
+$$
+
+---
+
+{{10}}
+Zusammenfassung
+
+{{10}}
+$$
+\begin{align*}
+v' &= \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2} \\
+\Delta E_{kin} &= \frac12 \,\frac{m_1 m_2}{m_1 + m_2}\,(v_1 - v_2)^2
+\end{align*}
+$$
+
+
+---
+
+{{11}}
+$d)\;\;$ Diese Energie wird in Umformungs- und somit auch Wärmeenergie umgewandelt. Somit der erste Hauptsatz der Thermodynamik nicht verletzt.
+
+
+
+
+---
+<br>
+---
+
+
+
+
+__Aufgabe 3:__ Energieumwandlung beim freien Fall
+
+Ein Körper der Masse $m$ wird aus der Höhe $h$ ohne Anfangsgeschwindigkeit fallen gelassen. Die aktuelle Höhe sei $y < h$. Luftwiderstand wird vernachlässigt, $g$ sei ortskonstant.
+
+$a)\;\;$ **Gib** die Energieerhaltung zwischen den Höhen $h$ (Start) und $y$ (aktuell) **an**.
+
+$b)\;\;$ **Leite** daraus $v(y)$ **her** und **zeige** die Unabhängigkeit von $m$.
+
+$c)\;\;$ **Zeige** die Übereinstimmung mit der kinematischen Beziehung für gleichmäßige Beschleunigung.
+
+---
+
+{{12}}
+$a)\;\;$ Schritt 1: Energieerhaltung
+
+{{12}}
+$$
+\begin{align*}
+E_{\text{pot}}(h) + E_{\text{kin}}(h) &= E_{\text{pot}}(y) + E_{\text{kin}}(y) \\
+m g h + 0 &= m g y + \dfrac12 m v^2
+\end{align*}
+$$
+
+---
+
+{{13}}
+$b)\;\;$ Schritt 2: Umformen auf $v(y)$
+
+{{13}}
+$$
+\begin{align*}
+\dfrac12 m v^2 &= m g (h - y) \\
+v^2 &= 2 g (h - y) \\
+v &= \sqrt{\,2 g (h - y)\,}
+\end{align*}
+$$
+
+---
+
+{{14}}
+Schritt 3: Unabhängigkeit von der Masse
+
+{{14}}
+$$
+\begin{align*}
+\dfrac12 \,\cancel{m}\, v^2 &= \cancel{m}\, g (h - y)
+\end{align*}
+$$
+
+{{14}}
+Die Masse kürzt sich; $v$ hängt nicht von $m$ ab.
+
+---
+
+{{15}}
+$c)\;\;$ Schritt 4: Konsistenz mit der Kinematik
+
+{{15}}
+Mit der Fallstrecke $s = h - y$ und konstanter Beschleunigung $g$ gilt kinematisch
+
+{{15}}
+$$
+\begin{align*}
+v^2 &= 2 g s = 2 g (h - y),
+\end{align*}
+$$
+
+{{15}}
+also identisch zum Ergebnis aus der Energieerhaltung.
+
+
+
+---
+<br>
+---
+
+
+
+__Aufgabe 4:__ Rückstoß (Rollbrett + Ball), Impulserhaltung
+
+Eine Person der Masse $M$ steht reibungsfrei auf einem Rollbrett. Sie wirft einen Ball der Masse $m$ mit der zur Erde gemessenen Geschwindigkeit $u$ nach vorne. Das System war zuvor in Ruhe.
+
+$a)\;\;$  **Gib** die Impulserhaltung **an** und **leite** die Geschwindigkeit $V'$ der Person nach dem Wurf **her**.
+
+$b)\;\;$  **Gib** die Richtung und Betrag von $V'$ **an**.
+
+---
+
+{{16}}
+$a)\;\;$ Schritt 1: Impulserhaltung (gesamter Anfangsimpuls ist null)
+
+{{16}}
+$$
+\begin{align*}
+0 \;=\; M\,V' \;+\; m\,u
+\end{align*}
+$$
+
+{{16}}
+Vorzeichenkonvention: $u>0$ in Wurfrichtung (nach vorne).
+
+---
+
+{{17}}
+$b)\;\;$ Schritt 2: Auflösen nach $V'$
+
+{{17}}
+$$
+\begin{align*}
+M\,V' &= -\,m\,u \\
+V' &= -\,\dfrac{m}{M}\,u
+\end{align*}
+$$
+
+---
+
+{{18}}
+Schritt 3: Interpretation
+
+{{18}}
+Das Minuszeichen zeigt: Die Person bewegt sich **entgegen** der Wurfrichtung.  
+Der Betrag lautet
+
+{{18}}
+$$
+\begin{align*}
+\lvert V' \rvert \;=\; \dfrac{m}{M}\,u \,.
+\end{align*}
+$$
+
+---
+
+{{19}}
+Zusammenfassung
+
+{{19}}
+$$
+\begin{align*}
+V' \;=\; -\,\dfrac{m}{M}\,u, \qquad \lvert V' \rvert \;=\; \dfrac{m}{M}\,u \,.
+\end{align*}
+$$
+
+{{19}}
+Hinweis: Der Gesamtimpuls bleibt erhalten; die (später betrachtbare) Zunahme von $E_{\text{kin}}$ des Systems stammt aus der beim Wurf aufgewendeten inneren Arbeit.
+
+
+
+
+
+
+
+
+
+
+
+
+## Das Feld
+
+
+In der Physik wird der Begriff Feld verwendet, um Kräfte zu beschreiben, die auf einen Körper wirken, ohne dass direkter Kontakt zu einer anderen Materie besteht. Ein klassisches Beispiel ist die Gravitation: Die Erde übt eine Kraft auf jeden Körper in ihrer Nähe aus, auch wenn dieser sie nicht berührt. Um dieses „Fernwirken“ zu verstehen, wurde das Konzept des Gravitationsfeldes eingeführt.
+
+Ein Feld ordnet jedem Punkt im Raum eine bestimmte Größe zu. Im Fall der Gravitation ist dies die Gravitationsfeldstärke $g$, die angibt, wie groß die Kraft pro Kilogramm Masse an diesem Punkt ist. Damit kann die Wirkung der Schwerkraft auf einen Körper durch eine einfache Multiplikation bestimmt werden: $Kraft = Masse \cdot Feldstärke$. Die Feldvorstellung ersetzt somit das abstrakte Bild einer unmittelbaren Fernkraft durch die Vorstellung, dass der Raum selbst an jedem Punkt eine bestimmte physikalische Eigenschaft besitzt.
+
+Die Feldstärke hängt von der Masse ab, die das Feld erzeugt, und nimmt mit wachsendem Abstand ab. In der Nähe der Erde beträgt sie ungefähr $9,81\,\dfrac{\text{N}}{\text{kg}} $ und wirkt immer in Richtung des Erdmittelpunkts. Auch der Mond, die Sonne oder andere Himmelskörper erzeugen solche Felder, die zusammenwirken.
+
+Die Einführung des Feldbegriffs hat die Physik grundlegend verändert. Sie erlaubt nicht nur eine anschauliche Beschreibung der Gravitation, sondern bildet auch die Grundlage für andere Bereiche, etwa elektrische und magnetische Felder. Felder machen sichtbar, dass Kräfte nicht plötzlich und punktweise wirken, sondern durch den Raum verteilt sind. Dadurch lassen sich auch komplexe Situationen, in denen mehrere Quellen zusammenwirken, systematisch und präzise berechnen.
+
+
+
+Es wird ersichtlich, dass bei der Division der Kraft durch die Ladung der betrachteten Kraft gleich der Feldstärke ist. 
+
+$$
+\begin{align*} 
+Kraft & = \textcolor{red}{Ladung} \cdot Feldstärke  \\
+F_C & = \textcolor{red}{q} \cdot  E   \quad \text{Elektrisches Feld (allgemein)}  \\  
+\end{align*}
+$$
+
+{{0}}
+__Aufgabe 1:__ **Gib** die Gleichung **an**, die die Feldstärke des erdnahen Graviationsfeld im Bezug zu seiner Ladung und Kraft setzt. \
+
+
+{{1}} $$
+\begin{align*}  
+F_G & = \textcolor{red}{m} \cdot  g    \quad \text{Gravitation (Erdnah)} \\ 
+\end{align*}
+$$
+
+
+{{2}}
+Um das Feld sichtbar zu machen, wird zunächst eine zweidimensionale Draufsicht verwendet. Hierbei befindet sich eine Ladung in der Mitte, während in allen Richtungen gleichmäßig die sogeannten Feldlinien abgehen. 
+
+
+
+{{2}}
+<center>
+<!-- style="width:500px" -->
+![](Feldoben.png)
+</center>
+
+{{2}}
+Es wird deutlich, dass die Feldlinien mit wachsendem Abstand zur Quelle weiter auseinander liegen und somit immer längere Umfangsteilstrecken zwischen den Feldlinien sind. Die Feldliniendichte nimmt somit ab. Diese Feldliniendichte gibt somit Aufschluss auf die Stärke der Kraft. Die farbigen Linien beschreiben somit Bereiche gleicher potentieller Energie. \
+
+
+{{3}}
+Noch deutlicher wird dieses Feldlinienmodell in einer dreidimensionalen Darstellung. \
+
+
+{{3}}
+<center>
+<!-- style="width:750px" -->
+![](Kugelober.png)
+</center>
+
+{{3}}
+Es ist schnell zu erkennen, dass pro gleichgroßer Fläche immer weniger Feldlinien bei höherem Abstand die Flächen durchdringen. Somit gilt die Antiproportionalität, dass bei wachsender Kugeloberfläche $O = 4 \pi r^2$ die wirkende Kraft abnimmt. Somit ergeben sich für radialsymmetrische Felder folgende Gleichungen der Kräfte:
+
+
+{{4}}
+$$
+\begin{align*} 
+F & \propto \dfrac{1}{4 \pi r^2} \\
+Kraft & = \textcolor{red}{Ladung} \cdot Feldstärke  \\
+F_C & = \textcolor{red}{q} \cdot  \dfrac{1}{4 \pi \epsilon_0} \dfrac{Q}{r^2}   \quad \text{Elektrisches Feld}  \\  
+\end{align*}
+$$
+
+
+{{5}}
+__Aufgabe 2:__ **Gib** die Gleichung **an**, die die Feldstärke des allgemeinen Graviationsfeld im Bezug zu seiner Ladung und Kraft setzt. \
+
+
+{{6}}
+$$
+\begin{align*} 
+F_G & = \textcolor{red}{m} \cdot  \dfrac{1}{4 \pi \gamma} \dfrac{M}{r^2} \quad \text{Gravitation}    \\ 
+\end{align*}
+$$
+
+{{6}}
+wobei $\gamma$ und $\epsilon_0$ die Proportionalitätskonstanten sind, die die Einheiten auf die bereits bekannten Einheiten anpassen. Dabei unterscheiden sich die Gleichungen für die Gravitation und die der elektrischen Kraft strukturell nicht. Dieses Konzept kann auch auf die Intensität von Licht, radioaktiver Strahlung und vieles weiteres anwende. 
+
+
+{{7}}
+??[](https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_all.html)
+
+
+
+
+
+
+
+
+
+
+
+
+## Das Potential $\Phi$
+
+
+Während das Gravitationsfeld beschreibt, wie groß die Kraft an einem Punkt im Raum ist, geht das Konzept des Potentials einen Schritt weiter. Ein Potential ordnet jedem Punkt nicht die Kraft selbst, sondern eine Energie pro Masseneinheit zu. Es beantwortet die Frage: Wie viel Energie besitzt ein Körper allein dadurch, dass er sich an einem bestimmten Ort im Feld befindet?
+
+
+$$
+\begin{align*} 
+\Delta E_{pot} = F(r) \cdot \Delta r \\ 
+\end{align*}
+$$
+
+Im Gravitationsfeld der Erde lässt sich diese Idee besonders einfach nachvollziehen. Hebt man einen Körper an, verrichtet man Arbeit gegen die Schwerkraft. Diese Arbeit wird als potenzielle Energie gespeichert. Befindet sich der Körper höher, so kann er beim Herunterfallen mehr Energie freisetzen. Das Potential gibt somit an, wie „hoch“ die Lageenergie pro Kilogramm an einem bestimmten Ort ist – unabhängig davon, ob sich dort gerade ein Körper befindet oder nicht.
+
+
+> $$
+\begin{align*} 
+E_{pot} = \Phi(r) \cdot q \\ 
+\end{align*}
+$$
+
+Das Potential ist eng mit der Feldstärke verknüpft: _Die Feldstärke entspricht dem Gefälle des Potentials_. Anschaulich bedeutet dies, dass ein Körper immer in Richtung abnehmenden Potentials beschleunigt wird – vergleichbar mit einem Ball, der auf einer schiefen Ebene in Richtung Tal rollt.
+
+Das Konzept des Potentials spielt nicht nur in der Gravitation, sondern auch in der Elektrostatik eine zentrale Rolle. Es macht sichtbar, dass Felder nicht nur Kräfte beschreiben, sondern auch gespeicherte Energie in Raum und Position binden.
+
+Oftmals kann bei einem genügend großen Abstand jedes Feld auf eine Punktquelle reduziert werden. Dies ist als Funktion in der folgenden Abbildung verdeutlicht:
+
+<center>
+<!-- style="width:500px" -->
+![](Feldseite.png)
+</center>
+
+Wenn man die Feldlinien in zwei Dimensionen betrachtet würde das Potential dazu die dritte Dimension darstellen.
+
+<center>
+<!-- style="width:500px" -->
+![](Feld3D.png)
+</center>
+
+In diesem Bild wird schon die Grunderkenntnis der allgemeinen Relativitätstheorie deutlich, da die Linien stets alle gerade sind, jedoch durch ihre Abbildung von der Draufsicht erscheinen die daraus resultierenden Flächen unterschiedlich groß. Das bedeutet, dass diese geometrischen Interpretationen in vielen Bereichen ähnlich sind und mächtige Vorhersagen treffen lassen können.
+
+??[](https://www.didaktikonline.physik.uni-muenchen.de/programme/e_feld/E_Feld_leifi.html)
+
+
+
+
+{{0}}
+__Aufgabe 1:__ **Gib** eine Gleichung für das allgemeine Gravitationspotential **an**. \
+<br>
+
+
+{{1}}
+$$
+\begin{align*} 
+E_{pot} & =  \Phi(r) q \quad \text{mit:}\;\; E_{pot} = F(r)  r \\ 
+F(r)  r  & =  \Phi(r) q \quad \text{mit:}\;\;   F(r) = \dfrac{1}{4 \pi \gamma} \dfrac{m M}{r^2} \;\; \wedge \;\; q = m \\ 
+\dfrac{1}{4 \pi \gamma} \dfrac{m M}{r^2}  r  & =  \Phi(r) m  \quad \left| : m  \right.  \\ 
+\dfrac{1}{4 \pi \gamma} \dfrac{ M}{r}    & =  \Phi(r)       \\ 
+\end{align*}
+$$
+
+
+
+
 
 
 ## Differentiation
 
 
+
+Im folgenden Video wird das Beschriebene aus diesem Thema nochmal anhand von Beispielen erklärt:  \
+
+!?[Differentation](https://www.youtube.com/watch?v=quQtPwW04B0)
+
+
+### Differentiation - Übungen
+
+
+
+$F = -q \dfrac{d \Phi(r)}{d r}$
+
+
 ## Integration
+
+
+Im folgenden Video wird das Beschriebene aus diesem Thema nochmal anhand von Beispielen erklärt:  \
+
+!?[Integration](https://www.youtube.com/watch?v=ppdwq_KDMoE)
+
+
+
+
+### Integration - Übungen
+
+
+
+
+
+
+## Euler-Lagrange-Gleichungen
+
+
+
+## Noether-Theorem
+
+
 
 
 ## Hamiliton-Formalismus
 
 
-## Euler-Lagrange-Gleichungen
+
+## Bahnkurve
+
 
 
 
