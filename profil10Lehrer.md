@@ -365,6 +365,113 @@ $$
 
 
 
+---
+<br>
+---
+
+
+{{9}}
+__Aufgabe 4:__ Ein Körper der Masse $m$ befindet sich zunächst in Ruhe. In sehr kurzer Zeit wirken zwei Impulsstöße  
+$\vec p_1$ und $\vec p_2$ auf den Körper. Die Beträge seien $p_1$ und $p_2$, der Winkel zwischen den Richtungen betrage $\varphi$.
+
+{{9}}
+$a)\;\;$ **Bestimme** den Betrag des resultierenden Impulses $\vec p = \vec p_1 + \vec p_2$.
+
+{{9}}
+$b)\;\;$ **Leite** daraus die Endgeschwindigkeit $v'$ des Körpers **her**.
+
+{{9}}
+$c)\;\;$ **Gib** die kinetische Energie $E_{\text{kin}}'$ nach den beiden Impulsstößen in Abhängigkeit von $p_1, p_2, \varphi$ und $m$ **an**.
+
+---
+
+{{10}}
+$a)\;\;$ Schritt 1: Resultierenden Impulsbetrag via Kosinussatz
+
+{{10}}
+Die Vektorsumme $\vec p = \vec p_1 + \vec p_2$ bildet ein Dreieck mit eingeschlossenem Winkel $\varphi$ zwischen $\vec p_1$ und $\vec p_2$. Für die Beträge gilt:
+
+{{10}}
+$$
+\begin{align*}
+p^2 &= p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi) \,.
+\end{align*}
+$$
+
+---
+
+{{11}}
+$b)\;\;$ Schritt 2: Zusammenhang zwischen Impuls und Geschwindigkeit
+
+{{11}}
+Mit $\vec p' = \vec p$ und Anfangsruhe ($\vec p_0 = \vec 0$) gilt:
+
+{{11}}
+$$
+\begin{align*}
+v' &= \dfrac{p}{m}
+= \dfrac{\sqrt{\,p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi)\,}}{m} \,.
+\end{align*}
+$$
+
+---
+
+{{12}}
+$c)\;\;$ Schritt 3: Kinetische Energie nach den Impulsstößen
+
+{{12}}
+Mit $E_{\text{kin}}' = \dfrac{p^2}{2m}$ und dem Ergebnis aus Schritt 1 folgt:
+
+{{12}}
+$$
+\begin{align*}
+E_{\text{kin}}' 
+&= \dfrac{p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi)}{2m} \,.
+\end{align*}
+$$
+
+---
+
+{{13}}
+Zusatz (optional): Spezialfälle zur Interpretation
+
+
+{{13}}
+- Konstruktive Überlagerung ($\varphi = 0$):
+
+{{13}}
+$$
+\begin{align*}
+p = p_1 + p_2,\quad 
+v' = \dfrac{p_1 + p_2}{m},\quad
+E_{\text{kin}}' = \dfrac{(p_1 + p_2)^2}{2m}.
+\end{align*}
+$$
+
+
+{{13}}
+- Destruktive Überlagerung ($\varphi = \pi$):
+
+{{13}}
+$$
+\begin{align*}
+p = \lvert p_1 - p_2\rvert,\quad 
+v' = \dfrac{\lvert p_1 - p_2\rvert}{m},\quad
+E_{\text{kin}}' = \dfrac{(p_1 - p_2)^2}{2m}.
+\end{align*}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Energie- und Impulserhaltung
@@ -613,7 +720,7 @@ $$
 ---
 
 {{9}}
-$c)\;\;$ Schritt 3: "Energieverlust" \(\Delta E_{kin} =  E_{kin,\text{vor}} - E_{kin,\text{nach}}\)
+$c)\;\;$ Schritt 3: "Energieverlust" $\Delta E_{kin} =  E_{kin,\text{vor}} - E_{kin,\text{nach}}$
 
 {{9}}
 Nach Ausmultiplizieren und Zusammenfassen ergibt sich die Standardform:
@@ -776,7 +883,7 @@ $b)\;\;$ Schritt 2: Auflösen nach $V'$
 {{17}}
 $$
 \begin{align*}
-M\,V' &= -\,m\,u \\
+M\,V' &= -\,m\,u \quad \left| : M  \right.\\
 V' &= -\,\dfrac{m}{M}\,u
 \end{align*}
 $$
