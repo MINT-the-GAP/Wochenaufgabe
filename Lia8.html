@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+
+<script>
+function week(){
+var date = new Date();
+
+var jetztDonnerstag = new Date(date.getTime() +(3-((date.getDay()+6) % 7)) * 86400000);
+var DonnerstagImJahr = jetztDonnerstag.getFullYear();
+
+var ErsterDonnerstag = new Date(new Date(DonnerstagImJahr,0,4).getTime() +(3-((new Date(DonnerstagImJahr,0,4).getDay()+6) % 7)) * 86400000);
+
+var Kalenderwoche = Math.floor(1 + 0.5 + (jetztDonnerstag.getTime() - ErsterDonnerstag.getTime()) / 86400000/7);
+return Kalenderwoche;
+ }
+ </script>
+
+
+ <script>
+function findpdf(){
+
+
+var right = week() - 34 ;
+
+if(right>0){
+ var test   = "https://liascript.github.io/course/?https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/8/Lia8_0" + right + ".md";
+return test;
+}
+{
+ var correct = week() + 23 ;
+ var test   = "https://liascript.github.io/course/?https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/8/Lia8_0" + correct + ".md";
+ return test;
+}}
+</script>
+
+
+
+
+
+</head>
+
+
+<body>
+   <big> <big> <big> <big> <big> <b>     Digitalgest&uuml;tzes Selbstlernen mit LiaScript        </big>      </big>
+  <br>
+  <br>
+
+
+    Auf dieser Seite findest du jede Woche neue Mathematikaufgaben, die mit LiaScript erstellt und verlinkt werden. Du kannst sie ganz einfach im Browser &ouml;ffnen – ohne Anmeldung oder zus&auml;tzliche Programme. Die Aufgaben passen zu dem, was wir gerade im Unterricht behandeln, und helfen dir beim &Uuml;ben und Vertiefen. Au&szlig;erdem kannst du &auml;ltere Aufgaben jederzeit noch einmal durchgehen, um Stoff zu wiederholen oder dich auf Klassenarbeiten vorzubereiten. Schau also regelm&auml;&szlig;ig vorbei – so bleibst du immer am Ball und st&auml;rkst Schritt f&uuml;r Schritt deine Mathematikkenntnisse.
+
+
+  <br>
+  <br>
+
+
+  <a id="pdflink" href="" target="_blank">Zum LiaScript-Kurs f&uuml;r diese Woche bitte hier klicken!</a>      </b>    </big></big></big>
+
+  <script>
+    document.getElementById("pdflink").href = findpdf();
+  </script>
+</body>
+
+</html>
