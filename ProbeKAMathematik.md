@@ -526,7 +526,7 @@ Auf dieser Seite werden immer wieder Aufgaben neu generiert, wenn du auf den But
 
 <script run-once modify="false">
 // @input(`Aufgabe`)
-// Zufällige Prozentzahl (10 bis 90 in 10er-Schritten)
+// Zufällige Prozentzahl (10 bis 990 in 2er-Schritten)
 const percentage = (Math.floor(Math.random() * 99) + 1) * 2;
 // Zufällige Basiszahl (zwischen 50 und 500, in 50er-Schritten)
 const base = (Math.floor(Math.random() * 200) + 1) * 50;
