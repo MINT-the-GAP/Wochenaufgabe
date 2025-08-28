@@ -59,34 +59,204 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 </script>
 @end
 
+
+
+
+
+import: https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
+
+
+import: https://raw.githubusercontent.com/LiaTemplates/Speech-Recognition-Quiz/refs/heads/main/README.md
+
+
 -->
 
 
 
 
-# Aufgabe Balkendiagramm
+# Deutsch
+
+Diktat
 
 
 
-Gegeben seien die Werte in der gegebenen Tabelle:
+
+Wortarten
 
 
-<!-- data-type="none" -->
-|           Jahr           |   2019   |   2020   |   2021   |   2022   |   2023   |   2024   |   2025   |
-| :----------------------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-|   Gewinn in $\text{€}$   |   1000   |   1200   |   1100   |   1500   |   1600   |   1300   |   1400   |
 
-$a)\;\;$ **Zeichne** ein Säulendiagramm, dass die relativen Veränderungen von einem Jahr zum nächsten darstellt. (Trage die passenden relativen Werte in Prozent in die Tabelle ein das Säulendiagramm nachzustellen.) **Gib** Periodizitäten gerundet auf zwei Nachkommastellen **an**. Falls ansonsten gerundet werden muss, **gib** zwei Nachkommastellen **an**.
 
-<!--
-data-type="barchart"
-data-title="Veränderung"
--->
-|  2019/20  |    2020/21    |    2021/22   |   2022/23   |    2023/24    |   2024/25   |
-| :-------: | :-----------: | :----------: | :---------: | :-----------: | :---------: |
-| [[ 20% ]] |  [[ -8.33% ]] | [[ 36.36% ]] | [[ 6.66% ]] | [[ -18.75% ]] | [[ 7.69% ]] |
+# Mathematik
 
-<br>
-<br>
-<br>
-<br>
+Randomizer Bruchrechnung
+
+MathJXS
+
+
+
+# Englisch
+
+Exercise 1: Speak out loud
+
+@SpeechRecognition.support
+
+---
+
+Say 'Good morning' in English.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(en-US,`Good morning`)
+
+---
+
+Say 'Hello' in English.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(en-US,`Hello`)
+
+---
+
+Say 'Cucumber' in English.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(en-US,`Cucumber`)
+
+---
+
+Say 'Desire' in English.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(en-US,`Desire`)
+
+
+
+
+
+
+
+Lückentext mit Kacheln
+
+Ellen goes to school. [->[ He | (She) | It ]] wants to learn.  [->[ His | (Her) | Its ]] first subject today is math.
+
+
+# Physik
+
+
+
+
+<!-- style="width:500px" -->
+|  $m$ in [kg]  |  $V$ in $\left[ \dfrac{\text{m}^3}{\text{kg}} \right]$ |
+|:----:|:-----:|
+|  2   | 3.95  |
+|  1   | 2.2   |
+|  3   | 5.7   |
+|  9   | 17.5  |
+|  7   | 14.2  |
+|  11  | 22.1  |
+|  13  | 25.8  |
+
+
+
+
+
+
+
+??[](https://phet.colorado.edu/sims/html/sound-waves/latest/sound-waves_all.html)
+
+# Chemie
+
+
+
+
+Lückentext
+
+# Biologie
+
+
+
+Aufgabe 1: Ziehe den Frosch ins Feld, der giftig ist.
+
+
+[->[ ![](https://media.istockphoto.com/id/1297875622/de/foto/mantella-cowanni-wikipedia.jpg?s=612x612&w=0&k=20&c=XZJxaA4bpLTHmMzJTcpeQ6mSSX0qf7nFXHcwfQruGuE=)<!-- style="height:100px" --> | (![](https://live.staticflickr.com/6237/6268436677_846a796410_b.jpg)<!-- style="height:100px" --> ) ]]
+
+-----------
+
+
+
+
+# Informatik
+
+
+Aufgabe 1: Korrigiere den Fehler im Code und lass dir die Anzahl der Buchstaben der Nachricht ausgeben. Drück dazu mal unten links dieses </> Symbol.
+
+``` js
+var message = "Dies ist die Nachricht"
+console.log(message)
+message.leangth
+```
+<script>@input </script>
+
+
+
+
+
+
+# Musik
+
+Aufgabe 1: Klicke auf die beiden Noten und gib die Kadenz an.
+
+``` abc  @ABCJS.render
+X: 1
+L: 1/2
+K: C
+[|\
+C G:|
+```
+
+Kadenz: [[  Quinte  ]]
+
+
+
+
+
+# Kunst
+
+Bild zu Künstler
+
+Nenne X aus Y
+
+# Geschichte
+
+Aufgabe 1: Ordne die Kriege chonologisch. Fange links bei dem Krieg an, der am weitesten in der Vergangenheit liegt.
+
+ [->[ (Punische Kriege) ]] [->[ (Dreißigjähriger Krieg) ]] [->[ (1. Weltkrieg) ]] [->[ (2. Weltkrieg) ]] [->[ (Vietnamkrieg) ]]
+
+
+
+
+
+# Geographie
+
+
+
+
+Bildpositionen?
+
+# GRW
+
+
+
+
+Multiple Choice
+
+# Deutsch als Zweitsprache
+
+Übersetzungsfunktion
+
+
+
+
