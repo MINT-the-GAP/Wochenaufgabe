@@ -1,7 +1,11 @@
 <!--
 version:  0.0.1
-
 language: de
+
+tags: Demo
+comment: Hier sind einige mögliche Aufgabentypen zu finden. 
+author: Martin Lommatzsch
+
 
 @style
 main > *:not(:last-child) {
@@ -74,6 +78,16 @@ import: https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
 
 import: https://raw.githubusercontent.com/LiaTemplates/mec2/main/README.md
 
+import: https://raw.githubusercontent.com/LiaTemplates/CollaborativeDrawing/main/README.md
+
+persistent: true
+
+import: https://raw.githubusercontent.com/LiaTemplates/SpreadSheet/refs/heads/main/README.md
+
+
+import: https://github.com/LiaTemplates/PeriodicTable/blob/main/README.md
+
+
 
 
 -->
@@ -83,19 +97,46 @@ import: https://raw.githubusercontent.com/LiaTemplates/mec2/main/README.md
 
 # Deutsch
 
-Diktat
+
+__Aufgabe 1:__ Hör dir den Satz an und schreib ihn korrekt in das Eingabefeld.
+
+[[    Anna sitzt auf einen fliegenden Teppich.    ]]
 
 
 ---
 
+---
 
-Wortarten
+__Aufgabe 2:__ **Gib** die passende Wortart **an**.
+
+
+groß  [[(Adjektiv)|Adverb|Artikel|Interjektion|Konjunktion|Numeral|Nomen|Präposition|Pronomen|Substantiv|Verb]]  \
+der  [[Adjektiv|Adverb|(Artikel)|Interjektion|Konjunktion|Numeral|Nomen|Präposition|Pronomen|Substantiv|Verb]]  \
+laufen  [[Adjektiv|Adverb|Artikel|Interjektion|Konjunktion|Numeral|Nomen|Präposition|Pronomen|Substantiv|(Verb)]]  \
+einige  [[Adjektiv|Adverb|Artikel|Interjektion|Konjunktion|(Numeral)|Nomen|Präposition|Pronomen|Substantiv|Verb]]  \
+Haus  [[Adjektiv|Adverb|Artikel|Interjektion|Konjunktion|Numeral|(Nomen)|Präposition|Pronomen|(Substantiv)|Verb]]  \
+heute  [[Adjektiv|(Adverb)|Artikel|Interjektion|Konjunktion|Numeral|Nomen|Präposition|Pronomen|Substantiv|Verb]]  \
+ach  [[Adjektiv|Adverb|Artikel|(Interjektion)|Konjunktion|Numeral|Nomen|Präposition|Pronomen|Substantiv|Verb]]  \
+ich  [[Adjektiv|Adverb|Artikel|Interjektion|Konjunktion|Numeral|Nomen|Präposition|(Pronomen)|Substantiv|Verb]]  \
+oder  [[Adjektiv|Adverb|Artikel|Interjektion|(Konjunktion)|Numeral|Nomen|Präposition|Pronomen|Substantiv|Verb]]  \
+an  [[Adjektiv|Adverb|Artikel|Interjektion|Konjunktion|Numeral|Nomen|(Präposition)|Pronomen|Substantiv|Verb]]  
+
+
 
 
 ---
 
+---
 
-Lückentext
+
+__Aufgabe 3:__ Füll den Lückentext aus.
+
+Es war einmal ein kleines Dorf am Rande eines tiefen Waldes. Die Menschen dort lebten friedlich, doch jedes Jahr, wenn der erste Schnee fiel, verschwand ein Eimer voll goldener Äpfel aus dem Vorratshaus des Königs. Niemand wusste, wer sie stahl. \
+Eines Abends beschloss die junge Magd Clara, das Geheimnis zu lüften. Mit einer Laterne in der Hand schlich sie zum Vorratshaus. Sie versteckte sich hinter einem Fass und wartete. Plötzlich hörte sie ein leises Kichern. Durch das Fenster flatterten winzige, funkelnde Gestalten: Waldelfen! Sie trugen die [[  Äpfel  ]] fort, als wären sie leicht wie Federn. \
+Clara folgte ihnen in den verschneiten Wald. Dort sah sie, wie die Elfen die [[  goldenen  ]] Äpfel in einen großen [[  Korb  ]] legten, aus dem helles Licht strahlte. „Warum nehmt ihr die [[  Äpfel  ]]?“, fragte Clara mutig. \
+Die Elfen erklärten: „Wir brauchen ihr Licht, um die Tiere des Waldes durch den langen Winter zu führen. Ohne sie würden viele erfrieren.“ \
+[[  Clara  ]] kehrte zurück und berichtete dem [[  König  ]]. Der war zunächst zornig, doch dann verstand er. Von diesem Tag an ließ er jedes Jahr einen Teil der goldenen Äpfel für die [[  Elfen  ]] zurück – und das Dorf lebte in Harmonie mit dem geheimnisvollen Waldvolk.
+
 
 
 # Mathematik
@@ -178,11 +219,66 @@ solution += "***************";
 </script>
 
 
----
+
+Platz für Notizen: Schreibe mit deinem Cursor in das Feld, um dir ein paar Notizen zu machen.
+
+@[Collaborative.lines(640,320)](./img/example.jpg)
 
 ---
 
+---
 
+
+
+
+__Aufgabe 2:__ **Berechne** den Lösungswert für die Unbekannte. (Lösung bei der ersten Aufgabe erst nach 4 Fehlversuchen, bei der zweiten Aufgabe keine Lösungsausgabe möglich.)
+
+
+
+<section class="flex-container">
+<div class="flex-child">
+
+<!-- data-solution-button="4" -->
+__$a)\;\;$__ $  3x - 7 = \dfrac{1}{2}x + 5 $ \
+$x$ = [[  24/5  ]]
+@Algebrite.check(24/5)
+************
+$$
+\begin{align*}
+3x - 7 &= \dfrac{1}{2}x + 5 \quad \left| -\dfrac{1}{2}x \right. \\
+\dfrac{5}{2}x - 7 &= 5 \quad \left| +7 \right. \\
+\dfrac{5}{2}x &= 12 \quad \left| :\dfrac{5}{2} \right. \\
+x &= \dfrac{24}{5}
+\end{align*}
+$$
+************
+</div>
+<div class="flex-child">
+
+<!-- data-solution-button="false" -->
+__$b)\;\;$__ $  4x + 3 = 2x - \dfrac{5}{2} $ \
+$x$ = [[  -11/4  ]]
+@Algebrite.check(-11/4)
+************
+$$
+\begin{align*}
+4x + 3 &= 2x - \dfrac{5}{2} \quad \left| -2x \right. \\
+2x + 3 &= -\dfrac{5}{2} \quad \left| -3 \right. \\
+2x &= -\dfrac{5}{2} - \dfrac{6}{2} \\
+2x &= -\dfrac{11}{2} \quad \left| :2 \right. \\
+x &= -\dfrac{11}{4}
+\end{align*}
+$$
+************
+</div>
+
+</section>
+
+
+
+---
+
+---
 
 
 
@@ -262,21 +358,42 @@ __Aufgabe 4:__ Schreibe den Term $4+5*2-7$ in das Fenster. Drück dann unten lin
 @Algebrite.eval
 
 
----
-
----
-
-
-Excel
-
 
 ---
 
 ---
 
+__Aufgabe 5:__ Gib den Term `x ^ 2 - 2 * x + 1` in einer beliebigen Umformung in das Lösungsfeld ein.
+
+[[  x ^ 2 - 2 * x + 1  ]]
+@Algebrite.check(x^2-2*x+1)
+
+---
+
+---
 
 
-__Aufgabe 5:__ GeoGebra
+
+__Aufgabe 6:__ Kleine Aufgaben in Tabellenkalkulationen sind auch möglich: Schreibe in zwei Zellen jeweils eine Zahl und lass diese in einer dritten Zelle mit einem beliebigen Rechenoperator verrechnen.
+
+
+```json @spreadsheet
+{
+  "worksheets": [
+    { "minDimensions": [8, 12], "worksheetName": "Sheet1" },
+    { "minDimensions": [5,  8], "worksheetName": "Sheet2"   }
+  ]
+}
+```
+
+
+---
+
+---
+
+
+
+__Aufgabe 7:__ GeoGebra
 
 
 ??[](https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html)
@@ -287,7 +404,7 @@ __Aufgabe 5:__ GeoGebra
 ---
 
 
-__Aufgabe 6:__ Eigene Lernspiel
+__Aufgabe 8:__ Eigene Lernspiele
 
 ??[](https://bildung-bedeutet-freiheit.de/viervieren/index.html)
 
@@ -365,6 +482,16 @@ __Exercise 3:__ Fill out the table with the regular verbs.
 
 
 
+
+
+
+
+
+
+
+
+
+
 __Aufgabe 1:__ Wähle die Reaktionsprodukt aus, dass eine vollständige Verbrennung korrekt beschreibt.
 
 $2C_3H_8 + 10 O_2 \longrightarrow$ [[$6CO+8H_2O+2O_3$|$4CO_2+2CO+8H_2O$|($6CO_2+8H_2O$)|$6CHO_2+4H_2O$|$3C_2O_4+8H_2O$]]
@@ -373,41 +500,86 @@ $2C_3H_8 + 10 O_2 \longrightarrow$ [[$6CO+8H_2O+2O_3$|$4CO_2+2CO+8H_2O$|($6CO_2+
 
 
 
+---
 
-<!-- style="width:500px" -->
-|  $m$ in [kg]  |  $V$ in $\left[ \dfrac{\text{m}^3}{\text{kg}} \right]$ |
-|:----:|:-----:|
-|  2   | 3.95  |
-|  1   | 2.2   |
-|  3   | 5.7   |
-|  9   | 17.5  |
-|  7   | 14.2  |
-|  11  | 22.1  |
-|  13  | 25.8  |
+---
 
 
-
-
-
-
-
-??[](https://phet.colorado.edu/sims/html/sound-waves/latest/sound-waves_all.html)
-
-
-
-Reaktionsgleichungen
-
-
-
-
-Aufgabe 1: Ziehe den Frosch ins Feld, der giftig ist.
+__Aufgabe 2:__ Ziehe den Frosch ins Feld, der giftig ist.
 
 
 [->[ ![](https://media.istockphoto.com/id/1297875622/de/foto/mantella-cowanni-wikipedia.jpg?s=612x612&w=0&k=20&c=XZJxaA4bpLTHmMzJTcpeQ6mSSX0qf7nFXHcwfQruGuE=)<!-- style="height:100px" --> | (![](https://live.staticflickr.com/6237/6268436677_846a796410_b.jpg)<!-- style="height:100px" --> ) ]]
 
------------
 
 
+---
+
+---
+
+__Aufgabe 3:__ Fülle die Lücken aus. (Die Lücken sind verknüpft mit einander.)
+
+
+Es gibt [[  positive  ]] und [[  negative  ]] elektrische Ladungen.
+<script>
+@input.map(s => s.toLowerCase()).sort().join() === "negativ,positiv"
+</script>
+
+
+
+
+---
+
+---
+
+__Aufgabe 4:__ Ein Objekt bewegt sich mit $4\,\dfrac{\text{m}}{\text{s}}$. Fülle die Tabelle aus, sortiere danach nach der Zeit und lass dir die Werte als Funktion anzeigen.
+
+
+<!-- style="width:500px" -->
+|  $t$ in [s]  |  $x$ in [m] |
+|:----:|:-----:|
+|  1   |   |
+|  5   |   |
+|  3   |   |
+|  4   |   |
+|  2   |   |
+|  6   |   |
+|  7   |   |
+
+
+
+
+
+---
+
+---
+
+
+
+__Aufgabe 5:__ **Gib** mithilfe des Periodensystems **an**, wer Germanium entdeckt hat.
+
+@PeriodicTable
+
+Der Entdecker von Germanium hieß: [[   Clemens Winkler   ]].
+
+
+---
+
+---
+
+
+
+__Aufgabe 6:__ Untersuche das Schneckenhaus in 3D.
+
+??[](https://sketchfab.com/3d-models/sea-snail-shell-6515f625857041ad87bb6e2e5e5f6206)
+
+
+---
+
+---
+
+__Aufgabe 7:__ PhET-Simulationen sind einfach einzubinden.
+
+??[](https://phet.colorado.edu/sims/html/sound-waves/latest/sound-waves_all.html)
 
 
 
@@ -536,7 +708,7 @@ K: C
 [ACE]:|
 ```
 
-Dreiklangsart: [[(Dur)|Moll]]
+Dreiklangsart: [[Dur|(Moll)]]
 
 </div>
 </section>
@@ -550,7 +722,6 @@ __Aufgabe 3:__ Ziehe das Bild des Komponisten hinter seinen Namen.
 Bach:    [->[( ![](http://www.jsbach.net/bass/elements/bach-hausmann.jpg)<!-- style="height:150px" --> )]] \
 Mozart:  [->[( ![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Mozart_Portrait_Croce.jpg)<!-- style="height:150px" --> )]] \
 Puccini:  [->[( ![](https://upload.wikimedia.org/wikipedia/commons/9/9b/GiacomoPuccini.jpg)<!-- style="height:150px" --> )]] \
-
 
 
 
@@ -599,11 +770,29 @@ __Aufgabe 3:__ Wer wahr der erste Bundeskanzler der Bundesrepublik Deutschland? 
 In LiaScript kann man jeden Course automatisch übersetzen lassen:
 
 
-![Übersetzer](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/DaZ1.jpg)
+![](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/DaZ1.png)
 
 
 {{|> Deutsch female}} Und man kann jeden Text vorlesen lassen. Auch in anderen Sprachen.
 
 
 
+
+
+# Zusätzliche Informationen für Lehrkräfte
+
++ Ist die Versionsnummer 1.0.0 oder größer, dann werden die Eingaben, die getätigt wurden auch lokal auf dem Endgerät der Schülerinnen und Schüler abgespeichert.
++ Über Opal gibt es eine Integrationsmöglichkeit für eine Rückmeldung der Schülerinnen- und Schülerleistungen für die Lehrkräfte.
++ Dieser Kommentar sollte individuell bearbeitet immer am Anfang des Dokuments im Editor stehen.
+
+
+```
+<!--
+version:  0.0.1
+language: de
+narrator: Deutsch female
+comment: Beschreibung des Kurses bitte hier. 
+author: Name
+-->
+```
 
