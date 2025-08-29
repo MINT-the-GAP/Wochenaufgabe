@@ -88,6 +88,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/SpreadSheet/refs/heads/ma
 import: https://github.com/LiaTemplates/PeriodicTable/blob/main/README.md
 
 
+eingabe: <script input="number" input-always-active modify="false" value="0" default="0">@input</script>
 
 
 -->
@@ -99,6 +100,11 @@ import: https://github.com/LiaTemplates/PeriodicTable/blob/main/README.md
 
 
 __Aufgabe 1:__ Hör dir den Satz an und schreib ihn korrekt in das Eingabefeld.
+
+
+{{|> Deutsch Female}}
+<!-- style="position: absolute; left: -9999px;" -->
+Anna sitzt auf einen fliegenden Teppich.
 
 [[    Anna sitzt auf einen fliegenden Teppich.    ]]
 
@@ -484,14 +490,6 @@ __Exercise 3:__ Fill out the table with the regular verbs.
 
 
 
-
-
-
-
-
-
-
-
 __Aufgabe 1:__ Wähle die Reaktionsprodukt aus, dass eine vollständige Verbrennung korrekt beschreibt. 
 
 > (Klicke auf die Glühlampe, um einen Hinweis zu erhalten, bevor die die Aufgabe überprüfst oder lösen lässt.)
@@ -537,13 +535,13 @@ __Aufgabe 4:__ Ein Objekt bewegt sich mit $4\,\dfrac{\text{m}}{\text{s}}$. Füll
 <!-- style="width:500px" -->
 |  $t$ in [s]  |  $x$ in [m] |
 |:----:|:-----:|
-|  1   |   |
-|  5   |   |
-|  3   |   |
-|  4   |   |
-|  2   |   |
-|  6   |   |
-|  7   |   |
+|  1   |  @eingabe   |
+|  5   |  @eingabe   |
+|  3   |  @eingabe   |
+|  4   |  @eingabe   |
+|  2   |  @eingabe   |
+|  6   |  @eingabe   |
+|  7   |  @eingabe   |
 
 
 Lösung ohne Eingabe 
