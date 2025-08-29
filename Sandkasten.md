@@ -492,11 +492,12 @@ __Exercise 3:__ Fill out the table with the regular verbs.
 
 
 
-__Aufgabe 1:__ Wähle die Reaktionsprodukt aus, dass eine vollständige Verbrennung korrekt beschreibt.
+__Aufgabe 1:__ Wähle die Reaktionsprodukt aus, dass eine vollständige Verbrennung korrekt beschreibt. 
+
+> (Klicke auf die Glühlampe, um einen Hinweis zu erhalten, bevor die die Aufgabe überprüfst oder lösen lässt.)
 
 $2C_3H_8 + 10 O_2 \longrightarrow$ [[$6CO+8H_2O+2O_3$|$4CO_2+2CO+8H_2O$|($6CO_2+8H_2O$)|$6CHO_2+4H_2O$|$3C_2O_4+8H_2O$]]
-
-
+[[?]] Es wird wohl Kohlenstoffdioxid und Wasser übrig bleiben.
 
 
 
@@ -505,12 +506,12 @@ $2C_3H_8 + 10 O_2 \longrightarrow$ [[$6CO+8H_2O+2O_3$|$4CO_2+2CO+8H_2O$|($6CO_2+
 ---
 
 
-__Aufgabe 2:__ Ziehe den Frosch ins Feld, der giftig ist.
+__Aufgabe 2:__ Zieh den Gesang der Amsel in das Feld.
 
 
-[->[ ![](https://media.istockphoto.com/id/1297875622/de/foto/mantella-cowanni-wikipedia.jpg?s=612x612&w=0&k=20&c=XZJxaA4bpLTHmMzJTcpeQ6mSSX0qf7nFXHcwfQruGuE=)<!-- style="height:100px" --> | (![](https://live.staticflickr.com/6237/6268436677_846a796410_b.jpg)<!-- style="height:100px" --> ) ]]
+[->[ ?[Song and calls uttered by a House Sparrow, recorded at Cowley, Gloucestershire, England](https://upload.wikimedia.org/wikipedia/commons/b/ba/House_Sparrows_%28Passer_domesticus%29_%28W1CDR0001537_BD13%29.ogg)<!-- style="height:100px" --> | (?[Reviergesang männliche Amsel, Juni 2020 Wien](https://upload.wikimedia.org/wikipedia/commons/8/8a/2020-06-22_Amsel_4_Uhr_fr%C3%BCh_Wien.ogg) <!-- style="height:100px" --> ) | ?[The calls of a Blue Tit, recorded at Cowley, Gloucestershire, England](https://upload.wikimedia.org/wikipedia/commons/d/d7/Blue_Tit_%28Cyanistes_caeruleus%29_%28W1CDR0001535_BD30%29.ogg)<!-- style="height:100px" --> ]]
 
-
+<small><small><small><small><small> Quellen: Reviergesang männliche Amsel, Juni 2020 Wien, Song and calls uttered by a House Sparrow, recorded at Cowley, Gloucestershire, England, The calls of a Blue Tit, recorded at Cowley, Gloucestershire, England </small></small></small></small></small>
 
 ---
 
@@ -523,7 +524,6 @@ Es gibt [[  positive  ]] und [[  negative  ]] elektrische Ladungen.
 <script>
 @input.map(s => s.toLowerCase()).sort().join() === "negativ,positiv"
 </script>
-
 
 
 
@@ -546,6 +546,15 @@ __Aufgabe 4:__ Ein Objekt bewegt sich mit $4\,\dfrac{\text{m}}{\text{s}}$. Füll
 |  7   |   |
 
 
+Lösung ohne Eingabe 
+
+[[!]]
+<script>true</script>
+***************************
+
+Es sollte eine lineare Ursprungsgerade zu erkennen sein, wenn alle Werte richtig berechnet wurden.
+
+***************************
 
 
 
@@ -560,7 +569,6 @@ __Aufgabe 5:__ **Gib** mithilfe des Periodensystems **an**, wer Germanium entdec
 @PeriodicTable
 
 Der Entdecker von Germanium hieß: [[   Clemens Winkler   ]].
-
 
 ---
 
@@ -730,7 +738,7 @@ Puccini:  [->[( ![](https://upload.wikimedia.org/wikipedia/commons/9/9b/GiacomoP
 
 # Geschichte / Geographie / GRW
 
-__Aufgabe 1:__ Ordne die Kriege chronologisch. Fange links bei dem Krieg an, der am weitesten in der Vergangenheit liegt.
+__Aufgabe 1:__ Ordne die Kriege chronologisch. Fange links bei dem Krieg an, der am weitesten in der Vergangenheit liegt. (Quizanzeige ist jedes mal anders.)
 
 <!-- data-randomize="true"  -->
  [->[ (Punische Kriege) ]] [->[ (Dreißigjähriger Krieg) ]] [->[ (1. Weltkrieg) ]] [->[ (2. Weltkrieg) ]] [->[ (Vietnamkrieg) ]]
@@ -741,9 +749,10 @@ __Aufgabe 1:__ Ordne die Kriege chronologisch. Fange links bei dem Krieg an, der
 ---
 
 
-__Aufgabe 2:__ Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt.
+__Aufgabe 2:__ Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt. (Quizanzeige ist jedes mal anders.)
 
 
+<!-- data-randomize="true"  -->
 - [[Exekutive]   (Legislative)    [Judikative]]
 - [    [ ]           [X]             [ ]     ]  Bundestag
 - [    ( )           ( )             (X)     ]  Bundesverfassungsgericht
@@ -755,8 +764,9 @@ __Aufgabe 2:__ Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar o
 ---
 
 
-__Aufgabe 3:__ Wer wahr der erste Bundeskanzler der Bundesrepublik Deutschland? Wähle aus.
+__Aufgabe 3:__ Wer wahr der erste Bundeskanzler der Bundesrepublik Deutschland? Wähle aus. (Quizanzeige ist jedes mal anders.)
 
+<!-- data-randomize="true"  -->
 - [[ ]] Helmut Schmidt
 - [[ ]] Theodor Heuss
 - [[X]] Konrad Adenauer
@@ -767,6 +777,8 @@ __Aufgabe 3:__ Wer wahr der erste Bundeskanzler der Bundesrepublik Deutschland? 
 
 # Deutsch als Zweitsprache / Inklusion
 
+{{0-1}}
+***************************
 In LiaScript kann man jeden Course automatisch übersetzen lassen:
 
 
@@ -775,6 +787,12 @@ In LiaScript kann man jeden Course automatisch übersetzen lassen:
 
 {{|> Deutsch female}} Und man kann jeden Text vorlesen lassen. Auch in anderen Sprachen.
 
+***************************
+
+{{1}}
+***************************
+Zur besseren Fokussierung kann man auch nur den aktuellen Inhalt einblenden und den Rest ausblenden.
+***************************
 
 
 
