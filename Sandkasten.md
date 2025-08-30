@@ -1,10 +1,10 @@
 <!--
-version:  0.0.1
+version:  0.0.2
 language: de
 
 tags: Demo
-comment: Hier sind einige mögliche Aufgabentypen zu finden. 
-author: Martin Lommatzsch
+comment: Fächerbezogener Beispielkurs mit interaktiven Elemente in LiaScript für den Schulunterricht
+author: Martin Lommatzsch, André Dietrich, Sebastian Zug
 
 
 @style
@@ -80,6 +80,7 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Sandkasten.md)
 
 # Demo Kurs "LiaScript in der Schule"
 
