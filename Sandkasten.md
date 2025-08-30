@@ -47,21 +47,6 @@ import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/RE
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
-@round
-<script>
-  let value = `@input`;
-  if (value.startsWith("@")) {
-    ""
-  } else {
-    value = JSON.parse(value);
-    value = value[0]
-    value = value.replace(/,/g, ".");
-    value = parseFloat(value);
-    value = Math.round(value * Math.pow(10,@1)) / Math.pow(10,@1);
-    value == @0
-  }
-</script>
-@end
 
 import: https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
         https://raw.githubusercontent.com/LiaTemplates/Speech-Recognition-Quiz/refs/heads/main/README.md
@@ -504,6 +489,9 @@ __Aufgabe 1:__ Wähle die Reaktionsprodukt aus, dass eine vollständige Verbrenn
 
 $2C_3H_8 + 10 O_2 \longrightarrow$ [[$6CO+8H_2O+2O_3$|$4CO_2+2CO+8H_2O$|($6CO_2+8H_2O$)|$6CHO_2+4H_2O$|$3C_2O_4+8H_2O$]]
 [[?]] Es wird wohl Kohlenstoffdioxid und Wasser übrig bleiben.
+[[?]] Du hattest schon einen Tipp.
+[[?]] Nun reicht es aber!
+[[?]] Keine Tipps mehr!
 
 
 
