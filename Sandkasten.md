@@ -731,7 +731,7 @@ __Aufgabe 3:__ Ziehe das Bild des Komponisten hinter seinen Namen.
 
 
 <!-- data-randomize="true"  -->
-Bach:    [->[( ![](http://www.jsbach.net/bass/elements/bach-hausmann.jpg)<!-- style="height:150px" --> )]] \
+Bach:    [->[( ![](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/bach.jpg)<!-- style="height:150px" --> )]] \
 Mozart:  [->[( ![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Mozart_Portrait_Croce.jpg)<!-- style="height:150px" --> )]] \
 Puccini:  [->[( ![](https://upload.wikimedia.org/wikipedia/commons/9/9b/GiacomoPuccini.jpg)<!-- style="height:150px" --> )]] \
 
