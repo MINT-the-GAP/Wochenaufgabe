@@ -60,7 +60,7 @@ author: Martin Lommatzsch
 
 # Naturwissenschaftliches Profil Klasse 10 - Modellierung der Natur
 
-> Letztes Update am 10.08.2025 gegen 18:00 Uhr
+> Letztes Update am 30.08.2025 gegen 10:00 Uhr
 
 
 In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterrichts der Klasse 10. Auch findest du hier Aufgaben und Lösungen zu den Aufgaben. Die Datei wird ständig aktualisiert.
@@ -187,7 +187,7 @@ $$
 E_{kin} & = \textcolor{red}{F} \cdot \textcolor{green}{x} \qquad \text{mit: } \textcolor{green}{x = \frac{1}{2}\cdot a\cdot t^2}  \\
 & = \textcolor{red}{m\cdot a} \cdot \textcolor{green}{\frac{1}{2}\cdot a\cdot t^2} \\
 & = \frac{1}{2}\cdot m\cdot (a\cdot t)^2 \qquad \text{mit: } v = a\cdot t \\
-& = \frac{1}{2}\cdot m (\textcolor{blue}{a \cdot t})^2 \qquad \text{mit: } v = \textcolor{blue}{a\cdot t} \\
+& = \frac{1}{2}\cdot m (\textcolor{cyan}{a \cdot t})^2 \qquad \text{mit: } v = \textcolor{cyan}{a\cdot t} \\
 \Rightarrow E_{kin} & = \frac{1}{2}\cdot m\cdot v^2
 \end{align*}
 $$

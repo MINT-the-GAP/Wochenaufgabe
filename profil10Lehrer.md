@@ -187,7 +187,7 @@ $$
 E_{kin} & = \textcolor{red}{F} \cdot \textcolor{green}{x} \qquad \text{mit: } \textcolor{green}{x = \frac{1}{2}\cdot a\cdot t^2}  \\
 & = \textcolor{red}{m\cdot a} \cdot \textcolor{green}{\frac{1}{2}\cdot a\cdot t^2} \\
 & = \frac{1}{2}\cdot m\cdot (a\cdot t)^2 \qquad \text{mit: } v = a\cdot t \\
-& = \frac{1}{2}\cdot m (\textcolor{blue}{a \cdot t})^2 \qquad \text{mit: } v = \textcolor{blue}{a\cdot t} \\
+& = \frac{1}{2}\cdot m (\textcolor{cyan}{a \cdot t})^2 \qquad \text{mit: } v = \textcolor{cyan}{a\cdot t} \\
 \Rightarrow E_{kin} & = \frac{1}{2}\cdot m\cdot v^2
 \end{align*}
 $$
@@ -236,8 +236,8 @@ $$
 \begin{align*} 
 p & = \textcolor{red}{F} \cdot \textcolor{green}{t} \qquad \text{mit: } \textcolor{red}{F = m \cdot a}  \\
 & = \textcolor{red}{m\cdot a} \cdot \textcolor{green}{t} \\
-& = m\cdot \textcolor{blue}{a \cdot  t}  \qquad \text{mit: } v = \textcolor{blue}{a\cdot t}  \\
-& = m \cdot \textcolor{blue}{v} \\
+& = m\cdot \textcolor{cyan}{a \cdot  t}  \qquad \text{mit: } v = \textcolor{cyan}{a\cdot t}  \\
+& = m \cdot \textcolor{cyan}{v} \\
 \end{align*}
 $$
 
