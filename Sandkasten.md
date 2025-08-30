@@ -94,7 +94,8 @@ Ich, Martin Lommatzsch, bin Fachlehrer am Geschwister-Scholl-Gymnasium in Freibe
 
 ![](./pic/LinkToLiveEditor.png)
 
-Ich freue mich über Rückmeldungen, Anregungen und Fragen. Kontaktieren Sie mich gern per Mail: `m.lommatzsch@gsg-freiberg.lernsax.de`
+Ich freue mich über Rückmeldungen, Anregungen und Fragen. Kontaktieren Sie mich gern per Mail:\
+`m.lommatzsch@gsg-freiberg.lernsax.de`
 
 Viel Spaß damit!
 
@@ -142,8 +143,9 @@ an  [[Adjektiv|Adverb|Artikel|Interjektion|Konjunktion|Numeral|Nomen|(Präpositi
 ---
 
 
-__Aufgabe 3:__ Füll den Lückentext aus.
+__Aufgabe 3:__ Füll den Lückentext aus. (Richtige Lücken werden beim Prüfen grün markiert.)
 
+<!-- data-show-partial-solution -->
 Es war einmal ein kleines Dorf am Rande eines tiefen Waldes. Die Menschen dort lebten friedlich, doch jedes Jahr, wenn der erste Schnee fiel, verschwand ein Eimer voll goldener Äpfel aus dem Vorratshaus des Königs. Niemand wusste, wer sie stahl. \
 Eines Abends beschloss die junge Magd Clara, das Geheimnis zu lüften. Mit einer Laterne in der Hand schlich sie zum Vorratshaus. Sie versteckte sich hinter einem Fass und wartete. Plötzlich hörte sie ein leises Kichern. Durch das Fenster flatterten winzige, funkelnde Gestalten: Waldelfen! Sie trugen die [[  Äpfel  ]] fort, als wären sie leicht wie Federn. \
 Clara folgte ihnen in den verschneiten Wald. Dort sah sie, wie die Elfen die [[  goldenen  ]] Äpfel in einen großen [[  Korb  ]] legten, aus dem helles Licht strahlte. „Warum nehmt ihr die [[  Äpfel  ]]?“, fragte Clara mutig. \
