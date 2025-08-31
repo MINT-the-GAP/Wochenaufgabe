@@ -381,8 +381,8 @@ __Aufgabe 6:__ Kleine Aufgaben in Tabellenkalkulationen sind auch möglich: Schr
 ```json @spreadsheet
 {
   "worksheets": [
-    { "minDimensions": [8, 12], "worksheetName": "Sheet1" },
-    { "minDimensions": [5,  8], "worksheetName": "Sheet2"   }
+    { "minDimensions": [5, 5], "worksheetName": "Sheet1" },
+    { "minDimensions": [5, 5], "worksheetName": "Sheet2" }
   ]
 }
 ```
@@ -413,7 +413,7 @@ __Aufgabe 8:__ Eigene Lernspiele
 
 ## Englisch / Fremdsprachen
 
-_Zunächst starten wir mit der Überprüfung des Internetbrowsers - LiaScript evaluiert, ob die von Ihnen verwendete Variante Sprachaufnahme unterstützt. Wenn der Hinweis auf einen anderen Browser erscheint, wechseln Sie bitte. Die Spracheingabe und die damit die nachfolgenden Aufgaben werden sonst nicht funktionieren._
+_Zunächst starten wir mit der Überprüfung des Internetbrowsers - LiaScript evaluiert, ob die von Ihnen verwendete Variante Sprachaufnahme unterstützt. Wenn der Hinweis auf einen anderen Browser erscheint, wechseln Sie bitte. Die Spracheingabe und die damit verbundenen Aufgaben werden sonst nicht funktionieren._
 
 @SpeechRecognition.support
 
