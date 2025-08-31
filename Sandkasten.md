@@ -282,7 +282,6 @@ $$
 
 
 
-<!-- style="width:750px" -->
 ``` javascript @JSX.Graph
 // Board neu initialisieren (Achsen + Ausschnitt)
 board = JXG.JSXGraph.initBoard(jxgbox, {
@@ -593,6 +592,7 @@ Es gibt [[  positive  ]] und [[  negative  ]] elektrische Ladungen.
 
 __Aufgabe 4:__ Ein Objekt bewegt sich mit $4\,\dfrac{\text{m}}{\text{s}}$. Fülle die Tabelle aus, sortiere danach nach der Zeit und lass dir die Werte als Funktion anzeigen.
 
+> (Kann somit auch zur Messwerterfassung genutzt werden.)
 
 <!-- style="width:500px" -->
 |  $t$ in [s]  |  $x$ in [m] |
@@ -606,7 +606,7 @@ __Aufgabe 4:__ Ein Objekt bewegt sich mit $4\,\dfrac{\text{m}}{\text{s}}$. Füll
 |  7   |  @eingabe   |
 
 
-Lösung ohne Eingabe 
+Musterlösungsanzeige auch ohne Eingabe ist möglich:
 
 [[!]]
 <script>true</script>
@@ -635,8 +635,17 @@ Der Entdecker von Germanium hieß: [[   Clemens Winkler   ]].
 ---
 
 
+__Aufgabe 6:__ Auch Experimente an Robotern aus der Ferne mit den Remote-Laboren durch `edrys` sind möglich. (Hier durch ein Video vorgestellt)
 
-__Aufgabe 6:__ Untersuche das Schneckenhaus in 3D.
+!?[](https://www.youtube.com/watch?v=6ZjGHorc2ds)
+
+
+---
+
+---
+
+
+__Aufgabe 7:__ Untersuche das Schneckenhaus in 3D.
 
 ??[](https://sketchfab.com/3d-models/sea-snail-shell-6515f625857041ad87bb6e2e5e5f6206)
 
@@ -645,7 +654,7 @@ __Aufgabe 6:__ Untersuche das Schneckenhaus in 3D.
 
 ---
 
-__Aufgabe 7:__ PhET-Simulationen sind einfach einzubinden.
+__Aufgabe 8:__ PhET-Simulationen sind einfach einzubinden.
 
 ??[](https://phet.colorado.edu/sims/html/sound-waves/latest/sound-waves_all.html)
 
@@ -739,6 +748,10 @@ void loop() {
 
 
 ***************************
+
+
+
+
 
 
 
