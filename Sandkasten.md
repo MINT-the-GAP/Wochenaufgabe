@@ -75,7 +75,7 @@ LiaScipt ist eine Beschreibungssprache für Lehr-Lerninhalte, die an der TU Berg
 
 Ich, Martin Lommatzsch, bin Fachlehrer am Geschwister-Scholl-Gymnasium in Freiberg und nutze LiaScript intensiv in meinem Unterricht. Eine umfangreiche Aufgabensammlung, die natürlich beliebig genutzt, kopiert und angepasst werden darf, findet sich unter [https://mint-the-gap.github.io/Aufgabensammlung/].
 
-> Mit dem hier vorliegenden Kurs möchte ich eine Brücke schlagen und die Potentiale für andere Fächer aufzeigen. Werfen Sie gern einen Blick auf den "Code" dahinter. Klicken Sie im Kurs einfach auf den "Edit" Button, den ich im Bild markiert habe.
+> Mit dem hier vorliegenden Kurs möchte ich eine Brücke schlagen und die Potentiale für andere Fächer aufzeigen. (Einige Beispiele sind mehr oder weniger zufällig Fächern zugeordnet wurden und können mit anderen Beispielen auch verknüpft werden. Ein Blick in jeden Fachbereich lohnt sich.) Werfen Sie gern einen Blick auf den "Code" dahinter. Klicken Sie im Kurs einfach auf den "Edit" Button, den ich im Bild markiert habe.
 
 ![](./pic/LinkToLiveEditor.png)
 
@@ -410,7 +410,7 @@ __Aufgabe 8:__ Eigene Lernspiele
 
 
 
-## Englisch
+## Englisch / Fremdsprachen
 
 __Exercise 1:__ Speak out loud
 
@@ -448,18 +448,32 @@ __$c)\;\;$__ Say 'Cucumber' in English.
 @SpeechRecognition(en-US,`Cucumber`)
 
 </div>
+<div class="flex-child">
+
+__$d)\;\;$__ Say 'Geld' in English.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(en-US,`Money`)
+
+</div>
 </section>
 
 
 ---
 
+---
 
 
 
-__Exercise 2:__ Drag the correct words into the gaps.
+__Exercise 2:__ Drag the correct words into the gaps. 
+
+> (Hinweis: Auf Touchbildschirmen bitte aktuell noch erst das Feld mit der Lücke antippen dann das gewünschte Wort.)
 
 Ellen goes to school. [->[ He | (She) | It ]] wants to learn.  [->[ His | (Her) | Its ]] first subject today is math. 
 
+
+---
 
 ---
 
@@ -467,7 +481,7 @@ Ellen goes to school. [->[ He | (She) | It ]] wants to learn.  [->[ His | (Her) 
 __Exercise 3:__ Fill out the table with the regular verbs.
 
 
-<!-- data-solution-button="2" -->
+<!-- data-solution-button="2" data-show-partial-solution -->
 |  simple present  |  simple past |  past participle |
 |:----:|:-----:|:-----:|
 |  put   | [[  put     ]]  | [[  put     ]]  |
@@ -475,6 +489,56 @@ __Exercise 3:__ Fill out the table with the regular verbs.
 |  eat   | [[  ate     ]]  | [[  eaten   ]]  |
 |  shake   | [[  shook   ]]  | [[  shaken  ]]  |
 |  steal   | [[  stole   ]]  | [[  stolen  ]]  |
+
+
+
+---
+
+---
+
+
+
+
+__Aufgabe 4:__ Sprich das angegebene Wort in der angegebenen Sprache.
+
+@SpeechRecognition.support
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Sprich 'Danke' auf französisch.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(fr-FR,`Merci`)
+
+
+</div>
+<div class="flex-child">
+
+
+__$b)\;\;$__ Sprich 'Danke' auf spanisch.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(es-ES,`Gracias`)
+
+</div>
+<div class="flex-child">
+
+__$c)\;\;$__ Sprich 'Danke' auf russisch.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(ru-RU,`Спасибо`)
+
+</div>
+</section>
+
+Es werden noch viele weitere Sprachen unterstützt.
+
 
 
 ## Naturwissenschaften
@@ -502,6 +566,8 @@ $2C_3H_8 + 10 O_2 \longrightarrow$ [[$6CO+8H_2O+2O_3$|$4CO_2+2CO+8H_2O$|($6CO_2+
 
 __Aufgabe 2:__ Zieh den Gesang der Amsel in das Feld.
 
+
+> (Hinweis: Auf Touchbildschirmen bitte aktuell noch erst das Feld mit der Lücke antippen dann das gewünschte Wort.)
 
 [->[ ?[Song and calls uttered by a House Sparrow, recorded at Cowley, Gloucestershire, England](https://upload.wikimedia.org/wikipedia/commons/b/ba/House_Sparrows_%28Passer_domesticus%29_%28W1CDR0001537_BD13%29.ogg)<!-- style="height:100px" --> | (?[Reviergesang männliche Amsel, Juni 2020 Wien](https://upload.wikimedia.org/wikipedia/commons/8/8a/2020-06-22_Amsel_4_Uhr_fr%C3%BCh_Wien.ogg) <!-- style="height:100px" --> ) | ?[The calls of a Blue Tit, recorded at Cowley, Gloucestershire, England](https://upload.wikimedia.org/wikipedia/commons/d/d7/Blue_Tit_%28Cyanistes_caeruleus%29_%28W1CDR0001535_BD30%29.ogg)<!-- style="height:100px" --> ]]
 
@@ -720,6 +786,8 @@ Dreiklangsart: [[Dur|(Moll)]]
 __Aufgabe 3:__ Ziehe das Bild des Komponisten hinter seinen Namen.
 
 
+> (Hinweis: Auf Touchbildschirmen bitte aktuell noch erst das Feld mit der Lücke antippen dann das gewünschte Wort.)
+
 <!-- data-randomize="true"  -->
 Bach:    [->[( ![](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/bach.jpg)<!-- style="height:150px" --> )]] \
 Mozart:  [->[( ![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Mozart_Portrait_Croce.jpg)<!-- style="height:150px" --> )]] \
@@ -733,6 +801,9 @@ Puccini:  [->[( ![](https://upload.wikimedia.org/wikipedia/commons/9/9b/GiacomoP
 ## Geschichte / Geographie / GRW
 
 __Aufgabe 1:__ Ordne die Kriege chronologisch. Fange links bei dem Krieg an, der am weitesten in der Vergangenheit liegt. (Quizanzeige ist jedes mal anders.)
+
+
+> (Hinweis: Auf Touchbildschirmen bitte aktuell noch erst das Feld mit der Lücke antippen dann das gewünschte Wort.)
 
 <!-- data-randomize="true"  -->
  [->[ (Punische Kriege) ]] [->[ (Dreißigjähriger Krieg) ]] [->[ (1. Weltkrieg) ]] [->[ (2. Weltkrieg) ]] [->[ (Vietnamkrieg) ]]
