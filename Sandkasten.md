@@ -411,10 +411,11 @@ __Aufgabe 8:__ Eigene Lernspiele
 
 ## Englisch / Fremdsprachen
 
-__Exercise 1:__ Speak out loud
+_Zunächst starten wir mit der Überprüfung des Internetbrowsers - LiaScript evaluiert, ob die von Ihnen verwendete Variante Sprachaufnahme unterstützt. Wenn der Hinweis auf einen anderen Browser erscheint, wechseln Sie bitte. Die Spracheingabe und die damit die nachfolgenden Aufgaben werden sonst nicht funktionieren._
 
 @SpeechRecognition.support
 
+__Exercise 1:__ Speak out loud
 
 <section class="flex-container">
 
