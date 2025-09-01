@@ -99,9 +99,9 @@ __Aufgabe 1:__ Hör dir den Satz an und schreib ihn korrekt in das Eingabefeld.
 
 {{|> Deutsch Female}}
 <!-- style="position: absolute; left: -9999px;" -->
-Anna sitzt auf einen fliegenden Teppich.
+Anna sitzt auf einem fliegenden Teppich.
 
-[[    Anna sitzt auf einen fliegenden Teppich.    ]]
+[[    Anna sitzt auf einem fliegenden Teppich.    ]]
 
 
 ---
