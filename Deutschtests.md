@@ -121,9 +121,9 @@ Anna sitzt auf einem fliegenden Teppich.
 
 ---
 
-__Aufgabe 2:__ Setze das Komma an die richtige Stelle.
+__Aufgabe 2:__ Setze das Komma an die richtige Stelle. (Auflösung geht noch nicht und ist deswegen blockiert.)
 
-{{|>}}
+<!-- data-solution-button="false" -->
 @komma(`Das ist der Tag an dem ich geblitzt wurde.`,`Das ist der Tag, an dem ich geblitzt wurde.`)
 
 
@@ -218,6 +218,14 @@ Die Elfen erklärten: „Wir brauchen ihr Licht, um die Tiere des Waldes durch d
 
 
 
+__Aufgabe 7a:__ Entscheide, ob die Aussage wahr oder falsch ist:
+
+Der König ließ die Elfen verfolgen und einsperren. [[wahr|(falsch)]]
+
+
+
+
+
 
 
 ---
@@ -251,5 +259,64 @@ __Aufgabe 9:__ Weise die Sätze ich richtig zu.
 | Temporalsatz      |  [->[(Es ging erst los, nachdem ich ankam.)]]  |
 | Kausalsatz        |  [->[(Weil es morgen regnet, fahre ich mit dem Bus.)]]  |
 | Konditionalsatz   |  [->[(Falls du gut in Mathematik bist, bekommst du eine Belohnung.)]]  |
+
+
+
+
+---
+
+---
+
+__Aufgabe 10:__ Setze die Satzzeichen so, dass der Satz eine korrekte wörtliche Rede darstellt. (Auflösung geht noch nicht und ist deswegen blockiert.)
+
+<!-- data-solution-button="false" -->
+__$a)\;\;$__
+@komma(`Der Apfel ist rot sagte Ben`,`"Der Apfel ist rot", sagte Ben.`)
+
+<!-- data-solution-button="false" -->
+__$b)\;\;$__
+@komma(`Clara sagt Druck ist eine physikalische Größe`,`Clara sagt: "Druck ist eine physikalische Größe."`)
+
+
+
+
+---
+
+---
+
+__Aufgabe 11:__ Wähle aus, was den unterstrichenen Teil des Satzes richtig beschreibt.
+
+Helga fuhr mit dem Auto <u>ihres Freundes</u>.
+
+<!-- data-randomize="true"  -->
+- [[X]] Genetivattribut
+- [[ ]] Dativobjekt
+- [[ ]] Subjekt
+- [[ ]] Predikat
+
+
+
+---
+
+---
+
+__Aufgabe 12:__ Korrigiere die Rechtschreibfehler im gezeigten Satz. (Auflösung geht noch nicht und ist deswegen blockiert.)
+
+<!-- data-solution-button="false" -->
+@komma(`Es ist jetze um sechse.`,`Es ist jetzt um sechs.`)
+
+
+
+
+---
+
+---
+
+__Aufgabe 13:__ Sortiere die Wörter in alphabetischer Reihenfolge.
+
+<!-- data-randomize="true"  -->
+[->[(Diskurs)]] [->[(Festival)]] [->[(Glut)]] [->[(Nihilismus)]] [->[(Priorität)]] [->[(Residuum)]]
+
+
 
 
