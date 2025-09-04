@@ -233,3 +233,23 @@ Ich gehe nach Hause.
 <!-- data-solution-button="off" -->
 [[!]]
 @SpeechRecognition(de-DE,`Ich gehe nach Hause.`)
+
+
+
+
+
+---
+
+---
+
+__Aufgabe 9:__ Weise die Sätze ich richtig zu.
+
+
+<!-- data-randomize="true"  -->
+| Adverbialsatzkategorie | Beispielsatz |
+| :-----: |  :-----:  |
+| Temporalsatz      |  [->[(Es ging erst los, nachdem ich ankam.)]]  |
+| Kausalsatz        |  [->[(Weil es morgen regnet, fahre ich mit dem Bus.)]]  |
+| Konditionalsatz   |  [->[(Falls du gut in Mathematik bist, bekommst du eine Belohnung.)]]  |
+
+

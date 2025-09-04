@@ -65,6 +65,10 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 
 -->
 
+
+
+
+
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Sandkasten.md)
 
 # Demo Kurs "LiaScript in der Schule"

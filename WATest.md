@@ -1,9 +1,17 @@
 <!--
-version:  0.0.1
-
+version:  0.0.2
 language: de
 
+tags: Demo
+comment: Fächerbezogener Beispielkurs mit interaktiven Elemente in LiaScript für den Schulunterricht
+author: Martin Lommatzsch, André Dietrich, Sebastian Zug
+
+
 @style
+main > *:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
 input {
     text-align: center;
 }
@@ -39,199 +47,166 @@ import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/RE
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
-@round
-<script>
-  let value = `@input`;
-  if (value.startsWith("@")) {
-    ""
-  } else {
-    value = JSON.parse(value);
-    value = value[0]
-    value = value.replace(/,/g, ".");
-    value = parseFloat(value);
-    value = Math.round(value * Math.pow(10,@1)) / Math.pow(10,@1);
-    value == @0
-  }
-</script>
-@end
 
+import: https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
+        https://raw.githubusercontent.com/LiaTemplates/Speech-Recognition-Quiz/refs/heads/main/README.md
+        https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
+        https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
+        https://raw.githubusercontent.com/LiaTemplates/mec2/main/README.md
+        https://raw.githubusercontent.com/LiaTemplates/CollaborativeDrawing/main/README.md
+        https://raw.githubusercontent.com/LiaTemplates/SpreadSheet/refs/heads/main/README.md
+        https://github.com/LiaTemplates/PeriodicTable/blob/main/README.md
+
+persistent: true
+
+edit: true
+
+eingabe: <script input="number" input-always-active modify="false" value="0" default="0">@input</script>
 
 -->
 
-# Tests Seite 1 (Runden)
-
-
-19,1234?
-
-[[19,1234]]
-
-
-19,8765?
-
-[[19,8765]]
-
-
-# Aufgabe Balkendiagramm (Darstellungsproblem?)
 
 
 
-Gegeben seien die Werte in der gegebenen Tabelle:
+# Stochastik - Aufgabe 1: 
 
 
-<!-- data-type="none" -->
-|           Jahr           |   2019   |   2020   |   2021   |   2022   |   2023   |   2024   |   2025   |
-| :----------------------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-|   Gewinn in $\text{€}$   |   1000   |   1200   |   1100   |   1500   |   1600   |   1300   |   1400   |
 
-$a)\;\;$ **Zeichne** ein Säulendiagramm, dass die relativen Veränderungen von einem Jahr zum nächsten darstellt. (Trage die passenden relativen Werte in Prozent in die Tabelle ein das Säulendiagramm nachzustellen.) **Gib** Periodizitäten gerundet auf zwei Nachkommastellen **an**. Falls ansonsten gerundet werden muss, **gib** zwei Nachkommastellen **an**.
+An einem Gymnasium fahren **50 %** der SchülerInnen mit **ÖPNV** zur Schule, die übrigen **50 %** kommen **anders**. In einer bestimmten Woche gilt:
 
-<!--
-data-type="barchart"
-data-title="Veränderung"
--->
-|  2019/20  |    2020/21    |    2021/22   |   2022/23   |    2023/24    |   2024/25   |
-| :-------: | :-----------: | :----------: | :---------: | :-----------: | :---------: |
-| [[ 20% ]] |  [[ -8.33% ]] | [[ 36.36% ]] | [[ 6.66% ]] | [[ -18.75% ]] | [[ 7.69% ]] |
+- Unter den ÖPNV-NutzerInnen kommen **20 %** mindestens einmal zu spät.
+- Unter den anderen kommen **10 %** mindestens einmal zu spät.
 
-<br>
-<br>
-<br>
-<br>
+__Aufgabe 1:__ **Skizziere** ein Baumdiagramm mit zwei Stufen. Zuerst die Betrachtung des ÖPNVs.
 
-# Alte Aufgaben (Divisionsstrichproblem)
-
-
-Berechne den Wert der Terms.
-
-<section class="flex-container">
-
-<div class="flex-child">
-__$a)$__
-
+{{1}}
 $$
-\begin{align*}
-2415&   \\
-+1213& \\
-	&  \\ \hline
-  & \\
+\begin{align*} 
+&P(Ö)= 0,5 \;\;\wedge\;\; P(\bar{Ö})=0,5 \;\;\wedge\;\; P(\left. V \right|Ö)=0,2 \;\;\wedge\;\; P(\left. V \right|\bar{Ö})=0,1 \\
+&P(Ö \cap V) = P(Ö) \cdot P(\left. V \right|Ö) = 0,1 \\
+&P(\bar{Ö} \cap V) = P(\bar{Ö}) \cdot P(\left. V \right|\bar{Ö}) = 0,05
 \end{align*}
 $$
 
-[[3628]]
-***********
+---
+
+__Aufgabe 2:__ **Berechne** die Wahrscheinlichkeit, dass eine SchülerIn zu spät kommt.
+
+{{2}}
 $$
-\begin{align*}
-2415&   \\
-+1213& \\
-	&  \\ \hline
-  3628& \\
-\end{align*}
-$$
-***********
-</div>
-
- 
-
-
-
-<div class="flex-child">
-__$b)$__
-
-$$
-\begin{align*}
-3659&   \\
--2235& \\
-&  \\ \hline
-& \\
+\begin{align*} 
+P(V) = P(Ö \cap V) + P(\bar{Ö} \cap V) = 0,15 \\
 \end{align*}
 $$
 
-[[1424]]
-***********
+---
+
+__Aufgabe 3:__ **Berechne** die Wahrscheinlichkeit, dass eine verspätet SchülerIn den ÖPNV benutzte.
+
+{{3}}
 $$
-\begin{align*}
-3659&   \\
--2235& \\
-&  \\ \hline
-1424& \\
-\end{align*}
-$$
-***********
-</div>
-
- 
-
-
-<div class="flex-child">
-__$c)$__
-
-$$
-\begin{align*}
-5034 \cdot 5 &   \\ \hline
- & \\
+\begin{align*} 
+ P(\left. Ö \right| V)  =  \dfrac{P(Ö \cap V)}{P(V)} = 0,\bar{6} \\
 \end{align*}
 $$
 
-[[25170]]
-***********
-$$\begin{align*}
-50_{\textcolor{red}{1}}3_{\textcolor{red}{2}}4 \cdot 5 &   \\ \hline
- 25170
+---
+
+__Aufgabe 4:__ **Zeige**, dass es sich um eine bedingte Wahrscheinlichkeit handelt.
+
+{{4}}
+$$
+\begin{align*} 
+&P(Ö \cap V) = P(Ö) \cdot P(\left. V \right|Ö) = 0,1 \\
+&P(Ö) \cdot P(V) = 0,075 \neq P(Ö \cap V) \qquad _{\Box}  \\
 \end{align*}
 $$
-***********
-</div>
 
- 
+---
 
 
+__Aufgabe 5:__ **Berechne** die Wahrscheinlichkeit, dass eine pünktlichte SchülerIn den ÖPNV benutzte.
 
-
-<div class="flex-child">
-__$d)$__
-
+{{5}}
 $$
-\begin{alignat*}{6}
-&8&5&4&7&3&:9=     \\
-\end{alignat*}
+\begin{align*} 
+&P( \bar{V}) = 1 -  P(V)  = 0,85 \\
+&P(  Ö  \cap  \bar{V} )  = P(Ö) P(\left. \bar{V} \right|Ö) = 0,4 \\
+&P(\left.Ö \right| \bar{V})  =   \dfrac{P(  Ö  \cap  \bar{V} )}{P( \bar{V})}    = \dfrac{8}{17} \\
+\end{align*}
 $$
 
-[[09497]]
-***********
+
+
+
+
+
+
+
+#  Stochastik - Aufgabe 2: 
+
+Ein Online-Shop unterscheidet Bestellungen nach Bekleidung und Nicht-Bekleidung. In der betrachteten Woche gilt: 40% der Bestellungen sind Bekleidung. Aber es kommen auch regelmäßig Rückgabenwünsche herein. Bei Bekleidung werden 20% der Bestellungen retourniert und 5% der Nicht-Bekleidung werden zurückgegeben.
+
+
+__Aufgabe 1:__ **Skizziere** ein Baumdiagramm mit zwei Stufen. Zuerst die Betrachtung der Kategorien.
+
+{{1}}
 $$
-\begin{alignat*}{6}
-&8&5&4&7&3&:9= 09497    \\
--&0&&&&&  \\  \cline{1-2}
-&8&5&&&&  \\
--&8&1&&&&  \\  \cline{2-3}
-&&4&4&&&  \\
-&-&3&6&&&  \\  \cline{3-4}
-&&&8&7&&  \\
-&&-&8&1&&  \\  \cline{4-5}
-&&&&6&3&  \\
-&&&-&6&3&  \\  \cline{5-6}
-&&&&&0&  \\
-\end{alignat*}
+\begin{align*} 
+&P(B)= 0,4 \;\;\wedge\;\; P(\bar{B})=0,6 \;\;\wedge\;\; P(\left. R \right|B)=0,2 \;\;\wedge\;\; P(\left. R \right|\bar{B})=0,05 \\
+&P(B \cap R) = P(B) \cdot P(\left. R \right|B) = 0,08 \\
+&P(\bar{B} \cap R) = P(\bar{B}) \cdot P(\left. R \right|\bar{B}) = 0,03
+\end{align*}
 $$
-***********
-</div>
 
 
 
-**Aufgabe 1:** Entscheide, ob es sich bei dem Term um einen Vektor, ein Skalar oder einen nicht definierten Ausdruck handelt.
-<br>
+---
 
-- [[Vektor]       (Skalar)    [nicht definiert]]
-- [    [ ]           [X]             [ ]     ]  $$\left|\vec{a} \times \vec{b}\right|$$
-- [    ( )           ( )             (X)     ]  $$\vec{c} \times \left( \vec{a} \circ \vec{b}\right) $$
-- [    [X]           [ ]             [ ]     ]  $$s \vec{a} \times \left(\vec{b} \times r \vec{c}\right)$$
-- [    (X)           ( )             ( )     ]  $$\left( \vec{c} \circ \vec{b}\right)  \cdot \vec{a}  $$
-- [    [ ]           [ ]             [X]     ]  $$\dfrac{\left(\vec{a} \times \vec{c}\right)^2}{\vec{a} \times \vec{b}}$$
+__Aufgabe 2:__ **Berechne** die Wahrscheinlichkeit, für eine Retour.
+
+{{2}}
+$$
+\begin{align*} 
+P(R) = P(B \cap R) + P(\bar{B} \cap R) = 0,11 \\
+\end{align*}
+$$
+
+---
+
+__Aufgabe 3:__ **Berechne** die Wahrscheinlichkeit, dass eine verspätet SchülerIn den ÖPNV benutzte.
+
+{{3}}
+$$
+\begin{align*} 
+ P(\left. Ö \right| V)  =  \dfrac{P(Ö \cap V)}{P(V)} = 0,\bar{6} \\
+\end{align*}
+$$
+
+---
+
+__Aufgabe 4:__ **Zeige**, dass es sich um eine bedingte Wahrscheinlichkeit handelt.
+
+{{4}}
+$$
+\begin{align*} 
+&P(Ö \cap V) = P(Ö) \cdot P(\left. V \right|Ö) = 0,1 \\
+&P(Ö) \cdot P(V) = 0,075 \neq P(Ö \cap V) \qquad _{\Box}  \\
+\end{align*}
+$$
+
+---
 
 
+__Aufgabe 5:__ **Berechne** die Wahrscheinlichkeit, dass eine pünktlichte SchülerIn den ÖPNV benutzte.
+
+{{5}}
+$$
+\begin{align*} 
+&P( \bar{V}) = 1 -  P(V)  = 0,85 \\
+&P(  Ö  \cap  \bar{V} )  = P(Ö) P(\left. \bar{V} \right|Ö) = 0,4 \\
+&P(\left.Ö \right| \bar{V})  =   \dfrac{P(  Ö  \cap  \bar{V} )}{P( \bar{V})}    = \dfrac{8}{17} \\
+\end{align*}
+$$
 
 
-
-
-
-</section>
