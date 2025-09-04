@@ -206,7 +206,7 @@ an  [[Adjektiv|Adverb|Artikel|Interjektion|Konjunktion|Numeral|Nomen|(Präpositi
 ---
 
 
-__Aufgabe 7:__ Füll den Lückentext aus. (Richtige Lücken werden beim Prüfen grün markiert.)
+__Aufgabe 7:__ Fülle den Lückentext aus. (Richtige Lücken werden beim Prüfen grün markiert.)
 
 <!-- data-show-partial-solution -->
 Es war einmal ein kleines Dorf am Rande eines tiefen Waldes. Die Menschen dort lebten friedlich, doch jedes Jahr, wenn der erste Schnee fiel, verschwand ein Eimer voll goldener Äpfel aus dem Vorratshaus des Königs. Niemand wusste, wer sie stahl. \
@@ -250,8 +250,9 @@ Ich gehe nach Hause.
 
 ---
 
-__Aufgabe 9:__ Weise die Sätze ich richtig zu.
+__Aufgabe 9:__ Weise die Sätze richtig zu.
 
+> (Hinweis: Auf Touchbildschirmen bitte aktuell noch erst das Feld mit der Lücke antippen dann das gewünschte Wort.)
 
 <!-- data-randomize="true"  -->
 | Adverbialsatzkategorie | Beispielsatz |
@@ -289,7 +290,7 @@ __Aufgabe 11:__ Wähle aus, was den unterstrichenen Teil des Satzes richtig besc
 Helga fuhr mit dem Auto <u>ihres Freundes</u>.
 
 <!-- data-randomize="true"  -->
-- [[X]] Genetivattribut
+- [[X]] Genitivattribut
 - [[ ]] Dativobjekt
 - [[ ]] Subjekt
 - [[ ]] Predikat
@@ -314,8 +315,26 @@ __Aufgabe 12:__ Korrigiere die Rechtschreibfehler im gezeigten Satz. (Auflösung
 
 __Aufgabe 13:__ Sortiere die Wörter in alphabetischer Reihenfolge.
 
+> (Hinweis: Auf Touchbildschirmen bitte aktuell noch erst das Feld mit der Lücke antippen dann das gewünschte Wort.)
+
 <!-- data-randomize="true"  -->
 [->[(Diskurs)]] [->[(Festival)]] [->[(Glut)]] [->[(Nihilismus)]] [->[(Priorität)]] [->[(Residuum)]]
+
+
+
+
+
+---
+
+---
+
+__Aufgabe 14:__ Sortiere die Satzfragmente zu einem Satz.
+
+> (Hinweis: Auf Touchbildschirmen bitte aktuell noch erst das Feld mit der Lücke antippen dann das gewünschte Wort.)
+
+<!-- data-randomize="true"  -->
+[->[(Die Masse)]] [->[(ist)]] [->[(die Ladung)]] [->[(der Gravitation)]].
+
 
 
 
