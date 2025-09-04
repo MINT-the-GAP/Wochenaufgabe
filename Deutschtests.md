@@ -123,7 +123,7 @@ Anna sitzt auf einem fliegenden Teppich.
 
 __Aufgabe 2:__ Setze das Komma an die richtige Stelle. (Auflösung geht noch nicht und ist deswegen blockiert.)
 
-<!-- data-solution-button="false" -->
+<!-- data-solution-button="off" -->
 @komma(`Das ist der Tag an dem ich geblitzt wurde.`,`Das ist der Tag, an dem ich geblitzt wurde.`)
 
 
@@ -270,11 +270,11 @@ __Aufgabe 9:__ Weise die Sätze richtig zu.
 
 __Aufgabe 10:__ Setze die Satzzeichen so, dass der Satz eine korrekte wörtliche Rede darstellt. (Auflösung geht noch nicht und ist deswegen blockiert.)
 
-<!-- data-solution-button="false" -->
+<!-- data-solution-button="off" -->
 __$a)\;\;$__
 @komma(`Der Apfel ist rot sagte Ben`,`"Der Apfel ist rot", sagte Ben.`)
 
-<!-- data-solution-button="false" -->
+<!-- data-solution-button="off" -->
 __$b)\;\;$__
 @komma(`Clara sagt Druck ist eine physikalische Größe`,`Clara sagt: "Druck ist eine physikalische Größe."`)
 
@@ -303,7 +303,7 @@ Helga fuhr mit dem Auto <u>ihres Freundes</u>.
 
 __Aufgabe 12:__ Korrigiere die Rechtschreibfehler im gezeigten Satz. (Auflösung geht noch nicht und ist deswegen blockiert.)
 
-<!-- data-solution-button="false" -->
+<!-- data-solution-button="off" -->
 @komma(`Es ist jetze um sechse.`,`Es ist jetzt um sechs.`)
 
 
