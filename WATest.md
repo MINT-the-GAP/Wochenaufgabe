@@ -321,3 +321,80 @@ $$
 $$
 
 
+
+
+
+
+
+
+
+#  Stochastik - Aufgabe 5: 
+
+Im Schul-Leichtathletikteam wird diskutiert, ob gezieltes Aufwärmen vor dem Training die Verletzungsgefahr senkt. Über eine Saison wurden Daten erhoben und in einer Stichprobe erfasst. Hierfür wurde eine Stichprobe von 300 Probanten betrachtet, wovon 180 sich regelmäßig aufwärmten. Die Verletzungsquote betrog dabei 12%, während in nur 10% der aufgewärmten LeichtathletInnen sich verletzten.
+
+
+
+
+__Aufgabe 1:__ Erstelle eine Vierfeldertafel mit absoluten LeichtathletInnenzahlen zu diesem Sachzusammenhang.
+
+
+{{1}}
+|               | $A$ | $\bar{A}$ | Summe |
+|  $V$          | 18   |  18   | 36    |
+|  $\bar{V}$    | 162  |  102  |  264  |
+| Summe         | 180  |  120  | 300   |
+
+
+---
+
+
+__Aufgabe 2:__ Berechne die Wahrscheinlichkeit, dass eine Person, die sich nicht aufgewärmt hat, sich verletzte.
+
+
+{{2}}
+$$
+\begin{align*} 
+P( \left. V \right| \bar{A} ) =  \dfrac{P(  V \cap \bar{A} ) }{P(\bar{A})} = 0,15  \\
+\end{align*}
+$$
+
+
+---
+
+__Aufgabe 3:__ Berechne die Wahrscheinlichkeit, dass eine verletzte Person sich abgewärmt hatte.
+
+
+{{3}}
+$$
+\begin{align*} 
+P( \left. A \right| V )  =  \dfrac{P(  A \cap V ) }{P(\bar{V})}  =  0,5  \\
+\end{align*}
+$$
+
+
+
+---
+
+__Aufgabe 4:__ Berechne die Wahrscheinlichkeit, dass eine zufällig gewählte unverletzte Person sich nicht aufgewärmt hat.
+
+
+{{4}}
+$$
+\begin{align*} 
+P( \left. \bar{A} \right| \bar{V} ) =   \dfrac{P(  \bar{A} \cap \bar{V} ) }{P(\bar{V})}  = \dfrac{17}{44}  \\
+\end{align*}
+$$
+
+
+---
+
+
+__Aufgabe 5:__ **Zeige**, dass es sich um eine bedingte Wahrscheinlichkeit handelt.
+
+{{5}}
+$$
+\begin{align*} 
+&P(V \cap A) = 0,01 \\
+&P(V) = 0,12 \neq P(V \cap A) \qquad _{\Box}  \\
+\end{align*}
+$$
