@@ -293,7 +293,7 @@ Helga fuhr mit dem Auto <u>ihres Freundes</u>.
 - [[X]] Genitivattribut
 - [[ ]] Dativobjekt
 - [[ ]] Subjekt
-- [[ ]] Predikat
+- [[ ]] Prädikat
 
 
 
