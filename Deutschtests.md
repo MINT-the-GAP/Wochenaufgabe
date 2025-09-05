@@ -123,7 +123,7 @@ Anna sitzt auf einem fliegenden Teppich.
 
 __Aufgabe 2:__ Setze das Komma an die richtige Stelle. (Auflösung geht noch nicht und ist deswegen blockiert.)
 
-<!-- data-solution-button="off" -->
+<!-- data-solution-button="false" -->
 @komma(`Das ist der Tag an dem ich geblitzt wurde.`,`Das ist der Tag, an dem ich geblitzt wurde.`)
 
 
