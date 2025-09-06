@@ -72,10 +72,10 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 
 
 
-An einem Gymnasium fahren **50 %** der SchülerInnen mit **ÖPNV** zur Schule, die übrigen **50 %** kommen **anders**. In einer bestimmten Woche gilt:
+An einem Gymnasium fahren 50 % der Schüler mit ÖPNV zur Schule, die übrigen 50 % kommen anders. In einer bestimmten Woche gilt:
 
-- Unter den ÖPNV-NutzerInnen kommen **20 %** mindestens einmal zu spät.
-- Unter den anderen kommen **10 %** mindestens einmal zu spät.
+- Unter den ÖPNV-Nutzern kommen 20 %** mindestens einmal zu spät.
+- Unter den anderen kommen 10 % mindestens einmal zu spät.
 
 __Aufgabe 1:__ **Skizziere** ein Baumdiagramm mit zwei Stufen. Zuerst die Betrachtung des ÖPNVs.
 
@@ -90,7 +90,7 @@ $$
 
 ---
 
-__Aufgabe 2:__ **Berechne** die Wahrscheinlichkeit, dass eine SchülerIn zu spät kommt.
+__Aufgabe 2:__ **Berechne** die Wahrscheinlichkeit, dass ein Schüler zu spät kommt.
 
 {{2}}
 $$
@@ -101,7 +101,7 @@ $$
 
 ---
 
-__Aufgabe 3:__ **Berechne** die Wahrscheinlichkeit, dass eine verspätet SchülerIn den ÖPNV benutzte.
+__Aufgabe 3:__ **Berechne** die Wahrscheinlichkeit, dass ein verspäteter Schüler den ÖPNV benutzte.
 
 {{3}}
 $$
@@ -125,7 +125,7 @@ $$
 ---
 
 
-__Aufgabe 5:__ **Berechne** die Wahrscheinlichkeit, dass eine pünktlichte SchülerIn den ÖPNV benutzte.
+__Aufgabe 5:__ **Berechne** die Wahrscheinlichkeit, dass ein pünktlichter Schüler den ÖPNV benutzte.
 
 {{5}}
 $$
@@ -140,14 +140,14 @@ $$
 
 #  Stochastik - Aufgabe 2: 
 
-In einer Jahrgangsstufe werden 120 SchülerInnen nach ihrer bevorzugten Fremdsprache gefragt. Zur Auswahl stehen Englisch und Französisch. Außerdem wird erfasst, ob sie regelmäßig Nachhilfe in Sprachen nehmen. Die Ergebnisse dieser Datenerfassungen sind:
+In einer Jahrgangsstufe werden 120 Schülern nach ihrer bevorzugten Fremdsprache gefragt. Zur Auswahl stehen Englisch und Französisch. Außerdem wird erfasst, ob sie regelmäßig Nachhilfe in Sprachen nehmen. Die Ergebnisse dieser Datenerfassungen sind:
 
-+ 72 SchülerInnen bevorzugen Englisch.
-+ 48 SchülerInnen bevorzugen Französisch.
-+ Von den Englisch-SchülerInnen nehmen 18 regelmäßig Nachhilfe.
-+ Von den Französisch-SchülerInnen nehmen 12 regelmäßig Nachhilfe.
++ 72 Schülern bevorzugen Englisch.
++ 48 Schülern bevorzugen Französisch.
++ Von den Englisch-Schülern nehmen 18 regelmäßig Nachhilfe.
++ Von den Französisch-Schülern nehmen 12 regelmäßig Nachhilfe.
 
-__Aufgabe 1:__ Erstelle eine Vierfeldertafel mit absoluten SchülerInnenzahlen zu diesem Sachzusammenhang.
+__Aufgabe 1:__ Erstelle eine Vierfeldertafel mit absoluten Schülerzahlen zu diesem Sachzusammenhang.
 
 
 {{1}}
@@ -158,7 +158,7 @@ __Aufgabe 1:__ Erstelle eine Vierfeldertafel mit absoluten SchülerInnenzahlen z
 
 
 
-__Aufgabe 2:__ Berechne die Wahrscheinlichkeit, dass eine zufällig ausgewählt Person Französisch gewählt hat.
+__Aufgabe 2:__ Berechne die Wahrscheinlichkeit, dass eine zufällig ausgewählte Person Französisch gewählt hat.
 
 {{2}}
 $$
@@ -169,7 +169,7 @@ $$
 
 
 
-__Aufgabe 3:__ Berechne die Wahrscheinlichkeit, dass eine zufällig ausgewählt Person Nachhilfe in Anspruch nimmt.
+__Aufgabe 3:__ Berechne die Wahrscheinlichkeit, dass eine zufällig ausgewählte Person Nachhilfe in Anspruch nimmt.
 
 {{3}}
 $$
@@ -179,7 +179,7 @@ $$
 $$
 
 
-__Aufgabe 4:__ Berechne die Wahrscheinlichkeit, dass eine zufällig ausgewählt Person Englisch gewählt hat und keine Nachhilfe in Anspruch nimmt.
+__Aufgabe 4:__ Berechne die Wahrscheinlichkeit, dass eine zufällig ausgewählte Person Englisch gewählt hat und keine Nachhilfe in Anspruch nimmt.
 
 {{3}}
 $$
@@ -199,18 +199,18 @@ $$
 #  Stochastik - Aufgabe 3: 
 
 
-Eine Stadtbibliothek untersucht das Leseverhalten von 200 Jugendlichen. Es wird erfasst, ob sie Romane oder Sachbücher bevorzugen und ob sie regelmäßig die Bibliothek besuchen. Dabei wurde festgestellt, dass 120 Jugendliche Romane und 80 Jugendliche Sachbücher bevorzugen, während von den Roman-Lesern 90 und von den Sachbuch-Lesern 50 regelmäßig die Bibliothek regelmäßig die Bibliothek besuchen.
+Eine Stadtbibliothek untersucht das Leseverhalten von 200 Jugendlichen. Es wird erfasst, ob sie Romane oder Sachbücher bevorzugen und ob sie regelmäßig die Bibliothek besuchen. Dabei wurde festgestellt, dass 120 Jugendliche Romane und 80 Jugendliche Sachbücher bevorzugen, während von den Roman-Lesern 90 und von den Sachbuch-Lesern 50 regelmäßig die Bibliothek besuchen.
 
 
 
-__Aufgabe 1:__ Erstelle eine Vierfeldertafel mit absoluten SchülerInnenzahlen zu diesem Sachzusammenhang.
+__Aufgabe 1:__ Erstelle eine Vierfeldertafel mit absoluten Jugendlichenzahlen zu diesem Sachzusammenhang.
 
 
 {{1}}
 |    | Besuch ja | Besuch nein | Summe |
 |  Romane       | 90 | 30 | 120  |
 |  Sachbücher   | 50 | 30 | 80  |
-| Summe         | 140 | 60 | 120 |
+| Summe         | 140 | 60 | 200 |
 
 
 
@@ -330,12 +330,12 @@ $$
 
 #  Stochastik - Aufgabe 5: 
 
-Im Schul-Leichtathletikteam wird diskutiert, ob gezieltes Aufwärmen vor dem Training die Verletzungsgefahr senkt. Über eine Saison wurden Daten erhoben und in einer Stichprobe erfasst. Hierfür wurde eine Stichprobe von 300 Probanten betrachtet, wovon 180 sich regelmäßig aufwärmten. Die Verletzungsquote betrog dabei 12%, während in nur 10% der aufgewärmten LeichtathletInnen sich verletzten.
+Im Schul-Leichtathletikteam wird diskutiert, ob gezieltes Aufwärmen vor dem Training die Verletzungsgefahr senkt. Über eine Saison wurden Daten erhoben und in einer Stichprobe erfasst. Hierfür wurde eine Stichprobe von 300 Probanten betrachtet, wovon 180 sich regelmäßig aufwärmten. Die gesamte Verletzungsquote betrog 12%, während in nur 10% der aufgewärmten Leichtathleten sich verletzten.
 
 
 
 
-__Aufgabe 1:__ Erstelle eine Vierfeldertafel mit absoluten LeichtathletInnenzahlen zu diesem Sachzusammenhang.
+__Aufgabe 1:__ Erstelle eine Vierfeldertafel mit absoluten Leichtathletenzahlen zu diesem Sachzusammenhang.
 
 
 {{1}}
