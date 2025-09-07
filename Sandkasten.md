@@ -63,6 +63,34 @@ edit: true
 
 eingabe: <script input="number" input-always-active modify="false" value="0" default="0">@input</script>
 
+
+
+
+
+@komma: @komma_(@uid,`@0`,`@1`)
+
+@komma_
+<input
+  data-id="lia-quiz-@0"
+  class="lia-input lia-quiz__input"
+  style="margin-bottom: 2rem"
+  value="@1">
+
+[[!]]
+<script>
+const eingabe = document.querySelector('[data-id="lia-quiz-@0"]').value.toLocaleLowerCase().replace(/\s+/g,"")
+
+eingabe == "@2".toLocaleLowerCase().replace(/\s+/g,"")
+</script>
+@end
+
+
+
+
+narrator: Deutsch Female
+
+vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @0  ]]
+
 -->
 
 
@@ -142,6 +170,31 @@ Eines Abends beschloss die junge Magd Clara, das Geheimnis zu lüften. Mit einer
 Clara folgte ihnen in den verschneiten Wald. Dort sah sie, wie die Elfen die [[  goldenen  ]] Äpfel in einen großen [[  Korb  ]] legten, aus dem helles Licht strahlte. „Warum nehmt ihr die [[  Äpfel  ]]?“, fragte Clara mutig. \
 Die Elfen erklärten: „Wir brauchen ihr Licht, um die Tiere des Waldes durch den langen Winter zu führen. Ohne sie würden viele erfrieren.“ \
 [[  Clara  ]] kehrte zurück und berichtete dem [[  König  ]]. Der war zunächst zornig, doch dann verstand er. Von diesem Tag an ließ er jedes Jahr einen Teil der goldenen Äpfel für die [[  Elfen  ]] zurück – und das Dorf lebte in Harmonie mit dem geheimnisvollen Waldvolk.
+
+
+
+
+---
+
+---
+
+__Aufgabe 4:__ Setze das Komma an die richtige Stelle. (Auflösung geht noch nicht und ist deswegen blockiert.)
+
+<!-- data-solution-button="false" -->
+@komma(`Das ist der Tag an dem ich geblitzt wurde.`,`Das ist der Tag, an dem ich geblitzt wurde.`)
+
+
+---
+
+---
+
+__Aufgabe 5:__ Lass dir die Wörter vorlesen, die in die Lücken kommen und schreibe diese in die Lücken.
+
+Anna ging in einen @vorlesen(Zoo). Dort konnte sie auf einem @vorlesen(Lama) reiten.
+
+
+
+
 
 
 
