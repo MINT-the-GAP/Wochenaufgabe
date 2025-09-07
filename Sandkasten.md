@@ -155,6 +155,10 @@ __Aufgabe 1:__ Auf dieser Seite werden immer wieder Aufgaben neu generiert, wenn
   "Neue Aufgabe " + window.randomMath++
 </script>
 
+
+
+
+
 ---
 
 <script run-once modify="false">
@@ -288,29 +292,138 @@ $$
 
 
 
+
+__Aufgabe 3:__ Auch mittels interaktiver Graphen können Aufgaben realisiert werden: Schiebe mit dem Schieberegler hin und her, um die Aufgabenstellungen zu bearbeiten
+
+
 ``` javascript @JSX.Graph
-// Board neu initialisieren (Achsen + Ausschnitt)
+// Board
 board = JXG.JSXGraph.initBoard(jxgbox, {
   axis: true,
-  boundingbox: [-4, 8, 6, -4],   // [x_min, y_max, x_max, y_min]
+  boundingbox: [-4, 8, 6, -4],
   keepaspectratio: false
 });
 
 // Funktionen
-var f = function(x){ return 2*x + 1; };
-var g = function(x){ return x*x - 2*x + 1; }; // = (x-1)^2
+var f  = function(x){ return 2*x + 1; };
+var g  = function(x){ return x*x - 2*x + 1; }; // (x-1)^2
+var gp = function(x){ return 2*x - 2; };       // Ableitung
 
-// Graphen zeichnen (Domain -3 bis 6)
-board.create('functiongraph', [f, -3, 6], {strokeWidth: 3, strokeColor: '#1f77b4'});
-board.create('functiongraph', [g, -3, 6], {strokeWidth: 3, strokeColor: '#d62728'});
+// Graphen
+board.create('functiongraph', [f, -3, 6], { strokeWidth: 3, strokeColor: '#1f77b4' });
+board.create('functiongraph', [g, -3, 6], { strokeWidth: 3, strokeColor: '#d62728' });
 
-// Optionale Labels (ohne weitere Elemente)
-board.create('text', [5.2, f(5), 'f'], {anchorX: 'left'});
-board.create('text', [5.2, g(5), 'g'], {anchorX: 'left'});
+// Slider-Einstellungen
+var tangentColor = '#2ca02c';
+var sliderStart = [-3.5, -2.5];
+var sliderEnd   = [ 3.5, -2.5];
+var vMin = -3, vInit = 1, vMax = 6;
+
+// Slider ohne Standard-Label/Value-Anzeige; Ticks ohne Auto-Labels
+var a = board.create('slider', [sliderStart, sliderEnd, [vMin, vInit, vMax]], {
+  name: '',
+  withLabel: false,          // kein "a" Label des Sliders
+  precision: 2,
+  snapWidth: 0.01,           // fein beweglich; auf 1 setzen für nur ganze Werte
+  withTicks: true,
+  ticks: {
+    drawLabels: false,       // wir beschriften selbst
+    minorTicks: 0,
+    ticksDistance: 1
+  }
+});
+// zur Sicherheit: verstecke etwaige Label-Objekte
+if (a.label) { a.label.setAttribute({ visible: false }); }
+
+// Slider FARBE auf tangentengrün (Linie, Highline, Punkt, Ticks)
+a.setAttribute({ strokeColor: tangentColor });            // Grundlinie (Fallback)
+if (a.baseline)  a.baseline.setAttribute({ strokeColor: tangentColor });
+if (a.highline)  a.highline.setAttribute({ strokeColor: tangentColor, strokeWidth: 3 });
+if (a.point)     a.point.setAttribute({ strokeColor: tangentColor, fillColor: tangentColor });
+if (a.ticks)     a.ticks.setAttribute({ strokeColor: tangentColor });
+
+// Eigene Tick-Labels bei ganzen Zahlen -3 ... 6
+function mapValueToX(v) {
+  var x1 = sliderStart[0], x2 = sliderEnd[0];
+  return x1 + ( (v - vMin) / (vMax - vMin) ) * (x2 - x1);
+}
+for (var v = vMin; v <= vMax; v++) {
+  board.create('text', [mapValueToX(v), sliderStart[1] - 0.35, v.toString()], {
+    anchorX: 'middle',
+    anchorY: 'top',
+    fontSize:  18, 
+    strokeColor: tangentColor ,
+    fontWeight: 'bold'    
+  });
+}
+
+// Eigene Wertanzeige rechts vom Slider (groß + tangentengrün)
+board.create('text', [sliderEnd[0] + 0.2, sliderEnd[1], function() {
+  return 'a = ' + a.Value().toFixed(2);
+}], { anchorX: 'left', 
+    anchorY: 'middle', 
+    fontSize: 20,
+    strokeColor: tangentColor,
+    fontWeight: 'bold' });
+
+// Punkt A auf der Parabel
+var A = board.create('point', [
+  function(){ return a.Value(); },
+  function(){ return g(a.Value()); }
+], {
+  name: 'A',
+  size: 3,
+  face: 'o',
+  strokeColor: tangentColor,
+  fillColor: tangentColor,
+  fontWeight: 'bold'
+});
+
+// Tangente an g in x=a
+var tangent = board.create('functiongraph', [
+  function(x){
+    var av = a.Value(), m = gp(av), ya = g(av);
+    return m*(x - av) + ya;
+  },
+  -3, 6
+], { strokeWidth: 3, 
+      strokeColor: tangentColor, 
+      dash: 2 });
+
+// Labels f, g
+board.create('text', [5.2, f(5), 'f'], { anchorX: 'left' });
+board.create('text', [5.2, g(5), 'g'], { anchorX: 'left' });
+
+// Tangentengleichung (groß + grün)
+board.create('text', [-3.5, 7.2, function(){
+  var av = a.Value(),
+      m  = gp(av),
+      ya = g(av),
+      n  = ya - m*av;
+  return 'Tangente: t(x) = ' + m.toFixed(2) + 'x + ' + n.toFixed(2);
+}], {   anchorX: 'left', 
+        fontSize: 18, 
+        strokeColor: tangentColor ,
+        fontWeight: 'bold'});
 
 ```
 
 
+__$a)\;\;$__ **Gib** den Wert von $a$ **an**, sodass die Tangente parallel zum blauen Graphen ist. $a=$ [[ 2 ]]
+@Algebrite.check_margin(1.95,2.05)
+
+__$b)\;\;$__ **Gib** den Wert der Steigung des blauen Graphens **an**. $m_{\text{blau}}=$ [[ 2 ]]
+@Algebrite.check_margin(1.95,2.05)
+
+__$c)\;\;$__ **Gib** die Distanz $d$ zwischen der Tangente und dem blauen Graph **an**, wenn die Tangente parallel zum blauen Graphen ist. $d=$ [[ 4 ]]
+@Algebrite.check_margin(3.95,4.05)
+
+__$d)\;\;$__ **Gib** den Wert der Steigung der Tangente **an**, wenn die Tangente orthogonal zum blauen Graphen ist. $m_t=$ [[ -2 ]]
+@Algebrite.check_margin(-1.95,-2.05)
+
+
+
+
 
 
 ---
@@ -319,7 +432,7 @@ board.create('text', [5.2, g(5), 'g'], {anchorX: 'left'});
 
 
 
-__Aufgabe 3:__ **Gib** den ungefähren Wert der abgebildeten Objekte **an**.
+__Aufgabe 4:__ **Gib** den ungefähren Wert der abgebildeten Objekte **an**.
 
 <section class="flex-container">
 
@@ -355,7 +468,7 @@ __$b)\;\;$__
 ---
 
 
-__Aufgabe 4:__ Schreibe den Term $4+5*2-7$ in das Fenster. Drück dann unten links das Symbol </>.
+__Aufgabe 5:__ Schreibe den Term $4+5*2-7$ in das Fenster. Drück dann unten links das Symbol </>.
 
 ``` Maxima
 8+9
@@ -368,7 +481,7 @@ __Aufgabe 4:__ Schreibe den Term $4+5*2-7$ in das Fenster. Drück dann unten lin
 
 ---
 
-__Aufgabe 5:__ Gib den Term `x ^ 2 - 2 * x + 1` in einer beliebigen Umformung in das Lösungsfeld ein.
+__Aufgabe 6:__ Gib den Term `x ^ 2 - 2 * x + 1` in einer beliebigen Umformung in das Lösungsfeld ein.
 
 [[  x ^ 2 - 2 * x + 1  ]]
 @Algebrite.check(x^2-2*x+1)
@@ -379,7 +492,7 @@ __Aufgabe 5:__ Gib den Term `x ^ 2 - 2 * x + 1` in einer beliebigen Umformung in
 
 
 
-__Aufgabe 6:__ Kleine Aufgaben in Tabellenkalkulationen sind auch möglich: Schreibe in zwei Zellen jeweils eine Zahl und lass diese in einer dritten Zelle mit einem beliebigen Rechenoperator verrechnen.
+__Aufgabe 7:__ Kleine Aufgaben in Tabellenkalkulationen sind auch möglich: Schreibe in zwei Zellen jeweils eine Zahl und lass diese in einer dritten Zelle mit einem beliebigen Rechenoperator verrechnen.
 
 
 ```json @spreadsheet
@@ -398,7 +511,7 @@ __Aufgabe 6:__ Kleine Aufgaben in Tabellenkalkulationen sind auch möglich: Schr
 
 
 
-__Aufgabe 7:__ GeoGebra
+__Aufgabe 8:__ GeoGebra
 
 
 ??[](https://www.bildung-bedeutet-freiheit.de/GeoGebra/Downloadbalken.html)
@@ -409,7 +522,7 @@ __Aufgabe 7:__ GeoGebra
 ---
 
 
-__Aufgabe 8:__ Eigene Lernspiele
+__Aufgabe 9:__ Eigene Lernspiele
 
 ??[](https://bildung-bedeutet-freiheit.de/viervieren/index.html)
 
