@@ -162,7 +162,7 @@ an  [[Adjektiv|Adverb|Artikel|Interjektion|Konjunktion|Numeral|Nomen|(Präpositi
 ---
 
 
-__Aufgabe 3:__ Füll den Lückentext aus. (Richtige Lücken werden beim Prüfen grün markiert.)
+__Aufgabe 3:__ Fülle den Lückentext aus. (Richtige Lücken werden beim Prüfen grün markiert.)
 
 <!-- data-show-partial-solution -->
 Es war einmal ein kleines Dorf am Rande eines tiefen Waldes. Die Menschen dort lebten friedlich, doch jedes Jahr, wenn der erste Schnee fiel, verschwand ein Eimer voll goldener Äpfel aus dem Vorratshaus des Königs. Niemand wusste, wer sie stahl. \
@@ -346,7 +346,7 @@ $$
 
 
 
-__Aufgabe 3:__ Auch mittels interaktiver Graphen können Aufgaben realisiert werden: Schiebe mit dem Schieberegler hin und her, um die Aufgabenstellungen zu bearbeiten
+__Aufgabe 3:__ Auch mittels interaktiver Graphen können Aufgaben realisiert werden: Schiebe mit dem Schieberegler hin und her, um die Aufgabenstellungen zu bearbeiten.
 
 
 ``` javascript @JSX.Graph
