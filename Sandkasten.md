@@ -465,8 +465,8 @@ board.create('text', [-3.5, 7.2, function(){
 __$a)\;\;$__ **Gib** den Wert von $a$ **an**, sodass die Tangente parallel zum blauen Graphen ist. $a=$ [[ 2 ]]
 @Algebrite.check_margin(1.95,2.05)
 
-__$b)\;\;$__ **Gib** den Wert der Steigung des blauen Graphens **an**. $m_{\text{blau}}=$ [[ 2 ]]
-@Algebrite.check_margin(1.95,2.05)
+__$b)\;\;$__ **Gib** den Wert der Steigung des blauen Graphens **an**. $m_{\text{blau}}=$ [[ 0,5 ]]
+@Algebrite.check_margin(0.45,0.55)
 
 __$c)\;\;$__ **Gib** die Distanz $d$ zwischen der Tangente und dem blauen Graph **an**, wenn die Tangente parallel zum blauen Graphen ist. $d=$ [[ 4 ]]
 @Algebrite.check_margin(3.95,4.05)
