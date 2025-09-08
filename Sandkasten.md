@@ -353,8 +353,34 @@ __Aufgabe 3:__ Auch mittels interaktiver Graphen können Aufgaben realisiert wer
 // Board
 board = JXG.JSXGraph.initBoard(jxgbox, {
   axis: true,
-  boundingbox: [-4, 8, 6, -4],
-  keepaspectratio: false
+  boundingbox: [-5, 5, 5, -5],
+  keepaspectratio: true,
+  defaultAxes: {
+    x: { ticks: { insertTicks: false, ticksDistance: 1, minorTicks: 4, drawLabels: true } },
+    y: { ticks: { insertTicks: false, ticksDistance: 1, minorTicks: 4, drawLabels: true } }
+  },
+  // Raster konfigurieren: Major solide, Minor gestrichelt
+  grid: {
+    majorStep: 'auto',        // übernimmt die Schrittweite der Achsen (=> 1)
+    minorElements: 'auto',    // übernimmt die Anzahl Minor-Ticks (=> 4)
+    includeBoundaries: true,
+    forceSquare: true,        // gleiche Metrik in x und y
+
+    major: {                  // durchgezogene Linien bei ganzen Zahlen
+      face: 'line',
+      strokeColor: '#999',
+      strokeWidth: 1.5,
+      dash: 0,
+      drawZero: true
+    },
+    minor: {                  // gestrichelte Hilfslinien dazwischen
+      face: 'line',
+      strokeColor: '#999',
+      strokeWidth: 1,
+      dash: 1,
+      drawZero: true
+    }
+  }
 });
 
 // Funktionen
@@ -363,14 +389,14 @@ var g  = function(x){ return x*x - 2*x + 1; }; // (x-1)^2
 var gp = function(x){ return 2*x - 2; };       // Ableitung
 
 // Graphen
-board.create('functiongraph', [f, -3, 6], { strokeWidth: 3, strokeColor: '#1f77b4' });
-board.create('functiongraph', [g, -3, 6], { strokeWidth: 3, strokeColor: '#d62728' });
+board.create('functiongraph', [f, -5, 6], { strokeWidth: 3, strokeColor: '#1f77b4' });
+board.create('functiongraph', [g, -5, 6], { strokeWidth: 3, strokeColor: '#d62728' });
 
 // Slider-Einstellungen
 var tangentColor = '#2ca02c';
 var sliderStart = [-3.5, -2.5];
 var sliderEnd   = [ 3.5, -2.5];
-var vMin = -3, vInit = 1, vMax = 6;
+var vMin = -5, vInit = 1, vMax = 5;
 
 // Slider ohne Standard-Label/Value-Anzeige; Ticks ohne Auto-Labels
 var a = board.create('slider', [sliderStart, sliderEnd, [vMin, vInit, vMax]], {
@@ -395,7 +421,7 @@ if (a.highline)  a.highline.setAttribute({ strokeColor: tangentColor, strokeWidt
 if (a.point)     a.point.setAttribute({ strokeColor: tangentColor, fillColor: tangentColor });
 if (a.ticks)     a.ticks.setAttribute({ strokeColor: tangentColor });
 
-// Eigene Tick-Labels bei ganzen Zahlen -3 ... 6
+// Eigene Tick-Labels bei ganzen Zahlen -5 ... 6
 function mapValueToX(v) {
   var x1 = sliderStart[0], x2 = sliderEnd[0];
   return x1 + ( (v - vMin) / (vMax - vMin) ) * (x2 - x1);
@@ -438,7 +464,7 @@ var tangent = board.create('functiongraph', [
     var av = a.Value(), m = gp(av), ya = g(av);
     return m*(x - av) + ya;
   },
-  -3, 6
+  -5, 6
 ], { strokeWidth: 3, 
       strokeColor: tangentColor, 
       dash: 2 });
@@ -459,6 +485,15 @@ board.create('text', [-3.5, 7.2, function(){
         strokeColor: tangentColor ,
         fontWeight: 'bold'});
 
+// Punkt P(-1|-2) als Kreuz
+var P = board.create('point', [-1, -2], {
+  name: 'P',
+  face: 'x',        // Kreuzsymbol
+  size: 6,          // Dicke/Größe
+  strokeColor: 'purple',
+  fillColor: 'purple',
+  fixed: true       // nicht verschiebbar
+});
 ```
 
 
