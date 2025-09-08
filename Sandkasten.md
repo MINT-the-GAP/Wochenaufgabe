@@ -471,8 +471,11 @@ __$b)\;\;$__ **Gib** den Wert der Steigung des blauen Graphens **an**. $m_{\text
 __$c)\;\;$__ **Gib** die Distanz $d$ zwischen der Tangente und dem blauen Graph **an**, wenn die Tangente parallel zum blauen Graphen ist. $d=$ [[ 4 ]]
 @Algebrite.check_margin(3.95,4.05)
 
-__$d)\;\;$__ **Gib** den Wert der Steigung der Tangente **an**, wenn die Tangente orthogonal zum blauen Graphen ist. $m_t=$ [[ -2 ]]
-@Algebrite.check_margin(-1.95,-2.05)
+__$d)\;\;$__ **Gib** den Wert der Steigung der Tangente **an**, wenn die Tangente orthogonal zum blauen Graphen ist. $m_t=$ [[ -0,5 ]]
+@Algebrite.check_margin(-0.45,-0.55)
+
+__$e)\;\;$__ **Gib** den Wert von $a$ **an**, bei dem die Tangente orthogonal zum blauen Graphen ist. $a$ [[ 0,75 ]]
+@Algebrite.check_margin(0.73,-0.77)
 
 
 
