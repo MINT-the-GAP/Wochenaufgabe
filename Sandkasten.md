@@ -356,8 +356,14 @@ board = JXG.JSXGraph.initBoard(jxgbox, {
   boundingbox: [-5, 5, 5, -5],
   keepaspectratio: true,
   defaultAxes: {
-    x: { ticks: { insertTicks: false, ticksDistance: 1, minorTicks: 4, drawLabels: true } },
-    y: { ticks: { insertTicks: false, ticksDistance: 1, minorTicks: 4, drawLabels: true } }
+    x: { 
+      strokeColor: 'black',
+      strokeWidth: 2.5,  
+      ticks: { insertTicks: false, ticksDistance: 1, minorTicks: 4, drawLabels: true, label: { fontSize: 18 } } },
+    y: {  
+      strokeColor: 'black',
+      strokeWidth: 2.5,  
+      ticks: { insertTicks: false, ticksDistance: 1, minorTicks: 4, drawLabels: true, label: { fontSize: 18 } } }
   },
   // Raster konfigurieren: Major solide, Minor gestrichelt
   grid: {
@@ -394,8 +400,8 @@ board.create('functiongraph', [g, -5, 6], { strokeWidth: 3, strokeColor: '#d6272
 
 // Slider-Einstellungen
 var tangentColor = '#2ca02c';
-var sliderStart = [-3.5, -2.5];
-var sliderEnd   = [ 3.5, -2.5];
+var sliderStart = [0.5, -3.125];
+var sliderEnd   = [5.5, -3.125];
 var vMin = -5, vInit = 1, vMax = 5;
 
 // Slider ohne Standard-Label/Value-Anzeige; Ticks ohne Auto-Labels
@@ -451,7 +457,7 @@ var A = board.create('point', [
   function(){ return g(a.Value()); }
 ], {
   name: 'A',
-  size: 3,
+  size: 4,
   face: 'o',
   strokeColor: tangentColor,
   fillColor: tangentColor,
