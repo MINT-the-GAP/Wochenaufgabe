@@ -458,8 +458,6 @@ Die Steigung der Geraden gibt die Masse an, da dies der einzige freie Parameter 
 
 
 
-{{2}}
-__Aufgabe 5:__ **Beschreibe**, wo sich in diesem Diagramm die Masse wiederfindet und **begründe** deine Vermutung. \
 
 
 
@@ -496,10 +494,64 @@ $b)\;\;$ **Schritt 2: Relativgeschwindigkeitsregel**
 Gleichung (2) wird mit 2 multipliziert und mit (1) kombiniert.  
 Nach Umformung folgt die Relativgeschwindigkeitsregel:
 
+
 {{2}}
+**********************
+**Schritt 1: Impulserhaltung umstellen**
+
+$$
+m_1(v_1 - v_1') = m_2(v_2' - v_2). \qquad (A)
+$$
+
+---
+
+**Schritt 2: Energieerhaltung als Differenz der Quadrate schreiben**
+
+$$
+\begin{align*}
+m_1(v_1^2 - {v_1'}^{2}) + m_2(v_2^2 - {v_2'}^{2}) &= 0 \\
+m_1(v_1 - v_1')(v_1 + v_1') + m_2(v_2 - v_2')(v_2 + v_2') &= 0. \qquad (B)
+\end{align*}
+$$
+
+---
+
+**Schritt 3: Vorzeichen anpassen und (A) einsetzen**
+
+$$
+m_1(v_1 - v_1')(v_1 + v_1') = m_2(v_2' - v_2)(v_2 + v_2').
+$$
+
+Aus (A) folgt:
+
+$$
+m_2(v_2' - v_2) = m_1(v_1 - v_1'),
+$$
+
+damit:
+
+$$
+m_1(v_1 - v_1')(v_1 + v_1') = m_1(v_1 - v_1')(v_2 + v_2').
+$$
+
+---
+
+**Schritt 4: Gemeinsamen Faktor kürzen**
+
+Für einen nichttrivialen Stoß ($v_1 \neq v_1'$) kürzen wir:
+
+$$
+v_1 + v_1' = v_2 + v_2'.
+$$
+
+Dies ist äquivalent zu:
+
+
+
 $$
 v_1 - v_2 = -\,(v_1' - v_2') \quad (3)
 $$
+**********************
 
 ---
 
@@ -573,7 +625,7 @@ $$
 Damit liegen die allgemeinen Geschwindigkeitsausdrücke für den eindimensionalen elastischen Stoß vor.
 
 ---
-<br>
+
 ---
 
 __Aufgabe 2:__ Vollständig inelastischer Stoß (Verkleben)

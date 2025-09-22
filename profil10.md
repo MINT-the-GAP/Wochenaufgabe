@@ -60,7 +60,7 @@ author: Martin Lommatzsch
 
 # Naturwissenschaftliches Profil Klasse 10 - Modellierung der Natur
 
-> Letztes Update am 10.08.2025 gegen 18:00 Uhr
+> Letztes Update am 22.09.2025 gegen 13:00 Uhr
 
 
 In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterrichts der Klasse 10. Auch findest du hier Aufgaben und Lösungen zu den Aufgaben. Die Datei wird ständig aktualisiert.
@@ -341,3 +341,383 @@ __Aufgabe 2:__ **Gib** eine Gleichung **an**, die die Länge von $\left|\vec{a}-
 \left|\vec{a}-\vec{b}\right| & = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi)}   \\ 
 \end{align*}
 $$
+
+
+<br>
+
+
+{{7}}
+__Aufgabe 3:__ **Löse** die Gleichung $\left|\vec{a}-\vec{b}\right| = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi)}$ nach dem Winkel $\varphi$ **auf**. \
+<br>
+
+
+{{8}}
+$$
+\begin{align*} 
+\left|\vec{a}-\vec{b}\right| & = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi)}  \\ 
+\Rightarrow\;\; \left|\vec{a}-\vec{b}\right|^2 & = \left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi) \quad \left| - \left|\vec{a}\right|^2  - \left|\vec{b}\right|^2  \right.  \\ 
+ \left|\vec{a}-\vec{b}\right|^2 - \left|\vec{a}\right|^2  - \left|\vec{b}\right|^2 & = -2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi) \quad \left|  \cdot (-1)  \right.  \\ 
+ \left|\vec{a}\right|^2  + \left|\vec{b}\right|^2 -  \left|\vec{a}-\vec{b}\right|^2 & = 2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi) \quad \left|  : 2\left|\vec{a}\right|\left|\vec{b}\right|  \right.  \\ 
+\dfrac{ \left|\vec{a}\right|^2  + \left|\vec{b}\right|^2 -  \left|\vec{a}-\vec{b}\right|^2}{ 2\left|\vec{a}\right|\left|\vec{b}\right| } & =  \cos(\varphi)    \\ 
+\Rightarrow\;\;  \arccos\left(  \dfrac{ \left|\vec{a}\right|^2  + \left|\vec{b}\right|^2 -  \left|\vec{a}-\vec{b}\right|^2}{ 2\left|\vec{a}\right|\left|\vec{b}\right| } \right) & =   \varphi    \\ 
+\end{align*}
+$$
+
+
+
+
+
+
+
+
+
+
+
+## Energie- und Impulserhaltung
+
+
+
+{{0}}
+__Aufgabe 1:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Geschwindigkeit $v$ vorkommen. \
+<br>
+
+
+{{1}} $$
+\begin{align*} 
+E_{kin} & = \dfrac{1}{2} m v^2   \qquad \text{mit: }  p = mv \;\;\Rightarrow\;\; m = \dfrac{p}{v}   \\
+E_{kin} & = \dfrac{1}{2} \dfrac{p}{v} v^2 \\
+E_{kin} & = \dfrac{1}{2} v p \\
+\end{align*}
+$$
+
+
+
+{{0}}
+__Aufgabe 2:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Masse $m$ vorkommen. \
+<br>
+
+
+{{1}}
+$$
+\begin{align*} 
+E_{kin} & = \dfrac{1}{2} m v^2   \qquad \text{mit: }  p = mv \;\;\Rightarrow\;\; v = \dfrac{p}{m}   \\
+E_{kin} & = \dfrac{1}{2} m \left( \dfrac{p}{m} \right)^2 \\
+E_{kin} & = \dfrac{1}{2} m   \dfrac{p^2}{m^2}  \\
+E_{kin} & =  \dfrac{p^2}{2m} \\
+\end{align*}
+$$
+
+
+{{2}}
+Unter der Annahme, dass sich die Masse $m$ eines betrachteten Objektes nicht verändert, kann der Impuls $p$ in Abhänigkeit von der Geschwindigkeit $v$ in einem $v$-$p$-Koordinatensystem dargestellt werden: 
+
+
+{{2}}
+<center>
+<!-- style="width:600px" -->
+![](pvEnergie1.png)
+</center>
+
+
+{{2}}
+__Aufgabe 3:__ **Beschreibe**, wo sich in diesem Diagramm die Energie wiederfindet und **begründe** deine Aussagen mit einer Herleitung. \
+
+
+{{3}}
+Der Flächeninhalt zwischen der Abszisse und dem Graphen entspricht dem Wert der Energie. Für die Herleitung wird eine beliebige Geschwindigkeit $v_0$ verwendet.
+
+
+{{3}}
+<center>
+<!-- style="width:600px" -->
+![](pvEnergie2.png)
+</center>
+
+
+{{3}}
+$$
+\begin{align*} 
+A & = \dfrac{1}{2} v_0 p(v_0)   \qquad \text{mit: }  p(v_0) = mv_0  \\
+A & = \dfrac{1}{2} v_0 mv_0    \\
+A & = \dfrac{1}{2} mv_0^2    \\
+A & = E_{kin}    \\
+\end{align*}
+$$
+
+
+
+
+{{2}}
+__Aufgabe 4:__ **Beschreibe**, wo sich in diesem Diagramm die Masse wiederfindet und **begründe** deine Vermutung. \
+
+
+
+{{3}}
+Die Steigung der Geraden gibt die Masse an, da dies der einzige freie Parameter der allgemeinen Geradengleichung ist und dieser auch konstant ist. Würde sich der Massenwert verringern, würde der Flächeninhalt des Dreiecks auch kleiner werden und andersherum. Folglich ist der Energiewert abhängig von der Steigung der Geraden, welche also als Masse interpretiert werden kann.
+
+
+
+
+
+
+
+### Übungen zu Erhaltungsgrößen
+
+__Aufgabe 1:__ Zentraler elastischer Stoß auf einer Geraden
+
+Zwei Körper mit den Massen $m_1$ und $m_2$ bewegen sich mit den Geschwindigkeiten $v_1$ und $v_2$ aufeinander zu.  
+Nach einem elastischen Stoß besitzen sie die Geschwindigkeiten $v_1'$ und $v_2'$.
+
+$a)\;\;$ **Gib** die Erhaltungsgleichungen für den Impuls und die kinetische Energie **an**.  
+
+$b)\;\;$ **Leite** daraus allgemeine Ausdrücke für $v_1'$ und $v_2'$ in Abhängigkeit von $m_1, m_2, v_1, v_2$ **her**.
+
+---
+
+{{1}}
+$a)\;\;$ **Schritt 1: Impuls- und Energieerhaltung**
+
+{{1}}
+$$
+\begin{align*}
+m_1 v_1 + m_2 v_2 &= m_1 v_1' + m_2 v_2' \quad &(1) \\
+\frac12 m_1 v_1^2 + \frac12 m_2 v_2^2 &= \frac12 m_1 {v_1'}^{2} + \frac12 m_2 {v_2'}^{2} \quad &(2)
+\end{align*}
+$$
+
+---
+
+{{2}}
+$b)\;\;$ **Schritt 2: Relativgeschwindigkeitsregel**
+
+{{2}}
+Gleichung (2) wird mit 2 multipliziert und mit (1) kombiniert.  
+Nach Umformung folgt die Relativgeschwindigkeitsregel:
+
+
+{{2}}
+**********************
+**Schritt 1: Impulserhaltung umstellen**
+
+$$
+m_1(v_1 - v_1') = m_2(v_2' - v_2). \qquad (A)
+$$
+
+---
+
+**Schritt 2: Energieerhaltung als Differenz der Quadrate schreiben**
+
+$$
+\begin{align*}
+m_1(v_1^2 - {v_1'}^{2}) + m_2(v_2^2 - {v_2'}^{2}) &= 0 \\
+m_1(v_1 - v_1')(v_1 + v_1') + m_2(v_2 - v_2')(v_2 + v_2') &= 0. \qquad (B)
+\end{align*}
+$$
+
+---
+
+**Schritt 3: Vorzeichen anpassen und (A) einsetzen**
+
+$$
+m_1(v_1 - v_1')(v_1 + v_1') = m_2(v_2' - v_2)(v_2 + v_2').
+$$
+
+Aus (A) folgt:
+
+$$
+m_2(v_2' - v_2) = m_1(v_1 - v_1'),
+$$
+
+damit:
+
+$$
+m_1(v_1 - v_1')(v_1 + v_1') = m_1(v_1 - v_1')(v_2 + v_2').
+$$
+
+---
+
+**Schritt 4: Gemeinsamen Faktor kürzen**
+
+Für einen nichttrivialen Stoß ($v_1 \neq v_1'$) kürzen wir:
+
+$$
+v_1 + v_1' = v_2 + v_2'.
+$$
+
+Dies ist äquivalent zu:
+
+
+
+$$
+v_1 - v_2 = -\,(v_1' - v_2') \quad (3)
+$$
+**********************
+
+---
+
+{{3}}
+**Schritt 3: Aus (3) $v_1'$ ausdrücken und in (1) einsetzen**
+
+{{3}}
+Aus (3) ergibt sich:
+
+{{3}}
+$$
+v_1' = v_2' + v_2 - v_1
+$$
+
+{{3}}
+In (1) eingesetzt:
+
+{{3}}
+$$
+m_1 v_1 + m_2 v_2 = m_1 (v_2' + v_2 - v_1) + m_2 v_2'
+$$
+
+---
+
+{{4}}
+**Schritt 4: $v_2'$ bestimmen**
+
+{{4}}
+Nach Umformen:
+
+{{4}}
+$$
+(m_1 + m_2) v_2' = 2 m_1 v_1 + (m_2 - m_1) v_2
+$$
+
+{{4}}
+Damit:
+
+{{4}}
+$$
+v_2' = \frac{2 m_1}{m_1 + m_2} v_1 + \frac{m_2 - m_1}{m_1 + m_2} v_2
+$$
+
+---
+
+{{5}}
+**Schritt 5: $v_1'$ bestimmen**
+
+{{5}}
+Einsetzen in $v_1' = v_2' + v_2 - v_1$:
+
+{{5}}
+$$
+v_1' = \frac{m_1 - m_2}{m_1 + m_2} v_1 + \frac{2 m_2}{m_1 + m_2} v_2
+$$
+
+---
+
+{{6}}
+**Schritt 6: Präsentation der Lösung**
+
+{{6}}
+$$
+\begin{align*}
+v_1' &= \frac{m_1 - m_2}{m_1 + m_2} v_1 + \frac{2 m_2}{m_1 + m_2} v_2 \\
+v_2' &= \frac{2 m_1}{m_1 + m_2} v_1 + \frac{m_2 - m_1}{m_1 + m_2} v_2
+\end{align*}
+$$
+
+{{6}}
+Damit liegen die allgemeinen Geschwindigkeitsausdrücke für den eindimensionalen elastischen Stoß vor.
+
+---
+
+---
+
+__Aufgabe 2:__ Vollständig inelastischer Stoß (Verkleben)
+
+Zwei Körper mit den Massen $m_1$ und $m_2$ bewegen sich mit den Geschwindigkeiten $v_1$ und $v_2$ aufeinander zu und bewegen sich nach dem Stoß gemeinsam mit der Geschwindigkeit $v'$.
+
+$a)\;\;$ **Bestimme** $v'$ aus der Impulserhaltung.
+
+$b)\;\;$ **Bestimme** die kinetische Energie vor und nach dem Stoß und leite den "Energieverlust" $\Delta E_{kin}$ her.
+
+$c)\;\;$ **Gib** optional den relativen "Verlust" $\dfrac{\Delta E_{kin}}{E_{kin,\text{vor}}}$ **an**.
+
+$d)\;\;$ **Erkläre**, wo die Energie aus dem relativen "Verlust" der kinetischen Energie hin ist.
+
+---
+
+{{7}}
+$a)\;\;$ Schritt 1: Impulserhaltung und gemeinsame Geschwindigkeit
+
+{{7}}
+$$
+\begin{align*}
+m_1 v_1 + m_2 v_2 &= (m_1 + m_2) \, v' \\
+\Rightarrow\quad
+v' &= \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
+\end{align*}
+$$
+
+---
+
+{{8}}
+$b)\;\;$ Schritt 2: Kinetische Energien vor und nach dem Stoß
+
+{{8}}
+$$
+\begin{align*}
+E_{kin,\text{vor}} &= \dfrac12 m_1 v_1^2 + \dfrac12 m_2 v_2^2 \\
+E_{kin,\text{nach}} &= \dfrac12 (m_1 + m_2)\,{v'}^{2}
+= \dfrac{(m_1 v_1 + m_2 v_2)^2}{2 (m_1 + m_2)}
+\end{align*}
+$$
+
+---
+
+{{9}}
+$c)\;\;$ Schritt 3: "Energieverlust" $\Delta E_{kin} =  E_{kin,\text{vor}} - E_{kin,\text{nach}}$
+
+{{9}}
+Nach Ausmultiplizieren und Zusammenfassen ergibt sich die Standardform:
+
+{{9}}
+$$
+\Delta E_{kin}
+= \dfrac12 \,\frac{m_1 m_2}{m_1 + m_2}\,(v_1 - v_2)^2
+$$
+
+{{9}}
+Diese Darstellung macht die Abhängigkeit von der Relativgeschwindigkeit $(v_1 - v_2)$ und der reduzierten Masse $\mu = \dfrac{m_1 m_2}{m_1 + m_2}$ sichtbar.
+
+---
+
+{{10}}
+Schritt 4 (optional): Relativer "Verlust"
+
+{{10}}
+$$ 
+\frac{\Delta E_{kin}}{E_{kin,\text{vor}}}
+= 1 - \frac{(m_1 v_1 + m_2 v_2)^2}{(m_1 + m_2)\,(m_1 v_1^2 + m_2 v_2^2)}
+$$
+
+---
+
+{{10}}
+Zusammenfassung
+
+{{10}}
+$$
+\begin{align*}
+v' &= \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2} \\
+\Delta E_{kin} &= \frac12 \,\frac{m_1 m_2}{m_1 + m_2}\,(v_1 - v_2)^2
+\end{align*}
+$$
+
+
+---
+
+{{11}}
+$d)\;\;$ Diese Energie wird in Umformungs- und somit auch Wärmeenergie umgewandelt. Somit der erste Hauptsatz der Thermodynamik nicht verletzt.
+
+
+
+
+---
+<br>
+---
