@@ -60,7 +60,7 @@ author: Martin Lommatzsch
 
 # Naturwissenschaftliches Profil Klasse 10 - Modellierung der Natur
 
-> Letztes Update am 22.09.2025 gegen 13:00 Uhr
+> Letztes Update am 10.08.2025 gegen 18:00 Uhr
 
 
 In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterrichts der Klasse 10. Auch findest du hier Aufgaben und Lösungen zu den Aufgaben. Die Datei wird ständig aktualisiert.
@@ -721,3 +721,2310 @@ $d)\;\;$ Diese Energie wird in Umformungs- und somit auch Wärmeenergie umgewand
 ---
 <br>
 ---
+
+
+
+
+__Aufgabe 3:__ Energieumwandlung beim freien Fall
+
+Ein Körper der Masse $m$ wird aus der Höhe $h$ ohne Anfangsgeschwindigkeit fallen gelassen. Die aktuelle Höhe sei $y < h$. Luftwiderstand wird vernachlässigt, $g$ sei ortskonstant.
+
+$a)\;\;$ **Gib** die Energieerhaltung zwischen den Höhen $h$ (Start) und $y$ (aktuell) **an**.
+
+$b)\;\;$ **Leite** daraus $v(y)$ **her** und **zeige** die Unabhängigkeit von $m$.
+
+$c)\;\;$ **Zeige** die Übereinstimmung mit der kinematischen Beziehung für gleichmäßige Beschleunigung.
+
+---
+
+{{12}}
+$a)\;\;$ Schritt 1: Energieerhaltung
+
+{{12}}
+$$
+\begin{align*}
+E_{\text{pot}}(h) + E_{\text{kin}}(h) &= E_{\text{pot}}(y) + E_{\text{kin}}(y) \\
+m g h + 0 &= m g y + \dfrac12 m v^2
+\end{align*}
+$$
+
+---
+
+{{13}}
+$b)\;\;$ Schritt 2: Umformen auf $v(y)$
+
+{{13}}
+$$
+\begin{align*}
+\dfrac12 m v^2 &= m g (h - y) \\
+v^2 &= 2 g (h - y) \\
+v &= \sqrt{\,2 g (h - y)\,}
+\end{align*}
+$$
+
+---
+
+{{14}}
+Schritt 3: Unabhängigkeit von der Masse
+
+{{14}}
+$$
+\begin{align*}
+\dfrac12 \,\cancel{m}\, v^2 &= \cancel{m}\, g (h - y)
+\end{align*}
+$$
+
+{{14}}
+Die Masse kürzt sich; $v$ hängt nicht von $m$ ab.
+
+---
+
+{{15}}
+$c)\;\;$ Schritt 4: Konsistenz mit der Kinematik
+
+{{15}}
+Mit der Fallstrecke $s = h - y$ und konstanter Beschleunigung $g$ gilt kinematisch
+
+{{15}}
+$$
+\begin{align*}
+v^2 &= 2 g s = 2 g (h - y),
+\end{align*}
+$$
+
+{{15}}
+also identisch zum Ergebnis aus der Energieerhaltung.
+
+
+
+---
+<br>
+---
+
+
+
+__Aufgabe 4:__ Rückstoß (Rollbrett + Ball), Impulserhaltung
+
+Eine Person der Masse $M$ steht reibungsfrei auf einem Rollbrett. Sie wirft einen Ball der Masse $m$ mit der zur Erde gemessenen Geschwindigkeit $u$ nach vorne. Das System war zuvor in Ruhe.
+
+$a)\;\;$  **Gib** die Impulserhaltung **an** und **leite** die Geschwindigkeit $V'$ der Person nach dem Wurf **her**.
+
+$b)\;\;$  **Gib** die Richtung und Betrag von $V'$ **an**.
+
+---
+
+{{16}}
+$a)\;\;$ Schritt 1: Impulserhaltung (gesamter Anfangsimpuls ist null)
+
+{{16}}
+$$
+\begin{align*}
+0 \;=\; M\,V' \;+\; m\,u
+\end{align*}
+$$
+
+{{16}}
+Vorzeichenkonvention: $u>0$ in Wurfrichtung (nach vorne).
+
+---
+
+{{17}}
+$b)\;\;$ Schritt 2: Auflösen nach $V'$
+
+{{17}}
+$$
+\begin{align*}
+M\,V' &= -\,m\,u \quad \left| : M  \right.\\
+V' &= -\,\dfrac{m}{M}\,u
+\end{align*}
+$$
+
+---
+
+{{18}}
+Schritt 3: Interpretation
+
+{{18}}
+Das Minuszeichen zeigt: Die Person bewegt sich **entgegen** der Wurfrichtung.  
+Der Betrag lautet
+
+{{18}}
+$$
+\begin{align*}
+\lvert V' \rvert \;=\; \dfrac{m}{M}\,u \,.
+\end{align*}
+$$
+
+---
+
+{{19}}
+Zusammenfassung
+
+{{19}}
+$$
+\begin{align*}
+V' \;=\; -\,\dfrac{m}{M}\,u, \qquad \lvert V' \rvert \;=\; \dfrac{m}{M}\,u \,.
+\end{align*}
+$$
+
+{{19}}
+Hinweis: Der Gesamtimpuls bleibt erhalten; die (später betrachtbare) Zunahme von $E_{\text{kin}}$ des Systems stammt aus der beim Wurf aufgewendeten inneren Arbeit.
+
+
+
+---
+
+---
+
+
+__Aufgabe 5:__ Ein Körper der Masse $m$ befindet sich zunächst in Ruhe. In sehr kurzer Zeit wirken zwei Impulsstöße  
+$\vec p_1$ und $\vec p_2$ auf den Körper. Die Beträge seien $p_1$ und $p_2$, der Winkel zwischen den Richtungen betrage $\varphi$.
+
+$a)\;\;$ **Bestimme** den Betrag des resultierenden Impulses $\vec p = \vec p_1 + \vec p_2$.
+
+$b)\;\;$ **Leite** daraus die Endgeschwindigkeit $v'$ des Körpers **her**.
+
+$c)\;\;$ **Gib** die kinetische Energie $E_{\text{kin}}'$ nach den beiden Impulsstößen in Abhängigkeit von $p_1, p_2, \varphi$ und $m$ **an**.
+
+---
+
+{{20}}
+$a)\;\;$ Schritt 1: Resultierenden Impulsbetrag via Kosinussatz
+
+{{20}}
+Die Vektorsumme $\vec p = \vec p_1 + \vec p_2$ bildet ein Dreieck mit eingeschlossenem Winkel $\varphi$ zwischen $\vec p_1$ und $\vec p_2$. Für die Beträge gilt:
+
+{{20}}
+$$
+\begin{align*}
+p^2 &= p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi) \,.
+\end{align*}
+$$
+
+---
+
+{{21}}
+$b)\;\;$ Schritt 2: Zusammenhang zwischen Impuls und Geschwindigkeit
+
+{{21}}
+Mit $\vec p' = \vec p$ und Anfangsruhe ($\vec p_0 = \vec 0$) gilt:
+
+{{21}}
+$$
+\begin{align*}
+v' &= \dfrac{p}{m}
+= \dfrac{\sqrt{\,p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi)\,}}{m} \,.
+\end{align*}
+$$
+
+---
+
+{{22}}
+$c)\;\;$ Schritt 3: Kinetische Energie nach den Impulsstößen
+
+{{22}}
+Mit $E_{\text{kin}}' = \dfrac{p^2}{2m}$ und dem Ergebnis aus Schritt 1 folgt:
+
+{{22}}
+$$
+\begin{align*}
+E_{\text{kin}}' 
+&= \dfrac{p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi)}{2m} \,.
+\end{align*}
+$$
+
+---
+
+{{23}}
+Zusatz (optional): Spezialfälle zur Interpretation
+
+
+{{23}}
+- Konstruktive Überlagerung ($\varphi = 0$):
+
+{{23}}
+$$
+\begin{align*}
+p = p_1 + p_2,\quad 
+v' = \dfrac{p_1 + p_2}{m},\quad
+E_{\text{kin}}' = \dfrac{(p_1 + p_2)^2}{2m}.
+\end{align*}
+$$
+
+
+{{23}}
+- Destruktive Überlagerung ($\varphi = \pi$):
+
+{{23}}
+$$
+\begin{align*}
+p = \lvert p_1 - p_2\rvert,\quad 
+v' = \dfrac{\lvert p_1 - p_2\rvert}{m},\quad
+E_{\text{kin}}' = \dfrac{(p_1 - p_2)^2}{2m}.
+\end{align*}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+## Das Feld
+
+
+In der Physik wird der Begriff Feld verwendet, um Kräfte zu beschreiben, die auf einen Körper wirken, ohne dass direkter Kontakt zu einer anderen Materie besteht. Ein klassisches Beispiel ist die Gravitation: Die Erde übt eine Kraft auf jeden Körper in ihrer Nähe aus, auch wenn dieser sie nicht berührt. Um dieses „Fernwirken“ zu verstehen, wurde das Konzept des Gravitationsfeldes eingeführt.
+
+Ein Feld ordnet jedem Punkt im Raum eine bestimmte Größe zu. Im Fall der Gravitation ist dies die Gravitationsfeldstärke $g$, die angibt, wie groß die Kraft pro Kilogramm Masse an diesem Punkt ist. Damit kann die Wirkung der Schwerkraft auf einen Körper durch eine einfache Multiplikation bestimmt werden: $Kraft = Masse \cdot Feldstärke$. Die Feldvorstellung ersetzt somit das abstrakte Bild einer unmittelbaren Fernkraft durch die Vorstellung, dass der Raum selbst an jedem Punkt eine bestimmte physikalische Eigenschaft besitzt.
+
+Die Feldstärke hängt von der Masse ab, die das Feld erzeugt, und nimmt mit wachsendem Abstand ab. In der Nähe der Erde beträgt sie ungefähr $9,81\,\dfrac{\text{N}}{\text{kg}} $ und wirkt immer in Richtung des Erdmittelpunkts. Auch der Mond, die Sonne oder andere Himmelskörper erzeugen solche Felder, die zusammenwirken.
+
+Die Einführung des Feldbegriffs hat die Physik grundlegend verändert. Sie erlaubt nicht nur eine anschauliche Beschreibung der Gravitation, sondern bildet auch die Grundlage für andere Bereiche, etwa elektrische und magnetische Felder. Felder machen sichtbar, dass Kräfte nicht plötzlich und punktweise wirken, sondern durch den Raum verteilt sind. Dadurch lassen sich auch komplexe Situationen, in denen mehrere Quellen zusammenwirken, systematisch und präzise berechnen.
+
+
+
+Es wird ersichtlich, dass bei der Division der Kraft durch die Ladung der betrachteten Kraft gleich der Feldstärke ist. 
+
+$$
+\begin{align*} 
+Kraft & = \textcolor{red}{Ladung} \cdot Feldstärke  \\
+F_C & = \textcolor{red}{q} \cdot  E   \quad \text{Elektrisches Feld (allgemein)}  \\  
+\end{align*}
+$$
+
+{{0}}
+__Aufgabe 1:__ **Gib** die Gleichung **an**, die die Feldstärke des erdnahen Graviationsfeld im Bezug zu seiner Ladung und Kraft setzt. \
+
+
+{{1}} $$
+\begin{align*}  
+F_G & = \textcolor{red}{m} \cdot  g    \quad \text{Gravitation (Erdnah)} \\ 
+\end{align*}
+$$
+
+
+{{2}}
+Um das Feld sichtbar zu machen, wird zunächst eine zweidimensionale Draufsicht verwendet. Hierbei befindet sich eine Ladung in der Mitte, während in allen Richtungen gleichmäßig die sogeannten Feldlinien abgehen. 
+
+
+
+{{2}}
+<center>
+<!-- style="width:500px" -->
+![](Feldoben.png)
+</center>
+
+{{2}}
+Es wird deutlich, dass die Feldlinien mit wachsendem Abstand zur Quelle weiter auseinander liegen und somit immer längere Umfangsteilstrecken zwischen den Feldlinien sind. Die Feldliniendichte nimmt somit ab. Diese Feldliniendichte gibt somit Aufschluss auf die Stärke der Kraft. Die farbigen Linien beschreiben somit Bereiche gleicher potentieller Energie. \
+
+
+{{3}}
+Noch deutlicher wird dieses Feldlinienmodell in einer dreidimensionalen Darstellung. \
+
+
+{{3}}
+<center>
+<!-- style="width:750px" -->
+![](Kugelober.png)
+</center>
+
+{{3}}
+Es ist schnell zu erkennen, dass pro gleichgroßer Fläche immer weniger Feldlinien bei höherem Abstand die Flächen durchdringen. Somit gilt die Antiproportionalität, dass bei wachsender Kugeloberfläche $O = 4 \pi r^2$ die wirkende Kraft abnimmt. Somit ergeben sich für radialsymmetrische Felder folgende Gleichungen der Kräfte:
+
+
+{{4}}
+$$
+\begin{align*} 
+F & \propto \dfrac{1}{4 \pi r^2} \\
+Kraft & = \textcolor{red}{Ladung} \cdot Feldstärke  \\
+F_C & = \textcolor{red}{q} \cdot  \dfrac{1}{4 \pi \epsilon_0} \dfrac{Q}{r^2}   \quad \text{Elektrisches Feld}  \\  
+\end{align*}
+$$
+
+
+{{5}}
+__Aufgabe 2:__ **Gib** die Gleichung **an**, die die Feldstärke des allgemeinen Graviationsfeld im Bezug zu seiner Ladung und Kraft setzt. \
+
+
+{{6}}
+$$
+\begin{align*} 
+F_G & = \textcolor{red}{m} \cdot  \dfrac{1}{4 \pi \gamma} \dfrac{M}{r^2} \quad \text{Gravitation}    \\ 
+\end{align*}
+$$
+
+{{6}}
+wobei $\gamma$ und $\epsilon_0$ die Proportionalitätskonstanten sind, die die Einheiten auf die bereits bekannten Einheiten anpassen. Dabei unterscheiden sich die Gleichungen für die Gravitation und die der elektrischen Kraft strukturell nicht. Dieses Konzept kann auch auf die Intensität von Licht, radioaktiver Strahlung und vieles weiteres anwende. 
+
+
+{{7}}
+??[](https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_all.html)
+
+
+
+
+
+
+
+
+
+
+
+
+## Das Potential $\Phi$
+
+
+Während das Gravitationsfeld beschreibt, wie groß die Kraft an einem Punkt im Raum ist, geht das Konzept des Potentials einen Schritt weiter. Ein Potential ordnet jedem Punkt nicht die Kraft selbst, sondern eine Energie pro Masseneinheit zu. Es beantwortet die Frage: Wie viel Energie besitzt ein Körper allein dadurch, dass er sich an einem bestimmten Ort im Feld befindet?
+
+
+$$
+\begin{align*} 
+\Delta E_{pot} = F(r) \cdot \Delta r \\ 
+\end{align*}
+$$
+
+Im Gravitationsfeld der Erde lässt sich diese Idee besonders einfach nachvollziehen. Hebt man einen Körper an, verrichtet man Arbeit gegen die Schwerkraft. Diese Arbeit wird als potenzielle Energie gespeichert. Befindet sich der Körper höher, so kann er beim Herunterfallen mehr Energie freisetzen. Das Potential gibt somit an, wie „hoch“ die Lageenergie pro Kilogramm an einem bestimmten Ort ist – unabhängig davon, ob sich dort gerade ein Körper befindet oder nicht.
+
+
+> $$
+\begin{align*} 
+E_{pot} = \Phi(r) \cdot q \\ 
+\end{align*}
+$$
+
+Das Potential ist eng mit der Feldstärke verknüpft: _Die Feldstärke entspricht dem Gefälle des Potentials_. Anschaulich bedeutet dies, dass ein Körper immer in Richtung abnehmenden Potentials beschleunigt wird – vergleichbar mit einem Ball, der auf einer schiefen Ebene in Richtung Tal rollt.
+
+Das Konzept des Potentials spielt nicht nur in der Gravitation, sondern auch in der Elektrostatik eine zentrale Rolle. Es macht sichtbar, dass Felder nicht nur Kräfte beschreiben, sondern auch gespeicherte Energie in Raum und Position binden.
+
+Oftmals kann bei einem genügend großen Abstand jedes Feld auf eine Punktquelle reduziert werden. Dies ist als Funktion in der folgenden Abbildung verdeutlicht:
+
+<center>
+<!-- style="width:500px" -->
+![](Feldseite.png)
+</center>
+
+Wenn man die Feldlinien in zwei Dimensionen betrachtet würde das Potential dazu die dritte Dimension darstellen.
+
+<center>
+<!-- style="width:500px" -->
+![](Feld3D.png)
+</center>
+
+In diesem Bild wird schon die Grunderkenntnis der allgemeinen Relativitätstheorie deutlich, da die Linien stets alle gerade sind, jedoch durch ihre Abbildung von der Draufsicht erscheinen die daraus resultierenden Flächen unterschiedlich groß. Das bedeutet, dass diese geometrischen Interpretationen in vielen Bereichen ähnlich sind und mächtige Vorhersagen treffen lassen können.
+
+??[](https://www.didaktikonline.physik.uni-muenchen.de/programme/e_feld/E_Feld_leifi.html)
+
+
+
+
+{{0}}
+__Aufgabe 1:__ **Gib** eine Gleichung für das allgemeine Gravitationspotential **an**. \
+<br>
+
+
+{{1}}
+$$
+\begin{align*} 
+E_{pot} & =  \Phi(r) q \quad \text{mit:}\;\; E_{pot} = F(r)  r \\ 
+F(r)  r  & =  \Phi(r) q \quad \text{mit:}\;\;   F(r) = \dfrac{1}{4 \pi \gamma} \dfrac{m M}{r^2} \;\; \wedge \;\; q = m \\ 
+\dfrac{1}{4 \pi \gamma} \dfrac{m M}{r^2}  r  & =  \Phi(r) m  \quad \left| : m  \right.  \\ 
+\dfrac{1}{4 \pi \gamma} \dfrac{ M}{r}    & =  \Phi(r)       \\ 
+\end{align*}
+$$
+
+
+
+
+
+
+## Differentiation
+
+
+
+Im folgenden Video wird das Beschriebene aus diesem Thema nochmal anhand von Beispielen erklärt:  \
+
+!?[Differentation](https://www.youtube.com/watch?v=quQtPwW04B0)
+
+
+
+
+
+### Differentiation - Übungen - Einstieg
+
+
+**Aufgabe 1:** Gib den Term nach der Verrechnung des Differentialoperators an.
+
+<section class="flex-container">
+<div class="flex-child">
+
+__$a)\;\;$__ $ \dfrac{d}{dx} \; 5 $ = [[ 0       ]]
+@Algebrite.check(0)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; 5 &= 0
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ $ \dfrac{d}{dx} \; 7x $ = [[ 7       ]]
+@Algebrite.check(7)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; 7x &= 7 \cdot \dfrac{d}{dx}(x) \\
+                    &= 7 \cdot 1 \\
+                    &= 7
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ $ \dfrac{d}{dx} \; x^2 $ = [[ 2 x       ]]
+@Algebrite.check(2*x)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; x^2 &= 2x^{2-1} \\
+                     &= 2x
+\end{align*}
+$$
+******************
+</div>
+<div class="flex-child">
+
+__$d)\;\;$__ $ \dfrac{d}{dx} \; 4x^2 $ = [[ 8 x       ]]
+@Algebrite.check(8*x)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; 4x^2 &= 4 \cdot \dfrac{d}{dx}(x^2) \\
+                      &= 4 \cdot 2x \\
+                      &= 8x
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__ $ \dfrac{d}{dx} \; 9 $ = [[ 0       ]]
+@Algebrite.check(0)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; 9 &= 0
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$f)\;\;$__ $ \dfrac{d}{dt} \; (2t + 4) $ = [[ 2       ]]
+@Algebrite.check(2)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dt} \; (2t + 4)
+&= \dfrac{d}{dt}(2t) + \dfrac{d}{dt}(4) \\
+&= 2 + 0 \\
+&= 2
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$g)\;\;$__ $ \dfrac{d}{dy} \; y^3 $ = [[ 3 y^2       ]]
+@Algebrite.check(3*y^2)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dy} \; y^3 &= 3y^{3-1} \\
+                     &= 3y^2
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$h)\;\;$__ $ \dfrac{d}{dz} \; (5z + 2) $ = [[ 5       ]]
+@Algebrite.check(5)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dz} \; (5z+2)
+&= \dfrac{d}{dz}(5z) + \dfrac{d}{dz}(2) \\
+&= 5 + 0 \\
+&= 5
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$i)\;\;$__ $ \dfrac{d}{dy} \; 12 $ = [[ 0       ]]
+@Algebrite.check(0)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dy} \; 12 &= 0
+\end{align*}
+$$
+******************
+</div>
+</section>
+
+
+---
+
+---
+
+
+
+**Aufgabe 2:** Gib den Term nach der Verrechnung des Differentialoperators an.
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ $ \dfrac{d}{dx} \; (3x^2 + 5x) $ = [[ 6x + 5       ]]
+@Algebrite.check(6*x+5)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; (3x^2 + 5x)
+&= \dfrac{d}{dx}(3x^2) + \dfrac{d}{dx}(5x) \\
+&= 6x + 5
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ $ \dfrac{d}{dx} \; 7x^3 $ = [[ 21x^2       ]]
+@Algebrite.check(21*x^2)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; 7x^3
+&= 7 \cdot \dfrac{d}{dx}(x^3) \\
+&= 7 \cdot 3x^2 \\
+&= 21x^2
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ $ \dfrac{d}{dx} \; (-4x^2 + 9) $ = [[ -8x       ]]
+@Algebrite.check(-8*x)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; (-4x^2 + 9)
+&= \dfrac{d}{dx}(-4x^2) + \dfrac{d}{dx}(9) \\
+&= -8x + 0 \\
+&= -8x
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__ $ \dfrac{d}{dx} \; x^4 $ = [[ 4x^3       ]]
+@Algebrite.check(4*x^3)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; x^4
+&= 4x^{4-1} \\
+&= 4x^3
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__ $ \dfrac{d}{dt} \; (5t^3 + 2t^2) $ = [[ 15t^2 + 4t       ]]
+@Algebrite.check(15*t^2+4*t)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dt} \; (5t^3 + 2t^2)
+&= \dfrac{d}{dt}(5t^3) + \dfrac{d}{dt}(2t^2) \\
+&= 15t^2 + 4t
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$f)\;\;$__ $ \dfrac{d}{dy} \; (-3y + 11) $ = [[ -3       ]]
+@Algebrite.check(-3)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dy} \; (-3y + 11)
+&= \dfrac{d}{dy}(-3y) + \dfrac{d}{dy}(11) \\
+&= -3 + 0 \\
+&= -3
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$g)\;\;$__ $ \dfrac{d}{dz} \; (2z^4 - z^2 + 7) $ = [[ 8z^3 - 2z       ]]
+@Algebrite.check(8*z^3-2*z)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dz} \; (2z^4 - z^2 + 7)
+&= \dfrac{d}{dz}(2z^4) + \dfrac{d}{dz}(-z^2) + \dfrac{d}{dz}(7) \\
+&= 8z^3 - 2z + 0 \\
+&= 8z^3 - 2z
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$h)\;\;$__ $ \dfrac{d}{dx} \; (6x^2 + 4x + 10) $ = [[ 12x + 4       ]]
+@Algebrite.check(12*x+4)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; (6x^2 + 4x + 10)
+&= \dfrac{d}{dx}(6x^2) + \dfrac{d}{dx}(4x) + \dfrac{d}{dx}(10) \\
+&= 12x + 4 + 0 \\
+&= 12x + 4
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$i)\;\;$__ $ \dfrac{d}{dt} \; 9 $ = [[ 0       ]]
+@Algebrite.check(0)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dt} \; 9 &= 0
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+---
+
+---
+
+
+
+**Aufgabe 3:** Gib den Term nach der Verrechnung des Differentialoperators an.
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ $ \dfrac{d}{dx} \; (4x^2 + 3y) $ = [[ 8x       ]]
+@Algebrite.check(8*x)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; (4x^2 + 3y)
+&= \dfrac{d}{dx}(4x^2) + \dfrac{d}{dx}(3y) \\
+&= 8x + 0 \quad (\text{weil } 3y \text{ für } x \text{ konstant ist}) \\
+&= 8x
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ $ \dfrac{d}{dy} \; (5y^3 + 2x) $ = [[ 15y^2       ]]
+@Algebrite.check(15*y^2)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dy} \; (5y^3 + 2x)
+&= \dfrac{d}{dy}(5y^3) + \dfrac{d}{dy}(2x) \\
+&= 15y^2 + 0 \quad (\text{weil } 2x \text{ für } y \text{ konstant ist}) \\
+&= 15y^2
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ $ \dfrac{d}{dt} \; (7t + 4x^2) $ = [[ 7       ]]
+@Algebrite.check(7)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dt} \; (7t + 4x^2)
+&= \dfrac{d}{dt}(7t) + \dfrac{d}{dt}(4x^2) \\
+&= 7 + 0 \quad (\text{weil } 4x^2 \text{ für } t \text{ konstant ist}) \\
+&= 7
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__ $ \dfrac{d}{dz} \; (2z^4 + 5) $ = [[ 8z^3       ]]
+@Algebrite.check(8*z^3)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dz} \; (2z^4 + 5)
+&= \dfrac{d}{dz}(2z^4) + \dfrac{d}{dz}(5) \\
+&= 8z^3 + 0 \\
+&= 8z^3
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__ $ \dfrac{d}{dx} \; (x^3 + 2t) $ = [[ 3x^2       ]]
+@Algebrite.check(3*x^2)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; (x^3 + 2t)
+&= \dfrac{d}{dx}(x^3) + \dfrac{d}{dx}(2t) \\
+&= 3x^2 + 0 \quad (\text{weil } 2t \text{ für } x \text{ konstant ist}) \\
+&= 3x^2
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$f)\;\;$__ $ \dfrac{d}{dy} \; (6y^2 - 3y + 9x) $ = [[ 12y - 3       ]]
+@Algebrite.check(12*y-3)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dy} \; (6y^2 - 3y + 9x)
+&= \dfrac{d}{dy}(6y^2) + \dfrac{d}{dy}(-3y) + \dfrac{d}{dy}(9x) \\
+&= 12y - 3 + 0 \quad (\text{weil } 9x \text{ für } y \text{ konstant ist}) \\
+&= 12y - 3
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$g)\;\;$__ $ \dfrac{d}{dt} \; (4 + t^2 + z^5) $ = [[ 2t       ]]
+@Algebrite.check(2*t)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dt} \; (4 + t^2 + z^5)
+&= \dfrac{d}{dt}(4) + \dfrac{d}{dt}(t^2) + \dfrac{d}{dt}(z^5) \\
+&= 0 + 2t + 0 \quad (\text{weil } z^5 \text{ für } t \text{ konstant ist}) \\
+&= 2t
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$h)\;\;$__ $ \dfrac{d}{dx} \; (yx + 10) $ = [[ y       ]]
+@Algebrite.check(y)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dx} \; (yx + 10)
+&= \dfrac{d}{dx}(yx) + \dfrac{d}{dx}(10) \\
+&= y + 0 \quad (\text{weil } y \text{ als Konstante wirkt und } yx = y \cdot x ) \\
+&= y
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$i)\;\;$__ $ \dfrac{d}{dz} \; (7 + 2x^4 - z^2) $ = [[ -2z       ]]
+@Algebrite.check(-2*z)
+******************
+$$
+\begin{align*}
+\dfrac{d}{dz} \; (7 + 2x^4 - z^2)
+&= \dfrac{d}{dz}(7) + \dfrac{d}{dz}(2x^4) + \dfrac{d}{dz}(-z^2) \\
+&= 0 + 0 - 2z \quad (\text{weil } 2x^4 \text{ für } z \text{ konstant ist}) \\
+&= -2z
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+
+---
+
+---
+
+
+
+**Aufgabe 4:** Gib den Term nach der Verrechnung des Differentialoperators an.
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ $ \dfrac{d}{dx} \; \dfrac{1}{x} $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\dfrac{1}{x} &= x^{-1} \\
+\dfrac{d}{dx} \; x^{-1} &= -1 \cdot x^{-2} \\
+                        &= -\dfrac{1}{x^2}
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ $ \dfrac{d}{dx} \; \sqrt{x} $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\sqrt{x} &= x^{\tfrac{1}{2}} \\
+\dfrac{d}{dx} \; x^{\tfrac{1}{2}}
+&= \tfrac{1}{2} \, x^{-\tfrac{1}{2}} \\
+&= \dfrac{1}{2\sqrt{x}}
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ $ \dfrac{d}{dx} \; \dfrac{4}{x^2} $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\dfrac{4}{x^2} &= 4x^{-2} \\
+\dfrac{d}{dx} \; 4x^{-2}
+&= 4 \cdot (-2)x^{-3} \\
+&= -8x^{-3} \\
+&= -\dfrac{8}{x^3}
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__ $ \dfrac{d}{dy} \; \dfrac{3}{\sqrt{y}} $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\dfrac{3}{\sqrt{y}} &= 3 \cdot y^{-\tfrac{1}{2}} \\
+\dfrac{d}{dy} \; 3y^{-\tfrac{1}{2}}
+&= 3 \cdot \left(-\tfrac{1}{2}\right) y^{-\tfrac{3}{2}} \\
+&= -\dfrac{3}{2} \, y^{-\tfrac{3}{2}} \\
+&= -\dfrac{3}{2\,y^{3/2}}
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__ $ \dfrac{d}{dt} \; \left( t + \dfrac{5}{t} \right) $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+t + \dfrac{5}{t}
+&= t + 5t^{-1} \\
+\dfrac{d}{dt} (t + 5t^{-1})
+&= \dfrac{d}{dt}(t) + \dfrac{d}{dt}(5t^{-1}) \\
+&= 1 + 5(-1)t^{-2} \\
+&= 1 - 5t^{-2} \\
+&= 1 - \dfrac{5}{t^2}
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$f)\;\;$__ $ \dfrac{d}{dz} \; \left( 7 + \dfrac{2}{z^3} \right) $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+7 + \dfrac{2}{z^3}
+&= 7 + 2z^{-3} \\
+\dfrac{d}{dz} \left(7 + 2z^{-3}\right)
+&= 0 + 2 \cdot (-3) z^{-4} \\
+&= -6 z^{-4} \\
+&= -\dfrac{6}{z^4}
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$g)\;\;$__ $ \dfrac{d}{dx} \; \left( \dfrac{5}{\sqrt{x}} + x^2 \right) $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\dfrac{5}{\sqrt{x}} + x^2
+&= 5 x^{-\tfrac{1}{2}} + x^2 \\
+\dfrac{d}{dx} \left(5 x^{-\tfrac{1}{2}} + x^2\right)
+&= 5 \cdot \left(-\tfrac{1}{2}\right) x^{-\tfrac{3}{2}} + 2x \\
+&= -\dfrac{5}{2} x^{-\tfrac{3}{2}} + 2x \\
+&= -\dfrac{5}{2\,x^{3/2}} + 2x
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$h)\;\;$__ $ \dfrac{d}{dx} \; \left( \dfrac{a}{x} \right) $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\dfrac{a}{x} &= a \cdot x^{-1} \\
+\dfrac{d}{dx} \left(a x^{-1}\right)
+&= a \cdot (-1) x^{-2} \quad (\text{weil } a \text{ konstant ist}) \\
+&= -a x^{-2} \\
+&= -\dfrac{a}{x^2}
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+
+__$i)\;\;$__ $ \dfrac{d}{dy} \; \sqrt{y} + \dfrac{d}{dy} \; \left(\dfrac{4}{y}\right) $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\sqrt{y} &= y^{\tfrac{1}{2}}, \quad
+\dfrac{4}{y} = 4y^{-1} \\[6pt]
+\dfrac{d}{dy} \left( y^{\tfrac{1}{2}} \right)
+&= \tfrac{1}{2} y^{-\tfrac{1}{2}}
+= \dfrac{1}{2\sqrt{y}} \\[6pt]
+\dfrac{d}{dy} \left( 4y^{-1} \right)
+&= 4 (-1) y^{-2}
+= -4 y^{-2}
+= -\dfrac{4}{y^2} \\[6pt]
+\Rightarrow \dfrac{d}{dy} \sqrt{y} + \dfrac{d}{dy} \left(\dfrac{4}{y}\right)
+&= \dfrac{1}{2\sqrt{y}} - \dfrac{4}{y^2}
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+---
+
+---
+
+
+
+### Differentiation - Übungen - Erste Anwendungen
+
+
+**Aufgabe 5:** Gegeben sind verschiedene Potentiale $\Phi(r)$. Berechne jeweils die zugehörige Kraft
+
+$$
+F(r) \;=\; -q \, \dfrac{d\Phi(r)}{dr}. \\
+$$
+
+
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Konstantes Potential
+
+$ \Phi(r) = \Phi_0 $
+
+$ F(r) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r) &= \Phi_0 \quad (\text{konstant}) \\[4pt]
+\dfrac{d\Phi}{dr} &= 0 \\[4pt]
+F(r) &= -q \cdot 0 \\
+     &= 0
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$b)\;\;$__ Lineares Potential
+
+$ \Phi(r) = -E_0 \, r $  
+
+$ F(r) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r) &= -E_0 \, r \\[4pt]
+\dfrac{d\Phi}{dr}
+&= -E_0 \cdot \dfrac{d}{dr}(r) \\
+&= -E_0 \cdot 1 \\
+&= -E_0 \\[6pt]
+F(r)
+&= -q \, \dfrac{d\Phi}{dr} \\
+&= -q \, (-E_0) \\
+&= qE_0
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__ Coulomb-Potential einer Punktladung
+
+$ \Phi(r) = \dfrac{1}{4\pi\varepsilon_0} \dfrac{Q}{r} $
+
+$ F(r) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r)
+&= \frac{1}{4\pi\varepsilon_0} Q \, r^{-1} \\[4pt]
+\dfrac{d\Phi}{dr}
+&= \frac{1}{4\pi\varepsilon_0} Q \cdot (-1) r^{-2} \\
+&= - \frac{1}{4\pi\varepsilon_0} \frac{Q}{r^{2}} \\[6pt]
+F(r)
+&= -q \, \dfrac{d\Phi}{dr} \\
+&= -q \left( - \frac{1}{4\pi\varepsilon_0} \frac{Q}{r^{2}} \right) \\
+&= \frac{1}{4\pi\varepsilon_0} \frac{qQ}{r^{2}}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ Gravitations-Potential einer Punktmasse
+
+$ \Phi(r) = - \dfrac{GM}{r} $
+
+$ F(r) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r)
+&= -GM \, r^{-1} \\[4pt]
+\dfrac{d\Phi}{dr}
+&= -GM \cdot (-1) r^{-2} \\
+&= GM \, r^{-2} \\
+&= \frac{GM}{r^2} \\[6pt]
+F(r)
+&= -q \, \dfrac{d\Phi}{dr} \\
+&= -q \cdot \frac{GM}{r^2} \\
+&= - \frac{G M q}{r^2}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ Harmonischer Oszillator
+
+$ \Phi(r) = \dfrac{1}{2} k r^2 $
+
+$ F(r) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r)
+&= \frac{1}{2} k r^2 \\[4pt]
+\dfrac{d\Phi}{dr}
+&= \frac{1}{2} k \cdot \dfrac{d}{dr}(r^2) \\
+&= \frac{1}{2} k \cdot 2r \\
+&= k r \\[6pt]
+F(r)
+&= -q \, \dfrac{d\Phi}{dr} \\
+&= -q \, (k r) \\
+&= - q k r
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ Abschirmtes (Yukawa-artiges) Coulomb-Potential
+
+$ \Phi(r) = A \, r^n $ 
+
+$ F(r) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r)
+&= A \, r^n \\[4pt]
+\dfrac{d\Phi}{dr}
+&= A \cdot \dfrac{d}{dr}(r^n) \\
+&= A \cdot n r^{n-1} \\[6pt]
+F(r)
+&= -q \, \dfrac{d\Phi}{dr} \\
+&= -q \, (A n r^{n-1}) \\
+&= - q A n r^{n-1}
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+
+
+---
+
+---
+
+
+**Aufgabe 6:** In der Mechanik gilt für die (resultierende) Kraft:
+$$
+F(t) \;=\; \dfrac{dp(t)}{dt}
+$$
+wobei $ p(t) $ der Impuls ist. Bestimme für jede Situation $ F(t) $ aus dem gegebenen Impulsverlauf $ p(t) $.
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Gegeben: $ p(t) = p_0 $ 
+
+$ F(t) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+p(t) &= p_0 \quad (\text{konstant}) \\[4pt]
+\dfrac{dp}{dt} &= 0 \\[4pt]
+F(t) &= 0
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$b)\;\;$__ Eine Masse $m$ bewege sich mit $v(t)=v_0 + a t$.  
+
+$ F(t) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+p(t) &= m (v_0 + a t) \\[4pt]
+\dfrac{dp}{dt}
+&= m \cdot \dfrac{d}{dt}(v_0 + a t) \\
+&= m \cdot (0 + a) \\
+&= m a \\[6pt]
+F(t) &= m a
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__ Gegeben: $ p(t) = k \, t^2 $
+
+$ F(t) = $
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+p(t) &= k \, t^2 \\[4pt]
+\dfrac{dp}{dt}
+&= k \cdot \dfrac{d}{dt}(t^2) \\
+&= k \cdot 2t \\
+&= 2kt \\[6pt]
+F(t) &= 2kt
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ Gegeben: $ p(t) = \dfrac{A}{t} $
+
+$ F(t) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+p(t) &= A \, t^{-1} \\[4pt]
+\dfrac{dp}{dt}
+&= A \cdot \dfrac{d}{dt}(t^{-1}) \\
+&= A \cdot (-1)t^{-2} \\
+&= -A t^{-2} \\
+&= -\dfrac{A}{t^2} \\[6pt]
+F(t)
+&= -\dfrac{A}{t^2}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ Eine Masse $m$ habe die Geschwindigkeit $v(t)=b t^2$.  
+
+$ F(t) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+p(t) &= m b t^2 \\[4pt]
+\dfrac{dp}{dt}
+&= m b \cdot \dfrac{d}{dt}(t^2) \\
+&= m b \cdot 2t \\
+&= 2mbt \\[6pt]
+F(t)
+&= 2mbt
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ Gegeben: $ p(t) = B \sqrt{t}  $
+
+$ F(t) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+p(t) &= B \, t^{\tfrac{1}{2}} \\[4pt]
+\dfrac{dp}{dt}
+&= B \cdot \dfrac{d}{dt}\left(t^{\tfrac{1}{2}}\right) \\
+&= B \cdot \tfrac{1}{2} t^{-\tfrac{1}{2}} \\
+&= \dfrac{B}{2} \, t^{-\tfrac{1}{2}} \\
+&= \dfrac{B}{2 \sqrt{t}} \\[6pt]
+F(t)
+&= \dfrac{B}{2 \sqrt{t}}
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+---
+
+---
+
+
+
+
+### Differentiation - Übungen - Vertiefung
+
+
+**Aufgabe 7:** Wende den Differentialoperator zweimal an.  
+Bestimme also die zweite Ableitung
+
+$$
+\frac{d}{dx} \left( \frac{d}{dx} f(x) \right)
+= \frac{d^2 f(x)}{dx^2}.
+$$
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ $ f(x) = x^4 $
+
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[ 12 x^2       ]]
+@Algebrite.check(12*x^2)
+******************
+$$
+\begin{align*}
+f(x) &= x^4 \\[4pt]
+f'(x) &= \dfrac{d}{dx}(x^4) = 4x^3 \\[4pt]
+f''(x) &= \dfrac{d}{dx}(4x^3) = 12x^2
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$b)\;\;$__ $ f(x) = 3x^3 + 2x $
+
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[ 18 x       ]]
+@Algebrite.check(18*x)
+******************
+$$
+\begin{align*}
+f(x) &= 3x^3 + 2x \\[4pt]
+f'(x) &= \dfrac{d}{dx}(3x^3 + 2x)
+      = 9x^2 + 2 \\[4pt]
+f''(x) &= \dfrac{d}{dx}(9x^2 + 2)
+       = 18x + 0 \\
+       = 18x
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__ $ f(x) = \dfrac{5}{x} $
+
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[ \dfrac{10}{x^3}       ]]
+@Algebrite.check(10/x^3)
+******************
+$$
+\begin{align*}
+f(x) &= 5x^{-1} \\[4pt]
+f'(x) &= \dfrac{d}{dx}(5x^{-1})
+      = 5 \cdot (-1)x^{-2}
+      = -5x^{-2}
+      = -\dfrac{5}{x^2} \\[8pt]
+f''(x) &= \dfrac{d}{dx}(-5x^{-2})
+       = -5 \cdot (-2)x^{-3} \\
+       &= 10x^{-3} \\
+       &= \dfrac{10}{x^3}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ $ f(x) = \sqrt{x} $
+
+$ \dfrac{d^2 f(x)}{dx^2} = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+f(x) &= x^{\tfrac{1}{2}} \\[4pt]
+f'(x) &= \dfrac{d}{dx}\left(x^{\tfrac{1}{2}}\right)
+      = \tfrac{1}{2} x^{-\tfrac{1}{2}}
+      = \dfrac{1}{2\sqrt{x}} \\[8pt]
+f''(x) &= \dfrac{d}{dx}\left(\tfrac{1}{2} x^{-\tfrac{1}{2}}\right)
+       = \tfrac{1}{2} \cdot \left(-\tfrac{1}{2}\right) x^{-\tfrac{3}{2}} \\
+       &= -\tfrac{1}{4} x^{-\tfrac{3}{2}} \\
+       &= -\dfrac{1}{4 x^{3/2}}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ $ f(x) = 7x^2 - 4x + 9 $
+
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[ 14       ]]
+@Algebrite.check(14)
+******************
+$$
+\begin{align*}
+f(x) &= 7x^2 - 4x + 9 \\[4pt]
+f'(x) &= \dfrac{d}{dx}(7x^2 - 4x + 9)
+      = 14x - 4 + 0
+      = 14x - 4 \\[8pt]
+f''(x) &= \dfrac{d}{dx}(14x - 4)
+       = 14 - 0
+       = 14
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ $ f(x) = \dfrac{2}{x^2} + x \;=\; 2x^{-2} + x $
+
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[ \dfrac{12}{x^4}       ]]
+@Algebrite.check(12/x^4)
+******************
+$$
+\begin{align*}
+f(x) &= 2x^{-2} + x \\[4pt]
+f'(x) &= \dfrac{d}{dx}(2x^{-2} + x)
+      = 2(-2)x^{-3} + 1 \\
+      &= -4x^{-3} + 1 \\
+      &= 1 - \dfrac{4}{x^3} \\[10pt]
+f''(x) &= \dfrac{d}{dx}\left(-4x^{-3} + 1\right)
+       = -4 \cdot (-3)x^{-4} + 0 \\
+       &= 12x^{-4} \\
+       &= \dfrac{12}{x^4}
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+---
+
+---
+
+
+
+**Aufgabe 8:** Wende den Differentialoperator zweimal an.  
+Bestimme jeweils die zweite Ableitung  
+$$
+\frac{d}{d\;\text{Variable}} \left( \frac{d}{d\;\text{Variable}} f(\text{Variable}) \right).
+$$
+Achte darauf, **nach welcher Variablen abgeleitet wird**. Andere Buchstaben gelten als Konstanten.
+
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Gegeben: $ f(x) = A \, x^2 $
+
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[ 2 A       ]]
+@Algebrite.check(2*A)
+******************
+$$
+\begin{align*}
+f(x) &= A x^2 \\
+f'(x) &= \dfrac{d}{dx}(A x^2)
+     = A \cdot 2x
+     = 2Ax \\
+f''(x) &= \dfrac{d}{dx}(2Ax)
+      = 2A
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$b)\;\;$__ Gegeben: $ g(t) = B \, t^3 + C $
+
+$ \dfrac{d^2 g(t)}{dt^2} = $ [[ 6 B t       ]]
+@Algebrite.check(6*B*t)
+******************
+$$
+\begin{align*}
+g(t) &= B t^3 + C \\
+g'(t) &= \dfrac{d}{dt}(B t^3 + C)
+     = 3B t^2 + 0
+     = 3B t^2 \\
+g''(t) &= \dfrac{d}{dt}(3B t^2)
+      = 6B t
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__ Gegeben: $ h(y) = \dfrac{D}{y}  $
+
+$ \dfrac{d^2 h(y)}{dy^2} = $ [[ 2 D / y^3       ]]
+@Algebrite.check(2*D/y^3)
+******************
+$$
+\begin{align*}
+h(y) &= D y^{-1} \\
+h'(y) &= \dfrac{d}{dy}(D y^{-1})
+     = D \cdot (-1) y^{-2}
+     = -D y^{-2}
+     = -\dfrac{D}{y^2} \\[6pt]
+h''(y) &= \dfrac{d}{dy} \left( -D y^{-2} \right)
+      = -D \cdot (-2) y^{-3} \\
+      &= 2D y^{-3}
+      = \dfrac{2D}{y^3}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ Gegeben: $ p(z) = E \sqrt{z}  $
+
+$ \dfrac{d^2 p(z)}{dz^2} = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+p(z) &= E z^{\tfrac{1}{2}} \\
+p'(z) &= \dfrac{d}{dz}\left(E z^{\tfrac{1}{2}}\right)
+      = E \cdot \tfrac{1}{2} z^{-\tfrac{1}{2}}
+      = \dfrac{E}{2} \, z^{-\tfrac{1}{2}}
+      = \dfrac{E}{2\sqrt{z}} \\[8pt]
+p''(z) &= \dfrac{d}{dz}\left(\dfrac{E}{2} z^{-\tfrac{1}{2}}\right)
+       = \dfrac{E}{2} \cdot \left(-\tfrac{1}{2}\right) z^{-\tfrac{3}{2}} \\
+       &= -\dfrac{E}{4} z^{-\tfrac{3}{2}} \\
+       &= -\dfrac{E}{4 z^{3/2}}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ Gegeben: $ q(u) = \dfrac{F}{u^2} + G u  $
+
+$ \dfrac{d^2 q(u)}{du^2} = $ [[ 6 F / u^4       ]]
+@Algebrite.check(6*F/u^4)
+******************
+$$
+\begin{align*}
+q(u) &= F u^{-2} + G u \\
+q'(u) &= \dfrac{d}{du}(F u^{-2}) + \dfrac{d}{du}(G u) \\
+     &= F \cdot (-2) u^{-3} + G \cdot 1 \\
+     &= -2F u^{-3} + G
+     = G - \dfrac{2F}{u^3} \\[8pt]
+q''(u) &= \dfrac{d}{du} \left(G - 2F u^{-3}\right) \\
+      &= 0 + (-2F)\cdot(-3) u^{-4} \\
+      &= 6F u^{-4}
+      = \dfrac{6F}{u^4}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ Gegeben: $ r(v) = H \, v^{n} $
+
+$ \dfrac{d^2 r(v)}{dv^2} = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+r(v) &= H v^{n} \\
+r'(v) &= \dfrac{d}{dv}(H v^n)
+     = H \cdot n v^{n-1}
+     = H n v^{n-1} \\[8pt]
+r''(v) &= \dfrac{d}{dv}(H n v^{n-1})
+      = H n \cdot (n-1) v^{n-2} \\
+      &= H n (n-1) v^{n-2}
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+---
+
+---
+
+
+
+**Aufgabe 9:** Wir leiten nacheinander nach zwei UNTERSCHIEDLICHEN Variablen ab.   
+
+Beispiel-Schreibweise:
+$$
+\frac{d}{dt}\left(\frac{d}{dx} f(t,x)\right)
+$$
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Gegeben: $ f(t,x) = A \, t \, x $
+
+Bestimme $ \dfrac{d}{dt}\left(\dfrac{d}{dx} f(t,x)\right) $.
+
+$ = $ [[ A       ]]
+@Algebrite.check(A)
+******************
+$$
+\begin{align*}
+f(t,x) &= A \, t \, x \\[4pt]
+\frac{d}{dx} f(t,x)
+&= A \, t \quad (\text{$t$ wie Konstante behandelt}) \\[6pt]
+\frac{d}{dt} \big(A \, t \big)
+&= A
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$b)\;\;$__ Gegeben: $ g(t,x) = B \, t^2 \, x^3 $
+
+Bestimme $ \dfrac{d}{dx}\left(\dfrac{d}{dt} g(t,x)\right) $.
+
+$ = $ [[ 6 B t x^2       ]]
+@Algebrite.check(6*B*t*x^2)
+******************
+$$
+\begin{align*}
+g(t,x) &= B \, t^2 \, x^3 \\[4pt]
+\frac{d}{dt} g(t,x)
+&= 2 B \, t \, x^3 \\[6pt]
+\frac{d}{dx} \big(2 B \, t \, x^3 \big)
+&= 2 B \, t \cdot 3 x^2 \\
+&= 6 B \, t \, x^2
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__ Gegeben: $ h(x,y) = C \, x^2 \, y + D \, y^2 $
+
+Bestimme $ \dfrac{d}{dy}\left(\dfrac{d}{dx} h(x,y)\right) $.
+
+$ = $ [[ 2 C x       ]]
+@Algebrite.check(2*C*x)
+******************
+$$
+\begin{align*}
+h(x,y) &= C \, x^2 \, y + D \, y^2 \\[4pt]
+\frac{d}{dx} h(x,y)
+&= 2 C \, x \, y + 0 \\[6pt]
+\frac{d}{dy} \big(2 C \, x \, y \big)
+&= 2 C \, x
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ Gegeben: $ p(u,v) = E \, u^3 \, v^2 $
+
+Bestimme $ \dfrac{d}{dv}\left(\dfrac{d}{du} p(u,v)\right) $.
+
+$ = $ [[ 6 E u^2 v       ]]
+@Algebrite.check(6*E*u^2*v)
+******************
+$$
+\begin{align*}
+p(u,v) &= E \, u^3 \, v^2 \\[4pt]
+\frac{d}{du} p(u,v)
+&= 3 E \, u^2 \, v^2 \\[6pt]
+\frac{d}{dv} \big(3 E \, u^2 \, v^2 \big)
+&= 3 E \, u^2 \cdot 2 v \\
+&= 6 E \, u^2 \, v
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ Gegeben: $ q(y,z) = F \, \dfrac{y}{z}  $
+
+Bestimme $ \dfrac{d}{dz}\left(\dfrac{d}{dy} q(y,z)\right) $.
+
+$ = $ [[ - F / z^2       ]]
+@Algebrite.check(-F/z^2)
+******************
+$$
+\begin{align*}
+q(y,z) &= F \, y \, z^{-1} \\[4pt]
+\frac{d}{dy} q(y,z)
+&= F \, z^{-1}
+= \frac{F}{z} \\[8pt]
+\frac{d}{dz} \left( \frac{F}{z} \right)
+&= F \cdot \frac{d}{dz}(z^{-1}) \\
+&= F \cdot (-1) z^{-2} \\
+&= - \frac{F}{z^2}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ Gegeben: $ r(a,b) = G \, a^{n} \, b^{m} $
+
+Bestimme $ \dfrac{d}{db}\left(\dfrac{d}{da} r(a,b)\right)  = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+r(a,b) &= G \, a^{n} \, b^{m} \\[4pt]
+\frac{d}{da} r(a,b)
+&= G \, n \, a^{n-1} \, b^{m} \\[8pt]
+\frac{d}{db} \big( G \, n \, a^{n-1} \, b^{m} \big)
+&= G \, n \, a^{n-1} \cdot m \, b^{m-1} \\
+&= G \, m \, n \, a^{n-1} \, b^{m-1}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$g)\;\;$__ Gegeben: $ M(p,q) = H \, p \, q^2 + J \, q $
+
+Bestimme $ \dfrac{d}{dp}\left(\dfrac{d}{dq} M(p,q)\right) $.
+
+$ = $ [[ 2 H q       ]]
+@Algebrite.check(2*H*q)
+******************
+$$
+\begin{align*}
+M(p,q) &= H \, p \, q^2 + J \, q \\[4pt]
+\frac{d}{dq} M(p,q)
+&= H \, p \cdot 2 q + J
+= 2 H \, p \, q + J \\[8pt]
+\frac{d}{dp} \big(2 H \, p \, q + J \big)
+&= 2 H \, q + 0 \\
+&= 2 H \, q
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$h)\;\;$__ Gegeben: $ N(s,t) = K \, \sqrt{s} \, t^2 = K \, s^{1/2} \, t^2 $
+
+Bestimme $ \dfrac{d}{ds}\left(\dfrac{d}{dt} N(s,t)\right) =$
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+N(s,t) &= K \, s^{\tfrac{1}{2}} \, t^2 \\[4pt]
+\frac{d}{dt} N(s,t)
+&= K \, s^{\tfrac{1}{2}} \cdot 2 t
+= 2 K \, t \, s^{\tfrac{1}{2}} \\[8pt]
+\frac{d}{ds} \big( 2 K \, t \, s^{\tfrac{1}{2}} \big)
+&= 2 K \, t \cdot \tfrac{1}{2} s^{-\tfrac{1}{2}} \\
+&= K \, t \, s^{-\tfrac{1}{2}} \\
+&= \frac{K \, t}{\sqrt{s}}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$i)\;\;$__ Gegeben: $ S(m,u) = L \, \dfrac{1}{m \, u} = L \, m^{-1} u^{-1} $
+
+Bestimme $ \dfrac{d}{du}\left(\dfrac{d}{dm} S(m,u)\right) =$
+
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+S(m,u) &= L \, m^{-1} u^{-1} \\[4pt]
+\frac{d}{dm} S(m,u)
+&= L \cdot (-1) m^{-2} u^{-1}
+= - L \, m^{-2} u^{-1}
+= - \frac{L}{m^2 u} \\[10pt]
+\frac{d}{du} \left( - \frac{L}{m^2 u} \right)
+&= - \frac{L}{m^2} \cdot \frac{d}{du}(u^{-1}) \\
+&= - \frac{L}{m^2} \cdot (-1) u^{-2} \\
+&= \frac{L}{m^2 u^2}
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+---
+
+---
+
+
+
+### Differentiation - Übungen - Vertiefende Anwendungen
+
+
+**Aufgabe 10:** Gegeben ist jeweils die Ortsfunktion $ x(t) $.  
+Nutze
+$$
+v(t) = \frac{d x(t)}{dt}
+\quad\text{und}\quad
+a(t) = \frac{d^2 x(t)}{dt^2} = \frac{d}{dt} v(t).
+$$
+
+Achte: manchmal sollst du nur $ v(t) $ bestimmen, manchmal direkt $ a(t) $.
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Gegeben: $ x(t) = A \, t^2 $
+
+Bestimme die Geschwindigkeit $v(t)$.
+
+$ v(t) = $ [[ 2 A t       ]]
+@Algebrite.check(2*A*t)
+******************
+$$
+\begin{align*}
+x(t) &= A t^2 \\[4pt]
+v(t) &= \frac{dx}{dt}
+     = \frac{d}{dt}(A t^2)
+     = A \cdot 2t
+     = 2At
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$b)\;\;$__ Gegeben: $ x(t) = B \, t^3 + C $
+
+Bestimme die Beschleunigung $a(t)$.
+
+$ a(t) = $ [[ 6 B t       ]]
+@Algebrite.check(6*B*t)
+******************
+$$
+\begin{align*}
+x(t) &= B t^3 + C \\[4pt]
+v(t) &= \frac{dx}{dt}
+     = \frac{d}{dt}(B t^3 + C)
+     = 3B t^2 + 0
+     = 3B t^2 \\[8pt]
+a(t) &= \frac{dv}{dt}
+     = \frac{d}{dt}(3B t^2)
+     = 6B t
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__ Gegeben: $ x(t) = D \, t + E $
+
+Bestimme die Geschwindigkeit $v(t)$.
+
+$ v(t) = $ [[ D       ]]
+@Algebrite.check(D)
+******************
+$$
+\begin{align*}
+x(t) &= D t + E \\[4pt]
+v(t) &= \frac{dx}{dt}
+     = \frac{d}{dt}(D t + E)
+     = D + 0
+     = D
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ Gegeben: $ x(t) = F \, t^2 + G \, t^4 $
+
+Bestimme die Beschleunigung $a(t)$.
+
+$ a(t) = $ [[ 2 F + 12 G t^2       ]]
+@Algebrite.check(2*F+12*G*t^2)
+******************
+$$
+\begin{align*}
+x(t) &= F t^2 + G t^4 \\[4pt]
+v(t) &= \frac{dx}{dt}
+     = \frac{d}{dt}(F t^2 + G t^4)
+     = 2F t + 4G t^3 \\[8pt]
+a(t) &= \frac{dv}{dt}
+     = \frac{d}{dt}(2F t + 4G t^3) \\
+     &= 2F + 12G t^2
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ Gegeben: $ x(t) = H \,\sqrt{t}  $
+
+Bestimme die Geschwindigkeit $v(t)$.
+
+$ v(t) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+x(t) &= H \, t^{\tfrac{1}{2}} \\[4pt]
+v(t) &= \frac{dx}{dt}
+     = \frac{d}{dt}\left(H \, t^{\tfrac{1}{2}}\right)
+     = H \cdot \tfrac{1}{2} t^{-\tfrac{1}{2}} \\
+     &= \frac{H}{2} \, t^{-\tfrac{1}{2}} \\
+     &= \frac{H}{2 \sqrt{t}}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ Gegeben: $ x(t) = \dfrac{K}{t}  $
+
+Bestimme die Beschleunigung $a(t)$.
+
+$ a(t) = $ [[ 2 K / t^3       ]]
+@Algebrite.check(2*K/t^3)
+******************
+$$
+\begin{align*}
+x(t) &= K \, t^{-1} \\[4pt]
+v(t) &= \frac{dx}{dt}
+     = \frac{d}{dt}(K t^{-1})
+     = K \cdot (-1) t^{-2} \\
+     &= -K t^{-2}
+     = - \frac{K}{t^2} \\[8pt]
+a(t) &= \frac{dv}{dt}
+     = \frac{d}{dt}\left(-K t^{-2}\right)
+     = -K \cdot (-2) t^{-3} \\
+     &= 2K t^{-3}
+     = \frac{2K}{t^3}
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+---
+
+---
+
+
+
+**Aufgabe 11:** In der Elektrotechnik gilt
+$$
+I(t) = \frac{dQ(t)}{dt}
+$$
+wobei $Q(t)$ die transportierte Ladung (in Coulomb) ist und $I(t)$ die Stromstärke (in Ampere).
+
+Außerdem gilt für Energie und Leistung
+$$
+P(t) = \frac{dE(t)}{dt}
+$$
+wobei $E(t)$ die aufgenommene/abgegebene Energie (in Joule) ist und $P(t)$ die Leistung (in Watt).
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Gegeben: $ Q(t) = A \, t $
+
+Bestimme die Stromstärke $ I(t) $.
+
+$ I(t) = $ [[ A       ]]
+@Algebrite.check(A)
+******************
+$$
+\begin{align*}
+Q(t) &= A \, t \\[4pt]
+I(t) &= \frac{dQ}{dt}
+     = \frac{d}{dt}(A \, t)
+     = A
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$b)\;\;$__ Gegeben: $ Q(t) = B \, t^2 + C $
+
+Bestimme die Stromstärke $ I(t) $.
+
+$ I(t) = $ [[ 2 B t       ]]
+@Algebrite.check(2*B*t)
+******************
+$$
+\begin{align*}
+Q(t) &= B \, t^2 + C \\[4pt]
+I(t) &= \frac{dQ}{dt}
+     = \frac{d}{dt}(B \, t^2 + C)
+     = 2B t + 0
+     = 2B t
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__ Gegeben: $ Q(t) = \dfrac{D}{t} $
+
+Bestimme die Stromstärke $ I(t) $.
+
+$ I(t) = $ [[ - D / t^2       ]]
+@Algebrite.check(-D/t^2)
+******************
+$$
+\begin{align*}
+Q(t) &= D \, t^{-1} \\[4pt]
+I(t) &= \frac{dQ}{dt}
+     = \frac{d}{dt}( D \, t^{-1} )
+     = D \cdot (-1) t^{-2} \\
+     &= - D \, t^{-2} \\
+     &= - \frac{D}{t^2}
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ Gegeben: $ E(t) = F \, t $
+
+Bestimme die Leistung $ P(t) $.
+
+$ P(t) = $ [[ F       ]]
+@Algebrite.check(F)
+******************
+$$
+\begin{align*}
+E(t) &= F \, t \\[4pt]
+P(t) &= \frac{dE}{dt}
+     = \frac{d}{dt}(F \, t)
+     = F
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ Gegeben: $ E(t) = G \, t^2 + H \, t $
+
+Bestimme die Leistung $ P(t) $.
+
+$ P(t) = $ [[ 2 G t + H       ]]
+@Algebrite.check(2*G*t+H)
+******************
+$$
+\begin{align*}
+E(t) &= G \, t^2 + H \, t \\[4pt]
+P(t) &= \frac{dE}{dt}
+     = \frac{d}{dt}(G \, t^2 + H \, t) \\
+     &= 2G t + H
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ Gegeben: $ E(t) = \dfrac{K}{\sqrt{t}} $
+
+Bestimme die Leistung $ P(t) $.
+
+$ P(t) = $ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+E(t) &= K \, t^{-\tfrac{1}{2}} \\[4pt]
+P(t) &= \frac{dE}{dt}
+     = \frac{d}{dt} \left( K \, t^{-\tfrac{1}{2}} \right) \\
+     &= K \cdot \left( -\tfrac{1}{2} \right) t^{-\tfrac{3}{2}} \\
+     &= - \frac{K}{2} \, t^{-\tfrac{3}{2}}
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+---
+
+---
+
