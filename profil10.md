@@ -3028,3 +3028,1155 @@ $$
 
 ---
 
+
+
+
+
+
+
+
+## Integration
+
+
+Im folgenden Video wird das Beschriebene aus diesem Thema nochmal anhand von Beispielen erklärt:  \
+
+!?[Integration](https://www.youtube.com/watch?v=ppdwq_KDMoE)
+
+
+
+
+### Integration - Übungen - Einstieg
+
+
+
+
+**Aufgabe 1:** Gib den Term nach der Verrechnung des Integrals an.
+
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$a)\;\;$__ $ \int x^5 \, dx $ = [[  1/6 * x^6 + C  ]]
+@Algebrite.check(1/6*x^6 + C)
+******************
+$$
+\begin{align*}
+    \int x^5 \, dx  &= \frac{1}{6} x^{6} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$b)\;\;$__ $ \int 3x^2 \, dx $ = [[  x^3 + C  ]]
+@Algebrite.check(x^3 + C)
+******************
+$$
+\begin{align*}
+    \int 3x^2 \, dx &= 3 \cdot \frac{1}{3} x^{3} = x^{3} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$c)\;\;$__ $ \int t^4 \, dt $ = [[  1/5 * t^5 + C  ]]
+@Algebrite.check(1/5*t^5 + C)
+******************
+$$
+\begin{align*}
+    \int t^4 \, dt &= \frac{1}{5} t^{5} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$d)\;\;$__ $ \int 7y^6 \, dy $ = [[  1 * y^7 + C  ]]
+@Algebrite.check(y^7 + C)
+******************
+$$
+\begin{align*}
+    \int 7y^6 \, dy &= 7 \cdot \frac{1}{7} y^{7} = y^{7} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$e)\;\;$__ $ \int 5 \, dx $ = [[  5*x+C  ]]
+@Algebrite.check(5*x + C)
+******************
+$$
+\begin{align*}
+    \int 5 \, dx &= 5x + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$f)\;\;$__ $ \int 9s \, ds $ = [[  9/2 * s^2 + C  ]]
+@Algebrite.check(9/2*s^2 + C)
+******************
+$$
+\begin{align*}
+    \int 9s \, ds &= 9 \cdot \frac{1}{2} s^2 = \frac{9}{2}s^{2} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$g)\;\;$__ $ \int \left(4u^3 + 2u\right) \, du $ = [[  u^4 + u^2 + C  ]]
+@Algebrite.check(u^4 + u^2 + C)
+******************
+$$
+\begin{align*}
+    \int (4u^3 + 2u) \, du
+    &= 4 \cdot \frac{1}{4} u^4 \;+\; 2 \cdot \frac{1}{2} u^2 + C \\
+    &= u^4 + u^2 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$h)\;\;$__ $ \int \left(2x^3 - 8\right) \, dx $ = [[  1/2 * x^4 - 8*x + C  ]]
+@Algebrite.check(1/2*x^4 - 8*x + C)
+******************
+$$
+\begin{align*}
+    \int (2x^3 - 8) \, dx
+    &= 2 \cdot \frac{1}{4} x^4 \;-\; 8x + C \\
+    &= \frac{1}{2} x^4 - 8x + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$i)\;\;$__ $ \int \left(6z^2 + 4\right) \, dz $ = [[  2*z^3 + 4*z + C  ]]
+@Algebrite.check(2*z^3 + 4*z + C)
+******************
+$$
+\begin{align*}
+    \int (6z^2 + 4) \, dz
+    &= 6 \cdot \frac{1}{3} z^3 \;+\; 4z + C \\
+    &= 2 z^3 + 4z + C
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+
+---
+
+---
+
+
+
+
+
+
+**Aufgabe 2:** Gib den Term nach der Verrechnung des Integrals an.
+
+
+
+<section class="flex-container">
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$a)\;\;$__ $ \int x^4 \, dx $ = [[  1/5 * x^5 + C  ]]
+@Algebrite.check(1/5*x^5 + C)
+******************
+$$
+\begin{align*}
+    \int x^4 \, dx &= \frac{1}{5} x^5 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$b)\;\;$__ $ \int 4x^3 \, dx $ = [[  x^4 + C  ]]
+@Algebrite.check(x^4 + C)
+******************
+$$
+\begin{align*}
+    \int 4x^3 \, dx &= 4 \cdot \frac{1}{4} x^4 = x^4 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$c)\;\;$__ $ \int (2t + 3) \, dt $ = [[  t^2 + 3*t + C  ]]
+@Algebrite.check(t^2 + 3*t + C)
+******************
+$$
+\begin{align*}
+    \int (2t + 3) \, dt
+    &= 2 \cdot \frac{1}{2} t^2 + 3t + C \\
+    &= t^2 + 3t + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$d)\;\;$__ $ \int y^2 \, dy $ = [[  1/3 * y^3 + C  ]]
+@Algebrite.check(1/3*y^3 + C)
+******************
+$$
+\begin{align*}
+    \int y^2 \, dy &= \frac{1}{3} y^3 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$e)\;\;$__ $ \int (5 - 10x) \, dx $ = [[  5*x - 5*x^2 + C  ]]
+@Algebrite.check(5*x - 5*x^2 + C)
+******************
+$$
+\begin{align*}
+    \int (5 - 10x) \, dx
+    &= 5x - 10 \cdot \frac{1}{2} x^2 + C \\
+    &= 5x - 5x^2 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$f)\;\;$__ $ \int 7 \, du $ = [[  7*u + C  ]]
+@Algebrite.check(7*u + C)
+******************
+$$
+\begin{align*}
+    \int 7 \, du &= 7u + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$g)\;\;$__ $ \int (6z^2 - 4z) \, dz $ = [[  2*z^3 - 2*z^2 + C  ]]
+@Algebrite.check(2*z^3 - 2*z^2 + C)
+******************
+$$
+\begin{align*}
+    \int (6z^2 - 4z) \, dz
+    &= 6 \cdot \frac{1}{3} z^3 \;-\; 4 \cdot \frac{1}{2} z^2 + C \\
+    &= 2 z^3 - 2 z^2 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$h)\;\;$__ $ \int 9w^4 \, dw $ = [[  9/5 * w^5 + C  ]]
+@Algebrite.check(9/5*w^5 + C)
+******************
+$$
+\begin{align*}
+    \int 9w^4 \, dw
+    &= 9 \cdot \frac{1}{5} w^5 + C \\
+    &= \frac{9}{5} w^5 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$i)\;\;$__ $ \int (4 + 8s^3) \, ds $ = [[  4*s + 2*s^4 + C  ]]
+@Algebrite.check(4*s + 2*s^4 + C)
+******************
+$$
+\begin{align*}
+    \int (4 + 8s^3) \, ds
+    &= 4s + 8 \cdot \frac{1}{4} s^4 + C \\
+    &= 4s + 2s^4 + C
+\end{align*}
+$$
+******************
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+---
+
+---
+
+
+
+
+**Aufgabe 3:** Gib den Term nach der Verrechnung des Integrals an.
+
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$a)\;\;$__ $ \int \sqrt{x} \, dx $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int x^{1/2} \, dx
+    &= \frac{x^{1/2+1}}{1/2+1} + C \\
+    &= \frac{x^{3/2}}{3/2} + C \\
+    &= \frac{2}{3} x^{3/2} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$b)\;\;$__ $ \int \dfrac{4}{\sqrt[3]{x}} \, dx $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int 4 x^{-1/3} \, dx
+    &= 4 \cdot \frac{x^{-1/3+1}}{-1/3+1} + C \\
+    &= 4 \cdot \frac{x^{2/3}}{2/3} + C \\
+    &= 4 \cdot \frac{3}{2} x^{2/3} + C \\
+    &= 6 x^{2/3} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$c)\;\;$__ $ \int \left(5x^{3/2} - 2x^{1/2}\right) dx $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int \left(5x^{3/2} - 2x^{1/2}\right) dx
+    &= 5 \cdot \frac{x^{3/2+1}}{3/2+1} \;-\; 2 \cdot \frac{x^{1/2+1}}{1/2+1} + C \\
+    &= 5 \cdot \frac{x^{5/2}}{5/2} \;-\; 2 \cdot \frac{x^{3/2}}{3/2} + C \\
+    &= 2 x^{5/2} \;-\; \frac{4}{3} x^{3/2} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$d)\;\;$__ $ \int \dfrac{3}{y^4} \, dy$ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int 3y^{-4} \, dy
+    &= 3 \cdot \frac{y^{-4+1}}{-4+1} + C \\
+    &= 3 \cdot \frac{y^{-3}}{-3} + C \\
+    &= - y^{-3} + C
+    \;=\; -\frac{1}{y^3} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$e)\;\;$__ $ \int \left(7t^{-1/2} + 2t^{3}\right) dt $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int \left(7t^{-1/2} + 2t^{3}\right) dt
+    &= 7 \cdot \frac{t^{-1/2+1}}{-1/2+1} \;+\; 2 \cdot \frac{t^{3+1}}{3+1} + C \\
+    &= 7 \cdot \frac{t^{1/2}}{1/2} \;+\; 2 \cdot \frac{t^{4}}{4} + C \\
+    &= 14 t^{1/2} \;+\; \frac{1}{2} t^4 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$f)\;\;$__ $ \int \left(5u^{-3/2} - 4u^{2}\right) du $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int \left(5u^{-3/2} - 4u^{2}\right) du
+    &= 5 \cdot \frac{u^{-3/2+1}}{-3/2+1}
+    \;-\; 4 \cdot \frac{u^{2+1}}{2+1} + C \\
+    &= 5 \cdot \frac{u^{-1/2}}{-1/2}
+    \;-\; 4 \cdot \frac{u^{3}}{3} + C \\
+    &= -10 u^{-1/2} \;-\; \frac{4}{3} u^{3} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$g)\;\;$__ $ \int \left(6x^{-2} + 9x^{4}\right) dx $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int \left(6x^{-2} + 9x^{4}\right) dx
+    &= 6 \cdot \frac{x^{-2+1}}{-2+1}
+    \;+\; 9 \cdot \frac{x^{4+1}}{4+1} + C \\
+    &= 6 \cdot \frac{x^{-1}}{-1}
+    \;+\; 9 \cdot \frac{x^{5}}{5} + C \\
+    &= -6 x^{-1} + \frac{9}{5} x^{5} + C \\
+    &= -\frac{6}{x} + \frac{9}{5} x^{5} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$h)\;\;$__ $ \int \left(\dfrac{4}{\sqrt{z}} - \dfrac{2}{z^{2}}\right) dz $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int \left(4z^{-1/2} - 2z^{-2}\right) dz
+    &= 4 \cdot \frac{z^{-1/2+1}}{-1/2+1}
+    \;-\; 2 \cdot \frac{z^{-2+1}}{-2+1} + C \\
+    &= 4 \cdot \frac{z^{1/2}}{1/2}
+    \;-\; 2 \cdot \frac{z^{-1}}{-1} + C \\
+    &= 8 z^{1/2} \;+\; 2 z^{-1} + C \\
+    &= 8\sqrt{z} + \frac{2}{z} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$i)\;\;$__ $ \int \dfrac{5}{3} w^{2/3} \, dw $ = 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+    \int \frac{5}{3} w^{2/3} \, dw
+    &= \frac{5}{3} \cdot \frac{w^{2/3+1}}{2/3+1} + C \\
+    &= \frac{5}{3} \cdot \frac{w^{5/3}}{5/3} + C \\
+    &= w^{5/3} + C
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+
+### Integration - Übungen - Erste Anwendungen
+
+
+
+
+
+**Aufgabe 1:** **Gib** die Gleichung zur Beschreibung der potentiellen Energie durch die gegebene Kraft **an**. Zwischen der potentiellen Energie und der Kraft existiert der folgende Zusammenhang:
+
+$$
+\begin{align*}
+\Delta E_{\mathrm{pot}}(r) = \displaystyle \int F(r)\,dr
+\end{align*}
+$$
+
+<section class="flex-container">
+
+<div class="flex-child">
+__$a)\;\;$__ (Konstante Kraft) 
+Gegeben: $ F(r) = -F_0 $ mit $F_0>0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\int (-F_0)\,dr = -F_0\,r + C.
+\end{align*}
+$$
+******************
+
+</div>
+<div class="flex-child">
+__$b)\;\;$__ (Lineare Feder) 
+Gegeben: $ F(r) = -k\,(r-r_0) $ mit $k>0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\int -k\,(r-r_0)\,dr
+&= -k \int (r-r_0)\,dr \\
+&= -k \left(\tfrac{1}{2}(r-r_0)^2\right) + C \\
+&= -\tfrac{k}{2}\,(r-r_0)^2 + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$c)\;\;$__ (Nichtlineare Feder) 
+Gegeben: $ F(r) = -(k\,r + \alpha r^3 + \beta r^5) $ mit $k,\alpha,\beta>0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\int \!-\big(k r+\alpha r^3+\beta r^5\big)\,dr
+&= -\left(\tfrac{k}{2}r^2+\tfrac{\alpha}{4}r^4+\tfrac{\beta}{6}r^6\right)+C \\
+&= -\tfrac{k}{2}\,r^2 - \tfrac{\alpha}{4}\,r^4 - \tfrac{\beta}{6}\,r^6 + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$d)\;\;$__ (radial) 
+Gegeben: $ F(r) = -\dfrac{\kappa}{r^2} $ mit $\kappa>0$ und $r\neq 0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\int -\kappa r^{-2}\,dr
+&= -\kappa \int r^{-2}\,dr \\
+&= -\kappa \left(-\,r^{-1}\right) + C \\
+&= \frac{\kappa}{r} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$e)\;\;$__
+Gegeben: $ F(r) = -A\,\sqrt{r} $ mit $A>0$ und $r\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\int -A\,\sqrt{r}\,dr
+&= -A \int r^{1/2}\,dr \\
+&= -A \cdot \frac{2}{3}\,r^{3/2} + C \\
+&= -\frac{2A}{3}\,r^{3/2} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$f)\;\;$__
+Gegeben: $ F(r) = -\dfrac{B}{r^3} $ mit $B>0$ und $r>0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\int -\frac{B}{r^3}\,dr
+&= -B \int r^{-3}\,dr \\
+&= -B \left( \frac{r^{-2}}{-2} \right) + C \\
+&= \frac{B}{2}\,r^{-2} + C \\
+&= \frac{B}{2\,r^{2}} + C.
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+---
+
+---
+
+
+
+**Aufgabe 2:** **Gib** die Gleichung zur Beschreibung der Energie durch die gegebene Leistung **an**. Zwischen der Energie und der Leistung existiert der folgende Zusammenhang:
+
+$$
+\begin{align*}
+\Delta E = \displaystyle \int P(t)\,dt
+\end{align*}
+$$
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+__$a)\;\;$__ *(Solarzelle unter wandernder Wolke – Parabelverlauf um Mittag)*  
+Gegeben: $ P(t) = \alpha\,t - \beta\,t^{2} $ mit $\alpha,\beta>0$ und $t\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int \big(\alpha\,t - \beta\,t^{2}\big)\,dt
+&= \frac{\alpha}{2}\,t^{2} - \frac{\beta}{3}\,t^{3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$b)\;\;$__ *(Windturbine im Anlauf – kubischer Hochlauf)*  
+Gegeben: $ P(t) = k\,t^{3} $ mit $k>0$ und $t\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int k\,t^{3}\,dt
+&= \frac{k}{4}\,t^{4} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$c)\;\;$__ *(Akku-Entladung mit linearer Leistungsabnahme)*  
+Gegeben: $ P(t) = P_0 - a\,t $ mit $P_0,a>0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int \big(P_0 - a\,t\big)\,dt
+&= P_0\,t - \frac{a}{2}\,t^{2} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$d)\;\;$__ *(E-Motor mit Softstart – Wurzelanstieg)*  
+Gegeben: $ P(t) = A\,t^{1/2} $ mit $A>0$ und $t\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int A\,t^{1/2}\,dt
+&= \frac{2A}{3}\,t^{3/2} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$e)\;\;$__ *(Lüfter mit Grundlast und quadratischer Regelung)*  
+Gegeben: $ P(t) = P_{\mathrm{b}} + c\,(t - t_0)^{2} $ mit $P_{\mathrm{b}},c>0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int \big(P_{\mathrm{b}} + c\,(t - t_0)^{2}\big)\,dt
+&= P_{\mathrm{b}}\,t + \frac{c}{3}\,(t - t_0)^{3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$f)\;\;$__ *(Regeneratives Bremsen – abklingende Leistung)*  
+Gegeben: $ P(t) = \dfrac{B}{\sqrt{t}} $ mit $B>0$ und $t>0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int B\,t^{-1/2}\,dt
+&= 2B\,t^{1/2} + C
+\;=\; 2B\,\sqrt{t} + C.
+\end{align*}
+$$
+******************
+</div>
+
+
+</section>
+
+---
+
+---
+
+
+
+**Aufgabe 3:** **Gib** die Gleichung zur Beschreibung des Potentials durch die gegebene Feldstärke **an**. Zwischen der Feldstärke und dem Potential existiert der folgende Zusammenhang:
+
+$$
+\begin{align*}
+\Phi(x) = -\displaystyle \int E(r)\,dr
+\end{align*}
+$$
+
+<section class="flex-container">
+
+<div class="flex-child">
+__$a)\;\;$__ *(Homogenes Feld – z. B. Plattenkondensator näherungsweise)*  
+Gegeben: $ E(r) = E_0 $ mit $E_0>0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int E_0\,dr
+&= -E_0\,r + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$b)\;\;$__ *(Linear räumlich variierendes Feld – inhomogenes Medium)*  
+Gegeben: $ E(r) = a\,r + b $ mit Konstanten $a,b$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int \big(a\,r + b\big)\,dr
+&= -\left(\frac{a}{2}\,r^2 + b\,r\right) + C \\
+&= -\frac{a}{2}\,r^2 - b\,r + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$c)\;\;$__ *(Quadratische Feldverteilung um eine Referenzlage)*  
+Gegeben: $ E(r) = c\,(r - r_0)^{2} $ mit $c>0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int c\,(r-r_0)^2\,dr
+&= -c\,\frac{(r-r_0)^3}{3} + C \\
+&= -\frac{c}{3}\,(r-r_0)^3 + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$d)\;\;$__ *(Radialfeld einer Punktladung – Betragsmodell entlang $r$)*  
+Gegeben: $ E(r) = \dfrac{K}{r^{2}} $ mit $K>0$ und $r>0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int \frac{K}{r^{2}}\,dr
+&= -K \int r^{-2}\,dr
+= -K\left(-\,r^{-1}\right) + C \\
+&= \frac{K}{r} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$e)\;\;$__ *(Fernfeld-Anteil eines Dipols – einfache Potenznäherung)*  
+Gegeben: $ E(r) = \dfrac{B}{r^{3}} $ mit $B>0$ und $r>0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int \frac{B}{r^{3}}\,dr
+&= -B \int r^{-3}\,dr
+= -B\left(\frac{r^{-2}}{-2}\right) + C \\
+&= \frac{B}{2}\,r^{-2} + C
+= \frac{B}{2\,r^{2}} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$f)\;\;$__ *(Ansteigendes Feld zum Rand – Wurzelprofil)*  
+Gegeben: $ E(r) = A\,\sqrt{r} = A\,r^{1/2} $ mit $A>0$ und $r\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int A\,r^{1/2}\,dr
+&= -A \cdot \frac{2}{3}\,r^{3/2} + C \\
+&= -\frac{2A}{3}\,r^{3/2} + C.
+\end{align*}
+$$
+******************
+</div>
+
+
+</section>
+
+---
+
+---
+
+
+
+**Aufgabe 4:** **Gib** die Gleichung zur Beschreibung der Geschwindigkeit durch die gegebene Beschleundigung **an**. Zwischen der Beschleundigung und der Geschwindigkeit existiert der folgende Zusammenhang:
+
+$$
+\begin{align*}
+v(t) = \displaystyle \int a(t)\,dt
+\end{align*}
+$$
+
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+__$a)\;\;$__ *(Schulbus: Grundbeschleunigung mit stärkerem Schub später)*  
+Gegeben: $ a(t) = a_0 + b\,t^{2} $ mit $a_0,b>0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$ 
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int \big(a_0 + b\,t^{2}\big)\,dt
+&= a_0\,t + \frac{b}{3}\,t^{3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$b)\;\;$__ *(Straßenbahn: sanftes Ausblenden der Beschleunigung)*  
+Gegeben: $ a(t) = k\,(t_1 - t) $ mit Konstanten $k,t_1$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int k\,(t_1 - t)\,dt
+&= k\left(t_1\,t - \frac{t^{2}}{2}\right) + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$c)\;\;$__ *(Aufzug: weiches Start/Stop-Profil)*  
+Gegeben: $ a(t) = A - B\,t^{2} $ mit $A,B>0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int \big(A - B\,t^{2}\big)\,dt
+&= A\,t - \frac{B}{3}\,t^{3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$d)\;\;$__ *(Bremsmanöver: zunehmende Bremswirkung)*  
+Gegeben: $ a(t) = -\dfrac{B}{t^{2}} $ mit $B>0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int -B\,t^{-2}\,dt
+&= -B\cdot \frac{t^{-1}}{-1} + C \\
+&= \frac{B}{t} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$e)\;\;$__ *(Roboterarm: S-Kurven-Anlauf als Quadratik)*  
+Gegeben: $ a(t) = c\,t\,(T - t) $ mit $c>0$ und $T>0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int c\,t\,(T - t)\,dt
+&= c\int (Tt - t^{2})\,dt \\
+&= c\left(\frac{T}{2}\,t^{2} - \frac{1}{3}\,t^{3}\right) + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$f)\;\;$__ *(Schlitten auf Teppich: Bremskraft wächst leicht mit Zeit)*  
+Gegeben: $ a(t) = -D\,t^{1/3} $ mit $D>0$ und $t\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[!]]
+<script>true</script>
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int -D\,t^{1/3}\,dt
+&= -D\cdot \frac{t^{4/3}}{4/3} + C \\
+&= -\frac{3D}{4}\,t^{4/3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Euler-Lagrange-Gleichungen
+
+
+
+## Noether-Theorem
+
+
+
+
+## Hamiliton-Formalismus
+
+
+
+## Bahnkurve
+
+
+
+
+
+
+
