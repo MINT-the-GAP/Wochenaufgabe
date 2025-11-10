@@ -4156,19 +4156,99 @@ $$
 
 
 
-
-
-
 ## Euler-Lagrange-Gleichungen
 
 
 
-## Noether-Theorem
+
+Die Bahn $x(t)$ auf dem Intervall $[t_0,t_1]$ werde durch die Wirkung
+
+$$
+\begin{align*}
+S[x] \;=\; \int_{t_0}^{t_1} L\!\big(x(t),\,\dot x(t),\,t\big)\,dt ,
+\end{align*}
+$$
+
+bewertet, wobei $L$ hinreichend glatt in ihren Argumenten sei und $\dot x=\tfrac{dx}{dt}$ gilt. Ein Extremum der Wirkung wird über zulässige Variationen charakterisiert. Hierzu wird eine gestörte Bahn $x_\varepsilon(t)=x(t)+\varepsilon\,\eta(t)$ mit glatter Testfunktion $\eta$ eingeführt, die feste Randwerte realisiert, d. h. $\eta(t_0)=\eta(t_1)=0$. Die zugehörige Geschwindigkeitsstörung lautet $\dot x_\varepsilon(t)=\dot x(t)+\varepsilon\,\dot\eta(t)$. Die erste Variation der Wirkung wird als
+
+$$
+\begin{align*}
+\delta S \;\coloneqq\; \left.\frac{d}{d\varepsilon}\,S[x_\varepsilon]\right|_{\varepsilon=0}
+\end{align*}
+$$
+
+definiert. Unter Verwendung der linearen Entwicklung erster Ordnung in $\varepsilon$ ergibt sich
+
+$$
+\begin{align*}
+L\big(x+\varepsilon\eta,\,\dot x+\varepsilon\dot\eta,\,t\big)
+&= L(x,\dot x,t)
+\;+\;\varepsilon\!\left(\frac{\partial L}{\partial x}\,\eta \;+\; \frac{\partial L}{\partial \dot x}\,\dot\eta\right) \;+\; o(\varepsilon) ,
+\end{align*}
+$$
+
+woraus nach Differentiation nach $\varepsilon$ bei $\varepsilon=0$ folgt:
+
+$$
+\begin{align*}
+\delta S \;=\; \int_{t_0}^{t_1}\!\left(\frac{\partial L}{\partial x}\,\eta \;+\; \frac{\partial L}{\partial \dot x}\,\dot\eta\right)\,dt .
+\end{align*}
+$$
+
+Zur Eliminierung der Zeitableitung auf $\eta$ wird einmal partiell integriert:
+
+$$
+\begin{align*}
+\int_{t_0}^{t_1}\frac{\partial L}{\partial \dot x}\,\dot\eta\,dt
+&=\;\Big[\tfrac{\partial L}{\partial \dot x}\,\eta\Big]_{t_0}^{t_1}
+\;-\;\int_{t_0}^{t_1}\frac{d}{dt}\!\left(\frac{\partial L}{\partial \dot x}\right)\eta\,dt .
+\end{align*}
+$$
+
+Der Randterm verschwindet aufgrund $\eta(t_0)=\eta(t_1)=0$. Somit ergibt sich
+
+$$
+\begin{align*}
+\delta S
+\;=\;
+\int_{t_0}^{t_1}\!\left(
+\frac{\partial L}{\partial x}
+\;-\;
+\frac{d}{dt}\frac{\partial L}{\partial \dot x}
+\right)\eta(t)\,dt .
+\end{align*}
+$$
+
+Damit $\delta S=0$ für alle glatten $\eta$ mit verschwindenden Randwerten gilt (Extremalbedingung), muss der Integrand identisch verschwinden; formal handelt es sich um das grundlegende Argument der Variationsrechnung, dass die Nullheit eines Integrals für alle derartigen Testfunktionen die Nullheit des Integranden erzwingt. Es resultiert die Euler–Lagrange-Gleichung
+
+$$
+\begin{align*}
+\frac{d}{dt}\!\left(\frac{\partial L}{\partial \dot x}\right)
+\;-\;
+\frac{\partial L}{\partial x}
+\;=\;0 .
+\end{align*}
+$$
+
+Für Systeme mit mehreren generalisierten Koordinaten $q_i(t)$ entsteht dieselbe Beziehung komponentenweise unter denselben Glattheits- und Randvoraussetzungen:
+
+$$
+\begin{align*}
+\frac{d}{dt}\!\left(\frac{\partial L}{\partial \dot q_i}\right)
+\;-\;
+\frac{\partial L}{\partial q_i}
+\;=\;0,
+\qquad i=1,\dots,n \, .
+\end{align*}
+$$
 
 
 
 
-## Hamiliton-Formalismus
+
+
+
+## Differentialgleichungen
 
 
 
