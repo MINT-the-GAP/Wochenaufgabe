@@ -94,7 +94,13 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 -->
 
 
-# Klassisches Vokabeltraining - Lektion 1
+
+# Klassisches Vokabeltraining
+
+Auf den folgenden Seiten findest du ein klassisches Vokabeltraining in Tabellenform. Trage einfach die gesuchten deutschen oder französischen Wörter in die Felder ein. 
+
+
+## Klassisches Vokabeltraining - Lektion 1
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch | Französisch |
@@ -140,7 +146,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 2
+## Klassisches Vokabeltraining - Lektion 2
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch        | Französisch      |
@@ -181,7 +187,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 3
+## Klassisches Vokabeltraining - Lektion 3
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch                      | Französisch                           |
@@ -222,7 +228,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 4
+## Klassisches Vokabeltraining - Lektion 4
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch            | Französisch                 |
@@ -269,7 +275,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 5
+## Klassisches Vokabeltraining - Lektion 5
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch            | Französisch              |
@@ -324,7 +330,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 6
+## Klassisches Vokabeltraining - Lektion 6
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch            | Französisch                 |
@@ -365,7 +371,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 7
+## Klassisches Vokabeltraining - Lektion 7
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch            | Französisch                 |
@@ -399,7 +405,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 8
+## Klassisches Vokabeltraining - Lektion 8
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch            | Französisch              |
@@ -441,7 +447,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 9
+## Klassisches Vokabeltraining - Lektion 9
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch                                   | Französisch                                  |
@@ -497,7 +503,7 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Klassisches Vokabeltraining - Lektion 10
+## Klassisches Vokabeltraining - Lektion 10
 
 <!-- data-solution-button="25" data-show-partial-solution  data-randomize="true" -->
 | Deutsch           | Französisch        |
@@ -533,7 +539,12 @@ vorlesen: {|>}{<span style="position: absolute; left: -10000px">@0</span>} [[  @
 
 
 
-# Vokabeln zuordnen - Lektion 1
+# Vokabeln zuordnen 
+
+Im Folgenden findest du Kacheln, die an die richtige Stelle gezogen werden müssen. Solltest du an einem Touchbildschirm arbeiten klicke auf das Feld und danach auf die passende Kachel.
+
+
+## Vokabeln zuordnen - Lektion 1
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -580,7 +591,7 @@ Ordnen Sie zu. [->[Associez]]. \
 
 
 
-# Vokabeln zuordnen - Lektion 2
+## Vokabeln zuordnen - Lektion 2
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -624,7 +635,7 @@ Ich habe keine Kinder. [->[Je n’ai pas d’enfants]] \
 
 
 
-# Vokabeln zuordnen - Lektion 3
+## Vokabeln zuordnen - Lektion 3
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -665,7 +676,7 @@ die Vorwahl [->[indicatif]] \
 
 
 
-# Vokabeln zuordnen - Lektion 4
+## Vokabeln zuordnen - Lektion 4
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -714,7 +725,7 @@ Am Montag. [->[Lundi]]. \
 
 
 
-# Vokabeln zuordnen - Lektion 5
+## Vokabeln zuordnen - Lektion 5
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -770,7 +781,7 @@ Es ist kalt. [->[Il fait froid]]. \
 
 
 
-# Vokabeln zuordnen - Lektion 6
+## Vokabeln zuordnen - Lektion 6
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -812,7 +823,7 @@ schälen [->[éplucher]] \
 
 
 
-# Vokabeln zuordnen - Lektion 7
+## Vokabeln zuordnen - Lektion 7
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -849,7 +860,7 @@ das Hackfleisch [->[la viande hachée]]. \
 
 
 
-# Vokabeln zuordnen - Lektion 8
+## Vokabeln zuordnen - Lektion 8
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -891,7 +902,7 @@ Ich gehe zu Fuß [->[Je vais à pied]]. \
 
 
 
-# Vokabeln zuordnen - Lektion 9
+## Vokabeln zuordnen - Lektion 9
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -946,7 +957,7 @@ in der Nacht [->[la nuit]] \
 
 
 
-# Vokabeln zuordnen - Lektion 10
+## Vokabeln zuordnen - Lektion 10
 
 Aufgabe 1: Ordne die Kacheln richtig zu.  
 
@@ -982,8 +993,12 @@ der Krankenschein [->[la fiche de maladie]]. \
 
 
 
+# Aussprachetraining
 
-# Aussprachetraining - Lektion 1
+Nun kannst du auch noch deine Ausprache üben, indem du auf den Button klickst und dann die Vokabel richtig aussprichst.
+
+
+## Aussprachetraining - Lektion 1
 
 @SpeechRecognition.support
 
@@ -1264,7 +1279,7 @@ Sprich 'Ordnen Sie zu' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 2
+## Aussprachetraining - Lektion 2
 
 @SpeechRecognition.support
 
@@ -1497,7 +1512,7 @@ Sprich 'Ich habe keine Kinder.' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 3
+## Aussprachetraining - Lektion 3
 
 @SpeechRecognition.support
 
@@ -1737,7 +1752,7 @@ Sprich 'die Vorwahl' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 4
+## Aussprachetraining - Lektion 4
 
 @SpeechRecognition.support
 
@@ -2014,7 +2029,7 @@ Sprich 'Am Montag.' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 5
+## Aussprachetraining - Lektion 5
 
 @SpeechRecognition.support
 
@@ -2344,7 +2359,7 @@ Sprich 'Es ist kalt.' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 6
+## Aussprachetraining - Lektion 6
 
 @SpeechRecognition.support
 
@@ -2570,7 +2585,7 @@ Sprich 'schälen' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 7
+## Aussprachetraining - Lektion 7
 
 @SpeechRecognition.support
 
@@ -2760,7 +2775,7 @@ Sprich 'das Hackfleisch' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 8
+## Aussprachetraining - Lektion 8
 
 @SpeechRecognition.support
 
@@ -3012,7 +3027,7 @@ Sprich 'Ich gehe zu Fuß.' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 9
+## Aussprachetraining - Lektion 9
 
 @SpeechRecognition.support
 
@@ -3358,7 +3373,7 @@ Sprich 'in der Nacht' auf französisch.
 
 
 
-# Aussprachetraining - Lektion 10
+## Aussprachetraining - Lektion 10
 
 @SpeechRecognition.support
 
