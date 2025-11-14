@@ -1006,7 +1006,7 @@ Nun kannst du auch noch deine Ausprache üben, indem du auf den Button klickst u
 
 <section class="flex-container">
 
-<!-- Grüße -->
+
 <div class="flex-child">
 Sprich 'Hallo' auf französisch.
 
@@ -1079,7 +1079,6 @@ Sprich 'Auf Wiedersehen' auf französisch.
 @SpeechRecognition(fr-FR,`Au revoir`)
 </div>
 
-<!-- Sich vorstellen / Nachfragen -->
 <div class="flex-child">
 Sprich 'Wie heißen Sie?' auf französisch.
 
@@ -1120,7 +1119,6 @@ Sprich 'Wie geht es Ihnen?' auf französisch.
 @SpeechRecognition(fr-FR,`Comment allez-vous?`)
 </div>
 
-<!-- Befinden -->
 <div class="flex-child">
 Sprich 'Danke, gut' auf französisch.
 
@@ -1185,7 +1183,6 @@ Sprich 'Nicht so gut' auf französisch.
 @SpeechRecognition(fr-FR,`Pas très bien`)
 </div>
 
-<!-- Uhrzeit -->
 <div class="flex-child">
 Sprich 'Wie spät ist es?' auf französisch.
 
@@ -1202,7 +1199,7 @@ Sprich 'Es ist halb acht' auf französisch.
 @SpeechRecognition(fr-FR,`Il est sept heures et demi`)
 </div>
 
-<!-- Klassenraum-Kommandos -->
+
 <div class="flex-child">
 Sprich 'Hören Sie' auf französisch.
 
@@ -1323,7 +1320,6 @@ Sprich 'Ordnen Sie zu' auf französisch.
 
 <section class="flex-container">
 
-<!-- Possessiv & Familie -->
 <div class="flex-child">
 Sprich 'mein' auf französisch.
 
@@ -1404,7 +1400,6 @@ Sprich 'die Frau (Ehefrau)' auf französisch.
 @SpeechRecognition(fr-FR,`la femme`)
 </div>
 
-<!-- Fragen zur Familie -->
 <div class="flex-child">
 Sprich 'Wer ist das?' auf französisch.
 
@@ -1469,7 +1464,6 @@ Sprich 'Sie ist 30 Jahre alt.' auf französisch.
 @SpeechRecognition(fr-FR,`Elle a 30 ans.`)
 </div>
 
-<!-- Sein / Status -->
 <div class="flex-child">
 Sprich 'Er ist …' auf französisch.
 
@@ -1526,7 +1520,6 @@ Sprich 'verwitwet' auf französisch.
 @SpeechRecognition(fr-FR,`veuf`)
 </div>
 
-<!-- Haben / Kinder -->
 <div class="flex-child">
 Sprich 'Ich habe …' auf französisch.
 
@@ -1587,7 +1580,6 @@ Sprich 'Ich habe keine Kinder.' auf französisch.
 
 <section class="flex-container">
 
-<!-- Fragen zur Herkunft und Adresse -->
 <div class="flex-child">
 Sprich 'Woher kommen Sie?' auf französisch.
 
@@ -1684,7 +1676,6 @@ Sprich 'Vielen Dank' auf französisch.
 @SpeechRecognition(fr-FR,`Merci beaucoup!`)
 </div>
 
-<!-- Rückfragen / Verständnis -->
 <div class="flex-child">
 Sprich 'Ich weiß nicht' auf französisch.
 
@@ -1709,7 +1700,6 @@ Sprich 'Noch einmal langsam, bitte' auf französisch.
 @SpeechRecognition(fr-FR,`Répétez, s’il vous plaît.`)
 </div>
 
-<!-- Ja/Nein-Fragen zur Person -->
 <div class="flex-child">
 Sprich 'Kommen Sie aus …?' auf französisch.
 
@@ -1782,7 +1772,6 @@ Sprich 'Ist sie verheiratet?' auf französisch.
 @SpeechRecognition(fr-FR,`Est-ce qu’elle est mariée?`)
 </div>
 
-<!-- Formularfelder -->
 <div class="flex-child">
 Sprich 'der Name' auf französisch.
 
@@ -1859,7 +1848,6 @@ Sprich 'die Vorwahl' auf französisch.
 
 <section class="flex-container">
 
-<!-- Sprachen -->
 <div class="flex-child">
 Sprich 'Deutsch' auf französisch.
 
@@ -1908,7 +1896,6 @@ Sprich 'Sprichst du ...?' auf französisch.
 @SpeechRecognition(fr-FR,`Est-ce que tu parles ... ?`)
 </div>
 
-<!-- Im Deutschkurs: Tätigkeiten -->
 <div class="flex-child">
 Sprich 'Was machst du im Deutschkurs?' auf französisch.
 
@@ -1981,7 +1968,6 @@ Sprich 'Pause machen' auf französisch.
 @SpeechRecognition(fr-FR,`faire une pause`)
 </div>
 
-<!-- Kurs-Informationen -->
 <div class="flex-child">
 Sprich 'Teilnehmer' auf französisch.
 
@@ -2038,7 +2024,6 @@ Sprich 'Beginn' auf französisch.
 @SpeechRecognition(fr-FR,`début du cours`)
 </div>
 
-<!-- Zeiten / Uhr -->
 <div class="flex-child">
 Sprich 'Wann ist der Kurs?' auf französisch.
 
@@ -2071,7 +2056,7 @@ Sprich 'Er endet um 11 Uhr.' auf französisch.
 @SpeechRecognition(fr-FR,`Il finit à 11 heures.`)
 </div>
 
-<!-- Woche & Tage -->
+
 <div class="flex-child">
 Sprich 'Montag' auf französisch.
 
@@ -2172,7 +2157,7 @@ Sprich 'Am Montag.' auf französisch.
 
 <section class="flex-container">
 
-<!-- Aktivitäten -->
+
 <div class="flex-child">
 Sprich 'Fahrrad fahren' auf französisch.
 
@@ -2253,7 +2238,7 @@ Sprich 'Ich lese nicht gern.' auf französisch.
 @SpeechRecognition(fr-FR,`Je n’aime pas lire.`)
 </div>
 
-<!-- Zustimmung / Ablehnung -->
+
 <div class="flex-child">
 Sprich 'Ich auch.' auf französisch.
 
@@ -2294,7 +2279,7 @@ Sprich 'Nein, das ist falsch.' auf französisch.
 @SpeechRecognition(fr-FR,`Non, c’est faux.`)
 </div>
 
-<!-- Zeiten -->
+
 <div class="flex-child">
 Sprich 'heute' auf französisch.
 
@@ -2343,7 +2328,7 @@ Sprich 'im Januar' auf französisch.
 @SpeechRecognition(fr-FR,`en janvier`)
 </div>
 
-<!-- Monate -->
+
 <div class="flex-child">
 Sprich 'Januar' auf französisch.
 
@@ -2440,7 +2425,7 @@ Sprich 'Dezember' auf französisch.
 @SpeechRecognition(fr-FR,`décembre`)
 </div>
 
-<!-- Häufigkeit -->
+
 <div class="flex-child">
 Sprich 'immer' auf französisch.
 
@@ -2473,7 +2458,7 @@ Sprich 'nie' auf französisch.
 @SpeechRecognition(fr-FR,`jamais`)
 </div>
 
-<!-- Wetter -->
+
 <div class="flex-child">
 Sprich 'Wetter' auf französisch.
 
@@ -2547,7 +2532,7 @@ Sprich 'Es ist kalt.' auf französisch.
 
 <section class="flex-container">
 
-<!-- Essen & Trinken – Nomen -->
+
 <div class="flex-child">
 Sprich 'Ananas' auf französisch.
 
@@ -2700,7 +2685,7 @@ Sprich 'Zucker' auf französisch.
 @SpeechRecognition(fr-FR,`sucre`)
 </div>
 
-<!-- Getränke -->
+
 <div class="flex-child">
 Sprich 'Kaffee' auf französisch.
 
@@ -2733,7 +2718,7 @@ Sprich 'Wasser' auf französisch.
 @SpeechRecognition(fr-FR,`eau`)
 </div>
 
-<!-- Häufigkeit -->
+
 <div class="flex-child">
 Sprich 'einmal' auf französisch.
 
@@ -2758,7 +2743,7 @@ Sprich 'dreimal am Tag' auf französisch.
 @SpeechRecognition(fr-FR,`trois fois par jour`)
 </div>
 
-<!-- Verben -->
+
 <div class="flex-child">
 Sprich 'brauchen' auf französisch.
 
@@ -2802,7 +2787,7 @@ Sprich 'schälen' auf französisch.
 
 <section class="flex-container">
 
-<!-- Um Hilfe bitten -->
+
 <div class="flex-child">
 Sprich 'Entschuldigung' auf französisch.
 
@@ -2875,7 +2860,7 @@ Sprich 'Tut mir leid' auf französisch.
 @SpeechRecognition(fr-FR,`Désolé.`)
 </div>
 
-<!-- Preise -->
+
 <div class="flex-child">
 Sprich 'Was kostet ...?' auf französisch.
 
@@ -2924,7 +2909,7 @@ Sprich 'das Stück' auf französisch.
 @SpeechRecognition(fr-FR,`la pièce`)
 </div>
 
-<!-- Einkaufen -->
+
 <div class="flex-child">
 Sprich 'Bitte sehr?' (Verkäufer: Was wünschen Sie?) auf französisch.
 
@@ -2957,7 +2942,7 @@ Sprich 'Das ist alles' auf französisch.
 @SpeechRecognition(fr-FR,`Ce sera tout.`)
 </div>
 
-<!-- Weitere Wörter -->
+
 <div class="flex-child">
 Sprich 'die Kasse' auf französisch.
 
@@ -3017,7 +3002,7 @@ Sprich 'das Hackfleisch' auf französisch.
 
 <section class="flex-container">
 
-<!-- Orte in der Stadt -->
+
 <div class="flex-child">
 Sprich 'die Apotheke' auf französisch.
 
@@ -3114,7 +3099,7 @@ Sprich 'die Schule' auf französisch.
 @SpeechRecognition(fr-FR,`l’école`)
 </div>
 
-<!-- Nach Orten fragen & Wege erklären -->
+
 <div class="flex-child">
 Sprich 'Entschuldigung, eine Frage …?' auf französisch.
 
@@ -3211,7 +3196,7 @@ Sprich 'Gehen Sie die Straße entlang.' auf französisch.
 @SpeechRecognition(fr-FR,`Suivez la rue.`)
 </div>
 
-<!-- Verkehrsmittel -->
+
 <div class="flex-child">
 Sprich 'das Auto' auf französisch.
 
@@ -3303,7 +3288,7 @@ Sprich 'Ich gehe zu Fuß.' auf französisch.
 
 <section class="flex-container">
 
-<!-- Berufe (maskulin) -->
+
 <div class="flex-child">
 Sprich 'der Altenpfleger' auf französisch.
 
@@ -3400,7 +3385,7 @@ Sprich 'die Reinigungskraft' auf französisch.
 @SpeechRecognition(fr-FR,`l’agent d’entretien`)
 </div>
 
-<!-- Berufe (feminin) -->
+
 <div class="flex-child">
 Sprich 'die Altenpflegerin' auf französisch.
 
@@ -3489,7 +3474,7 @@ Sprich 'die Verkäuferin' auf französisch.
 @SpeechRecognition(fr-FR,`la vendeuse`)
 </div>
 
-<!-- Sätze zu Beruf / Ausbildung -->
+
 <div class="flex-child">
 Sprich 'Ich bin …' auf französisch.
 
@@ -3554,7 +3539,7 @@ Sprich 'Ich arbeite Schicht.' auf französisch.
 @SpeechRecognition(fr-FR,`Je fais les trois-huit.`)
 </div>
 
-<!-- Kleidung -->
+
 <div class="flex-child">
 Sprich 'die Bluse' auf französisch.
 
@@ -3619,7 +3604,7 @@ Sprich 'der Pullover' auf französisch.
 @SpeechRecognition(fr-FR,`le pull`)
 </div>
 
-<!-- Adjektive -->
+
 <div class="flex-child">
 Sprich 'schön' auf französisch.
 
@@ -3652,7 +3637,7 @@ Sprich 'günstig' auf französisch.
 @SpeechRecognition(fr-FR,`bon marché`)
 </div>
 
-<!-- Datum & Zeitangaben -->
+
 <div class="flex-child">
 Sprich 'am ersten Mai' auf französisch.
 
@@ -3698,7 +3683,7 @@ Sprich 'in der Nacht' auf französisch.
 
 <section class="flex-container">
 
-<!-- Mein Körper -->
+
 <div class="flex-child">
 Sprich 'der Kopf' auf französisch.
 
@@ -3779,7 +3764,7 @@ Sprich 'der Fuß' auf französisch.
 @SpeechRecognition(fr-FR,`le pied`)
 </div>
 
-<!-- Beschwerden -->
+
 <div class="flex-child">
 Sprich 'Mein Hals tut weh.' auf französisch.
 
@@ -3852,7 +3837,7 @@ Sprich 'Ich bin erkältet.' auf französisch.
 @SpeechRecognition(fr-FR,`J’ai pris froid.`)
 </div>
 
-<!-- Ratschläge -->
+
 <div class="flex-child">
 Sprich 'Trinken Sie Tee.' auf französisch.
 
@@ -3885,7 +3870,7 @@ Sprich 'Schlafen Sie viel.' auf französisch.
 @SpeechRecognition(fr-FR,`Vous avez besoin de beaucoup de sommeil.`)
 </div>
 
-<!-- Weitere Wörter -->
+
 <div class="flex-child">
 Sprich 'schwanger' auf französisch.
 
