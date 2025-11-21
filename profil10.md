@@ -4246,13 +4246,307 @@ $$
 
 
 
+### Euler-Lagrange-Gleichungen - Übungen
+
+$$
+\begin{align*}
+ \frac{\partial L}{\partial q} \;-\; \frac{d}{dt}\!\left(\frac{\partial L}{\partial \dot{q}}\right) \;=\;0 
+\end{align*}
+$$
 
 
-## Differentialgleichungen
+
+**Aufgabe 1:** Es ist jeweils ein Lagrangian gegeben. Bestimme die Terme.  
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+$a)\;\; L = c \dot{q}^3 - 4rq $ 
+
+
+$\dfrac{\partial L}{\partial q}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{q}}  =  $ \
+
+
+[[!]]
+<script>true</script>
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial x} & =  -4r   \\
+\frac{\partial L}{\partial \dot{x}} & =  3 c \dot{q}^2  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$b)\;\; L = a \dot{z}^2 - 5 b z^4 $ 
+
+
+$\dfrac{\partial L}{\partial z}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{z}}  =  $ \
+
+
+[[!]]
+<script>true</script>
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial z} & = -20 b z^3  \\
+\frac{\partial L}{\partial \dot{z}} & = 2 a \dot{z}  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$c)\;\; L = \frac{1}{2} m \dot{n}^2 + k n^2 $ 
+
+
+$\dfrac{\partial L}{\partial n}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{n}}  =  $ \
+
+
+[[!]]
+<script>true</script>
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial n} & = 2 k n  \\
+\frac{\partial L}{\partial \dot{n}} & = m \dot{n}  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$d)\;\; L = \alpha a^2 \dot{a} - \beta a $ 
+
+
+$\dfrac{\partial L}{\partial a}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{a}}  =  $ \
+
+
+[[!]]
+<script>true</script>
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial a} & = 2 \alpha a \dot{a} - \beta  \\
+\frac{\partial L}{\partial \dot{a}} & = \alpha a^2  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$e)\;\; L = \lambda \dot{s}^3 + \mu s^3 $ 
+
+
+$\dfrac{\partial L}{\partial s}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{s}}  =  $ \
+
+
+[[!]]
+<script>true</script>
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial s} & = 3 \mu s^2  \\
+\frac{\partial L}{\partial \dot{s}} & = 3 \lambda \dot{s}^2  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$f)\;\; L = p r \dot{r}^2 - s r^2 $ 
+
+
+$\dfrac{\partial L}{\partial r}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{r}}  =  $ \
+
+
+[[!]]
+<script>true</script>
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial r} & = p \dot{r}^2 - 2 s r  \\
+\frac{\partial L}{\partial \dot{r}} & = 2 p r \dot{r}  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+
+</section>
 
 
 
-## Bahnkurve
+**Aufgabe 2:** Es ist jeweils ein Lagrangian gegeben. Stelle die Euler-Lagrange-Gleichung für diesen Lagrangian auf.  \
+
+
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+
+$a)\;\; L = ktx^2 + z\dot{x}^2 $
+
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial x} & = 2ktx  \\
+\frac{\partial L}{\partial \dot{x}} & = 2z\dot{x}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{x}} & = 2z\ddot{x}   \\
+0 = 2ktx - 2z\ddot{x}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$b)\;\; L = a t^2 z^2 + b\dot{z}^2 $
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial z} & = 2 a t^2 z  \\
+\frac{\partial L}{\partial \dot{z}} & = 2 b \dot{z}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{z}} & = 2 b \ddot{z}   \\
+0 = 2 a t^2 z - 2 b \ddot{z}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$c)\;\; L = c w e^3 + d\dot{e}^2 $
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial e} & = 3 c w e^2  \\
+\frac{\partial L}{\partial \dot{e}} & = 2 d \dot{e}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{e}} & = 2 d \ddot{e}   \\
+0 = 3 c w e^2 - 2 d \ddot{e}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$d)\;\; L = e d^3 y^2 + f\dot{y}^2 $
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial y} & = 2 e d^3 y  \\
+\frac{\partial L}{\partial \dot{y}} & = 2 f \dot{y}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{y}} & = 2 f \ddot{y}   \\
+0 = 2 e d^3 y - 2 f \ddot{y}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$e)\;\; L = g k^2 r^4 + h\dot{r}^2 $
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial r} & = 4 g k^2 r^3  \\
+\frac{\partial L}{\partial \dot{r}} & = 2 h \dot{r}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{r}} & = 2 h \ddot{r}   \\
+0 = 4 g k^2 r^3 - 2 h \ddot{r}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$f)\;\; L = p \cos(t)\, x^2 + q\dot{x}^2 $
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial x} & = 2 p \cos(t)\, x  \\
+\frac{\partial L}{\partial \dot{x}} & = 2 q \dot{x}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{x}} & = 2 q \ddot{x}   \\
+0 = 2 p \cos(t)\, x - 2 q \ddot{x}
+\end{align*}
+$$
+******************************
+
+</div>
+
+
+</section>
+
 
 
 
