@@ -214,7 +214,7 @@ __$a)\;\;$__  **Bestimme** die Stärke der resultierenden Kraft und gib diese au
 
 <center>
 <!-- style="width:400px" -->
-![](Superp1.png)
+![](Superp1.PNG)
 </center>
 
 
@@ -224,7 +224,7 @@ $F_\text{Res}\approx$[[  2,236  ]]N
 
 <center>
 <!-- style="width:400px" -->
-![](Superp1L.png)
+![](Superp1L.PNG)
 </center>
 
 
@@ -241,7 +241,7 @@ __$b)\;\;$__  **Bestimme** die Stärke der resultierenden Kraft und gib diese au
 
 <center>
 <!-- style="width:400px" -->
-![](Superp2.png)
+![](Superp2.PNG)
 </center>
 
 
@@ -251,7 +251,7 @@ $F_\text{Res}\approx$[[  5,000  ]]N
 
 <center>
 <!-- style="width:400px" -->
-![](Superp2L.png)
+![](Superp2L.PNG)
 </center>
 
 
@@ -268,7 +268,7 @@ __$c)\;\;$__  **Bestimme** die Stärke der resultierenden Kraft und gib diese au
 
 <center>
 <!-- style="width:400px" -->
-![](Superp3.png)
+![](Superp3.PNG)
 </center>
 
 
@@ -278,7 +278,7 @@ $F_\text{Res}\approx$[[  4,123  ]]N
 
 <center>
 <!-- style="width:400px" -->
-![](Superp3L.png)
+![](Superp3L.PNG)
 </center>
 
 
