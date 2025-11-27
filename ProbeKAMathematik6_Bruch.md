@@ -854,7 +854,7 @@ $$
 
 
 
-__$a)\;\;$__ Berechne den Flächeninhalt eines Rechtecks mit den Maßen $a=\dfrac{48}{27}\,$cm und $a=\dfrac{15}{8}\,$cm. \
+__$a)\;\;$__ Berechne den Flächeninhalt eines Rechtecks mit den Maßen $a=\dfrac{48}{27}\,$cm und $b=\dfrac{15}{8}\,$cm. \
 $A=$[[  10/3  ]]cm$^2$
 @Algebrite.check(10/3)
 ************
@@ -871,7 +871,7 @@ $$
 ************
 
 
-__$b)\;\;$__ Berechne den Umfang eines Rechtecks mit den Maßen $a=\dfrac{5}{7}\,$cm und $a=\dfrac{9}{8}\,$cm. \
+__$b)\;\;$__ Berechne den Umfang eines Rechtecks mit den Maßen $a=\dfrac{5}{7}\,$cm und $b=\dfrac{9}{8}\,$cm. \
 $u=$[[  103/28  ]]cm
 @Algebrite.check(103/28)
 ************
@@ -905,7 +905,7 @@ $O=$[[  235/36  ]]cm$^2$
 $$
 \begin{align*}
 O &= 2\,(ab + ac + bc) \\[4pt]
-  &= 2\left(\dfrac{3}{4}\text{cm} \cdot\dfrac{5}{3}\text{cm}  + \dfrac{3}{4}\text{cm} \cdot\dfrac{5}{6}\text{cm}  + \dfrac{5}{3}\text{cm} \cdot\dfrac{5}{6}\text{cm} right)\\[4pt]
+  &= 2 \left( \dfrac{3}{4}\text{cm} \cdot \dfrac{5}{3}\text{cm}  + \dfrac{3}{4}\text{cm} \cdot \dfrac{5}{6}\text{cm}  + \dfrac{5}{3} \text{cm} \cdot \dfrac{5}{6} \text{cm} \right) \\[4pt]
   &= 2\left(\dfrac{15}{12}\text{cm}^2 + \dfrac{15}{24}\text{cm}^2 + \dfrac{25}{18}\text{cm}^2\right) \\[4pt]
   &= 2\left(\dfrac{5}{4} + \dfrac{5}{8} + \dfrac{25}{18}\right)\text{cm}^2 \\[4pt]
   &= 2\left(\dfrac{90}{72} + \dfrac{45}{72} + \dfrac{100}{72}\right)\text{cm}^2 \\[4pt]
