@@ -398,3 +398,231 @@ $$
 &P(V) = 0,12 \neq P(V \cap A) \qquad _{\Box}  \\
 \end{align*}
 $$
+
+
+
+
+
+#  Stochastik - Aufgabe 6: 
+
+
+
+Gegeben ist eine Zufallsvariable $X$ mit $X \sim B(n=5, p)$.
+
+Es soll überprüft werden, ob die Erfolgswahrscheinlichkeit $p$ eher
+„normal“ ($p = 0{,}5$) oder eher „erhöht“ ($p = 0{,}8$) ist.
+
+Es wird folgender Test verwendet (Entscheidungsregel):
+
+> Wenn in den $5$ Versuchen mindestens $4$ Erfolge auftreten ($X \ge 4$),
+> dann wird die Nullhypothese verworfen.  
+> Sonst ($X \le 3$) wird die Nullhypothese beibehalten.
+
+
+__$a)\;\;$__ **Formuliere** die Nullhypothese $H_0$ und die Gegenhypothese (alternative Hypothese) $H_1$.
+
+
+[[!]]
+<script>true</script>
+********************
+
+Es werden zwei feste Werte für $p$ verglichen:
+
+- Nullhypothese:  
+  $H_0:\; p = 0{,}5$
+
+- Gegenhypothese:  
+  $H_1:\; p = 0{,}8$
+
+********************
+
+__$b)\;\;$__ **Bestimme** den $\alpha$-Fehler dieses Tests. 
+Das ist die Wahrscheinlichkeit, dass $H_0$ verworfen wird, obwohl in Wirklichkeit $p = 0{,}5$ gilt.
+
+$\alpha = $ [[ 18,75 ]]$\,\%$
+@Algebrite.check(18.75)
+********************
+$\alpha = P(X \ge 4 \mid p = 0{,}5) = P(X = 4 \mid p = 0{,}5) + P(X = 5 \mid p = 0{,}5)$.
+
+Mit $X \sim B(5, 0{,}5)$ gilt allgemein
+$P(X = k) = \binom{5}{k} \cdot 0{,}5^k \cdot 0{,}5^{5-k} = \binom{5}{k} \cdot 0{,}5^5$.
+
+Also
+$P(X = 4) = \binom{5}{4} \cdot 0{,}5^4 \cdot 0{,}5^1 = 5 \cdot 0{,}5^4 \cdot 0{,}5^1$,
+
+$P(X = 5) = \binom{5}{5} \cdot 0{,}5^5 = 1 \cdot 0{,}5^5$.
+
+Damit
+$\alpha = (5 + 1) \cdot 0{,}5^5 = 6 \cdot \dfrac{1}{32} = \dfrac{6}{32} = \dfrac{3}{16} = 0{,}1875$.
+
+In Prozent: $\alpha = 18{,}75\%$.
+
+********************
+
+
+
+__$c)\;\;$__ **Bestimme** den $\beta$-Fehler dieses Tests.
+Das ist die Wahrscheinlichkeit, dass $H_0$ **nicht** verworfen wird, obwohl in Wirklichkeit $p = 0{,}8$ gilt. \
+
+
+$\beta \approx $ [[ 26,27 ]]$\,\%$
+@Algebrite.check2(26.27,0.01)
+********************
+Wir betrachten nun $X \sim B(5, 0{,}8)$ und berechnen
+$\beta = P(X \le 3 \mid p = 0{,}8)$.
+
+Bequemer ist:
+$\beta = 1 - P(X \ge 4 \mid p = 0{,}8) = 1 - \bigl(P(X = 4) + P(X = 5)\bigr)$.
+
+Nun
+$P(X = 4) = \binom{5}{4} \cdot 0{,}8^4 \cdot 0{,}2^1 = 5 \cdot 0{,}8^4 \cdot 0{,}2$,
+
+$P(X = 5) = \binom{5}{5} \cdot 0{,}8^5 \cdot 0{,}2^0 = 1 \cdot 0{,}8^5$.
+
+Also
+$P(X = 4) = 5 \cdot 0{,}8^4 \cdot 0{,}2 = 5 \cdot 0{,}4096 \cdot 0{,}2 = 0{,}4096$,
+
+$P(X = 5) = 0{,}8^5 = 0{,}32768$.
+
+Damit
+$P(X \ge 4) = 0{,}4096 + 0{,}32768 = 0{,}73728$
+
+und
+$\beta = 1 - 0{,}73728 = 0{,}26272$.
+
+In Prozent: $\beta \approx 26{,}3\%$.
+
+********************
+
+__$d)\;\;$__ **Erkläre** in eigenen Worten, was $\alpha$- und $\beta$-Fehler in dieser Situation bedeuten.
+
+
+
+[[!]]
+<script>true</script>
+********************
+
+- Der $\alpha$-Fehler (ca. $18{,}75\%$):  
+  Das ist die Wahrscheinlichkeit, dass der Test sagt  
+  „$p = 0{,}8$ (erhöht)“ und die Nullhypothese $H_0: p = 0{,}5$
+  verwirft, obwohl in Wirklichkeit $p = 0{,}5$ ist.
+
+- Der $\beta$-Fehler (ca. $26{,}3\%$):  
+  Das ist die Wahrscheinlichkeit, dass der Test bei der Nullhypothese
+  $H_0: p = 0{,}5$ bleibt, also nicht verwirft,
+  obwohl in Wirklichkeit $p = 0{,}8$ ist.
+
+********************
+
+
+
+
+
+
+
+
+
+#  Stochastik - Aufgabe 7: 
+
+
+
+Gegeben ist eine Zufallsvariable $X$ mit $X \sim B(n = 20, p)$.
+
+Es soll überprüft werden, ob die Erfolgswahrscheinlichkeit $p$ eher
+„normal“ ($p = 0{,}2$) oder „leicht erhöht“ ($p = 0{,}3$) ist.
+
+Es wird folgender Test verwendet (Entscheidungsregel):
+
+> Wenn in den $20$ Versuchen mindestens $6$ Erfolge auftreten ($X \ge 6$),
+> dann wird die Nullhypothese verworfen.  
+> Sonst ($X \le 5$) wird die Nullhypothese beibehalten.
+
+---
+
+__$a)\;\;$__ **Formuliere** die Nullhypothese $H_0$ und die Gegenhypothese (alternative Hypothese) $H_1$.
+
+[[!]]
+<script>true</script>
+********************
+
+Es werden zwei feste Werte für $p$ verglichen:
+
+- Nullhypothese:  
+  $H_0:\; p = 0{,}2$
+
+- Gegenhypothese:  
+  $H_1:\; p = 0{,}3$
+
+********************
+
+__$b)\;\;$__ **Bestimme** den $\alpha$-Fehler dieses Tests.  
+Das ist die Wahrscheinlichkeit, dass $H_0$ verworfen wird, obwohl in Wirklichkeit $p = 0{,}2$ gilt.
+
+$\alpha \approx $ [[ 19,58 ]]$\,\%$
+@Algebrite.check2(19.58,0.01)
+********************
+
+Der $\alpha$-Fehler ist
+$\alpha = P(X \ge 6 \mid p = 0{,}2)$.
+
+Bequemer ist die Rechnung über das Komplement:
+$\alpha = 1 - P(X \le 5 \mid p = 0{,}2)$.
+
+Mit $X \sim B(20, 0{,}2)$ gilt allgemein
+$P(X = k) = \binom{20}{k} \cdot 0{,}2^k \cdot 0{,}8^{20-k}$.
+
+Also
+$P(X \le 5) = \displaystyle\sum_{k=0}^{5} \binom{20}{k} \cdot 0{,}2^k \cdot 0{,}8^{20-k}$
+
+und damit
+$\alpha = 1 - \displaystyle\sum_{k=0}^{5} \binom{20}{k} \cdot 0{,}2^k \cdot 0{,}8^{20-k} \approx 0{,}1958$.
+
+In Prozent: $\alpha \approx 19{,}58\%$.
+
+********************
+
+__$c)\;\;$__ **Bestimme** den $\beta$-Fehler dieses Tests.  
+Das ist die Wahrscheinlichkeit, dass $H_0$ nicht verworfen wird, obwohl in Wirklichkeit $p = 0{,}3$ gilt.
+
+$\beta \approx $ [[ 41,64 ]]$\,\%$
+@Algebrite.check2(41.64,0.01)
+********************
+
+Jetzt gilt $X \sim B(20, 0{,}3)$.
+
+Der $\beta$-Fehler ist
+$\beta = P(X \le 5 \mid p = 0{,}3)$,
+
+denn dann wird $H_0$ beibehalten.
+
+Wir berechnen
+$\beta = \displaystyle\sum_{k=0}^{5} \binom{20}{k} \cdot 0{,}3^k \cdot 0{,}7^{20-k}$
+
+und erhalten näherungsweise
+$\beta \approx 0{,}4164$.
+
+In Prozent: $\beta \approx 41{,}64\%$.
+
+********************
+
+__$d)\;\;$__ **Erkläre** in eigenen Worten, was $\alpha$- und $\beta$-Fehler in dieser Situation bedeuten.
+
+[[!]]
+<script>true</script>
+********************
+
+- Der $\alpha$-Fehler (ca. $19{,}58\%$):  
+  Das ist die Wahrscheinlichkeit, dass der Test $H_0$ verwirft und sich
+  für $p = 0{,}3$ entscheidet, obwohl in Wirklichkeit $p = 0{,}2$ ist.
+
+- Der $\beta$-Fehler (ca. $41{,}64\%$):  
+  Das ist die Wahrscheinlichkeit, dass der Test $H_0$ beibehält
+  (also $p = 0{,}2$ nicht verwirft),  
+  obwohl in Wirklichkeit $p = 0{,}3$ ist.
+
+********************
+
+
+
+
+
