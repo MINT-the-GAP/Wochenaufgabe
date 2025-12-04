@@ -882,8 +882,7 @@ eine zulässige Wahl für den zweiseitigen Verwerfungsbereich.
 ********************
 
 
-__$c)\;\;$__ **Berechne** den tatsächlichen $\alpha$-Fehler dieses Tests
-mit den Grenzen $k_{\text{unten}} = 3$ und $k_{\text{oben}} = 13$.
+__$c)\;\;$__ **Berechne** den tatsächlichen $\alpha$-Fehler dieses Tests mit den gefundenen Grenzen.
 
 $\alpha \approx $ [[ 9,22 ]]$\,\%$
 @Algebrite.check2(9.22,0.1)
