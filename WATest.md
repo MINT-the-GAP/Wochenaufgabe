@@ -625,4 +625,637 @@ __$d)\;\;$__ **Erkläre** in eigenen Worten, was $\alpha$- und $\beta$-Fehler in
 
 
 
+#  Stochastik - Aufgabe 8: 
+
+
+
+Gegeben ist eine Zufallsvariable $X$ mit $X \sim B(n = 10, p)$.
+
+Es soll überprüft werden, ob die Erfolgswahrscheinlichkeit $p$ eher
+„klein“ ($p = 0{,}2$) oder „größer“ ($p = 0{,}25$) ist.
+
+Wir legen ein Signifikanzniveau von $\alpha = 10\,\%$ fest und wollen
+einen rechtsseitigen Test verwenden:
+
+> Wir verwerfen $H_0$, wenn $X \ge c$ gilt.  
+> Sonst (also für $X \le c-1$) behalten wir $H_0$ bei.
+
+Dabei ist $c$ eine ganze Zahl, die noch so zu wählen ist,  
+dass der Test das geforderte Signifikanzniveau nicht überschreitet.
+
+
+
+---
+
+__$a)\;\;$__ **Formuliere** die Nullhypothese $H_0$ und die Gegenhypothese (alternative Hypothese) $H_1$.
+
+[[!]]
+<script>true</script>
+********************
+
+Es werden zwei feste Werte für $p$ verglichen:
+
+- Nullhypothese:  
+  $H_0:\; p = 0{,}2$
+
+- Gegenhypothese:  
+  $H_1:\; p = 0{,}25$
+
+********************
+
+
+__$b)\;\;$__ Bestimme nun den Wert $c$ so, dass der Test das
+Signifikanzniveau $\alpha = 10\,\%$ **nicht überschreitet**.  
+Verwende die Entscheidungsregel
+
+> „Verwerfe $H_0$, wenn $X \ge c$.“
+
+Gesucht ist also das **kleinste** $c$, für das gilt:
+$P(X \ge c \mid p = 0{,}2) \le 0{,}10$.
+
+$c = $ [[ 5 ]]
+********************
+
+Wir betrachten $X \sim B(10, 0{,}2)$ unter $H_0$.
+
+Für verschiedene $c$ gilt:
+
+- Für $c = 4$:
+  $$
+  P(X \ge 4 \mid p = 0{,}2)
+  = 1 - P(X \le 3 \mid p = 0{,}2)
+  \approx 0{,}1209 > 0{,}10
+  $$
+  $\Rightarrow$ Signifikanzniveau wird **überschritten**, $c = 4$ ist **nicht** zulässig.
+
+- Für $c = 5$:
+  $$
+  P(X \ge 5 \mid p = 0{,}2)
+  \approx 0{,}0328 \le 0{,}10
+  $$
+  $\Rightarrow$ Signifikanzniveau wird **eingehalten**.
+
+Damit ist das **kleinste** zulässige $c$:
+$c = 5$.
+
+********************
+
+
+__$c)\;\;$__ **Berechne** den tatsächlichen $\alpha$-Fehler dieses Tests mit der gefundenen Grenze $c = 5$.  
+
+$\alpha \approx $ [[ 3,28 ]]$\,\%$
+@Algebrite.check2(3.28,0.01)
+********************
+
+Unter $H_0$ gilt $X \sim B(10, 0{,}2)$.
+
+Der $\alpha$-Fehler ist:
+$$
+\alpha = P(X \ge 5 \mid p = 0{,}2)
+= \sum_{k=5}^{10} \binom{10}{k} \cdot 0{,}2^k \cdot 0{,}8^{10-k}.
+$$
+
+Mit dem Taschenrechner (oder Tabellen) erhält man:
+$$
+\alpha \approx 0{,}0328.
+$$
+
+In Prozent:
+$$
+\alpha \approx 3{,}28\,\%.
+$$
+
+********************
+
+
+__$d)\;\;$__ **Berechne** den $\beta$-Fehler dieses Tests, wenn in Wirklichkeit $p = 0{,}25$ gilt.  
+
+$\beta \approx $ [[ 92,19 ]]$\,\%$
+@Algebrite.check2(92.19,0.01)
+********************
+
+Jetzt betrachten wir die Gegenhypothese:
+$H_1:\; p = 0{,}25$.
+
+Dann gilt $X \sim B(10, 0{,}25)$.
+
+Der $\beta$-Fehler ist die Wahrscheinlichkeit, dass wir $H_0$ **beibehalten**, obwohl $p = 0{,}25$ gilt.  
+$H_0$ wird beibehalten, wenn $X \le 4$ ist (da wir nur für $X \ge 5$ verwerfen).
+
+Also:
+$$
+\beta = P(X \le 4 \mid p = 0{,}25)
+= \sum_{k=0}^{4} \binom{10}{k} \cdot 0{,}25^k \cdot 0{,}75^{10-k}.
+$$
+
+Mit dem Taschenrechner erhält man näherungsweise:
+$$
+\beta \approx 0{,}9219.
+$$
+
+In Prozent:
+$$
+\beta \approx 92{,}19\,\%.
+$$
+
+********************
+
+
+__$e)\;\;$__ **Erkläre** in eigenen Worten, was $\alpha$- und $\beta$-Fehler in dieser Situation bedeuten.
+
+[[!]]
+<script>true</script>
+********************
+
+- Der $\alpha$-Fehler (ca. $3{,}28\,\%$):  
+  Das ist die Wahrscheinlichkeit, dass der Test $H_0:\; p = 0{,}2$ verwirft
+  (also behauptet, $p$ sei größer),  
+  obwohl in Wirklichkeit $p = 0{,}2$ ist.
+
+- Der $\beta$-Fehler (ca. $92{,}19\,\%$):  
+  Das ist die Wahrscheinlichkeit, dass der Test $H_0:\; p = 0{,}2$ nicht verwirft
+  (also bei „$p = 0{,}2$“ bleibt),  
+  obwohl in Wirklichkeit $p = 0{,}25$ ist.
+
+********************
+
+
+
+
+#  Stochastik - Aufgabe 9: 
+
+
+
+
+Gegeben ist eine Zufallsvariable $X$ mit $X \sim B(n = 50, p)$.
+
+Es soll überprüft werden, ob die Erfolgswahrscheinlichkeit $p$ eher
+„klein“ ($p = 0{,}17$) oder „etwas größer“ ($p = 0{,}23$) ist.
+
+Wir legen ein Signifikanzniveau von $\alpha = 10\,\%$ fest und wollen
+einen zweiseitigen Test verwenden:
+
+> Wir verwerfen $H_0$, wenn $X \le k_{\text{unten}}$ oder
+> $X \ge k_{\text{oben}}$ gilt.  
+> Sonst (für $k_{\text{unten}} < X < k_{\text{oben}}$) behalten wir $H_0$ bei.
+
+Die beiden ganzen Zahlen $k_{\text{unten}}$ und $k_{\text{oben}}$ sollen so gewählt werden,
+dass das Signifikanzniveau $\alpha = 10\,\%$ nicht überschritten wird.
+
+
+---
+
+__$a)\;\;$__ **Formuliere** die Nullhypothese $H_0$ und die Gegenhypothese (alternative Hypothese) $H_1$.
+
+[[!]]
+<script>true</script>
+********************
+
+Es werden zwei feste Werte für $p$ verglichen:
+
+- Nullhypothese:  
+  $H_0:\; p = 0{,}17$
+
+- Gegenhypothese:  
+  $H_1:\; p = 0{,}23$
+
+********************
+
+__$b)\;\;$__ **Bestimme** die passenden Grenzwerte $k_{\text{unten}}$ und $k_{\text{oben}}$.
+
+$k_{\text{unten}} = $ [[ 3 ]] $\;\;\wedge\;\;$
+$k_{\text{oben}} = $ [[ 13 ]]
+********************
+
+Unter $H_0$ gilt $X \sim B(50, 0{,}17)$.
+
+Zuerst berechnen wir Erwartungswert und Standardabweichung:
+
+- Erwartungswert:
+  $$
+  \mu = n p = 50 \cdot 0{,}17 = 8{,}5
+  $$
+- Standardabweichung:
+  $$
+  \sigma = \sqrt{n p (1-p)}
+  = \sqrt{50 \cdot 0{,}17 \cdot 0{,}83}
+  \approx \sqrt{23{,}605} \approx 2{,}66
+  $$
+
+Für einen zweiseitigen Test mit $\alpha = 10\,\%$ verwenden wir
+$z \approx 1{,}645$ und erhalten als groben Annahmebereich:
+$$
+\mu \pm z \sigma
+= 8{,}5 \pm 1{,}645 \cdot 2{,}66
+\approx 8{,}5 \pm 4{,}4
+$$
+also näherungsweise:
+$$
+4 \lesssim X \lesssim 13.
+$$
+
+Daraus bietet sich als Annahmebereich der ganzzahlige Bereich
+$$
+4 \le X \le 12
+$$
+an und damit als Verwerfungsbereich:
+$$
+X \le 3 \quad \text{oder} \quad X \ge 13.
+$$
+
+Nun prüfen wir mit der Binomialverteilung, ob damit
+$\alpha \le 0{,}10$ gilt:
+
+- $P(X \le 3 \mid p = 0{,}17) \approx 0{,}0208$
+- $P(X \ge 13 \mid p = 0{,}17) \approx 0{,}0714$
+
+Damit:
+$$
+P(X \le 3) + P(X \ge 13)
+\approx 0{,}0208 + 0{,}0714
+= 0{,}0922 \le 0{,}10.
+$$
+
+Also sind $k_{\text{unten}} = 3$ und $k_{\text{oben}} = 13$
+eine zulässige Wahl für den zweiseitigen Verwerfungsbereich.
+
+********************
+
+
+__$c)\;\;$__ **Berechne** den tatsächlichen $\alpha$-Fehler dieses Tests
+mit den Grenzen $k_{\text{unten}} = 3$ und $k_{\text{oben}} = 13$.
+
+$\alpha \approx $ [[ 9,22 ]]$\,\%$
+@Algebrite.check2(9.22,0.1)
+********************
+
+Unter $H_0$ gilt $X \sim B(50, 0{,}17)$.
+
+Der $\alpha$-Fehler ist die Wahrscheinlichkeit, dass wir $H_0$ verwerfen,
+obwohl $p = 0{,}17$ stimmt:
+$$
+\alpha
+= P(X \le 3 \mid p = 0{,}17)
++ P(X \ge 13 \mid p = 0{,}17).
+$$
+
+Mit dem Taschenrechner erhält man näherungsweise:
+$$
+P(X \le 3) \approx 0{,}0208,
+\qquad
+P(X \ge 13) \approx 0{,}0714.
+$$
+
+Also:
+$$
+\alpha \approx 0{,}0208 + 0{,}0714 = 0{,}0922.
+$$
+
+In Prozent:
+$$
+\alpha \approx 9{,}22\,\%.
+$$
+
+********************
+
+
+__$d)\;\;$__ **Berechne** den $\beta$-Fehler dieses Tests, wenn in Wirklichkeit $p = 0{,}23$ gilt.
+
+$\beta \approx $ [[ 64,02 ]]$\,\%$
+@Algebrite.check2(64.02,0.2)
+********************
+
+Jetzt betrachten wir die Gegenhypothese:
+$H_1:\; p = 0{,}23$.
+
+Dann gilt $X \sim B(50, 0{,}23)$.
+
+Der $\beta$-Fehler ist die Wahrscheinlichkeit, dass wir $H_0$ beibehalten,
+obwohl in Wirklichkeit $p = 0{,}23$ ist.
+
+Beibehalten von $H_0$ bedeutet:
+$$
+k_{\text{unten}} < X < k_{\text{oben}}
+\quad\Rightarrow\quad
+4 \le X \le 12.
+$$
+
+Also:
+$$
+\beta = P(4 \le X \le 12 \mid p = 0{,}23)
+= P(X \le 12 \mid p = 0{,}23) - P(X \le 3 \mid p = 0{,}23).
+$$
+
+Mit dem Taschenrechner erhält man näherungsweise:
+$$
+P(X \le 3 \mid p = 0{,}23) \approx 0{,}0014,
+\qquad
+P(X \le 12 \mid p = 0{,}23) \approx 0{,}6415.
+$$
+
+Damit:
+$$
+\beta \approx 0{,}6415 - 0{,}0014 = 0{,}6401.
+$$
+
+In Prozent:
+$$
+\beta \approx 64{,}01\,\%.
+$$
+
+********************
+
+
+__$e)\;\;$__ **Erkläre** in eigenen Worten, was $\alpha$- und $\beta$-Fehler in dieser Situation bedeuten.
+
+[[!]]
+<script>true</script>
+********************
+
+- Der $\alpha$-Fehler (ca. $9{,}2\,\%$):  
+  Das ist die Wahrscheinlichkeit, dass der Test $H_0:\; p = 0{,}17$
+  verwirft (also sagt: „$p$ ist eher $0{,}23$“),
+  obwohl in Wirklichkeit $p = 0{,}17$ ist.
+
+- Der $\beta$-Fehler (ca. $64{,}0\,\%$):  
+  Das ist die Wahrscheinlichkeit, dass der Test $H_0:\; p = 0{,}17$
+  nicht verwirft (also bei „$p = 0{,}17$“ bleibt),
+  obwohl in Wirklichkeit $p = 0{,}23$ ist.
+
+********************
+
+
+
+
+
+
+
+#  Stochastik - Aufgabe 10: 
+
+
+
+
+
+
+
+
+
+#  Stochastik - Aufgabe 11: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#  Stochastik - Aufgabe 12: 
+
+
+
+Ein Hersteller von LED-Lampen wirbt damit, dass höchstens **5 %** seiner Lampen defekt sind.  
+Eine Verbraucherorganisation möchte diese Angabe überprüfen.
+
+Dazu werden zufällig und unabhängig **80 Lampen** aus der laufenden Produktion entnommen und getestet.  
+Eine Lampe gilt als „defekt“, wenn sie innerhalb der ersten 10 Minuten ausfällt.
+
+Wir betrachten die Zufallsvariable
+
+$$
+X = \text{„Anzahl der defekten Lampen in einer Stichprobe von 80 Lampen“}.
+$$
+
+---
+
+$a)\;\;$ Begründe, warum man $X$ als **binomialverteilte** Zufallsvariable auffassen kann, und gib die passenden Parameter $n$ und $p$ an (unter der Annahme, dass die Werbung stimmt).
+
+> Tipp: Überlege dir, welche Bedingungen für eine Binomialverteilung erfüllt sein müssen  
+> (feste Anzahl von Versuchen, zwei mögliche Ausgänge, konstante Wahrscheinlichkeit, Unabhängigkeit).
+
+---
+
+$b)\;\;$ Hypothesen formulieren
+
+Es soll getestet werden, ob die Werbeaussage „höchstens 5 % defekt“ noch glaubwürdig ist.
+
+**Aufgabe:**  
+Formuliere eine Nullhypothese $H_0$ und eine Alternativhypothese $H_1$ für den Anteil defekter Lampen $p$.
+
+> Tipp: $H_0$ entspricht der Werbeaussage, $H_1$ dem Verdacht der Verbraucherorganisation.
+
+---
+
+$c)\;\;$ Testentscheidung bei Signifikanzniveau $\alpha = 5\,\%$
+
+Es soll ein **einseitiger Test** durchgeführt werden mit Signifikanzniveau $\alpha = 5\,\%$.
+
+Man schlägt die folgende Entscheidungsregel vor:
+
+> „Wir verwerfen $H_0$, wenn in der Stichprobe **mindestens 8** defekte Lampen auftreten.“
+
+1. Begründe, warum diese Entscheidungsregel zu einem Test passt, der „schlechte Qualität“ (zu viele Defekte) nachweisen soll.  
+2. Berechne (mithilfe einer geeigneten Tabelle oder eines CAS) die Wahrscheinlichkeit
+   $$
+   P(X \ge 8 \mid p = 0{,}05)
+   $$
+   und überprüfe, ob das Signifikanzniveau $\alpha = 5\,\%$ eingehalten wird.
+
+---
+
+$d)\;\;$ Fehler 1. und 2. Art – anschauliche Deutung
+
+1. Erkläre in **eigenen Worten**, was in diesem Kontext ein  
+   - Fehler **1. Art** (Alpha-Fehler) und  
+   - Fehler **2. Art** (Beta-Fehler)  
+   bedeutet.
+
+2. Überlege: Für wen ist welcher Fehler „schlimmer“ – eher für den **Hersteller** oder eher für die **Kundschaft**? Begründe kurz.
+
+---
+
+$e)\;\;$ Abschätzung des Beta-Fehlers
+
+Angenommen, die wahre Defektwahrscheinlichkeit beträgt in Wirklichkeit schon $p = 0{,}10$ (also 10 %).
+
+Es wird weiterhin mit der Entscheidungsregel  
+„Verwerfe $H_0$, wenn $X \ge 8$“ gearbeitet.
+
+1. Bestimme (mithilfe einer Tabelle oder eines CAS) die Wahrscheinlichkeit
+   $$
+   \beta = P(\text{„Wir verwerfen } H_0 \text{ nicht“} \mid p = 0{,}10).
+   $$
+   Hinweis: „Wir verwerfen $H_0$ **nicht**“ bedeutet hier $X \le 7$.
+
+2. Deute das Ergebnis im Sachkontext:  
+   Was sagt die Höhe von $\beta$ über die „Entdeckungswahrscheinlichkeit“ schlechter Qualität aus?
+
+---
+
+$f)\;\;$ Kritische Reflexion
+
+Beurteile, ob du diesen Test aus Sicht der Verbraucherorganisation als ausreichend empfindest.  
+Gehe dabei kurz auf das Zusammenspiel von $\alpha$ und $\beta$ ein  
+(z.B. „streng für den Hersteller“ vs. „schützend für die Kundschaft“).
+
+---
+
+<details>
+<summary><strong>Musterlösung (zum Aufklappen)</strong></summary>
+
+a) Modellierung
+
+- Es werden $n = 80$ Lampen getestet, also eine feste Stichprobengröße.
+- Jede Lampe ist (unter der Werbeaussage) mit Wahrscheinlichkeit $p = 0{,}05$ defekt.
+- Die Lampen werden zufällig und unabhängig ausgewählt.
+
+Damit gilt:
+$$
+X \sim B(n = 80,\; p = 0{,}05).
+$$
+
+---
+
+b) Hypothesen
+
+Werbeaussage: „höchstens 5 % defekt“.
+
+Eine mögliche Formulierung (Schulstandard):
+
+- Nullhypothese:
+  $$
+  H_0: p = 0{,}05
+  $$
+  (bzw. je nach Konvention auch $H_0: p \le 0{,}05$)
+
+- Alternativhypothese:
+  $$
+  H_1: p > 0{,}05,
+  $$
+  also: Der Anteil defekter Lampen ist **größer** als 5 %.
+
+---
+
+c) Testentscheidung bei $\alpha = 5\,\%$
+
+**1. Begründung der Entscheidungsregel**
+
+Entscheidungsregel: „Verwirf $H_0$, wenn $X \ge 8$.“
+
+- Viele defekte Lampen (8 oder mehr) sind ein Hinweis darauf, dass der wahre Anteil $p$ **größer** als 5 % ist.
+- Damit passt die Regel gut zur Alternativhypothese $H_1: p > 0{,}05$.
+
+**2. Prüfung des Signifikanzniveaus**
+
+Unter $H_0$ gilt $X \sim B(80; 0{,}05)$.
+
+Gesucht ist:
+$$
+\alpha = P(X \ge 8 \mid p = 0{,}05) = 1 - P(X \le 7 \mid p = 0{,}05).
+$$
+
+Mit CAS oder Tabelle erhält man (gerundet):
+$$
+P(X \ge 8) \approx 0{,}0466.
+$$
+
+Damit:
+$$
+\alpha \approx 4{,}7\,\% < 5\,\%.
+$$
+
+Das Signifikanzniveau von $5\,\%$ wird also **eingehalten**.
+
+---
+
+d) Fehler 1. und 2. Art
+
+**Fehler 1. Art (Alpha-Fehler):**
+
+- In Wirklichkeit ist $H_0$ richtig (höchstens 5 % defekt),
+- aber der Test führt zur **Verwerfung** von $H_0$.
+- Interpretation: Der Hersteller wird **zu Unrecht** beschuldigt, schlechte Qualität zu liefern.
+
+**Fehler 2. Art (Beta-Fehler):**
+
+- In Wirklichkeit ist $H_1$ wahr (mehr als 5 % defekt),
+- aber der Test **verwirft $H_0$ nicht**.
+- Interpretation: Schlechte Qualität bleibt **unentdeckt**, Kundinnen und Kunden verlassen sich auf eine eigentlich falsche Werbeaussage.
+
+**Für wen ist welcher Fehler schlimmer?**
+
+- Für den **Hersteller** ist vor allem der Alpha-Fehler unangenehm (zu Unrecht schlechter Ruf, mögliche Konsequenzen).
+- Für die **Kundschaft** ist der Beta-Fehler gefährlicher (sie kaufen Produkte, die deutlich schlechter sind als versprochen).
+
+---
+
+e) Abschätzung des Beta-Fehlers
+
+Unter der Annahme $p = 0{,}10$ gilt:
+$$
+X \sim B(80; 0{,}10).
+$$
+
+Fehler 2. Art: Wir verwerfen $H_0$ **nicht**, also $X \le 7$.
+
+1. Berechnung:
+   $$
+   \beta = P(X \le 7 \mid p = 0{,}10).
+   $$
+
+   Mit CAS oder Tabelle erhält man (gerundet):
+   $$
+   \beta \approx 0{,}446.
+   $$
+
+2. Deutung:
+
+   - Mit einer Wahrscheinlichkeit von ca. $44{,}6\,\%$ wird **trotz** tatsächlicher schlechter Qualität ($p = 0{,}10$) die Nullhypothese $H_0$ nicht verworfen.
+   - Die „Entdeckungswahrscheinlichkeit“ schlechter Qualität (Teststärke) ist
+     $$
+     1 - \beta \approx 0{,}554,
+     $$
+     also nur etwa $55{,}4\,\%$.
+
+   → Selbst bei deutlich schlechterer Qualität schlägt der Test nur in gut der Hälfte der Fälle an.
+
+---
+
+f) Kritische Reflexion
+
+- Der Test wurde so gewählt, dass der Alpha-Fehler klein ist ($\alpha \approx 4{,}7\,\%$).  
+  → Das ist **herstellerfreundlich**: Der Hersteller wird nur selten „zu Unrecht“ beschuldigt.
+
+- Gleichzeitig ist der Beta-Fehler bei $p = 0{,}10$ relativ groß ($\beta \approx 44{,}6\,\%$).  
+  → Das ist **kundenunfreundlich**: Schlechte Qualität bleibt relativ oft unentdeckt.
+
+Aus Sicht der Verbraucherorganisation könnte man den Test daher als **nicht streng genug** ansehen.  
+Mögliche Verbesserungen:
+
+- Stichprobengröße $n$ erhöhen (mehr Lampen testen),  
+- eventuell eine strengere Entscheidungsregel wählen (z.B. schon ab 7 Defekten verwerfen, dann aber $\alpha$ neu prüfen).
+
+So wird deutlich, dass man $\alpha$ und $\beta$ nicht gleichzeitig beliebig klein machen kann – man muss einen **Kompromiss** finden zwischen Schutz der Hersteller und Schutz der Verbraucher.
+
+</details>
+
 
