@@ -46,7 +46,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 <br>
 
-> Letztes Update am 02.12.2025 gegen 20 Uhr
+> Letztes Update am 05.12.2025 gegen 21:30 Uhr
 
 <br>
 
@@ -170,6 +170,50 @@ $c)\;\;$ **Kreuze an**, ob die Aussage "wahr", "falsch" oder "nicht entscheidbar
 
 
 
+$a)\;\;$ **Berechne** den Gesamtwiderstand der dargestellten Schaltung.
+
+<center>
+<!-- style="width:400px" -->
+![](Zeug/GesamtWiderstand2.PNG)
+</center>
+
+
+<!-- data-solution-button="10" -->
+$R_{Gesamt} \approx$ [[  34,979  ]]$\,\Omega$
+@Algebrite.check2(8500/243,0.01)
+*****************************
+
+$$
+\begin{align*}
+     R_{12} & = R_1 + R_2 = 180\,\Omega + 75\,\Omega = 255\,\Omega \\
+		 \frac{1}{R_{ges}} & =  \frac{1}{R_{12}} + \frac{1}{R_{3}} + \frac{1}{R_{4}}  \\
+		 \frac{1}{R_{ges}} & =  \frac{1}{255\,\Omega } + \frac{1}{60\,\Omega } + \frac{1}{125\,\Omega }  \\
+		 \frac{1}{R_{ges}} & =  \frac{243}{8500\,\Omega }   \\
+		 R_{ges} & =  \frac{8500}{243} \,\Omega
+\end{align*} 
+$$
+
+*****************************
+
+
+
+$b)\;\;$ Bei der darstellten Schaltung liegt eine Gesamtstromstärke von $0,7\,$A an. **Berechne** die anliegende Spannung.
+
+
+<!-- data-solution-button="10" -->
+$U \approx$ [[  24,4856  ]]$\,$V
+@Algebrite.check2(24.4856,0.01)
+*****************************
+$$
+\begin{align*}
+U &= R_\text{ges} \cdot I \\
+  &= \frac{8500}{243}\,\Omega \cdot 0{,}7\,\text{A} \\
+  &= \frac{5950}{243}\,\text{V} \\
+  &\approx 24{,}4856\,\text{V} \\
+\end{align*}
+$$
+*****************************
+
 
 
 
@@ -269,8 +313,29 @@ $$
 
 
 
+Ein quaderförmiger Metallwiderstand wird in einem Stromkreis verwendet.  
+Er besteht aus einem Material mit dem spezifischen Widerstand $\rho = 1{,}2\,\Omega\,\dfrac{\text{mm}^2}{\text{m}}.$
+Der Widerstand ist $l = 2{,}0\,\text{m}$ lang. Sein rechteckiger Querschnitt hat eine bekannte Seitenlänge $a = 2{,}0\,\text{mm}$ und eine unbekannte Seitenlänge $b$. Beim Messen des Bauteils erhält man für den elektrischen Widerstand den Wert $R = 0{,}80\,\Omega.$
+**Berechne** die unbekannte Querschnittsseite $b$.
 
-## Aufgabe 6
 
+<!-- data-solution-button="10" -->
+$\rho \approx $ [[  1,5  ]]$\,$mm
+@Algebrite.check2(1.5,0.01)
+*******************************
 
+$$
+\begin{align*} 
+R &= \rho \cdot \frac{l}{A} \quad \left| \cdot \dfrac{A}{R}  \right.   \\
+A &= \rho \cdot \frac{l}{R} \quad \\
+  &= 1{,}2\,\Omega\,\frac{\text{mm}^2}{\text{m}}
+\cdot \frac{2{,}0\,\text{m}}{0{,}80\,\Omega} \\
+  &= 3{,}0\,\text{mm}^2 \\  
+A &= a \cdot b  \\ 
+\Rightarrow\quad b &= \frac{A}{a} \\
+& = \frac{3{,}0\,\text{mm}^2}{2{,}0\,\text{mm}} 
+& = 1{,}5\,\text{mm}
+\end{align*}
+$$
 
+*******************************
