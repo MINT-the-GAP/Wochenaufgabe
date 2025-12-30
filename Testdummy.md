@@ -217,10 +217,9 @@ Dann gilt $X \sim B(n=100,\;p=0{,}04)$.
 
 2. **Bestimme** die Wahrscheinlichkeit, dass kein Macaron fehlerhaft ist.  
 
-*(Runde auf zwei Nachkommastellen.)*
 
-$P(X \le 10) \approx$ [[  99,78  ]]$\,\% \;\;\wedge\;\;$ $P(X = 0) \approx$ [[  1,69  ]]$\,\%$
-@Algebrite.check([99.78;1.69])
+$P(X \le 10) \approx$ [[  99,78  ]] $\,\% \;\;\wedge\;\;$ $P(X = 0) \approx$ [[  1,69  ]] $\,\%$
+@Algebrite.check2([ 99.78 ; 1.69 ],[ 0.01 ; 0.01 ])
 ********************
 1. $X \sim B(100; 0{,}04)$, gesucht ist
    $$
@@ -323,7 +322,8 @@ Alle anderen Macarons (kleiner als $3{,}43\,$cm oder größer als $3{,}64\,$cm) 
 __$a)\;\;$__ **Bestimme** die Wahrscheinlichkeit (in Prozent, auf eine Dezimalstelle gerundet),  
 dass ein zufällig ausgewählter Macaron „zu groß“ ist.
 
-$P(X > 3{,}64) \approx$ [[  17,5  ]] %
+$P(X > 3{,}64) \approx$ [[  17,5  ]] $\,\%$
+@Algebrite.check2([ 17.5 ],[ 0.01 ])
 ********************
 Gegeben ist $X \sim \mathcal{N}(3{,}5;\ 0{,}15^2)$.
 
@@ -355,7 +355,8 @@ __$b)\;\;$__ **Berechne** die Wahrscheinlichkeit (in Prozent, auf eine Dezimalst
 dass ein zufällig ausgewählter Macaron nicht verkäuflich ist.  
 Nicht verkäuflich bedeutet hier: $X < 3{,}43$ oder $X > 3{,}64$.
 
-$P(\text{nicht verkäuflich}) \approx$ [[  49,6  ]] %
+$P(\text{nicht verkäuflich}) \approx$ [[  49,6  ]] $\,\%$
+@Algebrite.check2([ 49.6 ],[ 0.01 ])
 ********************
 
 Ein Macaron ist nicht verkäuflich, wenn
@@ -535,7 +536,8 @@ beträgt (also etwa halb so groß wie bisher).
 trotzdem nicht erkennt und sich nach dem Test gegen die Beschaffung der neuen Maschine entscheidet.  
 
 
-$P(\text{gegen Beschaffung trotz besserer Maschine}) \approx$ [[  86,7  ]] %
+$P(\text{gegen Beschaffung trotz besserer Maschine}) \approx$ [[  86,7  ]] $\,\%$
+@Algebrite.check2(86.7,0.03)
 ********************
 Nun gilt tatsächlich
 $$

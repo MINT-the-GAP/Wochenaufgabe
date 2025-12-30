@@ -60,7 +60,7 @@ author: Martin Lommatzsch
 
 # Naturwissenschaftliches Profil Klasse 10 - Modellierung der Natur
 
-> Letztes Update am 10.08.2025 gegen 18:00 Uhr
+> Letztes Update am 30.12.2025 gegen 18:00 Uhr
 
 
 In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterrichts der Klasse 10. Auch findest du hier Aufgaben und Lösungen zu den Aufgaben. Die Datei wird ständig aktualisiert.
@@ -4558,7 +4558,183 @@ $$
 
 
 
-## Differentialgleichungen
+
+
+
+## Probeleistungskontrolle
+
+
+
+**Aufgabe 1:** Erkläre den Unterschied zwischen Prozess- und Zustandsgrößen (Observablen).
+
+
+[[!]]
+<script>true</script>
+******************************
+Eine **Zustandsgröße** (auch: **Zustandsvariable**, im schulischen Kontext häufig „Observable“ im Sinne einer *zu einem Zeitpunkt* messbaren Systemgröße) beschreibt den **Zustand** eines Systems zu einem Zeitpunkt. Sie hängt **nicht** davon ab, *wie* dieser Zustand erreicht wurde (weg-/pfadunabhängig). Mathematisch entspricht das der Idee einer **exakten** Differentialform: Die Änderung zwischen zwei Zuständen hängt nur von Anfangs- und Endzustand ab. Beispiele: Ort $z$, Geschwindigkeit $v$, Druck $p$, Temperatur $T$ (thermodynamisch), potentielle Energie $E_{pot}$.
+
+Eine **Prozessgröße** beschreibt dagegen einen **Vorgang zwischen zwei Zuständen** (weg-/pfadabhängig). Sie ist keine „Eigenschaft des Systems zu einem Zeitpunkt“, sondern eine Größe, die erst über einen Verlauf definiert ist. Mathematisch entspricht das einer **nicht-exakten** Differentialform. Beispiele: verrichtete Arbeit $W$ und (thermodynamisch) Wärme $Q$; beides sind Größen, die typischerweise als Integrale über einen Prozess entstehen.
+
+******************************
+
+
+
+**Aufgabe 2:** Gegeben sei ein Feld mit der Feldstärke $E(r)= 4\pi m r^3 $ und die Ladung $Q$. 
+
+$a)\;\;$ Leite den Term des Potentials her. 
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+E(r) &= 4\pi m r^3 \\
+E(r) &= -\frac{d\Phi}{dr} \\
+-\frac{d\Phi}{dr} &= 4\pi m r^3 \\
+\frac{d\Phi}{dr} &= -4\pi m r^3 \\
+\Phi(r) &= \int -4\pi m r^3\,dr \\
+&= -4\pi m\cdot \frac{r^4}{4} + C \\
+&= -\pi m r^4 + C
+\end{align*}
+$$
+******************************
+
+$b)\;\;$ Begründe mathematisch mit den Aufgabenteil $a)$, dass $\Phi(r)= \int E(r) dr$ gilt.
+
+[[!]]
+<script>true</script>
+******************************
+
+Aus Teil $a)$ folgt, dass $E(r)$ (bis auf das Vorzeichen) die Ableitung des Potentials ist:
+
+$$
+\begin{align*}
+E(r) &= -\frac{d\Phi}{dr} \\
+\Rightarrow\ \frac{d\Phi}{dr} &= -E(r) \\
+\Rightarrow\ \Phi(r) &= \int -E(r)\,dr + C
+\end{align*}
+$$
+
+Wenn in einer Aufgaben-/Konventionswahl stattdessen $E(r)=\dfrac{d\Phi}{dr}$ definiert wird, erhält man unmittelbar  
+$\Phi(r)=\int E(r)\,dr + C$.  
+In beiden Fällen ist die mathematische Kernaussage identisch: Ein Potential ist (bis auf Konstante und ggf. Vorzeichen) eine Stammfunktion des Feldes.
+
+******************************
+
+
+
+
+**Aufgabe 3:** Auf ein ruhendes Objekt mit der Masse $m$ stößt zentral ein Objekt mit einer Masse $M$ und einer Geschwindigkeit $V$. 
+
+$a)\;\;$ Leite eine allgemeine Gleichung zur Berechnung der resultierenden Geschwindigkeit des ruhenden Objektes nach dem Zusammenstoß her.
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+\text{Impuls vor} &= \text{Impuls nach} \\
+M V &= M V' + m v' \\
+m v' &= M(V - V') \\
+v' &= \frac{M}{m}\,(V - V')
+\end{align*}
+$$
+******************************
+
+
+$b)\;\;$ Gib die Größe an, die gemessen werden muss, damit aus den bereits bekannten Größen und dieser Observable die Geschwindigkeit aus Aufgabenteil $a)$ mittels Zahlen bestimmt werden kann.
+
+[[!]]
+<script>true</script>
+******************************
+
+In der allgemeinen Gleichung aus $a)$ ist $V'$ nach dem Stoß unbekannt. Damit $v'$ numerisch bestimmbar wird, muss man daher z.B. messen:
+
+$$
+\boxed{V' \text{ (die Geschwindigkeit des Körpers mit Masse } M \text{ nach dem Stoß)}}
+$$
+
+
+******************************
+
+$c)\;\;$ Gib die Geschwindigkeit an, mit der das Objekt mit der Masse $M$ nach dem Zusammenprall sich fortbewegt, wenn $M=m$ gilt.
+
+[[!]]
+<script>true</script>
+******************************
+$$
+\begin{align*}
+M=m:\quad mV &= m V' + m v' \\
+V &= V' + v' \\
+V' &= V - v'
+\end{align*}
+$$
+******************************
+
+
+
+**Aufgabe 4:** Erkläre, wieso das Superpositionsprinzip bei jeder vektoriellen Größe angewandt werden kann.
+
+[[!]]
+<script>true</script>
+******************************
+Vektoren werden in einem linearen Raum addiert. Wenn mehrere Beiträge derselben vektoriellen Größe gleichzeitig wirken (z.B. mehrere Kräfte, mehrere Feldanteile), dann ergibt sich der Gesamtbeitrag durch komponentenweise Addition, also durch die Vektorsumme:
+
+$$
+\vec{A}_{\text{ges}}=\vec{A}_1+\vec{A}_2+\cdots
+$$
+
+Das ist genau das Superpositionsprinzip. Physikalisch ist es überall dort gültig, wo die zugrunde liegenden Beziehungen **linear** sind (bei nichtlinearen Effekten kann Superposition als Modellannahme scheitern, obwohl „Vektoraddition“ formal weiterhin definiert ist).
+
+******************************
+
+
+
+**Aufgabe 5:** Leite die Euler-Lagrange-Gleichungen her, wenn auf den Körper mit der Masse $m$ eine Kraft $F(z) = \dfrac{m}{z^4}$ wirkt.
+
+[[!]]
+<script>true</script>
+******************************
+Für ein Potential gilt $F(z)=-\dfrac{dV}{dz}$. Also:
+
+$$
+\begin{align*}
+F(z) &= \frac{m}{z^4} \\
+-\frac{dV}{dz} &= \frac{m}{z^4} \\
+\frac{dV}{dz} &= -m z^{-4} \\
+V(z) &= \int -m z^{-4}\,dz \\
+&= -m\cdot \frac{z^{-3}}{-3} + C \\
+&= \frac{m}{3z^3}+C
+\end{align*}
+$$
+
+Die Konstante $C$ kann weggelassen werden.
+
+** Lagrange-Funktion:**  
+
+$T=\dfrac12 m\dot z^{\,2}$ und $L=T-V$:
+
+$$
+L(z,\dot z)=\frac12 m\dot z^{\,2}-\frac{m}{3z^3}
+$$
+
+**Euler-Lagrange-Gleichung:**  
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial z} &= -\frac{\partial}{\partial z}\left(\frac{m}{3}z^{-3}\right)
+= -\frac{m}{3}\cdot(-3)z^{-4}
+= \frac{m}{z^4} \\
+\frac{\partial L}{\partial \dot z} &= m\dot z \\
+\frac{d}{dt}\frac{\partial L}{\partial \dot z} &= m\ddot z \\
+0 &= \frac{\partial L}{\partial z}-\frac{d}{dt}\frac{\partial L}{\partial \dot z} \\
+0 &= \frac{m}{z^4}-m\ddot z \\
+\ddot z &= \frac{1}{z^4}
+\end{align*}
+$$
+
+Damit lautet die Bewegungsgleichung: $\ddot z=\dfrac{1}{z^4}$.
+******************************
 
 
 
@@ -4566,33 +4742,6 @@ $$
 
 
 
-
-
-
-#### Vorstufe einer Leistungskontrolle 1
-
-
-
-
-#### Vorstufe einer Leistungskontrolle 2
-
-
-
-
-#### Äquivalent einer Leistungskontrolle 1
-
-
-
-
-#### Äquivalent einer Leistungskontrolle 2
-
-
-
-
-
-
-
-## Bahnkurve
 
 
 
