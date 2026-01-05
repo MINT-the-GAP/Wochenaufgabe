@@ -4570,7 +4570,7 @@ $$
 
 [[!]]
 <script>true</script>
-******************************
+****************************** 
 Eine **Zustandsgröße** (auch: **Zustandsvariable**, im schulischen Kontext häufig „Observable“ im Sinne einer *zu einem Zeitpunkt* messbaren Systemgröße) beschreibt den **Zustand** eines Systems zu einem Zeitpunkt. Sie hängt **nicht** davon ab, *wie* dieser Zustand erreicht wurde (weg-/pfadunabhängig). Mathematisch entspricht das der Idee einer **exakten** Differentialform: Die Änderung zwischen zwei Zuständen hängt nur von Anfangs- und Endzustand ab. Beispiele: Ort $z$, Geschwindigkeit $v$, Druck $p$, Temperatur $T$ (thermodynamisch), potentielle Energie $E_{pot}$.
 
 Eine **Prozessgröße** beschreibt dagegen einen **Vorgang zwischen zwei Zuständen** (weg-/pfadabhängig). Sie ist keine „Eigenschaft des Systems zu einem Zeitpunkt“, sondern eine Größe, die erst über einen Verlauf definiert ist. Mathematisch entspricht das einer **nicht-exakten** Differentialform. Beispiele: verrichtete Arbeit $W$ und (thermodynamisch) Wärme $Q$; beides sind Größen, die typischerweise als Integrale über einen Prozess entstehen.
