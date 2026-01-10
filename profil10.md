@@ -4695,7 +4695,7 @@ Das ist genau das Superpositionsprinzip. Physikalisch ist es überall dort gült
 [[!]]
 <script>true</script>
 ******************************
-Für ein Potential gilt $F(z)=-\dfrac{dV}{dz}$. Also:
+Für ein Potential gilt $F(z)=-\dfrac{dV}{dz}$, wobei $V = E_{pot}$, was der bekannten linearen Gleichung $W=F \cdot s$ entspricht. Also:
 
 $$
 \begin{align*}
