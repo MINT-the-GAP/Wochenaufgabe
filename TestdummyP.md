@@ -1,5 +1,5 @@
 <!--
-version:  0.0.3
+version:  0.0.2
 language: de
 
 
@@ -12,84 +12,68 @@ input {
   text-align: center;
 }
 
-/* =========================================
-   Layout: Default (Lehrbuch/Slides) = untereinander
-   Nur Präsentation = nebeneinander (Flex)
-   ========================================= */
-
-/* Default: untereinander */
-
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    gap: 20px;
-}
-
-.flex-child {
-    flex: 1;
-    min-width: 350px;
-    margin-right: 20px;
-}
-
-/* Nur in Präsentation: nebeneinander */
-html.mode-presentation .flex-container {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   gap: 20px;
 }
 
-html.mode-presentation .flex-child {
+.flex-child {
   flex: 1;
   min-width: 350px;
-  margin-right: 0;
+  margin-right: 20px;
 }
 
-/* optional: sehr schmale Displays -> auch in Präsentation untereinander */
 @media (max-width: 400px) {
-  html.mode-presentation .flex-container {
-    display: block;
-  }
-  html.mode-presentation .flex-child {
-    width: 100%;
-    min-width: 0;
+  .flex-child {
+    flex: 100%;
+    margin-right: 0;
   }
 }
-
-/* =========================================
-   Spoiler / Details Styling
-   ========================================= */
 
 details.spoiler > summary {
   cursor: pointer;
   font-weight: 600;
 }
-
 details.spoiler[open] > summary {
   margin-bottom: 0.5em;
 }
-
 details.spoiler {
   margin: 0.5em 0;
 }
 
-/* =========================================
-   Collaborative Drawing: Canvas immer 100% Breite
-   ========================================= */
-
+/* volle Breite für alle Collaborative-Canvas-Instanzen */
 details.spoiler .collab-wrap {
   display: block;
   width: 100%;
 }
 
+/* Canvas: Breite 100%, Höhe wird per JS aus dem height-Attribut übernommen */
 details.spoiler .collab-wrap canvas {
   width: 100% !important;
   max-width: 100% !important;
   display: block;
+  touch-action: none;
 }
-@end
 
+/* Button-Leiste: unten rechts am Ende (unterhalb) der Canvas */
+details.spoiler .collab-wrap .collab-controls {
+  margin-top: 6px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+details.spoiler .collab-wrap .collab-controls button {
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+}
+
+@end
 
 formula: \carry   \textcolor{red}{\scriptsize #1}
 formula: \digit   \rlap{\carry{#1}}\phantom{#2}#2
@@ -117,67 +101,119 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 
 -->
 
-
 # Dann schauen wir mal
 
-
+<!--
+  JS:
+  1) Setzt die sichtbare Canvas-Höhe exakt auf den "height"-Wert des Canvas-Elements.
+  2) Fügt pro Canvas unten rechts (unterhalb) den Button "Mehr Platz" hinzu.
+  3) Klick auf "Mehr Platz" erhöht die Canvas-Höhe um 100px (Attribut + Style),
+     und versucht den bisherigen Canvas-Inhalt oben beizubehalten.
+-->
 <script>
-(() => {
-  function normalizeMode(v) {
-    v = (v || "").toLowerCase();
-    if (v.includes("textbook")) return "textbook";
-    if (v.includes("slide")) return "slides";
-    if (v.includes("present")) return "presentation";
-    return null;
-  }
+(function () {
+  function getCanvasHeight(canvas) {
+    var hAttr = canvas.getAttribute('height');
+    var h = hAttr ? parseInt(hAttr, 10) : null;
 
-  function detectMode() {
-    const url = new URL(window.location.href);
-
-    // Häufig: Mode steckt in URL-Parametern oder Hash
-    const candidates = [
-      url.searchParams.get("mode"),
-      url.searchParams.get("view"),
-      url.searchParams.get("format"),
-      (url.hash || "").replace(/^#/, "")
-    ].map(normalizeMode).filter(Boolean);
-
-    if (candidates.length) return candidates[0];
-
-    // Fallback: Mode könnte im localStorage liegen (je nach Einbettung/Host)
-    const keys = [
-      "lia-mode", "lia:mode", "mode",
-      "liascript-mode", "presentation-mode", "view-mode"
-    ];
-
-    for (const k of keys) {
-      const v = normalizeMode(localStorage.getItem(k));
-      if (v) return v;
+    if (!h || isNaN(h)) {
+      if (typeof canvas.height === 'number' && canvas.height > 0) return canvas.height;
+      var cs = window.getComputedStyle(canvas);
+      var hs = parseInt(cs.height, 10);
+      return (!isNaN(hs) && hs > 0) ? hs : 200;
     }
-
-    return null;
+    return h;
   }
 
-  function applyModeClass() {
-    const root = document.documentElement;
-    root.classList.remove("mode-textbook", "mode-slides", "mode-presentation");
+  function setCanvasHeight(canvas, newH) {
+    // Wichtig: Canvas-Attribut/Property bestimmt die interne Zeichenfläche.
+    // Style bestimmt die sichtbare Darstellung. Beides muss zusammenpassen.
+    canvas.setAttribute('height', String(newH));
+    canvas.height = newH;
 
-    const mode = detectMode();
-    if (mode) root.classList.add(`mode-${mode}`);
+    canvas.style.height = newH + 'px';
+    canvas.style.maxHeight = newH + 'px';
   }
 
-  applyModeClass();
+  function ensureControls(wrap) {
+    if (wrap.querySelector('.collab-controls')) return;
 
-  // falls beim Umschalten URL/State geändert wird:
-  window.addEventListener("hashchange", applyModeClass);
-  window.addEventListener("popstate", applyModeClass);
-  window.addEventListener("storage", applyModeClass);
+    var controls = document.createElement('div');
+    controls.className = 'collab-controls';
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.textContent = 'Mehr Platz';
+
+    btn.addEventListener('click', function () {
+      var canvas = wrap.querySelector('canvas');
+      if (!canvas) return;
+
+      var currentH = getCanvasHeight(canvas);
+
+      // Versuch: aktuellen Inhalt sichern (oberer Bereich bleibt erhalten)
+      var dataUrl = null;
+      try {
+        dataUrl = canvas.toDataURL('image/png');
+      } catch (e) {
+        dataUrl = null;
+      }
+
+      var newH = currentH + 100;
+      setCanvasHeight(canvas, newH);
+
+      // Inhalt wiederherstellen (oben), unten entsteht zusätzlicher freier Bereich
+      if (dataUrl) {
+        var img = new Image();
+        img.onload = function () {
+          try {
+            var ctx = canvas.getContext('2d');
+            if (ctx) ctx.drawImage(img, 0, 0);
+          } catch (e) { /* bewusst ignorieren */ }
+        };
+        img.src = dataUrl;
+      }
+    });
+
+    controls.appendChild(btn);
+    wrap.appendChild(controls);
+  }
+
+  function fixCollabCanvasSizes() {
+    document
+      .querySelectorAll('details.spoiler .collab-wrap')
+      .forEach(function (wrap) {
+        var canvas = wrap.querySelector('canvas');
+        if (!canvas) return;
+
+        var h = getCanvasHeight(canvas);
+        // Nur Style synchronisieren (Attribut bleibt, wie vom Template gesetzt,
+        // oder wurde bereits per Button geändert)
+        canvas.style.height = h + 'px';
+        canvas.style.maxHeight = h + 'px';
+
+        ensureControls(wrap);
+      });
+  }
+
+  // initial
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', fixCollabCanvasSizes, { once: true });
+  } else {
+    fixCollabCanvasSizes();
+  }
+
+  // LiaScript/Templates können asynchron nachladen -> beobachten
+  var obs = new MutationObserver(function () {
+    fixCollabCanvasSizes();
+  });
+  obs.observe(document.documentElement, { childList: true, subtree: true });
+
+  window.addEventListener('resize', fixCollabCanvasSizes);
 })();
 </script>
 
-
 Aufgabe 1: Berechne den Wert des Terms.
-
 
 <section class="flex-container">
 
@@ -188,18 +224,17 @@ $a)\;\;$ Wie viel sind $40\%$ von $6000\,€$?
 <details class="spoiler">
   <summary>
     <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/Kap7/diew1.png" width="30" height="30">
-    Platz zum Rechnen - Klick mich!
+    Platz zum Rechnen
   </summary>
 
   <div class="collab-wrap">
-    @[Collaborative.lines(640,400)](./img/example.jpg)
+    @[Collaborative.lines(640,100)](./img/example.jpg)
   </div>
 </details>
 
 [[ 2400 ]]
 
 </div>
-
 
 <div class="flex-child">
 
@@ -208,18 +243,17 @@ $a)\;\;$ Wie viel sind $40\%$ von $6000\,€$?
 <details class="spoiler">
   <summary>
     <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/Kap7/diew1.png" width="30" height="30">
-    Platz zum Rechnen - Klick mich!
+    Platz zum Rechnen
   </summary>
 
   <div class="collab-wrap">
-    @[Collaborative.lines(640,400)](./img/example.jpg)
+    @[Collaborative.lines(640,100)](./img/example.jpg)
   </div>
 </details>
 
 [[ 2400 ]]
 
 </div>
-
 
 <div class="flex-child">
 
@@ -228,11 +262,11 @@ $a)\;\;$ Wie viel sind $40\%$ von $6000\,€$?
 <details class="spoiler">
   <summary>
     <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/Kap7/diew1.png" width="30" height="30">
-    Platz zum Rechnen - Klick mich!
+    Platz zum Rechnen
   </summary>
 
   <div class="collab-wrap">
-    @[Collaborative.lines(640,400)](./img/example.jpg)
+    @[Collaborative.lines(640,100)](./img/example.jpg)
   </div>
 </details>
 
