@@ -103,13 +103,7 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 
 # Dann schauen wir mal
 
-<!--
-  JS:
-  1) Setzt die sichtbare Canvas-Höhe exakt auf den "height"-Wert des Canvas-Elements.
-  2) Fügt pro Canvas unten rechts (unterhalb) den Button "Mehr Platz" hinzu.
-  3) Klick auf "Mehr Platz" erhöht die Canvas-Höhe um 100px (Attribut + Style),
-     und versucht den bisherigen Canvas-Inhalt oben beizubehalten.
--->
+
 <script>
 (function () {
   function getCanvasHeight(canvas) {
@@ -126,8 +120,6 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
   }
 
   function setCanvasHeight(canvas, newH) {
-    // Wichtig: Canvas-Attribut/Property bestimmt die interne Zeichenfläche.
-    // Style bestimmt die sichtbare Darstellung. Beides muss zusammenpassen.
     canvas.setAttribute('height', String(newH));
     canvas.height = newH;
 
@@ -151,7 +143,6 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 
       var currentH = getCanvasHeight(canvas);
 
-      // Versuch: aktuellen Inhalt sichern (oberer Bereich bleibt erhalten)
       var dataUrl = null;
       try {
         dataUrl = canvas.toDataURL('image/png');
@@ -162,7 +153,6 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
       var newH = currentH + 100;
       setCanvasHeight(canvas, newH);
 
-      // Inhalt wiederherstellen (oben), unten entsteht zusätzlicher freier Bereich
       if (dataUrl) {
         var img = new Image();
         img.onload = function () {
@@ -187,8 +177,6 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
         if (!canvas) return;
 
         var h = getCanvasHeight(canvas);
-        // Nur Style synchronisieren (Attribut bleibt, wie vom Template gesetzt,
-        // oder wurde bereits per Button geändert)
         canvas.style.height = h + 'px';
         canvas.style.maxHeight = h + 'px';
 
@@ -196,14 +184,14 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
       });
   }
 
-  // initial
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', fixCollabCanvasSizes, { once: true });
   } else {
     fixCollabCanvasSizes();
   }
 
-  // LiaScript/Templates können asynchron nachladen -> beobachten
+
   var obs = new MutationObserver(function () {
     fixCollabCanvasSizes();
   });
@@ -224,7 +212,7 @@ $a)\;\;$ Wie viel sind $40\%$ von $6000\,€$?
 <details class="spoiler">
   <summary>
     <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/Kap7/diew1.png" width="30" height="30">
-    Platz zum Rechnen
+    Platz zum Rechnen öffnen
   </summary>
 
   <div class="collab-wrap">
@@ -243,7 +231,7 @@ $a)\;\;$ Wie viel sind $40\%$ von $6000\,€$?
 <details class="spoiler">
   <summary>
     <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/Kap7/diew1.png" width="30" height="30">
-    Platz zum Rechnen
+    Platz zum Rechnen öffnen
   </summary>
 
   <div class="collab-wrap">
@@ -262,7 +250,7 @@ $a)\;\;$ Wie viel sind $40\%$ von $6000\,€$?
 <details class="spoiler">
   <summary>
     <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/Kap7/diew1.png" width="30" height="30">
-    Platz zum Rechnen
+    Platz zum Rechnen öffnen
   </summary>
 
   <div class="collab-wrap">
