@@ -317,8 +317,8 @@ $p(B)=$ [[  8/22  ]]
 @Algebrite.check(8/22)
 
 **Gib** die Wahrscheinlichkeit **an**, keine grüne Kugel zu ziehen.\
-$P(G \cup B \cup V)=$ [[  19/22  ]]
-@Algebrite.check(19/22)
+$P(G \cup B \cup V)=$ [[  18/22  ]]
+@Algebrite.check(18/22)
 
 **Gib** die Chance **an**, eine graue Kugel im Vergleich zu den anderen Kugeln zu ziehen.\
 $R(R)=$ [[  7:15  ]]
