@@ -392,21 +392,21 @@ $a)\;\;$ Bei einem Glückspiel erhält ein Spieler beim Würfeln mit zwei vierse
 
 
 <!-- data-solution-button="5" -->
-[[  5  ]] 
-@Algebrite.check(5)
+[[  3,75  ]] 
+@Algebrite.check(3.75)
 **********
 $$
 \begin{align*}
   \text{Gewinnereignisse:}& \left\{ \left\{ 1;1 \right\}; \left\{ 2;2 \right\};\left\{ 3;3 \right\};\left\{ 4;4 \right\} \right\} \\
   \text{Verlustereignisse:}& \left\{ \left\{ 1;2 \right\}; \left\{ 2;1 \right\};\left\{ 1;3 \right\};\left\{ 3;1 \right\} ;\left\{ 3;2 \right\};\left\{ 2;3 \right\} ;\left\{ 4;1 \right\} ;\left\{ 4;2 \right\} ;\left\{ 4;3 \right\} ;\left\{ 3;4 \right\} ;\left\{ 2;4 \right\} ;\left\{ 1;4 \right\}  \right\} \\
   P(G) & = \dfrac{4}{16} = \dfrac{1}{4} \\
-  \bar{x} \stackrel{!}{=} 0 & = \dfrac{1}{4} \cdot 15\text{€} + \dfrac{3}{4} x \quad \left| \cdot 4 \right. \\
-   0 & = 15\text{€} + 3 x \quad \left| -15\text{€} \right. \\
-   -15\text{€} & = 3 x \quad \left| :3 \right. \\
-   -5\text{€} & =  x \\
+  \bar{x} \stackrel{!}{=} 0 & = \dfrac{1}{4} \cdot \left( 15\text{€} - x \right) + \dfrac{3}{4} (-x) \quad \left| \cdot 4 \right. \\
+   0 & = 15\text{€} - x - 3 x \quad \left| -15\text{€} \right. \\
+   -15\text{€} & = -4 x \quad \left| :4 \right. \\
+   3,75\text{€} & =  x \\
 \end{align*}
 $$
-Eine Startgebühr von 5€ wäre fair.
+Eine Startgebühr von 3,75€ wäre fair.
 **********
 
 $b)\;\;$ Gegeben sei eine Menge $\{ 97,21,34,17,86,54,75,29,24,89,31 \}$. Bestimme die Zahl, die der Menge hingefügt werden muss, sodass der Median $\tilde{x}=42,5$ wäre.
