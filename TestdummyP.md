@@ -110,6 +110,8 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 
 # Dann schauen wir mal
 
+Wechsel einmal von der Lehrbuch- zur Präsentationsdarstellung oder andersherum.
+
 <section class="flex-container">
 
   <div class="flex-child">
@@ -122,7 +124,7 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
     <div class="onlyTextbook" style="display:none;">
       <details class="spoiler">
         <summary>
-          <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/pen.png" width="20" height="20">
+          <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/pen.png" width="25" height="25">
           Platz für Notizen oder zum Rechnen öffnen
         </summary>
 
@@ -147,7 +149,7 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
     <div class="onlyTextbook" style="display:none;">
       <details class="spoiler">
         <summary>
-          <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/pen.png" width="20" height="20">
+          <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/pen.png" width="25" height="25">
           Platz für Notizen oder zum Rechnen öffnen
         </summary>
 
@@ -172,7 +174,7 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
     <div class="onlyTextbook" style="display:none;">
       <details class="spoiler">
         <summary>
-          <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/pen.png" width="20" height="20">
+          <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/pen.png" width="25" height="25">
           Platz für Notizen oder zum Rechnen öffnen
         </summary>
 
