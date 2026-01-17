@@ -81,6 +81,63 @@ details.spoiler .collab-wrap .collab-controls button {
   background: transparent;
   cursor: pointer;
 }
+
+
+
+:root {
+  --pres-side-gap: 12px; /* links/rechts nur ein sehr kleiner Rand */
+}
+
+/* -------- Präsentationsmodus: nahezu volle Breite -------- */
+html[data-lia-mode="presentation"] body {
+  margin: 0 !important;
+}
+
+/* Sehr aggressiv: alle typischen "zentrierenden" Container auf 100vw ziehen */
+html[data-lia-mode="presentation"] main,
+html[data-lia-mode="presentation"] .lia-content,
+html[data-lia-mode="presentation"] .lia-slide,
+html[data-lia-mode="presentation"] .slides,
+html[data-lia-mode="presentation"] .content,
+html[data-lia-mode="presentation"] .container,
+html[data-lia-mode="presentation"] .wrapper,
+html[data-lia-mode="presentation"] section {
+  width: calc(100vw - (2 * var(--pres-side-gap))) !important;
+  max-width: calc(100vw - (2 * var(--pres-side-gap))) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+/* Zusätzlich: typische Max-Width-Bremsen entfernen */
+html[data-lia-mode="presentation"] * {
+  /* nur max-width lösen; wir lassen einzelne Elemente (Bilder etc.) weiterhin durch ihre eigenen Regeln begrenzen */
+  /* aber Container sollen nicht künstlich schmal bleiben */
+}
+
+html[data-lia-mode="presentation"] main,
+html[data-lia-mode="presentation"] .lia-content,
+html[data-lia-mode="presentation"] .lia-slide,
+html[data-lia-mode="presentation"] .slides {
+  padding-left: var(--pres-side-gap) !important;
+  padding-right: var(--pres-side-gap) !important;
+}
+
+/*
+  Falls LiaScript im Präsentationsmodus intern mit transform/scale arbeitet
+  und dadurch "Bühnenränder" entstehen, klemmen wir typische Stage-Elemente.
+  (Diese Selektoren sind defensiv; falls es sie nicht gibt, passiert nichts.)
+*/
+html[data-lia-mode="presentation"] .stage,
+html[data-lia-mode="presentation"] .reveal,
+html[data-lia-mode="presentation"] .reveal .slides {
+  max-width: calc(100vw - (2 * var(--pres-side-gap))) !important;
+  width: calc(100vw - (2 * var(--pres-side-gap))) !important;
+  margin: 0 auto !important;
+}
+
+
+
 @end
 
 formula: \carry   \textcolor{red}{\scriptsize #1}
@@ -113,6 +170,56 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 Wechsel einmal von der Lehrbuch- zur Präsentationsdarstellung oder andersherum.
 
 <section class="flex-container">
+
+  <div class="flex-child">
+
+    $a)\;\;$ Wie viel sind $40\%$ von $6000\,€$?
+
+    <div class="onlyPresentation" style="display:none;">
+    </div>
+
+    <div class="onlyTextbook" style="display:none;">
+      <details class="spoiler">
+        <summary>
+          <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/pen.png" width="25" height="25">
+          Platz für Notizen oder zum Rechnen öffnen
+        </summary>
+
+        <div class="collab-wrap">
+          @[Collaborative.lines(640,100)](./img/example.jpg)
+        </div>
+      </details>
+    </div>
+
+    [[ 2400 ]]
+
+  </div>
+
+
+  <div class="flex-child">
+
+    $a)\;\;$ Wie viel sind $40\%$ von $6000\,€$?
+
+    <div class="onlyPresentation" style="display:none;">
+    </div>
+
+    <div class="onlyTextbook" style="display:none;">
+      <details class="spoiler">
+        <summary>
+          <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/pen.png" width="25" height="25">
+          Platz für Notizen oder zum Rechnen öffnen
+        </summary>
+
+        <div class="collab-wrap">
+          @[Collaborative.lines(640,100)](./img/example.jpg)
+        </div>
+      </details>
+    </div>
+
+    [[ 2400 ]]
+
+  </div>
+
 
   <div class="flex-child">
 
@@ -428,6 +535,123 @@ Wechsel einmal von der Lehrbuch- zur Präsentationsdarstellung oder andersherum.
     window.addEventListener('resize', function () {
       fixCollabCanvasSizesVisibleOnly();
     });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start, { once: true });
+  } else {
+    start();
+  }
+})();
+</script>
+
+
+
+
+
+
+
+<script>
+(function () {
+  /*
+    Wir unterscheiden "presentation" vs "slides" vs "textbook" gewaltsam über localStorage["settings"].
+    Danach setzen wir:
+      document.documentElement.dataset.liaMode = "<mode>";
+    und das CSS oben greift zuverlässig.
+
+    Wenn du willst, dass auch "slides" volle Breite bekommt:
+      -> unten in applyMode() einfach "slides" ebenfalls behandeln.
+  */
+
+  function norm(x) { return String(x == null ? "" : x).toLowerCase(); }
+
+  function safeGetSettingsRaw() {
+    try { return localStorage.getItem("settings"); }
+    catch (e) { return null; }
+  }
+
+  function findModeInJson(obj) {
+    const seen = new Set();
+
+    function walk(v) {
+      if (v == null) return null;
+
+      if (typeof v === "string") {
+        const s = norm(v);
+        if (s.includes("presentation")) return "presentation";
+        if (s.includes("slides"))       return "slides";
+        if (s.includes("textbook"))     return "textbook";
+        if (s.includes("book"))         return "textbook";
+        return null;
+      }
+
+      if (typeof v !== "object") return null;
+      if (seen.has(v)) return null;
+      seen.add(v);
+
+      // bevorzugte Keys
+      for (const k in v) {
+        if (!Object.prototype.hasOwnProperty.call(v, k)) continue;
+        const key = norm(k);
+        if (key === "mode" || key === "view" || key === "layout" || key === "format") {
+          const m = walk(v[k]);
+          if (m) return m;
+        }
+      }
+
+      // ansonsten alles scannen
+      for (const k in v) {
+        if (!Object.prototype.hasOwnProperty.call(v, k)) continue;
+        const m = walk(v[k]);
+        if (m) return m;
+      }
+
+      return null;
+    }
+
+    return walk(obj);
+  }
+
+  function detectMode() {
+    const raw = safeGetSettingsRaw();
+    if (!raw) return "unknown";
+
+    // JSON?
+    try {
+      const obj = JSON.parse(raw);
+      return findModeInJson(obj) || "unknown";
+    } catch (e) {
+      // String-Fallback
+      const s = norm(raw);
+      if (s.includes("presentation")) return "presentation";
+      if (s.includes("slides"))       return "slides";
+      if (s.includes("textbook") || s.includes("book")) return "textbook";
+      return "unknown";
+    }
+  }
+
+  function applyMode() {
+    const mode = detectMode();
+
+    // Hier ist die "gewaltsame" Unterscheidung:
+    // Nur presentation bekommt volle Breite.
+    document.documentElement.dataset.liaMode = mode;
+
+    // OPTIONAL: Wenn du Folienmodus auch breit willst, dann:
+    // if (mode === "slides") document.documentElement.dataset.liaMode = "presentation";
+  }
+
+  function start() {
+    applyMode();
+
+    // LiaScript kann settings ohne storage-event ändern -> Polling als robuste Lösung
+    setInterval(applyMode, 500);
+
+    // Falls doch Events feuern
+    window.addEventListener("storage", function (e) {
+      if (!e || e.key === "settings") applyMode();
+    });
+    window.addEventListener("hashchange", applyMode);
   }
 
   if (document.readyState === "loading") {
