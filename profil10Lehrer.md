@@ -281,7 +281,7 @@ $$
 
 <center>
 <!-- style="width:400px" -->
-![](Superposi1.png)
+![](Bilder/Superposi1.png)
 </center>
 
 
@@ -314,7 +314,7 @@ $$
 {{3}} 
 <center>
 <!-- style="width:400px" -->
-![](Superposi2.png)
+![](Bilder/Superposi2.png)
 </center>
 
 <br>
@@ -325,7 +325,7 @@ $$
 {{4}} 
 <center>
 <!-- style="width:400px" -->
-![](Superposi3.png)
+![](Bilder/Superposi3.png)
 </center>
 
 <br>
@@ -415,7 +415,7 @@ Unter der Annahme, dass sich die Masse $m$ eines betrachteten Objektes nicht ver
 {{2}}
 <center>
 <!-- style="width:600px" -->
-![](pvEnergie1.png)
+![](Bilder/pvEnergie1.png)
 </center>
 
 
@@ -430,7 +430,7 @@ Der Flächeninhalt zwischen der Abszisse und dem Graphen entspricht dem Wert der
 {{3}}
 <center>
 <!-- style="width:600px" -->
-![](pvEnergie2.png)
+![](Bilder/pvEnergie2.png)
 </center>
 
 
@@ -1016,7 +1016,7 @@ Um das Feld sichtbar zu machen, wird zunächst eine zweidimensionale Draufsicht 
 {{2}}
 <center>
 <!-- style="width:500px" -->
-![](Feldoben.png)
+![](Bilder/Feldoben.png)
 </center>
 
 {{2}}
@@ -1030,7 +1030,7 @@ Noch deutlicher wird dieses Feldlinienmodell in einer dreidimensionalen Darstell
 {{3}}
 <center>
 <!-- style="width:750px" -->
-![](Kugelober.png)
+![](Bilder/Kugelober.png)
 </center>
 
 {{3}}
@@ -1105,14 +1105,14 @@ Oftmals kann bei einem genügend großen Abstand jedes Feld auf eine Punktquelle
 
 <center>
 <!-- style="width:500px" -->
-![](Feldseite.png)
+![](Bilder/Feldseite.png)
 </center>
 
 Wenn man die Feldlinien in zwei Dimensionen betrachtet würde das Potential dazu die dritte Dimension darstellen.
 
 <center>
 <!-- style="width:500px" -->
-![](Feld3D.png)
+![](Bilder/Feld3D.png)
 </center>
 
 In diesem Bild wird schon die Grunderkenntnis der allgemeinen Relativitätstheorie deutlich, da die Linien stets alle gerade sind, jedoch durch ihre Abbildung von der Draufsicht erscheinen die daraus resultierenden Flächen unterschiedlich groß. Das bedeutet, dass diese geometrischen Interpretationen in vielen Bereichen ähnlich sind und mächtige Vorhersagen treffen lassen können.
