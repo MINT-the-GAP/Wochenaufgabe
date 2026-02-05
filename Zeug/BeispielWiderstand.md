@@ -39,6 +39,8 @@ import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/RE
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
+edit: true
+
 -->
 
 # Die Chroniken des Stromreichs
