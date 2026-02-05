@@ -73,13 +73,13 @@ Schaut euch allein oder gemeinsam das Video an.
 ## Arbeitsauftrag 3:
 
 
-eilt euch in 3 Kleingruppen auf. Jede Gruppe bearbeitet eine der folgenden Aufgaben:
+Teilt euch in 3 Kleingruppen auf. Jede Gruppe bearbeitet eine der folgenden Aufgaben:
 
 a) Beschreibe, was unter dem elektrischen Widerstand zu verstehen ist und wie er entsteht.
 
 b) Beschreibe die Wirkungen des elektrischen Widerstandes auf den elektrischen Strom und den Leiter.
 
-c) Fasse alle grundlegenden Informationen zur physikalischen Grundgröße "elektrischer Widerstand" übersichtlich zusammen (Formelzeichen, Einheit, Einheitenzeichen, Berechnungsformel).
+c) Fasse alle grundlegenden Informationen zur physikalischen Grundgröße "elektrischer Widerstand" übersichtlich zusammen (Formelzeichen, Einheit, Einheitenzeichen, Berechnungsgleichung).
 
 Notiert euch, woher eure Informationen kommen. \
 Für die Bearbeitung der Aufgaben könnt ihr folgende Quellen nutzen:
@@ -113,7 +113,7 @@ Fotografiert eure Mindmap und ladet sie hier als Kommentar hoch.
 ## Arbeitsauftrag 5:
 
 
-Arbeitsauftrag 5:
+
 Teilt euch in 3 Kleingruppen auf. Jede Gruppe bearbeitet eine Kennlinie.
 
 ??[Diagramm 1: U-I-Kennlinie](https://www.geogebra.org/calculator/bvrqxtff)
@@ -163,7 +163,7 @@ Ihr habt euch nun das Wissen zum elektrischen Widerstand und zum Ohm'schen Geset
 
 ---
 
-Variante 1:
+**Variante 1:**
 
 Bearbeite das Arbeitsblatt. Lade deine Lösung hier hoch.
 
@@ -171,7 +171,7 @@ Bearbeite das Arbeitsblatt. Lade deine Lösung hier hoch.
 
 ---
 
-Variante 2:
+**Variante 2:**
 
 Recherchiere ein Beispiel für die Anwendung des Ohm'schen Gesetzes im Alltag. Gestalte eine Übersicht zu diesem Beispiel am besten mit einer Beispielrechnung. Lade deine Übersicht hier hoch.
 
