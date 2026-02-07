@@ -873,7 +873,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/REA
 
 > Letzte Aktualisierung am 07.02. gegen 20:00 Uhr
 
-
+> <h2> WICHTIGER HINWEIS: Ich teste auch neue Funktionen mit dieser Datei, sollte etwas seltsames angezeigt werden oder gar nicht zu sehen sein, bitte einfach die Datei aktualisieren. Ich versuche die auftretenden Bugs der neuen Features nach und nach zu beseitigen. <br> <p align="right"> -Lommatzsch </p> </h2>
 
 Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl auf den Pfeil nach rechts.
 
