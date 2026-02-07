@@ -1571,18 +1571,25 @@ eineindeutig: [->[DNA wird Mensch zugeordnet]] \
 eindeutig: [->[Schüler wird einer Klasse zugeordnet]] \
 mehrdeutig: [->[Schuhegröße wird Schüler einer Klasse zugeordnet]] \
 
+
+
+
+
 ---
 
 ---
 
 **Aufgabe 10:** Es wird ein Szenario beschrieben, **gib** die Kategorie der Zuordnung **an**.
 
-__$a)\;\;$__ Jedem Kind wird genau ein Spindschlüssel ausgehändigt. [[(eineindeutig)|eindeutig|mehrdeutig]] \
+__$a)\;\;$__ Jedem Kind wird genau ein Spindschlüssel ausgehändigt. 
+[[(eineindeutig)|eindeutig|mehrdeutig]] \
 __$b)\;\;$__ Jedem Schüler wird seine Zensur in einem Vokabeltest zugeordnet. [[eineindeutig|(eindeutig)|mehrdeutig]] \
 __$c)\;\;$__ Jedem Schüler wird seine Körpergröße zugeordnet. [[eineindeutig|(eindeutig)|mehrdeutig]] \
 __$d)\;\;$__ inem Schultag werden Pausenaktivitäten zugeordnet. [[eineindeutig|eindeutig|(mehrdeutig)]] \
 __$e)\;\;$__ Jede Startnummer beim Sponsorenlauf wird genau einem Kind zugeordnet. [[(eineindeutig)|eindeutig|mehrdeutig]] \
 __$f)\;\;$__ Jedem Kind wird seine Lieblingsfarbe zugeordnet. [[eineindeutig|(eindeutig)|mehrdeutig]] \
+
+
 
 ---
 
@@ -1831,7 +1838,7 @@ style="width:320px" -->
 ### Zuordnungsaufgaben - Koordinatensystem
 
 
-Erzeuge den Punkt und ziehe ihn auf die passenden Koordinaten.
+**Aufgabe 18:** Erzeuge den Punkt und ziehe ihn auf die passenden Koordinaten.
 
 
 
@@ -2594,24 +2601,220 @@ Ziehe den Punkt $H$ auf die Koordinaten $\left(\dfrac{13}{4} \right. \left| \dfr
 
 
 
-### Zuordnungsaufgaben - Graphen 1
+### Zuordnungsaufgaben - Wertetabellen
+
+
+**Aufgabe 19:** In der Mensa kosten $4$ belegte Brötchen zusammen $6,00\,$€. Fülle die Wertetabelle aus.
+
+
+<!-- data-type="none" data-sortable="false"  data-show-partial-solution style="width:1200px" -->
+|        |             |             |           |          |              |          |               |
+|Brötchen| $1$         | $2$         |       $4$ | [[ 10 ]] |       $22$   | [[ 62 ]] |       $75$    |
+| Kosten | [[ 1,50 ]]€ | [[ 3,00 ]]€ | $6,00\,$€ |  $15\,$€  | [[ 33,00 ]]€ |  $93\,$€ | [[ 112,50 ]]€ |
+@Algebrite.check([10;62;1.5;3;33;112.5],  [ 0.00001 ; 0.00001 ; 0.00001  ; 0.00001  ; 0.00001 ; 0.00001  ])
+
+
+---
+
+---
+
+**Aufgabe 20:** Sechs Schüler räumen einen Klassenraum in $30\,\text{min}$ auf (alle gleich schnell).  
+Fülle die Wertetabelle aus.
+
+<!-- data-type="none" data-sortable="false" data-show-partial-solution style="width:1200px" -->
+|        |        |        |        |         |        |         |        |        |
+|Schüler |  $1$   |  $3$   |  $6$   | [[ 10 ]]|  $12$  | [[ 15 ]]|  $20$  | [[ 30 ]]|
+|Zeit    | [[ 180 ]] min | [[ 60 ]] min | $30$ min | [[ 18 ]] min | [[ 15 ]] min | $12$ min | [[ 9 ]] min | $6$ min |
+@Algebrite.check([10;15;30;180;60;18;15;9],[0.00001;0.00001;0.00001;0.00001;0.00001;0.00001;0.00001;0.00001])
+
+
+
+
+---
+
+---
+
+
+**Aufgabe 21:** Ein Bus fährt eine Strecke von $120\,\text{km}$.  
+Bei $60\,\text{km/h}$ dauert die Fahrt $2\,\text{h}$. Fülle die Wertetabelle aus.
+
+<!-- data-type="none" data-sortable="false" data-show-partial-solution style="width:1200px" -->
+|                 |        |        |        |        |        |        |          |          |
+|Geschwindigkeit  | $30$ km/h | $40$ km/h | $60$ km/h | $80$ km/h | $100$ km/h | $120$ km/h | [[ 150 ]] km/h | [[ 75 ]] km/h |
+|Zeit             | [[ 4 ]] h | [[ 3 ]] h | $2$ h | [[ 1,5 ]] h | [[ 1,2 ]] h | $1$ h | $0,8$ h | $1,6$ h |
+@Algebrite.check([150;75;4;3;1.5;1.2],[0.00001;0.00001;0.00001;0.00001;0.00001;0.00001])
+
+
+
+---
+
+---
+
+
+**Aufgabe 22:** Im Schreibwarenladen kosten $8$ Hefte zusammen $6,40\,$€.  
+Fülle die Wertetabelle aus.
+
+<!-- data-type="none" data-sortable="false" data-show-partial-solution style="width:1200px" -->
+|      |          |          |           |          |          |          |          |          |
+|Hefte |  $1$     |  $4$     |   $8$     | [[ 12 ]] |  $20$    | [[ 25 ]] |  $30$    |  $50$    |
+|Kosten| [[ 0,80 ]]€ | [[ 3,20 ]]€ | $6,40\,$€ | [[ 9,60 ]]€ | [[ 16,00 ]]€ | $20,00\,$€ | [[ 24,00 ]]€ | [[ 40,00 ]]€ |
+@Algebrite.check([12;25;0.8;3.2;9.6;16;24;40],[0.00001;0.00001;0.00001;0.00001;0.00001;0.00001;0.00001;0.00001])
 
 
 
 
 
-Fragen zu Graphen
+
+---
+
+---
+
+
+
+**Aufgabe 23:** Entscheide, ob die Tabelle eine proportionale, eine antiproportionale oder eine beliebige Zuordnung beschreibt.
+
+
+
+<section class="dynFlex">
+
+
+<div class="flex-child">
+
+__$a)\;\;$__
+
+
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|   $72$   |  $18$    | $9$       |      $6$ |      $3$ |
+
+
+[[proportional|(antiproportional)|beliebig]] 
+
+</div>
+
+
+<div class="flex-child">
+
+__$b)\;\;$__
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|  $96$    |  $24$    | $12$      |  $8$     |  $4$     |
+
+[[ proportional | (antiproportional) | beliebig ]] 
+
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|   $8$    |  $23$    | $43$      |  $63$    |  $123$   |
+
+[[ proportional | antiproportional | (beliebig) ]] 
+
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|   $6$    |  $24$    | $48$      |  $72$    |  $144$   |
+
+[[ (proportional) | antiproportional | beliebig ]] 
+
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|  $72$    |  $18$    | $9$       |  $6$     |  $3$     |
+
+[[ proportional | (antiproportional) | beliebig ]] 
+
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|  $120$   |  $30$    | $15$      |  $10$    |  $5$     |
+
+[[ proportional | (antiproportional) | beliebig ]] 
+
+</div>
+
+
+<div class="flex-child">
+
+__$g)\;\;$__
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|   $9$    |  $36$    | $72$      |  $108$   |  $216$   |
+
+[[ (proportional) | antiproportional | beliebig ]] 
+
+</div>
+
+
+<div class="flex-child">
+
+__$h)\;\;$__
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|  $11$    |  $14$    | $18$      |  $22$    |  $34$    |
+
+[[ proportional | antiproportional | (beliebig) ]] 
+
+</div>
+
+
+
+<div class="flex-child">
+
+__$i)\;\;$__
+
+<!-- data-type="none" data-sortable="false" -->
+|      |          |          |           |          |          |
+|  $x$ |  $1$     |  $4$     |   $8$     | $12$     |  $24$    |
+|$f(x)$|   $7$    |  $28$    | $56$      |  $84$    |  $168$   |
+
+[[ (proportional) | antiproportional | beliebig ]] 
+
+</div>
+
+</section>
 
 
 
 
 
-### Zuordnungsaufgaben - Graphen 2
 
 
-
-
-Wertetabelle => Graph
 
 
 
