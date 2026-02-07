@@ -3,6 +3,16 @@ version:  0.0.1
 language: de
 author: Martin Lommatzsch
 
+
+
+import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
+        https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
+
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
+
+
+
 @style
 main > *:not(:last-child) {
   margin-bottom: 3rem;
@@ -127,11 +137,6 @@ main > *:not(:last-child) {
 }
 
 @end
-
-import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
-        https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
-
-
 
 
 
@@ -856,11 +861,6 @@ window.__applyPointLabelTheme = window.__applyPointLabelTheme || function (board
 
 @end
 
-import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
-        https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
-
-
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
 
 -->
 
@@ -2640,7 +2640,7 @@ Bei $60\,\text{km/h}$ dauert die Fahrt $2\,\text{h}$. Fülle die Wertetabelle au
 
 <!-- data-type="none" data-sortable="false" data-show-partial-solution style="width:1200px" -->
 |                 |        |        |        |        |        |        |          |          |
-|Geschwindigkeit  | $30$ km/h | $40$ km/h | $60$ km/h | $80$ km/h | $100$ km/h | $120$ km/h | [[ 150 ]] km/h | [[ 75 ]] km/h |
+|Geschwindigkeit  | $30\,\frac{\text{km}}{\text{h}}$  | $40\,\frac{\text{km}}{\text{h}}$   | $60\,\frac{\text{km}}{\text{h}}$   | $80\,\frac{\text{km}}{\text{h}}$  | $100\,\frac{\text{km}}{\text{h}}$   | $120\,\frac{\text{km}}{\text{h}}$   | [[ 150 ]] $\,\frac{\text{km}}{\text{h}}$   | [[ 75 ]] $\,\frac{\text{km}}{\text{h}}$ |
 |Zeit             | [[ 4 ]] h | [[ 3 ]] h | $2$ h | [[ 1,5 ]] h | [[ 1,2 ]] h | $1$ h | $0,8$ h | $1,6$ h |
 @Algebrite.check([150;75;4;3;1.5;1.2],[0.00001;0.00001;0.00001;0.00001;0.00001;0.00001])
 
@@ -2808,12 +2808,6 @@ __$i)\;\;$__
 </div>
 
 </section>
-
-
-
-
-
-
 
 
 
