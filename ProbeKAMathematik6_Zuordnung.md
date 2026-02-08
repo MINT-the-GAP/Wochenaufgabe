@@ -871,7 +871,7 @@ window.__applyPointLabelTheme = window.__applyPointLabelTheme || function (board
 # Probeleistungskontrolle für Mathematik - Klasse 6: Zuordnung
 
 
-> Letzte Aktualisierung am 07.02. gegen 20:00 Uhr
+> Letzte Aktualisierung am 08.02. gegen 12:30 Uhr
 
 > <h2> WICHTIGER HINWEIS: Ich teste auch neue Funktionen mit dieser Datei, sollte etwas seltsames angezeigt werden oder gar nicht zu sehen sein, bitte einfach die Datei aktualisieren. Ich versuche die auftretenden Bugs der neuen Features nach und nach zu beseitigen. <br> <p align="right"> -Lommatzsch </p> </h2>
 
@@ -2822,6 +2822,782 @@ __$i)\;\;$__
 
 
 
+
+
+
+
+
+
+
+
+
+
+### Zuordnungsaufgaben - Graphen
+
+
+**Aufgabe 24:** In dem Koordinatensystem sind verschiedene Graphen von Preisentwicklungen dargestellt.
+
+
+
+<div style="max-width: 1000px">
+
+``` javascript @JSX.Graph
+
+// ✅ VOR initBoard: Container-Größe festlegen
+jxgbox.style.width  = '100%';
+jxgbox.style.height = '650px';
+
+// optional, aber oft hilfreich gegen Lia/Wrapper-CSS:
+jxgbox.style.minHeight = '650px';
+jxgbox.style.maxHeight = '650px';
+jxgbox.style.boxSizing = 'border-box';
+
+
+function __getGridColor(fallback = '#0b5fff') {
+  try {
+    const doc = (window.parent && window.parent.document) ? window.parent.document : document;
+    const win = (window.parent && window.parent.getComputedStyle) ? window.parent : window;
+
+    // 1) Wenn du später mal --grid-color nutzt, wird das automatisch bevorzugt
+    const v = win.getComputedStyle(doc.documentElement).getPropertyValue('--grid-color').trim();
+    if (v) return v;
+
+    // 2) Sonst Button-Farbe nehmen
+    const btn = doc.querySelector('.lia-btn');
+    if (btn) {
+      const cs = win.getComputedStyle(btn);
+      const bg = cs.backgroundColor;
+      if (bg && bg !== 'rgba(0, 0, 0, 0)') return bg;
+      if (cs.color) return cs.color;
+    }
+  } catch (e) {}
+
+  return fallback;
+}
+
+// Board-Grid-Farbe live nachziehen
+function __watchGridColor(board, intervalMs = 400) {
+  let last = '';
+
+  setInterval(() => {
+    const c = __getGridColor('#0b5fff');
+    if (!c || c === last) return;
+    last = c;
+
+    // 1) Optionen setzen (für zukünftige Rebuilds)
+    try {
+      if (board && board.options && board.options.grid) {
+        if (board.options.grid.major) board.options.grid.major.strokeColor = c;
+        if (board.options.grid.minor) board.options.grid.minor.strokeColor = c;
+      }
+    } catch (e) {}
+
+    // 2) EXISTIERENDE Grid-Objekte einfärben (entscheidend!)
+    try {
+      if (board && board.grids && board.grids.length) {
+        board.grids.forEach(g => {
+          if (g && typeof g.setAttribute === 'function') {
+            g.setAttribute({ strokeColor: c });
+          }
+        });
+      }
+
+      if (board && board.objectsList && board.objectsList.length) {
+        board.objectsList.forEach(o => {
+          if (!o || typeof o.setAttribute !== 'function') return;
+          if (o.elType === 'grid' || (typeof JXG !== 'undefined' && o.type === JXG.OBJECT_TYPE_GRID)) {
+            o.setAttribute({ strokeColor: c });
+          }
+        });
+      }
+    } catch (e) {}
+
+    // 3) Redraw
+    try {
+      if (board && typeof board.fullUpdate === 'function') board.fullUpdate();
+      else if (board) board.update();
+    } catch (e) {}
+
+  }, intervalMs);
+}
+
+const btnColor = __getGridColor('#0b5fff');
+
+JXG.Options.text.useMathJax = true;
+
+
+
+// Board HIER DIE KOORDINATEN
+// Board HIER DIE KOORDINATEN
+// Board HIER DIE KOORDINATEN
+// Board HIER DIE KOORDINATEN
+// Board HIER DIE KOORDINATEN
+// Board HIER DIE KOORDINATEN
+// Board HIER DIE KOORDINATEN
+// Board HIER DIE KOORDINATEN
+// Board HIER DIE KOORDINATEN
+
+board = JXG.JSXGraph.initBoard(jxgbox, {
+  axis: true,
+  showNavigation: true,
+  showCopyright: false,
+  boundingbox: [-1, 10, 10, -1],
+  keepaspectratio: true,
+
+  zoom: {
+    enabled: true,
+    wheel: true,
+    needShift: false,
+    factorX: 1.15,
+    factorY: 1.15
+  },
+
+  pan: {
+    enabled: true,
+    needShift: false,
+    needTwoFingers: false
+  },
+
+  defaultAxes: {
+    x: {
+      strokeColor: 'black',
+      strokeWidth: 2.5,
+    name: '\(m\,\text{in [kg]}\)',
+    withLabel: true,
+    label: { position: 'rt', offset: [-60, -30], fontSize: 18 },
+      ticks: {
+        insertTicks: false,
+        ticksDistance: 1,
+        strokeWidth: 3,
+        minorTicks: 9,         
+        drawLabels: true,
+        label: { fontSize: 18 }
+      }
+    },
+    y: {
+      strokeColor: 'black',
+      strokeWidth: 2.5,
+    name: 'Preis in €',
+    withLabel: true,
+    label: { position: 'rt', offset: [15, 0], fontSize: 18 },
+      ticks: {
+        insertTicks: false,
+        ticksDistance: 1,
+        strokeWidth: 3,
+        minorTicks: 9,        
+        drawLabels: true,
+        label: { fontSize: 18 }
+      }
+    }
+  },
+
+  grid: {
+    majorStep: 'auto',                
+    minorElements: 'auto',          
+    includeBoundaries: true,
+    forceSquare: true,
+
+    major: {
+      face: 'line',
+      strokeColor: btnColor,
+      strokeWidth: 1.5,          
+      dash: 0,
+      drawZero: true
+    },
+    minor: {
+      face: 'line',
+      strokeColor: btnColor,
+      strokeWidth: 1,         
+      dash: 1,
+      drawZero: false             // <<< spart Linien
+    }
+  }
+});
+
+
+
+
+/* =========================================================
+   ADAPTIVE AXES + GRID (auto tick distance + grid rebuild)
+   - passt bei Zoom/Pan automatisch:
+     * ticksDistance (1-2-5-10 …)
+     * minorTicks
+     * label fontSize / drawLabels
+     * Grid majorStep + minorElements
+   ========================================================= */
+
+(function adaptiveAxesAndGrid(board) {
+  if (!board) return;
+
+  // --- "nice number" für Tick-Abstände: 1,2,5 * 10^k
+  function niceStep(raw) {
+    if (!isFinite(raw) || raw <= 0) return 1;
+    const exp = Math.floor(Math.log10(raw));
+    const f = raw / Math.pow(10, exp);
+    let nf;
+    if (f <= 1) nf = 1;
+    else if (f <= 2) nf = 2;
+    else if (f <= 5) nf = 5;
+    else nf = 10;
+    return nf * Math.pow(10, exp);
+  }
+
+  function pxPerUnitX() {
+    const bb = board.getBoundingBox(); // [xmin, ymax, xmax, ymin]
+    const w = board.containerObj ? board.containerObj.clientWidth : (board.canvasWidth || 600);
+    return w / Math.max(1e-9, (bb[2] - bb[0]));
+  }
+
+  function pxPerUnitY() {
+    const bb = board.getBoundingBox();
+    const h = board.containerObj ? board.containerObj.clientHeight : (board.canvasHeight || 400);
+    return h / Math.max(1e-9, (bb[1] - bb[3]));
+  }
+
+  // --- Grid sauber neu bauen (weil majorStep/minorElements nicht in jeder JSXGraph-Version "live" wirken)
+  function rebuildGrid(stepX, stepY, minorX, minorY) {
+    const color = (window.readLiaBtnColor ? window.readLiaBtnColor('#0b5fff') : '#0b5fff');
+
+    // existierende Grids entfernen
+    try {
+      if (board.grids && board.grids.length) {
+        board.grids.slice().forEach(g => {
+          try { board.removeObject(g); } catch (e) {}
+        });
+      }
+    } catch (e) {}
+
+    // neues Grid anlegen
+    try {
+      board.create('grid', [], {
+        majorStep: [stepX, stepY],
+        minorElements: [minorX, minorY],
+        includeBoundaries: true,
+        forceSquare: true,
+
+        major: {
+          face: 'line',
+          strokeColor: color,
+          strokeWidth: 1.5,
+          dash: 0,
+          drawZero: true
+        },
+        minor: {
+          face: 'line',
+          strokeColor: color,
+          strokeWidth: 1,
+          dash: 1,
+          drawZero: false
+        }
+      });
+    } catch (e) {}
+
+    // danach ggf. direkt Theme-Farbe/Axis-Farbe nachziehen
+    try { window.applyGridColor && window.applyGridColor(board, color); } catch (e) {}
+    try { window.__applyAxisColors && window.__applyAxisColors(board); } catch (e) {}
+  }
+
+  // --- Achsenticks live anpassen
+  function setAxisTicks(axisKey, step, minorTicks, fontSize, drawLabels) {
+    try {
+      const ax = board.defaultAxes && board.defaultAxes[axisKey];
+      if (!ax) return;
+
+      // Defaults für neu entstehende Ticks/Labels
+      board.options = board.options || {};
+      board.options.defaultAxes = board.options.defaultAxes || {};
+      board.options.defaultAxes[axisKey] = board.options.defaultAxes[axisKey] || {};
+      board.options.defaultAxes[axisKey].ticks = board.options.defaultAxes[axisKey].ticks || {};
+      board.options.defaultAxes[axisKey].ticks.label = board.options.defaultAxes[axisKey].ticks.label || {};
+
+      board.options.defaultAxes[axisKey].ticks.ticksDistance = step;
+      board.options.defaultAxes[axisKey].ticks.minorTicks    = minorTicks;
+      board.options.defaultAxes[axisKey].ticks.drawLabels    = !!drawLabels;
+      board.options.defaultAxes[axisKey].ticks.label.fontSize = fontSize;
+
+      // existierende Tick-Objekte aktualisieren
+      const t = ax.defaultTicks;
+      if (t && typeof t.setAttribute === 'function') {
+        t.setAttribute({
+          ticksDistance: step,
+          minorTicks: minorTicks,
+          drawLabels: !!drawLabels,
+          label: { fontSize: fontSize }
+        });
+      }
+    } catch (e) {}
+  }
+
+  // --- Zustand, damit wir nicht dauernd neu bauen
+  let lastSig = '';
+
+  function computeAndApply() {
+    const ppuX = pxPerUnitX();
+    const ppuY = pxPerUnitY();
+
+    // Ziel: ca. 90px pro Major-Tick
+    const targetPx = 90;
+
+    const rawStepX = targetPx / Math.max(1e-9, ppuX);
+    const rawStepY = targetPx / Math.max(1e-9, ppuY);
+
+    const stepX = niceStep(rawStepX);
+    const stepY = niceStep(rawStepY);
+
+    // Minor-Logik: je größer der Step / je kleiner ppu, desto weniger Minor
+    const minorX = (ppuX < 25 || stepX >= 10) ? 0 : (stepX >= 5 ? 4 : 9);
+    const minorY = (ppuY < 25 || stepY >= 10) ? 0 : (stepY >= 5 ? 4 : 9);
+
+    // Label-Logik: bei zu wenig Pixel pro Einheit Labels verkleinern / ausblenden
+    let font = 18;
+    let draw = true;
+    const ppuMin = Math.min(ppuX, ppuY);
+    if (ppuMin < 35) font = 14;
+    if (ppuMin < 25) font = 12;
+    if (ppuMin < 16) draw = 10;
+
+    // Signatur – nur anwenden, wenn sich wirklich was geändert hat
+    const sig = [stepX, stepY, minorX, minorY, font, draw].join('|');
+    if (sig === lastSig) return;
+    lastSig = sig;
+
+    // Achsen
+    setAxisTicks('x', stepX, minorX, font, draw);
+    setAxisTicks('y', stepY, minorY, font, draw);
+
+    // Grid (neu bauen)
+    rebuildGrid(stepX, stepY, minorX, minorY);
+
+    try {
+      if (typeof board.fullUpdate === 'function') board.fullUpdate();
+      else board.update();
+    } catch (e) {}
+  }
+
+  // --- throttle über rAF, sonst boundingbox spammt hart
+  let raf = 0;
+  function schedule() {
+    if (raf) return;
+    raf = requestAnimationFrame(() => {
+      raf = 0;
+      computeAndApply();
+    });
+  }
+
+  board.on('boundingbox', schedule);
+  try { board.on('resize', schedule); } catch (e) {}
+
+  // initial
+  computeAndApply();
+})(board);
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================
+// Board ins gemeinsame ROOT registrieren
+// =========================================================
+const ROOT = (function () {
+  try { let w = window; while (w.parent && w.parent !== w) w = w.parent; return w; }
+  catch (e) { return window; }
+})();
+
+ROOT.__boards = ROOT.__boards || {};
+ROOT.__boards['Aufgabe2'] = board;
+
+// Pending Points nachziehen (falls vorher geklickt)
+ROOT.__pendingPointSpecs = ROOT.__pendingPointSpecs || [];
+ROOT.__pendingPointSpecs = ROOT.__pendingPointSpecs.filter(spec => {
+  const parts = String(spec).split(';').map(s => String(s).trim());
+  const bid = parts[0], name = parts[1];
+  if (bid === 'Aufgabe2' && name) {
+    // ensurePoint liegt im ROOT? -> über ROOT.window? meistens im gleichen Top-Level verfügbar.
+    // Sicher: direkt im ROOT aufrufen, falls vorhanden.
+    if (ROOT.ensurePoint) ROOT.ensurePoint(bid, name);
+    else if (window.ensurePoint) window.ensurePoint(bid, name);
+    return false;
+  }
+  return true;
+});
+
+
+function __isDarkTheme() {
+  try {
+    const doc = (window.parent && window.parent.document) ? window.parent.document : document;
+    const win = (window.parent && window.parent.getComputedStyle) ? window.parent : window;
+
+    // bevorzugt: body, sonst documentElement
+    const el = doc.body || doc.documentElement;
+    const bg = win.getComputedStyle(el).backgroundColor;
+
+    // bg ist typischerweise "rgb(r,g,b)" oder "rgba(r,g,b,a)"
+    const m = bg.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+    if (!m) return false;
+
+    const r = parseInt(m[1], 10);
+    const g = parseInt(m[2], 10);
+    const b = parseInt(m[3], 10);
+
+    // relative Luminanz (0..255) – Schwelle ~ 128
+    const lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+    return lum < 128;
+  } catch (e) {
+    return false;
+  }
+}
+
+
+function __applyNavColors(board) {
+  if (!board || !board.containerObj) return;
+
+  // JSXGraph legt die Navigation innerhalb des Board-Containers an
+  const nav = board.containerObj.querySelector('.JXG_navigation');
+  if (!nav) return;
+
+  const isDark = __isDarkTheme();
+  const col = isDark ? '#fff' : '#000';
+
+  // Navigation-Grundstil
+  nav.style.color = col;
+  nav.style.background = 'transparent';
+
+  // Links/Buttons/Spans explizit einfärben
+  nav.querySelectorAll('a, button, span').forEach(el => {
+    el.style.color = col;
+    el.style.borderColor = col;
+    el.style.background = 'transparent';
+    el.style.boxShadow = 'none';
+  });
+
+  // SVG-Icons (falls JSXGraph SVG nutzt)
+  nav.querySelectorAll('svg, svg *').forEach(el => {
+    el.style.fill = col;
+    el.style.stroke = col;
+  });
+
+  // IMG-Icons (falls JSXGraph Bilder nutzt)
+  nav.querySelectorAll('img').forEach(img => {
+    img.style.filter = isDark ? 'invert(1)' : 'none';
+  });
+}
+
+// einmal anwenden (nach initBoard)
+__applyNavColors(board);
+
+// bei Mode-Wechsel nachziehen
+try {
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+  if (mq && typeof mq.addEventListener === 'function') {
+    mq.addEventListener('change', () => __applyNavColors(board));
+  } else if (mq && typeof mq.addListener === 'function') {
+    mq.addListener(() => __applyNavColors(board));
+  }
+} catch (e) {}
+
+
+function __applyAxisColors(board) {
+  if (!board) return;
+
+  const isDark = __isDarkTheme();
+  const col = isDark ? '#fff' : '#000';
+
+  // 0) WICHTIG: Defaults für zukünftig neu erzeugte Tick-Labels setzen
+  // (damit beim Rauszoomen neue Zahlen direkt korrekt gefärbt werden)
+  try {
+    board.options = board.options || {};
+    board.options.defaultAxes = board.options.defaultAxes || {};
+    ['x', 'y'].forEach(axKey => {
+      board.options.defaultAxes[axKey] = board.options.defaultAxes[axKey] || {};
+      board.options.defaultAxes[axKey].ticks = board.options.defaultAxes[axKey].ticks || {};
+      board.options.defaultAxes[axKey].ticks.label = board.options.defaultAxes[axKey].ticks.label || {};
+
+      board.options.defaultAxes[axKey].strokeColor = col;
+      board.options.defaultAxes[axKey].ticks.strokeColor = col;
+
+      // Diese beiden sind für die Ziffern entscheidend:
+      board.options.defaultAxes[axKey].ticks.label.strokeColor = col;
+      board.options.defaultAxes[axKey].ticks.label.fillColor   = col;
+    });
+  } catch (e) {}
+
+  // Helfer: beliebige JSXGraph-Objekte einfärben
+  const paint = (obj) => {
+    if (!obj || typeof obj.setAttribute !== 'function') return;
+    try {
+      obj.setAttribute({
+        strokeColor: col,
+        highlightStrokeColor: col,
+        fillColor: col,
+        highlightFillColor: col
+      });
+    } catch (e) {}
+  };
+
+  // 1) Achsen + Ticks + Tick-Labels (existierende)
+  try {
+    if (board.defaultAxes) {
+      if (board.defaultAxes.x && board.defaultAxes.x.label) paint(board.defaultAxes.x.label);
+      if (board.defaultAxes.y && board.defaultAxes.y.label) paint(board.defaultAxes.y.label);
+
+      const paintTicks = (axis) => {
+        if (!axis) return;
+
+        // Achsen-VisProps (wirkt oft auf neu erzeugte Ticks/Labels)
+        try {
+          axis.setAttribute({ strokeColor: col, highlightStrokeColor: col });
+        } catch (e) {}
+
+        // Standard-Ticks (häufig axis.defaultTicks)
+        if (axis.defaultTicks) {
+          paint(axis.defaultTicks);
+
+          // Label-Default am Tick-Objekt selbst nachziehen
+          try {
+            axis.defaultTicks.setAttribute({
+              strokeColor: col,
+              highlightStrokeColor: col
+            });
+            if (axis.defaultTicks.visProp && axis.defaultTicks.visProp.label) {
+              axis.defaultTicks.visProp.label.strokeColor = col;
+              axis.defaultTicks.visProp.label.fillColor   = col;
+            }
+          } catch (e) {}
+
+          if (axis.defaultTicks.labels && axis.defaultTicks.labels.length) {
+            axis.defaultTicks.labels.forEach(paint);
+          }
+        }
+
+        // Manche Versionen: axis.ticks als Array
+        if (axis.ticks && axis.ticks.length) {
+          axis.ticks.forEach(t => {
+            paint(t);
+            // Tick-Label-Defaults am Tick nachziehen
+            try {
+              if (t.visProp && t.visProp.label) {
+                t.visProp.label.strokeColor = col;
+                t.visProp.label.fillColor   = col;
+              }
+            } catch (e) {}
+            if (t.labels && t.labels.length) t.labels.forEach(paint);
+          });
+        }
+
+        // Manche Versionen: axis.getTicks()
+        if (typeof axis.getTicks === 'function') {
+          (axis.getTicks() || []).forEach(t => {
+            paint(t);
+            try {
+              if (t.visProp && t.visProp.label) {
+                t.visProp.label.strokeColor = col;
+                t.visProp.label.fillColor   = col;
+              }
+            } catch (e) {}
+            if (t.labels && t.labels.length) t.labels.forEach(paint);
+          });
+        }
+      };
+
+      paintTicks(board.defaultAxes.x);
+      paintTicks(board.defaultAxes.y);
+    }
+  } catch (e) {}
+
+  // 2) Fallback: Tick-Labels werden je nach Version als Textobjekte geführt.
+  // Wir färben NUR Texte, die sehr wahrscheinlich Tick-Labels sind, um nicht alle Texte (z.B. Punktnamen) zu erwischen.
+  try {
+    if (board.objectsList && board.objectsList.length) {
+      board.objectsList.forEach(o => {
+        if (!o || o.elType !== 'text') return;
+
+        // Heuristiken für Tick-Labels:
+        // - Tick-Labels sind fast immer "fixed"
+        // - und haben häufig sehr kurze Inhalte (Zahlen)
+        // - und sind nicht "label" eines beliebigen Punktes (die sind oft an ein parent gekoppelt)
+        const txt = (typeof o.getText === 'function') ? String(o.getText()) : (o.plaintext ? String(o.plaintext) : '');
+        const looksNumeric = /^[\s\-+]*\d+([.,]\d+)?\s*$/.test(txt);
+
+        const isFixed = (o.visProp && (o.visProp.fixed === true || o.visProp.isfixed === true));
+        if (looksNumeric && isFixed) paint(o);
+      });
+    }
+  } catch (e) {}
+
+  // 3) Redraw
+  try {
+    if (typeof board.fullUpdate === 'function') board.fullUpdate();
+    else board.update();
+  } catch (e) {}
+}
+
+// einmal anwenden
+__applyAxisColors(board);
+
+// NEU: bei jedem Zoom/Pan (boundingbox ändert sich) Achsen/Ticks/Labels nachfärben
+try {
+  board.on('boundingbox', () => __applyAxisColors(board));
+} catch (e) {}
+
+// Optional (aber sinnvoll): auch nach Board-Resize einmal nachziehen
+try {
+  board.on('resize', () => __applyAxisColors(board));
+} catch (e) {}
+
+
+// einmal anwenden
+__applyAxisColors(board);
+
+
+
+
+function __applyBoardFrame(board) {
+  if (!board || !board.containerObj) return;
+
+  const isDark = __isDarkTheme();
+  const col = isDark ? '#fff' : '#000';
+
+  // Rahmen um das Koordinatensystem
+  board.containerObj.style.border = `2px solid ${col}`;
+  board.containerObj.style.borderRadius = '8px';     // optional
+  board.containerObj.style.boxSizing = 'border-box';
+}
+
+// einmal anwenden
+__applyBoardFrame(board);
+
+// bei Mode-Wechsel nachziehen (gleiches Event wie Navigation nutzen)
+try {
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+  const handler = () => {
+    __applyNavColors(board);
+    __applyAxisColors(board);
+  };
+
+  if (mq && typeof mq.addEventListener === 'function') mq.addEventListener('change', handler);
+  else if (mq && typeof mq.addListener === 'function') mq.addListener(handler);
+} catch (e) {}
+
+
+
+try {
+  if (board && board.grids && board.grids.length) {
+    board.grids.forEach(g => g && g.setAttribute && g.setAttribute({ strokeColor: btnColor }));
+  }
+} catch (e) {}
+
+
+if (board && board.containerObj) {
+  board.containerObj.style.background = 'transparent';
+}
+
+let __lastDark = null;
+
+setInterval(() => {
+  const nowDark = __isDarkTheme();
+  if (nowDark === __lastDark) return;
+  __lastDark = nowDark;
+
+  __applyNavColors(board);
+  __applyAxisColors(board);
+  __applyBoardFrame(board);
+
+  try { window.__recolorNeutralAutoLabels && window.__recolorNeutralAutoLabels(); } catch (e) {}
+}, 300);
+
+
+// Grid-Farbe automatisch an Button-Farbe koppeln
+__watchGridColor(board, 400);
+
+
+// f(x) = 1.5 * e^(-x) * sin(2*x)
+var f = function(x){  return 0.25*x; };
+var g = function(x){  return 0.75*x; };
+var h = function(x){  return 1.2*x; };
+
+// Graph
+board.create('functiongraph', [f, 0, 100], {  strokeWidth: 3,  strokeColor: '#ff0000'});
+board.create('functiongraph', [g, 0, 100], {  strokeWidth: 3,  strokeColor: '#00ff40'});
+board.create('functiongraph', [h, 0, 100], {  strokeWidth: 3,  strokeColor: '#2200ff'});
+
+
+
+```
+
+</div>
+
+
+In blau ist der Preis für Erdbeeren, in grün ist der Preis für Kirschen und in blau ist der Preis für Himbeeren angegeben.
+
+
+
+<section class="dynFlex">
+
+
+<div class="flex-child">
+
+
+__$a)\;\;$__ Gib den Preis von $8\,$kg Kirschen an.
+
+ [[ 6        ]] € 
+@Algebrite.check2(6,0.05)
+
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ Gib an, wie viel Kilogramm Himbeeren man für 2€ kaufen kann.
+
+ [[ 8        ]] kg 
+@Algebrite.check2(8,0.05)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ Gib den Preis von $4\,$kg Erdbeeren an.
+
+ [[ 4,80      ]] € 
+@Algebrite.check2(4.8,0.05)
+
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__ Gib an, wie viel Kilogramm Kirschen man für 1€ kaufen kann.
+
+ [[ 1,333        ]] kg 
+@Algebrite.check2(1.333,0.05)
+
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__ Gib an, wie viel Kilogramm Kirschen man statt 12kg Himbeeren kaufen kann.
+
+ [[ 4        ]] kg 
+@Algebrite.check2(4,0.05)
+
+</div>
+
+<div class="flex-child">
+
+__$f)\;\;$__ Gib an, wie viel Euro man mehr bezahlen müsste, wenn man statt 20kg Himbeeren doch 20kg Kischen kaufen will.
+
+ [[ 10       ]] € 
+@Algebrite.check2(10,0.05)
+
+</div>
+
+
+</section>
 
 
 
