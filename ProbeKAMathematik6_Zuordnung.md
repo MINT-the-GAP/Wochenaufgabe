@@ -891,6 +891,89 @@ Oben links in der Kopfzeile dieses LiaScript-Kurses findest du einen Textmarker.
 Bei den Aufgaben ist auch immer ein Stiftbutton eingeblendet, klicke auf diesen Button und erhalte eine Schreibfläche.
 
 
+## Schrifterkennung
+
+
+
+<center>
+
+<!-- style="width:200px" -->
+![Navigation](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/Readme/canvas.png)
+
+</center>
+
+1. Öffnet oder schließt die Schreibfläche.
+
+2. Macht die letzte Änderung auf der Schreibfläche rückgängig.
+
+3. Stellt das letzte "Rückgängig machen" wieder her.
+
+4. Radierer mit Submenü für Radierergröße oder komplettes löschen.
+
+5. Stift mit Submenü für Farbauswahl, Stiftdicke und Transparenz.
+
+6. Legt ein Grid oder Linien in den Hintergrund.
+
+7. Lässt ein Feld ziehen, welches mittels Schrifterkennung an das Eingabefeld als Lösung übergibt.
+
+Die Schreibfläche kann unten links oder rechts an den Ecke in der Größe beliebig verändert werden.
+
+
+> **Steuerung mit Maus**
+
+- Linke Maustaste: Zeichnen, Radieren, Ziehen
+
+- Rechte Maustaste: Schreibfläche hin- und herziehen
+
+- Mausrad: Zoom
+
+
+> **Steuerung mit Touchscreen**
+
+- Ein Finger:  Zeichnen, Radieren, Ziehen
+
+- Zwei Finger (Abstand zwischen den Fingern gleichbleibend): Schreibfläche hin- und herziehen
+
+- Zwei Finger (Abstand zwischen den Fingern verändern): Zoom
+
+
+---
+
+---
+
+
+> **Beispielaufgaben**
+
+**Aufgabe 1:** Berechne den Wert des Terms
+
+
+__$a)\;\;$__
+$1470+8 =$ [[     1478    ]] 
+
+@canvas
+
+
+
+
+__$b)\;\;$__
+$5010+300 =$ [[     5310    ]] 
+
+@canvas
+
+
+
+
+
+__$c)\;\;$__
+$4200+89 =$ [[     4289    ]] 
+
+@canvas
+
+
+
+
+
+
 
 
 ### Prozentrechnung 1
