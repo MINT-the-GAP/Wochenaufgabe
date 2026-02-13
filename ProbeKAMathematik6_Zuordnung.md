@@ -5,11 +5,13 @@ author: Martin Lommatzsch
 
 
 
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/JSXGraph@main/README.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
+
+
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
 
-import: https://cdn.jsdelivr.net/gh/LiaTemplates/JSXGraph@main/README.md
-import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
 
 
 
@@ -872,7 +874,9 @@ window.__applyPointLabelTheme = window.__applyPointLabelTheme || function (board
 # Probeleistungskontrolle für Mathematik - Klasse 6: Zuordnung
 
 
-> Letzte Aktualisierung am 08.02. gegen 12:30 Uhr
+
+> Letzte Aktualisierung am 13.02. gegen 18:30 Uhr
+
 
 > <h2> WICHTIGER HINWEIS: Ich teste auch neue Funktionen mit dieser Datei, sollte etwas seltsames angezeigt werden oder gar nicht zu sehen sein, bitte einfach die Datei aktualisieren. Ich versuche die auftretenden Bugs der neuen Features nach und nach zu beseitigen. <br> <p align="right"> -Lommatzsch </p> </h2>
 
@@ -903,7 +907,6 @@ Bei den Aufgaben ist auch immer ein Stiftbutton eingeblendet, klicke auf diesen 
 
 __$a)\;\;$__ Wie viel sind $80\%$ von $50\,$€?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  40  ]]€ 
@@ -918,12 +921,14 @@ $$
 $$
 ************
 
+@canvas
+
+
 </div>
 <div class="flex-child">
 
 __$b)\;\;$__ Wie viel sind $125\%$ von $300\,$€?  \
 
-@canvas
 
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
@@ -939,12 +944,13 @@ $$
 $$
 ************
 
+@canvas
+
 </div>
 <div class="flex-child">
 
 __$c)\;\;$__ Wie viel sind $400\%$ von $125\,$€?  \
 
-@canvas
 
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
@@ -960,12 +966,13 @@ $$
 $$
 ************
 
+@canvas
+
 </div>
 <div class="flex-child">
 
 __$d)\;\;$__ Wie viel sind $7\%$ von $900\,$€?  \
 
-@canvas
 
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
@@ -981,13 +988,13 @@ $$
 $$
 ************
 
+@canvas
 
 </div>
 <div class="flex-child">
 
 __$e)\;\;$__ Wie viel sind $12\%$ von $750\,$€?  \
 
-@canvas
 
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
@@ -1003,12 +1010,12 @@ $$
 $$
 ************
 
+@canvas
+
 </div>
 <div class="flex-child">
 
 __$f)\;\;$__ Wie viel sind $4\%$ von $1\,250\,$€?  \
-
-@canvas
 
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
@@ -1023,6 +1030,8 @@ $$
 \end{align*}
 $$
 ************
+
+@canvas
 
 
 </div>
@@ -1054,7 +1063,6 @@ $$
 
 __$a)\;\;$__ $54\,\text{€}$ sind wie viel Prozent von $72\,\text{€}$?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  75  ]]%
@@ -1071,6 +1079,8 @@ p &= 75
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1078,7 +1088,6 @@ $$
 
 __$b)\;\;$__ $110\,\text{€}$ sind wie viel Prozent von $88\,\text{€}$?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  125  ]]%
@@ -1095,6 +1104,8 @@ p &= 125
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1102,7 +1113,6 @@ $$
 
 __$c)\;\;$__ $525\,\text{€}$ sind wie viel Prozent von $150\,\text{€}$?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  350  ]]%
@@ -1119,6 +1129,8 @@ p &= 350
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1126,7 +1138,6 @@ $$
 
 __$d)\;\;$__ $96\,\text{€}$ sind wie viel Prozent von $640\,\text{€}$?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  15  ]]%
@@ -1143,6 +1154,8 @@ p &= 15
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1150,7 +1163,6 @@ $$
 
 __$e)\;\;$__ $112\,\text{€}$ sind wie viel Prozent von $800\,\text{€}$?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  14  ]]%
@@ -1167,6 +1179,8 @@ p &= 14
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1174,7 +1188,6 @@ $$
 
 __$f)\;\;$__ $72\,\text{€}$ sind wie viel Prozent von $480\,\text{€}$?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  15  ]]%
@@ -1190,6 +1203,8 @@ p &= 15
 \end{align*}
 $$
 ************
+
+@canvas
 
 </div>
 
@@ -1214,7 +1229,6 @@ $$
 
 __$a)\;\;$__ $48\,\text{€}$ sind $12\%$ von wie viel Euro?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  400  ]]€ 
@@ -1230,6 +1244,8 @@ G &= 400\,\text{€}
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1237,7 +1253,6 @@ $$
 
 __$b)\;\;$__ $90\,\text{€}$ sind $15\%$ von wie viel Euro?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  600  ]]€ 
@@ -1253,6 +1268,8 @@ G &= 600\,\text{€}
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1260,7 +1277,6 @@ $$
 
 __$c)\;\;$__ $210\,\text{€}$ sind $35\%$ von wie viel Euro?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  600  ]]€ 
@@ -1276,6 +1292,8 @@ G &= 600\,\text{€}
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1283,7 +1301,6 @@ $$
 
 __$d)\;\;$__ $52{,}50\,\text{€}$ sind $7\%$ von wie viel Euro?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  750  ]]€ 
@@ -1299,14 +1316,14 @@ G &= 750\,\text{€}
 $$
 ************
 
+@canvas
+
 </div>
 
 
 <div class="flex-child">
 
 __$e)\;\;$__ $144\,\text{€}$ sind $18\%$ von wie viel Euro?  \
-
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  800  ]]€ 
@@ -1322,6 +1339,8 @@ G &= 800\,\text{€}
 $$
 ************
 
+@canvas
+
 </div>
 
 
@@ -1329,7 +1348,6 @@ $$
 
 __$f)\;\;$__ $360\,\text{€}$ sind $45\%$ von wie viel Euro?  \
 
-@canvas
 
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  800  ]]€ 
@@ -1344,6 +1362,8 @@ G &= 800\,\text{€}
 \end{align*}
 $$
 ************
+
+@canvas
 
 </div>
 
@@ -1363,7 +1383,6 @@ $$
 
 **Aufgabe 4:** Die Miete einer Wohnung soll nach einer Sanierung um $13\%$ erhöht werden. Die Miete betrug zuvor $650\,$€. **Berechne** den neuen Mietpreis. 
 
-@canvas
 
 <!-- data-solution-timer="5min" data-solution-timer-start="oncheck" -->
  [[  734,50  ]]€ 
@@ -1391,6 +1410,8 @@ $$
 ************
 
 
+@canvas
+
 ---
 
 ---
@@ -1398,7 +1419,6 @@ $$
 
 **Aufgabe 5:** Ein Sparer hat ein Kapital von $8700\,$€ angelegt und bekommt nach einem Jahr Zinsen von $104,40\,$€. **Berechne** den Zinssatz.
 
-@canvas
 
 <!-- data-solution-timer="5min" data-solution-timer-start="oncheck" -->
  [[  0,012  ]] 
@@ -1415,6 +1435,8 @@ p &= 1{,}2\%
 $$
 ************
 
+@canvas
+
 
 ---
 
@@ -1423,7 +1445,6 @@ $$
 **Aufgabe 6:** Ein Fahrradhelm kostet $40\,$€. Im Angebot wird der Preis um $15\%$ gesenkt.  
 **Berechne** den neuen Preis.  \
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  34  ]]€ 
@@ -1440,6 +1461,8 @@ $$
 $$
 ************
 
+@canvas
+
 
 
 ---
@@ -1451,7 +1474,6 @@ $$
 **Aufgabe 7:** In einem Glas sind $250\,\text{ml}$ Saft. Davon werden $35\%$ getrunken.  
 **Berechne**, wie viele Milliliter im Glas bleiben.  \
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  162,5  ]]ml 
@@ -1472,6 +1494,8 @@ $$
 
 
 
+@canvas
+
 
 
 
@@ -1490,7 +1514,6 @@ $$
 
 __$a)\;\;$__ **Berechne**, wie viel Geld nach diesem Jahr auf dem Konto ist. \
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  8104  ]] €
@@ -1519,9 +1542,10 @@ $$
 
 ************
 
+@canvas
+
 __$b)\;\;$__ Das gesamte Geld aus dem ersten Jahr wird nochmals angelegt. **Berechne**, wie viel Geld nach dem zweiten Jahr auf dem Konto ist. \
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  8209,352  ]] €
@@ -1552,6 +1576,8 @@ K_2 &= K_1 + Z_2 \\
 $$
 ************
 
+
+@canvas
 
 
 
@@ -1626,7 +1652,6 @@ __$f)\;\;$__ Die gerechte Anzahl von Bonbons aus einer Tütte wird in Abhängigk
 **Aufgabe 12:** Am Schulkiosk kosten drei Kakaos zusammen $2,10\,$€.  
 **Berechne**, was fünf Kakaos kosten.
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  3,50  ]] €
@@ -1644,6 +1669,7 @@ style="width:300px" -->
 
 ************
 
+@canvas
 
 
 
@@ -1666,7 +1692,6 @@ style="width:300px" -->
 Wenn man $6$ Flaschen nimmt, sind in jeder Flasche $2\,\text{l}$.  
 **Berechne**, wie viel Liter in jeder Flasche sind, wenn man $8$ Flaschen nimmt.
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  1,5  ]] l
@@ -1685,6 +1710,7 @@ style="width:340px" -->
 ************
 
 
+@canvas
 
 
 
@@ -1698,7 +1724,6 @@ style="width:340px" -->
 **Aufgabe 14:** Ein Schüler fährt mit gleichbleibendem Tempo $9\,\text{km}$ in $30\,\text{min}$.  
 **Berechne**, wie viele Kilometer er in $50\,\text{min}$ schafft.
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  15  ]] km
@@ -1717,6 +1742,7 @@ style="width:320px" -->
 ************
 
 
+@canvas
 
 
 
@@ -1731,7 +1757,6 @@ style="width:320px" -->
 **Aufgabe 15:** Für $18$ Kopien bezahlt man $1,44\,$€.  
 **Berechne**, was $50$ Kopien kosten.
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  4,00  ]] €
@@ -1749,6 +1774,7 @@ style="width:300px" -->
 
 ************
 
+@canvas
 
 
 
@@ -1766,7 +1792,6 @@ style="width:300px" -->
 **Aufgabe 16:** Sechs Schüler bauen die Technik für ein Schulfest in $48\,\text{min}$ auf (alle gleich schnell).  
 **Berechne**, wie lange acht Schüler brauchen.
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  36  ]] min
@@ -1785,6 +1810,7 @@ style="width:320px" -->
 ************
 
 
+@canvas
 
 
 
@@ -1798,7 +1824,6 @@ style="width:320px" -->
 **Aufgabe 17:** Für das Austragen von Zetteln brauchen $5$ Schüler gemeinsam $30\,\text{min}$ (alle gleich schnell).  
 **Berechne**, wie lange $10$ Schüler brauchen.
 
-@canvas
 
 <!-- data-solution-timer="180s" data-solution-timer-start="oncheck" -->
  [[  15  ]] min
@@ -1816,6 +1841,7 @@ style="width:320px" -->
 
 ************
 
+@canvas
 
 
 </div>

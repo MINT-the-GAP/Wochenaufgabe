@@ -530,7 +530,7 @@ window.__applyPointLabelTheme = window.__applyPointLabelTheme || function (board
 # Probeleistungskontrolle für Physik - Klasse 10: Wellen
 
 
-> Letzte Aktualisierung am 08.02. gegen 12:30 Uhr
+> Letzte Aktualisierung am 13.02. gegen 18:30 Uhr
 
 
 > <h2> WICHTIGER HINWEIS: Ich teste auch neue Funktionen mit dieser Datei, sollte etwas seltsames angezeigt werden oder gar nicht zu sehen sein, bitte einfach die Datei aktualisieren. Ich versuche die auftretenden Bugs der neuen Features nach und nach zu beseitigen. <br> <p align="right"> -Lommatzsch </p> </h2>
@@ -565,7 +565,6 @@ Eine empfindliche Messplatine (Masse $m=200\,\text{g}$) wird zur Vibrationsentko
 
 __$a)\;\;$__ Berechne die Kreisfrequenz.
 
-@canvas
 
 $\omega = $ [[ 5 ]] $\,\dfrac{1}{\text{s}}$  
 @Algebrite.check2(5,0.01)
@@ -581,9 +580,10 @@ m &= 200\,\text{g}=0{,}200\,\text{kg}, \qquad D=5\,\frac{\text{N}}{\text{m}} \\[
 $$
 ******************
 
+@canvas
+
 __$b)\;\;$__ Gib eine passende Schwingungsgleichung an und berechne die Elongation nach $t=0{,}30\,\text{s}$ (in $\text{cm}$).
 
-@canvas
 
 $y(0{,}30\,\text{s}) \approx $ [[ 0,495 ]] $\,\text{cm}$  
 @Algebrite.check2(0.495,0.01)
@@ -602,6 +602,9 @@ y(0{,}30\,\text{s})
 $$
 ******************
 
+@canvas
+
+
 ---
 
 ---
@@ -615,8 +618,6 @@ y(t)=3{,}5\,\text{cm}\,\sin\!\left(\frac{8}{\text{s}}\,t+\frac{\pi}{3}\right).
 $$
 
 __$a)\;\;$__ Berechne die Federkonstante $D$.
-
-@canvas
 
 $D \approx $ [[ 8,96 ]] $\,\dfrac{\text{N}}{\text{m}}$  
 @Algebrite.check2(8.96,0.02)
@@ -633,9 +634,10 @@ D &= 0{,}140\cdot 8^2 \,\frac{\text{kg}}{\text{s}^2}
 $$
 ******************
 
+@canvas
+
 __$b)\;\;$__ Berechne die Elongation nach einer Periodendauer $T$.
 
-@canvas
 
 $y(T) \approx $ [[ 3,031 ]] $\,\text{cm}$  
 @Algebrite.check2(3.031,0.02)
@@ -654,6 +656,9 @@ $$
 ******************
 
 
+@canvas
+
+
 ---
 
 ---
@@ -668,7 +673,6 @@ Nimm $g=9{,}81\,\dfrac{\text{m}}{\text{s}^2}$ an.
 
 __$a)\;\;$__ Berechne die Fadenlänge $L$.
 
-@canvas
 
 $L \approx $ [[ 0,994 ]] $\,\text{m}$  
 @Algebrite.check2(0.994,0.005)
@@ -686,9 +690,10 @@ L &= \frac{9{,}81}{\pi^2}\,\text{m}
 $$
 ******************
 
+@canvas
+
 __$b)\;\;$__ Der Faden wird um $20\%$ verlängert. Berechne die neue Periodendauer $T_\text{neu}$.
 
-@canvas
 
 $T_\text{neu} \approx $ [[ 2,19 ]] $\,\text{s}$  
 @Algebrite.check2(2.19,0.02)
@@ -709,6 +714,8 @@ $$
 ******************
 
 
+@canvas
+
 ---
 
 **Aufgabe 4:**  
@@ -717,7 +724,6 @@ Verwende $y(t)=A\sin(\omega t+\varphi)$ mit $\varphi=-45^\circ$.
 
 __$a)\;\;$__ Berechne die Kreisfrequenz $\omega$.
 
-@canvas
 
 $\omega \approx $ [[ 3,927 ]] $\,\dfrac{1}{\text{s}}$  
 @Algebrite.check2(3.92699,0.02)
@@ -733,9 +739,10 @@ $$
 $$
 ******************
 
+@canvas
+
 __$b)\;\;$__ Gib die Schwingungsgleichung an und berechne $y(0{,}50\,\text{s})$ (in $\text{cm}$).
 
-@canvas
 
 $y(0{,}50\,\text{s}) \approx $ [[ 4,619 ]] $\,\text{cm}$  
 @Algebrite.check2(4.619,0.02)
@@ -755,6 +762,7 @@ $$
 ******************
 
 
+@canvas
 
 
 
@@ -769,7 +777,6 @@ $$
 In einem Wellenbecken läuft eine sinusförmige Wasserwelle gleichmäßig in $x$-Richtung. Die Welle schwingt mit der Periodendauer $0{,}80\,\text{s}$, die maximale Auslenkung beträgt $3{,}6\,\text{cm}$ und die Wellenlänge ist $50\,\text{cm}$.  
 Nach $10\,\text{s}$ wird bei der Stelle $x=15\,\text{cm}$ ein Foto gemacht. Berechne die momentane Elongation an dieser Stelle.
 
-@canvas
 
 $y(15\,\text{cm};10\,\text{s}) \approx $ [[ 3,42 ]] $\,\text{cm}$  
 @Algebrite.check2(3.4238,0.02)
@@ -784,6 +791,7 @@ y(15\,\text{cm};10\,\text{s})
 $$
 ******************
 
+@canvas
 
 ---
 
@@ -791,7 +799,6 @@ $$
 An einem langen Seil läuft eine sinusförmige Welle in $x$-Richtung. Die maximale Auslenkung beträgt $17\,\text{mm}$ und die Wellenlänge $35\,\text{mm}$.  
 Nach $4{,}4\,\text{s}$ wird in $9{,}0\,\text{cm}$ Entfernung vom Erreger eine Elongation von $10\,\text{mm}$ gemessen. Berechne die Periodendauer $T$.
 
-@canvas
 
 $T \approx $ [[ 1,65 ]] $\,\text{s}$  
 @Algebrite.check2(1.647,0.02)
@@ -828,6 +835,7 @@ T &\approx \frac{4{,}4\,\text{s}}
 $$
 ******************
 
+@canvas
 
 ---
 
@@ -835,7 +843,6 @@ $$
 Auf einem Slinky läuft eine sinusförmige Welle in $x$-Richtung. Die maximale Auslenkung beträgt $17\,\text{cm}$, die Periodendauer ist $1{,}1\,\text{s}$.  
 Nach $4{,}4\,\text{s}$ misst man in $7{,}8\,\text{cm}$ Entfernung vom Erreger eine Elongation von $10\,\text{cm}$. Berechne die Ausbreitungsgeschwindigkeit $c$ der Welle.
 
-@canvas
 
 $c \approx $ [[ 0,0182 ]] $\,\dfrac{\text{m}}{\text{s}}$  
 @Algebrite.check2(0.01818,0.0006)
@@ -880,6 +887,8 @@ c &= \frac{\lambda}{T}
 $$
 ******************
 
+@canvas
+
 
 ---
 
@@ -890,7 +899,6 @@ $$
 Auf einer Wasseroberfläche breitet sich eine sinusförmige Welle in $x$-Richtung aus. Die maximale Auslenkung beträgt $4{,}5\,\text{cm}$. Der Erreger schwingt mit einer Periodendauer von $0{,}50\,\text{s}$, und die Welle läuft mit $0{,}40\,\dfrac{\text{m}}{\text{s}}$ nach rechts.  
 Berechne die Elongation nach $1{,}0\,\text{s}$ an der Stelle $x=3{,}0\,\text{cm}$.
 
-@canvas
 
 $y(3{,}0\,\text{cm};1{,}0\,\text{s}) \approx $ [[ -3,64 ]] $\,\text{cm}$  
 @Algebrite.check2(-3.6406,0.02)
@@ -909,7 +917,7 @@ y(3{,}0\,\text{cm};1{,}0\,\text{s})
 $$
 ******************
 
-
+@canvas
 
 
 
@@ -968,7 +976,6 @@ Hinweise und Gleichungen: \
 
 __$a)\;\;$__ Bestimme die Federkonstante $D$ aus der gespeicherten Spannenergie.
 
-@canvas
 
 $ D \approx $ [[ 0,383        ]] $\,\dfrac{\text{N}}{\text{m}}$
 @Algebrite.check2(0.383,0.01)
@@ -986,6 +993,7 @@ D &= \frac{2 \cdot 0{,}00015 \,\text{J}}{(0{,}028 \,\text{m})^2} \\
 $$
 ******************
 
+@canvas
 
 ---
 
@@ -995,7 +1003,6 @@ $$
 
 __$b)\;\;$__ Berechne die Kreisfrequenz $\omega$ und die Periodendauer $T$ der Schwingung für die angehängte Masse $m = 0{,}180 \,\text{kg}$.
 
-@canvas
 
 $ \omega \approx $ [[ 1,458        ]]  $\dfrac{1}{\text{s}}$ \
 @Algebrite.check2(1.458,0.01)
@@ -1016,6 +1023,7 @@ T &= \frac{2\pi}{\omega}
 $$
 ******************
 
+@canvas
 
 ---
 
@@ -1029,7 +1037,6 @@ $\varphi_0 = \dfrac{\pi}{4}$. Die Amplitude sei $A = 2{,}8 \,\text{cm}$.
 1. Gib die vollständige Schwingungsgleichung $x(t)$ an.  
 2. Berechne daraus die momentane Auslenkung $x(0{,}50 \,\text{s})$ in Zentimeter.
 
-@canvas
 
 
 $ x(0.50\,\text{s}) \approx $ [[ 2,796        ]] cm
@@ -1053,6 +1060,7 @@ x(0{,}50 \,\text{s})
 $$
 ******************
 
+@canvas
 
 ---
 
@@ -1064,7 +1072,6 @@ __$d)\;\;$__ Bestimme zwei charakteristische Größen dieser Schwingung:
 1. die maximale Geschwindigkeit $v_\text{max}$,  
 2. die maximale Rückstellkraft $F_\text{Feder,max}$ der Feder auf vier Nachkommastellen genau.
 
-@canvas
 
 $ v_\text{max} \approx $ [[ 0,0408        ]]  $\,\dfrac{\text{m}}{\text{s}}$ \
 $ F_\text{Feder,max} \approx $ [[ 0,0107        ]] N
@@ -1083,6 +1090,7 @@ $$
 
 
 
+@canvas
 
 
 
@@ -1142,7 +1150,6 @@ Wellenlänge $\lambda = 36 \,\text{cm}$.
 
 Bestimme die momentane Auslenkung $y(x;t)$ an der Stelle $x = 5{,}0 \,\text{cm}$ zum Zeitpunkt $t = 2{,}4 \,\text{s}$.
 
-@canvas
 
 $ y(5{,}0\text{ cm};\,2{,}4\text{ s}) \approx $ [[ 0,562        ]] cm
 ******************
@@ -1172,6 +1179,7 @@ $$
 ******************
 
 
+@canvas
 
 
 ---
@@ -1188,7 +1196,6 @@ Nach einer Zeit $t = 3{,}5 \,\text{s}$ misst man an der Stelle $x = 4{,}0 \,\tex
 Bestimme daraus die Periodendauer $T$ der Welle.
 
 
-@canvas
 
 $ T \approx $ [[ 0,840        ]] s
 @Algebrite.check2(0.840,0.01)
@@ -1264,6 +1271,7 @@ $$
 ******************
 
 
+@canvas
 
 
 ---
@@ -1283,7 +1291,6 @@ Die Periodendauer beträgt $T = 1{,}20 \,\text{s}$.
 2. Berechne daraus die Ausbreitungsgeschwindigkeit $c$ der Welle.
 
 
-@canvas
 
 $ \lambda \approx $ [[ 3,28        ]] cm
 
@@ -1364,6 +1371,7 @@ c = \frac{\lambda}{T}
 $$
 ******************
 
+@canvas
 
 
 ---
@@ -1381,7 +1389,6 @@ __$d)\;\;$__ Physikalische Einordnung (Antwort in Worten, aber begründe mit Zah
 - In Teilaufgabe c) hast du gesehen, dass aus $\lambda$ und $T$ direkt die Ausbreitungsgeschwindigkeit $c$ folgt.  
   Erkläre in einem Satz, was $\lambda$ und $T$ physikalisch jeweils bedeuten und warum $c = \dfrac{\lambda}{T}$ sinnvoll ist.
 
-@canvas
 
 [[!]]
 <script>true</script>
@@ -1394,6 +1401,7 @@ $\Rightarrow c = \frac{\lambda}{T}$ bedeutet: pro Schwingungsdauer T läuft die 
 ******************
 
 
+@canvas
 
 
 
@@ -2939,24 +2947,23 @@ board.create('functiongraph', [f, xmin, xmax], {
 
 __$a)\;\;$__ Gib die Amplitude der Welle an.
 
-@canvas
 
 $ A = $ [[ 2,5        ]] $\,\text{m}$
 @Algebrite.check2(2.5,0.01)
 
+@canvas
 
 __$b)\;\;$__ Gib die Wellenlänge der Welle an.
 
-@canvas
 
 $ \lambda = $ [[ 2,375        ]] $\,\text{m}$
 @Algebrite.check2(2.375,0.001)
 
 
+@canvas
 
 __$c)\;\;$__ Zwischen den Aufnahmen liegen $4\,$s und es wurde nur eine minimale Veränderung dokumentiert. Gib die Periodendauer der Welle an.
 
-@canvas
 
 $ T = $ [[ 12,566        ]] $\,\text{s}$
 @Algebrite.check2(12.566,0.05)
@@ -2978,9 +2985,10 @@ mit: $0,756 \cdot \dfrac{1}{0,756} = 1 \;\;\Rightarrow\;\; 4 \cdot \dfrac{1}{0,7
 ******************
 
 
+@canvas
+
 __$d)\;\;$__ Gib die Ausbreitungsgeschwindigkeit der Welle an.
 
-@canvas
 
 $ c = $ [[ 0,189        ]] $\,\dfrac{\text{m}}{\text{s}}$
 @Algebrite.check2(0.1889999999,0.05)
@@ -2990,6 +2998,7 @@ $c = \dfrac{\lambda}{T} \approx 0,189 \,\dfrac{\text{m}}{\text{s}}$
 
 ******************
 
+@canvas
 
 
 
