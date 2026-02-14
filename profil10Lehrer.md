@@ -180,8 +180,6 @@ __Aufgabe 1:__ **Leite** den allgemeinen mathematischen Ausdruck der kinetischen
 
 
 {{2}}
-
-
 $$
 \begin{align*} 
 E_{kin} & = \textcolor{red}{F} \cdot \textcolor{green}{x} \qquad \text{mit: } \textcolor{green}{x = \frac{1}{2}\cdot a\cdot t^2}  \\
@@ -326,6 +324,7 @@ $$
 <center>
 <!-- style="width:400px" -->
 ![](Bilder/Superposi3.png)
+
 </center>
 
 <br>

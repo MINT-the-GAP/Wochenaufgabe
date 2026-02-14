@@ -1408,6 +1408,7 @@ $$
 
 __$e)\;\;$__ $144\,\text{€}$ sind $18\%$ von wie viel Euro?  \
 
+
 <!-- data-solution-timer="120s" data-solution-timer-start="oncheck" -->
  [[  800  ]]€ 
 @Algebrite.check(800)
