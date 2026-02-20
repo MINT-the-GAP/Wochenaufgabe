@@ -9,7 +9,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imp
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/MarkerREADME.md
 
 
-tags: Wochenaufgabe, Deutsch, Klasse 5
+tags: Wochenaufgabe, Mathematik, Klasse 5
 comment: Dies sind die Wochenaufgabenübersicht für die 5. Klasse. 
 author: Martin Lommatzsch
 
@@ -19,11 +19,11 @@ author: Martin Lommatzsch
 
 
 
-# Übersicht um digitalgestützen Üben - Deutsch
+# Übersicht um digitalgestützen Üben - Mathematik
 
 
 <b>
-- 1. Schritt: Gib diesen Link in die URL-Leiste ein: <big> <big> <big>  [tinyurl.com/LiaD3u7](https://tinyurl.com/LiaD3u7) </big> </big> </big>
+- 1. Schritt: Gib diesen Link in die URL-Leiste ein: <big> <big> <big>  [tinyurl.com/LiaMathe](https://tinyurl.com/LiaMathe) </big> </big> </big>
 <!-- style="max-width:800px" -->
 ![URL](pics/url.png)
 
