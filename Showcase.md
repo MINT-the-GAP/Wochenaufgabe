@@ -78,7 +78,9 @@ _PS: Vielen Dank bei den MitstreiterInnen aus der TU Bergakademie für die Unter
 
 ![](./pic/show2.png)
 
-4.	Füge Links im Editor folgenden Text ein:
+4. Version 1: Tippe per Hand `lia-template-de` in den leeren Editor ein, klicke auf den angzeigten Vorschlag um einen Beispielkurs auf Deutsch automatisch generieren zu lassen.
+
+4. Version 2: Füge Links im Editor folgenden Text ein:
 
 ```
 <!--
