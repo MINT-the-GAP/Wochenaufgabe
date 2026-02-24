@@ -1085,6 +1085,10 @@ __$b)\;\;$__ Berechne die Kreisfrequenz $\omega$ und die Periodendauer $T$ der S
 
 $ \omega \approx $ [[ 1,458        ]]  $\dfrac{1}{\text{s}}$ \
 @Algebrite.check2(1.458,0.01)
+
+@canvas
+
+
 $ T \approx $ [[ 4,309       ]] $\,\text{s}$
 @Algebrite.check2(4.309,0.01)
 ******************
