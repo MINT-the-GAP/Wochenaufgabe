@@ -3644,7 +3644,7 @@ board.create('functiongraph', [h, 0, 100], {  strokeWidth: 3,  strokeColor: '#22
 </div>
 
 
-In blau ist der Preis für Erdbeeren, in grün ist der Preis für Kirschen und in blau ist der Preis für Himbeeren angegeben.
+In blau ist der Preis für Erdbeeren, in grün ist der Preis für Kirschen und in rot ist der Preis für Himbeeren angegeben.
 
 
 
