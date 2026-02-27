@@ -1376,12 +1376,13 @@ Die Periodendauer beträgt $T = 1{,}20 \,\text{s}$.
 
 
 $ \lambda \approx $ [[ 3,28        ]] cm
+@Algebrite.check2(3.28,0.01)
 
 
 @canvas
 
 $ c \approx $ [[ 0,0273        ]] $\,\dfrac{\text{m}}{\text{s}}$
-@Algebrite.check2(0.0273,0.01)
+@Algebrite.check2(0.0273,0.001)
 ******************
 $$
 \begin{align*}
@@ -1572,7 +1573,7 @@ $\Rightarrow c = \frac{\lambda}{T}$ bedeutet: pro Schwingungsdauer T läuft die 
 
 
 
-Aufgabe 1: Es werden zwei Momentaufnahmen einer Welle miteinander verglichen.
+Aufgabe 1: Es werden zwei Momentaufnahmen einer Welle miteinander verglichen. Hierbei wird eine rechtsläufige Welle betrachtet.
 
 
 
