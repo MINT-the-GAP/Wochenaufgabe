@@ -378,6 +378,7 @@ $$
 
 {{0}}
 __Aufgabe 1:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Geschwindigkeit $v$ vorkommen. \
+
 <br>
 
 
