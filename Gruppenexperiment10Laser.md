@@ -136,7 +136,7 @@ und realisiere folgenden Aufbau:
 <center>
 
 <!-- style="max-width=1000px" -->
-![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/Exp10Aufbau.png)
+![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/Exp10Aufbau.png)
 
 </center>
 
@@ -195,7 +195,7 @@ und realisiere folgenden Aufbau:
 <center>
 
 <!-- style="max-width=1000px" -->
-![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/Exp10Aufbau.png)
+![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/Exp10Aufbau.png)
 
 </center>
 
@@ -249,7 +249,7 @@ und realisiere folgenden Aufbau:
 <center>
 
 <!-- style="max-width=1000px" -->
-![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/Exp10Aufbau.png)
+![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/Exp10Aufbau.png)
 
 </center>
 
@@ -299,7 +299,7 @@ und realisiere folgenden Aufbau:
 <center>
 
 <!-- style="max-width=1000px" -->
-![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/Exp10Aufbau.png)
+![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/Exp10Aufbau.png)
 
 </center>
 
