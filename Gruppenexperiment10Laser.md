@@ -133,12 +133,12 @@ Wer unvorsichtig mit einem Laser umgeht, gefährdet nicht nur sich selbst, sonde
 - Millimeterpapier
 
 und realisiere folgenden Aufbau:
-<center>
 
-<!-- style="max-width=1000px" -->
+
+<!-- style="max-width:1000px" -->
 ![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/Exp10Aufbau.png)
 
-</center>
+
 
 Dabei sei $l$ der Abstand zwischen Gitter (Spalt) und Wand, $h_k$ der Abstand zwischen den betrachteten Maxima auf der Wand, $g$ die Gitterkonstante in $\dfrac{\text{Strecke}}{\text{Anzahl der Striche}}$, $\lambda$ die Wellenlänge des Laser (ist auf dem Laser vermerkt) und $k$ eine natürliche Zahl, welche angibt wie viele Maxima inklusive eines betrachteten Maxima zwischen den betrachtenten Maxima ist. $l$ soll $50$cm betragen und nicht verändert werden. 
 
@@ -192,12 +192,13 @@ Aufgabe 4: Bereitet in eurer Gruppe eine kleine Präsentation (maximal 5 Minuten
 - Millimeterpapier
 
 und realisiere folgenden Aufbau:
-<center>
 
-<!-- style="max-width=1000px" -->
+
+
+<!-- style="max-width:1000px" -->
 ![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/Exp10Aufbau.png)
 
-</center>
+
 
 Dabei sei $l$ der Abstand zwischen Gitter (Spalt) und Wand, $h_k$ der Abstand zwischen den betrachteten Maxima auf der Wand, $g$ die Gitterkonstante in $\dfrac{\text{Strecke}}{\text{Anzahl der Striche}}$, $\lambda$ die Wellenlänge des Laser (ist auf dem Laser vermerkt) und $k$ eine natürliche Zahl, welche angibt wie viele Maxima inklusive eines betrachteten Maxima zwischen den betrachtenten Maxima ist. $l$ soll $50$cm betragen und nicht verändert werden. 
 
@@ -246,12 +247,13 @@ Aufgabe 4: Bereitet in eurer Gruppe eine kleine Präsentation (maximal 5 Minuten
 - Millimeterpapier
 
 und realisiere folgenden Aufbau:
-<center>
 
-<!-- style="max-width=1000px" -->
+
+
+<!-- style="max-width:1000px" -->
 ![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/Exp10Aufbau.png)
 
-</center>
+
 
 Dabei sei $l$ der Abstand zwischen Gitter (Spalt) und Wand, $h_k$ der Abstand zwischen den betrachteten Maxima auf der Wand, $d$ der Spaltabstand, $\lambda$ die Wellenlänge des Laser (ist auf dem Laser vermerkt) und $k$ eine natürliche Zahl, welche angibt wie viele Maxima inklusive eines betrachteten Maxima zwischen den betrachtenten Maxima ist. $l$ soll $50$cm betragen und nicht verändert werden. 
 
@@ -296,12 +298,13 @@ Aufgabe 4: Bereitet in eurer Gruppe eine kleine Präsentation (maximal 5 Minuten
 - Millimeterpapier
 
 und realisiere folgenden Aufbau:
-<center>
 
-<!-- style="max-width=1000px" -->
+
+
+<!-- style="max-width:1000px" -->
 ![Aufbau](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/Exp10Aufbau.png)
 
-</center>
+
 
 Dabei sei $l$ der Abstand zwischen Gitter (Spalt) und Wand, $h_k$ der Abstand zwischen den betrachteten Maxima auf der Wand, $d$ der Spaltabstand, $\lambda$ die Wellenlänge des Laser (ist auf dem Laser vermerkt) und $k$ eine natürliche Zahl, welche angibt wie viele Maxima inklusive eines betrachteten Maxima zwischen den betrachtenten Maxima ist. $l$ soll $50$cm betragen und nicht verändert werden. 
 
