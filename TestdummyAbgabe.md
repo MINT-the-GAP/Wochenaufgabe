@@ -3,41 +3,17 @@ version:  0.0.1
 
 language: de
 
-@style
-input {
-    text-align: center;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    gap: 20px;
-}
-
-.flex-child {
-    flex: 1;
-    min-width: 350px;
-    margin-right: 20px;
-}
-
-@media (max-width: 400px) {
-    .flex-child {
-        flex: 100%;
-        margin-right: 0;
-    }
-}
-@end
 
 formula: \carry   \textcolor{red}{\scriptsize #1}
 formula: \digit   \rlap{\carry{#1}}\phantom{#2}#2
 formula: \permil  \text{‰}
 
-import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
-import: https://raw.githubusercontent.com/LiaTemplates/Tikz-Jax/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
 
-script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
+import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md?cb=4
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FlexChildREADME.md
+
 
 
 tags: Wochenaufgabe, Mathematik, Klasse 8
@@ -68,7 +44,7 @@ author: Martin Lommatzsch
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 <div class="flex-child">
 
 <!-- data-solution-button="10" -->
@@ -142,10 +118,11 @@ Falls du Probleme mit diesen Aufgaben haben solltest, dann schau dir ruhig nochm
 
 ## Aufgabe 2: Negative Zahlen
 
+<p>
 
 **Gib** den Wert des Terms **an**.
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
@@ -176,6 +153,8 @@ __$d)\;\;$__ $ 65:(-13) + 6 \cdot (-7) =$ [[  -47  ]]
 
 </div> 
 </section>
+
+</p>
 
 
 
@@ -247,7 +226,7 @@ Falls du Probleme mit diesen Aufgaben haben solltest, dann schau dir ruhig nochm
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 <div class="flex-child">
 
 <!-- data-solution-button="10" -->
