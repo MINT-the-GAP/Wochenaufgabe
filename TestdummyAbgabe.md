@@ -12,8 +12,12 @@ formula: \permil  \text{‰}
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md?cb=4
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FlexChildREADME.md
 
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FlexChildREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/MatheREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/DeutschREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/MarkerREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/KoordREADME.md
 
 
 tags: Wochenaufgabe, Mathematik, Klasse 8
@@ -303,6 +307,98 @@ $$
 
 Falls du Probleme mit diesen Aufgaben haben solltest, dann schau dir ruhig nochmal die vollständige Erklärung des gesamten Themas an: [Zur Erklärung](https://liascript.github.io/course/?https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/01_12_01_Aequivalenzumformung.md)
 
+# Weitere Aufgabentests
+
+Wähle blau aus.
+- [[X]] Blau
+- [[ ]] Gelb
+- [[ ]] Rot
+- [[ ]] Grün
+
+
+Wähle rot aus.
+[[(rot)|blau|grün|gelb]]
+
+
+
+Wähle gelb aus.
+[->[rot|blau|grün|(gelb)]]
+
+
+
+# Deutschaufgaben-Makros
+
+
+
+
+
+__Aufgabe 1:__ Hör dir den Satz an und schreib ihn korrekt in das Eingabefeld.
+
+
+{{|> Deutsch Female}}
+<!-- style="position: absolute; left: -9999px;" -->
+Anna sitzt auf einem fliegenden Teppich.
+
+[[    Anna sitzt auf einem fliegenden Teppich.    ]]
+
+
+--- 
+
+
+__Aufgabe 2:__ Lass dir die Wörter vorlesen, die in die Lücken kommen und schreibe diese in die Lücken.
+
+Anna ging in einen @diktat(Zoo). Dort konnte sie auf einem @diktat(Lama) reiten.
+
+
+--- 
+
+
+__Aufgabe 3:__ Setze das Komma an die richtige Stelle. (Auflösung ist blockiert.)
+
+
+@orthography(false,`Das ist der Tag an dem ich geblitzt wurde.`,`Das ist der Tag, an dem ich geblitzt wurde.`)
+
+@orthography(2,`Der Bruder den ich mag.`,`Der Bruder, den ich mag.`)
+
+
+
+
+
+# Brüche darstellen
+
+**Stelle** die passende Teilung der Fläche **ein** und **markiere** den passenden Anteil, sodass der Bruch dargestellt wird.
+
+__$a)\;\;$__ $\dfrac{7}{10}$
+
+@rectQuiz(7/10)
+
+__$b)\;\;$__ $\dfrac{7}{10}$
+
+@circleQuiz(7/10)
+
+
+__$c)\;\;$__ $\dfrac{4}{11}$
+
+@rectQuiz(4/11)
+
+__$d)\;\;$__ $\dfrac{4}{11}$
+
+@circleQuiz(4/11)
+
+
+
+
+
+
+# Markerquiz
+
+
+Markiere die korrekt.
+
+<div class="markerquiz">
+@markred(rot) und @markblue(blau bis blau)  
+@TextmarkerQuiz
+</div>
 
 
 @Abgabe
