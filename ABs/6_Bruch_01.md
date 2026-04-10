@@ -287,7 +287,7 @@ if (!window.rects['@0'] || window.rects['@0'].length !== total) {
 
 
 
-import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
 import: https://raw.githubusercontent.com/LiaTemplates/Tikz-Jax/main/README.md
 import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
 

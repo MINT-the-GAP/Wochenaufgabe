@@ -12,9 +12,9 @@ author: Martin Lommatzsch, André Dietrich, Sebastian Zug
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
 
 
-import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
 
-import: https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
 
 
 import: https://raw.githubusercontent.com/LiaTemplates/SpreadSheet/refs/heads/main/README.md

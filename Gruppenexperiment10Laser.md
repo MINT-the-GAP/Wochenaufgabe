@@ -3,8 +3,8 @@ version:  0.0.1
 
 language: de
 
-import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
-import: https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
 
