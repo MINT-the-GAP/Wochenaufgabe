@@ -4,7 +4,6 @@ version:  0.0.1
 language: de
 
 import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
-import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
 
@@ -143,7 +142,7 @@ und realisiere folgenden Aufbau:
 Dabei sei $l$ der Abstand zwischen Gitter (Spalt) und Wand, $h_k$ der Abstand zwischen den betrachteten Maxima auf der Wand, $g$ die Gitterkonstante in $\dfrac{\text{Strecke}}{\text{Anzahl der Striche}}$, $\lambda$ die Wellenlänge des Laser (ist auf dem Laser vermerkt) und $k$ eine natürliche Zahl, welche angibt wie viele Maxima inklusive eines betrachteten Maxima zwischen den betrachtenten Maxima ist. $l$ soll $50$cm betragen und nicht verändert werden. 
 
 ---
-<br>
+
 ---
 
 
@@ -153,7 +152,7 @@ Aufgabe 2: Schalte den Laserpointer an und richte ihn so aus, dass die leicht re
 
 
 ---
-<br>
+
 ---
 
 
@@ -162,7 +161,7 @@ Aufgabe 3: Analysiere die Fotos und leite eine allgemeine Aussage zu diesem Expe
 
 
 ---
-<br>
+
 ---
 
 
@@ -204,7 +203,7 @@ Dabei sei $l$ der Abstand zwischen Gitter (Spalt) und Wand, $h_k$ der Abstand zw
 
 
 ---
-<br>
+
 ---
 
 
@@ -216,7 +215,7 @@ Aufgabe 2: Schalte den Diodenlaser an und richte ihn so aus, dass die möglichst
 
 
 ---
-<br>
+
 ---
 
 
@@ -225,7 +224,7 @@ Aufgabe 3: Analysiere die Fotos und leite eine allgemeine Aussage zu diesem Expe
 
 
 ---
-<br>
+
 ---
 
 
@@ -258,7 +257,7 @@ und realisiere folgenden Aufbau:
 Dabei sei $l$ der Abstand zwischen Gitter (Spalt) und Wand, $h_k$ der Abstand zwischen den betrachteten Maxima auf der Wand, $d$ der Spaltabstand, $\lambda$ die Wellenlänge des Laser (ist auf dem Laser vermerkt) und $k$ eine natürliche Zahl, welche angibt wie viele Maxima inklusive eines betrachteten Maxima zwischen den betrachtenten Maxima ist. $l$ soll $50$cm betragen und nicht verändert werden. 
 
 ---
-<br>
+
 ---
 
 
@@ -269,7 +268,7 @@ Aufgabe 2: Schalte den Laserpointer an und richte ihn so aus, dass die leicht re
 
 
 ---
-<br>
+
 ---
 
 
@@ -278,7 +277,7 @@ Aufgabe 3: Analysiere die Fotos und leite eine allgemeine Aussage zu diesem Expe
 
 
 ---
-<br>
+
 ---
 
 
@@ -309,7 +308,7 @@ und realisiere folgenden Aufbau:
 Dabei sei $l$ der Abstand zwischen Gitter (Spalt) und Wand, $h_k$ der Abstand zwischen den betrachteten Maxima auf der Wand, $d$ der Spaltabstand, $\lambda$ die Wellenlänge des Laser (ist auf dem Laser vermerkt) und $k$ eine natürliche Zahl, welche angibt wie viele Maxima inklusive eines betrachteten Maxima zwischen den betrachtenten Maxima ist. $l$ soll $50$cm betragen und nicht verändert werden. 
 
 ---
-<br>
+
 ---
 
 
@@ -319,7 +318,7 @@ Aufgabe 2: Schalte den Laserpointer an und richte ihn so aus, dass die leicht re
 
 
 ---
-<br>
+
 ---
 
 
@@ -334,7 +333,7 @@ $$
 
 
 ---
-<br>
+
 ---
 
 
@@ -342,7 +341,7 @@ Aufgabe 4: Begründe, warum man niemals einen Radius sondern immer den Durchmess
 
 
 ---
-<br>
+
 ---
 
 
@@ -402,7 +401,7 @@ data-solution-timer-badge="off" -->
 Die Farbe des Lasers ist [[ rot ]].
 
 ---
-<br>
+
 ---
 
 **Aufgabe 2**
@@ -434,7 +433,7 @@ $$
 ***********
 
 ---
-<br>
+
 ---
 
 **Aufgabe 3**
@@ -475,7 +474,7 @@ Das Gitter besitzt also etwa $3000$ Spalte auf $1\,$cm.
 
 
 ---
-<br>
+
 ---
 
 **Aufgabe 4**
@@ -526,7 +525,7 @@ $$
 
 
 ---
-<br>
+
 ---
 
 **Aufgabe 5**

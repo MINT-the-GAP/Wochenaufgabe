@@ -376,32 +376,85 @@ $$
 
 
 
+{{0}}
+__Aufgabe 1:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Geschwindigkeit $v$ vorkommen. \
 
-__Aufgabe 1:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Geschwindigkeit $v$ vorkommen. 
-
-
----
 <br>
----
 
 
-__Aufgabe 2:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Masse $m$ vorkommen. 
+{{1}} $$
+\begin{align*} 
+E_{kin} & = \dfrac{1}{2} m v^2   \qquad \text{mit: }  p = mv \;\;\Rightarrow\;\; m = \dfrac{p}{v}   \\
+E_{kin} & = \dfrac{1}{2} \dfrac{p}{v} v^2 \\
+E_{kin} & = \dfrac{1}{2} v p \\
+\end{align*}
+$$
 
----
+
+
+{{0}}
+__Aufgabe 2:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Masse $m$ vorkommen. \
 <br>
----
 
 
 {{1}}
-__Aufgabe 3:__ **Beschreibe**, wo sich in diesem Diagramm die Energie wiederfindet und **begründe** deine Aussagen mit einer Herleitung. 
+$$
+\begin{align*} 
+E_{kin} & = \dfrac{1}{2} m v^2   \qquad \text{mit: }  p = mv \;\;\Rightarrow\;\; v = \dfrac{p}{m}   \\
+E_{kin} & = \dfrac{1}{2} m \left( \dfrac{p}{m} \right)^2 \\
+E_{kin} & = \dfrac{1}{2} m   \dfrac{p^2}{m^2}  \\
+E_{kin} & =  \dfrac{p^2}{2m} \\
+\end{align*}
+$$
 
 
----
-<br>
----
+{{2}}
+Unter der Annahme, dass sich die Masse $m$ eines betrachteten Objektes nicht verändert, kann der Impuls $p$ in Abhänigkeit von der Geschwindigkeit $v$ in einem $v$-$p$-Koordinatensystem dargestellt werden: 
 
-{{1}}
-__Aufgabe 4:__ **Beschreibe**, wo sich in diesem Diagramm die Masse wiederfindet und **begründe** deine Vermutung. 
+
+{{2}}
+<center>
+<!-- style="width:600px" -->
+![](Bilder/pvEnergie1.png)
+</center>
+
+
+{{2}}
+__Aufgabe 3:__ **Beschreibe**, wo sich in diesem Diagramm die Energie wiederfindet und **begründe** deine Aussagen mit einer Herleitung. \
+
+
+{{3}}
+Der Flächeninhalt zwischen der Abszisse und dem Graphen entspricht dem Wert der Energie. Für die Herleitung wird eine beliebige Geschwindigkeit $v_0$ verwendet.
+
+
+{{3}}
+<center>
+<!-- style="width:600px" -->
+![](Bilder/pvEnergie2.png)
+</center>
+
+
+{{3}}
+$$
+\begin{align*} 
+A & = \dfrac{1}{2} v_0 p(v_0)   \qquad \text{mit: }  p(v_0) = mv_0  \\
+A & = \dfrac{1}{2} v_0 mv_0    \\
+A & = \dfrac{1}{2} mv_0^2    \\
+A & = E_{kin}    \\
+\end{align*}
+$$
+
+
+
+
+{{2}}
+__Aufgabe 4:__ **Beschreibe**, wo sich in diesem Diagramm die Masse wiederfindet und **begründe** deine Vermutung. \
+
+
+
+{{3}}
+Die Steigung der Geraden gibt die Masse an, da dies der einzige freie Parameter der allgemeinen Geradengleichung ist und dieser auch konstant ist. Würde sich der Massenwert verringern, würde der Flächeninhalt des Dreiecks auch kleiner werden und andersherum. Folglich ist der Energiewert abhängig von der Steigung der Geraden, welche also als Masse interpretiert werden kann.
+
 
 
 
@@ -420,7 +473,159 @@ $a)\;\;$ **Gib** die Erhaltungsgleichungen für den Impuls und die kinetische En
 $b)\;\;$ **Leite** daraus allgemeine Ausdrücke für $v_1'$ und $v_2'$ in Abhängigkeit von $m_1, m_2, v_1, v_2$ **her**.
 
 ---
-<br>
+
+{{1}}
+$a)\;\;$ **Schritt 1: Impuls- und Energieerhaltung**
+
+{{1}}
+$$
+\begin{align*}
+m_1 v_1 + m_2 v_2 &= m_1 v_1' + m_2 v_2' \quad &(1) \\
+\frac12 m_1 v_1^2 + \frac12 m_2 v_2^2 &= \frac12 m_1 {v_1'}^{2} + \frac12 m_2 {v_2'}^{2} \quad &(2)
+\end{align*}
+$$
+
+---
+
+{{2}}
+$b)\;\;$ **Schritt 2: Relativgeschwindigkeitsregel**
+
+{{2}}
+Gleichung (2) wird mit 2 multipliziert und mit (1) kombiniert.  
+Nach Umformung folgt die Relativgeschwindigkeitsregel:
+
+
+{{2}}
+**********************
+**Schritt 1: Impulserhaltung umstellen**
+
+$$
+m_1(v_1 - v_1') = m_2(v_2' - v_2). \qquad (A)
+$$
+
+---
+
+**Schritt 2: Energieerhaltung als Differenz der Quadrate schreiben**
+
+$$
+\begin{align*}
+m_1(v_1^2 - {v_1'}^{2}) + m_2(v_2^2 - {v_2'}^{2}) &= 0 \\
+m_1(v_1 - v_1')(v_1 + v_1') + m_2(v_2 - v_2')(v_2 + v_2') &= 0. \qquad (B)
+\end{align*}
+$$
+
+---
+
+**Schritt 3: Vorzeichen anpassen und (A) einsetzen**
+
+$$
+m_1(v_1 - v_1')(v_1 + v_1') = m_2(v_2' - v_2)(v_2 + v_2').
+$$
+
+Aus (A) folgt:
+
+$$
+m_2(v_2' - v_2) = m_1(v_1 - v_1'),
+$$
+
+damit:
+
+$$
+m_1(v_1 - v_1')(v_1 + v_1') = m_1(v_1 - v_1')(v_2 + v_2').
+$$
+
+---
+
+**Schritt 4: Gemeinsamen Faktor kürzen**
+
+Für einen nichttrivialen Stoß ($v_1 \neq v_1'$) kürzen wir:
+
+$$
+v_1 + v_1' = v_2 + v_2'.
+$$
+
+Dies ist äquivalent zu:
+
+
+
+$$
+v_1 - v_2 = -\,(v_1' - v_2') \quad (3)
+$$
+**********************
+
+---
+
+{{3}}
+**Schritt 3: Aus (3) $v_1'$ ausdrücken und in (1) einsetzen**
+
+{{3}}
+Aus (3) ergibt sich:
+
+{{3}}
+$$
+v_1' = v_2' + v_2 - v_1
+$$
+
+{{3}}
+In (1) eingesetzt:
+
+{{3}}
+$$
+m_1 v_1 + m_2 v_2 = m_1 (v_2' + v_2 - v_1) + m_2 v_2'
+$$
+
+---
+
+{{4}}
+**Schritt 4: $v_2'$ bestimmen**
+
+{{4}}
+Nach Umformen:
+
+{{4}}
+$$
+(m_1 + m_2) v_2' = 2 m_1 v_1 + (m_2 - m_1) v_2
+$$
+
+{{4}}
+Damit:
+
+{{4}}
+$$
+v_2' = \frac{2 m_1}{m_1 + m_2} v_1 + \frac{m_2 - m_1}{m_1 + m_2} v_2
+$$
+
+---
+
+{{5}}
+**Schritt 5: $v_1'$ bestimmen**
+
+{{5}}
+Einsetzen in $v_1' = v_2' + v_2 - v_1$:
+
+{{5}}
+$$
+v_1' = \frac{m_1 - m_2}{m_1 + m_2} v_1 + \frac{2 m_2}{m_1 + m_2} v_2
+$$
+
+---
+
+{{6}}
+**Schritt 6: Präsentation der Lösung**
+
+{{6}}
+$$
+\begin{align*}
+v_1' &= \frac{m_1 - m_2}{m_1 + m_2} v_1 + \frac{2 m_2}{m_1 + m_2} v_2 \\
+v_2' &= \frac{2 m_1}{m_1 + m_2} v_1 + \frac{m_2 - m_1}{m_1 + m_2} v_2
+\end{align*}
+$$
+
+{{6}}
+Damit liegen die allgemeinen Geschwindigkeitsausdrücke für den eindimensionalen elastischen Stoß vor.
+
+---
+
 ---
 
 __Aufgabe 2:__ Vollständig inelastischer Stoß (Verkleben)
@@ -434,6 +639,81 @@ $b)\;\;$ **Bestimme** die kinetische Energie vor und nach dem Stoß und leite de
 $c)\;\;$ **Gib** optional den relativen "Verlust" $\dfrac{\Delta E_{kin}}{E_{kin,\text{vor}}}$ **an**.
 
 $d)\;\;$ **Erkläre**, wo die Energie aus dem relativen "Verlust" der kinetischen Energie hin ist.
+
+---
+
+{{7}}
+$a)\;\;$ Schritt 1: Impulserhaltung und gemeinsame Geschwindigkeit
+
+{{7}}
+$$
+\begin{align*}
+m_1 v_1 + m_2 v_2 &= (m_1 + m_2) \, v' \\
+\Rightarrow\quad
+v' &= \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
+\end{align*}
+$$
+
+---
+
+{{8}}
+$b)\;\;$ Schritt 2: Kinetische Energien vor und nach dem Stoß
+
+{{8}}
+$$
+\begin{align*}
+E_{kin,\text{vor}} &= \dfrac12 m_1 v_1^2 + \dfrac12 m_2 v_2^2 \\
+E_{kin,\text{nach}} &= \dfrac12 (m_1 + m_2)\,{v'}^{2}
+= \dfrac{(m_1 v_1 + m_2 v_2)^2}{2 (m_1 + m_2)}
+\end{align*}
+$$
+
+---
+
+{{9}}
+$c)\;\;$ Schritt 3: "Energieverlust" $\Delta E_{kin} =  E_{kin,\text{vor}} - E_{kin,\text{nach}}$
+
+{{9}}
+Nach Ausmultiplizieren und Zusammenfassen ergibt sich die Standardform:
+
+{{9}}
+$$
+\Delta E_{kin}
+= \dfrac12 \,\frac{m_1 m_2}{m_1 + m_2}\,(v_1 - v_2)^2
+$$
+
+{{9}}
+Diese Darstellung macht die Abhängigkeit von der Relativgeschwindigkeit $(v_1 - v_2)$ und der reduzierten Masse $\mu = \dfrac{m_1 m_2}{m_1 + m_2}$ sichtbar.
+
+---
+
+{{10}}
+Schritt 4 (optional): Relativer "Verlust"
+
+{{10}}
+$$ 
+\frac{\Delta E_{kin}}{E_{kin,\text{vor}}}
+= 1 - \frac{(m_1 v_1 + m_2 v_2)^2}{(m_1 + m_2)\,(m_1 v_1^2 + m_2 v_2^2)}
+$$
+
+---
+
+{{10}}
+Zusammenfassung
+
+{{10}}
+$$
+\begin{align*}
+v' &= \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2} \\
+\Delta E_{kin} &= \frac12 \,\frac{m_1 m_2}{m_1 + m_2}\,(v_1 - v_2)^2
+\end{align*}
+$$
+
+
+---
+
+{{11}}
+$d)\;\;$ Diese Energie wird in Umformungs- und somit auch Wärmeenergie umgewandelt. Somit der erste Hauptsatz der Thermodynamik nicht verletzt.
 
 
 
@@ -455,6 +735,67 @@ $b)\;\;$ **Leite** daraus $v(y)$ **her** und **zeige** die Unabhängigkeit von $
 
 $c)\;\;$ **Zeige** die Übereinstimmung mit der kinematischen Beziehung für gleichmäßige Beschleunigung.
 
+---
+
+{{12}}
+$a)\;\;$ Schritt 1: Energieerhaltung
+
+{{12}}
+$$
+\begin{align*}
+E_{\text{pot}}(h) + E_{\text{kin}}(h) &= E_{\text{pot}}(y) + E_{\text{kin}}(y) \\
+m g h + 0 &= m g y + \dfrac12 m v^2
+\end{align*}
+$$
+
+---
+
+{{13}}
+$b)\;\;$ Schritt 2: Umformen auf $v(y)$
+
+{{13}}
+$$
+\begin{align*}
+\dfrac12 m v^2 &= m g (h - y) \\
+v^2 &= 2 g (h - y) \\
+v &= \sqrt{\,2 g (h - y)\,}
+\end{align*}
+$$
+
+---
+
+{{14}}
+Schritt 3: Unabhängigkeit von der Masse
+
+{{14}}
+$$
+\begin{align*}
+\dfrac12 \,\cancel{m}\, v^2 &= \cancel{m}\, g (h - y)
+\end{align*}
+$$
+
+{{14}}
+Die Masse kürzt sich; $v$ hängt nicht von $m$ ab.
+
+---
+
+{{15}}
+$c)\;\;$ Schritt 4: Konsistenz mit der Kinematik
+
+{{15}}
+Mit der Fallstrecke $s = h - y$ und konstanter Beschleunigung $g$ gilt kinematisch
+
+{{15}}
+$$
+\begin{align*}
+v^2 &= 2 g s = 2 g (h - y),
+\end{align*}
+$$
+
+{{15}}
+also identisch zum Ergebnis aus der Energieerhaltung.
+
+
 
 ---
 <br>
@@ -471,7 +812,68 @@ $a)\;\;$  **Gib** die Impulserhaltung **an** und **leite** die Geschwindigkeit $
 $b)\;\;$  **Gib** die Richtung und Betrag von $V'$ **an**.
 
 ---
-<br>
+
+{{16}}
+$a)\;\;$ Schritt 1: Impulserhaltung (gesamter Anfangsimpuls ist null)
+
+{{16}}
+$$
+\begin{align*}
+0 \;=\; M\,V' \;+\; m\,u
+\end{align*}
+$$
+
+{{16}}
+Vorzeichenkonvention: $u>0$ in Wurfrichtung (nach vorne).
+
+---
+
+{{17}}
+$b)\;\;$ Schritt 2: Auflösen nach $V'$
+
+{{17}}
+$$
+\begin{align*}
+M\,V' &= -\,m\,u \quad \left| : M  \right.\\
+V' &= -\,\dfrac{m}{M}\,u
+\end{align*}
+$$
+
+---
+
+{{18}}
+Schritt 3: Interpretation
+
+{{18}}
+Das Minuszeichen zeigt: Die Person bewegt sich **entgegen** der Wurfrichtung.  
+Der Betrag lautet
+
+{{18}}
+$$
+\begin{align*}
+\lvert V' \rvert \;=\; \dfrac{m}{M}\,u \,.
+\end{align*}
+$$
+
+---
+
+{{19}}
+Zusammenfassung
+
+{{19}}
+$$
+\begin{align*}
+V' \;=\; -\,\dfrac{m}{M}\,u, \qquad \lvert V' \rvert \;=\; \dfrac{m}{M}\,u \,.
+\end{align*}
+$$
+
+{{19}}
+Hinweis: Der Gesamtimpuls bleibt erhalten; die (später betrachtbare) Zunahme von $E_{\text{kin}}$ des Systems stammt aus der beim Wurf aufgewendeten inneren Arbeit.
+
+
+
+---
+
 ---
 
 
@@ -486,7 +888,81 @@ $c)\;\;$ **Gib** die kinetische Energie $E_{\text{kin}}'$ nach den beiden Impuls
 
 ---
 
+{{20}}
+$a)\;\;$ Schritt 1: Resultierenden Impulsbetrag via Kosinussatz
 
+{{20}}
+Die Vektorsumme $\vec p = \vec p_1 + \vec p_2$ bildet ein Dreieck mit eingeschlossenem Winkel $\varphi$ zwischen $\vec p_1$ und $\vec p_2$. Für die Beträge gilt:
+
+{{20}}
+$$
+\begin{align*}
+p^2 &= p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi) \,.
+\end{align*}
+$$
+
+---
+
+{{21}}
+$b)\;\;$ Schritt 2: Zusammenhang zwischen Impuls und Geschwindigkeit
+
+{{21}}
+Mit $\vec p' = \vec p$ und Anfangsruhe ($\vec p_0 = \vec 0$) gilt:
+
+{{21}}
+$$
+\begin{align*}
+v' &= \dfrac{p}{m}
+= \dfrac{\sqrt{\,p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi)\,}}{m} \,.
+\end{align*}
+$$
+
+---
+
+{{22}}
+$c)\;\;$ Schritt 3: Kinetische Energie nach den Impulsstößen
+
+{{22}}
+Mit $E_{\text{kin}}' = \dfrac{p^2}{2m}$ und dem Ergebnis aus Schritt 1 folgt:
+
+{{22}}
+$$
+\begin{align*}
+E_{\text{kin}}' 
+&= \dfrac{p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi)}{2m} \,.
+\end{align*}
+$$
+
+---
+
+{{23}}
+Zusatz (optional): Spezialfälle zur Interpretation
+
+
+{{23}}
+- Konstruktive Überlagerung ($\varphi = 0$):
+
+{{23}}
+$$
+\begin{align*}
+p = p_1 + p_2,\quad 
+v' = \dfrac{p_1 + p_2}{m},\quad
+E_{\text{kin}}' = \dfrac{(p_1 + p_2)^2}{2m}.
+\end{align*}
+$$
+
+
+{{23}}
+- Destruktive Überlagerung ($\varphi = \pi$):
+
+{{23}}
+$$
+\begin{align*}
+p = \lvert p_1 - p_2\rvert,\quad 
+v' = \dfrac{\lvert p_1 - p_2\rvert}{m},\quad
+E_{\text{kin}}' = \dfrac{(p_1 - p_2)^2}{2m}.
+\end{align*}
+$$
 
 
 
