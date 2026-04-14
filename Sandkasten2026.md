@@ -542,7 +542,7 @@ style="max-width:800px;" -->
 **Aufgabe 3:** Setze das Komma an die richtige Stelle.
 
 
-@orthography(10,`Das ist der Tag an dem ich geblitzt wurde.`,`Das ist der Tag, an dem ich geblitzt wurde.`)
+@orthography(`<!-- data-solution-timer="15s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Das ist der Tag an dem ich geblitzt wurde.`,`Das ist der Tag, an dem ich geblitzt wurde.`)
 
 
 
