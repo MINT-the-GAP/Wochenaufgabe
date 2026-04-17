@@ -37,8 +37,7 @@ formula: \carry   \textcolor{red}{\scriptsize #1}
 formula: \digit   \rlap{\carry{#1}}\phantom{#2}#2
 formula: \permil  \text{‰}
 
-import: https://raw.githubusercontent.com/LiaTemplates/Tikz-Jax/main/README.md
-import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
+
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
@@ -47,7 +46,7 @@ script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
 
 # Klausurähnliche Aufgaben zum Üben
 
-> Letztes Update am 08.03.2025 gegen 18 Uhr
+> Letztes Update am 17.04.2026 gegen 9:00 Uhr
 
 Swipe (Wische) entweder weiter oder klicke unten links neben der Seitenzahl auf den Pfeil nach rechts.
 
@@ -140,13 +139,13 @@ Beim Millikanversuch werden in einen Kondensator mittels eines Zerstäubers klei
 ***************************
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+
+
+
+
 
 
 
@@ -157,7 +156,7 @@ Beim Millikanversuch werden in einen Kondensator mittels eines Zerstäubers klei
 
 Ein Plattenkondensator ähnelt einem Würfel mit einer Kantenlänge von $2,3\,$cm. Zwischen den Platten befindet sich Paraffin. Am Kondensator wurde eine Spannung von $1,2\,$V gemessen.  \
 
-<br>
+
 
 __$a)\;\;$__ **Berechne** die Ladungen auf den Kondensator 
 
@@ -168,7 +167,7 @@ __$a)\;\;$__ **Berechne** die Ladungen auf den Kondensator
 $Q = U \epsilon_0 \epsilon_r \dfrac{A}{d} \approx 5,621 \cdot 10^{-13}\,$C
 ***************************
 
-<br>
+
 
 __$b)\;\;$__ **Berechne** das elektrische Feld zwischen den Platten. **Gib** die Eigenschaften des elektrischen Feldes **an**. Runde auf drei Nachkommastellen. \
 
@@ -179,7 +178,7 @@ $E = \dfrac{U}{d} \approx  52,174 \,\frac{\text{V}}{\text{m}}$ \
 Es handelt sich um ein homogenes Feld.
 ***************************
 
-<br>
+
 
 __$c)\;\;$__ Eine negative frei bewegliche Testladung mit einer Ladung von $25000e$ befindet sich $14\,$mm weit entfernt von der negativ geladenen Platte des Kondensators. **Berechne** die resultierende Überführungsarbeit.
 
@@ -192,13 +191,13 @@ $W = F x = qEx \approx 1,881 \cdot 10^{-15} \,$J
 
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+
+
+
+
 
 
 
@@ -209,7 +208,7 @@ $W = F x = qEx \approx 1,881 \cdot 10^{-15} \,$J
 Vor einem Plattenkondensator mit einem Flächeninhalt von $5,4\,$cm$^2$ und einen Plattenabstand von $1,7\,$mm wurde ein Widerstand mit einer Querschnittsfläche von $3,7$mm$^2$ und einer Länge von $1,3\,$cm verbaut. Der Widerstand besteht aus Kohlenstoff $\left(\rho=3,5\, \dfrac{\Omega\text{mm}^2}{\text{m}}\right)$ und im Kondensator befindet sich Bernstein. 
 
 
-<br>
+
 
 __$a)\;\;$__ **Berechne** die Kapazität des Kondensators. 
 
@@ -219,7 +218,7 @@ __$a)\;\;$__ **Berechne** die Kapazität des Kondensators.
 $C =  \epsilon_0 \epsilon_r \dfrac{A}{d} \approx 7,875  \cdot 10^{-11}\,$F
 ***************************
 
-<br>
+
 
 __$b)\;\;$__ **Berechne** den Widerstandswert des Widerstands. 
 
@@ -231,7 +230,7 @@ $R = \rho \dfrac{l}{A} \approx 0,0123\,\Omega $
 
 
 
-<br>
+
 
 __$c)\;\;$__ **Berechne** die Halbwertszeit der gespeicherten Ladungen auf dem Kondensator in dieser Schaltung.
 
@@ -244,7 +243,7 @@ $\tau = RC = 9,684 \cdot 10^{-13}\,$s
 
 
 
-<br>
+
 
 __$d)\;\;$__ Der Kondensator wird gegen einen anderen mit der Kapazität von $470\mu F$ ausgetauscht. Der vorgeschaltete Widerstand hat einen Wert von $4,7k\Omega$. Die Spannung des vollgeladenen Kondensators beträgt $725\,$mV. **Berechne** nach welcher Zeit die Spannung nur noch $480\,$mV beträgt.
 
@@ -263,13 +262,13 @@ $$
 
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+
+
+
+
 
 
 
@@ -295,7 +294,7 @@ $$
 ***************************
 
 
-<br>
+
 
 __$b)\;\;$__ **Berechne** die $y$-Ablenkung im homogenen elektrischen Feld des Kondensators mit $d=3,5mm$ mit der Ablenkspannung $U_A=125V$ mit einer Länge von $1,75cm$. 
 
@@ -315,7 +314,7 @@ $$
 ***************************
 
 
-<br>
+
 
 __$c)\;\;$__ **Berechne** die $y$-Geschwindigkeit nach dem Kondensator. 
 
@@ -333,7 +332,7 @@ $$
 ***************************
 
 
-<br>
+
 
 __$d)\;\;$__ **Berechne** die gesamte $y$-Ablenkung, wenn nach dem Kondensator eine freie Flugstrecke von $5\,$cm vorzufinden ist. 
 
@@ -350,10 +349,10 @@ $$
 $$
 ***************************
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+
+
+
+
