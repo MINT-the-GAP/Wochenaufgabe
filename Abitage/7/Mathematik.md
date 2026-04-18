@@ -2,9 +2,16 @@
 version:  0.0.1
 language: de
 
+
 import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/JSXGraph@main/README.md
+
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/KoordREADME.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
+
 
 author: Martin Lommatzsch
 -->
@@ -102,6 +109,13 @@ Die Schreibfläche kann unten links oder rechts an den Ecke in der Größe belie
 # Minimalbeispiel
 
 
+Äquivalenzumformung
+Bruch 1 
+Zuordnung
+Einheiten
+Winkelarten + Geometrie + Koordinaten
+Textaufgabe 1
+Textaufgabe 2
 
 
 **Gib** den beschriebenen Anteilswert **an**.
