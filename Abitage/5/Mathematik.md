@@ -114,7 +114,7 @@ Die Schreibfläche kann unten links oder rechts an den Ecke in der Größe belie
 
 
 
-**__Aufgabe 1:__** **Stelle** die passende Teilung der Fläche **ein** und **markiere** den passenden Anteil, sodass der Bruch dargestellt wird.
+**_Aufgabe 1:_** **Stelle** die passende Teilung der Fläche **ein** und **markiere** den passenden Anteil, sodass der Bruch dargestellt wird.
 
 
 <section class="dynFlex">
@@ -127,6 +127,7 @@ __$a)\;\;$__ $\dfrac{5}{8}$
 @ADetails(1=BE;Bruchrechnung)
 
 </div>
+
 <div class="flex-child">
 
 __$b)\;\;$__ $\dfrac{7}{12}$
@@ -141,7 +142,7 @@ __$b)\;\;$__ $\dfrac{7}{12}$
 
 --- 
 
-**__Aufgabe 2:__** **Gib** die Zahl **an**, die $x$ sein muss, sodass die Brüche gleichwertig sind.
+**_Aufgabe 2:_** **Gib** die Zahl **an**, die $x$ sein muss, sodass die Brüche gleichwertig sind.
 
 
 <section class="dynFlex">
@@ -155,6 +156,7 @@ $x = $ [[  35  ]]
 @ADetails(1=BE;Bruchrechnung)
 
 </div>
+
 <div class="flex-child">
 
 <!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
@@ -185,7 +187,7 @@ $x = $ [[  6  ]]
 --- 
 
 
-**__Aufgabe 3:__** Höre die Tonspur an und **gib** den Wert des beschriebenen Terms **an**. (Schreibe für die Schrifterkennung sauber, falls du sie nutzen solltest.)
+**_Aufgabe 3:_** Höre die Tonspur an und **gib** den Wert des beschriebenen Terms **an**. (Schreibe für die Schrifterkennung sauber, falls du sie nutzen solltest.)
 
 
 <section class="dynFlex">
@@ -230,14 +232,14 @@ Ich habe drei Zehntel und nochmal vier Zehntel.
 --- 
 
 
-**__Aufgabe 4:__** **Gib** den Wert der Terme **an**. Achte dabei auf die Muster dieser Permanenzreihe.
+**_Aufgabe 4:_** **Gib** den Wert der Terme **an**. Achte dabei auf die Muster dieser Permanenzreihe.
 
 
 <section class="dynFlex">
 
 <div class="flex-child">
 
-<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"  data-show-partial-solution -->
 __$a)\;\;$__ \
 $24 \cdot 8 =$ [[  192 ]] \
  \
@@ -257,11 +259,12 @@ $24 \cdot \dfrac{1}{8} =$ [[  3   ]] \
 
 
 </div>
+
 <div class="flex-child">
 
 
 
-<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"  data-show-partial-solution -->
 __$b)\;\;$__ \
 
 $4 : 4 =$ [[  1 ]] \
@@ -296,28 +299,34 @@ $4 : \dfrac{1}{16} =$ [[ 64  ]] \
 
 
 
-**__Aufgabe 1:__** **Gib** den Wert des Terms als Dezimalzahl **an**.
+**_Aufgabe 1:_** **Gib** den Wert des Terms als Dezimalzahl **an**.
 
 <section class="dynFlex">
 
 <div class="flex-child">
 
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"  -->
 __$a)\;\;$__ $ \dfrac{5}{8} =$ [[  0,625  ]]
 @ADetails(1=BE;Dezimalzahlen)
 
-</div> 
+</div>
+
 <div class="flex-child">
 
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"  -->
 __$b)\;\;$__ $ \dfrac{7}{5} =$ [[  1,4  ]] 
 @ADetails(1=BE;Dezimalzahlen)
 
-</div> 
+</div>
+
 <div class="flex-child">
 
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"  -->
 __$c)\;\;$__ $ \dfrac{12}{25} =$ [[  0,48  ]] 
 @ADetails(1=BE;Dezimalzahlen)
 
-</div> 
+</div>
+
 </section>
 
 
@@ -328,13 +337,13 @@ __$c)\;\;$__ $ \dfrac{12}{25} =$ [[  0,48  ]]
 
 
 
-**__Aufgabe 2:__** **Gib** den Wert des Terms als Dezimalzahl **an**.
+**_Aufgabe 2:_** **Gib** den Wert des Terms als Dezimalzahl **an**.
 
 <section class="dynFlex">
 
 <div class="flex-child">
 
-<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"  -->
 __$a)\;\;$__ $ 1,4 + 2,1 \cdot 0,3 =$ [[  2,09  ]] 
 @ADetails(2=BE;Dezimalzahlen)
 
@@ -342,17 +351,15 @@ __$a)\;\;$__ $ 1,4 + 2,1 \cdot 0,3 =$ [[  2,09  ]]
 
 <div class="flex-child">
 
-__$b)\;\;$__ 
-
-<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution -->
-$ 6,5 : 1,25 -1,6 =$ [[  3,6  ]] 
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__ $ 6,5 : 1,25 -1,6 =$ [[  3,6  ]] 
 @ADetails(2=BE;Dezimalzahlen)
 
 </div>
 
 <div class="flex-child">
 
-<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__ $ 3,4 - 0,6 \cdot 1,1 =$ [[  2,84  ]]
 @ADetails(2=BE;Dezimalzahlen)
 
@@ -360,7 +367,7 @@ __$c)\;\;$__ $ 3,4 - 0,6 \cdot 1,1 =$ [[  2,84  ]]
 
 <div class="flex-child">
 
-<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$d)\;\;$__ $ (4,8+2,5) \cdot 0,02 =$ [[  0,146  ]]
 @ADetails(2=BE;Dezimalzahlen)
 
@@ -368,7 +375,7 @@ __$d)\;\;$__ $ (4,8+2,5) \cdot 0,02 =$ [[  0,146  ]]
 
 <div class="flex-child">
 
-<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$e)\;\;$__ $ 5,7:6-2,1:6 =$ [[  0,6  ]]
 @ADetails(2=BE;Dezimalzahlen)
 
@@ -376,17 +383,12 @@ __$e)\;\;$__ $ 5,7:6-2,1:6 =$ [[  0,6  ]]
 
 <div class="flex-child">
 
-<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$f)\;\;$__ $ (0,8-0,45):0,7 =$ [[  0,5  ]]
 @ADetails(2=BE;Dezimalzahlen)
 
 </div> 
 </section>
-
-
-
-
-
 
 
 
@@ -398,113 +400,132 @@ __$f)\;\;$__ $ (0,8-0,45):0,7 =$ [[  0,5  ]]
 
 
 
+**_Aufgabe 1:_** **Rechne** in die angebene Einheit **um**.
 
-
-
-
-
-## Geometrie im Koordinatensystem
-
-
-
-
-@Koordinatensystem(`xmin=-9;xmax=9;ymin=-9;ymax=9;width=700;id=A1`)
-
-@AchsenBeschriftung(`id=A1;xlabel=$x$;ylabel=$y$`)
 
 
 
 <section class="dynFlex">
+
 <div class="flex-child">
 
-__$a)\;\;$__ **Gib** die Koordinaten des Punktes $A$ **an**.
-
-
-@Punkt(`A1;A;-5;-3;fix`)
-
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-$A \left(\right.$ [[  -5  ]] $\left.\right| $ [[  -3  ]] $\left.\right)$
-@Algebrite.check([-5;-3])
-
-@ADetails(1=BE;Koordinatensystem)
-
-</div>
-<div class="flex-child">
-
-__$b)\;\;$__ **Gib** die Koordinaten des Punktes $C$ **an**, sodass das Parallelogramm $\Box ABCD$ entsteht. (Der Punkt $C$ ist zu Hilfe beweglich.)
-
-
-@Punkt(`A1;B;4;-2;fix`)
-@Punkt(`A1;D;-3;6;fix`)
-@Punkt(`A1;C;-3;-8.5`)
-
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-$C \left(\right.$ [[  6  ]] $\left.\right| $ [[  7  ]] $\left.\right)$
-@Algebrite.check([6;7])
-
-@ADetails(1=BE;Koordinatensystem)
-
-</div>
-<div class="flex-child">
-
-__$c)\;\;$__ **Gib** die Koordinaten des Schnittpunktes $M$ der Diagonalen des Parallelogramms $\Box ABCD$ **an**. (Der Punkt $M$ ist zu Hilfe beweglich.)
-
-
-
-@Punkt(`A1;M;-2;-8.5`)
-
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-$M \left(\right.$ [[  0,5  ]] $\left.\right| $ [[  2  ]] $\left.\right)$
-@Algebrite.check([0.5;2])
-
-@ADetails(1=BE;Koordinatensystem)
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$a)\;\;$__ $420\,\text{min} = $ [[    7   ]] $\,\text{h}$ \
+@ADetails(1=BE;Einheiten)
 
 </div>
 
 <div class="flex-child">
 
-__$d)\;\;$__ **Gib** die Koordinaten des Punktes $F$ **an**, sodass ein symmetrisches Drachenviereck $\Box AEFG$ mit dem Flächeninhalt von $A=26\,FE$ entsteht. (Der Punkt $F$ ist zu Hilfe beweglich.)
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__ $25\,\text{m} = $ [[  2500  ]] $\,\text{cm}$ \
+@ADetails(1=BE;Einheiten)
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$c)\;\;$__ $780000\,\text{kg} = $ [[   780  ]] $\,\text{t}$ \
+@ADetails(1=BE;Einheiten)
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$d)\;\;$__ $87\,\text{dm} = $ [[  8700  ]] $\,\text{mm}$ \
+@ADetails(1=BE;Einheiten)
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$e)\;\;$__ $2\,\text{km} = $ [[ 200000 ]] $\,\text{cm}$ \
+@ADetails(1=BE;Einheiten)
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$f)\;\;$__ $50000\,\text{cm}^2 = $ [[   5   ]] $\,\text{m}^2$ \
+@ADetails(1=BE;Einheiten)
 
 
-@Punkt(`A1;E;-3;-1;fix`)
-@Punkt(`A1;G;-7;-1;fix`)
-@Punkt(`A1;F;-4;-8.5`)
+</div>
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-$F \left(\right.$ [[  -5  ]] $\left.\right| $ [[  8  ]] $\left.\right)$
-@Algebrite.check([-5;8])
+<div class="flex-child">
 
-@ADetails(1=BE;Koordinatensystem)
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$g)\;\;$__ $1\,\text{m}^3 = $ [[ 1000  ]] $\,\text{dm}^3$ \
+@ADetails(1=BE;Einheiten)
+
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$h)\;\;$__ $240\,\text{s} = $ [[   4   ]] $\,\text{min}$ \
+@ADetails(1=BE;Einheiten)
+
 
 </div>
 
 
 <div class="flex-child">
 
-__$e)\;\;$__ Die Punkte $G$, $E$ und $D$ beschreiben ein Rechteck. **Gib** den Umfang dieses Rechtecks **an**.
-
-
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-$u =$ [[  22  ]] $LE$ @canvas
-@Algebrite.check(22)
-
-@ADetails(1=BE;Koordinatensystem)
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$i)\;\;$__ $3\,\text{dm}^3 = $ [[   3000    ]] $\,\text{ml}$ \
+@ADetails(1=BE;Einheiten)
 
 </div>
 
 <div class="flex-child">
 
-__$f)\;\;$__ **Gib** die Länge der Strecke $\overline{PB}$ **an**.
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$j)\;\;$__ $11\,\text{dm}^2 = $ [[ 1100  ]] $\,\text{cm}^2$ \
+@ADetails(1=BE;Einheiten)
+
+</div>
+
+</section>
 
 
-@Punkt(`A1;P;1;-6;fix`)
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-$\left| \overline{PB} \right| =$ [[  5  ]] $LE$ @canvas
-@Algebrite.check(5)
 
-@ADetails(1=BE;Koordinatensystem)
+
+--- 
+
+--- 
+
+
+
+**_Aufgabe 2:_** **Gib** die Antwort **an**.
+
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$a)\;\;$__ Wie viele Minuten sind von 08:10$\,$Uhr bis 15:45$\,$Uhr vergangen? \
+[[  455  ]] $\,\text{min}$
+@ADetails(1=BE;Einheiten)
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__ Wie viele Minuten sind von 01:00$\,$Uhr bis 14:22$\,$Uhr vergangen? \
+[[  802  ]] $\,\text{min}$
+@ADetails(1=BE;Einheiten)
 
 </div>
 
@@ -515,9 +536,293 @@ $\left| \overline{PB} \right| =$ [[  5  ]] $LE$ @canvas
 
 
 
-## Sachaufgaben
+## Geometrie im Koordinatensystem
 
 
+
+
+@Koordinatensystem(`xmin=-1;xmax=10;ymin=-1;ymax=10;width=700;id=A1`)
+
+@AchsenBeschriftung(`id=A1;xlabel=$x$ in cm;ylabel=$y$ in cm`)
+
+
+
+<section class="dynFlex">
+<div class="flex-child">
+
+__$a)\;\;$__ **Gib** die Koordinaten des Punktes $A$ **an**.
+
+
+@Punkt(`A1;A;2;1;fix`)
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$A \left(\right.$ [[  2  ]] $\left.\right| $ [[  1  ]] $\left.\right)$
+@Algebrite.check([2;1])
+
+@ADetails(1=BE;Koordinatensystem)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ **Gib** die Koordinaten des Punktes $C$ **an**, sodass das Parallelogramm $\Box ABCD$ entsteht. (Der Punkt $C$ ist zu Hilfe beweglich.)
+
+
+@Punkt(`A1;B;7;2;fix`)
+@Punkt(`A1;D;4;6;fix`)
+@Punkt(`A1;C;2;-0.5`)
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$C \left(\right.$ [[  9  ]] $\left.\right| $ [[  7  ]] $\left.\right)$
+@Algebrite.check([9;7])
+
+@ADetails(1=BE;Koordinatensystem)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ **Gib** die Koordinaten des Schnittpunktes $M$ der Diagonalen des Parallelogramms $\Box ABCD$ **an**. (Der Punkt $M$ ist zu Hilfe beweglich.)
+
+
+
+@Punkt(`A1;M;0.5;-0.5`)
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$M \left(\right.$ [[  5,5  ]] $\left.\right| $ [[  4  ]] $\left.\right)$
+@Algebrite.check([5.5;4])
+
+@ADetails(1=BE;Koordinatensystem)
+
+</div>
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ **Ziehe** den Punkt $F$ **auf** die Koordinaten $(2|5)$.
+
+@ErzeugePunkt(`A1;F;2;5`,`<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`)
+
+@ADetails(BE=1;Koordinatensystem)
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ **Ziehe** den Punkt $G$ **auf** die Koordinaten $(7|1)$.
+
+@ErzeugePunkt(`A1;G;7;1`,`<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`)
+
+@ADetails(BE=1;Koordinatensystem)
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ Die Punkte $G$, $E$ und $A$ beschreiben ein Rechteck. **Gib** den Umfang dieses Rechtecks **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$u =$ [[  18  ]] cm @canvas
+@Algebrite.check(18)
+
+@ADetails(1=BE;Koordinatensystem,Viereck)
+
+</div>
+
+<div class="flex-child">
+
+__$g)\;\;$__ **Gib** die korrekte Winkelart **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\measuredangle GAF$ ist ein [[Nullwinkel|spitzer Winkel|(rechter Winkel)|stumpfer Winkel|gestreckter Winkel|überstumpfer Winkel|voller Winkel]]
+@ADetails(1=BE;Koordinatensystem,Winkel)
+
+</div>
+
+<div class="flex-child">
+
+__$h)\;\;$__ **Gib** die korrekte Winkelart **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\measuredangle BCD$ ist ein [[Nullwinkel|spitzer Winkel|rechter Winkel|stumpfer Winkel|gestreckter Winkel|(überstumpfer Winkel)|voller Winkel]]
+@ADetails(1=BE;Koordinatensystem,Winkel)
+
+</div>
+
+<div class="flex-child">
+
+__$i)\;\;$__ **Gib** die korrekte Winkelart **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\measuredangle GAB$ ist ein [[Nullwinkel|(spitzer Winkel)|rechter Winkel|stumpfer Winkel|gestreckter Winkel|überstumpfer Winkel|voller Winkel]]
+@ADetails(1=BE;Koordinatensystem,Winkel)
+
+</div>
+
+<div class="flex-child">
+
+__$i)\;\;$__ **Gib** die korrekte Winkelart **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\measuredangle FDC$ ist ein [[Nullwinkel|spitzer Winkel|rechter Winkel|(stumpfer Winkel)|gestreckter Winkel|überstumpfer Winkel|voller Winkel]]
+@ADetails(1=BE;Koordinatensystem,Winkel)
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+## Unterschiedliche Themen
+
+
+
+**_Aufgabe 1:_** **Gib** den auf Hunderter gerundeten Wert **an**.
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$7664 \approx$ [[7700    ]]
+@ADetails(1=BE;Runden)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$4467 \approx$ [[4500    ]]
+@ADetails(1=BE;Runden)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$2454 \approx$ [[2500    ]]
+@ADetails(1=BE;Runden)
+
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$2163 \approx$ [[2200    ]]
+@ADetails(1=BE;Runden)
+
+</div>
+
+</section>
+
+
+--- 
+
+--- 
+
+**_Aufgabe 2:_** **Gib** den ungefähren Wert der abgebildeten Objekte **an**.
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__
+
+![Kandiszuckerstückchen](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/circa9.jpg)
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[ 600  ]] Kandiszuckerstückchen
+@Algebrite.check_margin(550,725)
+
+@ADetails(1=BE;Schätzen)
+
+</div>
+<div class="flex-child">
+
+
+__$b)\;\;$__
+
+![Erdnusskernstücke](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/circa10.jpg)
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[ 280  ]] Erdnusskernstücke
+@Algebrite.check_margin(250,350)
+
+@ADetails(1=BE;Schätzen)
+
+</div>
+</section>
+
+
+
+--- 
+
+--- 
+
+
+
+**_Aufgabe 3:_** **Fülle** die freien Felder der Tabelle **aus**.
+
+
+
+<!-- data-type="none" data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-sortable="false"  data-show-partial-solution  -->
+|  $a$  |   $b$   |  $a+b$   |  $a \cdot b$ |  $b-a$   | $2 \cdot a$ |
+| :---: | :-----: | :------: | :----------: | :------: | :---------: |
+|   3   |     7   | [[ 10 ]] |   [[  21 ]]  | [[  4 ]] |  [[  6 ]]   |
+|   5   |     6   | [[ 11 ]] |   [[  30 ]]  | [[  1 ]] |  [[ 10 ]]   |
+|   9   |    14   | [[ 23 ]] |   [[ 126 ]]  | [[  5 ]] |  [[ 18 ]]   |
+|   8   |    16   | [[ 24 ]] |   [[ 144 ]]  | [[  8 ]] |  [[ 16 ]]   |
+
+
+@ADetails(4=BE;Parameter)
+
+
+
+
+--- 
+
+--- 
+
+
+**_Aufgabe 4:_** **Gib** nächsten Glieder der Folge **an**.
+
+
+
+__$a)\;\;$__
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$1 \quad 2 \quad 4 \quad 8 \quad 16 \quad 32 \quad 64 \quad$ [[ 128 ]] $\quad$ [[ 256 ]] $\quad$ [[ 512 ]] \
+
+@ADetails(1=BE;Folge)
+
+
+__$b)\;\;$__
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$5 \quad 10 \quad 15 \quad 20 \quad 25 \quad 30 \quad $ [[ 35 ]] $\quad$ [[ 40 ]] $\quad$ [[ 45 ]] \
+
+@ADetails(1=BE;Folge)
+
+
+__$c)\;\;$__
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$7 \quad 19 \quad 31 \quad 43 \quad 55 \quad 67 \quad$ [[ 79 ]] $\quad$ [[ 91 ]] $\quad$ [[ 103 ]] \
+
+@ADetails(1=BE;Folge)
 
 
 
