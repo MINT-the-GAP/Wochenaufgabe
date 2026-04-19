@@ -4,6 +4,26 @@ language: de
 
 translateWithGoogle: false
 
+@onload
+
+  (function () {
+    try {
+      document.documentElement.setAttribute("translate", "no");
+      document.documentElement.classList.add("notranslate");
+
+      document.body.setAttribute("translate", "no");
+      document.body.classList.add("notranslate");
+
+      const meta = document.createElement("meta");
+      meta.name = "google";
+      meta.content = "notranslate";
+      document.head.appendChild(meta);
+    } catch (e) {}
+  })();
+
+@end
+
+
 mode: Presentation
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
