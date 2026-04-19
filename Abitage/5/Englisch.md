@@ -53,9 +53,10 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 ## Grammar
 
-
+<div class="notranslate" translate="no">
 **_Excerise 1:_** Complete the table of irregular verbs. In each row, one form is given and two forms are missing. 
 **Write** the correct Infinitive, Simple Past, and Past Participle.
+</div>
 
 
 <!-- data-solution-timer="600s"
