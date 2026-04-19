@@ -2,14 +2,20 @@
 version:  0.0.1
 language: de
 
-import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
+mode: Presentation
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/MarkerREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FlexChildREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/DeutschREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/NavigationREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TimerREADME.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
 
 author: Martin Lommatzsch
 -->
 
-# Aufgaben für die Prüfungstage
+# Aufgaben für die Prüfungstage - Deutsch: Klasse 5
 
 
 
@@ -40,93 +46,35 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 
 
----
-
----
-
-
-<h2>**Schrifterkennung**</h2>
 
 
 
-<center>
+# Planung
 
-<!-- style="width:200px" -->
-![Canvas](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/Readme/canvas.png)
+Grammatik: Wortarten, Satzglieder, Komperation/Beugung, Zeitform 
 
-</center>
+Gedicht: Reimschema, Metrik, Stilmittel 
 
-1. Öffnet oder schließt die Schreibfläche.
+Rechtschreibung: Diktat, Satzzeichen, Korrektur, Silbentrennung, KleinGroß, Wörtliche Rede
 
-2. Macht die letzte Änderung auf der Schreibfläche rückgängig.
+Lesen: Leseverständnis, Ordnen der Inhaltsangabe
 
-3. Stellt das letzte "Rückgängig machen" wieder her.
-
-4. Radierer mit Submenü für Radierergröße oder komplettes löschen.
-
-5. Stift mit Submenü für Farbauswahl, Stiftdicke und Transparenz.
-
-6. Legt ein Grid oder Linien in den Hintergrund.
-
-7. Lässt ein Feld ziehen, welches mittels Schrifterkennung an das Eingabefeld als Lösung übergibt.
-
-Die Schreibfläche kann unten links oder rechts an den Ecke in der Größe beliebig verändert werden.
+Sonstiges: Fachvokabeln, Pronomen/Präpositionen einsetzen, 
 
 
-> **Steuerung mit Maus**
-
-- Linke Maustaste: Zeichnen, Radieren, Ziehen
-
-- Rechte Maustaste: Schreibfläche hin- und herziehen
-
-- Mausrad: Zoom
-
-
-> **Steuerung mit Touchscreen**
-
-- Ein Finger:  Zeichnen, Radieren, Ziehen
-
-- Zwei Finger (Abstand zwischen den Fingern gleichbleibend): Schreibfläche hin- und herziehen
-
-- Zwei Finger (Abstand zwischen den Fingern verändern): Zoom
+5 - Personifikation, Vergleich, Wortneuschöpfung
+6 - Personifikation, Vergleich, Neologismus (dieses Mal Fachbegriff), Metapher, Alliteration
 
 
 
-
-
-
-
-
-
-
-# Minimalbeispiel
-
-
-
-
-**Gib** den beschriebenen Anteilswert **an**.
-
-<section class="dynFlex">
-<div class="flex-child">
-
-<!-- data-solution-button="2" data-solution-timer="60s" data-solution-timer-start="oncheck" -->
-__$a)\;\;$__ Wie viel sind $\dfrac{9}{4}$ von $720\,$kg?  \
- [[  1620  ]]kg @canvas
-@Algebrite.check(1620)
-***************
-$$
-\begin{align*}
-  \dfrac{9}{4} \cdot 720\,\text{kg} & = \dfrac{9 \cdot 720}{4} \,\text{kg} \\
-  & = 9 \cdot 180 \,\text{kg} 
-  & = 1620 \,\text{kg} 
-\end{align*}
-$$
-***************
-
-</div>
-</section>
 
 @ADetails(3=BE;Bruchrechnung)
+
+
+
+# Abgabe
+
+
 
 @Abgabe
 

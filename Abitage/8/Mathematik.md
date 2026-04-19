@@ -530,7 +530,7 @@ $R(V)=$ [[  4:15  ]]
 
 
 
-@Koordinatensystem(`xmin=-1;xmax=10;ymin=-1;ymax=10;width=700;id=A1`)
+@Koordinatensystem(`xmin=-10;xmax=10;ymin=-10;ymax=10;width=700;id=A1`)
 
 @AchsenBeschriftung(`id=A1;xlabel=$x$;ylabel=$y$`)
 

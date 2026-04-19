@@ -15,7 +15,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imp
 author: Martin Lommatzsch
 -->
 
-# Aufgaben für die Prüfungstage - Biologie: Klasse 5
+# Aufgaben für die Prüfungstage - Chemie: Klasse 7
 
 
 
@@ -51,12 +51,14 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 # Planung
 
-5: Bio:
-- Fische
-- Lurche
-- Kriechtiere
-- Vögel
-- Säugetiere
+
+7: Chemie
+- Untersuchen
+- Atomaufbau
+- Reaktionen
+- Reaktionseigenschaften
+- Energie
+
 
 
 
