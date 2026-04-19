@@ -2,6 +2,8 @@
 version:  0.0.1
 language: de
 
+translateWithGoogle: false
+
 mode: Presentation
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
