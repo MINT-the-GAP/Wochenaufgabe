@@ -14,7 +14,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imp
 author: Martin Lommatzsch
 -->
 
-# Aufgaben für die Prüfungstage
+# Aufgaben für die Prüfungstage - Mathematik: Klasse 5
 
 
 
@@ -619,7 +619,7 @@ __$e)\;\;$__ **Ziehe** den Punkt $G$ **auf** die Koordinaten $(7|1)$.
 
 <div class="flex-child">
 
-__$f)\;\;$__ Die Punkte $G$, $E$ und $A$ beschreiben ein Rechteck. **Gib** den Umfang dieses Rechtecks **an**.
+__$f)\;\;$__ Die Punkte $G$, $F$ und $A$ beschreiben ein Rechteck. **Gib** den Umfang dieses Rechtecks **an**.
 
 <!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $u =$ [[  18  ]] cm @canvas
@@ -784,7 +784,7 @@ __$b)\;\;$__
 |   3   |     7   | [[ 10 ]] |   [[  21 ]]  | [[  4 ]] |  [[  6 ]]   |
 |   5   |     6   | [[ 11 ]] |   [[  30 ]]  | [[  1 ]] |  [[ 10 ]]   |
 |   9   |    14   | [[ 23 ]] |   [[ 126 ]]  | [[  5 ]] |  [[ 18 ]]   |
-|   8   |    16   | [[ 24 ]] |   [[ 144 ]]  | [[  8 ]] |  [[ 16 ]]   |
+|   8   |    16   | [[ 24 ]] |   [[ 128 ]]  | [[  8 ]] |  [[ 16 ]]   |
 
 
 @ADetails(4=BE;Parameter)
