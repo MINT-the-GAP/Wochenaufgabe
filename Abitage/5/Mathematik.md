@@ -123,7 +123,7 @@ Die Schreibfläche kann unten links oder rechts an den Ecke in der Größe belie
 
 __$a)\;\;$__ $\dfrac{5}{8}$
 
-@circleQuiz(5/8)
+@circleQuiz(5/8,`<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`)
 @ADetails(1=BE;Bruchrechnung)
 
 </div>
@@ -132,7 +132,7 @@ __$a)\;\;$__ $\dfrac{5}{8}$
 
 __$b)\;\;$__ $\dfrac{7}{12}$
 
-@rectQuiz(7/12)
+@rectQuiz(7/12,`<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`)
 @ADetails(1=BE;Bruchrechnung)
 
 </div>
