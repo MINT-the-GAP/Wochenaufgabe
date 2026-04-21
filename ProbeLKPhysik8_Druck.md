@@ -231,7 +231,7 @@ Das passt näherungsweise zu Meerwasser.
 Aufgabe 3: Die gemessene Auftriebskraft eines unförmigen Körpers beträgt in Ethanol $0{,}4\,\text{N}$. Berechne die Kantenlänge eines Würfels, der in Ethanol dieselbe Auftriebskraft erfahren würde. Verwende $\rho_{\text{Ethanol}}=789\,\dfrac{\text{kg}}{\text{m}^3}$.
 
 <!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-[[   3.7248   ]] cm @canvas
+[[   3,7248   ]] cm @canvas
 @Algebrite.check2(3.7248,0.01)
 **********************
 $$

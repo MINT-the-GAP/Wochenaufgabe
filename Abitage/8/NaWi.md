@@ -4,12 +4,15 @@ language: de
 
 mode: Presentation
 
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/MarkerREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FlexChildREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/DeutschREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/NavigationREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TimerREADME.md
+
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/JSXGraph@main/README.md
+
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/KoordREADME.md
+
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
 
 author: Martin Lommatzsch
@@ -21,6 +24,13 @@ author: Martin Lommatzsch
 
 
 > Wenn du diese Aufgaben bearbeitest, solltest du nicht in ein anderes Fenster oder einen anderen Tab wechseln, sondern dich nur auf diese Aufgaben konzentrieren. Hole dir alle Materialien, die du zum Bearbeiten dieser Aufgaben brauchst. In deinem Fall solltest du dir Stifte und Papier holen, um dir zur Not Notizen machen zu können. Am Ende der Bearbeitung sendest du diese bearbeiteten Aufgaben an deinen Lehrer oder deine Lehrerin, sodass die Lehrkräfte sehen können, was du gemacht hast. <p align="right"> - Martin Lommatzsch </p>
+
+> HINWEIS 1: <h3>Diese Aufgaben werden abgegeben. Am Ende des Kurses kann der Kurs eingefroren werden. Dadurch entsteht ein Link, versende diesen Link via LernSax an deinen Lehrer oder deine Lehrerin. </h3>
+
+> HINWEIS 2: <h3> Das Anzahl wie oft du auf "Prüfen" drückst, wird auch erfasst. </h3>
+
+> HINWEIS 3: <h3> Falls du eine Aufgabe gerade nicht bearbeiten möchtest, kannst du zu nächsten wechseln. Du kannst zu jeder Zeit zu dieser Aufgabe zurückkehren. Bearbeite am besten alle Aufgaben bevor du alles einfrierst. </h3>
+
 
 Hier hast du nochmal eine Übersicht über die Menüleiste:
 
@@ -49,21 +59,414 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 
 
-# Planung
+# Kraft
 
-8: Physik:
-- Kraft
-- Energie
-- Strom
-- Geschwindigkeit
-- Druck
+
+Ein Quader mit den Maßen $a=3\,\text{cm}$, $b=1{,}5\,\text{cm}$ und $c=5\,\text{cm}$ besteht aus Platin mit einer Dichte von $21{,}45\,\dfrac{\text{g}}{\text{cm}^3}$. Dieser Quader wird an eine Feder gehängt, welche sich um $4\,\text{cm}$ ausdehnt. **Berechne** die Federkonstante der verwendeten Feder.
 
 
 
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[   118,3638   ]] @canvas
+@Algebrite.check2(118.3638,0.01)
+**********************
+$$
+\begin{align*}
+V &= a \cdot b \cdot c \\
+V &= 3\,\text{cm} \cdot 1{,}5\,\text{cm} \cdot 5\,\text{cm} \\
+V &= 22{,}5\,\text{cm}^3
+\end{align*}
+$$
+
+$$
+\begin{align*}
+m &= V \cdot \rho \\
+m &= 22{,}5\,\text{cm}^3 \cdot 21{,}45\,\dfrac{\text{g}}{\text{cm}^3} \\
+m &= 482{,}625\,\text{g} = 0{,}482625\,\text{kg}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+F &= m \cdot g \\
+F &= 0{,}482625\,\text{kg} \cdot 9{,}81\,\dfrac{\text{N}}{\text{kg}} \\
+F &\approx 4{,}7346\,\text{N}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+F &= D \cdot s \\
+D &= \frac{F}{s} \\
+D &= \frac{4{,}7346\,\text{N}}{0{,}04\,\text{m}} \\
+D &\approx 118{,}3638\,\frac{\text{N}}{\text{m}}
+\end{align*}
+$$
+**********************
+
+
+@ADetails(6=BE;Kraft)
 
 
 
-@ADetails(3=BE;Bruchrechnung)
+
+# Energie
+
+
+
+
+Aufgabe 1: Ein Objekt mit der Masse von $750\,\text{g}$ befindet sich in einer Höhe über dem Erdboden, sodass es eine potentielle Energie von $275\,\text{J}$ besitzt. Berechne die Höhe, in der sich das Objekt befindet. 
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[   37.3768   ]] @canvas
+@Algebrite.check2(37.3768,0.01)
+**********************
+$$
+\begin{align*}
+m &= 750\,\text{g} = 0{,}75\,\text{kg} \\
+E_{\text{pot}} &= mgh \\
+h &= \frac{E_{\text{pot}}}{mg} \\
+h &= \frac{275\,\text{J}}{0{,}75\,\text{kg} \cdot 9{,}81\,\dfrac{\text{m}}{\text{s}^2}} \\
+h &\approx 37{,}3768\,\text{m}
+\end{align*}
+$$
+**********************
+
+
+@ADetails(3=BE;Energie)
+
+---
+
+---
+
+
+
+
+Aufgabe 2: Das Objekt aus Aufgabe 1 befindet sich nun auf dem Mond mit $g_{\text{Mond}}=1{,}62\,\dfrac{\text{m}}{\text{s}^2}$. Berechne die Höhe, in der sich das Objekt bei gleicher potentieller Energie von $275\,\text{J}$ befinden würde. 
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[   226.3374   ]] @canvas
+@Algebrite.check2(226.3374,0.01)
+**********************
+$$
+\begin{align*}
+m &= 750\,\text{g} = 0{,}75\,\text{kg} \\
+E_{\text{pot}} &= mgh \\
+h &= \frac{E_{\text{pot}}}{mg} \\
+h &= \frac{275\,\text{J}}{0{,}75\,\text{kg} \cdot 1{,}62\,\dfrac{\text{m}}{\text{s}^2}} \\
+h &\approx 226{,}3374\,\text{m}
+\end{align*}
+$$
+**********************
+
+
+@ADetails(3=BE;Energie)
+
+
+
+
+
+# Elektrizitätslehre
+
+
+$a)\;\;$ **Berechne** den Gesamtwiderstand der dargestellten Schaltung.
+
+<center>
+<!-- style="width:400px" -->
+![](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Zeug/GesamtWiderstand1.PNG)
+</center>
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$R_{Gesamt} \approx$ [[  1157,233  ]]$\,\Omega$
+@Algebrite.check2(1157.233,0.01)
+*****************************
+
+1. Schritt: Serienschaltung rechts zusammenfassen
+
+Rechts unten liegen $1\,\text{k}\Omega$ und $47\,\Omega$ in Reihe:
+
+$$
+\begin{align*} 
+R_{\text{rechts}} = R_3 + R_4 
+= 1000\,\Omega + 47\,\Omega 
+= 1047\,\Omega
+\end{align*}
+$$
+
+---
+
+2. Schritt: Parallelschaltung bilden
+
+Der $2\,\text{k}\Omega$–Widerstand liegt parallel zu diesem rechten Zweig ($1047\,\Omega$).
+
+Parallelschaltung zweier Widerstände:
+
+$$
+\begin{align*} 
+\frac{1}{R_\parallel}
+= \frac{1}{R_2} + \frac{1}{R_{\text{rechts}}}
+= \frac{1}{2000\,\Omega} + \frac{1}{1047\,\Omega}
+\end{align*}
+$$
+
+Rechnen:
+
+$$
+\begin{align*} 
+R_\parallel 
+= \frac{R_2 \cdot R_{\text{rechts}}}{R_2 + R_{\text{rechts}}}
+= \frac{2000 \cdot 1047}{2000 + 1047}\,\Omega
+\approx 687{,}233\,\Omega
+\end{align*}
+$$
+
+---
+
+3. Schritt: Gesamte Serienschaltung
+
+Der $470\,\Omega$–Widerstand liegt in Reihe mit dem gesamten Parallelnetzwerk:
+
+$$
+\begin{align*} 
+R_\text{ges} = R_1 + R_\parallel
+= 470\,\Omega + 687{,}233\,\Omega
+\approx 1157{,}233\,\Omega
+\end{align*}
+$$
+
+*****************************
+
+
+@ADetails(4=BE;Elektrizitätslehre)
+
+
+---
+
+---
+
+
+
+
+$b)\;\;$ An der darstellten Schaltung liegt eine Spannung von $24\,$V an. **Berechne** die resultierende Stromstärke.
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$I_{Gesamt} \approx$ [[  20,739  ]]$\,$mA
+@Algebrite.check2(20.739,0.01)
+*****************************
+$$
+\begin{align*} 
+U & = R_\text{ges}I \quad \left| : R_\text{ges} \right. \\
+I &= \frac{U}{R_\text{ges}}\\
+&= \frac{24\,\text{V}}{1157{,}233\,\Omega}\\
+&\approx 0{,}020739\,\text{A}\\
+&\approx 20{,}739\,\text{mA}
+\end{align*}
+$$
+
+*****************************
+
+
+@ADetails(3=BE;Elektrizitätslehre)
+
+
+---
+
+---
+
+
+
+
+$c)\;\;$ **Kreuze an**, ob die Aussage "wahr", "falsch" oder "nicht entscheidbar" ist.
+
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+- [[wahr]   (falsch)    [nicht entscheidbar]]
+- [ [X]       [ ]             [ ]     ]  Durch den rechten Leiter fließt ungefähr ein Drittel des Stroms.
+- [ ( )       (X)             ( )     ]  Wenn man an der Stelle des $470\,\Omega$-Widerstandes ein Amperemeter schalten würde, würde die Gesamtstromstärke sinken.
+- [ [X]       [ ]             [ ]     ]  Die Spannung am $2k\,\Omega$-Widerstand ist größer als am $1k\,\Omega$-Widerstand.
+- [ ( )       (X)             ( )     ]  Würde man eine Lampe vor dem $2k\,\Omega$-Widerstand bzw. dem $1k\,\Omega$-Widerstand schalten, wäre die am $2k\,\Omega$-Widerstand heller.
+
+
+
+@ADetails(BE=4;Elektrizitätslehre)
+
+
+
+
+# Kinematik
+
+
+
+Ein LKW fährt mit einer Geschwindigkeit von $22,\overline{2}\,\dfrac{\text{m}}{\text{s}}$ los und hält seine Geschwindigkeit konstant. Ein Auto startet $2{,}5\,\text{h}$ später von der gleichen Stelle und fährt konstant mit $28\,\dfrac{\text{m}}{\text{s}}$. 
+
+
+__$a)\;\;$__ **Berechne** den Abstand der beiden Fahrzeuge nach $8\,\text{h}$.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[   85,7   ]] km @canvas
+@Algebrite.check2(85.7,0.1)
+**********************
+Zuerst werden die Geschwindigkeiten in $\dfrac{\text{km}}{\text{h}}$ umgerechnet:
+$$
+\begin{align*}
+v_{\text{LKW}} &= 22,\overline{2}\,\frac{\text{m}}{\text{s}} = 80\,\frac{\text{km}}{\text{h}} \\
+v_{\text{Auto}} &= 28\,\frac{\text{m}}{\text{s}} = 100{,}8\,\frac{\text{km}}{\text{h}}
+\end{align*}
+$$
+
+Nach $8\,\text{h}$ hat der LKW die Strecke
+$$
+\begin{align*}
+s_{\text{LKW}} &= v \cdot t \\
+s_{\text{LKW}} &= 80\,\frac{\text{km}}{\text{h}} \cdot 8\,\text{h} \\
+s_{\text{LKW}} &= 640\,\text{km}
+\end{align*}
+$$
+
+zurückgelegt.
+
+Das Auto fährt zu diesem Zeitpunkt erst
+$$
+\begin{align*}
+t_{\text{Auto}} &= 8\,\text{h} - 2{,}5\,\text{h} = 5{,}5\,\text{h}
+\end{align*}
+$$
+
+und legt deshalb die Strecke
+$$
+\begin{align*}
+s_{\text{Auto}} &= v \cdot t \\
+s_{\text{Auto}} &= 100{,}8\,\frac{\text{km}}{\text{h}} \cdot 5{,}5\,\text{h} \\
+s_{\text{Auto}} &= 554{,}4\,\text{km}
+\end{align*}
+$$
+
+zurück.
+
+Damit beträgt der Abstand nach $8\,\text{h}$:
+$$
+\begin{align*}
+\Delta s &= 640\,\text{km} - 554{,}4\,\text{km} \\
+\Delta s &= 85{,}6\,\text{km}
+\end{align*}
+$$
+*************************
+
+
+
+
+@ADetails(3=BE;Kinematik)
+
+
+
+
+__$b)\;\;$__ **Berechne** den Zeitpunkt, an dem dieser Abstand noch einmal später vorkommt. 
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[   16,2308   ]] h @canvas
+@Algebrite.check2(16.2308,0.01)
+**********************
+Aus Aufgabenteil $a)$ ist bekannt, dass der Abstand nach $8\,\text{h}$
+
+$$
+\Delta s = 85{,}6\,\text{km}
+$$
+
+beträgt.
+
+Zuerst werden die Geschwindigkeiten in $\dfrac{\text{km}}{\text{h}}$ betrachtet:
+$$
+\begin{align*}
+v_{\text{LKW}} &= 22,\overline{2}\,\frac{\text{m}}{\text{s}} = 80\,\frac{\text{km}}{\text{h}} \\
+v_{\text{Auto}} &= 28\,\frac{\text{m}}{\text{s}} = 100{,}8\,\frac{\text{km}}{\text{h}}
+\end{align*}
+$$
+
+Für Zeiten ab dem Start des Autos gilt für den Abstand der beiden Fahrzeuge:
+$$
+\begin{align*}
+\Delta s(t) &= \left| 80\,\frac{\text{km}}{\text{h}} t - 100{,}8\,\frac{\text{km}}{\text{h}}  (t-2{,}5\,\text{h}) \right| \\
+            &= \left| 80\,\frac{\text{km}}{\text{h}} t - 100{,}8\,\frac{\text{km}}{\text{h}} t + 252\,\text{km} \right| \\
+            &= \left| 252\,\text{km} - 20{,}8\,\frac{\text{km}}{\text{h}} t \right|
+\end{align*}
+$$
+
+Nun wird dieser Abstand gleich $85{,}6\,\text{km}$ gesetzt:
+$$
+\begin{align*}
+\left| 252\,\text{km} - 20{,}8\,\frac{\text{km}}{\text{h}} t \right| &= 85{,}6\,\text{km}
+\end{align*}
+$$
+
+
+$$
+\begin{align*}
+252\,\text{km} - 20{,}8\,\frac{\text{km}}{\text{h}} t &= -85{,}6\,\text{km} \\
+337{,}6 &= 20{,}8t \\
+t &= \frac{337{,}6}{20{,}8} \\
+t &\approx 16{,}2308\,\text{h}
+\end{align*}
+$$
+
+Der Abstand von $85{,}6\,\text{km}$ kommt also nach den ersten $8\,\text{h}$ noch einmal bei
+$$
+\begin{align*}
+t &\approx 16{,}2308\,\text{h}
+\end{align*}
+$$
+**********************
+
+
+
+@ADetails(3=BE;Kinematik)
+
+
+
+
+
+
+
+# Druck
+
+
+Ein vollständig eingetauchter Körper mit dem Volumen $V=3{,}5\,\text{dm}^3$ erfährt in einer Flüssigkeit eine Auftriebskraft von $35{,}1934\,\text{N}$. Berechne die Dichte der Flüssigkeit. Runde auf ganze $\dfrac{\text{kg}}{\text{m}^3}$.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[   1025   ]] $\dfrac{\text{kg}}{\text{m}^3}$ @canvas
+@Algebrite.check(1025)
+**********************
+$$
+\begin{align*}
+V &= 3{,}5\,\text{dm}^3 = 0{,}0035\,\text{m}^3 \\
+F_A &= \rho \cdot g \cdot V \\
+\rho &= \frac{F_A}{g \cdot V} \\
+\rho &= \frac{35{,}1934\,\text{N}}{9{,}81\,\frac{\text{N}}{\text{kg}} \cdot 0{,}0035\,\text{m}^3} \\
+\rho &\approx 1025\,\frac{\text{kg}}{\text{m}^3}
+\end{align*}
+$$
+
+Das passt näherungsweise zu Meerwasser.
+**********************
+
+
+@ADetails(BE=4;Druck)
+
+
+
+
+
+
 
 
 

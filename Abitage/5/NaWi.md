@@ -22,6 +22,13 @@ author: Martin Lommatzsch
 
 > Wenn du diese Aufgaben bearbeitest, solltest du nicht in ein anderes Fenster oder einen anderen Tab wechseln, sondern dich nur auf diese Aufgaben konzentrieren. Hole dir alle Materialien, die du zum Bearbeiten dieser Aufgaben brauchst. In deinem Fall solltest du dir Stifte und Papier holen, um dir zur Not Notizen machen zu können. Am Ende der Bearbeitung sendest du diese bearbeiteten Aufgaben an deinen Lehrer oder deine Lehrerin, sodass die Lehrkräfte sehen können, was du gemacht hast. <p align="right"> - Martin Lommatzsch </p>
 
+> HINWEIS 1: <h3>Diese Aufgaben werden abgegeben. Am Ende des Kurses kann der Kurs eingefroren werden. Dadurch entsteht ein Link, versende diesen Link via LernSax an deinen Lehrer oder deine Lehrerin. </h3>
+
+> HINWEIS 2: <h3> Das Anzahl wie oft du auf "Prüfen" drückst, wird auch erfasst. </h3>
+
+> HINWEIS 3: <h3> Falls du eine Aufgabe gerade nicht bearbeiten möchtest, kannst du zu nächsten wechseln. Du kannst zu jeder Zeit zu dieser Aufgabe zurückkehren. Bearbeite am besten alle Aufgaben bevor du alles einfrierst. </h3>
+
+
 Hier hast du nochmal eine Übersicht über die Menüleiste:
 
 > <center> ![Bediehnungsübersicht](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/5/Deutsch/pics/tutorial.png) </center>
@@ -49,21 +56,167 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 
 
-# Planung
-
-5: Bio:
-- Fische
-- Lurche
-- Kriechtiere
-- Vögel
-- Säugetiere
+## Fische
 
 
+**Sortiere** die Fischarten nach ihrem Lebensraum und nach ihrer maximalen Größe (Länge).
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Süßwasserfische: [->[(Wels)]] $>$ [->[(Hecht)]] $>$ [->[(Karpfen)]] $>$ [->[(Regenbogenforelle)]] $>$ [->[(Rotfeder)|Buckelwal]] \
+Salzwasserfische: [->[(Heilbutt)]] $>$ [->[(Kabeljau)]] $>$ [->[(Scholle)]] $>$ [->[(Makrele)]] $>$ [->[(Hering)|Tümmler]] \
+
+
+@ADetails(BE=5;Fische)
 
 
 
 
-@ADetails(3=BE;Bruchrechnung)
+
+
+## Lurche
+
+
+**Setze** die passenden Wörter in die Lücken **ein**.
+
+---
+
+<h2>Der Lebenszyklus der Lurche</h2>
+
+<!-- data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Viele Lurche beginnen ihr Leben im [[Wasser      ]].  
+Dort legt das Weibchen seine [[Eier      ]] ab, die man auch [[Laich      ]] nennt.  
+Aus den Eiern schlüpfen nach einiger Zeit kleine [[Kaulquappen      ]].  
+Diese leben zunächst nur im Wasser und atmen mit [[Kiemen      ]].  
+Später wachsen ihnen zuerst die hinteren und dann die vorderen [[Beine      ]].  
+Außerdem entwickeln sie [[Lungen      ]], damit sie an Land atmen können.  
+Nach und nach bildet sich auch der [[Schwanz      ]] zurück.  
+Nun kann das Tier nicht nur im Wasser, sondern auch an [[Land      ]] leben.  
+Die starke Verwandlung vom Jungtier zum erwachsenen Tier nennt man [[Metamorphose      ]].  
+Am Ende der Entwicklung wird aus der Kaulquappe ein erwachsener [[Lurch      ]].
+
+
+@ADetails(BE=5;Lurche)
+
+
+
+
+## Kriechtiere
+
+
+
+
+
+
+
+**Ordne** jede Aussage dem passenden Bereich **zu**.
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+- [[Erkennen]   (Angepasstheit an das Landleben)    [Fortpflanzung]]
+- [ (X)              ( )                                   ( )     ]  Viele Kriechtiere besitzen eine trockene Haut mit Hornschuppen oder Hornplatten.
+- [ (X)              ( )                                   ( )     ]  Schildkröten besitzen einen Hornpanzer.
+- [ (X)              ( )                                   ( )     ]  Kriechtiere gehören zu den Wirbeltieren.
+- [ ( )              (X)                                   ( )     ]  Die Haut schützt den Körper vor Austrocknung.
+- [ ( )              (X)                                   ( )     ]  Kriechtiere können auch in trockenen Lebensräumen leben.
+- [ ( )              (X)                                   ( )     ]  Kriechtiere atmen mit Lungen.
+- [ ( )              (X)                                   ( )     ]  Kriechtiere sind besser an das Leben an Land angepasst als Lurche.
+- [ ( )              ( )                                   (X)     ]  Die Befruchtung findet im Körper des Weibchens statt.
+- [ ( )              ( )                                   (X)     ]  Die Eier werden an Land abgelegt.
+- [ ( )              ( )                                   (X)     ]  Die Fortpflanzung ist nicht an Wasser gebunden.
+
+
+@ADetails(BE=5;Kriechtiere)
+
+
+
+
+
+## Vögel
+
+
+
+
+
+
+
+**Ordne** den Tonspuren der Vogelart **zu**.
+
+<!-- data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Blaumeise: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/4/42/Cyanistes_caeruleus_-_Eurasian_Blue_Tit_XC131316.ogg))]]  \
+Gartenrotschwanz: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/6/69/Phoenicurus_phoenicurus.ogg))]]\
+Amsel: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/7/7c/Turdus_merula_2.ogg))]]\
+Elster: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/b/b6/Pica_pica.ogg))]]\
+Turmfalke: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/e/e1/Buteo_buteo_-_Common_Buzzard_XC538678.mp3))]]\
+
+
+@ADetails(BE=5;Vögel)
+
+
+
+<small><small><small><small>
+
+Quellen: \
+
+
+
+- „Cyanistes caeruleus - Eurasian Blue Tit XC131316.ogg“ von Dan Stowell, Quelle: Wikimedia Commons / Xeno-Canto, Lizenz: CC BY-SA 3.0 \
+- „Buteo buteo - Common Buzzard XC538678.mp3“ von Benoît Van Hecke, Quelle: Wikimedia Commons / Xeno-canto, Lizenz: CC BY-SA 4.0\
+- „Phoenicurus phoenicurus.ogg“ von Oona Räisänen (Mysid), Quelle: Wikimedia Commons, gemeinfrei / Public Domain\
+- „Turdus merula 2.ogg“ von Oona Räisänen (Mysid), Quelle: Wikimedia Commons, gemeinfrei / Public Domain\
+- „Pica pica.ogg“ von Oona Räisänen (Mysid), Quelle: Wikimedia Commons, gemeinfrei / Public Domain\
+
+</small></small></small></small>
+
+
+
+
+
+
+
+
+## Säugetiere
+
+**Lies** den Text und **entscheide** danach, ob die Aussagen "wahr" oder "falsch" sind.
+
+--- 
+
+
+--- 
+
+Säugetiere sind eine Tiergruppe der Wirbeltiere. Zu ihnen gehören zum Beispiel der Hund, die Katze, das Pferd, der Igel, der Wal und auch der Mensch. Säugetiere kommen fast überall auf der Erde vor. Manche leben an Land, andere im Wasser und wieder andere können sogar fliegen. Fledermäuse sind die einzigen Säugetiere, die aktiv fliegen können.
+
+Ein wichtiges Merkmal der Säugetiere ist, dass ihr Körper Haare oder Fell besitzt. Bei manchen Arten ist das Fell dicht und schützt gut vor Kälte, zum Beispiel beim Bären oder beim Fuchs. Bei anderen ist es nur wenig sichtbar. Auch Wale zählen zu den Säugetieren, obwohl sie fast keine Haare besitzen. Säugetiere atmen mit Lungen. Außerdem haben sie eine gleichbleibende Körpertemperatur. Das bedeutet, dass ihr Körper auch dann warm bleibt, wenn die Umgebung kälter ist.
+
+Die meisten Säugetiere bringen ihre Jungen lebend zur Welt. Nach der Geburt werden die Jungen von der Mutter mit Milch ernährt. Daher stammt auch der Name „Säugetiere“. Viele Jungtiere werden in den ersten Wochen oder Monaten geschützt, gewärmt und versorgt. In dieser Zeit lernen sie oft wichtige Verhaltensweisen, etwa Nahrung zu suchen oder sich vor Feinden zu schützen.
+
+Es gibt aber auch besondere Säugetiere. Das Schnabeltier lebt in Australien. Es legt Eier, obwohl es ein Säugetier ist. Nach dem Schlüpfen werden die Jungen trotzdem mit Milch ernährt. Das Schnabeltier zeigt also, dass nicht alle Säugetiere ihre Jungen lebend zur Welt bringen.
+
+Eine weitere Besonderheit sind die Beuteltiere. Zu ihnen gehören zum Beispiel Kängurus und Koalas. Ihre Jungen werden nach einer sehr kurzen Entwicklungszeit geboren. Sie sind dann noch sehr klein und kaum entwickelt. Danach kriechen sie in den Beutel der Mutter. Dort trinken sie Milch und wachsen weiter.
+
+Säugetiere haben sich sehr unterschiedlich an ihre Lebensweise angepasst. Ein Maulwurf gräbt im Boden, ein Delfin schwimmt geschickt im Wasser, ein Eichhörnchen klettert auf Bäume und eine Fledermaus orientiert sich auch in der Dunkelheit. Trotz dieser Unterschiede haben Säugetiere wichtige Gemeinsamkeiten: Sie atmen mit Lungen, besitzen Haare oder Fell, ernähren ihre Jungen mit Milch und haben eine gleichbleibende Körpertemperatur.
+
+
+--- 
+
+--- 
+
+
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+- [(wahr)   (falsch)]
+- [ (X)       ( )    ]  Säugetiere können in sehr unterschiedlichen Lebensräumen vorkommen.
+- [ ( )       (X)    ]  Alle Säugetiere bringen ihre Jungen lebend zur Welt.
+- [ (X)       ( )    ]  Das Schnabeltier zeigt, dass es Ausnahmen bei der Fortpflanzung der Säugetiere gibt.
+- [ ( )       (X)    ]  Wale sind nach dem Text keine echten Säugetiere, weil ihr Körper fast keine Haare besitzt.
+- [ (X)       ( )    ]  Beuteltiere versorgen ihre Jungen nach der Geburt noch längere Zeit mit Milch.
+- [ (X)       ( )    ]  Der Text nennt Merkmale, die viele Säugetiere gemeinsam haben, obwohl sie sehr unterschiedlich leben.
+- [ ( )       (X)    ]  Fledermäuse und Vögel gehören nach dem Text zur gleichen Tiergruppe, weil beide fliegen können.
+- [ (X)       ( )    ]  Der Text macht deutlich, dass nicht bei allen Säugetieren die Haare gleich gut zu erkennen sind.
+- [ ( )       (X)    ]  Das Schnabeltier ist kein Säugetier, weil es Eier legt.
+- [ (X)       ( )    ]  Nach dem Text kann man ein Tier nicht allein danach beurteilen, ob es an Land, im Wasser oder in der Luft lebt.
+
+
+@ADetails(BE=5;Säugetiere)
+
 
 
 
