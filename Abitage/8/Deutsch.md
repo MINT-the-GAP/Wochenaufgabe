@@ -2,14 +2,20 @@
 version:  0.0.1
 language: de
 
-import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
+mode: Presentation
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/MarkerREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FlexChildREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/DeutschREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/NavigationREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TimerREADME.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
 
 author: Martin Lommatzsch
 -->
 
-# Aufgaben für die Prüfungstage
+# Aufgaben für die Prüfungstage - Deutsch: Klasse 8
 
 
 
@@ -47,93 +53,249 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 
 
----
-
----
-
-
-<h2>**Schrifterkennung**</h2>
 
 
 
-<center>
-
-<!-- style="width:200px" -->
-![Canvas](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/Readme/canvas.png)
-
-</center>
-
-1. Öffnet oder schließt die Schreibfläche.
-
-2. Macht die letzte Änderung auf der Schreibfläche rückgängig.
-
-3. Stellt das letzte "Rückgängig machen" wieder her.
-
-4. Radierer mit Submenü für Radierergröße oder komplettes löschen.
-
-5. Stift mit Submenü für Farbauswahl, Stiftdicke und Transparenz.
-
-6. Legt ein Grid oder Linien in den Hintergrund.
-
-7. Lässt ein Feld ziehen, welches mittels Schrifterkennung an das Eingabefeld als Lösung übergibt.
-
-Die Schreibfläche kann unten links oder rechts an den Ecke in der Größe beliebig verändert werden.
-
-
-> **Steuerung mit Maus**
-
-- Linke Maustaste: Zeichnen, Radieren, Ziehen
-
-- Rechte Maustaste: Schreibfläche hin- und herziehen
-
-- Mausrad: Zoom
-
-
-> **Steuerung mit Touchscreen**
-
-- Ein Finger:  Zeichnen, Radieren, Ziehen
-
-- Zwei Finger (Abstand zwischen den Fingern gleichbleibend): Schreibfläche hin- und herziehen
-
-- Zwei Finger (Abstand zwischen den Fingern verändern): Zoom
+## Grammatik
 
 
 
-
-
-
-
-
-
-
-# Minimalbeispiel
-
-
-
-
-**Gib** den beschriebenen Anteilswert **an**.
+**_Aufgabe 1:_** **Markiere** mit dem Textmarker die Wörter angegebenen Wortart.
 
 <section class="dynFlex">
+
 <div class="flex-child">
 
-<!-- data-solution-button="2" data-solution-timer="60s" data-solution-timer-start="oncheck" -->
-__$a)\;\;$__ Wie viel sind $\dfrac{9}{4}$ von $720\,$kg?  \
- [[  1620  ]]kg @canvas
-@Algebrite.check(1620)
-***************
-$$
-\begin{align*}
-  \dfrac{9}{4} \cdot 720\,\text{kg} & = \dfrac{9 \cdot 720}{4} \,\text{kg} \\
-  & = 9 \cdot 180 \,\text{kg} 
-  & = 1620 \,\text{kg} 
-\end{align*}
-$$
-***************
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$a)\;\;$__ Numeral
+<div class="markerquiz">
+@mark(Zwei) Schüler fehlten, aber die @mark(dritte) Gruppe war vollständig.
+@TextmarkerQuiz
+</div>
+
+@ADetails(1=BE;Wortarten)
 
 </div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__ Interjektion
+<div class="markerquiz">
+@mark(Ach)! Das habe ich völlig vergessen, und @mark(oh) nein, jetzt ist es zu spät.
+@TextmarkerQuiz
+</div>
+
+@ADetails(1=BE;Wortarten)
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$c)\;\;$__ Adverb
+<div class="markerquiz">
+Wir treffen uns @mark(morgen) @mark(dort) und beginnen @mark(früh).
+@TextmarkerQuiz
+</div>
+
+@ADetails(1=BE;Wortarten)
+
+</div>
+
 </section>
 
-@ADetails(3=BE;Bruchrechnung)
+
+--- 
+
+---
+
+
+
+
+**_Aufgabe 2:_** **Markiere** das angegebene Satzglied.
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Subjekt
+
+<div class="markerquiz">
+Nach der anstrengenden Wanderung @mark(die erschöpften Schülerinnen und Schüler) setzten sich auf die nasse Wiese.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+@TextmarkerQuiz
+</div>
+
+@ADetails(BE=1;Satzglieder)
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ Adverbiale Bestimmung der Zeit
+
+<div class="markerquiz">
+@mark(Kurz vor dem Beginn der Aufführung) kontrollierte die Lehrerin noch einmal die Kostüme.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+@TextmarkerQuiz
+</div>
+
+@ADetails(BE=1;Satzglieder)
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ Präpositionalobjekt
+
+<div class="markerquiz">
+Seit Wochen diskutiert die Klasse intensiv @mark(über die Planung der Abschlussfahrt).
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+@TextmarkerQuiz
+</div>
+
+@ADetails(BE=1;Satzglieder)
+</div>
+
+</section>
+
+
+
+
+--- 
+
+---
+
+
+
+
+**_Aufgabe 3:_** **Bestimme** die richtige Zeitform.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"
+data-show-partial-solution 
+data-randomize="true" 
+data-type="none" 
+data-sortable="false" 
+style="max-width:1200px;" -->
+- [[Futur II]       [Futur I]       [Präsens]       [Präteritum]    [Perfekt]    [Plusquamperfekt]]
+- [   ( )              ( )             (X)               ( )           ( )              ( )       ] ich schreibe
+- [   ( )              ( )             ( )               (X)           ( )              ( )       ] du spieltest
+- [   ( )              ( )             ( )               ( )           (X)              ( )       ] wir haben gelernt
+- [   ( )              ( )             ( )               ( )           ( )              (X)       ] er war gelaufen
+- [   ( )              (X)             ( )               ( )           ( )              ( )       ] ihr werdet lesen
+- [   (X)              ( )             ( )               ( )           ( )              ( )       ] sie wird gewonnen haben
+- [   ( )              ( )             (X)               ( )           ( )              ( )       ] der Hund bellt
+- [   ( )              ( )             ( )               (X)           ( )              ( )       ] ich ging
+- [   ( )              ( )             ( )               ( )           (X)              ( )       ] du bist gefahren
+- [   ( )              ( )             ( )               ( )           ( )              (X)       ] wir hatten gespielt
+
+
+@ADetails(BE=5;Zeitformen)
+
+
+
+
+--- 
+
+---
+
+
+
+
+**_Aufgabe 4:_** **Steigere** die Adjektive richtig.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"
+data-show-partial-solution 
+data-randomize="true" 
+data-type="none" 
+data-sortable="false" 
+style="max-width:800px;" -->
+|  Positiv             |  Komparativ                |  Superlativ                    |
+|:--------------------:|:--------------------------:|:------------------------------:|
+|  jung                | [[  jünger           ]]    | [[  am jüngsten          ]]    |
+|  [[  hoch        ]]  | höher                      | [[  am höchsten         ]]     |
+|  viel                | [[  mehr             ]]    | am meisten                     |
+|  nah                 | [[  näher            ]]    | [[  am nächsten         ]]     |
+|  kalt                | kälter                     | [[  am kältesten        ]]     |
+|  [[  kurz        ]]  | kürzer                     | [[  am kürzesten        ]]     |
+
+
+
+@ADetails(BE=6;Adjektive)
+
+
+
+
+
+
+
+
+
+
+## Rechtschreibung
+
+
+
+**_Aufgabe 1:_** **Hör** die den Satz gut **an** und **schreibe** ihn korrekt nieder.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$a)\;\;$__
+@diktat(Trotz der außergewöhnlichen Umstände reagierte die Schülerin bemerkenswert gelassen.)
+
+@ADetails(BE=2;Diktat)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__
+@diktat(Nachdem der Hausmeister schließlich eingetroffen war, konnte die beschädigte Tür repariert werden.)
+
+@ADetails(BE=2;Diktat)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$c)\;\;$__
+@diktat(Während der Präsentation erläuterte Jonas präzise die unterschiedlichen Ergebnisse des Experiments.)
+
+@ADetails(BE=2;Diktat)
+
+---
+
+---
+
+
+**_Aufgabe 2:_** 
+
+
+
+
+
+
+
+
+## Leseverständnis
+
+
+
+
+
+
+
+## Gedicht
+
+
+
+
+
+
+
+
+
+# Abgabe
+
+
 
 @Abgabe
 

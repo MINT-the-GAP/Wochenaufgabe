@@ -56,13 +56,257 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 
 
-# Planung
+## Grammatik
 
-Grammatik: Wortarten, Satzglieder, Komperation/Beugung, Zeitform 
+
+
+**_Aufgabe 1:_** **Markiere** mit dem Textmarker die Wörter angegebenen Wortart.
+
+<section class="dynFlex">
+
+
+<div class="flex-child">
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$a)\;\;$__ Substantiv
+<div class="markerquiz">
+Der @mark(Hund) jagt den @mark(Ball) über den @mark(Hof).
+@TextmarkerQuiz
+</div>
+
+@ADetails(1=BE;Wortarten)
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__ Verb
+<div class="markerquiz">
+Mia @mark(liest) und @mark(schreibt) heute sehr ordentlich.
+@TextmarkerQuiz
+</div>
+
+@ADetails(1=BE;Wortarten)
+
+</div>
+
+<div class="flex-child">
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$c)\;\;$__ Adjektiv
+<div class="markerquiz">
+Das @mark(kleine) Boot fährt über den @mark(ruhigen) See.
+@TextmarkerQuiz
+</div>
+
+@ADetails(1=BE;Wortarten)
+
+</div>
+
+</section>
+
+
+--- 
+
+---
+
+
+**_Aufgabe 2:_** **Markiere** das angegebene Satzglied.
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__ Subjekt
+
+<div class="markerquiz">
+Am Morgen @mark(die Kinder) spielen auf dem Schulhof.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+@TextmarkerQuiz
+</div>
+
+@ADetails(BE=1;Satzglieder)
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ Prädikat
+
+<div class="markerquiz">
+Der Hund @mark(läuft) schnell in den Garten.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+@TextmarkerQuiz
+</div>
+
+@ADetails(BE=1;Satzglieder)
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ Akkusativobjekt
+
+<div class="markerquiz">
+Lena malt im Kunstunterricht @mark(ein buntes Bild).
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+@TextmarkerQuiz
+</div>
+
+@ADetails(BE=1;Satzglieder)
+</div>
+
+</section>
+
+
+
+--- 
+
+---
+
+
+
+
+**_Aufgabe 3:_** **Bestimme** die richtige Zeitform.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"
+data-show-partial-solution 
+data-randomize="true" 
+data-type="none" 
+data-sortable="false" 
+style="max-width:1200px;" -->
+- [[Futur II]       [Futur I]       [Präsens]       [Präteritum]    [Perfekt]    [Plusquamperfekt]]
+- [   ( )              ( )             (X)               ( )           ( )              ( )       ] ich schreibe
+- [   ( )              ( )             ( )               (X)           ( )              ( )       ] du spieltest
+- [   ( )              ( )             ( )               ( )           (X)              ( )       ] wir haben gelernt
+- [   ( )              ( )             ( )               ( )           ( )              (X)       ] er war gelaufen
+- [   ( )              (X)             ( )               ( )           ( )              ( )       ] ihr werdet lesen
+- [   (X)              ( )             ( )               ( )           ( )              ( )       ] sie wird gewonnen haben
+- [   ( )              ( )             (X)               ( )           ( )              ( )       ] der Hund bellt
+- [   ( )              ( )             ( )               (X)           ( )              ( )       ] ich ging
+- [   ( )              ( )             ( )               ( )           (X)              ( )       ] du bist gefahren
+- [   ( )              ( )             ( )               ( )           ( )              (X)       ] wir hatten gespielt
+
+
+@ADetails(BE=5;Zeitformen)
+
+
+
+--- 
+
+---
+
+
+
+
+**_Aufgabe 4:_** **Steigere** die Adjektive richtig.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"
+data-show-partial-solution 
+data-randomize="true" 
+data-type="none" 
+data-sortable="false" 
+style="max-width:800px;" -->
+|  Positiv             |  Komparativ                |  Superlativ                    |
+|:--------------------:|:--------------------------:|:------------------------------:|
+|  klein               | [[  kleiner          ]]    | [[  am kleinsten         ]]    |
+|  groß                | [[  größer           ]]    | am größten                     |
+|  [[  gut         ]]  | besser                     | [[  am besten           ]]     |
+|  laut                | [[  lauter           ]]    | am lautesten                   |
+|  [[  alt         ]]  | älter                      | [[  am ältesten         ]]     |
+|  gern                | [[  lieber           ]]    | [[  am liebsten         ]]     |
+
+
+@ADetails(BE=6;Adjektive)
+
+
+
+
+
+
+
+
+
+
+
+
+## Rechtschreibung
+
+
+
+**_Aufgabe 1:_** **Hör** die den Satz gut **an** und **schreibe** ihn korrekt nieder.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$a)\;\;$__
+@diktat(Der Hund rennt heute schnell durch den Garten.)
+
+@ADetails(BE=2;Diktat)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__
+@diktat(Am Morgen sammelt Mia bunte Blätter auf dem Schulhof.)
+
+@ADetails(BE=2;Diktat)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$c)\;\;$__
+@diktat(Im Winter baut mein Bruder mit seinen Freunden einen Schneemann.)
+
+@ADetails(BE=2;Diktat)
+
+---
+
+---
+
+
+**_Aufgabe 2:_** **Setze** die Kommata an die richtigen Stellen.
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+
+__$a)\;\;$__
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Das ist der Ort wo wir uns getroffen haben.`,`Das ist der Ort, wo wir uns getroffen haben.`)
+
+@ADetails(BE=1;Kommasetzung)
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+## Leseverständnis
+
+
+
+
+
+
+
+
+
+## Gedicht
+
+
+
+
+
 
 Gedicht: Reimschema, Metrik, Stilmittel 
 
-Rechtschreibung: Diktat, Satzzeichen, Korrektur, Silbentrennung, KleinGroß, Wörtliche Rede
+Rechtschreibung: Satzzeichen, Korrektur, Silbentrennung, KleinGroß, Wörtliche Rede
 
 Lesen: Leseverständnis, Ordnen der Inhaltsangabe
 

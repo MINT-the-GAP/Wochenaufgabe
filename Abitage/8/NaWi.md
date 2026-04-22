@@ -59,7 +59,7 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 
 
-# Kraft
+## Kraft
 
 
 Ein Quader mit den Maßen $a=3\,\text{cm}$, $b=1{,}5\,\text{cm}$ und $c=5\,\text{cm}$ besteht aus Platin mit einer Dichte von $21{,}45\,\dfrac{\text{g}}{\text{cm}^3}$. Dieser Quader wird an eine Feder gehängt, welche sich um $4\,\text{cm}$ ausdehnt. **Berechne** die Federkonstante der verwendeten Feder.
@@ -110,7 +110,7 @@ $$
 
 
 
-# Energie
+## Energie
 
 
 
@@ -170,7 +170,7 @@ $$
 
 
 
-# Elektrizitätslehre
+## Elektrizitätslehre
 
 
 $a)\;\;$ **Berechne** den Gesamtwiderstand der dargestellten Schaltung.
@@ -301,7 +301,7 @@ $c)\;\;$ **Kreuze an**, ob die Aussage "wahr", "falsch" oder "nicht entscheidbar
 
 
 
-# Kinematik
+## Kinematik
 
 
 
@@ -437,7 +437,7 @@ $$
 
 
 
-# Druck
+## Druck
 
 
 Ein vollständig eingetauchter Körper mit dem Volumen $V=3{,}5\,\text{dm}^3$ erfährt in einer Flüssigkeit eine Auftriebskraft von $35{,}1934\,\text{N}$. Berechne die Dichte der Flüssigkeit. Runde auf ganze $\dfrac{\text{kg}}{\text{m}^3}$.
