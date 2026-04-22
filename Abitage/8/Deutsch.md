@@ -266,7 +266,145 @@ __$c)\;\;$__
 ---
 
 
-**_Aufgabe 2:_** 
+
+**_Aufgabe 2:_** **Setze** die Kommata an die richtigen Stellen.
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Um den Versuch korrekt auszuwerten notierte Jana jeden Messwert zweimal.`,`Um den Versuch korrekt auszuwerten, notierte Jana jeden Messwert zweimal.`)
+
+@ADetails(BE=1;Kommasetzung)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Anstatt die Quelle genau zu prüfen übernahm er die Information ungefiltert.`,`Anstatt die Quelle genau zu prüfen, übernahm er die Information ungefiltert.`)
+
+@ADetails(BE=1;Kommasetzung)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Obwohl der Text anspruchsvoll war erkannte Marie dass die Argumentation lückenhaft blieb.`,`Obwohl der Text anspruchsvoll war, erkannte Marie, dass die Argumentation lückenhaft blieb.`)
+
+@ADetails(BE=1;Kommasetzung)
+
+</div>
+
+</section>
+
+
+
+---
+
+---
+
+
+
+**_Aufgabe 3:_** **Korrigiere** alle Rechtschreibfehler.
+
+
+
+__$a)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Während der Diskussion formulierte Jonas seine Argumente ausergewöhnlich präzise.`,`Während der Diskussion formulierte Jonas seine Argumente außergewöhnlich präzise.`)
+
+@ADetails(BE=1;Rechtschreibung)
+
+__$b)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Die Atmosphäre im Labor wirkte zunächst geheimnisvoll, aber keineswegs bedrohlich.`,`Die Atmosphäre im Labor wirkte zunächst geheimnisvoll, aber keineswegs bedrohlich.`)
+
+@ADetails(BE=1;Rechtschreibung)
+
+
+
+---
+
+---
+
+
+
+**_Aufgabe 4:_** **Setze** alle Satzzeichen der wörtlichen Rede korrekt und korrigiere die Rechtschreibung.
+
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="60s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`wir müssen uns wirklich beeilen sagte leon sonst verpassen wir den bus`,`„Wir müssen uns wirklich beeilen“, sagte Leon, „sonst verpassen wir den Bus.“`)
+
+@ADetails(BE=1;Wörtliche Rede)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="60s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`warum hast du mir das nicht früher gesagt fragte clara enttäuscht`,`„Warum hast du mir das nicht früher gesagt?“, fragte Clara enttäuscht.`)
+
+@ADetails(BE=1;Wörtliche Rede)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="60s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`der trainer erklärte ihr habt heute sehr konzentriert gearbeitet und deshalb das spiel verdient gewonnen`,`Der Trainer erklärte: „Ihr habt heute sehr konzentriert gearbeitet und deshalb das Spiel verdient gewonnen.“`)
+
+@ADetails(BE=1;Wörtliche Rede)
+
+</div>
+
+</section>
+
+---
+
+---
+
+
+
+**_Aufgabe 5:_** **Schreibe** den Satz mit korrekter Klein- und Großschreibung nieder.
+
+
+
+$a)\;\;$ WÄHREND DER PRÄSENTATION ERLÄUTERTE JONAS PRÄZISE DIE UNTERSCHIEDLICHEN ERGEBNISSE DES EXPERIMENTS.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[    Während der Präsentation erläuterte Jonas präzise die unterschiedlichen Ergebnisse des Experiments.    ]]
+
+
+$b)\;\;$ TROTZ DER AUẞERGEWÖHNLICHEN UMSTÄNDE REAGIERTE DIE SCHÜLERIN BEMERKENSWERT GELASSEN.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[    Trotz der außergewöhnlichen Umstände reagierte die Schülerin bemerkenswert gelassen.    ]]
+
+
+$c)\;\;$ NACHDEM DER HAUSMEISTER EINGETROFFEN WAR, KONNTE DIE BESCHÄDIGTE TÜR ENDLICH REPARIERT WERDEN.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[    Nachdem der Hausmeister eingetroffen war, konnte die beschädigte Tür endlich repariert werden.    ]]
+
+
+
 
 
 
@@ -279,13 +417,282 @@ __$c)\;\;$__
 
 
 
+**Lies** den Text und **entscheide** danach, ob die Aussagen "wahr" oder "falsch" sind.
+
+---
+
+
+<h2> Die Industrialisierung </h2>
+
+Die Industrialisierung bezeichnet einen tiefgreifenden Wandel von Wirtschaft, Arbeit und Gesellschaft. Sie begann in Großbritannien im späten 18. Jahrhundert und breitete sich im 19. Jahrhundert auf viele andere Länder Europas sowie Nordamerikas aus. Auch die deutschen Staaten wurden davon stark verändert. Statt vieler kleiner Handwerksbetriebe entstanden immer mehr Fabriken, in denen mit Maschinen gearbeitet wurde. Dadurch konnten Waren schneller und in größerer Menge hergestellt werden als zuvor. \
+Vor der Industrialisierung lebten viele Menschen auf dem Land. Sie arbeiteten in der Landwirtschaft oder in handwerklichen Berufen. Produziert wurde oft in kleinen Werkstätten oder zu Hause. Mit der Industrialisierung veränderte sich diese Arbeitswelt grundlegend. Maschinen übernahmen einen Teil der Arbeit, und die Produktion verlagerte sich in Fabrikgebäude. Besonders wichtig waren dabei neue technische Entwicklungen wie die verbesserte Dampfmaschine. \
+Die Dampfmaschine wurde zu einem Symbol der neuen Zeit. Sie trieb Maschinen in Fabriken an, pumpte Wasser aus Bergwerken und bewegte später auch Lokomotiven. Dadurch konnten Rohstoffe, Waren und Menschen viel schneller transportiert werden als zuvor. Die Eisenbahn beschleunigte den Wandel zusätzlich. Städte wurden miteinander verbunden, Märkte wuchsen, und der Handel nahm stark zu. \
+Mit der Industrialisierung entstanden neue Industriegebiete. In Deutschland gewannen etwa das Ruhrgebiet, aber auch Regionen in Sachsen an Bedeutung. Dort entwickelten sich Textilindustrie, Maschinenbau und andere Industriezweige. Städte wuchsen rasch, weil viele Menschen vom Land in die Stadt zogen. Sie hofften auf Arbeit und ein besseres Leben. Diese Entwicklung nennt man Urbanisierung. \
+Das Leben in den Städten war jedoch für viele Menschen hart. Fabrikarbeit bedeutete oft lange Arbeitszeiten, wenig Lohn und anstrengende Bedingungen. Auch Kinder arbeiteten in Fabriken oder Bergwerken. Wohnungen waren häufig eng, dunkel und unhygienisch. In schnell wachsenden Städten fehlten anfangs oft sauberes Wasser, Kanalisation und ausreichend Wohnraum. So entstand die sogenannte soziale Frage: Wie sollte man mit Armut, schlechten Arbeitsbedingungen und sozialer Ungleichheit umgehen? \
+Auf diese Probleme reagierten verschiedene Gruppen unterschiedlich. Unternehmer wollten Gewinne erzielen und ihre Betriebe ausbauen. Arbeiterinnen und Arbeiter begannen, sich zu organisieren, um ihre Lage zu verbessern. Es entstanden Gewerkschaften, später auch politische Bewegungen, die sich für mehr Rechte der Arbeitenden einsetzten. Nach und nach wurden Schutzgesetze beschlossen, zum Beispiel zur Begrenzung der Kinderarbeit oder zur Verbesserung der sozialen Absicherung. \
+Die Industrialisierung brachte also nicht nur Nachteile. Sie ermöglichte auch technischen Fortschritt, bessere Verkehrswege und eine größere Warenvielfalt. Viele Menschen konnten langfristig von neuen Berufen, wachsendem Wissen und modernen Erfindungen profitieren. Gleichzeitig zeigte sich aber, dass technischer Fortschritt allein nicht automatisch zu gerechteren Lebensbedingungen führt. \
+Bis heute prägt die Industrialisierung unsere Welt. Fabrikarbeit, Massenproduktion, Bahnnetze und die enge Verbindung von Technik, Wirtschaft und Gesellschaft haben ihren Ursprung in dieser Zeit. Wer die Industrialisierung versteht, erkennt besser, warum moderne Gesellschaften so aufgebaut sind, wie wir sie heute kennen.
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+- [(wahr)   (falsch)]
+- [ (X)       ( )    ]  Die Industrialisierung begann in Großbritannien.
+- [ ( )       (X)    ]  Vor der Industrialisierung wurde fast alles in großen Fabriken hergestellt.
+- [ (X)       ( )    ]  Die Dampfmaschine war für die Industrialisierung sehr wichtig.
+- [ (X)       ( )    ]  Die Eisenbahn beschleunigte den Transport von Menschen und Waren.
+- [ (X)       ( )    ]  Viele Menschen zogen während der Industrialisierung vom Land in die Städte.
+- [ ( )       (X)    ]  Die Arbeitsbedingungen in den Fabriken waren für alle von Anfang an gut.
+- [ (X)       ( )    ]  Die soziale Frage hatte mit Armut und schlechten Lebensbedingungen zu tun.
+- [ ( )       (X)    ]  Gewerkschaften setzten sich gegen bessere Rechte der Arbeiter ein.
+- [ (X)       ( )    ]  Auch in Sachsen entwickelten sich wichtige Industriezweige.
+- [ (X)       ( )    ]  Die Industrialisierung wirkt bis heute nach.
 
 
 
 
-## Gedicht
+## Gedichte
 
 
+
+**_Aufgabe 1:_** **Wähle** das korrekte Reimschema **aus** und **bestimme** das markierte Stilmittel.
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__
+
+Sommerabend, milde Stunde,  \
+@markedyellow(Sonne schläft) am Waldesgrunde.  \
+Leise sinkt das Licht ins Land,  \
+still verweht der Tag im Sand.  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[(Paarreim)|Kreuzreim|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[(Personifikation)|Vergleich|Neologismus|Metapher|Alliteration|Anapher|Parallelismus|Zeilenstil|Enjambement]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[Jambus|(Trochäus)|Daktylus|Anapäst]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__
+
+Im Garten ruht der schwarze Stein,  \
+der See liegt @markedyellow(wie Glas) im Abendschein.  \
+Vom Ufer weht ein kühler Wind,  \
+im Schilf verlischt das Licht geschwind.  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[(Paarreim)|Kreuzreim|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Personifikation|(Vergleich)|Neologismus|Metapher|Alliteration|Anapher|Parallelismus|Zeilenstil|Enjambement]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[(Jambus)|Trochäus|Daktylus|Anapäst]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__
+
+Auf dem Weg durch die Stadt zieht das @markedyellow(Nachtflimmern) sacht,  \
+und der Regen auf Fenstern beglitzert die Nacht.  \
+Unter Schirmen verklingt eine fremde Musik,  \
+und vom Hof klingt noch leise das Dröhnen der Fabrik.  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[(Paarreim)|Kreuzreim|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Personifikation|Vergleich|(Neologismus)|Metapher|Alliteration|Anapher|Parallelismus|Zeilenstil|Enjambement]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[Jambus|Trochäus|Daktylus|(Anapäst)]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__
+
+@markedyellow(Lichtermeer) füllt die Gassen,  \
+schimmernde Dächer versinken im Blau.  \
+flüsternde Schatten verwehen, verblassen,  \
+dunkler und dunkler zerfließt schon der Tau.  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Paarreim|(Kreuzreim)|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Personifikation|Vergleich|Neologismus|(Metapher)|Alliteration|Anapher|Parallelismus|Zeilenstil|Enjambement]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[Jambus|Trochäus|(Daktylus)|Anapäst]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__
+
+@markedyellow(Stille Steine) säumen Wege,  \
+über Feldern zieht der Wind.  \
+Leise leuchten nasse Stege,  \
+und im Dunkel singt ein Kind.  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Paarreim|(Kreuzreim)|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Personifikation|Vergleich|Neologismus|Metapher|(Alliteration)|Anapher|Parallelismus|Zeilenstil|Enjambement]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[Jambus|(Trochäus)|Daktylus|Anapäst]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+<div class="flex-child">
+
+__$f)\;\;$__
+
+@markedyellow(Noch) bewahrt der See das Licht,  \
+am Ufer klingt ein ferner Sang.  \
+@markedyellow(Noch) zerfällt die Stille nicht,  \
+im Schilf verhallt ein später Klang.  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Paarreim|(Kreuzreim)|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Personifikation|Vergleich|Neologismus|Metapher|Alliteration|(Anapher)|Parallelismus|Zeilenstil|Enjambement]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[(Jambus)|Trochäus|Daktylus|Anapäst]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+<div class="flex-child">
+
+__$g)\;\;$__
+
+In der Nacht überm Fluss liegt die schweigende Wacht,  \
+@markedyellow(Der Regen verstummt, der Nebel verweht,)  \
+@markedyellow(die Dämmerung sinkt, und der Abend entsteht,)  \
+und im Schilf trägt das Wasser die dunklere Nacht.  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Paarreim|Kreuzreim|(Umarmender Reim)]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Personifikation|Vergleich|Neologismus|Metapher|Alliteration|Anapher|(Parallelismus)|Zeilenstil|Enjambement]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[Jambus|Trochäus|Daktylus|(Anapäst)]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+<div class="flex-child">
+
+__$h)\;\;$__
+
+@markedyellow(Klar ist diese Winternacht.)  \
+@markedyellow(Still liegt hier der schmale Steg.)  \
+@markedyellow(Starr ruht dort der alte Weg.)  \
+@markedyellow(Hoch steht überm Fluss die Wacht.)  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Paarreim|Kreuzreim|(Umarmender Reim)]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Personifikation|Vergleich|Neologismus|Metapher|Alliteration|Anapher|Parallelismus|(Zeilenstil)|Enjambement]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[Jambus|(Trochäus)|Daktylus|Anapäst]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+<div class="flex-child">
+
+__$i)\;\;$__
+
+Im Hof erwacht ein spätes Licht,  \
+und aus dem offenen Fenster @markedyellow(klingt  \
+ein Lied, das in die Gassen sinkt),  \
+und leis im Pflaster weiterbricht.  
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Paarreim|Kreuzreim|(Umarmender Reim)]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Personifikation|Vergleich|Neologismus|Metapher|Alliteration|Anapher|Parallelismus|Zeilenstil|(Enjambement)]]
+
+@ADetails(BE=1;Stilmittel)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Metrum: [[(Jambus)|Trochäus|Daktylus|Anapäst]]
+
+@ADetails(BE=1;Metrum)
+
+</div>
+
+</section>
 
 
 

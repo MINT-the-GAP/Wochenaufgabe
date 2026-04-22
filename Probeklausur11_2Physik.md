@@ -215,7 +215,7 @@ __$a)\;\;$__ **Berechne** die Kapazität des Kondensators.
 [[!]]
 <script>true</script>
 ***************************
-$C =  \epsilon_0 \epsilon_r \dfrac{A}{d} \approx 7,875  \cdot 10^{-11}\,$F
+$C =  \epsilon_0 \epsilon_r \dfrac{A}{d} \approx 7,875  \cdot 10^{-12}\,$F
 ***************************
 
 
@@ -237,7 +237,7 @@ __$c)\;\;$__ **Berechne** die Halbwertszeit der gespeicherten Ladungen auf dem K
 [[!]]
 <script>true</script>
 ***************************
-$\tau = RC = 9,684 \cdot 10^{-13}\,$s
+$\tau = RC = 9,684 \cdot 10^{-14}\,$s
 ***************************
 
 

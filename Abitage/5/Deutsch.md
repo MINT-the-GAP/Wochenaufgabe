@@ -263,22 +263,141 @@ __$c)\;\;$__
 ---
 
 
+
 **_Aufgabe 2:_** **Setze** die Kommata an die richtigen Stellen.
+
 
 <section class="dynFlex">
 
 <div class="flex-child">
 
-
 __$a)\;\;$__
 
-@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Das ist der Ort wo wir uns getroffen haben.`,`Das ist der Ort, wo wir uns getroffen haben.`)
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Weil es regnete blieben wir in der Turnhalle.`,`Weil es regnete, blieben wir in der Turnhalle.`)
+
+@ADetails(BE=1;Kommasetzung)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Im Ranzen liegen Hefte Bücher und Stifte.`,`Im Ranzen liegen Hefte, Bücher und Stifte.`)
+
+@ADetails(BE=1;Kommasetzung)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Wir gehen auf den Sportplatz wenn die Pause beginnt.`,`Wir gehen auf den Sportplatz, wenn die Pause beginnt.`)
 
 @ADetails(BE=1;Kommasetzung)
 
 </div>
 
 </section>
+
+
+
+---
+
+---
+
+
+
+**_Aufgabe 3:_** **Korrigiere** alle Rechtschreibfehler.
+
+
+
+__$a)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Im Sumer spielen wir oft auf dem Schulhof Fangen.`,`Im Sommer spielen wir oft auf dem Schulhof Fangen.`)
+
+@ADetails(BE=1;Rechtschreibung)
+
+__$b)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Meine Schwaster hat heute ein schönes Bild gemalt.`,`Meine Schwester hat heute ein schönes Bild gemalt.`)
+
+@ADetails(BE=1;Rechtschreibung)
+
+
+
+---
+
+---
+
+
+
+**_Aufgabe 4:_** **Trenne** die Silben richtig.
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Schul-ta-sche`,`Schul-ta-sche`)
+
+@ADetails(BE=1;Silbentrennung)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Som-merferi-en`,`Som-mer-fe-ri-en`)
+
+@ADetails(BE=1;Silbentrennung)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ 
+
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Regen-bo-gen`,`Re-gen-bo-gen`)
+
+@ADetails(BE=1;Silbentrennung)
+
+</div>
+
+</section>
+
+---
+
+---
+
+
+
+**_Aufgabe 5:_** **Schreibe** den Satz mit korrekter Klein- und Großschreibung nieder.
+
+
+
+$a)\;\;$ DIE KLEINE ENTE SCHWIMMT AUF DEM RUHIGEN TEICH.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[    Die kleine Ente schwimmt auf dem ruhigen Teich.    ]]
+
+
+$b)\;\;$ IM WINTER BAUEN DIE KINDER EINEN GROẞEN SCHNEEMANN.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[    Im Winter bauen die Kinder einen großen Schneemann.    ]]
+
+
+$c)\;\;$ MEIN BRUDER FINDET HINTER DEM SCHRANK EINE ALTE MÜNZE.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[    Mein Bruder findet hinter dem Schrank eine alte Münze.    ]]
+
 
 
 
@@ -291,38 +410,178 @@ __$a)\;\;$__
 
 
 
+**_Aufgabe 1:_** **Lies** den Text und **entscheide** danach, ob die Aussagen "wahr" oder "falsch" sind.
+
+---
+
+
+<h2>Die Ozeane </h2>
+
+Die Ozeane bedecken einen sehr großen Teil der Erde. Mehr als zwei Drittel der Erdoberfläche sind von Wasser bedeckt. Dieses riesige Salzwasser ist nicht überall gleich tief, gleich warm oder gleich ruhig. Manche Bereiche sind flach und liegen nahe an den Küsten. Andere Stellen reichen viele tausend Meter in die Tiefe. Der tiefste bekannte Punkt der Erde liegt im Pazifischen Ozean. \
+Es gibt fünf Ozeane: den Pazifischen Ozean, den Atlantischen Ozean, den Indischen Ozean, den Arktischen Ozean und den Südlichen Ozean. Der Pazifische Ozean ist der größte von ihnen. Er ist so groß, dass auf seiner Oberfläche viele Inseln verteilt liegen. Der Atlantische Ozean trennt Europa und Afrika von Amerika. Der Indische Ozean liegt zwischen Afrika, Asien und Australien. \
+Die Ozeane sind für das Leben auf der Erde sehr wichtig. Sie speichern Wärme und beeinflussen dadurch das Klima. Außerdem verdunstet Wasser aus den Ozeanen. Daraus entstehen Wolken, aus denen später Regen fallen kann. Ohne die Ozeane gäbe es also auch den Wasserkreislauf nicht so, wie wir ihn kennen. \
+In den Ozeanen leben unzählige Tiere und Pflanzen. Manche sind winzig klein, zum Beispiel Plankton. Andere Tiere sind riesig, etwa Blauwale. Auch Haie, Kraken, Schildkröten, Fische und Korallen gehören zum Lebensraum Meer. Korallenriffe sind besonders artenreich. Viele Tiere finden dort Nahrung und Schutz. \
+Doch die Ozeane sind bedroht. Plastikmüll gelangt ins Meer und schadet vielen Tieren. Manche Tiere verwechseln Plastik mit Nahrung. Auch Ölunfälle und Überfischung sind große Probleme. Dazu kommt der Klimawandel. Das Wasser erwärmt sich, und einige Meerestiere verlieren ihren Lebensraum. \
+Menschen können helfen, die Ozeane zu schützen. Weniger Plastik, saubere Strände und ein bewusster Umgang mit der Natur sind wichtige Schritte. Denn die Ozeane sind nicht nur schön, sondern auch lebenswichtig für unseren Planeten.
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+- [(wahr)   (falsch)]
+- [ (X)       ( )    ]  Mehr als zwei Drittel der Erdoberfläche sind von Wasser bedeckt.
+- [ ( )       (X)    ]  Der Atlantische Ozean ist der größte Ozean der Erde.
+- [ (X)       ( )    ]  Manche Bereiche der Ozeane sind flach, andere sehr tief.
+- [ (X)       ( )    ]  Der Pazifische Ozean ist der größte Ozean.
+- [ ( )       (X)    ]  Korallenriffe sind arm an Tier- und Pflanzenarten.
+- [ (X)       ( )    ]  Die Ozeane beeinflussen das Klima auf der Erde.
+- [ ( )       (X)    ]  Plastikmüll im Meer ist für Meerestiere ungefährlich.
+- [ (X)       ( )    ]  Aus den Ozeanen verdunstet Wasser, das später als Regen zurückkommen kann.
+- [ ( )       (X)    ]  In den Ozeanen leben nur große Tiere.
+- [ (X)       ( )    ]  Menschen können helfen, die Ozeane besser zu schützen.
 
 
 
 
 
-
-## Gedicht
-
+## Gedichte
 
 
 
 
-
-Gedicht: Reimschema, Metrik, Stilmittel 
-
-Rechtschreibung: Satzzeichen, Korrektur, Silbentrennung, KleinGroß, Wörtliche Rede
-
-Lesen: Leseverständnis, Ordnen der Inhaltsangabe
-
-Sonstiges: Fachvokabeln, Pronomen/Präpositionen einsetzen, 
+**_Aufgabe 1:_** **Wähle** das korrekte Reimschema **aus** und **bestimme** das markierte Stilmittel.
 
 
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__
+
+Die @markedyellow(Sonne lacht) am Himmelszelt,  \
+sie scheint hinab auf Wald und Feld.  \
+Ein Vogel singt sein Morgenlied,  \
+während der Nebel langsam flieht.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Kreuzreim|(Paarreim)|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Vergleich|(Personifikation)|Wortneuschöpfung]]
+
+@ADetails(BE=1;Stilmittel)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__
+
+Der Regen fällt auf Baum und Stein,  \
+die Wolken ziehn so grau herein.  \
+Der Wind ist stark @markedyellow(wie ein Bär),  \
+und pfeift dabei durch Haus und Teer.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Kreuzreim|Paarreim|(Umarmender Reim)]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[(Vergleich)|Personifikation|Wortneuschöpfung]]
+
+@ADetails(BE=1;Stilmittel)
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__
+
+Im Garten klingt ein helles Lied,  \
+weil @markedyellow(die Blume freundlich nickt und sieht).  \
+Ein Käfer krabbelt froh daher,  \
+und summend schwebt die Biene her.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Kreuzreim|(Paarreim)|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Vergleich|(Personifikation)|Wortneuschöpfung]]
+
+@ADetails(BE=1;Stilmittel)
+
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__
+
+Der Bach klingt leis im Abendlicht,  \
+ein Frosch ruft laut und fürchtet sich nicht.  \
+Am Ufer steht ein @markedyellow(Sternenstuhl),  \
+darauf sitzt still der Mond so cool.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[Kreuzreim|Paarreim|(Umarmender Reim)]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Vergleich|Personifikation|(Wortneuschöpfung)]]
+
+@ADetails(BE=1;Stilmittel)
+
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__
+
+Die Katze schleicht durch hohen Klee,  \
+sie tappt @markedyellow(wie eine Fee).  \
+Dann springt sie flink zum Gartenzaun,  \
+und schaut von dort ins Abendbraun.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[(Kreuzreim)|Paarreim|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[(Vergleich)|Personifikation|Wortneuschöpfung]]
+
+@ADetails(BE=1;Stilmittel)
+
+</div>
+
+<div class="flex-child">
+
+__$f)\;\;$__
+
+Der Wintermorgen glitzert weiß,  \
+die Luft ist kalt, der Atem heiß.  \
+Am Fenster @markedyellow(tanzt der Frost ganz sacht),  \
+bis leis die erste Sonne lacht.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Reimschema: [[(Kreuzreim)|Paarreim|Umarmender Reim]]
+
+@ADetails(BE=1;Reimschemata)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Stilmittel: [[Vergleich|(Personifikation)|Wortneuschöpfung]]
+
+@ADetails(BE=1;Stilmittel)
+
+</div>
+
+</section>
 
 
-5 - Personifikation, Vergleich, Wortneuschöpfung
-6 - Personifikation, Vergleich, Neologismus (dieses Mal Fachbegriff), Metapher, Alliteration
-7 - Anapher, Parallelismus, Zeilenstil, Enjambement
-8 - kommen keine neuen Stilmittel aber Bezeichnung des Metrums (Jambus, Trochäus, Daktylus, Anapäst)
 
 
-
-@ADetails(3=BE;Bruchrechnung)
 
 
 
