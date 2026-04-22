@@ -59,7 +59,7 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 ## Fische
 
 
-**Sortiere** die Fischarten nach ihrem Lebensraum und nach ihrer maximalen Größe (Länge).
+__$a)\;\;$__ **Sortiere** die Fischarten nach ihrem Lebensraum und nach ihrer maximalen Größe (Länge).
 
 <!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Süßwasserfische: [->[(Wels)]] $>$ [->[(Hecht)]] $>$ [->[(Karpfen)]] $>$ [->[(Regenbogenforelle)]] $>$ [->[(Rotfeder)|Buckelwal]] \
@@ -68,6 +68,38 @@ Salzwasserfische: [->[(Heilbutt)]] $>$ [->[(Kabeljau)]] $>$ [->[(Scholle)]] $>$ 
 
 @ADetails(BE=5;Fische)
 
+
+---
+
+---
+
+
+
+
+__$b)\;\;$__ **Benenne** die Körperteile des Fisches.
+
+
+
+<!-- style="max-width:1000px" -->
+![](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/Zeug/Fisch.png)
+
+
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+ 1:  [[   Schwimmblase   ]] \
+ 2:  [[   Rückenflosse   ]] \
+ 3:  [[   Fettflosse     ]] \
+ 4:  [[   Seitenlinie    ]] \
+ 5:  [[   Schwanzflosse  ]] \
+ 6:  [[   Afterflosse    ]] \
+ 7:  [[   Bauchflosse    ]] \
+ 8:  [[   Brustflosse    ]] \
+ 9:  [[   Herz           ]] \
+ 10: [[   Kiemen         ]]
+
+
+
+@ADetails(BE=5;Fische)
 
 
 
