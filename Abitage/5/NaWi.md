@@ -81,20 +81,20 @@ __$b)\;\;$__ **Benenne** die Körperteile des Fisches.
 
 
 <!-- style="max-width:1000px" -->
-![](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/Zeug/Fisch.png)
+![Fisch](../../Zeug/Fisch.png)
 
 
 
-<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
- 1:  [[   Schwimmblase   ]] \
- 2:  [[   Rückenflosse   ]] \
- 3:  [[   Fettflosse     ]] \
- 4:  [[   Seitenlinie    ]] \
- 5:  [[   Schwanzflosse  ]] \
- 6:  [[   Afterflosse    ]] \
- 7:  [[   Bauchflosse    ]] \
- 8:  [[   Brustflosse    ]] \
- 9:  [[   Herz           ]] \
+<!-- data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+ 1:  [[   Schwimmblase   ]] $\;\;\quad\;\;$ 
+ 2:  [[   Rückenflosse   ]] $\;\;\quad\;\;$ 
+ 3:  [[   Fettflosse     ]] $\;\;\quad\;\;$ 
+ 4:  [[   Seitenlinie    ]] $\;\;\quad\;\;$ 
+ 5:  [[   Schwanzflosse  ]] $\;\;\quad\;\;$ \
+ 6:  [[   Afterflosse    ]] $\;\;\quad\;\;$ 
+ 7:  [[   Bauchflosse    ]] $\;\;\quad\;\;$ 
+ 8:  [[   Brustflosse    ]] $\;\;\quad\;\;$ 
+ 9:  [[   Herz           ]] $\;\;\quad\;\;$ 
  10: [[   Kiemen         ]]
 
 
@@ -111,6 +111,11 @@ __$b)\;\;$__ **Benenne** die Körperteile des Fisches.
 **Setze** die passenden Wörter in die Lücken **ein**.
 
 ---
+
+
+<!-- style="max-width:1000px" -->
+![Lebenszyklus Lurche](../../Zeug/Lurchleben.png)
+
 
 <h2>Der Lebenszyklus der Lurche</h2>
 
@@ -132,31 +137,153 @@ Am Ende der Entwicklung wird aus der Kaulquappe ein erwachsener [[Lurch      ]].
 
 
 
+
+
 ## Kriechtiere
 
 
 
 
+__$a)\;\;$__ **Gib** für Sachsen die passende Zuschreibung **an**.
+
+<!-- data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Blindschleiche: [[(heimisch)|exotisch]] \
+Krokodil: [[heimisch|(exotisch)]] \
+Zauneidechse: [[(heimisch)|exotisch]] \
+Chamäleon: [[heimisch|(exotisch)]] \
+Ringelnatter: [[(heimisch)|exotisch]] \
+Königspython: [[heimisch|(exotisch)]] \
+Kreuzotter: [[(heimisch)|exotisch)]] \
+Gecko: [[heimisch|(exotisch)]]
 
 
 
-**Ordne** jede Aussage dem passenden Bereich **zu**.
+@ADetails(BE=4;Kriechtiere)
+
+
+---
+
+---
+
+
+
+
+
+__$b)\;\;$__ **Gib** den passenden Lebensraum **an**.
 
 <!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-- [[Erkennen]   (Angepasstheit an das Landleben)    [Fortpflanzung]]
-- [ (X)              ( )                                   ( )     ]  Viele Kriechtiere besitzen eine trockene Haut mit Hornschuppen oder Hornplatten.
-- [ (X)              ( )                                   ( )     ]  Schildkröten besitzen einen Hornpanzer.
-- [ (X)              ( )                                   ( )     ]  Kriechtiere gehören zu den Wirbeltieren.
-- [ ( )              (X)                                   ( )     ]  Die Haut schützt den Körper vor Austrocknung.
-- [ ( )              (X)                                   ( )     ]  Kriechtiere können auch in trockenen Lebensräumen leben.
-- [ ( )              (X)                                   ( )     ]  Kriechtiere atmen mit Lungen.
-- [ ( )              (X)                                   ( )     ]  Kriechtiere sind besser an das Leben an Land angepasst als Lurche.
-- [ ( )              ( )                                   (X)     ]  Die Befruchtung findet im Körper des Weibchens statt.
-- [ ( )              ( )                                   (X)     ]  Die Eier werden an Land abgelegt.
-- [ ( )              ( )                                   (X)     ]  Die Fortpflanzung ist nicht an Wasser gebunden.
+Blindschleiche: [->[(Gärten, Wiesen, Waldränder)]] \
+Zauneidechse: [->[(sonnige Trockenrasen, Wegränder)]] \
+Waldeidechse: [->[(feuchte Wiesen, Waldränder, Moore)]] \
+Ringelnatter: [->[(Gewässernähe, Feuchtgebiete)]] \
+Kreuzotter: [->[(Heiden, Moore, Waldränder)|trockene Wiesen, Brachen]]
+
+@ADetails(BE=5;Kriechtiere)
+
+
+
+---
+
+---
+
+
+
+
+
+__$c)\;\;$__ **Benenne** die abgebildeten einheimischen Kriechtiere.
+
+
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__ 
+
+
+<!-- style="max-width:400px" -->
+![Kriechtier1](../../Zeug/Kriechtier1.png)
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[    Waldeidechse    ]]
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ 
+
+<!-- style="max-width:400px" -->
+![Kriechtier2](../../Zeug/Kriechtier2.png)
+
+[[    Blindschleiche  ]]
+
+</div>
+
+<div class="flex-child">
+
+__$c)\;\;$__ 
+
+<!-- style="max-width:400px" -->
+![Kriechtier3](../../Zeug/Kriechtier3.png)
+
+[[    Kreuzotter      ]]
+
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__ 
+
+<!-- style="max-width:400px" -->
+![Kriechtier4](../../Zeug/Kriechtier4.png)
+
+[[    Ringelnatter    ]]
+
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__ 
+
+<!-- style="max-width:400px" -->
+![Kriechtier5](../../Zeug/Kriechtier5.png)
+
+[[    Zauneidechse    ]]
+
+</div>
+
+</section>
+
 
 
 @ADetails(BE=5;Kriechtiere)
+
+
+
+
+---
+
+---
+
+
+
+
+__$c)\;\;$__ **Ordne** den Tiergruppen die passende Körperbedeckung **zu**.
+
+
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Fische [->[(Schuppen mit Schleimschicht)]]  \
+Lurche [->[(feuchte Haut)]] \
+Kriechtiere [->[(Hornschuppen)]]  \
+Vögel [->[(Federn)|trockene Haut|Fell|Chitin-Panzer]]  \
+
+
+@ADetails(BE=4;Kriechtiere)
+
 
 
 
@@ -170,7 +297,7 @@ Am Ende der Entwicklung wird aus der Kaulquappe ein erwachsener [[Lurch      ]].
 
 
 
-**Ordne** den Tonspuren der Vogelart **zu**.
+__$a)\;\;$__ **Ordne** den Tonspuren der Vogelart **zu**.
 
 <!-- data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Blaumeise: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/4/42/Cyanistes_caeruleus_-_Eurasian_Blue_Tit_XC131316.ogg))]]  \
@@ -181,6 +308,9 @@ Turmfalke: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/e/e1/Buteo_bu
 
 
 @ADetails(BE=5;Vögel)
+
+
+
 
 
 
@@ -197,6 +327,27 @@ Quellen: \
 - „Pica pica.ogg“ von Oona Räisänen (Mysid), Quelle: Wikimedia Commons, gemeinfrei / Public Domain\
 
 </small></small></small></small>
+
+
+---
+
+---
+
+
+
+
+__$b)\;\;$__ $Sortiere$ die Kacheln passend zu Sender-Signal-Empfänger-Reaktion.
+
+
+<!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Der Pfau [->[(Federkleid)]]   [->[(Weibchen)]]   [->[(aufmerksam)]]  \
+Das Brot [->[(Sichtbarkeit)]]   [->[(Möwe)]]   [->[(frisst)]]  \
+Der Star [->[(Warnruf)]]   [->[(Stare)]]   [->[(fliehen)]]  \
+Die Ente [->[(Locklaut)]]   [->[(Küken)]]   [->[(folgen)]]  \
+
+@ADetails(BE=6;Vögel)
+
+
 
 
 
