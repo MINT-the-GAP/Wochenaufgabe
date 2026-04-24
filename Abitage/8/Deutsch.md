@@ -86,12 +86,11 @@ __$a)\;\;$__ Numeral
 <div class="flex-child">
 
 __$b)\;\;$__ Interjektion
-<div class="markerquiz">
-
-
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<div class="markerquiz">
+
 @mark(Ach)! Das habe ich völlig vergessen, und @mark(oh) nein, jetzt ist es zu spät.
 @TextmarkerQuiz
 </div>
@@ -103,10 +102,11 @@ __$b)\;\;$__ Interjektion
 <div class="flex-child">
 
 __$c)\;\;$__ Adverb
-<div class="markerquiz">
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<div class="markerquiz">
+
 Wir treffen uns @mark(morgen) @mark(dort) und beginnen @mark(früh).
 @TextmarkerQuiz
 </div>
