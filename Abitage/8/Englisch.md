@@ -124,7 +124,7 @@ style="max-width:900px;" -->
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__
 <div class="markerquiz">
-@markedyellow(After several weeks of preparation) @markred(the students from our partner school) @markblue(had presented) @markgreen(their final project) @markedyellow(with great confidence) @markedyellow(in the main hall).
+@markyellow(After several weeks of preparation) @markred(the students from our partner school) @markblue(had presented) @markgreen(their final project) @markyellow(with great confidence) @markyellow(in the main hall).
 @TextmarkerQuiz
 </div>
 
@@ -137,7 +137,7 @@ __$a)\;\;$__
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__
 <div class="markerquiz">
-@markedyellow(During the workshop) @markred(our group) @markblue(was discussing) @markgreen(the results of the survey) @markedyellow(very seriously) @markedyellow(in the media room).
+@markyellow(During the workshop) @markred(our group) @markblue(was discussing) @markgreen(the results of the survey) @markyellow(very seriously) @markyellow(in the media room).
 @TextmarkerQuiz
 </div>
 
@@ -150,7 +150,7 @@ __$b)\;\;$__
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
 <div class="markerquiz">
-@markedyellow(Because of the heavy rain) @markred(the organisers) @markblue(have moved) @markgreen(the open-air concert) @markedyellow(at short notice) @markedyellow(into the sports hall).
+@markyellow(Because of the heavy rain) @markred(the organisers) @markblue(have moved) @markgreen(the open-air concert) @markyellow(at short notice) @markyellow(into the sports hall).
 @TextmarkerQuiz
 </div>
 
@@ -163,7 +163,7 @@ __$c)\;\;$__
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$d)\;\;$__
 <div class="markerquiz">
-@markedyellow(At the end of the debate) @markred(the speaker from Class 8a) @markblue(gave) @markgreen(a convincing explanation) @markedyellow(calmly) @markedyellow(in front of the audience).
+@markyellow(At the end of the debate) @markred(the speaker from Class 8a) @markblue(gave) @markgreen(a convincing explanation) @markyellow(calmly) @markyellow(in front of the audience).
 @TextmarkerQuiz
 </div>
 
@@ -176,7 +176,7 @@ __$d)\;\;$__
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$e)\;\;$__
 <div class="markerquiz">
-@markedyellow(Before the exchange programme started) @markred(our English teacher) @markblue(had sent) @markgreen(an email with all the details) @markedyellow(to the parents) @markedyellow(in the evening).
+@markyellow(Before the exchange programme started) @markred(our English teacher) @markblue(had sent) @markgreen(an email with all the details) @markyellow(to the parents) @markyellow(in the evening).
 @TextmarkerQuiz
 </div>
 
@@ -189,7 +189,7 @@ __$e)\;\;$__
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$f)\;\;$__
 <div class="markerquiz">
-@markedyellow(In the second lesson) @markred(the class representatives) @markblue(were collecting) @markgreen(new ideas for the charity event) @markedyellow(on large sheets of paper) @markedyellow(near the windows).
+@markyellow(In the second lesson) @markred(the class representatives) @markblue(were collecting) @markgreen(new ideas for the charity event) @markyellow(on large sheets of paper) @markyellow(near the windows).
 @TextmarkerQuiz
 </div>
 
@@ -202,7 +202,7 @@ __$f)\;\;$__
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$g)\;\;$__
 <div class="markerquiz">
-@markedyellow(After the museum tour) @markred(my friend and I) @markblue(have written) @markgreen(a detailed report) @markedyellow(together) @markedyellow(in the school library).
+@markyellow(After the museum tour) @markred(my friend and I) @markblue(have written) @markgreen(a detailed report) @markyellow(together) @markyellow(in the school library).
 @TextmarkerQuiz
 </div>
 
@@ -215,7 +215,7 @@ __$g)\;\;$__
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$h)\;\;$__
 <div class="markerquiz">
-@markedyellow(For the final task) @markred(the students in the front row) @markblue(had prepared) @markgreen(a short video) @markedyellow(with remarkable creativity) @markedyellow(at home).
+@markyellow(For the final task) @markred(the students in the front row) @markblue(had prepared) @markgreen(a short video) @markyellow(with remarkable creativity) @markyellow(at home).
 @TextmarkerQuiz
 </div>
 
@@ -228,7 +228,7 @@ __$h)\;\;$__
 <!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$i)\;\;$__
 <div class="markerquiz">
-@markedyellow(During the last rehearsal) @markred(the drama club) @markblue(was practising) @markgreen(the final scene) @markedyellow(with a lot of energy) @markedyellow(on the small stage).
+@markyellow(During the last rehearsal) @markred(the drama club) @markblue(was practising) @markgreen(the final scene) @markyellow(with a lot of energy) @markyellow(on the small stage).
 @TextmarkerQuiz
 </div>
 
