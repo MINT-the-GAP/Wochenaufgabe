@@ -2,6 +2,10 @@
 version:  0.0.1
 language: de
 
+
+
+narrator: Deutsch Female
+
 mode: Presentation
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
@@ -66,8 +70,11 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+
 __$a)\;\;$__ Artikel
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 @mark(Die) Kinder bauen @mark(ein) Zelt neben @mark(der) Turnhalle.
 @TextmarkerQuiz
@@ -79,8 +86,11 @@ __$a)\;\;$__ Artikel
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+
 __$b)\;\;$__ Pronomen
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 @mark(Wir) haben @mark(uns) gestern sehr über @mark(euch) gefreut.
 @TextmarkerQuiz
@@ -92,8 +102,11 @@ __$b)\;\;$__ Pronomen
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+
 __$c)\;\;$__ Präposition
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 @mark(Hinter) dem Haus führt ein schmaler Weg @mark(durch) den Wald.
 @TextmarkerQuiz

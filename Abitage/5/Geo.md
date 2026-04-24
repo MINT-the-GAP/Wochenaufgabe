@@ -587,7 +587,7 @@ In den Bergen fällt Niederschlag oft als Schnee. Wenn es wärmer wird, schmilzt
 - [ ( )       (X)    ]  Auf der ganzen Erde sind Tag und Nacht immer gleich lang.
 - [ (X)       ( )    ]  Wenn auf der Nordhalbkugel Sommer ist, ist auf der Südhalbkugel Winter.
 - [ ( )       (X)    ]  Die Sonne geht immer genau im Osten auf und immer genau im Westen unter.
-- [ (X)       ( )    ]  Im Sommer sind die Tage in Deutschland länger als im Winter.
+- [ (X)       ( )    ]  Im Sommer gibt es in Deutschland länger Tageslicht als im Winter.
 - [ ( )       (X)    ]  Die Erde braucht einen Tag, um einmal um die Sonne zu kreisen.
 - [ (X)       ( )    ]  Mittags steht die Sonne meist höher am Himmel als morgens oder abends.
 - [ ( )       (X)    ]  Die Tageszeiten hängen davon ab, ob die Erde gerade besonders schnell fliegt.
@@ -598,7 +598,7 @@ In den Bergen fällt Niederschlag oft als Schnee. Wenn es wärmer wird, schmilzt
 - [ (X)       ( )    ]  Frühling und Herbst nennt man auch Übergangsjahreszeiten.
 - [ ( )       (X)    ]  Auf beiden Polen gibt es jeden Tag genau zwölf Stunden Sonnenlicht.
 - [ (X)       ( )    ]  Morgens und abends sind die Schatten oft länger als zur Mittagszeit.
-- [ ( )       (X)    ]  Die Mitternachtssonne bedeutet, dass die Sonne nur im Winter nicht untergeht.
+- [ ( )       (X)    ]  Die Mitternachtssonne beschreibt das Phänomen, bei dem die Sonne im Winter nicht untergeht.
 - [ (X)       ( )    ]  Ein Jahr dauert ungefähr 365 Tage, weil die Erde so lange für einen Umlauf um die Sonne braucht.
 - [ ( )       (X)    ]  Die Tageszeiten heißen Frühling, Sommer, Herbst und Winter.
 - [ (X)       ( )    ]  Zur gleichen Uhrzeit kann die Sonne an verschiedenen Orten der Erde unterschiedlich hoch stehen.

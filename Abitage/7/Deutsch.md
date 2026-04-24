@@ -2,6 +2,9 @@
 version:  0.0.1
 language: de
 
+
+narrator: Deutsch Female
+
 mode: Presentation
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
@@ -66,8 +69,12 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+
 __$a)\;\;$__ Konjunktion
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 @mark(Obwohl) es schon spät war, blieb Lea wach, @mark(weil) sie das Kapitel beenden wollte.
 @TextmarkerQuiz
@@ -79,8 +86,12 @@ __$a)\;\;$__ Konjunktion
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+
 __$b)\;\;$__ Adverb
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 @mark(Bald) beginnt @mark(hier) @mark(wieder) das Training.
 @TextmarkerQuiz
@@ -92,8 +103,12 @@ __$b)\;\;$__ Adverb
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+
 __$c)\;\;$__ Präposition
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 @mark(Trotz) des Regens gingen wir @mark(ohne) Schirm zum Bahnhof.
 @TextmarkerQuiz

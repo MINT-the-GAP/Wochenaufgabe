@@ -2,6 +2,9 @@
 version:  0.0.1
 language: de
 
+
+narrator: Deutsch Female
+
 mode: Presentation
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
@@ -60,16 +63,19 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 
 
-**_Aufgabe 1:_** **Markiere** mit dem Textmarker die Wörter angegebenen Wortart.
+**_Aufgabe 1:_** **Markiere** mit dem Textmarker die Wörter der angegebenen Wortart.
 
 <section class="dynFlex">
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__ Numeral
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 @mark(Zwei) Schüler fehlten, aber die @mark(dritte) Gruppe war vollständig.
+
 @TextmarkerQuiz
 </div>
 
@@ -79,9 +85,13 @@ __$a)\;\;$__ Numeral
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__ Interjektion
 <div class="markerquiz">
+
+
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @mark(Ach)! Das habe ich völlig vergessen, und @mark(oh) nein, jetzt ist es zu spät.
 @TextmarkerQuiz
 </div>
@@ -92,9 +102,11 @@ __$b)\;\;$__ Interjektion
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__ Adverb
 <div class="markerquiz">
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Wir treffen uns @mark(morgen) @mark(dort) und beginnen @mark(früh).
 @TextmarkerQuiz
 </div>

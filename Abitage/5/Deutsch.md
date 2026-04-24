@@ -2,6 +2,10 @@
 version:  0.0.1
 language: de
 
+
+
+narrator: Deutsch Female
+
 mode: Presentation
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
@@ -67,8 +71,10 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (Wische) entweder weiter od
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__ Substantiv
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 Der @mark(Hund) jagt den @mark(Ball) über den @mark(Hof).
 @TextmarkerQuiz
@@ -80,8 +86,11 @@ Der @mark(Hund) jagt den @mark(Ball) über den @mark(Hof).
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+
 __$b)\;\;$__ Verb
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 Mia @mark(liest) und @mark(schreibt) heute sehr ordentlich.
 @TextmarkerQuiz
@@ -93,8 +102,11 @@ Mia @mark(liest) und @mark(schreibt) heute sehr ordentlich.
 
 <div class="flex-child">
 
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+
 __$c)\;\;$__ Adjektiv
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 Das @mark(kleine) Boot fährt über den @mark(ruhigen) See.
 @TextmarkerQuiz
