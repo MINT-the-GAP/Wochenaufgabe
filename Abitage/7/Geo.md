@@ -15,7 +15,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imp
 author: Martin Lommatzsch
 -->
 
-# Aufgaben für die Prüfungstage - Geographie: Klasse 5
+# Aufgaben für die Prüfungstage - Geographie: Klasse 7
 
 
 
@@ -361,47 +361,186 @@ __$l)\;\;$__ Wie heißt die große Wüste im Süden Afrikas?\
 
 
 
-## Wetter und Klima
+## Klimadiagramm
+
+
+Gegeben sei das fiktive Klimadiagramm.
+
+<!-- style="max-width:700px" -->
+![Klimadiagramm7A1](../../Zeug/Klimadiagramm7A1.png)
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$a)\;\;$__ **Gib** die Jahresdurchschnittstemperatur **an**.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\bar{T} = $ [[  26,475    ]] $^\circ C$
+
+
+@ADetails(BE=1;Klimadiagramm)
+
+</div>
+
+<div class="flex-child">
+
+__$b)\;\;$__ **Gib** die Gesamtniederschlagsmenge **an**.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[  980       ]] $mm$
+
+
+@ADetails(BE=1;Klimadiagramm)
+</div>
+
+
+<div class="flex-child">
+
+__$c)\;\;$__ **Gib** die Anzahl der ariden Monate **an**.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[  6       ]] Monate
+
+
+@ADetails(BE=1;Klimadiagramm)
+</div>
+
+
+
+<div class="flex-child">
+
+__$d)\;\;$__ **Gib** die größte Temperaturdifferenz **an**.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\bar{T} = $ [[  3,6    ]] $^\circ C$
+
+
+@ADetails(BE=1;Klimadiagramm)
+
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__ **Gib** die Niederschlagsdifferenz zwischen August und April **an**.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[    135     ]] $mm$
+
+
+@ADetails(BE=1;Klimadiagramm)
+</div>
+
+
+<div class="flex-child">
+
+__$f)\;\;$__ **Benenne** die Art des Klimas.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+[[  wechselfeuchte Tropen  ]]
+
+
+@ADetails(BE=1;Klimadiagramm)
+</div>
+
+
+
+</section>
 
 
 
 
 
 
+## Aufbau der Erde
 
 
-## 
+**Ordne** den Zahlen in den Abbildungen ihre korrekten Fachbegriffe **zu**.
 
 
+<section class="dynFlex"  data-basis="45">
 
-
-
-
-
-## 
-
+<div class="flex-child">
 
 
 
+<!-- style="max-width:500px" -->
+![Erschalen](../../Zeug/Erdschalen.png)
+
+</div>
+
+<div class="flex-child">
+
+
+
+<!-- style="max-width:1000px" -->
+![Tektonik](../../Zeug/Tektonik.png)
+
+</div>
+
+</section>
+
+
+<!-- data-randomize="true" data-show-partial-solution="true" data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+1: [->[(Lithosphäre)]] $\;\;\quad\;\;$ 
+2: [->[(Astenosphäre)]] $\;\;\quad\;\;$ 
+3: [->[(Mesosphäre)]] $\;\;\quad\;\;$ 
+4: [->[(Äußerer Kern)]] $\;\;\quad\;\;$ 
+5: [->[(Innerer Kern)]] $\;\;\quad\;\;$ 
+6: [->[(Kontinentalplatte)]] $\;\;\quad\;\;$  \
+7: [->[(Ozeanische Platte)]] $\;\;\quad\;\;$ 
+8: [->[(Mittelozeanischer Rücken)]] $\;\;\quad\;\;$ 
+9: [->[(Magmaaufstieg)]] $\;\;\quad\;\;$ 
+10: [->[(Konvektionsstrom)]] $\;\;\quad\;\;$ 
+11: [->[(Magmakammer)]] $\;\;\quad\;\;$ 
+12: [->[(Subduktionszone)]] $\;\;\quad\;\;$  \
+13: [->[(Tiefseegraben)]] $\;\;\quad\;\;$ 
+14: [->[(Vulkangebirge)]] $\;\;\quad\;\;$ 
+15: [->[(Erdbebenzone)]] $\;\;\quad\;\;$ 
+16: [->[(Erloschene Vulkane)]] $\;\;\quad\;\;$ 
+17: [->[(Hotspot)|Nebenvulkan]] $\;\;\quad\;\;$ 
+
+
+
+@ADetails(17=BE;Erdaufbau)
 
 
 
 
 
 
-Geographie: Flaggen zuordnen, Besondere Orte je nach Klasse zuordnen/benennen, Entfernungen auf Karte abschätzen
-
-Wetter/Klima: Diagramm + Sachtext je nach Klasse
-
-Spezielleres:  
-5: Deutschland, Küste, Tag/Nacht/Jahreszeiten, Wasserkreislauf,
-6: Europa, Fjorde + Alpen, Gletscher/Eiszeit, Flora/Fauna Klimazonen zuordnen,
-7: Afrika, Aufbau Erde, Bodenschätze(Konflikte), Wind
-8: Indien/China, Asien, Wirtschaft
+## Bodenschätze
 
 
+**Lies** den Sachtext aufmerksam und **ordne** die fehlenden Begriffe korrekt **zu**.
 
-@ADetails(3=BE;Bruchrechnung)
+---
+
+---
+
+<h2> Rohstoffe und Konflikte in Afrika</h2> 
+
+
+<!-- data-randomize="true" data-show-partial-solution="true" data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+Afrika ist ein Kontinent mit großen Vorräten an wertvollen [->[(Rohstoffen)]]. Dazu gehören zum Beispiel Erdöl, Erdgas, Gold, Diamanten, Kupfer und [->[(Kobalt)]]. Viele dieser Stoffe werden weltweit benötigt. Kobalt spielt heute eine wichtige Rolle bei der Herstellung von [->[(Batterien)]], zum Beispiel für Elektroautos, Smartphones und Laptops. Auch [->[(Coltan)]] ist wichtig, weil daraus Metalle gewonnen werden, die in moderner Elektronik verwendet werden. \
+Eigentlich könnte der Reichtum an Bodenschätzen vielen Ländern beim [->[(Aufbau)]] ihrer Wirtschaft helfen. Einnahmen aus dem Rohstoffverkauf könnten in Straßen, Schulen, Krankenhäuser und die [->[(Versorgung)]] der Bevölkerung investiert werden. Doch Rohstoffe führen nicht automatisch zu Wohlstand. In manchen Regionen verschärfen sie sogar bestehende Probleme. \
+Ein bekanntes Beispiel ist die Demokratische Republik [->[(Kongo)]]. Vor allem im [->[(Osten)]] des Landes kommt es seit vielen Jahren zu gewaltsamen Auseinandersetzungen. Dort versuchen bewaffnete Gruppen, wichtige [->[(Minen)]] und Handelswege zu kontrollieren. Wer diese Gebiete beherrscht, kann Rohstoffe verkaufen und damit Waffen, Ausrüstung und Kämpfer [->[(finanzieren)]]. Deshalb spricht man oft davon, dass Bodenschätze Konflikte anheizen können. \
+Trotzdem wäre es zu einfach, nur die Rohstoffe für die Gewalt verantwortlich zu machen. Auch schwache staatliche [->[(Strukturen)]], Machtkämpfe, Armut, Fluchtbewegungen und Streit um [->[(Land)]] und Wasser spielen eine wichtige Rolle. Häufig fehlt es an Sicherheit, an funktionierenden Behörden und an gerechter [->[(Verteilung)]] der Einnahmen. So profitieren oft nur wenige Menschen, während viele andere in [->[(Armut)]] leben. \
+Für die Geographie ist deshalb wichtig: Rohstoffe sind weder nur ein Fluch noch nur ein Segen. Entscheidend ist, wie sie genutzt werden. Werden sie unter fairen Regeln gefördert, können sie zur [->[(Entwicklung)]] eines Landes beitragen. Werden sie jedoch unter Gewalt, [->[(Korruption)]] und Ausbeutung gewonnen, verschärfen sie bestehende [->[(Konflikte)]]. Rohstoffreichtum ist also eine große [->[(Chance)]], aber auch eine politische und gesellschaftliche [->[(Herausforderung)]]. \
+Besonders problematisch ist dabei, dass viele afrikanische Staaten ihre Rohstoffe zwar [->[(exportieren)]], aber nur einen kleinen Teil der Weiterverarbeitung selbst übernehmen. Dadurch entsteht oft weniger Wertschöpfung im eigenen [->[(Land)]], als eigentlich möglich wäre.
+
+
+
+
+
+@ADetails(10=BE;Bodenschätze)
 
 
 

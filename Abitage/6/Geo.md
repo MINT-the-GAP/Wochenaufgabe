@@ -15,7 +15,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imp
 author: Martin Lommatzsch
 -->
 
-# Aufgaben für die Prüfungstage - Geographie: Klasse 5
+# Aufgaben für die Prüfungstage - Geographie: Klasse 6
 
 
 
@@ -407,7 +407,7 @@ Verändert sich das Klima, dann kann sich auch das Wetter verändern. Wenn es ü
 
 
 
-![Küste](../../Zeug/Gletscher.png)
+![Gletscher](../../Zeug/Gletscher.png)
 
 
 **_Aufgabe 1:_** **Ordne** die Begriffe richtig **zu**.

@@ -15,7 +15,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imp
 author: Martin Lommatzsch
 -->
 
-# Aufgaben für die Prüfungstage - Geographie: Klasse 5
+# Aufgaben für die Prüfungstage - Geographie: Klasse 8
 
 
 
@@ -366,26 +366,51 @@ __$l)\;\;$__ Wie heißt der Fluss, der durch Bagdad fließt?\
 
 
 
-## Wetter und Klima
+## Demographie
+
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+
+
+<!-- style="max-width:500px" -->
+![Demographie8N1](../../Zeug/Demographie8N1.png)
+
+</div>
+
+<div class="flex-child">
+
+
+
+<!-- style="max-width:500px" -->
+![Demographie8N2](../../Zeug/Demographie8N2.png)
+
+</div>
+
+</section>
 
 
 
 
 
+## Rohstoffe
 
 
-
-## 
-
-
-
+![Rohstoffe8A1](../../Zeug/Rohstoffe8A1.png)
 
 
 
 
-## 
+
+## Monsum
 
 
+
+![Passat](../../Zeug/Passat.png)
 
 
 
