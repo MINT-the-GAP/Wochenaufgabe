@@ -453,7 +453,7 @@ __$c)\;\;$__ [[    Sächsische Schweiz    ]]
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-__$d)\;\;$__ [[    Eiffel    ]]
+__$d)\;\;$__ [[    Eifel    ]]
 
 
 @ADetails(BE=1;Topographie)

@@ -351,7 +351,7 @@ __$c)\;\;$__ $ \dfrac{12}{25} =$ [[  0,48  ]]
 <div class="flex-child">
 
 <!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"  -->
-__$a)\;\;$__ $ 1,4 + 2,1 \cdot 0,3 =$ [[  2,09  ]] 
+__$a)\;\;$__ $ 1,4 + 2,1 \cdot 0,3 =$ [[  2,03  ]] 
 @ADetails(2=BE;Dezimalzahlen)
 
 </div>
@@ -367,7 +367,7 @@ __$b)\;\;$__ $ 6,5 : 1,25 -1,6 =$ [[  3,6  ]]
 <div class="flex-child">
 
 <!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-__$c)\;\;$__ $ 3,4 - 0,6 \cdot 1,1 =$ [[  2,84  ]]
+__$c)\;\;$__ $ 3,4 - 0,6 \cdot 1,1 =$ [[  2,74  ]]
 @ADetails(2=BE;Dezimalzahlen)
 
 </div>
