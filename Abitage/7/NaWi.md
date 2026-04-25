@@ -538,4 +538,4 @@ $c)\;\;$ **Kreuze an**, ob die Aussage "wahr", "falsch" oder "nicht entscheidbar
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

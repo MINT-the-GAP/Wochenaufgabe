@@ -409,4 +409,4 @@ Säugetiere haben sich sehr unterschiedlich an ihre Lebensweise angepasst. Ein M
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

@@ -845,4 +845,4 @@ $7 \quad 19 \quad 31 \quad 43 \quad 55 \quad 67 \quad$ [[ 79 ]] $\quad$ [[ 91 ]]
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

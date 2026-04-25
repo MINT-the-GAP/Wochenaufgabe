@@ -659,4 +659,4 @@ __$h)\;\;$__
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

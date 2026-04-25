@@ -459,4 +459,4 @@ __$10)\;\;$__ [->[(Schmelzwasserbach)]]
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

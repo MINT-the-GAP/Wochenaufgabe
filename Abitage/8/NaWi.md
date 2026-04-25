@@ -476,4 +476,4 @@ Das passt näherungsweise zu Meerwasser.
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

@@ -673,4 +673,4 @@ Stilmittel: [[Personifikation|Vergleich|Neologismus|Metapher|Alliteration|Anaphe
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

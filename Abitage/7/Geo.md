@@ -550,4 +550,4 @@ Besonders problematisch ist dabei, dass viele afrikanische Staaten ihre Rohstoff
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

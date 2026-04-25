@@ -692,4 +692,4 @@ __$f)\;\;$__ **Gib an**, Welche Windzone zwischen etwa 30° und 60° nördlicher
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

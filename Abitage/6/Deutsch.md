@@ -600,4 +600,4 @@ Stilmittel: [[(Vergleich)|Personifikation|Neologismus|Metapher|Alliteration]]
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)

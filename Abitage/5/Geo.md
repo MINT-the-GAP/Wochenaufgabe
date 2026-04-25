@@ -617,4 +617,4 @@ In den Bergen fällt Niederschlag oft als Schnee. Wenn es wärmer wird, schmilzt
 
 @Abgabe
 
-@Auswertung(F12;Tab)
+@Auswertung(F12;Tab;Time)
