@@ -258,19 +258,19 @@ style="max-width:800px;" -->
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__
-@diktat(Nach der Pause erklärt die Lehrerin geduldig die schwierige Rechenaufgabe.)
+@diktat(`Nach der Pause erklärt die Lehrerin geduldig die schwierige Rechenaufgabe.`)
 
 @ADetails(BE=2;Diktat)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__
-@diktat(Plötzlich entdeckten wir hinter dem Gebüsch ein verletztes Kaninchen.)
+@diktat(`Plötzlich entdeckten wir hinter dem Gebüsch ein verletztes Kaninchen.`)
 
 @ADetails(BE=2;Diktat)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
-@diktat(Am Nachmittag besucht meine Cousine regelmäßig die Stadtbibliothek.)
+@diktat(`Am Nachmittag besucht meine Cousine regelmäßig die Stadtbibliothek.`)
 
 @ADetails(BE=2;Diktat)
 

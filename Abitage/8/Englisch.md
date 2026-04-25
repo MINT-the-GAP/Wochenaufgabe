@@ -432,7 +432,7 @@ __$j)\;\;$__ [[true|(false)]] In the end, the group wanted to rebuild the entire
 __$a)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The journalist described the accident with remarkable precision.)
+@diktat(`The journalist described the accident with remarkable precision.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -443,7 +443,7 @@ __$a)\;\;$__
 __$b)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Our group has been researching local history for three weeks.)
+@diktat(`Our group has been researching local history for three weeks.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -454,7 +454,7 @@ __$b)\;\;$__
 __$c)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The architect suggested an effective solution for the old building.)
+@diktat(`The architect suggested an effective solution for the old building.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -465,7 +465,7 @@ __$c)\;\;$__
 __$d)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(During the discussion, several students expressed different opinions.)
+@diktat(`During the discussion, several students expressed different opinions.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -476,7 +476,7 @@ __$d)\;\;$__
 __$e)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The audience remained silent until the speaker finished his argument.)
+@diktat(`The audience remained silent until the speaker finished his argument.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -487,7 +487,7 @@ __$e)\;\;$__
 __$f)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(We had already completed the survey before the lesson started.)
+@diktat(`We had already completed the survey before the lesson started.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -498,7 +498,7 @@ __$f)\;\;$__
 __$g)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Her decision was sensible because the evidence was convincing.)
+@diktat(`Her decision was sensible because the evidence was convincing.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -509,7 +509,7 @@ __$g)\;\;$__
 __$h)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The organisation provides support for families in difficult situations.)
+@diktat(`The organisation provides support for families in difficult situations.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -520,7 +520,7 @@ __$h)\;\;$__
 __$i)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Although the journey was exhausting, the conference was successful.)
+@diktat(`Although the journey was exhausting, the conference was successful.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -531,7 +531,7 @@ __$i)\;\;$__
 __$j)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(He noticed the misunderstanding immediately after the meeting.)
+@diktat(`He noticed the misunderstanding immediately after the meeting.`)
 
 @ADetails(2=BE;Dictation)
 

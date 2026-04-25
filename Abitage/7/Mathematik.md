@@ -323,7 +323,7 @@ __$a)\;\;$__ Jedem Kind wird genau ein Spindschlüssel ausgehändigt.
 [[(eineindeutig)|eindeutig|mehrdeutig]] \
 __$b)\;\;$__ Jedem Schüler wird seine Zensur in einem Vokabeltest zugeordnet. [[eineindeutig|(eindeutig)|mehrdeutig]] \
 __$c)\;\;$__ Jedem Schüler wird seine Körpergröße zugeordnet. [[eineindeutig|(eindeutig)|mehrdeutig]] \
-__$d)\;\;$__ inem Schultag werden Pausenaktivitäten zugeordnet. [[eineindeutig|eindeutig|(mehrdeutig)]] \
+__$d)\;\;$__ Einem Schultag werden Pausenaktivitäten zugeordnet. [[eineindeutig|eindeutig|(mehrdeutig)]] \
 __$e)\;\;$__ Jede Startnummer beim Sponsorenlauf wird genau einem Kind zugeordnet. [[(eineindeutig)|eindeutig|mehrdeutig]] \
 __$f)\;\;$__ Jedem Kind wird seine Lieblingsfarbe zugeordnet. [[eineindeutig|(eindeutig)|mehrdeutig]] \
 
@@ -611,7 +611,7 @@ $\measuredangle GAB$ ist ein [[Nullwinkel|(spitzer Winkel)|rechter Winkel|stumpf
 
 <div class="flex-child">
 
-__$i)\;\;$__ **Gib** die korrekte Winkelart **an**.
+__$j)\;\;$__ **Gib** die korrekte Winkelart **an**.
 
 <!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $\measuredangle FDC$ ist ein [[Nullwinkel|spitzer Winkel|rechter Winkel|(stumpfer Winkel)|gestreckter Winkel|überstumpfer Winkel|voller Winkel]]
@@ -621,7 +621,7 @@ $\measuredangle FDC$ ist ein [[Nullwinkel|spitzer Winkel|rechter Winkel|(stumpfe
 
 <div class="flex-child">
 
-__$j)\;\;$__ **Gib** Flächeninhalt des Dreiecks $\Delta AGD$ **an**.
+__$k)\;\;$__ **Gib** Flächeninhalt des Dreiecks $\Delta AGD$ **an**.
 
 <!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $A =$ [[  12,5  ]] cm$^2$ @canvas
@@ -633,7 +633,7 @@ $A =$ [[  12,5  ]] cm$^2$ @canvas
 
 <div class="flex-child">
 
-__$k)\;\;$__ **Gib** Flächeninhalt des Dreiecks $\Delta AMF$ **an**.
+__$l)\;\;$__ **Gib** Flächeninhalt des Dreiecks $\Delta AMF$ **an**.
 
 <!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $A =$ [[   7   ]] cm$^2$ @canvas

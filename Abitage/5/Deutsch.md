@@ -254,19 +254,19 @@ style="max-width:800px;" -->
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__
-@diktat(Der Hund rennt heute schnell durch den Garten.)
+@diktat(`Der Hund rennt heute schnell durch den Garten.`)
 
 @ADetails(BE=2;Diktat)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__
-@diktat(Am Morgen sammelt Mia bunte Blätter auf dem Schulhof.)
+@diktat(`Am Morgen sammelt Mia bunte Blätter auf dem Schulhof.`)
 
 @ADetails(BE=2;Diktat)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
-@diktat(Im Winter baut mein Bruder mit seinen Freunden einen Schneemann.)
+@diktat(`Im Winter baut mein Bruder mit seinen Freunden einen Schneemann.`)
 
 @ADetails(BE=2;Diktat)
 

@@ -257,19 +257,19 @@ style="max-width:800px;" -->
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__
-@diktat(Trotz der außergewöhnlichen Umstände reagierte die Schülerin bemerkenswert gelassen.)
+@diktat(`Trotz der außergewöhnlichen Umstände reagierte die Schülerin bemerkenswert gelassen.`)
 
 @ADetails(BE=2;Diktat)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__
-@diktat(Nachdem der Hausmeister schließlich eingetroffen war, konnte die beschädigte Tür repariert werden.)
+@diktat(`Nachdem der Hausmeister schließlich eingetroffen war, konnte die beschädigte Tür repariert werden.`)
 
 @ADetails(BE=2;Diktat)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
-@diktat(Während der Präsentation erläuterte Jonas präzise die unterschiedlichen Ergebnisse des Experiments.)
+@diktat(`Während der Präsentation erläuterte Jonas präzise die unterschiedlichen Ergebnisse des Experiments.`)
 
 @ADetails(BE=2;Diktat)
 
@@ -631,8 +631,8 @@ Metrum: [[(Jambus)|Trochäus|Daktylus|Anapäst]]
 __$g)\;\;$__
 
 In der Nacht überm Fluss liegt die schweigende Wacht,  \
-@markedyellow(Der Regen verstummt, der Nebel verweht,)  \
-@markedyellow(die Dämmerung sinkt, und der Abend entsteht,)  \
+@markedyellow(Der Regen verstummt), @markedyellow(der Nebel verweht),  \
+@markedyellow(die Dämmerung sinkt), @markedyellow(und der Abend entsteht),  \
 und im Schilf trägt das Wasser die dunklere Nacht.  
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->

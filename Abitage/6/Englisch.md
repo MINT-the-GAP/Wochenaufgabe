@@ -425,7 +425,7 @@ __$j)\;\;$__ [[(true)|false]] Many students liked the trip more than a normal sc
 __$a)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Our neighbour has a beautiful garden.)
+@diktat(`Our neighbour has a beautiful garden.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -436,7 +436,7 @@ __$a)\;\;$__
 __$b)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Yesterday we watched a film about volcanoes.)
+@diktat(`Yesterday we watched a film about volcanoes.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -447,7 +447,7 @@ __$b)\;\;$__
 __$c)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Mia usually finishes her homework before dinner.)
+@diktat(`Mia usually finishes her homework before dinner.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -458,7 +458,7 @@ __$c)\;\;$__
 __$d)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The girls are carrying heavy boxes together.)
+@diktat(`The girls are carrying heavy boxes together.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -469,7 +469,7 @@ __$d)\;\;$__
 __$e)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(I forgot my umbrella because I was in a hurry.)
+@diktat(`I forgot my umbrella because I was in a hurry.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -480,7 +480,7 @@ __$e)\;\;$__
 __$f)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(During the lesson, the teacher explained the difference.)
+@diktat(`During the lesson, the teacher explained the difference.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -491,7 +491,7 @@ __$f)\;\;$__
 __$g)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(My cousin bought a striped T-shirt in London.)
+@diktat(`My cousin bought a striped T-shirt in London.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -502,7 +502,7 @@ __$g)\;\;$__
 __$h)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(We are going to visit a castle next spring.)
+@diktat(`We are going to visit a castle next spring.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -513,7 +513,7 @@ __$h)\;\;$__
 __$i)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The puppy was sleeping quietly under the table.)
+@diktat(`The puppy was sleeping quietly under the table.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -524,7 +524,7 @@ __$i)\;\;$__
 __$j)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Please write your address carefully on the card.)
+@diktat(`Please write your address carefully on the card.`)
 
 @ADetails(2=BE;Dictation)
 

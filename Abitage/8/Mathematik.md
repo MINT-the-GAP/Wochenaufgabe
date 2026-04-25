@@ -592,7 +592,7 @@ $M \left(\right.$ [[  0,5  ]] $\left.\right| $ [[  2  ]] $\left.\right)$
 
 <div class="flex-child">
 
-__$d)\;\;$__ **Gib** die Koordinaten des Punktes $F$ **an**, sodass ein symmetrisches Drachenviereck $\Box AEFG$ mit dem Flächeninhalt von $A=26\,FE$ entsteht. (Der Punkt $F$ ist zu Hilfe beweglich.)
+__$d)\;\;$__ **Gib** die Koordinaten des Punktes $F$ **an**, sodass ein symmetrisches Drachenviereck $\Box AEFG$ mit dem Flächeninhalt von $A=22\,FE$ entsteht. (Der Punkt $F$ ist zu Hilfe beweglich.)
 
 
 @Punkt(`A1;E;-3;-1;fix`)

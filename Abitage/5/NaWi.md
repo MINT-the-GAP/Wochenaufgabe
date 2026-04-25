@@ -336,7 +336,7 @@ Quellen: \
 
 
 
-__$b)\;\;$__ $Sortiere$ die Kacheln passend zu Sender-Signal-Empfänger-Reaktion.
+__$b)\;\;$__ **Sortiere** die Kacheln passend zu Sender-Signal-Empfänger-Reaktion.
 
 
 <!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->

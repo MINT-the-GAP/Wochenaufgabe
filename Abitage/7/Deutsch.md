@@ -260,19 +260,19 @@ style="max-width:800px;" -->
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__
-@diktat(Obwohl es ununterbrochen regnete, verlief der Ausflug überraschend angenehm.)
+@diktat(`Obwohl es ununterbrochen regnete, verlief der Ausflug überraschend angenehm.`)
 
 @ADetails(BE=2;Diktat)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__
-@diktat(Wegen des plötzlichen Gewitters mussten wir die Fahrradtour sofort abbrechen.)
+@diktat(`Wegen des plötzlichen Gewitters mussten wir die Fahrradtour sofort abbrechen.`)
 
 @ADetails(BE=2;Diktat)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
-@diktat(Die aufgeregten Zuschauer warteten gespannt auf die Siegerehrung.)
+@diktat(`Die aufgeregten Zuschauer warteten gespannt auf die Siegerehrung.`)
 
 @ADetails(BE=2;Diktat)
 
@@ -560,6 +560,7 @@ __$e)\;\;$__
 Dann steigt der erste Stern empor,  \
 und trägt das letzte Lichtchen weg.  \
 
+
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Reimschema: [[Paarreim|(Kreuzreim)|Umarmender Reim]]
 
@@ -597,7 +598,7 @@ Stilmittel: [[Personifikation|Vergleich|(Neologismus)|Metapher|Alliteration|Anap
 
 __$g)\;\;$__
 
-@markedyellow(Leise sinkt der Abend nieder,)  \
+@markedyellow(Leise sinkt der Abend nieder),  \
 @markedyellow(langsam steigt der Nebel wieder.)  \
 Der Fluss trägt still die Schatten fort,  \
 und Nacht wird es an diesem Ort.  

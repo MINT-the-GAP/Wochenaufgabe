@@ -432,7 +432,7 @@ __$j)\;\;$__ [[(true)|false]] The class collected money for a new football.\
 __$a)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(My favourite animal is a rabbit.)
+@diktat(`My favourite animal is a rabbit.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -443,7 +443,7 @@ __$a)\;\;$__
 __$b)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(We have breakfast in the kitchen.)
+@diktat(`We have breakfast in the kitchen.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -454,7 +454,7 @@ __$b)\;\;$__
 __$c)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(On Thursday, Lucy visits her grandma.)
+@diktat(`On Thursday, Lucy visits her grandma.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -465,7 +465,7 @@ __$c)\;\;$__
 __$d)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The children are playing in the garden.)
+@diktat(`The children are playing in the garden.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -476,7 +476,7 @@ __$d)\;\;$__
 __$e)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Our teacher writes a question on the board.)
+@diktat(`Our teacher writes a question on the board.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -487,7 +487,7 @@ __$e)\;\;$__
 __$f)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Ben cannot find his yellow pencil.)
+@diktat(`Ben cannot find his yellow pencil.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -498,7 +498,7 @@ __$f)\;\;$__
 __$g)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(After school, I read a comic in bed.)
+@diktat(`After school, I read a comic in bed.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -509,7 +509,7 @@ __$g)\;\;$__
 __$h)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The weather is sunny but very windy.)
+@diktat(`The weather is sunny but very windy.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -520,7 +520,7 @@ __$h)\;\;$__
 __$i)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(My brother is hungry and wants a sandwich.)
+@diktat(`My brother is hungry and wants a sandwich.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -531,7 +531,7 @@ __$i)\;\;$__
 __$j)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Please close the window before dinner.)
+@diktat(`Please close the window before dinner.`)
 
 @ADetails(2=BE;Dictation)
 

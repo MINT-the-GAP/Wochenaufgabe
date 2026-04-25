@@ -428,7 +428,7 @@ __$j)\;\;$__ [[(true)|false]] Mrs Keller said that the project showed creativity
 __$a)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The museum guide showed us a valuable painting.)
+@diktat(`The museum guide showed us a valuable painting.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -439,7 +439,7 @@ __$a)\;\;$__
 __$b)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Our class has collected enough money for the trip.)
+@diktat(`Our class has collected enough money for the trip.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -450,7 +450,7 @@ __$b)\;\;$__
 __$c)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(While I was waiting, I read an article about whales.)
+@diktat(`While I was waiting, I read an article about whales.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -461,7 +461,7 @@ __$c)\;\;$__
 __$d)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The exchange students arrived at the railway station yesterday.)
+@diktat(`The exchange students arrived at the railway station yesterday.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -472,7 +472,7 @@ __$d)\;\;$__
 __$e)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(My neighbour borrowed a dictionary from the library.)
+@diktat(`My neighbour borrowed a dictionary from the library.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -483,7 +483,7 @@ __$e)\;\;$__
 __$f)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(We discussed the problem calmly and chose a practical solution.)
+@diktat(`We discussed the problem calmly and chose a practical solution.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -494,7 +494,7 @@ __$f)\;\;$__
 __$g)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(The weather forecast promised a bright and peaceful weekend.)
+@diktat(`The weather forecast promised a bright and peaceful weekend.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -505,7 +505,7 @@ __$g)\;\;$__
 __$h)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(After the concert, the audience applauded for several minutes.)
+@diktat(`After the concert, the audience applauded for several minutes.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -516,7 +516,7 @@ __$h)\;\;$__
 __$i)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(She has already written a message to her partner school.)
+@diktat(`She has already written a message to her partner school.`)
 
 @ADetails(2=BE;Dictation)
 
@@ -527,7 +527,7 @@ __$i)\;\;$__
 __$j)\;\;$__ 
 
 <!--data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" --> 
-@diktat(Although the question was difficult, he answered it confidently.)
+@diktat(`Although the question was difficult, he answered it confidently.`)
 
 @ADetails(2=BE;Dictation)
 
