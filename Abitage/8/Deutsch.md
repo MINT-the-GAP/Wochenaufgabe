@@ -403,6 +403,8 @@ $a)\;\;$ WÄHREND DER PRÄSENTATION ERLÄUTERTE JONAS PRÄZISE DIE UNTERSCHIEDLI
 [[    Während der Präsentation erläuterte Jonas präzise die unterschiedlichen Ergebnisse des Experiments.    ]]
 
 
+@ADetails(BE=2;Klein- und Großschreibung)
+
 $b)\;\;$ TROTZ DER AUẞERGEWÖHNLICHEN UMSTÄNDE REAGIERTE DIE SCHÜLERIN BEMERKENSWERT GELASSEN.
 
 
@@ -410,12 +412,15 @@ $b)\;\;$ TROTZ DER AUẞERGEWÖHNLICHEN UMSTÄNDE REAGIERTE DIE SCHÜLERIN BEMER
 [[    Trotz der außergewöhnlichen Umstände reagierte die Schülerin bemerkenswert gelassen.    ]]
 
 
+@ADetails(BE=2;Klein- und Großschreibung)
+
 $c)\;\;$ NACHDEM DER HAUSMEISTER EINGETROFFEN WAR, KONNTE DIE BESCHÄDIGTE TÜR ENDLICH REPARIERT WERDEN.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 [[    Nachdem der Hausmeister eingetroffen war, konnte die beschädigte Tür endlich repariert werden.    ]]
 
 
+@ADetails(BE=2;Klein- und Großschreibung)
 
 
 
@@ -458,6 +463,8 @@ Bis heute prägt die Industrialisierung unsere Welt. Fabrikarbeit, Massenprodukt
 - [ (X)       ( )    ]  Auch in Sachsen entwickelten sich wichtige Industriezweige.
 - [ (X)       ( )    ]  Die Industrialisierung wirkt bis heute nach.
 
+
+@ADetails(BE=10;Leseverständnis)
 
 
 
