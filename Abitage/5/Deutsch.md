@@ -399,16 +399,25 @@ $a)\;\;$ DIE KLEINE ENTE SCHWIMMT AUF DEM RUHIGEN TEICH.
 [[    Die kleine Ente schwimmt auf dem ruhigen Teich.    ]]
 
 
+@ADetails(BE=2;Klein- und Großschreibung)
+
+
 $b)\;\;$ IM WINTER BAUEN DIE KINDER EINEN GROẞEN SCHNEEMANN.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 [[    Im Winter bauen die Kinder einen großen Schneemann.    ]]
 
 
+@ADetails(BE=2;Klein- und Großschreibung)
+
+
 $c)\;\;$ MEIN BRUDER FINDET HINTER DEM SCHRANK EINE ALTE MÜNZE.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 [[    Mein Bruder findet hinter dem Schrank eine alte Münze.    ]]
+
+
+@ADetails(BE=2;Klein- und Großschreibung)
 
 
 
@@ -449,6 +458,9 @@ Menschen können helfen, die Ozeane zu schützen. Weniger Plastik, saubere Strä
 - [ ( )       (X)    ]  In den Ozeanen leben nur große Tiere.
 - [ (X)       ( )    ]  Menschen können helfen, die Ozeane besser zu schützen.
 
+
+
+@ADetails(BE=10;Leseverständnis)
 
 
 
