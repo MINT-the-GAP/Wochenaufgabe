@@ -534,7 +534,7 @@ Stilmittel: [[Personifikation|Vergleich|Neologismus|(Metapher)|Alliteration|Anap
 
 __$d)\;\;$__
 
-Der @markedyellow(wilde Wind) wirft Sand ins Tal,  \
+Der @markedyellow(wilde Wind wirft) Sand ins Tal,  \
 und fegt die Wege ohne Zahl.  \
 Die Krähen kreisen schwarz und weit,  \
 als suchten sie verlorne Zeit.  

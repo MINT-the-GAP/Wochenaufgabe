@@ -468,8 +468,6 @@ Menschen können helfen, die Ozeane zu schützen. Weniger Plastik, saubere Strä
 ## Gedichte
 
 
-
-
 **_Aufgabe 1:_** **Wähle** das korrekte Reimschema **aus** und **bestimme** das markierte Stilmittel.
 
 
@@ -501,9 +499,9 @@ Stilmittel: [[Vergleich|(Personifikation)|Wortneuschöpfung]]
 __$b)\;\;$__
 
 Der Regen fällt auf Baum und Stein,  \
-die Wolken ziehn so grau herein.  \
+die Wolken ziehen grau und schwer.  \
 Der Wind ist stark @markedyellow(wie ein Bär),  \
-und pfeift dabei durch Haus und Teer.
+und rauscht dabei zum Fenster rein.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Reimschema: [[Kreuzreim|Paarreim|(Umarmender Reim)]]
@@ -543,9 +541,9 @@ Stilmittel: [[Vergleich|(Personifikation)|Wortneuschöpfung]]
 __$d)\;\;$__
 
 Der Bach klingt leis im Abendlicht,  \
-ein Frosch ruft laut und fürchtet sich nicht.  \
+ein Frosch sitzt dort auf seinem Stuhl.  \
 Am Ufer steht ein @markedyellow(Sternenstuhl),  \
-darauf sitzt still der Mond so cool.
+darauf zeigt still der Mond sein Gesicht.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Reimschema: [[Kreuzreim|Paarreim|(Umarmender Reim)]]
@@ -564,8 +562,8 @@ Stilmittel: [[Vergleich|Personifikation|(Wortneuschöpfung)]]
 __$e)\;\;$__
 
 Die Katze schleicht durch hohen Klee,  \
-sie tappt @markedyellow(wie eine Fee).  \
-Dann springt sie flink zum Gartenzaun,  \
+dann springt sie flink zum Gartenzaun.  \
+Sie tappt @markedyellow(wie eine Fee),  \
 und schaut von dort ins Abendbraun.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
@@ -585,8 +583,8 @@ Stilmittel: [[(Vergleich)|Personifikation|Wortneuschöpfung]]
 __$f)\;\;$__
 
 Der Wintermorgen glitzert weiß,  \
-die Luft ist kalt, der Atem heiß.  \
-Am Fenster @markedyellow(tanzt der Frost ganz sacht),  \
+die Luft ist still in dunkler Nacht.  \
+Am Fenster @markedyellow(tanzt der Frost auf Eis),  \
 bis leis die erste Sonne lacht.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->

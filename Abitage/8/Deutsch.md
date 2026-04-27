@@ -336,7 +336,7 @@ __$a)\;\;$__
 
 __$b)\;\;$__ 
 
-@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Die Atmosphäre im Labor wirkte zunächst geheimnisvoll, aber keineswegs bedrohlich.`,`Die Atmosphäre im Labor wirkte zunächst geheimnisvoll, aber keineswegs bedrohlich.`)
+@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Die Athmosphäre im Labor wirkte zunächst geheimnisvoll, aber keineswegs bedrohlig.`,`Die Atmosphäre im Labor wirkte zunächst geheimnisvoll, aber keineswegs bedrohlich.`)
 
 @ADetails(BE=1;Rechtschreibung)
 
@@ -585,7 +585,7 @@ Metrum: [[Jambus|Trochäus|(Daktylus)|Anapäst]]
 
 __$e)\;\;$__
 
-@markedyellow(Stille Steine) säumen Wege,  \
+@markedyellow(Weiche Wiesen weisen Wege),  \
 über Feldern zieht der Wind.  \
 Leise leuchten nasse Stege,  \
 und im Dunkel singt ein Kind.  

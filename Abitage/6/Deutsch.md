@@ -334,7 +334,7 @@ __$a)\;\;$__
 
 __$b)\;\;$__ 
 
-@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Plözlich begann es zu regnen und alle rannten ins Gebäude.`,`Plötzlich begann es zu regnen, und alle rannten ins Gebäude.`)
+@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Der Schühler vergass seine Tasch im Klassenraum und bemerkte den Feler erst auf dem Heimweg.`,`Der Schüler vergaß seine Tasche im Klassenraum und bemerkte den Fehler erst auf dem Heimweg.`)
 
 @ADetails(BE=1;Rechtschreibung)
 
@@ -510,7 +510,7 @@ Stilmittel: [[(Vergleich)|Personifikation|Neologismus|Metapher|Alliteration]]
 __$c)\;\;$__
 
 Im Hof erklingt der Abendschein,  \
-der @markedyellow(wilde Wind) wird leis und sacht,  \
+der @markedyellow(wilde Wind weht) leis und sacht,  \
 und streift die Zweige durch die Nacht,  \
 bald schläft der letzte Vogel ein.  
 
