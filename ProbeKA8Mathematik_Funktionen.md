@@ -453,6 +453,9 @@ $$
 ## Teil ohne Taschenrechner - Allgemeineres
 
 
+
+
+
 folgt
 
 
@@ -464,21 +467,19 @@ folgt
 folgt
 
 
+
+
+
+
+
 ## Komplexaufgabe 2
-
-
-folgt
-
-
-
-## Komplexaufgabe 3
 
 
 Gegeben seien die Punkte $A(4|-2)$ und $B(-3|2)$ durch die die Funktion $f$ verläuft. Berechne den Flächeninhalt eines Vierecks, dass durch die Nullstelle und Polstelle von $g(x)=\dfrac{-1}{4-\frac{5}{4}x}+0,2$ und dem Schnittpunkt von $f$ mit $h(x)=\dfrac{2}{3} x + \dfrac{7}{4}$ beschrieben wird. Bei dem Viereck handelt es sich um ein Parallelogramm.
 
 
 
-<!-- data-solution-timer="1s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="900s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $A =$ [[  50/13  ]] FE @canvas
 @Algebrite.check(50/13)
 ************
@@ -628,3 +629,212 @@ $$
 \end{align*}
 $$
 ************
+
+
+## Komplexaufgabe 3
+
+
+
+Auf dem Schulhof soll eine trapezförmige Fläche gepflastert werden. In einer Planzeichnung entspricht eine Längeneinheit einem Meter.
+
+Die untere linke Ecke der Fläche wird durch die Nullstelle der Funktion  
+$g(x)=\dfrac{-2}{3-4x}+\dfrac{1}{3}$  
+festgelegt. Die untere rechte Ecke liegt auf der $x$-Achse genau unter der Polstelle von $g$.
+
+Die obere linke Ecke entsteht durch den Schnittpunkt der Funktion $f$ mit  
+$h(x)=\dfrac{3}{2}x+1$.
+
+Der Graph von $f$ verläuft durch die Punkte $A\left(-1\middle|\dfrac{17}{8}\right)$ und $B\left(3\middle|-\dfrac{7}{8}\right)$.  
+Die obere rechte Ecke liegt senkrecht über der Polstelle von $g$ auf gleicher Höhe wie der Schnittpunkt von $f$ und $h$.
+
+**Berechne** den Flächeninhalt der trapezförmigen Fläche.
+
+
+<!-- data-solution-timer="900s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$A =$ [[  125/96  ]] $\mathrm{m}^2$ @canvas
+@Algebrite.check(125/96)
+************
+Zuerst wird der Funktionsterm von $f$ bestimmt.
+
+$$
+\begin{align*}
+m_f &= \dfrac{-\dfrac{7}{8}-\dfrac{17}{8}}{3-(-1)} \\
+    &= \dfrac{-\dfrac{24}{8}}{4} \\
+    &= \dfrac{-3}{4} \\
+    &= -\dfrac{3}{4}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+f(x) &= -\dfrac{3}{4}x+n \\
+\dfrac{17}{8} &= -\dfrac{3}{4}\cdot(-1)+n \\
+\dfrac{17}{8} &= \dfrac{3}{4}+n \\
+\dfrac{17}{8} &= \dfrac{6}{8}+n \quad \left|-\dfrac{6}{8}\right. \\
+\dfrac{11}{8} &= n
+\end{align*}
+$$
+
+Damit gilt:
+
+$$
+\begin{align*}
+f(x)&=-\dfrac{3}{4}x+\dfrac{11}{8}
+\end{align*}
+$$
+
+Nun wird der Schnittpunkt von $f$ und $h$ berechnet.
+
+$$
+\begin{align*}
+-\dfrac{3}{4}x+\dfrac{11}{8} &= \dfrac{3}{2}x+1
+\end{align*}
+$$
+
+$$
+\begin{align*}
+-\dfrac{3}{4}x+\dfrac{11}{8} &= \dfrac{3}{2}x+1 \quad \left| \cdot 8 \right. \\
+-6x+11 &= 12x+8 \quad \left| -12x-11 \right. \\
+-18x &= -3 \quad \left| :(-18) \right. \\
+x &= \dfrac{1}{6}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+h\left(\dfrac{1}{6}\right)
+&= \dfrac{3}{2}\cdot\dfrac{1}{6}+1 \\
+&= \dfrac{3}{12}+1 \\
+&= \dfrac{1}{4}+1 \\
+&= \dfrac{5}{4}
+\end{align*}
+$$
+
+Der Schnittpunkt ist also:
+
+$$
+\begin{align*}
+S\left(\dfrac{1}{6}\middle|\dfrac{5}{4}\right)
+\end{align*}
+$$
+
+Nun werden Nullstelle und Polstelle von $g$ berechnet.
+
+$$
+\begin{align*}
+g(x)&=\dfrac{-2}{3-4x}+\dfrac{1}{3}
+\end{align*}
+$$
+
+Nullstelle:
+
+$$
+\begin{align*}
+0 &= \dfrac{-2}{3-4x}+\dfrac{1}{3} \quad \left|-\dfrac{1}{3}\right. \\
+-\dfrac{1}{3} &= \dfrac{-2}{3-4x}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+-\dfrac{1}{3}(3-4x)&=-2 \quad \left| \cdot (-3) \right. \\
+3-4x&=6 \quad \left| -3 \right. \\
+-4x&=3 \quad \left| :(-4) \right. \\
+x&=-\dfrac{3}{4}
+\end{align*}
+$$
+
+Damit ist die untere linke Ecke:
+
+$$
+\begin{align*}
+N\left(-\dfrac{3}{4}\middle|0\right)
+\end{align*}
+$$
+
+Polstelle:
+
+$$
+\begin{align*}
+3-4x &\stackrel{!}{=} 0 \\
+3 &= 4x \quad \left| :4 \right. \\
+\dfrac{3}{4} &= x
+\end{align*}
+$$
+
+Die untere rechte Ecke liegt also bei:
+
+$$
+\begin{align*}
+P\left(\dfrac{3}{4}\middle|0\right)
+\end{align*}
+$$
+
+Die obere rechte Ecke liegt senkrecht über $P$ auf gleicher Höhe wie $S$:
+
+$$
+\begin{align*}
+R\left(\dfrac{3}{4}\middle|\dfrac{5}{4}\right)
+\end{align*}
+$$
+
+Damit besitzt das Trapez die Eckpunkte:
+
+$$
+\begin{align*}
+N\left(-\dfrac{3}{4}\middle|0\right),\quad
+P\left(\dfrac{3}{4}\middle|0\right),\quad
+R\left(\dfrac{3}{4}\middle|\dfrac{5}{4}\right),\quad
+S\left(\dfrac{1}{6}\middle|\dfrac{5}{4}\right)
+\end{align*}
+$$
+
+Die untere Grundseite ist:
+
+$$
+\begin{align*}
+a &= \dfrac{3}{4}-\left(-\dfrac{3}{4}\right) \\
+  &= \dfrac{6}{4} \\
+  &= \dfrac{3}{2}
+\end{align*}
+$$
+
+Die obere Grundseite ist:
+
+$$
+\begin{align*}
+c &= \dfrac{3}{4}-\dfrac{1}{6} \\
+  &= \dfrac{9}{12}-\dfrac{2}{12} \\
+  &= \dfrac{7}{12}
+\end{align*}
+$$
+
+Die Höhe beträgt:
+
+$$
+\begin{align*}
+h &= \dfrac{5}{4}
+\end{align*}
+$$
+
+Nun wird der Flächeninhalt des Trapezes berechnet.
+
+$$
+\begin{align*}
+A &= \dfrac{a+c}{2}\cdot h \\
+  &= \dfrac{\dfrac{3}{2}+\dfrac{7}{12}}{2}\cdot\dfrac{5}{4} \\
+  &= \dfrac{\dfrac{18}{12}+\dfrac{7}{12}}{2}\cdot\dfrac{5}{4} \\
+  &= \dfrac{\dfrac{25}{12}}{2}\cdot\dfrac{5}{4} \\
+  &= \dfrac{25}{24}\cdot\dfrac{5}{4} \\
+  &= \dfrac{125}{96}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\Rightarrow\;\; A &= \dfrac{125}{96}\;\mathrm{m}^2
+\end{align*}
+$$
+************
+
+
