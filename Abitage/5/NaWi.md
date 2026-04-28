@@ -302,7 +302,7 @@ Vögel [->[(Federn)|trockene Haut|Fell|Chitin-Panzer]]  \
 
 __$a)\;\;$__ **Ordne** den Tonspuren der Vogelart **zu**.
 
-<!-- data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-show-partial-solution="true" data-randomize="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Blaumeise: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/4/42/Cyanistes_caeruleus_-_Eurasian_Blue_Tit_XC131316.ogg))]]  \
 Gartenrotschwanz: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/6/69/Phoenicurus_phoenicurus.ogg))]]\
 Amsel: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/7/7c/Turdus_merula_2.ogg))]]\

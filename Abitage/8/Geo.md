@@ -237,7 +237,7 @@ __$h)\;\;$__
 <div class="flex-child">
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-__$a)\;\;$__ Wie heißt das Binnenmeer zwischen Europa und Asien? \
+__$a)\;\;$__ Wie heißt der größte See der Welt? \
 [[     Kaspisches Meer     ]]
 
 @ADetails(BE=1;Topographie)
@@ -600,7 +600,7 @@ __$a)\;\;$__ Gib an, welches Gebirge im Norden von Indien existiert. \
 
 <div class="flex-child">
 
-__$b)\;\;$__ **Entscheide** wohin sich das typische erdnahe Hochdruckgebiet am Äquator bewegt.
+__$b)\;\;$__ **Entscheide** wohin sich das typische erdnahe Tiefdruckgebiet am Äquator bewegt.
 
 
 <!--data-randomize="true" data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->

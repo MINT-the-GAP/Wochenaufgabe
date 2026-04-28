@@ -306,8 +306,8 @@ __$g)\;\;$__ Wie heißt das Binnenmeer zwischen Afrika und Asien?\
 <div class="flex-child">
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-__$h)\;\;$__ Wie heißt das Gebirge, in dem der Tafelberg liegt?\
-[[     Kapgebirge     ]]
+__$h)\;\;$__ Wie heißt die Übergangszone zwischen der Sahara und der Trockensavanne im Süden der Sahara?\
+[[     Sahelzone     ]]
 
 @ADetails(BE=1;Topographie)
 
@@ -420,7 +420,7 @@ __$d)\;\;$__ **Gib** die größte Temperaturdifferenz **an**.
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-$\bar{T} = $ [[  3,6    ]] $^\circ C$
+$\Delta T = $ [[  3,6    ]] $^\circ C$
 
 
 @ADetails(BE=1;Klimadiagramm)
@@ -440,17 +440,6 @@ __$e)\;\;$__ **Gib** die Niederschlagsdifferenz zwischen August und April **an**
 </div>
 
 
-<div class="flex-child">
-
-__$f)\;\;$__ **Benenne** die Art des Klimas.
-
-
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-[[  wechselfeuchte Tropen  ]]
-
-
-@ADetails(BE=1;Klimadiagramm)
-</div>
 
 
 
@@ -531,7 +520,7 @@ __$f)\;\;$__ **Benenne** die Art des Klimas.
 
 
 <!-- data-randomize="true" data-show-partial-solution="true" data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-Afrika ist ein Kontinent mit großen Vorräten an wertvollen [->[(Rohstoffen)]]. Dazu gehören zum Beispiel Erdöl, Erdgas, Gold, Diamanten, Kupfer und [->[(Kobalt)]]. Viele dieser Stoffe werden weltweit benötigt. Kobalt spielt heute eine wichtige Rolle bei der Herstellung von [->[(Batterien)]], zum Beispiel für Elektroautos, Smartphones und Laptops. Auch [->[(Coltan)]] ist wichtig, weil daraus Metalle gewonnen werden, die in moderner Elektronik verwendet werden. \
+Afrika ist ein Kontinent mit großen Vorräten an wertvollen [->[(Rohstoffen)]]. Dazu gehören zum Beispiel [->[(Erdöl)]], Erdgas, Gold, Diamanten, Kupfer und Kobalt. Viele dieser Stoffe werden weltweit benötigt. Kobalt spielt heute eine wichtige Rolle bei der Herstellung von [->[(Batterien)]], zum Beispiel für Elektroautos, Smartphones und Laptops. Auch [->[(Coltan)]] ist wichtig, weil daraus Metalle gewonnen werden, die in moderner Elektronik verwendet werden. \
 Eigentlich könnte der Reichtum an Bodenschätzen vielen Ländern beim [->[(Aufbau)]] ihrer Wirtschaft helfen. Einnahmen aus dem Rohstoffverkauf könnten in Straßen, Schulen, Krankenhäuser und die [->[(Versorgung)]] der Bevölkerung investiert werden. Doch Rohstoffe führen nicht automatisch zu Wohlstand. In manchen Regionen verschärfen sie sogar bestehende Probleme. \
 Ein bekanntes Beispiel ist die Demokratische Republik [->[(Kongo)]]. Vor allem im [->[(Osten)]] des Landes kommt es seit vielen Jahren zu gewaltsamen Auseinandersetzungen. Dort versuchen bewaffnete Gruppen, wichtige [->[(Minen)]] und Handelswege zu kontrollieren. Wer diese Gebiete beherrscht, kann Rohstoffe verkaufen und damit Waffen, Ausrüstung und Kämpfer [->[(finanzieren)]]. Deshalb spricht man oft davon, dass Bodenschätze Konflikte anheizen können. \
 Trotzdem wäre es zu einfach, nur die Rohstoffe für die Gewalt verantwortlich zu machen. Auch schwache staatliche [->[(Strukturen)]], Machtkämpfe, Armut, Fluchtbewegungen und Streit um [->[(Land)]] und Wasser spielen eine wichtige Rolle. Häufig fehlt es an Sicherheit, an funktionierenden Behörden und an gerechter [->[(Verteilung)]] der Einnahmen. So profitieren oft nur wenige Menschen, während viele andere in [->[(Armut)]] leben. \
