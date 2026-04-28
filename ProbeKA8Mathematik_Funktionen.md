@@ -21,7 +21,7 @@ author: Martin Lommatzsch
 
 <br>
 
-> Letztes Update am 04.11.2025 gegen 18 Uhr
+> Letztes Update am 28.04.2026 gegen 18 Uhr
 
 <br>
 
@@ -474,7 +474,157 @@ folgt
 ## Komplexaufgabe 3
 
 
+Gegeben seien die Punkte $A(4|-2)$ und $B(-3|2)$ durch die die Funktion $f$ verläuft. Berechne den Flächeninhalt eines Vierecks, dass durch die Nullstelle und Polstelle von $g(x)=\dfrac{-1}{4-\frac{5}{4}x}+0,2$ und dem Schnittpunkt von $f$ mit $h(x)=\dfrac{2}{3} x + \dfrac{7}{4}$ beschrieben wird. Bei dem Viereck handelt es sich um ein Parallelogramm.
 
 
-folgt
 
+<!-- data-solution-timer="1s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$A =$ [[  50/13  ]] FE @canvas
+@Algebrite.check(50/13)
+************
+Zuerst wird der Funktionsterm von $f$ bestimmt.
+
+$$
+\begin{align*}
+m_f &= \dfrac{2-(-2)}{-3-4} \\
+    &= \dfrac{4}{-7} \\
+    &= -\dfrac{4}{7}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+f(x) &= -\dfrac{4}{7}x+n \\
+-2 &= -\dfrac{4}{7}\cdot 4+n \\
+-2 &= -\dfrac{16}{7}+n \quad \left|+\dfrac{16}{7}\right. \\
+\dfrac{2}{7} &= n
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\Rightarrow\;\; f(x)&=-\dfrac{4}{7}x+\dfrac{2}{7}
+\end{align*}
+$$
+
+Nun wird der Schnittpunkt von $f$ und $h$ berechnet.
+
+$$
+\begin{align*}
+-\dfrac{4}{7}x+\dfrac{2}{7} &= \dfrac{2}{3}x+\dfrac{7}{4}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+-48x+24 &= 56x+147 \quad \left| -56x-24 \right. \\
+-104x &= 123 \quad \left| :(-104) \right. \\
+x &= -\dfrac{123}{104}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+h\left(-\dfrac{123}{104}\right)
+&= \dfrac{2}{3}\cdot\left(-\dfrac{123}{104}\right)+\dfrac{7}{4} \\
+&= -\dfrac{41}{52}+\dfrac{91}{52} \\
+&= \dfrac{25}{26}
+\end{align*}
+$$
+
+Damit gilt:
+
+$$
+\begin{align*}
+S\left(-\dfrac{123}{104}\middle|\dfrac{25}{26}\right)
+\end{align*}
+$$
+
+Nun werden Nullstelle und Polstelle von $g$ berechnet.
+
+$$
+\begin{align*}
+g(x) &= \dfrac{-1}{4-\frac{5}{4}x}+\dfrac{1}{5}
+\end{align*}
+$$
+
+Nullstelle:
+
+$$
+\begin{align*}
+0 &= \dfrac{-1}{4-\frac{5}{4}x}+\dfrac{1}{5}
+\quad \left|-\dfrac{1}{5}\right. \\
+-\dfrac{1}{5} &= \dfrac{-1}{4-\frac{5}{4}x}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+-\left(4-\dfrac{5}{4}x\right) &= -5 \\
+-4+\dfrac{5}{4}x &= -5 \quad \left| +4 \right. \\
+\dfrac{5}{4}x &= -1 \quad \left| \cdot \dfrac{4}{5} \right. \\
+x &= -\dfrac{4}{5}
+\end{align*}
+$$
+
+Also gilt:
+
+$$
+\begin{align*}
+N\left(-\dfrac{4}{5}\middle|0\right)
+\end{align*}
+$$
+
+Polstelle:
+
+$$
+\begin{align*}
+4-\dfrac{5}{4}x &\stackrel{!}{=} 0 \\
+4 &= \dfrac{5}{4}x \quad \left| \cdot \dfrac{4}{5} \right. \\
+\dfrac{16}{5} &= x
+\end{align*}
+$$
+
+Für das Parallelogramm wird die Polstelle als Punkt auf der $x$-Achse verwendet:
+
+$$
+\begin{align*}
+P\left(\dfrac{16}{5}\middle|0\right)
+\end{align*}
+$$
+
+Die Grundseite des Parallelogramms liegt auf der $x$-Achse.
+
+$$
+\begin{align*}
+a &= \dfrac{16}{5}-\left(-\dfrac{4}{5}\right) \\
+  &= \dfrac{20}{5} \\
+  &= 4
+\end{align*}
+$$
+
+Die Höhe entspricht dem Abstand des Schnittpunktes $S$ von der $x$-Achse.
+
+$$
+\begin{align*}
+h_a &= \dfrac{25}{26}
+\end{align*}
+$$
+
+Damit ergibt sich der Flächeninhalt:
+
+$$
+\begin{align*}
+A &= a \cdot h_a \\
+  &= 4 \cdot \dfrac{25}{26} \\
+  &= \dfrac{100}{26} \\
+  &= \dfrac{50}{13}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\Rightarrow\;\; A &= \dfrac{50}{13}\;\text{FE}
+\end{align*}
+$$
+************
