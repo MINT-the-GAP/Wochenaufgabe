@@ -400,27 +400,24 @@ __$c)\;\;$__
 
 
 
-$a)\;\;$ WÄHREND DER PRÄSENTATION ERLÄUTERTE JONAS PRÄZISE DIE UNTERSCHIEDLICHEN ERGEBNISSE DES EXPERIMENTS.
+$a)\;\;$ TROTZ DES STARKEN REGENS VERLIEF DER AUSFLUG ÜBERRASCHEND ANGENEHM.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-[[    Während der Präsentation erläuterte Jonas präzise die unterschiedlichen Ergebnisse des Experiments.    ]]
+[[    Trotz des starken Regens verlief der Ausflug überraschend angenehm.    ]]
 
 
-@ADetails(BE=2;Klein- und Großschreibung)
-
-$b)\;\;$ TROTZ DER AUẞERGEWÖHNLICHEN UMSTÄNDE REAGIERTE DIE SCHÜLERIN BEMERKENSWERT GELASSEN.
-
+$b)\;\;$ DIE AUFGEREGTEN ZUSCHAUER WARTETEN GESPANNT AUF DIE SIEGEREHRUNG.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-[[    Trotz der außergewöhnlichen Umstände reagierte die Schülerin bemerkenswert gelassen.    ]]
+[[    Die aufgeregten Zuschauer warteten gespannt auf die Siegerehrung.    ]]
 
 
-@ADetails(BE=2;Klein- und Großschreibung)
-
-$c)\;\;$ NACHDEM DER HAUSMEISTER EINGETROFFEN WAR, KONNTE DIE BESCHÄDIGTE TÜR ENDLICH REPARIERT WERDEN.
+$c)\;\;$ WEGEN DES PLÖTZLICHEN GEWITTERS MUSSTEN WIR DIE FAHRRADTOUR ABBRECHEN.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-[[    Nachdem der Hausmeister eingetroffen war, konnte die beschädigte Tür endlich repariert werden.    ]]
+[[    Wegen des plötzlichen Gewitters mussten wir die Fahrradtour abbrechen.    ]]
+
+
 
 
 @ADetails(BE=2;Klein- und Großschreibung)
