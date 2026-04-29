@@ -613,7 +613,7 @@ __$f)\;\;$__
 
 @markedyellow(Noch) bewahrt der See das Licht,  \
 @markedyellow(Noch) zerfällt die Stille nicht,  \
-doch am Ufer klingt Gesang.  \
+denn am Ufer klingt Gesang  \
 und im Schilf verhallt ein Klang.  
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
