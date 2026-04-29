@@ -456,7 +456,150 @@ $$
 
 
 
+
+
+
+
+
+
+
+**_Aufgabe 1:_** Strahlensatz
+
 folgt
+
+---
+
+
+---
+
+
+
+
+**_Aufgabe 2:_** Gleichungssystem
+
+
+folgt
+
+---
+
+
+---
+
+
+
+**_Aufgabe 3:_** Gegeben sei die folgende Ergebnismenge: \
+$\{ 83,46,55,64,91,75,61,39,84,55,47 \}$
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+__$a)\;\;$__ **Gib** die Spannweite **an**.\
+$R=$ [[ 52  ]]
+*******************
+$R = x_{max} - x_{min} = 91 - 39 = 52$
+*******************
+
+
+</div>
+<div class="flex-child">
+
+__$b)\;\;$__ **Gib** den Median **an**.\
+$\tilde{x}=$ [[  61  ]]
+*******************
+$\{ 39,46,47,55,55,\textcolor{red}{61},64,75,83,84,91 \}$
+*******************
+
+
+</div>
+<div class="flex-child">
+
+__$c)\;\;$__ **Gib** das arithmetische Mittel gerundet auf drei Nachkommastellen **an**.\
+$\bar{x}=$ [[  63,636  ]]
+
+
+</div> 
+
+</section>
+
+
+---
+
+
+---
+
+
+
+**_Aufgabe 4:_** In den dargestellten Gefäßen befinden sich Kugeln unterschiedlicher Farben. 
+
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+__$a)\;\;$__ 
+
+<!-- style="width:350px" -->
+![](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/Kap7/urne9.png)
+
+
+</div>
+<div class="flex-child">
+
+
+**Gib** die absolute Häufigkeit der roten Kugeln **an**.\
+$\#(R)=$ [[  8  ]]
+
+**Gib** die relative Häufigkeit der blauen Kugeln **an**.\
+$p(B)=$ [[ 11/23  ]]
+@Algebrite.check(11/23)
+
+**Gib** die Wahrscheinlichkeit **an**, eine grüne Kugel zu ziehen.\
+$P(G)=$ [[ 4/23  ]]
+@Algebrite.check(4/23)
+
+**Gib** die Chance **an**, eine rote Kugel im Vergleich zu den anderen Kugeln zu ziehen.\
+$R(R)=$ [[  8:15  ]]
+
+
+</div>
+</section>
+
+---
+
+
+
+<section class="flex-container">
+
+<div class="flex-child">
+__$b)\;\;$__ 
+
+<!-- style="width:350px" -->
+![](https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/Repetitorium/Kap7/urne10.png)
+
+
+</div>
+<div class="flex-child">
+
+
+**Gib** die absolute Häufigkeit der grünen Kugeln **an**.\
+$\#(G)=$ [[  4  ]]
+
+**Gib** die relative Häufigkeit der blauen Kugeln **an**.\
+$p(B)=$ [[  4/10  ]]
+@Algebrite.check(4/10)
+
+**Gib** die Wahrscheinlichkeit **an**, eine grüne Kugel zu ziehen.\
+$P(G)=$ [[  4/10  ]]
+@Algebrite.check(4/10)
+
+**Gib** die Chance **an**, eine rote Kugel im Vergleich zu den anderen Kugeln zu ziehen.\
+$R(R)=$ [[  2:8  ]]
+
+
+</div>
+</section>
+
 
 
 
@@ -465,6 +608,17 @@ folgt
 
 
 folgt
+
+Plan:
+
+Koordinatensystem Geometrie 
+
+Ablesen
+
+orthogonal und Schnittpunkte
+
+
+
 
 
 
