@@ -272,7 +272,7 @@ __$b)\;\;$__
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
-@diktat(`Während der Präsentation erläuterte Jonas präzise die unterschiedlichen Ergebnisse des Experiments.`)
+@diktat(`Während der Präsentation erläuterte Jonas präzise die unterschiedlichen Ergebnisse der Studie.`)
 
 @ADetails(BE=2;Diktat)
 
@@ -333,7 +333,7 @@ __$c)\;\;$__
 
 __$a)\;\;$__ 
 
-@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Während der Diskussion formulierte Jonas seine Argumente ausergewöhnlich präzise.`,`Während der Diskussion formulierte Jonas seine Argumente außergewöhnlich präzise.`)
+@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Während der Disskusion formulierte Jonas seine Argomente ausergewöhnlich präzise.`,`Während der Diskussion formulierte Jonas seine Argumente außergewöhnlich präzise.`)
 
 @ADetails(BE=1;Rechtschreibung)
 
@@ -382,7 +382,7 @@ __$b)\;\;$__
 
 __$c)\;\;$__ 
 
-@orthography(`<!-- data-solution-timer="60s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`der trainer erklärte ihr habt heute sehr konzentriert gearbeitet und deshalb das spiel verdient gewonnen`,`Der Trainer erklärte: „Ihr habt heute sehr konzentriert gearbeitet und deshalb das Spiel verdient gewonnen.“`)
+@orthography(`<!-- data-solution-timer="60s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`der trainer erklärte ihr habt heute sehr engagiert gespielt und deshalb das turnier verdient gewonnen`,`Der Trainer erklärte: „Ihr habt heute sehr engagiert gespielt und deshalb das Turnier verdient gewonnen.“`)
 
 @ADetails(BE=1;Wörtliche Rede)
 
@@ -444,14 +444,11 @@ $c)\;\;$ NACHDEM DER HAUSMEISTER EINGETROFFEN WAR, KONNTE DIE BESCHÄDIGTE TÜR 
 
 <h2> Die Industrialisierung </h2>
 
-Die Industrialisierung bezeichnet einen tiefgreifenden Wandel von Wirtschaft, Arbeit und Gesellschaft. Sie begann in Großbritannien im späten 18. Jahrhundert und breitete sich im 19. Jahrhundert auf viele andere Länder Europas sowie Nordamerikas aus. Auch die deutschen Staaten wurden davon stark verändert. Statt vieler kleiner Handwerksbetriebe entstanden immer mehr Fabriken, in denen mit Maschinen gearbeitet wurde. Dadurch konnten Waren schneller und in größerer Menge hergestellt werden als zuvor. \
-Vor der Industrialisierung lebten viele Menschen auf dem Land. Sie arbeiteten in der Landwirtschaft oder in handwerklichen Berufen. Produziert wurde oft in kleinen Werkstätten oder zu Hause. Mit der Industrialisierung veränderte sich diese Arbeitswelt grundlegend. Maschinen übernahmen einen Teil der Arbeit, und die Produktion verlagerte sich in Fabrikgebäude. Besonders wichtig waren dabei neue technische Entwicklungen wie die verbesserte Dampfmaschine. \
-Die Dampfmaschine wurde zu einem Symbol der neuen Zeit. Sie trieb Maschinen in Fabriken an, pumpte Wasser aus Bergwerken und bewegte später auch Lokomotiven. Dadurch konnten Rohstoffe, Waren und Menschen viel schneller transportiert werden als zuvor. Die Eisenbahn beschleunigte den Wandel zusätzlich. Städte wurden miteinander verbunden, Märkte wuchsen, und der Handel nahm stark zu. \
-Mit der Industrialisierung entstanden neue Industriegebiete. In Deutschland gewannen etwa das Ruhrgebiet, aber auch Regionen in Sachsen an Bedeutung. Dort entwickelten sich Textilindustrie, Maschinenbau und andere Industriezweige. Städte wuchsen rasch, weil viele Menschen vom Land in die Stadt zogen. Sie hofften auf Arbeit und ein besseres Leben. Diese Entwicklung nennt man Urbanisierung. \
-Das Leben in den Städten war jedoch für viele Menschen hart. Fabrikarbeit bedeutete oft lange Arbeitszeiten, wenig Lohn und anstrengende Bedingungen. Auch Kinder arbeiteten in Fabriken oder Bergwerken. Wohnungen waren häufig eng, dunkel und unhygienisch. In schnell wachsenden Städten fehlten anfangs oft sauberes Wasser, Kanalisation und ausreichend Wohnraum. So entstand die sogenannte soziale Frage: Wie sollte man mit Armut, schlechten Arbeitsbedingungen und sozialer Ungleichheit umgehen? \
-Auf diese Probleme reagierten verschiedene Gruppen unterschiedlich. Unternehmer wollten Gewinne erzielen und ihre Betriebe ausbauen. Arbeiterinnen und Arbeiter begannen, sich zu organisieren, um ihre Lage zu verbessern. Es entstanden Gewerkschaften, später auch politische Bewegungen, die sich für mehr Rechte der Arbeitenden einsetzten. Nach und nach wurden Schutzgesetze beschlossen, zum Beispiel zur Begrenzung der Kinderarbeit oder zur Verbesserung der sozialen Absicherung. \
-Die Industrialisierung brachte also nicht nur Nachteile. Sie ermöglichte auch technischen Fortschritt, bessere Verkehrswege und eine größere Warenvielfalt. Viele Menschen konnten langfristig von neuen Berufen, wachsendem Wissen und modernen Erfindungen profitieren. Gleichzeitig zeigte sich aber, dass technischer Fortschritt allein nicht automatisch zu gerechteren Lebensbedingungen führt. \
-Bis heute prägt die Industrialisierung unsere Welt. Fabrikarbeit, Massenproduktion, Bahnnetze und die enge Verbindung von Technik, Wirtschaft und Gesellschaft haben ihren Ursprung in dieser Zeit. Wer die Industrialisierung versteht, erkennt besser, warum moderne Gesellschaften so aufgebaut sind, wie wir sie heute kennen.
+Die Industrialisierung bezeichnet einen tiefgreifenden Wandel von Wirtschaft, Arbeit und Gesellschaft. Sie begann in Großbritannien im späten 18. Jahrhundert und breitete sich im 19. Jahrhundert in vielen anderen Länder Europas sowie in Nordamerika aus. Auch die deutschen Staaten wurden von der Industrialisierung stark verändert. Statt vieler kleiner Handwerksbetriebe entstanden immer mehr Fabriken, in denen mit Maschinen gearbeitet wurde, sodass die Waren schneller und in größerer Menge hergestellt werden konnten als zuvor. \
+Vor der Industrialisierung lebten viele Menschen auf dem Land. Sie arbeiteten in der Landwirtschaft oder in handwerklichen Berufen. Produziert wurde in kleinen Werkstätten oder zu Hause. Mit der Industrialisierung veränderte sich dies nun grundlegend. Besonders wichtig waren dabei Innovationen wie die verbesserte Dampfmaschine. Sie wurde zu einem Symbol der neuen Zeit. Die Dampfmaschine trieb Maschinen in Fabriken an, pumpte Wasser aus Bergwerken und bewegte später auch Lokomotiven. Dadurch konnten Rohstoffe, Waren und Menschen viel schneller transportiert werden als zuvor. Die Eisenbahn beschleunigte den Wandel zusätzlich. Städte wurden miteinander verbunden, Märkte wuchsen, und der Handel nahm stark zu. \
+Mit der Industrialisierung entstanden erstmals Industriegebiete wie das Ruhrgebiet oder die Textilindustrie in Sachsen. Städte wuchsen rasch, weil viele Menschen vom Land in die Stadt zogen. Sie hofften auf Arbeit und ein besseres Leben. Diese Entwicklung nennt man Urbanisierung. \
+Das Leben in den Städten war jedoch für viele Menschen hart, denn die Fabrikarbeit brachte anstrengende Bedingungen mit sich: lange Arbeitszeiten, wenig Lohn und körperliche Belastung. Selbst Kinder mussten in Fabriken oder Bergwerken arbeiten. In den schnell wachsenden Städten fehlten anfangs oft sauberes Wasser, Kanalisation und ausreichend Wohnraum. Die Wohnungen waren häufig eng, dunkel und unhygienisch. Dieses soziale Elend gipfelt in der sogenannte sozialen Frage: Wie sollte man mit Armut, schlechten Arbeitsbedingungen und sozialer Ungleichheit umgehen? \
+Auf diese Probleme reagierten verschiedene Gruppen unterschiedlich. Unternehmer wollten Gewinne erzielen und ihre Betriebe ausbauen. Arbeiterinnen und Arbeiter begannen, sich zu organisieren, um ihre Lage zu verbessern. Es entstanden Gewerkschaften, später auch politische Bewegungen, die sich für mehr Rechte der Arbeiterklasse einsetzten. Nach und nach wurden Schutzgesetze beschlossen und umgesetzt, zum Beispiel zur Begrenzung der Kinderarbeit oder zur Verbesserung der sozialen Absicherung, was im Allgemeinen zu besseren Lebensbedingungen führte. Die Industrialisierung brachte also nicht nur Nachteile, sondern sie ermöglichte auch technischen Fortschritt, bessere Verkehrswege und eine größere Warenvielfalt. Viele Menschen konnten langfristig von neuen Berufen, wachsendem Wissen und modernen Erfindungen profitieren. Bis heute prägt die Industrialisierung unsere Welt. Fabrikarbeit, Massenproduktion, Bahnnetze und die enge Verbindung von Technik, Wissenschaft, Wirtschaft und Gesellschaft haben ihren Ursprung in dieser Zeit. Wer die Industrialisierung versteht, erkennt die Parallelen zur heutigen Zeit.  Die Geschichte zeigt, dass technischer Fortschritt allein nicht automatisch zu gerechten oder besseren Lebensbedingungen aller führt.
 
 <!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 - [(wahr)   (falsch)]
@@ -615,12 +612,12 @@ Metrum: [[Jambus|(Trochäus)|Daktylus|Anapäst]]
 __$f)\;\;$__
 
 @markedyellow(Noch) bewahrt der See das Licht,  \
-am Ufer klingt ein ferner Sang.  \
 @markedyellow(Noch) zerfällt die Stille nicht,  \
-im Schilf verhallt ein später Klang.  
+doch am Ufer klingt Gesang.  \
+und im Schilf verhallt ein Klang.  
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-Reimschema: [[Paarreim|(Kreuzreim)|Umarmender Reim]]
+Reimschema: [[(Paarreim)|Kreuzreim|Umarmender Reim]]
 
 @ADetails(BE=1;Reimschemata)
 
@@ -630,7 +627,7 @@ Stilmittel: [[Personifikation|Vergleich|Neologismus|Metapher|Alliteration|(Anaph
 @ADetails(BE=1;Stilmittel)
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-Metrum: [[(Jambus)|Trochäus|Daktylus|Anapäst]]
+Metrum: [[Jambus|(Trochäus)|Daktylus|Anapäst]]
 
 @ADetails(BE=1;Metrum)
 
@@ -694,7 +691,7 @@ __$i)\;\;$__
 
 Im Hof erwacht ein spätes Licht,  \
 und aus dem offenen Fenster @markedyellow(klingt  \
-ein Lied, das in die Gassen sinkt),  \
+ein Lied), @markedyellow(das in die Gassen sinkt),  \
 und leis im Pflaster weiterbricht.  
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->

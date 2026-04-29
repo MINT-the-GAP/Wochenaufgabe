@@ -112,7 +112,7 @@ __$c)\;\;$__ Präposition
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
-@mark(Trotz) des Regens gingen wir @mark(ohne) Schirm zum Bahnhof.
+@mark(Trotz) des Regens gingen wir @mark(ohne) Schirm @mark(zum) Bahnhof.
 @TextmarkerQuiz
 </div>
 
@@ -341,7 +341,7 @@ __$a)\;\;$__
 
 __$b)\;\;$__ 
 
-@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Die Schülerin war überrascht, weil sie mit einem so schwirigen Test gerechnet hatte.`,`Die Schülerin war überrascht, weil sie mit einem so schwierigen Test gerechnet hatte.`)
+@orthography(`<!-- data-solution-timer="90s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Die Schülerin war überascht, weil sie nich mit einem so schwirigen Test gerechnet hatte.`,`Die Schülerin war überrascht, weil sie nicht mit einem so schwierigen Test gerechnet hatte.`)
 
 @ADetails(BE=1;Rechtschreibung)
 
@@ -432,14 +432,15 @@ $c)\;\;$ WEGEN DES PLÖTZLICHEN GEWITTERS MUSSTEN WIR DIE FAHRRADTOUR ABBRECHEN.
 
 <h2> Die Hanse </h2>
 
-Die Hanse war ein Zusammenschluss von Kaufleuten und später auch von Städten im Mittelalter. Ihr Ziel war es, den Handel sicherer und erfolgreicher zu machen. Besonders wichtig war die Hanse in Norddeutschland und im Ostseeraum. Sie entstand nicht plötzlich an einem einzigen Ort, sondern entwickelte sich nach und nach aus den Interessen von Kaufleuten, die auf weiten Handelswegen unterwegs waren. \
-Im Mittelalter war Reisen oft gefährlich. Straßen waren schlecht, Räuber bedrohten Händler, und auf See gab es Stürme sowie Piraten. Wer Waren transportierte, brauchte Schutz und verlässliche Partner. Deshalb schlossen sich Kaufleute zusammen. Sie unterstützten einander, reisten in Gruppen und handelten nach gemeinsamen Regeln. Aus diesen Verbindungen entstand die Hanse. \
-Später spielten nicht nur einzelne Kaufleute, sondern ganze Städte eine wichtige Rolle. Viele Hansestädte lagen an der Nord- und Ostsee oder an wichtigen Flüssen. Zu den bekanntesten gehörten Lübeck, Hamburg, Bremen, Rostock und Wismar. Lübeck galt als besonders bedeutend und wurde oft als „Königin der Hanse“ bezeichnet. Die Stadt war ein wichtiger Mittelpunkt des Handels im Ostseeraum. \
-Die Hanse handelte mit vielen verschiedenen Waren. Dazu gehörten Salz, Hering, Pelze, Wachs, Holz, Getreide und Tuch. Salz war wichtig, weil man damit Lebensmittel haltbar machen konnte. Hering war ein beliebtes Nahrungsmittel, besonders in der Fastenzeit. Holz und Wachs kamen häufig aus dem Osten, während Tuch aus anderen Regionen geliefert wurde. So verband die Hanse viele Länder und Wirtschaftsräume miteinander. \
-Für ihren Handel nutzten die Kaufleute Schiffe, vor allem die Kogge. Dieses Handelsschiff war robust und konnte viele Waren transportieren. Außerdem unterhielt die Hanse sogenannte Kontore, also feste Handelsniederlassungen im Ausland. Wichtige Kontore gab es zum Beispiel in London, Bergen, Brügge und Nowgorod. Dort wohnten und arbeiteten Händler, lagerten Waren und knüpften neue Geschäftsbeziehungen. \
-Die Hanse war jedoch kein Staat. Sie hatte keinen König und kein gemeinsames Staatsgebiet. Entscheidungen wurden auf Versammlungen getroffen, den Hansetagen. Dort besprachen Vertreter der Städte gemeinsame Regeln, Zölle, Handelsrechte und Schutzmaßnahmen. Die Hanse konnte also viel Einfluss ausüben, obwohl sie kein einheitliches Reich war. \
-Im 14. und 15. Jahrhundert war die Hanse besonders mächtig. Später verlor sie an Bedeutung. Dafür gab es mehrere Gründe: Andere Staaten wurden stärker, neue Handelswege entstanden, und die Konkurrenz nahm zu. Auch politische Veränderungen in Europa spielten eine Rolle. Dennoch blieb die Hanse in der Geschichte wichtig, weil sie den Handel im Norden Europas über lange Zeit geprägt hat. \
-Noch heute erinnern viele Städte an ihre hansische Vergangenheit. Manche tragen den Titel „Hansestadt“ im Namen. Alte Speicher, Häfen und Backsteingebäude zeigen, wie eng das Leben vieler Städte früher mit dem Handel verbunden war.
+Die Hanse war ein Zusammenschluss von Kaufleuten und später auch von Städten im Mittelalter. Ihr Ziel war es, den Handel sicherer und erfolgreicher abzuwickeln. Besonders wichtig war die Hanse in Norddeutschland und im Ostseeraum. Sie entstand nicht plötzlich an einem einzigen Ort, sondern entwickelte sich nach und nach aus den Interessen von Kaufleuten, die auf weiten Handelswegen verkehrten. Aber im Mittelalter war das Reisen oft gefährlich. Straßen waren schlecht ausgebaut, Räuber machten sie unsicher, und auf See gab es Stürme sowie Piraten. Wer Waren transportierte, brauchte Schutz und verlässliche Partner. Deshalb schlossen sich oft Kaufleute zusammen. Sie unterstützten einander, indem sie in Gruppen  reisten und nach gemeinsamen Regeln handelten. Aus diesen Verbindungen entstand die Hanse. \
+Später spielten nicht nur einzelne Kaufleute, sondern ganze Städte eine wichtige Rolle. Viele Hansestädte lagen an der Nord- und Ostsee oder an wichtigen schiffbaren Flüssen wie dem Rhein. Zu den bekanntesten gehörten Lübeck, Hamburg, Bremen, Rostock, Wismar und Köln. Lübeck galt als besonders bedeutend und wurde oft als „Königin der Hanse“ bezeichnet. Die Stadt war das Zentrum des Handels im Ostseeraum. \
+Die Hanse handelte mit vielen verschiedenen Waren. Dazu gehörten Salz, Hering, Pelze, Wachs, Holz, Getreide und Tuch. Das Salz wurde benötigt, um Lebensmittel damit haltbar zu machen. Hering war ein beliebtes Nahrungsmittel, besonders in der Fastenzeit. Holz und Wachs kamen häufig aus dem Osten, während Tuch aus anderen Regionen stammte. An den Handelsgütern lässt sich erkennen, dass die Hanse viele Länder und Wirtschaftsräume miteinander verband. \
+Für ihren Handel nutzten die Kaufleute Schiffe, vor allem die Kogge. Dieses Handelsschiff war robust und konnte viele Waren transportieren. Außerdem unterhielt die Hanse sogenannte Kontore, was feste Handelsniederlassungen im Ausland sind. Solche Kontore gab es zum Beispiel in London, Bergen, Brügge und Nowgorod. In diesen Städten wohnten und arbeiteten Händler, lagerten Waren und knüpften neue Geschäftsbeziehungen. \
+Die Hanse war kein Staat, sie hatte keinen König und kein gemeinsames Staatsgebiet. Entscheidungen wurden auf Versammlungen getroffen, den Hansetagen. Dort besprachen Vertreter der Städte gemeinsame Regeln, Zölle, Handelsrechte und Schutzmaßnahmen und setzten diese fest. Die Hanse übte großen Einfluss aus, da sie eine starke Wirtschaftmacht besaß. \
+Im 14. und 15. Jahrhundert war die Hanse besonders mächtig. Dass sie später an Bedeutung verlor, hatte mehrere Gründe: Andere Staaten wurden stärker, neue Handelswege entstanden, die Konkurrenz nahm zu und auch politische Veränderungen in Europa spielten eine Rolle. Dennoch blieb die Hanse in der Geschichte wichtig, weil sie den Handel im Norden Europas über lange Zeit prägte. \
+Noch heute erinnern viele Städte an ihre hanseatische Vergangenheit und einige tragen den Titel „Hansestadt“ im Namen. Alte Speicher, Hafenanlagen und Backsteingebäude zeigen, wie eng das Leben in den Städten früher mit dem Handel verbunden war.
+
+
 
 <!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 - [(wahr)   (falsch)]
@@ -449,7 +450,7 @@ Noch heute erinnern viele Städte an ihre hansische Vergangenheit. Manche tragen
 - [ (X)       ( )    ]  Lübeck war eine besonders bedeutende Hansestadt.
 - [ ( )       (X)    ]  Die Hanse handelte nur mit Salz und sonst mit keinen anderen Waren.
 - [ (X)       ( )    ]  Eine Kogge war ein Handelsschiff.
-- [ (X)       ( )    ]  In London und Bergen gab es hansische Kontore.
+- [ (X)       ( )    ]  In London und Bergen gab es hanseatische Kontore.
 - [ ( )       (X)    ]  Auf den Hansetagen trafen sich nur Könige und Fürsten.
 - [ (X)       ( )    ]  Im 14. und 15. Jahrhundert war die Hanse besonders einflussreich.
 - [ (X)       ( )    ]  Noch heute erinnern manche Städte mit ihrem Namen an die Hanse.

@@ -273,7 +273,7 @@ __$b)\;\;$__
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
-@diktat(`Am Nachmittag besucht meine Cousine regelmäßig die Stadtbibliothek.`)
+@diktat(`Am Nachmittag besucht meine Schwester regelmäßig die Stadtbibliothek.`)
 
 @ADetails(BE=2;Diktat)
 
@@ -437,9 +437,9 @@ Das Weltall, auch Universum genannt, ist unvorstellbar groß. Es umfasst alles, 
 Unsere Erde ist ein Planet. Sie bewegt sich gemeinsam mit sieben weiteren Planeten um die Sonne. Diese Gruppe nennt man Sonnensystem. Zur Sonne gehören Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus und Neptun. Früher wurde Pluto oft als neunter Planet bezeichnet. Heute zählt er zu den Zwergplaneten. \
 Die Sonne ist kein Planet, sondern ein Stern. Sie ist für das Leben auf der Erde besonders wichtig, denn sie spendet Licht und Wärme. Ohne die Sonne wäre unsere Erde ein dunkler und eisiger Ort. Viele andere Sterne sind noch viel größer als unsere Sonne, aber sie sind so weit entfernt, dass sie nur wie kleine Lichtpunkte aussehen. \
 Zwischen den Planeten ist sehr viel leerer Raum. Trotzdem ist das Weltall nicht völlig leer. Dort gibt es Staub, Gase und viele kleine sowie große Himmelskörper. Manche Asteroiden kreisen um die Sonne. Kometen bestehen aus Eis, Staub und Gestein. Wenn sie sich der Sonne nähern, entsteht oft ein leuchtender Schweif. \
-Unsere Sonne gehört zur Milchstraße. Das ist eine riesige Galaxie mit Milliarden von Sternen. Und die Milchstraße ist nur eine von sehr vielen Galaxien im Universum. Manche Galaxien haben eine Spiralform, andere sehen eher oval aus. Forschende beobachten sie mit Teleskopen. \
-Um das Weltall besser zu erforschen, schicken Menschen Satelliten, Raumsonden und Astronauten ins All. Satelliten umkreisen die Erde und helfen zum Beispiel bei Wettervorhersagen oder bei der Navigation. Raumsonden fliegen zu weit entfernten Zielen und sammeln dort Daten. Astronauten arbeiten zeitweise auf Raumstationen und führen Experimente durch. \
-Im Weltall gelten besondere Bedingungen. Es gibt dort keinen Atemsauerstoff wie auf der Erde, und die Schwerkraft wirkt anders. Darum brauchen Astronauten Raumanzüge und technische Hilfen. Die Erforschung des Weltalls ist spannend, weil wir dadurch mehr über die Erde, die Planeten und die Entstehung des Universums lernen.
+Unsere Sonne gehört zur Milchstraße. Das ist eine riesige Galaxie mit Milliarden von Sternen. Und die Milchstraße ist nur eine von sehr vielen Galaxien im Universum. Manche Galaxien haben eine Spiralform, andere sehen eher oval aus. Wissenschaftler beobachten sie mit Teleskopen. \
+Um das Weltall besser zu erforschen, schicken Menschen Satelliten, Raumsonden und Astronauten ins All. Satelliten umkreisen die Erde und liefern Daten für Wettervorhersagen oder für die Navigation. Raumsonden fliegen zu weit entfernten Zielen und sammeln dort Informationen. Astronauten arbeiten zeitweise auf Raumstationen und führen Experimente durch. \
+Im Weltall gelten besondere Bedingungen. Es gibt dort keinen Atemsauerstoff wie auf der Erde, und die Schwerkraft wirkt anders. Darum brauchen Astronauten Raumanzüge und viel technische Ausrüstung. Die Erforschung des Weltalls ist spannend, weil wir dadurch mehr über die Entstehung des Universums, die Planeten und die Erde lernen.
 
 <!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 - [(wahr)   (falsch)]

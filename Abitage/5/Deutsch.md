@@ -266,7 +266,7 @@ __$b)\;\;$__
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
-@diktat(`Im Winter baut mein Bruder mit seinen Freunden einen Schneemann.`)
+@diktat(`Im Winter baut mein Bruder mit seinem Freund einen Schneemann.`)
 
 @ADetails(BE=2;Diktat)
 
@@ -355,7 +355,7 @@ __$b)\;\;$__
 
 __$a)\;\;$__ 
 
-@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Schul-ta-sche`,`Schul-ta-sche`)
+@orthography(`<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->`,`Schul-tasch-e`,`Schul-ta-sche`)
 
 @ADetails(BE=1;Silbentrennung)
 
@@ -438,12 +438,12 @@ $c)\;\;$ MEIN BRUDER FINDET HINTER DEM SCHRANK EINE ALTE MÜNZE.
 
 <h2>Die Ozeane </h2>
 
-Die Ozeane bedecken einen sehr großen Teil der Erde. Mehr als zwei Drittel der Erdoberfläche sind von Wasser bedeckt. Dieses riesige Salzwasser ist nicht überall gleich tief, gleich warm oder gleich ruhig. Manche Bereiche sind flach und liegen nahe an den Küsten. Andere Stellen reichen viele tausend Meter in die Tiefe. Der tiefste bekannte Punkt der Erde liegt im Pazifischen Ozean. \
-Es gibt fünf Ozeane: den Pazifischen Ozean, den Atlantischen Ozean, den Indischen Ozean, den Arktischen Ozean und den Südlichen Ozean. Der Pazifische Ozean ist der größte von ihnen. Er ist so groß, dass auf seiner Oberfläche viele Inseln verteilt liegen. Der Atlantische Ozean trennt Europa und Afrika von Amerika. Der Indische Ozean liegt zwischen Afrika, Asien und Australien. \
+Die Ozeane nehmen einen sehr großen Teil der Erde ein. Mehr als zwei Drittel der Erdoberfläche sind von Wasser bedeckt. Dieses riesige Salzwasser ist nicht überall gleich tief, gleich warm oder gleich ruhig. Manche Bereiche sind flach und liegen nahe an den Küsten. Andere Stellen reichen viele tausend Meter in die Tiefe. Der tiefste bekannte Punkt der Erde liegt im Pazifischen Ozean. \
+Es gibt fünf Ozeane: den Pazifischen Ozean, den Atlantischen Ozean, den Indischen Ozean, den Arktischen Ozean und den Südlichen Ozean. Der Pazifische Ozean ist der größte von ihnen und auf seiner Oberfläche liegen viele Inseln. Der Atlantische Ozean trennt Europa und Afrika von Amerika. Der Indische Ozean liegt zwischen Afrika, Asien und Australien. \
 Die Ozeane sind für das Leben auf der Erde sehr wichtig. Sie speichern Wärme und beeinflussen dadurch das Klima. Außerdem verdunstet Wasser aus den Ozeanen. Daraus entstehen Wolken, aus denen später Regen fallen kann. Ohne die Ozeane gäbe es also auch den Wasserkreislauf nicht so, wie wir ihn kennen. \
-In den Ozeanen leben unzählige Tiere und Pflanzen. Manche sind winzig klein, zum Beispiel Plankton. Andere Tiere sind riesig, etwa Blauwale. Auch Haie, Kraken, Schildkröten, Fische und Korallen gehören zum Lebensraum Meer. Korallenriffe sind besonders artenreich. Viele Tiere finden dort Nahrung und Schutz. \
+In den Ozeanen leben unzählige Tiere und Pflanzen. Manche sind winzig klein, zum Beispiel Plankton. Andere Tiere sind riesig, etwa Blauwale. Auch Haie, Kraken, Schildkröten, Fische und Korallen leben im Meer. Korallenriffe sind besonders artenreich. Viele Tiere finden dort Nahrung und Schutz. \
 Doch die Ozeane sind bedroht. Plastikmüll gelangt ins Meer und schadet vielen Tieren. Manche Tiere verwechseln Plastik mit Nahrung. Auch Ölunfälle und Überfischung sind große Probleme. Dazu kommt der Klimawandel. Das Wasser erwärmt sich, und einige Meerestiere verlieren ihren Lebensraum. \
-Menschen können helfen, die Ozeane zu schützen. Weniger Plastik, saubere Strände und ein bewusster Umgang mit der Natur sind wichtige Schritte. Denn die Ozeane sind nicht nur schön, sondern auch lebenswichtig für unseren Planeten.
+Menschen können helfen, die Ozeane zu schützen. Weniger Plastik, saubere Strände und ein bewusster Umgang mit der Natur sind wichtige Schritte beim Umweltschutz. Denn die Ozeane sind nicht nur schön, sondern auch lebenswichtig für das Leben auf unserem Planeten.
 
 <!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 - [(wahr)   (falsch)]
