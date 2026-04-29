@@ -438,18 +438,20 @@ __$10)\;\;$__ [->[(Schmelzwasserbach)]]
 ## Klimazonen
 
 
+Ordne den Klimazonen ihre typische Fauna und Flora zu.
+
 <!-- data-randomize="true" data-show-partial-solution="true" data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off"  data-type="none" data-sortable="false"  -->
 |       | Klimazone / Vegetationszone | typische Fauna | typische Flora |
 | ---: | :----: | :----: | :----: |
-| 1. | [->[Polare Kältewüste]] | [->[Eisbären, Robben, Polarfüchse, Pinguine]] | [->[fast keine Pflanzen, nur vereinzelt Moose und Flechten]] |
-| 2. | [->[Tundra]] | [->[Rentiere, Lemminge, Polarfüchse, Schneehasen, Zugvögel]] | [->[Moose, Flechten, Gräser, Zwergsträucher]] |
-| 3. | [->[Borealer Nadelwald (Taiga)]] | [->[Elche, Braunbären, Wölfe, Luchse, Eichhörnchen]] | [->[Fichten, Kiefern, Tannen, Lärchen]] |
-| 4. | [->[Sommergrüner Laub- und Mischwald]] | [->[Rehe, Füchse, Wildschweine, Dachse, viele Singvögel]] | [->[Buchen, Eichen, Ahorn, Birken, Wiesenpflanzen]] |
-| 5. | [->[Steppe]] | [->[Ziesel, Antilopen, Wildpferde, Wölfe, Greifvögel]] | [->[Gräser, Kräuter, kaum Bäume]] |
-| 6. | [->[Hartlaubvegetation / Zone der Hartlaubgewächse]] | [->[Eidechsen, Ziegen, Schafe, Hasen, Insekten]] | [->[Olivenbäume, Korkeichen, Zypressen, Macchia]] |
-| 7. | [->[Wüste und Halbwüste]] | [->[Kamele, Skorpione, Schlangen, Wüstenfüchse]] | [->[Dornensträucher, Sukkulenten, spärliche Gräser]] |
-| 8. | [->[Savanne]] | [->[Zebras, Giraffen, Elefanten, Löwen, Antilopen]] | [->[hohe Gräser, Akazien, Baobabs]] |
-| 9. | [->[Tropischer Regenwald]] | [->[Affen, Papageien, Faultiere, Schlangen, viele Insekten]] | [->[immergrüne Bäume, Lianen, Farne, Palmen]] |
+| 1. | Polare Kältewüste | [->[Eisbären, Robben, Polarfüchse, Pinguine]] | [->[fast keine Pflanzen, nur vereinzelt Moose und Flechten]] |
+| 2. | Tundra | [->[Rentiere, Lemminge, Polarfüchse, Schneehasen, Zugvögel]] | [->[Moose, Flechten, Gräser, Zwergsträucher]] |
+| 3. | Borealer Nadelwald (Taiga) | [->[Elche, Braunbären, Wölfe, Luchse, Eichhörnchen]] | [->[Fichten, Kiefern, Tannen, Lärchen]] |
+| 4. | Sommergrüner Laub- und Mischwald | [->[Rehe, Füchse, Wildschweine, Dachse, viele Singvögel]] | [->[Buchen, Eichen, Ahorn, Birken, Wiesenpflanzen]] |
+| 5. | Steppe | [->[Ziesel, Antilopen, Wildpferde, Wölfe, Greifvögel]] | [->[Gräser, Kräuter, kaum Bäume]] |
+| 6. | Hartlaubvegetation / Zone der Hartlaubgewächse | [->[Eidechsen, Ziegen, Schafe, Hasen, Insekten]] | [->[Olivenbäume, Korkeichen, Zypressen, Macchia]] |
+| 7. | Wüste und Halbwüste | [->[Kamele, Skorpione, Schlangen, Wüstenfüchse]] | [->[Dornensträucher, Sukkulenten, spärliche Gräser]] |
+| 8. | Savanne | [->[Zebras, Giraffen, Elefanten, Löwen, Antilopen]] | [->[hohe Gräser, Akazien, Baobabs]] |
+| 9. | Tropischer Regenwald | [->[Affen, Papageien, Faultiere, Schlangen, viele Insekten]] | [->[immergrüne Bäume, Lianen, Farne, Palmen]] |
 
 
 @ADetails(9=BE;Klimazonen)
