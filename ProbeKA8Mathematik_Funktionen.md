@@ -2,6 +2,55 @@
 version:  0.0.1
 language: de
 
+@style
+  .ts-wrap svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto 1rem auto;
+    color: inherit;
+  }
+
+  .ts-line {
+    stroke: currentColor;
+    stroke-width: 2.6;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .ts-thin {
+    stroke: currentColor;
+    stroke-width: 1.8;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .ts-point {
+    fill: currentColor;
+  }
+
+  .ts-label {
+    fill: currentColor;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .ts-small {
+    fill: currentColor;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  .ts-title {
+    fill: currentColor;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+@end
+
 
 import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
 import: https://cdn.jsdelivr.net/gh/LiaTemplates/JSXGraph@main/README.md
@@ -21,7 +70,8 @@ author: Martin Lommatzsch
 
 <br>
 
-> Letztes Update am 28.04.2026 gegen 18 Uhr
+> [!NOTE]
+> Letztes Update am 01.05.2026 gegen 10 Uhr
 
 <br>
 
@@ -127,7 +177,7 @@ Die Schreibfläche kann unten links oder rechts an den Ecke in der Größe belie
 __$a)\;\;$__ **Berechne** den Funktionswert an der Stelle $x=-2$ von $ f(x)= -\dfrac{3}{4} x + \dfrac{5}{6} $.
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $f(-2) =$ [[  7/3  ]] @canvas
 @Algebrite.check(7/3)
 ************
@@ -145,7 +195,7 @@ $$
 __$b)\;\;$__ **Berechne** den Variablenwert für den Funktionswert $f(x)=-1$ von $ f(x)= -\dfrac{3}{4} x + \dfrac{5}{6} $.
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $x =$ [[  22/9  ]] @canvas
 @Algebrite.check(22/9)
 ************
@@ -165,7 +215,7 @@ $$
 __$c)\;\;$__ **Berechne** die Nullstelle von $ f(x)= -\dfrac{3}{4} x + \dfrac{5}{6} $.
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $x_N =$ [[  10/9  ]] @canvas
 @Algebrite.check(10/9)
 ************
@@ -185,7 +235,7 @@ $$
 __$d)\;\;$__ **Berechne** die Nullstelle von $ g(x)= \dfrac{3}{2} x - \dfrac{7}{12} $.
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $x_N =$ [[  7/18  ]] @canvas
 @Algebrite.check(7/18)
 ************
@@ -205,7 +255,7 @@ $$
 __$e)\;\;$__ **Berechne** die Schnittstelle von  $f(x)= -\dfrac{3}{4} x + \dfrac{5}{6}$ und $g(x) = \dfrac{3}{2} x - \dfrac{7}{12}$.
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $x_S =$ [[  17/27  ]] @canvas
 @Algebrite.check(17/27)
 ************
@@ -226,7 +276,7 @@ $$
 __$f)\;\;$__ Der Graph der Funktion $h$ schneidet den Graph der Funktion $g$ an der Stelle $x=\dfrac{1}{2}$ und ist orthogonal zu $g(x) = \dfrac{3}{2} x - \dfrac{7}{12}$. **Berechne** den Funktionsterm von $ h(x) $. 
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $h(x)=$ [[     -2/3*x+1/2     ]] @canvas
 @Algebrite.check(-2/3*x+1/2)
 ************
@@ -259,7 +309,7 @@ $$
 __$g)\;\;$__ Der Graph der Funktion $k$ verläuft durch die Punkte $P(-3|4)$ und $Q(2|-5)$. **Berechne** den Funktionsterm von $ k(x) $. 
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $k(x)=$ [[     -9/5*x-7/5     ]] @canvas
 @Algebrite.check(-9/5*x-7/5)
 ************
@@ -293,7 +343,7 @@ $$
 
 __$h)\;\;$__  **Berechne** die Nullstelle der Funktion von $ p(n) = 3(n-4) + 2n - 8 $. 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $n_N =$ [[  4  ]] @canvas
 @Algebrite.check(4)
 ************
@@ -316,7 +366,7 @@ $$
 __$i)\;\;$__ **Berechne** die Nullstelle der Funktion $ z(x) = \dfrac{2}{5-3x}+7 $. 
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $x_N =$ [[  37/21  ]] @canvas
 @Algebrite.check(37/21)
 ************
@@ -340,7 +390,7 @@ $$
 __$j)\;\;$__ **Berechne** den Ordinatenabschnitt der Funktion $ z(x) = \dfrac{2}{5-3x}+7 $. 
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $z(0) =$ [[  37/5  ]] @canvas
 @Algebrite.check(37/5)
 ************
@@ -363,7 +413,7 @@ Der Ordinatenabschnitt liegt also bei $S_y\left(0\middle|\dfrac{37}{5}\right)$.
 __$k)\;\;$__ **Berechne** die Polstelle der Funktion $ z(x) = \dfrac{2}{5-3x}+7 $. 
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $x_P =$ [[  5/3  ]] @canvas
 @Algebrite.check(5/3)
 ************
@@ -388,7 +438,7 @@ Die Funktion hat also bei $x=\dfrac{5}{3}$ eine Polstelle.
 __$l)\;\;$__ **Berechne** die Schnittstelle von $g(x) = \dfrac{3}{2} x - \dfrac{7}{12}$ mit $-g(x+2)-1$.
 
 
-<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $x_S =$ [[  -17/18  ]] @canvas
 @Algebrite.check(-17/18)
 ************
@@ -463,9 +513,61 @@ $$
 
 
 
-**_Aufgabe 1:_** Strahlensatz
+**_Aufgabe 1:_** **Berechne** die Länge der gesuchten Strecke. (Hier könnte man auch den Taschenrechner benutzen, da die Zahlen nicht so toll sind.)
 
-folgt
+<!-- style="max-width: 1000px" -->
+![](./Bilder/Strahlensatz1.PNG)
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$a)\;\;$__  
+$x \approx$  [[  341/90  ]] $\text{cm}$ @canvas
+@Algebrite.check2(341/90,0.01)
+************
+$$
+\begin{align*}
+\frac{x}{y} &= \frac{d}{w}\\[4pt]
+\frac{x}{6{,}2} &= \frac{5{,}5}{9}\\[4pt]
+x &= 6{,}2 \cdot \frac{5{,}5}{9}\\[4pt]
+x &= \frac{341}{90}\\[4pt]
+\end{align*}
+$$
+************
+</div>
+
+<div class="flex-child">
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__  
+$x \approx$  [[  1001/106  ]] $\text{cm}$ @canvas
+@Algebrite.check2(1001/106,0.01)
+************
+$$
+\begin{align*}
+\frac{x-c}{z} &= \frac{x}{y} \\[4pt]
+\left(x-7{,}7\right)\cdot \frac{13}{4} &= x \cdot \frac{3}{5}\\[4pt]
+\frac{13}{4}x-\frac{13}{4}\cdot 7{,}7 &= \frac{3}{5}x\\[4pt]
+\frac{13}{4}x-\frac{3}{5}x &= \frac{13}{4}\cdot 7{,}7\\[4pt]
+\frac{65}{20}x-\frac{12}{20}x &= \frac{13}{4}\cdot \frac{77}{10}\\[4pt]
+\frac{53}{20}x &= \frac{1001}{40}\\[4pt]
+x &= \frac{1001}{40}\cdot \frac{20}{53}\\[4pt]
+x &= \frac{1001}{106}\\[4pt]
+\end{align*}
+$$
+************
+</div>
+
+
+</section>
+
+
 
 ---
 
@@ -475,10 +577,198 @@ folgt
 
 
 
-**_Aufgabe 2:_** Gleichungssystem
+**_Aufgabe 2:_** **Berechne** die Lösungen des gegebenen Gleichungssystems.
 
 
-folgt
+
+
+
+
+
+
+<section class="dynFlex">
+<div class="flex-child">
+
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$a)\;\;$__  
+$$
+\begin{align*}
+I.& \qquad 3x + y = 14 \\  
+II.& \qquad x + 2y = 10  
+\end{align*}
+$$  
+$x$ = [[  2  ]]  und  $y$ = [[  4  ]]
+************
+$$
+\begin{align*}
+I. &\qquad 3x + y = 14 \quad \left| -3x \right. \\
+II. &\qquad x + 2y = 10 \\ \hline
+I. &\qquad y = 14 - 3x \\
+I. \cap II. &\qquad x + 2(14 - 3x) = 10 \\
+&\qquad x + 28 - 6x = 10 \quad \left| -28 \right. \\
+&\qquad -5x = -18 \quad \left| :(-5) \right. \\
+&\qquad x = 2 \\
+x \cap I. &\qquad 3\cdot 2 + y = 14 \\
+&\qquad 6 + y = 14 \quad \left| -6 \right. \\
+&\qquad y = 8
+\end{align*}
+$$
+************
+
+</div>
+<div class="flex-child">
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$b)\;\;$__  
+$$
+\begin{align*}
+I.& \qquad 4x - y = 7 \\  
+II.& \qquad x + 3y = 19  
+\end{align*}
+$$  
+$x$ = [[  4  ]]  und  $y$ = [[  5  ]]
+************
+$$
+\begin{align*}
+I. &\qquad 4x - y = 7 \quad \left| -4x \right. \\
+II. &\qquad x + 3y = 19 \\ \hline
+I. &\qquad -y = 7 - 4x \quad \left| \cdot(-1) \right. \\
+I. &\qquad y = 4x - 7 \\
+I. \cap II. &\qquad x + 3(4x - 7) = 19 \\
+&\qquad x + 12x - 21 = 19 \\
+&\qquad 13x - 21 = 19 \quad \left| +21 \right. \\
+&\qquad 13x = 40 \quad \left| :13 \right. \\
+&\qquad x = 4 \\
+x \cap I. &\qquad 4\cdot 4 - y = 7 \\
+&\qquad 16 - y = 7 \quad \left| -16 \right. \\
+&\qquad -y = -9 \quad \left| \cdot(-1) \right. \\
+&\qquad y = 9
+\end{align*}
+$$
+************
+</div>
+<div class="flex-child">
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$c)\;\;$__  
+$$
+\begin{align*}
+I.& \qquad 2x + 3y = 18 \\  
+II.& \qquad x - y = 1  
+\end{align*}
+$$  
+$x$ = [[  3  ]]  und  $y$ = [[  2  ]]
+************
+$$
+\begin{align*}
+II. &\qquad x - y = 1 \quad \left| -x \right. \\
+I.  &\qquad 2x + 3y = 18 \\ \hline
+II. &\qquad -y = 1 - x \quad \left| \cdot(-1) \right. \\
+II. &\qquad y = x - 1 \\
+I. \cap II. &\qquad 2x + 3(x - 1) = 18 \\
+&\qquad 2x + 3x - 3 = 18 \\
+&\qquad 5x - 3 = 18 \quad \left| +3 \right. \\
+&\qquad 5x = 21 \quad \left| :5 \right. \\
+&\qquad x = 3 \\
+x \cap II. &\qquad y = 3 - 1 \\
+&\qquad y = 2
+\end{align*}
+$$
+************
+</div>
+<div class="flex-child">
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$d)\;\;$__  
+$$
+\begin{align*}
+I.& \qquad 5x + 2y = 20 \\  
+II.& \qquad 3x - y = 4  
+\end{align*}
+$$  
+$x$ = [[  2  ]]  und  $y$ = [[  5  ]]
+************
+$$
+\begin{align*}
+II. &\qquad 3x - y = 4 \quad \left| -3x \right. \\
+I.  &\qquad 5x + 2y = 20 \\ \hline
+II. &\qquad -y = 4 - 3x \quad \left| \cdot(-1) \right. \\
+II. &\qquad y = 3x - 4 \\
+I. \cap II. &\qquad 5x + 2(3x - 4) = 20 \\
+&\qquad 5x + 6x - 8 = 20 \\
+&\qquad 11x - 8 = 20 \quad \left| +8 \right. \\
+&\qquad 11x = 28 \quad \left| :11 \right. \\
+&\qquad x = 2 \\
+x \cap II. &\qquad y = 3\cdot 2 - 4 \\
+&\qquad y = 6 - 4 = 2
+\end{align*}
+$$
+************
+</div>
+<div class="flex-child">
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$e)\;\;$__  
+$$
+\begin{align*}
+I.& \qquad 2x + y = 10 \\  
+II.& \qquad 4x - y = 6  
+\end{align*}
+$$  
+$x$ = [[  2  ]]  und  $y$ = [[  6  ]]
+************
+$$
+\begin{align*}
+I. &\qquad 2x + y = 10 \quad \left| -2x \right. \\
+II. &\qquad 4x - y = 6 \\ \hline
+I. &\qquad y = 10 - 2x \\
+I. \cap II. &\qquad 4x - (10 - 2x) = 6 \\
+&\qquad 4x - 10 + 2x = 6 \\
+&\qquad 6x - 10 = 6 \quad \left| +10 \right. \\
+&\qquad 6x = 16 \quad \left| :6 \right. \\
+&\qquad x = 2 \\
+x \cap I. &\qquad 2\cdot 2 + y = 10 \\
+&\qquad 4 + y = 10 \quad \left| -4 \right. \\
+&\qquad y = 6
+\end{align*}
+$$
+************
+</div>
+<div class="flex-child">
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+__$f)\;\;$__  
+$$
+\begin{align*}
+I.& \qquad 3x + 2y = 22 \\  
+II.& \qquad x + y = 7  
+\end{align*}
+$$  
+$x$ = [[  4  ]]  und  $y$ = [[  3  ]]
+************
+$$
+\begin{align*}
+II. &\qquad x + y = 7 \quad \left| -x \right. \\
+I.  &\qquad 3x + 2y = 22 \\ \hline
+II. &\qquad y = 7 - x \\
+I. \cap II. &\qquad 3x + 2(7 - x) = 22 \\
+&\qquad 3x + 14 - 2x = 22 \\
+&\qquad x + 14 = 22 \quad \left| -14 \right. \\
+&\qquad x = 8 \\
+x \cap II. &\qquad 8 + y = 7 \quad \left| -8 \right. \\
+&\qquad y = -1
+\end{align*}
+$$
+************
+</div>
+</section>
 
 ---
 
@@ -491,7 +781,7 @@ folgt
 $\{ 83,46,55,64,91,75,61,39,84,55,47 \}$
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 __$a)\;\;$__ **Gib** die Spannweite **an**.\
@@ -534,7 +824,7 @@ $\bar{x}=$ [[  63,636  ]]
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 __$a)\;\;$__ 
@@ -551,11 +841,11 @@ __$a)\;\;$__
 $\#(R)=$ [[  8  ]]
 
 **Gib** die relative Häufigkeit der blauen Kugeln **an**.\
-$p(B)=$ [[ 11/23  ]]
+$p(B)=$ [[ 11/23  ]] @canvas
 @Algebrite.check(11/23)
 
 **Gib** die Wahrscheinlichkeit **an**, eine grüne Kugel zu ziehen.\
-$P(G)=$ [[ 4/23  ]]
+$P(G)=$ [[ 4/23  ]] @canvas
 @Algebrite.check(4/23)
 
 **Gib** die Chance **an**, eine rote Kugel im Vergleich zu den anderen Kugeln zu ziehen.\
@@ -569,7 +859,7 @@ $R(R)=$ [[  8:15  ]]
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 __$b)\;\;$__ 
@@ -586,11 +876,11 @@ __$b)\;\;$__
 $\#(G)=$ [[  4  ]]
 
 **Gib** die relative Häufigkeit der blauen Kugeln **an**.\
-$p(B)=$ [[  4/10  ]]
+$p(B)=$ [[  4/10  ]] @canvas
 @Algebrite.check(4/10)
 
 **Gib** die Wahrscheinlichkeit **an**, eine grüne Kugel zu ziehen.\
-$P(G)=$ [[  4/10  ]]
+$P(G)=$ [[  4/10  ]] @canvas
 @Algebrite.check(4/10)
 
 **Gib** die Chance **an**, eine rote Kugel im Vergleich zu den anderen Kugeln zu ziehen.\
@@ -607,15 +897,370 @@ $R(R)=$ [[  2:8  ]]
 ## Komplexaufgabe 1
 
 
-folgt
+@Koordinatensystem(`xmin=-10;xmax=10;ymin=-10;ymax=10;width=700;id=A2`)
 
-Plan:
+@AchsenBeschriftung(`id=A2;xlabel=$x$;ylabel=$y$`)
 
-Koordinatensystem Geometrie 
 
-Ablesen
 
-orthogonal und Schnittpunkte
+
+**_Aufgabe 1:_** Gegeben sei das obrige Koordinatensystem. 
+
+
+
+<section class="dynFlex">
+
+
+<div class="flex-child">
+
+__$a)\;\;$__ **Gib** die Koordinaten des Punktes $A$ **an**.
+
+
+@Punkt(`A2;A;-4;2;fix`)
+
+<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$A \left(\right.$ [[  -4  ]] $\left.\right| $ [[  2  ]] $\left.\right)$
+@Algebrite.check([-4;2])
+
+
+
+</div>
+<div class="flex-child">
+
+__$b)\;\;$__ **Gib** die Koordinaten des Punktes $C$ **an**, sodass das Parallelogramm $\Box ABCD$ entsteht. (Der Punkt $C$ ist zu Hilfe beweglich.)
+
+
+@Punkt(`A2;B;3;1;fix`)
+@Punkt(`A2;D;-1;7;fix`)
+@Punkt(`A2;C;5;-7.5`)
+
+<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$C \left(\right.$ [[  6  ]] $\left.\right| $ [[  6  ]] $\left.\right)$
+@Algebrite.check([6;6])
+
+
+
+</div>
+<div class="flex-child">
+
+__$c)\;\;$__ **Gib** die Koordinaten des Schnittpunktes $M$ der Diagonalen des Parallelogramms $\Box ABCD$ **an**. (Der Punkt $M$ ist zu Hilfe beweglich.)
+
+
+
+@Punkt(`A2;M;-2;-7.5`)
+
+<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$M \left(\right.$ [[  1  ]] $\left.\right| $ [[  4  ]] $\left.\right)$
+@Algebrite.check([1;4])
+
+
+
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__ **Gib** die Koordinaten des Punktes $F$ **an**, sodass ein symmetrisches Drachenviereck $\Box AEFG$ mit dem Flächeninhalt von $A=27\,FE$ entsteht. (Der Punkt $F$ ist zu Hilfe beweglich.)
+
+
+@Punkt(`A2;E;-1;-1;fix`)
+@Punkt(`A2;G;-7;-1;fix`)
+@Punkt(`A2;F;-3;-7.5`)
+
+<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$F \left(\right.$ [[  -4  ]] $\left.\right| $ [[  -7  ]] $\left.\right)$
+@Algebrite.check([-4;-7])
+
+
+
+</div>
+
+
+<div class="flex-child">
+
+__$e)\;\;$__ Die Punkte $G$, $E$ und $D$ beschreiben ein Rechteck. **Gib** den Umfang dieses Rechtecks **an**.
+
+
+<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$u =$ [[  28  ]] $LE$ @canvas
+@Algebrite.check(28)
+
+
+
+</div>
+
+<div class="flex-child">
+
+__$f)\;\;$__ **Gib** die Länge der Strecke $\overline{PB}$ **an**.
+
+
+@Punkt(`A2;P;0;5;fix`)
+
+
+<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\left| \overline{PB} \right| =$ [[  5  ]] $LE$ @canvas
+@Algebrite.check(5)
+
+
+
+</div>
+
+
+
+<div class="flex-child">
+
+__$g)\;\;$__ **Gib** die korrekte Winkelart **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\measuredangle GAE$ ist ein [[Nullwinkel|spitzer Winkel|(rechter Winkel)|stumpfer Winkel|gestreckter Winkel|überstumpfer Winkel|voller Winkel]]
+
+
+</div>
+
+<div class="flex-child">
+
+__$h)\;\;$__ **Gib** die korrekte Winkelart **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\measuredangle GBD$ ist ein [[Nullwinkel|spitzer Winkel|rechter Winkel|stumpfer Winkel|gestreckter Winkel|(überstumpfer Winkel)|voller Winkel]]
+
+
+</div>
+
+<div class="flex-child">
+
+__$i)\;\;$__ **Gib** die korrekte Winkelart **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\measuredangle EDP$ ist ein [[Nullwinkel|(spitzer Winkel)|rechter Winkel|stumpfer Winkel|gestreckter Winkel|überstumpfer Winkel|voller Winkel]]
+
+
+</div>
+
+<div class="flex-child">
+
+__$j)\;\;$__ **Gib** die korrekte Winkelart **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$\measuredangle GAB$ ist ein [[Nullwinkel|spitzer Winkel|rechter Winkel|(stumpfer Winkel)|gestreckter Winkel|überstumpfer Winkel|voller Winkel]]
+
+
+</div>
+
+<div class="flex-child">
+
+__$k)\;\;$__ **Gib** den Flächeninhalt des Dreiecks $\Delta GPE$ **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$A =$ [[  18  ]] $FE$ @canvas
+@Algebrite.check(18)
+
+
+</div>
+
+<div class="flex-child">
+
+__$l)\;\;$__ **Gib** den Flächeninhalt des Dreiecks $\Delta EBD$ **an**.
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$A =$ [[   16   ]] $FE$ @canvas
+@Algebrite.check(16)
+
+</div>
+
+
+</section>
+
+
+---
+
+--- 
+
+
+**_Aufgabe 2:_** Durch die Punkte $E$ und $B$ verläuft eine lineare Funktion $f$. An der Stelle $x=6$ schneidet die Gerade $g$ den Graphen der Funktion $f$ orthogonal. **Berechne** die Funktionsgleichung von $g(x)$.
+
+
+<!-- data-solution-timer="180s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$g(x) =$ [[  -2*x+29/2  ]] @canvas
+@Algebrite.check(-2*x+29/2)
+************
+Zuerst wird die Steigung von $f$ berechnet.
+
+$$
+\begin{align*}
+m_f &= \dfrac{y_B-y_E}{x_B-x_E} \\
+    &= \dfrac{1-(-1)}{3-(-1)} \\
+    &= \dfrac{2}{4} \\
+    &= \dfrac{1}{2}
+\end{align*}
+$$
+
+Da $g$ orthogonal zu $f$ verläuft, gilt:
+
+$$
+\begin{align*}
+m_f \cdot m_g &= -1 \\
+\dfrac{1}{2} \cdot m_g &= -1 \quad \left| \cdot 2 \right. \\
+m_g &= -2
+\end{align*}
+$$
+
+Nun wird der Funktionsterm von $f$ bestimmt.
+
+$$
+\begin{align*}
+f(x) &= \dfrac{1}{2}x+n_f \\
+-1 &= \dfrac{1}{2}\cdot(-1)+n_f \\
+-1 &= -\dfrac{1}{2}+n_f \quad \left|+\dfrac{1}{2}\right. \\
+-\dfrac{1}{2} &= n_f
+\end{align*}
+$$
+
+Damit gilt:
+
+$$
+\begin{align*}
+f(x)&=\dfrac{1}{2}x-\dfrac{1}{2}
+\end{align*}
+$$
+
+Da $g$ den Graphen von $f$ an der Stelle $x=6$ schneidet, wird der zugehörige Funktionswert berechnet.
+
+$$
+\begin{align*}
+f(6)&=\dfrac{1}{2}\cdot 6-\dfrac{1}{2} \\
+    &=3-\dfrac{1}{2} \\
+    &=\dfrac{5}{2}
+\end{align*}
+$$
+
+Der Schnittpunkt liegt also bei:
+
+$$
+\begin{align*}
+S\left(6\middle|\dfrac{5}{2}\right)
+\end{align*}
+$$
+
+Nun wird der Funktionsterm von $g$ bestimmt.
+
+$$
+\begin{align*}
+g(x)&=m_gx+n_g \\
+g(x)&=-2x+n_g
+\end{align*}
+$$
+
+Der Punkt $S\left(6\middle|\dfrac{5}{2}\right)$ wird eingesetzt.
+
+$$
+\begin{align*}
+\dfrac{5}{2} &= -2\cdot 6+n_g \\
+\dfrac{5}{2} &= -12+n_g \quad \left|+12\right. \\
+\dfrac{29}{2} &= n_g
+\end{align*}
+$$
+
+Damit lautet die Funktionsgleichung:
+
+$$
+\begin{align*}
+\Rightarrow\;\; g(x)&=-2x+\dfrac{29}{2}
+\end{align*}
+$$
+************
+
+
+
+---
+
+--- 
+
+
+**_Aufgabe 3:_** Durch die Punkte $G$ und $D$ verläuft eine lineare Funktion $h$. **Berechne** die Koordinaten des Schnittpunkts mit der Funktion $g(x)$.
+
+
+<!-- data-solution-timer="450s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+$S \left(\right.$ [[  37/20  ]]  @canvas $\left.\right| $ [[  54/5  ]]  @canvas  $\left.\right)$
+@Algebrite.check([37/20;54/5])
+************
+Zuerst wird die Funktionsgleichung von $h$ bestimmt. Die Gerade $h$ verläuft durch die Punkte $G(-7|-1)$ und $D(-1|7)$.
+
+$$
+\begin{align*}
+m_h &= \dfrac{7-(-1)}{-1-(-7)} \\
+    &= \dfrac{8}{6} \\
+    &= \dfrac{4}{3}
+\end{align*}
+$$
+
+Damit gilt:
+
+$$
+\begin{align*}
+h(x)&=\dfrac{4}{3}x+n_h
+\end{align*}
+$$
+
+Nun wird der Punkt $D(-1|7)$ eingesetzt.
+
+$$
+\begin{align*}
+7 &= \dfrac{4}{3}\cdot(-1)+n_h \\
+7 &= -\dfrac{4}{3}+n_h \quad \left|+\dfrac{4}{3}\right. \\
+\dfrac{25}{3} &= n_h
+\end{align*}
+$$
+
+Damit lautet die Funktionsgleichung:
+
+$$
+\begin{align*}
+h(x)&=\dfrac{4}{3}x+\dfrac{25}{3}
+\end{align*}
+$$
+
+Nun wird der Schnittpunkt von $h$ und $g$ berechnet.
+
+$$
+\begin{align*}
+h(x)&=g(x)
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\dfrac{4}{3}x+\dfrac{25}{3} &= -2x+\dfrac{29}{2}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+8x+50 &= -12x+87 \quad \left|+12x-50\right. \\
+20x &= 37 \quad \left|:20\right. \\
+x &= \dfrac{37}{20}
+\end{align*}
+$$
+
+Nun wird der zugehörige Funktionswert berechnet.
+
+$$
+\begin{align*}
+g\left(\dfrac{37}{20}\right)
+&= -2\cdot\dfrac{37}{20}+\dfrac{29}{2} \\
+&= -\dfrac{37}{10}+\dfrac{145}{10} \\
+&= \dfrac{108}{10} \\
+&= \dfrac{54}{5}
+\end{align*}
+$$
+
+Damit lautet der Schnittpunkt:
+
+$$
+\begin{align*}
+\Rightarrow\;\; S\left(\dfrac{37}{20}\middle|\dfrac{54}{5}\right)
+\end{align*}
+$$
+************
 
 
 
