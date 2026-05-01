@@ -28,7 +28,7 @@ author: Martin Lommatzsch
 > HINWEIS 1: <h3>Diese Aufgaben können abgegeben werden. Am Ende des Kurses kann der Kurs eingefroren werden. Dadurch entsteht ein Link, speichere diesen Link ab. Versende diesen Link via LernSax an deinen Lehrer oder deine Lehrerin, wenn deine Lehrkraft dies möchte. WICHTIG: Die Absprachen mit den jeweiligen Lehrkräften gelten. </h3>
 
 > [!TIP]
-> HINWEIS 2: <h3> Das Anzahl, wie oft du auf "Prüfen" drückst, wird auch erfasst. </h3>
+> HINWEIS 2: <h3> Die Anzahl, wie oft du auf "Prüfen" drückst, wird auch erfasst. </h3>
 
 > [!IMPORTANT]
 > HINWEIS 3: <h3> Falls du eine Aufgabe gerade nicht bearbeiten möchtest, kannst du zur nächsten wechseln. Du kannst zu jeder Zeit zu dieser Aufgabe zurückkehren. Bearbeite am besten alle Aufgaben, bevor du alles einfrierst. </h3>
