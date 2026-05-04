@@ -383,7 +383,7 @@ Es gibt aber auch besondere Säugetiere. Das Schnabeltier lebt in Australien. Es
 
 Eine weitere Besonderheit sind die Beuteltiere. Zu ihnen gehören zum Beispiel Kängurus und Koalas. Ihre Jungen werden nach einer sehr kurzen Entwicklungszeit geboren. Sie sind dann noch sehr klein und kaum entwickelt. Danach kriechen sie in den Beutel der Mutter. Dort trinken sie Milch und wachsen weiter.
 
-Säugetiere haben sich sehr unterschiedlich an ihre Lebensweise angepasst. Ein Maulwurf gräbt im Boden, ein Delfin schwimmt geschickt im Wasser, ein Eichhörnchen klettert auf Bäume und eine Fledermaus orientiert sich auch in der Dunkelheit. Trotz dieser Unterschiede haben Säugetiere wichtige Gemeinsamkeiten: Sie atmen mit Lungen, besitzen Haare oder Fell, ernähren ihre Jungen mit Milch und haben eine gleichbleibende Körpertemperatur.
+Säugetiere haben sich sehr unterschiedlich an ihre Lebensweise angepasst. Ein Maulwurf gräbt im Boden, ein Delfin schwimmt geschickt im Wasser, ein Eichhörnchen klettert auf Bäume und eine Fledermaus orientiert sich auch in der Dunkelheit. Trotz dieser Unterschiede haben Säugetiere wichtige Gemeinsamkeiten: Sie atmen mit Lungen, ernähren ihre Jungen mit Milch, haben eine gleichbleibende Körpertemperatur und besitzen Fell, was auch Haut mit Haaren sein kann.
 
 
 --- 
