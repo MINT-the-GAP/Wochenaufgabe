@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 version:  0.0.1
 mode: Presentation
 
@@ -6,45 +6,21 @@ narrator: Deutsch Female
 
 language: de
 
-@style
-input {
-    text-align: center;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    gap: 20px;
-}
-
-.flex-child {
-    flex: 1;
-    min-width: 350px;
-    margin-right: 20px;
-}
-
-@media (max-width: 400px) {
-    .flex-child {
-        flex: 100%;
-        margin-right: 0;
-    }
-}
-
-@end
 
 
 
-formula: \carry   \textcolor{red}{\scriptsize #1}
-formula: \digit   \rlap{\carry{#1}}\phantom{#2}#2
-formula: \permil  \text{‰}
-
-import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
 import: https://raw.githubusercontent.com/LiaTemplates/Tikz-Jax/main/README.md
-import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
-import: https://raw.githubusercontent.com/LiaTemplates/JSXGraph/0.0.1/README.md
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
+
+
+
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/JSXGraph@main/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/KoordREADME.md
 
 
 tags: Profil, NaWi
@@ -61,7 +37,8 @@ author: Martin Lommatzsch
 
 # Naturwissenschaftliches Profil Klasse 10 - Modellierung der Natur
 
-> Letztes Update am 30.12.2025 gegen 18:00 Uhr
+
+> Letztes Update am 04.05.2026 gegen 18:00 Uhr
 
 
 In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterrichts der Klasse 10. Auch findest du hier Aufgaben und Lösungen zu den Aufgaben. Die Datei wird ständig aktualisiert.
@@ -71,12 +48,12 @@ In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterricht
 
 {{0}}
 __Aufgabe 1:__ **Beschreibe** den allgemeinen grundlegenden Ablauf deines vorherigen Unterrichts in den Fächern: Mathematik, Physik, Chemie, Biologie und dem naturwissenschaftlichen Profil. (Tipps: Was läuft in jedem Fach quasi gleich ab? Wie erarbeitet man neue Dinge im Unterricht?) \
-<br>
+
 
 
 {{1}}
 __Aufgabe 2:__ **Begründe**, warum dieser Ablauf aus dem Unterricht nichts mit der wissenschaftlichen Realität zu tun haben kann. \
-<br>
+
 
 {{2}}
 __Aufgabe 3:__ **Recherchiere** im Internet zu den folgenden Personen und beschreib, warum sie berühmt wurden.
@@ -90,7 +67,7 @@ __Aufgabe 3:__ **Recherchiere** im Internet zu den folgenden Personen und beschr
 | Emmy Noether  | Wolfgang Pauli | Enrico Fermi |
 | Paul Dirac  | Richard Feynman | Steven Weinberg |
 
-<br>
+
 
 {{3}}
 __Aufgabe 4:__ **Erörtere** mögliche Antworten auf die Frage: "Warum sind diese Personen nicht so berühmt, wie sie es sein sollten?"
@@ -173,11 +150,11 @@ $$
 
 {{|>}} Während dessen ist die kinetische Energie $E_{kin}$ ebenso die Kraft $F$, die über eine Strecke $x$ wirkt. Hierbei wird nicht die explizite Beispielkraft verwendet, sondern das zweite Newton'sche Axiom: $F=m \cdot a$. Da es sich also um eine beschleunigte Bewegung handelt wird auch diese Bahnkurvengleichung verwendet.
 
-<br>
+
 
 {{1}}
 __Aufgabe 1:__ **Leite** den allgemeinen mathematischen Ausdruck der kinetischen Energie $E_{kin}$ aus dem zweiten Newton'schen Axiom und einer beschleunigten Bewegungsgleichung über die Gleichung der Energie für konstante Kräfte her. \
-<br>
+
 
 
 {{2}}
@@ -196,12 +173,16 @@ $$
 {{3}}
 > {{|>}} Die Energie $E$ ist eine Erhaltungsgröße. Das bedeutet, dass die Gesamtenergie in einem System bevor etwas passiert und nachdem etwas passiert ist stets gleich groß sein muss.
 
+
+
 {{3}}
 > $$
-\begin{align*} 
-\underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text{nachher}}
-\end{align*}
-$$
+> \begin{align*} 
+> \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text {nachher}}
+> \end{align*}
+> $$
+
+
 
 {{3}}
 > {{|>}} Energie $E$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Energie $E$ kann lediglich in andere Energieformen umgewandelt werden, was durch Arbeit $W$ passiert.
@@ -226,8 +207,8 @@ $$
 
 
 {{1}}
-__Aufgabe 1:__ **Leite** einen Ausdruck des Impulses her, indem die Geschwindigkeit $v$ vorkommt. \
-<br>
+__Aufgabe 1:__ **Leite** einen Ausdruck des Impulses her, indem die Geschwindigkeit $v$ vorkommt. 
+
 
 
 {{2}}
@@ -243,14 +224,14 @@ $$
 
 {{1}}
 __Aufgabe 2:__ **Interpretiere** die Gleichung $F = \dfrac{p}{t}$ und entwickle aus dieser Interpretation eine neue Beschreibung in Form eines Wortes für die Kraft $F$. \
-<br>
+
 
 
 {{2}}
 {{|>}} Die Gleichung weist eine Analogie zur Geschwindigkeitsgleichung $v = \dfrac{x}{t}$ beziehungsweise zur Stromstärke $I = \dfrac{Q}{t}$ auf. Somit kann die Kraft auch als Impulsstrom bezeichnet werden.
 
 
-<br>
+
 
 
 {{3}}
@@ -258,19 +239,22 @@ __Aufgabe 2:__ **Interpretiere** die Gleichung $F = \dfrac{p}{t}$ und entwickle 
 
 {{3}}
 > $$
-\begin{align*} 
-\underbrace{\vec{p}_1 + \vec{p}_2}_{\text{vorher}} & = \underbrace{\vec{p}'_1 + \vec{p}'_2}_{\text{nachher}}
-\end{align*}
-$$
+> \begin{align*} 
+> \underbrace{\vec{p}_1 + \vec{p}_2}_{\text{vorher}} & = \underbrace{\vec{p}'_1 + \vec{p}'_2}_{\text{nachher}}
+> \end{align*}
+> $$
 
 {{3}}
 > {{|>}} Impuls $\vec{p}$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Impuls $\vec{p}$ kann lediglich in andere Teilimpulse zerglegt werden, was durch Kärfte $F$ passiert. Da der Impuls eine vektorielle Größe ist, muss auch immer die Orientierung mit erhalten bleiben.
 
-<br>
+
 
 
 
 ## Superposition
+
+
+
 
 {{|>}} Das Superpositionsprinzip beschreibt die Überlagerung mehrerer Wirkungen, die unabhängig voneinander betrachtet und anschließend vektoriell addiert werden können. Dieses Prinzip gilt nicht nur für Kräfte und Geschwindigkeiten, sondern ebenso für den Impuls.
 
@@ -286,20 +270,21 @@ $$
 
 {{|>}} Wirken mehrere Kräfte gleichzeitig auf einen Körper, so kann jede Kraft eine eigene Impulsänderung hervorrufen. Nach dem Superpositionsprinzip ergibt sich die gesamte Impulsänderung aus der vektoriellen Summe der einzelnen Impulsänderungen. Diese Überlagerung gilt unabhängig davon, ob die Kräfte zeitgleich oder nacheinander wirken, solange die einzelnen Beiträge korrekt erfasst werden. Die Beträge ergeben sich in der Interpretation aus der Länge der Vektoren.
 
-<br>
+
 
 {{1}}
 __Aufgabe 1:__ **Gib** eine Gleichung **an**, die aus der horizontalen $\left|\vec{a}\right|$ und vertikalen Länge $\left|\vec{b}\right|$ die Länge von $\left|\vec{c}\right|$ berechnen lässt. \
-<br>
 
 
-{{2}} $$
+
+{{2}} 
+$$
 \begin{align*} 
 \left|\vec{c}\right| & = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2}   \\ 
 \end{align*}
 $$
 
-<br>
+
 {{3}} 
 {{|>}} Die Zerlegung des Impulses in Komponenten vereinfacht die Analyse, da jede Richtung separat berechnet werden kann. Nach der Bestimmung der Komponenten wird der Gesamtimpuls wieder durch Addition der Vektoren gewonnen. Dieses Vorgehen ist insbesondere bei Bewegungen in mehreren Dimensionen oder bei der gleichzeitigen Wirkung verschiedener Kräfte von Bedeutung, etwa bei Schrägwürfen oder zusammengesetzten Stoßvorgängen.
 
@@ -316,7 +301,7 @@ $$
 ![](Bilder/Superposi2.png)
 </center>
 
-<br>
+
 
 {{4}} 
 {{|>}} Bei Zusammenstößen zwischen zwei Körpern ist der Winkel nach dem Zusammenprall interessant, welcher sich über das Teildreieck des Parallelogramms mit der kurzen Diagonale berechnen lässt.
@@ -328,27 +313,28 @@ $$
 
 </center>
 
-<br>
+
 
 
 {{5}}
 __Aufgabe 2:__ **Gib** eine Gleichung **an**, die die Länge von $\left|\vec{a}-\vec{b}\right|$ berechnen lässt. \
-<br>
 
 
-{{6}} $$
+
+{{6}} 
+$$
 \begin{align*} 
 \left|\vec{a}-\vec{b}\right| & = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi)}   \\ 
 \end{align*}
 $$
 
 
-<br>
+
 
 
 {{7}}
 __Aufgabe 3:__ **Löse** die Gleichung $\left|\vec{a}-\vec{b}\right| = \sqrt{\left|\vec{a}\right|^2+\left|\vec{b}\right|^2-2\left|\vec{a}\right|\left|\vec{b}\right|\cos(\varphi)}$ nach dem Winkel $\varphi$ **auf**. \
-<br>
+
 
 
 {{8}}
@@ -380,10 +366,11 @@ $$
 {{0}}
 __Aufgabe 1:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Geschwindigkeit $v$ vorkommen. \
 
-<br>
 
 
-{{1}} $$
+
+{{1}} 
+$$
 \begin{align*} 
 E_{kin} & = \dfrac{1}{2} m v^2   \qquad \text{mit: }  p = mv \;\;\Rightarrow\;\; m = \dfrac{p}{v}   \\
 E_{kin} & = \dfrac{1}{2} \dfrac{p}{v} v^2 \\
@@ -395,7 +382,7 @@ $$
 
 {{0}}
 __Aufgabe 2:__ **Leite** einen Ausdruck der kinetischen Energie her, indem der Impuls $p$ sowie die Masse $m$ vorkommen. \
-<br>
+
 
 
 {{1}}
@@ -720,7 +707,7 @@ $d)\;\;$ Diese Energie wird in Umformungs- und somit auch Wärmeenergie umgewand
 
 
 ---
-<br>
+
 ---
 
 
@@ -799,7 +786,7 @@ also identisch zum Ergebnis aus der Energieerhaltung.
 
 
 ---
-<br>
+
 ---
 
 
@@ -1002,7 +989,8 @@ $$
 __Aufgabe 1:__ **Gib** die Gleichung **an**, die die Feldstärke des erdnahen Graviationsfeld im Bezug zu seiner Ladung und Kraft setzt. \
 
 
-{{1}} $$
+{{1}} 
+$$
 \begin{align*}  
 F_G & = \textcolor{red}{m} \cdot  g    \quad \text{Gravitation (Erdnah)} \\ 
 \end{align*}
@@ -1093,10 +1081,10 @@ Im Gravitationsfeld der Erde lässt sich diese Idee besonders einfach nachvollzi
 
 
 > $$
-\begin{align*} 
-E_{pot} = \Phi(r) \cdot q \\ 
-\end{align*}
-$$
+> \begin{align*} 
+> E_{pot} = \Phi(r) \cdot q \\ 
+> \end{align*}
+> $$
 
 Das Potential ist eng mit der Feldstärke verknüpft: _Die Feldstärke entspricht dem Gefälle des Potentials_. Anschaulich bedeutet dies, dass ein Körper immer in Richtung abnehmenden Potentials beschleunigt wird – vergleichbar mit einem Ball, der auf einer schiefen Ebene in Richtung Tal rollt.
 
@@ -1125,7 +1113,7 @@ In diesem Bild wird schon die Grunderkenntnis der allgemeinen Relativitätstheor
 
 {{0}}
 __Aufgabe 1:__ **Gib** eine Gleichung für das allgemeine Gravitationspotential **an**. \
-<br>
+
 
 
 {{1}}
@@ -1160,10 +1148,10 @@ Im folgenden Video wird das Beschriebene aus diesem Thema nochmal anhand von Bei
 
 **Aufgabe 1:** Gib den Term nach der Verrechnung des Differentialoperators an.
 
-<section class="flex-container">
+<section class="dynFlex">
 <div class="flex-child">
 
-__$a)\;\;$__ $ \dfrac{d}{dx} \; 5 $ = [[ 0       ]]
+__$a)\;\;$__ $ \dfrac{d}{dx} \; 5 $ = [[    0    ]]  @canvas
 @Algebrite.check(0)
 ******************
 $$
@@ -1176,7 +1164,7 @@ $$
 
 <div class="flex-child">
 
-__$b)\;\;$__ $ \dfrac{d}{dx} \; 7x $ = [[ 7       ]]
+__$b)\;\;$__ $ \dfrac{d}{dx} \; 7x $ = [[    7    ]]  @canvas
 @Algebrite.check(7)
 ******************
 $$
@@ -1191,8 +1179,8 @@ $$
 
 <div class="flex-child">
 
-__$c)\;\;$__ $ \dfrac{d}{dx} \; x^2 $ = [[ 2 x       ]]
-@Algebrite.check(2*x)
+__$c)\;\;$__ $ \dfrac{d}{dx} \; x^2 $ = [[    2x    ]]  @canvas
+@Algebrite.check(`2*x`)
 ******************
 $$
 \begin{align*}
@@ -1204,8 +1192,8 @@ $$
 </div>
 <div class="flex-child">
 
-__$d)\;\;$__ $ \dfrac{d}{dx} \; 4x^2 $ = [[ 8 x       ]]
-@Algebrite.check(8*x)
+__$d)\;\;$__ $ \dfrac{d}{dx} \; 4x^2 $ = [[    8x    ]]  @canvas
+@Algebrite.check(`8*x`)
 ******************
 $$
 \begin{align*}
@@ -1219,7 +1207,7 @@ $$
 
 <div class="flex-child">
 
-__$e)\;\;$__ $ \dfrac{d}{dx} \; 9 $ = [[ 0       ]]
+__$e)\;\;$__ $ \dfrac{d}{dx} \; 9 $ = [[    0    ]]  @canvas
 @Algebrite.check(0)
 ******************
 $$
@@ -1232,7 +1220,7 @@ $$
 
 <div class="flex-child">
 
-__$f)\;\;$__ $ \dfrac{d}{dt} \; (2t + 4) $ = [[ 2       ]]
+__$f)\;\;$__ $ \dfrac{d}{dt} \; (2t + 4) $ = [[    2    ]]  @canvas
 @Algebrite.check(2)
 ******************
 $$
@@ -1247,8 +1235,9 @@ $$
 </div>
 
 <div class="flex-child">
-__$g)\;\;$__ $ \dfrac{d}{dy} \; y^3 $ = [[ 3 y^2       ]]
-@Algebrite.check(3*y^2)
+
+__$g)\;\;$__ $ \dfrac{d}{dy} \; y^3 $ = [[    3y^2    ]]  @canvas
+@Algebrite.check(`3*y^2`)
 ******************
 $$
 \begin{align*}
@@ -1261,7 +1250,7 @@ $$
 
 <div class="flex-child">
 
-__$h)\;\;$__ $ \dfrac{d}{dz} \; (5z + 2) $ = [[ 5       ]]
+__$h)\;\;$__ $ \dfrac{d}{dz} \; (5z + 2) $ = [[    5    ]]  @canvas
 @Algebrite.check(5)
 ******************
 $$
@@ -1277,7 +1266,7 @@ $$
 
 <div class="flex-child">
 
-__$i)\;\;$__ $ \dfrac{d}{dy} \; 12 $ = [[ 0       ]]
+__$i)\;\;$__ $ \dfrac{d}{dy} \; 12 $ = [[    0    ]]  @canvas
 @Algebrite.check(0)
 ******************
 $$
@@ -1298,12 +1287,12 @@ $$
 
 **Aufgabe 2:** Gib den Term nach der Verrechnung des Differentialoperators an.
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
-__$a)\;\;$__ $ \dfrac{d}{dx} \; (3x^2 + 5x) $ = [[ 6x + 5       ]]
-@Algebrite.check(6*x+5)
+__$a)\;\;$__ $ \dfrac{d}{dx} \; (3x^2 + 5x) $ = [[    6x + 5    ]]  @canvas
+@Algebrite.check(`6*x+5`)
 ******************
 $$
 \begin{align*}
@@ -1317,8 +1306,8 @@ $$
 
 <div class="flex-child">
 
-__$b)\;\;$__ $ \dfrac{d}{dx} \; 7x^3 $ = [[ 21x^2       ]]
-@Algebrite.check(21*x^2)
+__$b)\;\;$__ $ \dfrac{d}{dx} \; 7x^3 $ = [[    21x^2    ]]  @canvas
+@Algebrite.check(`21*x^2`)
 ******************
 $$
 \begin{align*}
@@ -1333,8 +1322,8 @@ $$
 
 <div class="flex-child">
 
-__$c)\;\;$__ $ \dfrac{d}{dx} \; (-4x^2 + 9) $ = [[ -8x       ]]
-@Algebrite.check(-8*x)
+__$c)\;\;$__ $ \dfrac{d}{dx} \; (-4x^2 + 9) $ = [[    -8x    ]]  @canvas
+@Algebrite.check(`-8*x`)
 ******************
 $$
 \begin{align*}
@@ -1349,8 +1338,8 @@ $$
 
 <div class="flex-child">
 
-__$d)\;\;$__ $ \dfrac{d}{dx} \; x^4 $ = [[ 4x^3       ]]
-@Algebrite.check(4*x^3)
+__$d)\;\;$__ $ \dfrac{d}{dx} \; x^4 $ = [[    4x^3    ]]  @canvas
+@Algebrite.check(`4*x^3`)
 ******************
 $$
 \begin{align*}
@@ -1364,8 +1353,8 @@ $$
 
 <div class="flex-child">
 
-__$e)\;\;$__ $ \dfrac{d}{dt} \; (5t^3 + 2t^2) $ = [[ 15t^2 + 4t       ]]
-@Algebrite.check(15*t^2+4*t)
+__$e)\;\;$__ $ \dfrac{d}{dt} \; (5t^3 + 2t^2) $ = [[    15t^2 + 4t    ]]  @canvas
+@Algebrite.check(`15*t^2+4*t`)
 ******************
 $$
 \begin{align*}
@@ -1379,7 +1368,7 @@ $$
 
 <div class="flex-child">
 
-__$f)\;\;$__ $ \dfrac{d}{dy} \; (-3y + 11) $ = [[ -3       ]]
+__$f)\;\;$__ $ \dfrac{d}{dy} \; (-3y + 11) $ = [[    -3    ]]  @canvas
 @Algebrite.check(-3)
 ******************
 $$
@@ -1395,8 +1384,8 @@ $$
 
 <div class="flex-child">
 
-__$g)\;\;$__ $ \dfrac{d}{dz} \; (2z^4 - z^2 + 7) $ = [[ 8z^3 - 2z       ]]
-@Algebrite.check(8*z^3-2*z)
+__$g)\;\;$__ $ \dfrac{d}{dz} \; (2z^4 - z^2 + 7) $ = [[    8z^3 - 2z    ]]  @canvas
+@Algebrite.check(`8*z^3-2*z`)
 ******************
 $$
 \begin{align*}
@@ -1411,8 +1400,8 @@ $$
 
 <div class="flex-child">
 
-__$h)\;\;$__ $ \dfrac{d}{dx} \; (6x^2 + 4x + 10) $ = [[ 12x + 4       ]]
-@Algebrite.check(12*x+4)
+__$h)\;\;$__ $ \dfrac{d}{dx} \; (6x^2 + 4x + 10) $ = [[    12x + 4    ]]  @canvas
+@Algebrite.check(`12*x+4`)
 ******************
 $$
 \begin{align*}
@@ -1427,7 +1416,7 @@ $$
 
 <div class="flex-child">
 
-__$i)\;\;$__ $ \dfrac{d}{dt} \; 9 $ = [[ 0       ]]
+__$i)\;\;$__ $ \dfrac{d}{dt} \; 9 $ = [[    0    ]]  @canvas
 @Algebrite.check(0)
 ******************
 $$
@@ -1450,12 +1439,12 @@ $$
 **Aufgabe 3:** Gib den Term nach der Verrechnung des Differentialoperators an.
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
-__$a)\;\;$__ $ \dfrac{d}{dx} \; (4x^2 + 3y) $ = [[ 8x       ]]
-@Algebrite.check(8*x)
+__$a)\;\;$__ $ \dfrac{d}{dx} \; (4x^2 + 3y) $ = [[    8x    ]]  @canvas
+@Algebrite.check(`8*x`)
 ******************
 $$
 \begin{align*}
@@ -1470,8 +1459,8 @@ $$
 
 <div class="flex-child">
 
-__$b)\;\;$__ $ \dfrac{d}{dy} \; (5y^3 + 2x) $ = [[ 15y^2       ]]
-@Algebrite.check(15*y^2)
+__$b)\;\;$__ $ \dfrac{d}{dy} \; (5y^3 + 2x) $ = [[    15y^2    ]]  @canvas
+@Algebrite.check(`15*y^2`)
 ******************
 $$
 \begin{align*}
@@ -1486,7 +1475,7 @@ $$
 
 <div class="flex-child">
 
-__$c)\;\;$__ $ \dfrac{d}{dt} \; (7t + 4x^2) $ = [[ 7       ]]
+__$c)\;\;$__ $ \dfrac{d}{dt} \; (7t + 4x^2) $ = [[    7    ]]  @canvas
 @Algebrite.check(7)
 ******************
 $$
@@ -1502,8 +1491,8 @@ $$
 
 <div class="flex-child">
 
-__$d)\;\;$__ $ \dfrac{d}{dz} \; (2z^4 + 5) $ = [[ 8z^3       ]]
-@Algebrite.check(8*z^3)
+__$d)\;\;$__ $ \dfrac{d}{dz} \; (2z^4 + 5) $ = [[    8z^3    ]]  @canvas
+@Algebrite.check(`8*z^3`)
 ******************
 $$
 \begin{align*}
@@ -1518,8 +1507,8 @@ $$
 
 <div class="flex-child">
 
-__$e)\;\;$__ $ \dfrac{d}{dx} \; (x^3 + 2t) $ = [[ 3x^2       ]]
-@Algebrite.check(3*x^2)
+__$e)\;\;$__ $ \dfrac{d}{dx} \; (x^3 + 2t) $ = [[    3x^2    ]]  @canvas
+@Algebrite.check(`3*x^2`)
 ******************
 $$
 \begin{align*}
@@ -1534,8 +1523,8 @@ $$
 
 <div class="flex-child">
 
-__$f)\;\;$__ $ \dfrac{d}{dy} \; (6y^2 - 3y + 9x) $ = [[ 12y - 3       ]]
-@Algebrite.check(12*y-3)
+__$f)\;\;$__ $ \dfrac{d}{dy} \; (6y^2 - 3y + 9x) $ = [[    12y - 3    ]]  @canvas
+@Algebrite.check(`12*y-3`)
 ******************
 $$
 \begin{align*}
@@ -1550,8 +1539,8 @@ $$
 
 <div class="flex-child">
 
-__$g)\;\;$__ $ \dfrac{d}{dt} \; (4 + t^2 + z^5) $ = [[ 2t       ]]
-@Algebrite.check(2*t)
+__$g)\;\;$__ $ \dfrac{d}{dt} \; (4 + t^2 + z^5) $ = [[    2t    ]]  @canvas
+@Algebrite.check(`2*t`)
 ******************
 $$
 \begin{align*}
@@ -1566,7 +1555,7 @@ $$
 
 <div class="flex-child">
 
-__$h)\;\;$__ $ \dfrac{d}{dx} \; (yx + 10) $ = [[ y       ]]
+__$h)\;\;$__ $ \dfrac{d}{dx} \; (yx + 10) $ = [[    y    ]]  @canvas
 @Algebrite.check(y)
 ******************
 $$
@@ -1582,8 +1571,8 @@ $$
 
 <div class="flex-child">
 
-__$i)\;\;$__ $ \dfrac{d}{dz} \; (7 + 2x^4 - z^2) $ = [[ -2z       ]]
-@Algebrite.check(-2*z)
+__$i)\;\;$__ $ \dfrac{d}{dz} \; (7 + 2x^4 - z^2) $ = [[    -2z    ]]  @canvas
+@Algebrite.check(`-2*z`)
 ******************
 $$
 \begin{align*}
@@ -1611,14 +1600,14 @@ $$
 **Aufgabe 4:** Gib den Term nach der Verrechnung des Differentialoperators an.
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
 __$a)\;\;$__ $ \dfrac{d}{dx} \; \dfrac{1}{x} $ = 
 
-[[!]]
-<script>true</script>
+[[    -1/x^2    ]]  @canvas
+@Algebrite.check(`-1/x^2`)
 ******************
 $$
 \begin{align*}
@@ -1634,8 +1623,8 @@ $$
 
 __$b)\;\;$__ $ \dfrac{d}{dx} \; \sqrt{x} $ = 
 
-[[!]]
-<script>true</script>
+[[    \dfrac{1}{2\sqrt{x}}    ]]  @canvas
+@Algebrite.check(`1/(2*sqrt(x))`)
 ******************
 $$
 \begin{align*}
@@ -1652,8 +1641,8 @@ $$
 
 __$c)\;\;$__ $ \dfrac{d}{dx} \; \dfrac{4}{x^2} $ = 
 
-[[!]]
-<script>true</script>
+[[    -\dfrac{8}{x^3}    ]]  @canvas
+@Algebrite.check(`-((8)/(x^3))`)
 ******************
 $$
 \begin{align*}
@@ -1671,8 +1660,8 @@ $$
 
 __$d)\;\;$__ $ \dfrac{d}{dy} \; \dfrac{3}{\sqrt{y}} $ = 
 
-[[!]]
-<script>true</script>
+[[    -\dfrac{3}{2\,y^{3/2}}    ]]  @canvas
+@Algebrite.check(`-3/(2*y^(3/2))`)
 ******************
 $$
 \begin{align*}
@@ -1690,8 +1679,8 @@ $$
 
 __$e)\;\;$__ $ \dfrac{d}{dt} \; \left( t + \dfrac{5}{t} \right) $ = 
 
-[[!]]
-<script>true</script>
+[[    1 - \dfrac{5}{t^2}    ]]  @canvas
+@Algebrite.check(`1-((5)/(t^2))`)
 ******************
 $$
 \begin{align*}
@@ -1711,8 +1700,8 @@ $$
 
 __$f)\;\;$__ $ \dfrac{d}{dz} \; \left( 7 + \dfrac{2}{z^3} \right) $ = 
 
-[[!]]
-<script>true</script>
+[[    -\dfrac{6}{z^4}    ]]  @canvas
+@Algebrite.check(`-((6)/(z^4))`)
 ******************
 $$
 \begin{align*}
@@ -1731,8 +1720,8 @@ $$
 
 __$g)\;\;$__ $ \dfrac{d}{dx} \; \left( \dfrac{5}{\sqrt{x}} + x^2 \right) $ = 
 
-[[!]]
-<script>true</script>
+[[    -\dfrac{5}{2\,x^{3/2}} + 2x    ]]  @canvas
+@Algebrite.check(`-5/(2*x^(3/2))+2*x`)
 ******************
 $$
 \begin{align*}
@@ -1751,8 +1740,8 @@ $$
 
 __$h)\;\;$__ $ \dfrac{d}{dx} \; \left( \dfrac{a}{x} \right) $ = 
 
-[[!]]
-<script>true</script>
+[[    -\dfrac{a}{x^2}    ]]  @canvas
+@Algebrite.check(`-((a)/(x^2))`)
 ******************
 $$
 \begin{align*}
@@ -1770,8 +1759,8 @@ $$
 
 __$i)\;\;$__ $ \dfrac{d}{dy} \; \sqrt{y} + \dfrac{d}{dy} \; \left(\dfrac{4}{y}\right) $ = 
 
-[[!]]
-<script>true</script>
+[[    \dfrac{1}{2\sqrt{y}} - \dfrac{4}{y^2}    ]]  @canvas
+@Algebrite.check(`1/(2*sqrt(y))-4/y^2`)
 ******************
 $$
 \begin{align*}
@@ -1813,7 +1802,7 @@ $$
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
@@ -1823,8 +1812,8 @@ $ \Phi(r) = \Phi_0 $
 
 $ F(r) = $ 
 
-[[!]]
-<script>true</script>
+[[    0    ]]  @canvas
+@Algebrite.check(0)
 ******************
 $$
 \begin{align*}
@@ -1846,8 +1835,8 @@ $ \Phi(r) = -E_0 \, r $
 
 $ F(r) = $ 
 
-[[!]]
-<script>true</script>
+[[    qE_0    ]]  @canvas
+@Algebrite.check(`qE_0`)
 ******************
 $$
 \begin{align*}
@@ -1874,8 +1863,8 @@ $ \Phi(r) = \dfrac{1}{4\pi\varepsilon_0} \dfrac{Q}{r} $
 
 $ F(r) = $ 
 
-[[!]]
-<script>true</script>
+[[    \frac{1}{4\pi\varepsilon_0} \frac{qQ}{r^{2}}    ]]  @canvas
+@Algebrite.check(`(1/(4*pi*epsilon_0))*(q*Q/r^2)`)
 ******************
 $$
 \begin{align*}
@@ -1902,8 +1891,8 @@ $ \Phi(r) = - \dfrac{GM}{r} $
 
 $ F(r) = $ 
 
-[[!]]
-<script>true</script>
+[[    - \frac{G M q}{r^2}    ]]  @canvas
+@Algebrite.check(`-((G*M*q)/(r^2))`)
 ******************
 $$
 \begin{align*}
@@ -1931,8 +1920,8 @@ $ \Phi(r) = \dfrac{1}{2} k r^2 $
 
 $ F(r) = $ 
 
-[[!]]
-<script>true</script>
+[[    - q k r    ]]  @canvas
+@Algebrite.check(`-q*k*r`)
 ******************
 $$
 \begin{align*}
@@ -1960,8 +1949,8 @@ $ \Phi(r) = A \, r^n $
 
 $ F(r) = $ 
 
-[[!]]
-<script>true</script>
+[[    - q A n r^{n-1}    ]]  @canvas
+@Algebrite.check(`-q*A*n*r^(n-1)`)
 ******************
 $$
 \begin{align*}
@@ -1997,7 +1986,7 @@ F(t) \;=\; \dfrac{dp(t)}{dt}
 $$
 wobei $ p(t) $ der Impuls ist. Bestimme für jede Situation $ F(t) $ aus dem gegebenen Impulsverlauf $ p(t) $.
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
@@ -2005,8 +1994,8 @@ __$a)\;\;$__ Gegeben: $ p(t) = p_0 $
 
 $ F(t) = $ 
 
-[[!]]
-<script>true</script>
+[[    0    ]]  @canvas
+@Algebrite.check(0)
 ******************
 $$
 \begin{align*}
@@ -2025,8 +2014,8 @@ __$b)\;\;$__ Eine Masse $m$ bewege sich mit $v(t)=v_0 + a t$.
 
 $ F(t) = $ 
 
-[[!]]
-<script>true</script>
+[[    m a    ]]  @canvas
+@Algebrite.check(`m*a`)
 ******************
 $$
 \begin{align*}
@@ -2048,8 +2037,8 @@ __$c)\;\;$__ Gegeben: $ p(t) = k \, t^2 $
 
 $ F(t) = $
 
-[[!]]
-<script>true</script>
+[[    2kt    ]]  @canvas
+@Algebrite.check(`2*kt`)
 ******************
 $$
 \begin{align*}
@@ -2071,8 +2060,8 @@ __$d)\;\;$__ Gegeben: $ p(t) = \dfrac{A}{t} $
 
 $ F(t) = $ 
 
-[[!]]
-<script>true</script>
+[[    -\dfrac{A}{t^2}    ]]  @canvas
+@Algebrite.check(`-((A)/(t^2))`)
 ******************
 $$
 \begin{align*}
@@ -2096,8 +2085,8 @@ __$e)\;\;$__ Eine Masse $m$ habe die Geschwindigkeit $v(t)=b t^2$.
 
 $ F(t) = $ 
 
-[[!]]
-<script>true</script>
+[[    2mbt    ]]  @canvas
+@Algebrite.check(`2*mbt`)
 ******************
 $$
 \begin{align*}
@@ -2120,8 +2109,8 @@ __$f)\;\;$__ Gegeben: $ p(t) = B \sqrt{t}  $
 
 $ F(t) = $ 
 
-[[!]]
-<script>true</script>
+[[    \dfrac{B}{2 \sqrt{t}}    ]]  @canvas
+@Algebrite.check(`B/(2*sqrt(t))`)
 ******************
 $$
 \begin{align*}
@@ -2162,14 +2151,14 @@ $$
 $$
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
 __$a)\;\;$__ $ f(x) = x^4 $
 
-$ \dfrac{d^2 f(x)}{dx^2} = $ [[ 12 x^2       ]]
-@Algebrite.check(12*x^2)
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[    12x^2    ]]  @canvas
+@Algebrite.check(`12*x^2`)
 ******************
 $$
 \begin{align*}
@@ -2186,8 +2175,8 @@ $$
 
 __$b)\;\;$__ $ f(x) = 3x^3 + 2x $
 
-$ \dfrac{d^2 f(x)}{dx^2} = $ [[ 18 x       ]]
-@Algebrite.check(18*x)
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[    18x    ]]  @canvas
+@Algebrite.check(`18*x`)
 ******************
 $$
 \begin{align*}
@@ -2207,8 +2196,8 @@ $$
 
 __$c)\;\;$__ $ f(x) = \dfrac{5}{x} $
 
-$ \dfrac{d^2 f(x)}{dx^2} = $ [[ \dfrac{10}{x^3}       ]]
-@Algebrite.check(10/x^3)
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[    \dfrac{10}{x^3}    ]]  @canvas
+@Algebrite.check(`((10)/(x^3))`)
 ******************
 $$
 \begin{align*}
@@ -2233,8 +2222,8 @@ __$d)\;\;$__ $ f(x) = \sqrt{x} $
 
 $ \dfrac{d^2 f(x)}{dx^2} = $ 
 
-[[!]]
-<script>true</script>
+[[    -\dfrac{1}{4 x^{3/2}}    ]]  @canvas
+@Algebrite.check(`-1/(4*x^(3/2))`)
 ******************
 $$
 \begin{align*}
@@ -2256,7 +2245,7 @@ $$
 
 __$e)\;\;$__ $ f(x) = 7x^2 - 4x + 9 $
 
-$ \dfrac{d^2 f(x)}{dx^2} = $ [[ 14       ]]
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[    14    ]]  @canvas
 @Algebrite.check(14)
 ******************
 $$
@@ -2278,8 +2267,8 @@ $$
 
 __$f)\;\;$__ $ f(x) = \dfrac{2}{x^2} + x \;=\; 2x^{-2} + x $
 
-$ \dfrac{d^2 f(x)}{dx^2} = $ [[ \dfrac{12}{x^4}       ]]
-@Algebrite.check(12/x^4)
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[    \dfrac{12}{x^4}    ]]  @canvas
+@Algebrite.check(`((12)/(x^4))`)
 ******************
 $$
 \begin{align*}
@@ -2317,14 +2306,14 @@ Achte darauf, **nach welcher Variablen abgeleitet wird**. Andere Buchstaben gelt
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
 __$a)\;\;$__ Gegeben: $ f(x) = A \, x^2 $
 
-$ \dfrac{d^2 f(x)}{dx^2} = $ [[ 2 A       ]]
-@Algebrite.check(2*A)
+$ \dfrac{d^2 f(x)}{dx^2} = $ [[    2A    ]]  @canvas
+@Algebrite.check(`2*A`)
 ******************
 $$
 \begin{align*}
@@ -2344,8 +2333,8 @@ $$
 
 __$b)\;\;$__ Gegeben: $ g(t) = B \, t^3 + C $
 
-$ \dfrac{d^2 g(t)}{dt^2} = $ [[ 6 B t       ]]
-@Algebrite.check(6*B*t)
+$ \dfrac{d^2 g(t)}{dt^2} = $ [[    6B t    ]]  @canvas
+@Algebrite.check(`6*B*t`)
 ******************
 $$
 \begin{align*}
@@ -2365,8 +2354,8 @@ $$
 
 __$c)\;\;$__ Gegeben: $ h(y) = \dfrac{D}{y}  $
 
-$ \dfrac{d^2 h(y)}{dy^2} = $ [[ 2 D / y^3       ]]
-@Algebrite.check(2*D/y^3)
+$ \dfrac{d^2 h(y)}{dy^2} = $ [[    \dfrac{2D}{y^3}    ]]  @canvas
+@Algebrite.check(`((2*D)/(y^3))`)
 ******************
 $$
 \begin{align*}
@@ -2391,8 +2380,8 @@ __$d)\;\;$__ Gegeben: $ p(z) = E \sqrt{z}  $
 
 $ \dfrac{d^2 p(z)}{dz^2} = $ 
 
-[[!]]
-<script>true</script>
+[[    -\dfrac{E}{4 z^{3/2}}    ]]  @canvas
+@Algebrite.check(`-E/(4*z^(3/2))`)
 ******************
 $$
 \begin{align*}
@@ -2415,8 +2404,8 @@ $$
 
 __$e)\;\;$__ Gegeben: $ q(u) = \dfrac{F}{u^2} + G u  $
 
-$ \dfrac{d^2 q(u)}{du^2} = $ [[ 6 F / u^4       ]]
-@Algebrite.check(6*F/u^4)
+$ \dfrac{d^2 q(u)}{du^2} = $ [[    \dfrac{6F}{u^4}    ]]  @canvas
+@Algebrite.check(`((6*F)/(u^4))`)
 ******************
 $$
 \begin{align*}
@@ -2441,8 +2430,8 @@ __$f)\;\;$__ Gegeben: $ r(v) = H \, v^{n} $
 
 $ \dfrac{d^2 r(v)}{dv^2} = $ 
 
-[[!]]
-<script>true</script>
+[[    H n (n-1) v^{n-2}    ]]  @canvas
+@Algebrite.check(`H*n*(n-1)*v^(n-2)`)
 ******************
 $$
 \begin{align*}
@@ -2480,7 +2469,7 @@ $$
 \frac{d}{dt}\left(\frac{d}{dx} f(t,x)\right)
 $$
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
@@ -2488,7 +2477,7 @@ __$a)\;\;$__ Gegeben: $ f(t,x) = A \, t \, x $
 
 Bestimme $ \dfrac{d}{dt}\left(\dfrac{d}{dx} f(t,x)\right) $.
 
-$ = $ [[ A       ]]
+$ = $ [[    A    ]]  @canvas
 @Algebrite.check(A)
 ******************
 $$
@@ -2510,8 +2499,8 @@ __$b)\;\;$__ Gegeben: $ g(t,x) = B \, t^2 \, x^3 $
 
 Bestimme $ \dfrac{d}{dx}\left(\dfrac{d}{dt} g(t,x)\right) $.
 
-$ = $ [[ 6 B t x^2       ]]
-@Algebrite.check(6*B*t*x^2)
+$ = $ [[    6 B \, t \, x^2    ]]  @canvas
+@Algebrite.check(`6*B*t*x^2`)
 ******************
 $$
 \begin{align*}
@@ -2533,8 +2522,8 @@ __$c)\;\;$__ Gegeben: $ h(x,y) = C \, x^2 \, y + D \, y^2 $
 
 Bestimme $ \dfrac{d}{dy}\left(\dfrac{d}{dx} h(x,y)\right) $.
 
-$ = $ [[ 2 C x       ]]
-@Algebrite.check(2*C*x)
+$ = $ [[    2 C \, x    ]]  @canvas
+@Algebrite.check(`2*C*x`)
 ******************
 $$
 \begin{align*}
@@ -2555,8 +2544,8 @@ __$d)\;\;$__ Gegeben: $ p(u,v) = E \, u^3 \, v^2 $
 
 Bestimme $ \dfrac{d}{dv}\left(\dfrac{d}{du} p(u,v)\right) $.
 
-$ = $ [[ 6 E u^2 v       ]]
-@Algebrite.check(6*E*u^2*v)
+$ = $ [[    6 E \, u^2 \, v    ]]  @canvas
+@Algebrite.check(`6*E*u^2*v`)
 ******************
 $$
 \begin{align*}
@@ -2578,8 +2567,8 @@ __$e)\;\;$__ Gegeben: $ q(y,z) = F \, \dfrac{y}{z}  $
 
 Bestimme $ \dfrac{d}{dz}\left(\dfrac{d}{dy} q(y,z)\right) $.
 
-$ = $ [[ - F / z^2       ]]
-@Algebrite.check(-F/z^2)
+$ = $ [[    - \frac{F}{z^2}    ]]  @canvas
+@Algebrite.check(`-((F)/(z^2))`)
 ******************
 $$
 \begin{align*}
@@ -2603,8 +2592,8 @@ __$f)\;\;$__ Gegeben: $ r(a,b) = G \, a^{n} \, b^{m} $
 
 Bestimme $ \dfrac{d}{db}\left(\dfrac{d}{da} r(a,b)\right)  = $ 
 
-[[!]]
-<script>true</script>
+[[    G \, m \, n \, a^{n-1} \, b^{m-1}    ]]  @canvas
+@Algebrite.check(`G*m*n*a^(n-1)*b^(m-1)`)
 ******************
 $$
 \begin{align*}
@@ -2626,8 +2615,8 @@ __$g)\;\;$__ Gegeben: $ M(p,q) = H \, p \, q^2 + J \, q $
 
 Bestimme $ \dfrac{d}{dp}\left(\dfrac{d}{dq} M(p,q)\right) $.
 
-$ = $ [[ 2 H q       ]]
-@Algebrite.check(2*H*q)
+$ = $ [[    2 H \, q    ]]  @canvas
+@Algebrite.check(`2*H*q`)
 ******************
 $$
 \begin{align*}
@@ -2650,8 +2639,8 @@ __$h)\;\;$__ Gegeben: $ N(s,t) = K \, \sqrt{s} \, t^2 = K \, s^{1/2} \, t^2 $
 
 Bestimme $ \dfrac{d}{ds}\left(\dfrac{d}{dt} N(s,t)\right) =$
 
-[[!]]
-<script>true</script>
+[[    \frac{K \, t}{\sqrt{s}}    ]]  @canvas
+@Algebrite.check(`K*t/sqrt(s)`)
 ******************
 $$
 \begin{align*}
@@ -2676,8 +2665,8 @@ __$i)\;\;$__ Gegeben: $ S(m,u) = L \, \dfrac{1}{m \, u} = L \, m^{-1} u^{-1} $
 Bestimme $ \dfrac{d}{du}\left(\dfrac{d}{dm} S(m,u)\right) =$
 
 
-[[!]]
-<script>true</script>
+[[    \frac{L}{m^2 u^2}    ]]  @canvas
+@Algebrite.check(`((L)/(m^2*u^2))`)
 ******************
 $$
 \begin{align*}
@@ -2717,7 +2706,7 @@ $$
 
 Achte: manchmal sollst du nur $ v(t) $ bestimmen, manchmal direkt $ a(t) $.
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
@@ -2725,8 +2714,8 @@ __$a)\;\;$__ Gegeben: $ x(t) = A \, t^2 $
 
 Bestimme die Geschwindigkeit $v(t)$.
 
-$ v(t) = $ [[ 2 A t       ]]
-@Algebrite.check(2*A*t)
+$ v(t) = $ [[    2At    ]]  @canvas
+@Algebrite.check(`2*At`)
 ******************
 $$
 \begin{align*}
@@ -2747,8 +2736,8 @@ __$b)\;\;$__ Gegeben: $ x(t) = B \, t^3 + C $
 
 Bestimme die Beschleunigung $a(t)$.
 
-$ a(t) = $ [[ 6 B t       ]]
-@Algebrite.check(6*B*t)
+$ a(t) = $ [[    6B t    ]]  @canvas
+@Algebrite.check(`6*B*t`)
 ******************
 $$
 \begin{align*}
@@ -2772,7 +2761,7 @@ __$c)\;\;$__ Gegeben: $ x(t) = D \, t + E $
 
 Bestimme die Geschwindigkeit $v(t)$.
 
-$ v(t) = $ [[ D       ]]
+$ v(t) = $ [[    D    ]]  @canvas
 @Algebrite.check(D)
 ******************
 $$
@@ -2794,8 +2783,8 @@ __$d)\;\;$__ Gegeben: $ x(t) = F \, t^2 + G \, t^4 $
 
 Bestimme die Beschleunigung $a(t)$.
 
-$ a(t) = $ [[ 2 F + 12 G t^2       ]]
-@Algebrite.check(2*F+12*G*t^2)
+$ a(t) = $ [[    2F + 12G t^2    ]]  @canvas
+@Algebrite.check(`2*F+12*G*t^2`)
 ******************
 $$
 \begin{align*}
@@ -2820,8 +2809,8 @@ Bestimme die Geschwindigkeit $v(t)$.
 
 $ v(t) = $ 
 
-[[!]]
-<script>true</script>
+[[    \frac{H}{2 \sqrt{t}}    ]]  @canvas
+@Algebrite.check(`H/(2*sqrt(t))`)
 ******************
 $$
 \begin{align*}
@@ -2843,8 +2832,8 @@ __$f)\;\;$__ Gegeben: $ x(t) = \dfrac{K}{t}  $
 
 Bestimme die Beschleunigung $a(t)$.
 
-$ a(t) = $ [[ 2 K / t^3       ]]
-@Algebrite.check(2*K/t^3)
+$ a(t) = $ [[    \frac{2K}{t^3}    ]]  @canvas
+@Algebrite.check(`((2*K)/(t^3))`)
 ******************
 $$
 \begin{align*}
@@ -2887,7 +2876,7 @@ $$
 wobei $E(t)$ die aufgenommene/abgegebene Energie (in Joule) ist und $P(t)$ die Leistung (in Watt).
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
@@ -2895,7 +2884,7 @@ __$a)\;\;$__ Gegeben: $ Q(t) = A \, t $
 
 Bestimme die Stromstärke $ I(t) $.
 
-$ I(t) = $ [[ A       ]]
+$ I(t) = $ [[    A    ]]  @canvas
 @Algebrite.check(A)
 ******************
 $$
@@ -2916,8 +2905,8 @@ __$b)\;\;$__ Gegeben: $ Q(t) = B \, t^2 + C $
 
 Bestimme die Stromstärke $ I(t) $.
 
-$ I(t) = $ [[ 2 B t       ]]
-@Algebrite.check(2*B*t)
+$ I(t) = $ [[    2B t    ]]  @canvas
+@Algebrite.check(`2*B*t`)
 ******************
 $$
 \begin{align*}
@@ -2938,8 +2927,8 @@ __$c)\;\;$__ Gegeben: $ Q(t) = \dfrac{D}{t} $
 
 Bestimme die Stromstärke $ I(t) $.
 
-$ I(t) = $ [[ - D / t^2       ]]
-@Algebrite.check(-D/t^2)
+$ I(t) = $ [[    - \frac{D}{t^2}    ]]  @canvas
+@Algebrite.check(`-((D)/(t^2))`)
 ******************
 $$
 \begin{align*}
@@ -2961,7 +2950,7 @@ __$d)\;\;$__ Gegeben: $ E(t) = F \, t $
 
 Bestimme die Leistung $ P(t) $.
 
-$ P(t) = $ [[ F       ]]
+$ P(t) = $ [[    F    ]]  @canvas
 @Algebrite.check(F)
 ******************
 $$
@@ -2982,8 +2971,8 @@ __$e)\;\;$__ Gegeben: $ E(t) = G \, t^2 + H \, t $
 
 Bestimme die Leistung $ P(t) $.
 
-$ P(t) = $ [[ 2 G t + H       ]]
-@Algebrite.check(2*G*t+H)
+$ P(t) = $ [[    2G t + H    ]]  @canvas
+@Algebrite.check(`2*G*t+H`)
 ******************
 $$
 \begin{align*}
@@ -3005,8 +2994,8 @@ Bestimme die Leistung $ P(t) $.
 
 $ P(t) = $ 
 
-[[!]]
-<script>true</script>
+[[    - \frac{K}{2} \, t^{-\tfrac{3}{2}}    ]]  @canvas
+@Algebrite.check(`-((K)/(2))*t^(-((3)/(2)))`)
 ******************
 $$
 \begin{align*}
@@ -3055,13 +3044,13 @@ Im folgenden Video wird das Beschriebene aus diesem Thema nochmal anhand von Bei
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$a)\;\;$__ $ \int x^5 \, dx $ = [[  1/6 * x^6 + C  ]]
-@Algebrite.check(1/6*x^6 + C)
+__$a)\;\;$__ $ \int x^5 \, dx $ = [[    \frac{1}{6} x^{6} + C    ]]  @canvas
+@Algebrite.check(`((1)/(6))*x^(6)+C`)
 ******************
 $$
 \begin{align*}
@@ -3075,8 +3064,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$b)\;\;$__ $ \int 3x^2 \, dx $ = [[  x^3 + C  ]]
-@Algebrite.check(x^3 + C)
+__$b)\;\;$__ $ \int 3x^2 \, dx $ = [[    x^{3} + C    ]]  @canvas
+@Algebrite.check(`x^(3)+C`)
 ******************
 $$
 \begin{align*}
@@ -3090,8 +3079,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$c)\;\;$__ $ \int t^4 \, dt $ = [[  1/5 * t^5 + C  ]]
-@Algebrite.check(1/5*t^5 + C)
+__$c)\;\;$__ $ \int t^4 \, dt $ = [[    \frac{1}{5} t^{5} + C    ]]  @canvas
+@Algebrite.check(`((1)/(5))*t^(5)+C`)
 ******************
 $$
 \begin{align*}
@@ -3105,8 +3094,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$d)\;\;$__ $ \int 7y^6 \, dy $ = [[  1 * y^7 + C  ]]
-@Algebrite.check(y^7 + C)
+__$d)\;\;$__ $ \int 7y^6 \, dy $ = [[    y^{7} + C    ]]  @canvas
+@Algebrite.check(`y^(7)+C`)
 ******************
 $$
 \begin{align*}
@@ -3120,8 +3109,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$e)\;\;$__ $ \int 5 \, dx $ = [[  5*x+C  ]]
-@Algebrite.check(5*x + C)
+__$e)\;\;$__ $ \int 5 \, dx $ = [[    5x + C    ]]  @canvas
+@Algebrite.check(`5*x+C`)
 ******************
 $$
 \begin{align*}
@@ -3135,8 +3124,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$f)\;\;$__ $ \int 9s \, ds $ = [[  9/2 * s^2 + C  ]]
-@Algebrite.check(9/2*s^2 + C)
+__$f)\;\;$__ $ \int 9s \, ds $ = [[    \frac{9}{2}s^{2} + C    ]]  @canvas
+@Algebrite.check(`((9)/(2))*s^(2)+C`)
 ******************
 $$
 \begin{align*}
@@ -3150,8 +3139,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$g)\;\;$__ $ \int \left(4u^3 + 2u\right) \, du $ = [[  u^4 + u^2 + C  ]]
-@Algebrite.check(u^4 + u^2 + C)
+__$g)\;\;$__ $ \int \left(4u^3 + 2u\right) \, du $ = [[    u^4 + u^2 + C    ]]  @canvas
+@Algebrite.check(`u^4+u^2+C`)
 ******************
 $$
 \begin{align*}
@@ -3167,8 +3156,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$h)\;\;$__ $ \int \left(2x^3 - 8\right) \, dx $ = [[  1/2 * x^4 - 8*x + C  ]]
-@Algebrite.check(1/2*x^4 - 8*x + C)
+__$h)\;\;$__ $ \int \left(2x^3 - 8\right) \, dx $ = [[    \frac{1}{2} x^4 - 8x + C    ]]  @canvas
+@Algebrite.check(`((1)/(2))*x^4-8*x+C`)
 ******************
 $$
 \begin{align*}
@@ -3184,8 +3173,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$i)\;\;$__ $ \int \left(6z^2 + 4\right) \, dz $ = [[  2*z^3 + 4*z + C  ]]
-@Algebrite.check(2*z^3 + 4*z + C)
+__$i)\;\;$__ $ \int \left(6z^2 + 4\right) \, dz $ = [[    2 z^3 + 4z + C    ]]  @canvas
+@Algebrite.check(`2*z^3+4*z+C`)
 ******************
 $$
 \begin{align*}
@@ -3216,14 +3205,14 @@ $$
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$a)\;\;$__ $ \int x^4 \, dx $ = [[  1/5 * x^5 + C  ]]
-@Algebrite.check(1/5*x^5 + C)
+__$a)\;\;$__ $ \int x^4 \, dx $ = [[    \frac{1}{5} x^5 + C    ]]  @canvas
+@Algebrite.check(`((1)/(5))*x^5+C`)
 ******************
 $$
 \begin{align*}
@@ -3237,8 +3226,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$b)\;\;$__ $ \int 4x^3 \, dx $ = [[  x^4 + C  ]]
-@Algebrite.check(x^4 + C)
+__$b)\;\;$__ $ \int 4x^3 \, dx $ = [[    x^4 + C    ]]  @canvas
+@Algebrite.check(`x^4+C`)
 ******************
 $$
 \begin{align*}
@@ -3252,8 +3241,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$c)\;\;$__ $ \int (2t + 3) \, dt $ = [[  t^2 + 3*t + C  ]]
-@Algebrite.check(t^2 + 3*t + C)
+__$c)\;\;$__ $ \int (2t + 3) \, dt $ = [[    t^2 + 3t + C    ]]  @canvas
+@Algebrite.check(`t^2+3*t+C`)
 ******************
 $$
 \begin{align*}
@@ -3269,8 +3258,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$d)\;\;$__ $ \int y^2 \, dy $ = [[  1/3 * y^3 + C  ]]
-@Algebrite.check(1/3*y^3 + C)
+__$d)\;\;$__ $ \int y^2 \, dy $ = [[    \frac{1}{3} y^3 + C    ]]  @canvas
+@Algebrite.check(`((1)/(3))*y^3+C`)
 ******************
 $$
 \begin{align*}
@@ -3284,8 +3273,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$e)\;\;$__ $ \int (5 - 10x) \, dx $ = [[  5*x - 5*x^2 + C  ]]
-@Algebrite.check(5*x - 5*x^2 + C)
+__$e)\;\;$__ $ \int (5 - 10x) \, dx $ = [[    5x - 5x^2 + C    ]]  @canvas
+@Algebrite.check(`5*x-5*x^2+C`)
 ******************
 $$
 \begin{align*}
@@ -3301,8 +3290,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$f)\;\;$__ $ \int 7 \, du $ = [[  7*u + C  ]]
-@Algebrite.check(7*u + C)
+__$f)\;\;$__ $ \int 7 \, du $ = [[    7u + C    ]]  @canvas
+@Algebrite.check(`7*u+C`)
 ******************
 $$
 \begin{align*}
@@ -3316,8 +3305,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$g)\;\;$__ $ \int (6z^2 - 4z) \, dz $ = [[  2*z^3 - 2*z^2 + C  ]]
-@Algebrite.check(2*z^3 - 2*z^2 + C)
+__$g)\;\;$__ $ \int (6z^2 - 4z) \, dz $ = [[    2 z^3 - 2 z^2 + C    ]]  @canvas
+@Algebrite.check(`2*z^3-2*z^2+C`)
 ******************
 $$
 \begin{align*}
@@ -3333,8 +3322,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$h)\;\;$__ $ \int 9w^4 \, dw $ = [[  9/5 * w^5 + C  ]]
-@Algebrite.check(9/5*w^5 + C)
+__$h)\;\;$__ $ \int 9w^4 \, dw $ = [[    \frac{9}{5} w^5 + C    ]]  @canvas
+@Algebrite.check(`((9)/(5))*w^5+C`)
 ******************
 $$
 \begin{align*}
@@ -3350,8 +3339,8 @@ $$
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
-__$i)\;\;$__ $ \int (4 + 8s^3) \, ds $ = [[  4*s + 2*s^4 + C  ]]
-@Algebrite.check(4*s + 2*s^4 + C)
+__$i)\;\;$__ $ \int (4 + 8s^3) \, ds $ = [[    4s + 2s^4 + C    ]]  @canvas
+@Algebrite.check(`4*s+2*s^4+C`)
 ******************
 $$
 \begin{align*}
@@ -3383,15 +3372,15 @@ $$
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
 <!-- data-solution-button="5"-->
 __$a)\;\;$__ $ \int \sqrt{x} \, dx $ = 
 
-[[!]]
-<script>true</script>
+[[    \frac{2}{3} x^{3/2} + C    ]]  @canvas
+@Algebrite.check(`((2)/(3))*x^(3/2)+C`)
 ******************
 $$
 \begin{align*}
@@ -3410,8 +3399,8 @@ $$
 <!-- data-solution-button="5"-->
 __$b)\;\;$__ $ \int \dfrac{4}{\sqrt[3]{x}} \, dx $ = 
 
-[[!]]
-<script>true</script>
+[[    6 x^{2/3} + C    ]]  @canvas
+@Algebrite.check(`6*x^(2/3)+C`)
 ******************
 $$
 \begin{align*}
@@ -3431,8 +3420,8 @@ $$
 <!-- data-solution-button="5"-->
 __$c)\;\;$__ $ \int \left(5x^{3/2} - 2x^{1/2}\right) dx $ = 
 
-[[!]]
-<script>true</script>
+[[    2 x^{5/2} \;-\; \frac{4}{3} x^{3/2} + C    ]]  @canvas
+@Algebrite.check(`2*x^(5/2)-((4)/(3))*x^(3/2)+C`)
 ******************
 $$
 \begin{align*}
@@ -3451,8 +3440,8 @@ $$
 <!-- data-solution-button="5"-->
 __$d)\;\;$__ $ \int \dfrac{3}{y^4} \, dy$ = 
 
-[[!]]
-<script>true</script>
+[[    -\frac{1}{y^3} + C    ]]  @canvas
+@Algebrite.check(`-((1)/(y^3))+C`)
 ******************
 $$
 \begin{align*}
@@ -3472,8 +3461,8 @@ $$
 <!-- data-solution-button="5"-->
 __$e)\;\;$__ $ \int \left(7t^{-1/2} + 2t^{3}\right) dt $ = 
 
-[[!]]
-<script>true</script>
+[[    14 t^{1/2} \;+\; \frac{1}{2} t^4 + C    ]]  @canvas
+@Algebrite.check(`14*t^(1/2)+((1)/(2))*t^4+C`)
 ******************
 $$
 \begin{align*}
@@ -3492,8 +3481,8 @@ $$
 <!-- data-solution-button="5"-->
 __$f)\;\;$__ $ \int \left(5u^{-3/2} - 4u^{2}\right) du $ = 
 
-[[!]]
-<script>true</script>
+[[    -10 u^{-1/2} \;-\; \frac{4}{3} u^{3} + C    ]]  @canvas
+@Algebrite.check(`-10*u^(-1/2)-((4)/(3))*u^(3)+C`)
 ******************
 $$
 \begin{align*}
@@ -3514,8 +3503,8 @@ $$
 <!-- data-solution-button="5"-->
 __$g)\;\;$__ $ \int \left(6x^{-2} + 9x^{4}\right) dx $ = 
 
-[[!]]
-<script>true</script>
+[[    -\frac{6}{x} + \frac{9}{5} x^{5} + C    ]]  @canvas
+@Algebrite.check(`-((6)/(x))+((9)/(5))*x^(5)+C`)
 ******************
 $$
 \begin{align*}
@@ -3537,8 +3526,8 @@ $$
 <!-- data-solution-button="5"-->
 __$h)\;\;$__ $ \int \left(\dfrac{4}{\sqrt{z}} - \dfrac{2}{z^{2}}\right) dz $ = 
 
-[[!]]
-<script>true</script>
+[[    8\sqrt{z} + \frac{2}{z} + C    ]]  @canvas
+@Algebrite.check(`8*sqrt*(z)+((2)/(z))+C`)
 ******************
 $$
 \begin{align*}
@@ -3560,8 +3549,8 @@ $$
 <!-- data-solution-button="5"-->
 __$i)\;\;$__ $ \int \dfrac{5}{3} w^{2/3} \, dw $ = 
 
-[[!]]
-<script>true</script>
+[[    w^{5/3} + C    ]]  @canvas
+@Algebrite.check(`w^(5/3)+C`)
 ******************
 $$
 \begin{align*}
@@ -3594,7 +3583,7 @@ $$
 \end{align*}
 $$
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 __$a)\;\;$__ (Konstante Kraft) 
@@ -3604,8 +3593,8 @@ Gegeben: $ F(r) = -F_0 $ mit $F_0>0$.
 $\Delta E_{\mathrm{pot}}(r)=$ 
 
 
-[[!]]
-<script>true</script>
+[[    -F_0\,r + C    ]]  @canvas
+@Algebrite.check(`-F_0*r+C`)
 ******************
 $$
 \begin{align*}
@@ -3622,8 +3611,8 @@ Gegeben: $ F(r) = -k\,(r-r_0) $ mit $k>0$.
 <!-- data-solution-button="5"-->
 $\Delta E_{\mathrm{pot}}(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    -\tfrac{k}{2}\,(r-r_0)^2 + C    ]]  @canvas
+@Algebrite.check(`-((k)/(2))*(r-r0)^2+C`)
 ******************
 $$
 \begin{align*}
@@ -3643,8 +3632,8 @@ Gegeben: $ F(r) = -(k\,r + \alpha r^3 + \beta r^5) $ mit $k,\alpha,\beta>0$.
 <!-- data-solution-button="5"-->
 $\Delta E_{\mathrm{pot}}(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    -\tfrac{k}{2}\,r^2 - \tfrac{\alpha}{4}\,r^4 - \tfrac{\beta}{6}\,r^6 + C    ]]  @canvas
+@Algebrite.check(`-((k)/(2))*r^2-((alpha)/(4))*r^4-((beta)/(6))*r^6+C`)
 ******************
 $$
 \begin{align*}
@@ -3663,8 +3652,8 @@ Gegeben: $ F(r) = -\dfrac{\kappa}{r^2} $ mit $\kappa>0$ und $r\neq 0$.
 <!-- data-solution-button="5"-->
 $\Delta E_{\mathrm{pot}}(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    \frac{\kappa}{r} + C    ]]  @canvas
+@Algebrite.check(`((kappa)/(r))+C`)
 ******************
 $$
 \begin{align*}
@@ -3684,8 +3673,8 @@ Gegeben: $ F(r) = -A\,\sqrt{r} $ mit $A>0$ und $r\ge 0$.
 <!-- data-solution-button="5"-->
 $\Delta E_{\mathrm{pot}}(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    -\frac{2A}{3}\,r^{3/2} + C    ]]  @canvas
+@Algebrite.check(`-((2*A)/(3))*r^(3/2)+C`)
 ******************
 $$
 \begin{align*}
@@ -3705,8 +3694,8 @@ Gegeben: $ F(r) = -\dfrac{B}{r^3} $ mit $B>0$ und $r>0$.
 <!-- data-solution-button="5"-->
 $\Delta E_{\mathrm{pot}}(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    \frac{B}{2\,r^{2}} + C    ]]  @canvas
+@Algebrite.check(`B/(2*r^2)+C`)
 ******************
 $$
 \begin{align*}
@@ -3740,7 +3729,7 @@ $$
 $$
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 __$a)\;\;$__ *(Solarzelle unter wandernder Wolke – Parabelverlauf um Mittag)*  
@@ -3749,8 +3738,8 @@ Gegeben: $ P(t) = \alpha\,t - \beta\,t^{2} $ mit $\alpha,\beta>0$ und $t\ge 0$.
 <!-- data-solution-button="5"-->
 $E(t)=$ 
 
-[[!]]
-<script>true</script>
+[[    \frac{\alpha}{2}\,t^{2} - \frac{\beta}{3}\,t^{3} + C    ]]  @canvas
+@Algebrite.check(`((alpha)/(2))*t^(2)-((beta)/(3))*t^(3)+C`)
 ******************
 $$
 \begin{align*}
@@ -3768,8 +3757,8 @@ Gegeben: $ P(t) = k\,t^{3} $ mit $k>0$ und $t\ge 0$.
 <!-- data-solution-button="5"-->
 $E(t)=$ 
 
-[[!]]
-<script>true</script>
+[[    \frac{k}{4}\,t^{4} + C    ]]  @canvas
+@Algebrite.check(`((k)/(4))*t^(4)+C`)
 ******************
 $$
 \begin{align*}
@@ -3787,8 +3776,8 @@ Gegeben: $ P(t) = P_0 - a\,t $ mit $P_0,a>0$.
 <!-- data-solution-button="5"-->
 $E(t)=$ 
 
-[[!]]
-<script>true</script>
+[[    P_0\,t - \frac{a}{2}\,t^{2} + C    ]]  @canvas
+@Algebrite.check(`P_0*t-((a)/(2))*t^(2)+C`)
 ******************
 $$
 \begin{align*}
@@ -3806,8 +3795,8 @@ Gegeben: $ P(t) = A\,t^{1/2} $ mit $A>0$ und $t\ge 0$.
 <!-- data-solution-button="5"-->
 $E(t)=$ 
 
-[[!]]
-<script>true</script>
+[[    \frac{2A}{3}\,t^{3/2} + C    ]]  @canvas
+@Algebrite.check(`((2*A)/(3))*t^(3/2)+C`)
 ******************
 $$
 \begin{align*}
@@ -3825,8 +3814,8 @@ Gegeben: $ P(t) = P_{\mathrm{b}} + c\,(t - t_0)^{2} $ mit $P_{\mathrm{b}},c>0$.
 <!-- data-solution-button="5"-->
 $E(t)=$ 
 
-[[!]]
-<script>true</script>
+[[    P_{\mathrm{b}}\,t + \frac{c}{3}\,(t - t_0)^{3} + C    ]]  @canvas
+@Algebrite.check(`P_b*t+((c)/(3))*(t-t0)^(3)+C`)
 ******************
 $$
 \begin{align*}
@@ -3844,8 +3833,8 @@ Gegeben: $ P(t) = \dfrac{B}{\sqrt{t}} $ mit $B>0$ und $t>0$.
 <!-- data-solution-button="5"-->
 $E(t)=$ 
 
-[[!]]
-<script>true</script>
+[[    2B\,\sqrt{t} + C    ]]  @canvas
+@Algebrite.check(`2*B*sqrt*(t)+C`)
 ******************
 $$
 \begin{align*}
@@ -3874,7 +3863,7 @@ $$
 \end{align*}
 $$
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 __$a)\;\;$__ *(Homogenes Feld – z. B. Plattenkondensator näherungsweise)*  
@@ -3883,8 +3872,8 @@ Gegeben: $ E(r) = E_0 $ mit $E_0>0$.
 <!-- data-solution-button="5"-->
 $\Phi(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    -E_0\,r + C    ]]  @canvas
+@Algebrite.check(`-E0*r+C`)
 ******************
 $$
 \begin{align*}
@@ -3902,8 +3891,8 @@ Gegeben: $ E(r) = a\,r + b $ mit Konstanten $a,b$.
 <!-- data-solution-button="5"-->
 $\Phi(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    -\frac{a}{2}\,r^2 - b\,r + C    ]]  @canvas
+@Algebrite.check(`-((a)/(2))*r^2-b*r+C`)
 ******************
 $$
 \begin{align*}
@@ -3922,8 +3911,8 @@ Gegeben: $ E(r) = c\,(r - r_0)^{2} $ mit $c>0$.
 <!-- data-solution-button="5"-->
 $\Phi(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    -\frac{c}{3}\,(r-r_0)^3 + C    ]]  @canvas
+@Algebrite.check(`-((c)/(3))*(r-r0)^3+C`)
 ******************
 $$
 \begin{align*}
@@ -3942,8 +3931,8 @@ Gegeben: $ E(r) = \dfrac{K}{r^{2}} $ mit $K>0$ und $r>0$.
 <!-- data-solution-button="5"-->
 $\Phi(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    \frac{K}{r} + C    ]]  @canvas
+@Algebrite.check(`((K)/(r))+C`)
 ******************
 $$
 \begin{align*}
@@ -3963,8 +3952,8 @@ Gegeben: $ E(r) = \dfrac{B}{r^{3}} $ mit $B>0$ und $r>0$.
 <!-- data-solution-button="5"-->
 $\Phi(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    \frac{B}{2\,r^{2}} + C    ]]  @canvas
+@Algebrite.check(`B/(2*r^2)+C`)
 ******************
 $$
 \begin{align*}
@@ -3985,8 +3974,8 @@ Gegeben: $ E(r) = A\,\sqrt{r} = A\,r^{1/2} $ mit $A>0$ und $r\ge 0$.
 <!-- data-solution-button="5"-->
 $\Phi(r)=$ 
 
-[[!]]
-<script>true</script>
+[[    -\frac{2A}{3}\,r^{3/2} + C    ]]  @canvas
+@Algebrite.check(`-((2*A)/(3))*r^(3/2)+C`)
 ******************
 $$
 \begin{align*}
@@ -4017,7 +4006,7 @@ $$
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 __$a)\;\;$__ *(Schulbus: Grundbeschleunigung mit stärkerem Schub später)*  
@@ -4026,8 +4015,8 @@ Gegeben: $ a(t) = a_0 + b\,t^{2} $ mit $a_0,b>0$.
 <!-- data-solution-button="5"-->
 $v(t)=$ 
 
-[[!]]
-<script>true</script>
+[[    a_0\,t + \frac{b}{3}\,t^{3} + C    ]]  @canvas
+@Algebrite.check(`a0*t+((b)/(3))*t^(3)+C`)
 ******************
 $$
 \begin{align*}
@@ -4045,8 +4034,8 @@ Gegeben: $ a(t) = k\,(t_1 - t) $ mit Konstanten $k,t_1$.
 <!-- data-solution-button="5"-->
 $v(t)=$
 
-[[!]]
-<script>true</script>
+[[    k\left(t_1\,t - \frac{t^{2}}{2}\right) + C    ]]  @canvas
+@Algebrite.check(`k*(t1*t-t^2/2)+C`)
 ******************
 $$
 \begin{align*}
@@ -4064,8 +4053,8 @@ Gegeben: $ a(t) = A - B\,t^{2} $ mit $A,B>0$.
 <!-- data-solution-button="5"-->
 $v(t)=$
 
-[[!]]
-<script>true</script>
+[[    A\,t - \frac{B}{3}\,t^{3} + C    ]]  @canvas
+@Algebrite.check(`A*t-((B)/(3))*t^(3)+C`)
 ******************
 $$
 \begin{align*}
@@ -4083,8 +4072,8 @@ Gegeben: $ a(t) = -\dfrac{B}{t^{2}} $ mit $B>0$.
 <!-- data-solution-button="5"-->
 $v(t)=$
 
-[[!]]
-<script>true</script>
+[[    \frac{B}{t} + C    ]]  @canvas
+@Algebrite.check(`((B)/(t))+C`)
 ******************
 $$
 \begin{align*}
@@ -4103,8 +4092,8 @@ Gegeben: $ a(t) = c\,t\,(T - t) $ mit $c>0$ und $T>0$.
 <!-- data-solution-button="5"-->
 $v(t)=$
 
-[[!]]
-<script>true</script>
+[[    c\left(\frac{T}{2}\,t^{2} - \frac{1}{3}\,t^{3}\right) + C    ]]  @canvas
+@Algebrite.check(`c*(((T)/(2))*t^(2)-((1)/(3))*t^(3))+C`)
 ******************
 $$
 \begin{align*}
@@ -4123,8 +4112,8 @@ Gegeben: $ a(t) = -D\,t^{1/3} $ mit $D>0$ und $t\ge 0$.
 <!-- data-solution-button="5"-->
 $v(t)=$
 
-[[!]]
-<script>true</script>
+[[    -\frac{3D}{4}\,t^{4/3} + C    ]]  @canvas
+@Algebrite.check(`-((3*D)/(4))*t^(4/3)+C`)
 ******************
 $$
 \begin{align*}
@@ -4258,7 +4247,7 @@ $$
 **Aufgabe 1:** Es ist jeweils ein Lagrangian gegeben. Bestimme die Terme.  
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
@@ -4271,8 +4260,8 @@ $\dfrac{\partial L}{\partial q}  =   $ \
 $\dfrac{\partial L}{\partial \dot{q}}  =  $ \
 
 
-[[!]]
-<script>true</script>
+[[    3 c \dot{q}^2    ]]  @canvas
+@Algebrite.check(`3*c*qdot^2`)
 ******************************
 
 $$
@@ -4297,8 +4286,8 @@ $\dfrac{\partial L}{\partial z}  =   $ \
 $\dfrac{\partial L}{\partial \dot{z}}  =  $ \
 
 
-[[!]]
-<script>true</script>
+[[    2 a \dot{z}    ]]  @canvas
+@Algebrite.check(`2*a*zdot`)
 ******************************
 
 $$
@@ -4323,8 +4312,8 @@ $\dfrac{\partial L}{\partial n}  =   $ \
 $\dfrac{\partial L}{\partial \dot{n}}  =  $ \
 
 
-[[!]]
-<script>true</script>
+[[    m \dot{n}    ]]  @canvas
+@Algebrite.check(`m*ndot`)
 ******************************
 
 $$
@@ -4349,8 +4338,8 @@ $\dfrac{\partial L}{\partial a}  =   $ \
 $\dfrac{\partial L}{\partial \dot{a}}  =  $ \
 
 
-[[!]]
-<script>true</script>
+[[    \alpha a^2    ]]  @canvas
+@Algebrite.check(`alpha*a^2`)
 ******************************
 
 $$
@@ -4375,8 +4364,8 @@ $\dfrac{\partial L}{\partial s}  =   $ \
 $\dfrac{\partial L}{\partial \dot{s}}  =  $ \
 
 
-[[!]]
-<script>true</script>
+[[    3 \lambda \dot{s}^2    ]]  @canvas
+@Algebrite.check(`3*lambda*sdot^2`)
 ******************************
 
 $$
@@ -4401,8 +4390,8 @@ $\dfrac{\partial L}{\partial r}  =   $ \
 $\dfrac{\partial L}{\partial \dot{r}}  =  $ \
 
 
-[[!]]
-<script>true</script>
+[[    2 p r \dot{r}    ]]  @canvas
+@Algebrite.check(`2*p*r*rdot`)
 ******************************
 
 $$
@@ -4426,15 +4415,15 @@ $$
 
 
 
-<section class="flex-container">
+<section class="dynFlex">
 
 <div class="flex-child">
 
 $a)\;\; L = ktx^2 + z\dot{x}^2 $
 
 
-[[!]]
-<script>true</script>
+[[    2ktx - 2z\ddot{x}    ]]  @canvas
+@Algebrite.check(`2*ktx-2*zxddot`)
 ******************************
 $$
 \begin{align*}
@@ -4452,8 +4441,8 @@ $$
 
 $b)\;\; L = a t^2 z^2 + b\dot{z}^2 $
 
-[[!]]
-<script>true</script>
+[[    2 a t^2 z - 2 b \ddot{z}    ]]  @canvas
+@Algebrite.check(`2*a*t^2*z-2*b*zddot`)
 ******************************
 $$
 \begin{align*}
@@ -4471,8 +4460,8 @@ $$
 
 $c)\;\; L = c w e^3 + d\dot{e}^2 $
 
-[[!]]
-<script>true</script>
+[[    3 c w e^2 - 2 d \ddot{e}    ]]  @canvas
+@Algebrite.check(`3*c*w*e^2-2*d*eddot`)
 ******************************
 $$
 \begin{align*}
@@ -4490,8 +4479,8 @@ $$
 
 $d)\;\; L = e d^3 y^2 + f\dot{y}^2 $
 
-[[!]]
-<script>true</script>
+[[    2 e d^3 y - 2 f \ddot{y}    ]]  @canvas
+@Algebrite.check(`2*e*d^3*y-2*f*yddot`)
 ******************************
 $$
 \begin{align*}
@@ -4509,8 +4498,8 @@ $$
 
 $e)\;\; L = g k^2 r^4 + h\dot{r}^2 $
 
-[[!]]
-<script>true</script>
+[[    4 g k^2 r^3 - 2 h \ddot{r}    ]]  @canvas
+@Algebrite.check(`4*g*k^2*r^3-2*h*rddot`)
 ******************************
 $$
 \begin{align*}
@@ -4528,8 +4517,8 @@ $$
 
 $f)\;\; L = p \cos(t)\, x^2 + q\dot{x}^2 $
 
-[[!]]
-<script>true</script>
+[[    2 p \cos(t)\, x - 2 q \ddot{x}    ]]  @canvas
+@Algebrite.check(`2*p*cos*(t)*x-2*q*xddot`)
 ******************************
 $$
 \begin{align*}
@@ -4569,8 +4558,7 @@ $$
 **Aufgabe 1:** Erkläre den Unterschied zwischen Prozess- und Zustandsgrößen (Observablen).
 
 
-[[!]]
-<script>true</script>
+[[    Zustandsgroesse: pfadunabhaengig; Prozessgroesse: pfadabhaengig    ]]  @canvas
 ******************************
 Eine **Zustandsgröße** (auch: **Zustandsvariable**, im schulischen Kontext häufig „Observable“ im Sinne einer *zu einem Zeitpunkt* messbaren Systemgröße) beschreibt den **Zustand** eines Systems zu einem Zeitpunkt. Sie hängt **nicht** davon ab, *wie* dieser Zustand erreicht wurde (weg-/pfadunabhängig). Mathematisch entspricht das der Idee einer **exakten** Differentialform: Die Änderung zwischen zwei Zuständen hängt nur von Anfangs- und Endzustand ab. Beispiele: Ort $z$, Geschwindigkeit $v$, Druck $p$, Temperatur $T$ (thermodynamisch), potentielle Energie $E_{pot}$.
 
@@ -4584,8 +4572,8 @@ Eine **Prozessgröße** beschreibt dagegen einen **Vorgang zwischen zwei Zustän
 
 $a)\;\;$ Leite den Term des Potentials her. 
 
-[[!]]
-<script>true</script>
+[[    -\pi m r^4 + C    ]]  @canvas
+@Algebrite.check(`-pi*m*r^4+C`)
 ******************************
 $$
 \begin{align*}
@@ -4602,8 +4590,8 @@ $$
 
 $b)\;\;$ Begründe mathematisch mit den Aufgabenteil $a)$, dass $\Phi(r)= \int E(r) dr$ gilt.
 
-[[!]]
-<script>true</script>
+[[    \int -E(r)\,dr + C    ]]  @canvas
+@Algebrite.check(`int-E*(r)*dr+C`)
 ******************************
 
 Aus Teil $a)$ folgt, dass $E(r)$ (bis auf das Vorzeichen) die Ableitung des Potentials ist:
@@ -4629,8 +4617,8 @@ In beiden Fällen ist die mathematische Kernaussage identisch: Ein Potential ist
 
 $a)\;\;$ Leite eine allgemeine Gleichung zur Berechnung der resultierenden Geschwindigkeit des ruhenden Objektes nach dem Zusammenstoß her.
 
-[[!]]
-<script>true</script>
+[[    \frac{M}{m}\,(V - V')    ]]  @canvas
+@Algebrite.check(`(M/m)*(V-V')`)
 ******************************
 $$
 \begin{align*}
@@ -4645,8 +4633,8 @@ $$
 
 $b)\;\;$ Gib die Größe an, die gemessen werden muss, damit aus den bereits bekannten Größen und dieser Observable die Geschwindigkeit aus Aufgabenteil $a)$ mittels Zahlen bestimmt werden kann.
 
-[[!]]
-<script>true</script>
+[[    V'    ]]  @canvas
+@Algebrite.check(Vp)
 ******************************
 
 In der allgemeinen Gleichung aus $a)$ ist $V'$ nach dem Stoß unbekannt. Damit $v'$ numerisch bestimmbar wird, muss man daher z.B. messen:
@@ -4660,8 +4648,8 @@ $$
 
 $c)\;\;$ Gib die Geschwindigkeit an, mit der das Objekt mit der Masse $M$ nach dem Zusammenprall sich fortbewegt, wenn $M=m$ gilt.
 
-[[!]]
-<script>true</script>
+[[    V - v'    ]]  @canvas
+@Algebrite.check(`V-v'`)
 ******************************
 $$
 \begin{align*}
@@ -4676,8 +4664,7 @@ $$
 
 **Aufgabe 4:** Erkläre, wieso das Superpositionsprinzip bei jeder vektoriellen Größe angewandt werden kann.
 
-[[!]]
-<script>true</script>
+[[    Superposition gilt bei linearer Vektoraddition    ]]  @canvas
 ******************************
 Vektoren werden in einem linearen Raum addiert. Wenn mehrere Beiträge derselben vektoriellen Größe gleichzeitig wirken (z.B. mehrere Kräfte, mehrere Feldanteile), dann ergibt sich der Gesamtbeitrag durch komponentenweise Addition, also durch die Vektorsumme:
 
@@ -4693,8 +4680,8 @@ Das ist genau das Superpositionsprinzip. Physikalisch ist es überall dort gült
 
 **Aufgabe 5:** Leite die Euler-Lagrange-Gleichungen her, wenn auf den Körper mit der Masse $m$ eine Kraft $F(z) = \dfrac{m}{z^4}$ wirkt.
 
-[[!]]
-<script>true</script>
+[[    \frac{m}{3z^3}+C    ]]  @canvas
+@Algebrite.check(`((m)/(3*z^3))+C)/(3*z^3))+C)/(3*z^3))+C`)
 ******************************
 Für ein Potential gilt $F(z)=-\dfrac{dV}{dz}$, wobei $V = E_{pot}$, was der bekannten linearen Gleichung $W=F \cdot s$ entspricht. Also:
 
@@ -4736,6 +4723,10 @@ $$
 
 Damit lautet die Bewegungsgleichung: $\ddot z=\dfrac{1}{z^4}$.
 ******************************
+
+
+
+
 
 
 
