@@ -134,7 +134,7 @@ Aus den Eiern schlüpfen nach einiger Zeit kleine [[Kaulquappen      ]].
 Diese leben zunächst nur im Wasser und atmen mit [[Kiemen      ]].  
 Später wachsen ihnen zuerst die hinteren und dann die vorderen [[Beine      ]].  
 Außerdem entwickeln sie [[Lungen      ]], damit sie an Land atmen können.  
-Nach und nach bildet sich auch der [[Schwanz      ]] zurück.  
+Nach und nach bildet sich ausschließlich beim Froschlurch auch der [[Schwanz      ]] zurück.  
 Nun kann das Tier nicht nur im Wasser, sondern auch an [[Land      ]] leben.  
 Die starke Verwandlung vom Jungtier zum erwachsenen Tier nennt man [[Metamorphose      ]].  
 Am Ende der Entwicklung wird aus der Kaulquappe ein erwachsener [[Lurch      ]].
@@ -305,7 +305,7 @@ Vögel [->[(Federn)|trockene Haut|Fell|Chitin-Panzer]]  \
 
 
 
-__$a)\;\;$__ **Ordne** den Tonspuren der Vogelart **zu**.
+**Ordne** den Tonspuren der Vogelart **zu**.
 
 <!-- data-show-partial-solution="true" data-randomize="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Blaumeise: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/4/42/Cyanistes_caeruleus_-_Eurasian_Blue_Tit_XC131316.ogg))]]  \
@@ -343,8 +343,11 @@ Quellen: \
 
 
 
+## Sender-Empfänger
 
-__$b)\;\;$__ **Sortiere** die Kacheln passend zu Sender-Signal-Empfänger-Reaktion.
+
+
+**Sortiere** die Kacheln passend zu Sender-Signal-Empfänger-Reaktion.
 
 
 <!-- data-randomize="true" data-show-partial-solution="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
