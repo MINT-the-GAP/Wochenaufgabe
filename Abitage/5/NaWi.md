@@ -214,6 +214,7 @@ __$a)\;\;$__
 <!-- style="max-width:400px" -->
 ![Kriechtier1](../../Zeug/Kriechtier1.png)
 
+
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 [[    Waldeidechse    ]]
 
@@ -226,6 +227,9 @@ __$b)\;\;$__
 <!-- style="max-width:400px" -->
 ![Kriechtier2](../../Zeug/Kriechtier2.png)
 
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 [[    Blindschleiche  ]]
 
 </div>
@@ -237,6 +241,9 @@ __$c)\;\;$__
 <!-- style="max-width:400px" -->
 ![Kriechtier3](../../Zeug/Kriechtier3.png)
 
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 [[    Kreuzotter      ]]
 
 </div>
@@ -248,6 +255,9 @@ __$d)\;\;$__
 <!-- style="max-width:400px" -->
 ![Kriechtier4](../../Zeug/Kriechtier4.png)
 
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 [[    Ringelnatter    ]]
 
 </div>
@@ -259,6 +269,9 @@ __$e)\;\;$__
 <!-- style="max-width:400px" -->
 ![Kriechtier5](../../Zeug/Kriechtier5.png)
 
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 [[    Zauneidechse    ]]
 
 </div>
@@ -305,7 +318,7 @@ Vögel [->[(Federn)|trockene Haut|Fell|Chitin-Panzer]]  \
 
 
 
-**Ordne** den Tonspuren der Vogelart **zu**.
+**Ordne** die Tonspuren der Vogelart **zu**.
 
 <!-- data-show-partial-solution="true" data-randomize="true"  data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 Blaumeise: [->[(?[](https://upload.wikimedia.org/wikipedia/commons/4/42/Cyanistes_caeruleus_-_Eurasian_Blue_Tit_XC131316.ogg))]]  \
