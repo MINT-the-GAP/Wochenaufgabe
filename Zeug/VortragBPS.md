@@ -2,6 +2,9 @@
 version:  0.0.2
 language: de
 
+narrator: Deutsch Female
+
+
 tags: Vortrag
 comment: 
 author: Martin Lommatzsch, Sebastian Zug
@@ -27,6 +30,12 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imp
 
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
+
+
+
+import: https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
+        https://raw.githubusercontent.com/LiaTemplates/Speech-Recognition-Quiz/refs/heads/main/README.md
+        https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 
 persistent: true
@@ -105,7 +114,7 @@ edit: true
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="60" height="60">  $\;\qquad\;$
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="60" height="60">  $\;\qquad\;$
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60">  $\;\qquad\;$
-<img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="60" height="60">  $\;\qquad\;$
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="60" height="60"> 
 
 </center>
 
@@ -576,7 +585,8 @@ __$c)\;\;$__ Rekonstruiere oder zeichne die Funktion $f(x) = 2x -1$.
 
 
 {{4}}
-??[Frozen](https://liascript.github.io/nightly/?https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Zeug/VortragBPSA.md)
+<!-- style="max-width:750px" -->
+![Frozen](frozen.png)
 
 
 
@@ -587,16 +597,139 @@ __$c)\;\;$__ Rekonstruiere oder zeichne die Funktion $f(x) = 2x -1$.
 
 
 
-## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60"> Einblick in andere Fachbereiche 
+## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60"> Beispielhafte Einblicke in andere Fachbereiche 
 
 
-- Musik
 
-- Deutsch 
+<section class="dynFlex" data-basis="49">
 
-- Fremdsprachen
+<div class="flex-child">
 
-- Differenzierungsoptionen
+
+{{1}}
+****************************
+> <h3><img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Musik </h3>
+
+__Aufgabe 1:__ Klicke auf die beiden Noten und gib die Kadenz an.
+
+``` abc  @ABCJS.render
+X: 1
+L: 1/2
+K: C
+[|\
+G  C:|
+```
+
+Kadenz: [[  Quinte  ]]
+****************************
+
+</div>
+
+<div class="flex-child">
+
+
+{{2}}
+****************************
+> <h3><img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Fremsprachen </h3>
+
+
+@SpeechRecognition.support
+
+
+
+__$a)\;\;$__ Sprich 'Danke' auf französisch.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(fr-FR,`Merci`)
+
+
+
+---
+
+---
+
+
+__$b)\;\;$__ Sprich 'Danke' auf spanisch.
+
+<!-- data-solution-button="off" -->
+[[!]]
+@SpeechRecognition(es-ES,`Gracias`)
+
+****************************
+
+
+
+</div>
+
+<div class="flex-child">
+
+
+{{3}}
+****************************
+> <h3><img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Deutsch</h3>
+
+
+
+__$a)\;\;$__ **Hör** dir den Satz gut **an** und **schreibe** ihn korrekt nieder.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+@diktat(`Die Katze schläft.`)
+
+
+
+---
+
+---
+
+
+__$b)\;\;$__  **Markiere** das Subjekt.
+
+<div class="markerquiz">
+Am Morgen @mark(die Kinder) spielen auf dem Schulhof.
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
+@TextmarkerQuiz
+</div>
+
+****************************
+
+
+</div>
+
+<div class="flex-child">
+
+
+{{4}}
+****************************
+> <h3><img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Differenzierungshilfe </h3>
+
+
+
+
+<!-- style="max-width:400px" -->
+![](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/DaZ1.png)
+
+
+{{|>}} Und man kann jeden Text vorlesen lassen.
+
+****************************
+
+</div>
+
+</section>
+
+
+
+{{5}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Es gibt noch viele weitere verschiedene Arten von möglichen Aufgabenstellungen.  </h3>
+
+
+
+
+
+
 
 
 
@@ -605,16 +738,78 @@ __$c)\;\;$__ Rekonstruiere oder zeichne die Funktion $f(x) = 2x -1$.
 ## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="60" height="60"> Ausblick
 
 
-Weitere Aufgabentypen (vor allem freiere Aufgabenstellungen)
-
-Erweiterung der Rückmeldeoptionen
-
-Bedienung für Lehrkräfte extrem vereinfachen
-
-Weitere Aufgabentypen
-
-Ausbau der Classroom-Funktion
-
-Integration in Systeme wie LernSax, Opal, usw.
 
 
+<section class="dynFlex" data-basis="49">
+
+<div class="flex-child">
+
+{{1}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/0.png" width="40" height="40"> Bedienung für Lehrkräfte extrem vereinfachen </h3>
+
+{{2}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Erweiterung der Rückmeldeoptionen </h3>
+
+{{3}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40"> Weitere Aufgabentypen erschließen </h3>
+
+</div>
+
+<div class="flex-child">
+
+
+{{4}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> Ausbau der Classroom-Funktion </h3>
+
+{{5}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="40" height="40"> Integration in Systeme wie LernSax, Opal, usw. </h3>
+
+{{6}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40"> Stetige iterative Verbesserung der bestehenden Angebote </h3>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+---
+
+---
+
+{{7}}
+<center>
+
+> <h1> Vielen Dank für die Aufmarksamkeit. </h1>
+>
+> {8}{<h1> Haben Sie Fragen? </h1>}
+
+</center>
+
+
+
+{{7}}
+<center>
+
+---
+
+---
+
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/0.png" width="60" height="60">  $\;\Longleftrightarrow\;$
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="60" height="60">  $\;\Longleftrightarrow\;$
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="60" height="60">  $\;\Longleftrightarrow\;$
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="60" height="60">  $\;\Longleftrightarrow\;$
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60">  $\;\Longleftrightarrow\;$
+<img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="60" height="60">  
+
+</center>
+
+
+
+---
+
+---
