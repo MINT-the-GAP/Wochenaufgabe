@@ -53,7 +53,7 @@ edit: true
 
 > <h1>Herzlich Willkommen!</h1>
 >
-><h3> Vorstellung von LiaScript an der Schule, 10. Juli 2026</h3>
+><h3> Vorstellung von LiaScript an der Schule, 10. Juni 2026</h3>
 
 </center>
 
@@ -76,12 +76,12 @@ edit: true
 <center>
 
 <h3> Prof. Dr. Sebastian Zug</h3> 
-TU Bergakademie Freiberg, Institut für Informatik
+<small><small><small> Technische Universität Bergakademie Freiberg, Institut für Informatik </small></small></small>
 
 <h3> und </h3> 
 
 <h3> Martin Lommatzsch</h3>
-Geschwister-Scholl-Gymnasium Freiberg
+<small><small><small> Geschwister-Scholl-Gymnasium Freiberg </small></small></small>
 
 </center>
 
@@ -125,6 +125,7 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 <section class="dynFlex" data-basis="49">
 
+
 <div class="flex-child">
 
 
@@ -145,6 +146,9 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 
 </div>
+
+
+
 <div class="flex-child">
 
 
@@ -163,6 +167,8 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 <section class="dynFlex" data-basis="49">
 
+
+
 <div class="flex-child">
 
 
@@ -175,6 +181,9 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 
 </div>
+
+
+
 <div class="flex-child">
 
 
@@ -204,6 +213,7 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 <section class="dynFlex" data-basis="49">
 
+
 <div class="flex-child">
 
 
@@ -224,6 +234,8 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 
 </div>
+
+
 <div class="flex-child">
 
 
@@ -246,6 +258,7 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 
 <section class="dynFlex" data-basis="49">
+
 
 <div class="flex-child">
 
@@ -271,6 +284,8 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 
 </div>
+
+
 <div class="flex-child">
 
 {{2}}
@@ -302,31 +317,304 @@ Geschwister-Scholl-Gymnasium Freiberg
 
 
 
-## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60"> Bedarfe in der Schule 
+## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60"> Bedarfe in der Schule {1}{und Lösungen} 
+
+
+<section class="dynFlex" data-basis="49">
+
+
+<div class="flex-child">
+
+{{2}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40">  Bring-Your-Own-Device-Tauglichkeit </h3> 
+
+
+{{3}}
+<h3>LiaScript ist Open Education Resource und somit kostenlos </h3> 
+
+{{4}}
+<h3>LiaScript braucht keine Installation </h3> 
+
+{{5}}
+<h3>LiaScript ist DSGVO konform </h3> 
+
+
+</div>
+
+
+
+<div class="flex-child">
+
+
+{{6}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40">  Dezentrale Klassengruppen </h3> 
+
+
+{{7}}
+<h3>LiaScript wird dezentral im eigenen Browser realisiert. </h3> 
+
+{{8}}
+<h3>Wurde ein Kurs einmal geladen ist alles offline abrufbar. </h3> 
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60"> Bedarfe in der Schule  {0}{und Lösungen} 
+
+
+
+<section class="dynFlex" data-basis="49">
+
+
+<div class="flex-child">
 
 {{1}}
-<h1> und Lösungen </h1> 
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Mathematische Schrifterkennung </h3> 
+
+{{2}}
+<h3>LiaScript erkennt über den Browser mathematische Verschriftlichung. </h3> 
+
+{{3}}
+<h3>$\Rightarrow\;\;$ Es muss kein Eingabesyntax erlernt werden. </h3> 
+
+{{4}}
+---
+
+{{4}}
+Bespiel: **Gib** den Bruch $\dfrac{23}{35}$ **an**.
+[[  23/35  ]] @canvas
+@Algebrite.check(23/35)
 
 
-Bring-Your-Own-Device-Tauglichkeit
+</div>
 
-Dezentrale Klassengruppen
 
-Schrifterkennung
+<div class="flex-child">
 
-eingebettes Computer-Algebra-System
+{{5}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Eingebettes Computer-Algebra-System </h3> 
 
-Statistische Analyse der Lerngruppe für die Lehrkraft um den Unterricht anzupassen
+{{6}}
+<h3>LiaScript verfügt über ein CAS. </h3> 
 
-Rückmeldung für den Lernenden um den individuellen Lernpfad anzupassen
+{{7}}
+---
 
-Hochwertige individualisierbare Aufgabengenerierung
+{{7}}
+Bespiel 1: **Gib** den Bruch $\dfrac{3}{5}$ als ein beliebiges Vielfaches **an**.
+[[  3/5  ]] @canvas
+@Algebrite.check(3/5)
 
-Intuitiver Umgang ohne Syntax-Schulungen 
 
-Bildschirm als echter Ersatz für das Papier
+{{7}}
+---
+
+{{7}}
+Bespiel 2: **Gib** den Term $x^2-2x+1$ in einer beliebigen Umformung in das Lösungsfeld **ein**.
+[[  x ^ 2 - 2 * x + 1  ]]
+@Algebrite.check(x^2-2*x+1)
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60"> Bedarfe in der Schule  {0}{und Lösungen} 
+
+
+
+<section class="dynFlex" data-basis="49">
+
+
+<div class="flex-child">
+
+{{1}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Intuitiver Umgang ohne Syntax-Schulungen </h3> 
+
+</div>
+
+<div class="flex-child">
+
+
+{{2}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Bildschirm als echter Ersatz für das Papier </h3> 
+
+</div>
+
+</section>
+
+
+
+<section class="dynFlex" data-basis="49">
+
+
+<div class="flex-child">
+
+{{3}}
+**************************
+@Koordinatensystem(`xmin=-7;xmax=7;ymin=-5;ymax=5;width=800;id=A9`)
+
+@AchsenBeschriftung(`id=A9;xlabel=$x$;ylabel=$y$`)
+
+@Regression(`A9`)
+**************************
+
+
+</div>
+
+<div class="flex-child">
+
+
+{{4}}
+**************************
+__$a)\;\;$__ **Gib** den Funktionsterm **an**, um den Graphen darstellen zulassen.
+
+@PlotEingabeLatex(`A9;g;#b41f65`)
+**************************
+
+
+
+
+{{5}}
+---
+
+
+{{5}}
+---
+
+{{5}}
+__$b)\;\;$__ **Zeichne** drei beliebe Punkte in das Koordinatensystem **ein** und **führe** die Regression **durch**.
+
+
+
+
+{{6}}
+---
+
+
+{{6}}
+---
+
+{{6}}
+**************************
+__$c)\;\;$__ Rekonstruiere oder zeichne die Funktion $f(x) = 2x -1$.
+
+<!--   data-solution-button="2" -->
+@Rekonstruktion(`A9;2x-1;0.1`)
+**************************
+
+</div>
+
+</section>
+
+---
+
+---
+
+{{4}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Hochwertige individualisierbare Aufgabengenerierung </h3> 
+
+
+{{5}}
+<h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40"> Aufgabensammlung ist in der Entstehung: mint-the-gap.github.io/Aufgabensammlung/ </h3> 
+
+
+{{5}}
+<h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40">  Automatisierte Zusammenstellung und Generierung in der Bearbeitung </h3> 
+
+
+
+
+
+
+
+
+
+## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60"> Bedarfe in der Schule  {0}{und Lösungen} 
+
+
+
+<section class="dynFlex" data-basis="49">
+
+
+<div class="flex-child">
+
+{{1}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Rückmeldung für den Lernenden um den individuellen Lernpfad anzupassen </h3> 
+
+{{2}}
+??[Freeze](https://liascript.github.io/nightly/?https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Zeug/VortragBPSA.md)
+
+</div>
+
+<div class="flex-child">
+
+
+
+{{3}}
+> <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Statistische Analyse der Lerngruppe für die Lehrkraft um den Unterricht anzupassen </h3>
+
+
+
+{{4}}
+??[Frozen](https://liascript.github.io/nightly/?https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Zeug/VortragBPSA.md)
+
+
+
+</div>
+
+</section>
+
+
+
+
+## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="60" height="60"> Einblick in andere Fachbereiche 
+
+
+- Musik
+
+- Deutsch 
+
+- Fremdsprachen
+
+- Differenzierungsoptionen
+
+
 
 
 
 ## <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="60" height="60"> Ausblick
+
+
+Weitere Aufgabentypen (vor allem freiere Aufgabenstellungen)
+
+Erweiterung der Rückmeldeoptionen
+
+Bedienung für Lehrkräfte extrem vereinfachen
+
+Weitere Aufgabentypen
+
+Ausbau der Classroom-Funktion
+
+Integration in Systeme wie LernSax, Opal, usw.
+
 
