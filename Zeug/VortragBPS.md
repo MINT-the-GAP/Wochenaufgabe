@@ -539,15 +539,15 @@ __$c)\;\;$__ Rekonstruiere oder zeichne die Funktion $f(x) = 2x -1$.
 
 ---
 
-{{4}}
+{{7}}
 > <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> Hochwertige individualisierbare Aufgabengenerierung </h3> 
 
 
-{{5}}
+{{8}}
 <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40"> Aufgabensammlung ist in der Entstehung: mint-the-gap.github.io/Aufgabensammlung/ </h3> 
 
 
-{{5}}
+{{9}}
 <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40">  Automatisierte Zusammenstellung und Generierung in der Bearbeitung </h3> 
 
 
