@@ -192,7 +192,7 @@ $a)\;\;$ **Berechne** den Gesamtwiderstand der dargestellten Schaltung.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $R_{Gesamt} \approx$ [[  1157,233  ]]$\,\Omega$
-@Algebrite.check2(1157.233,0.01)
+@Algebrite.check2(1157.233,0.1)
 *****************************
 
 1. Schritt: Serienschaltung rechts zusammenfassen
@@ -267,7 +267,7 @@ $b)\;\;$ An der darstellten Schaltung liegt eine Spannung von $24\,$V an. **Bere
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 $I_{Gesamt} \approx$ [[  20,739  ]]$\,$mA
-@Algebrite.check2(20.739,0.01)
+@Algebrite.check2(20.739,0.1)
 *****************************
 $$
 \begin{align*} 
@@ -320,8 +320,8 @@ __$a)\;\;$__ **Berechne** den Abstand der beiden Fahrzeuge nach $8\,\text{h}$.
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-[[   85,7   ]] km @canvas
-@Algebrite.check2(85.7,0.1)
+[[   85,6   ]] km @canvas
+@Algebrite.check2(85.6,0.1)
 **********************
 Zuerst werden die Geschwindigkeiten in $\dfrac{\text{km}}{\text{h}}$ umgerechnet:
 $$

@@ -784,7 +784,7 @@ Am Morgen @mark(die Kinder) spielen auf dem Schulhof.
 {{7}}
 <center>
 
-> <h1> Vielen Dank für die Aufmarksamkeit. </h1>
+> <h1> Vielen Dank für die Aufmerksamkeit. </h1>
 >
 > {8}{<h1> Haben Sie Fragen? </h1>}
 
