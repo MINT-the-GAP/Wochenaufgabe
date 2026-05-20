@@ -90,6 +90,8 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (wische) entweder weiter od
 **Write** the correct Infinitive, Simple Past, and Past Participle.
 
 
+> [!CAUTION]
+> HINWEIS 1: <h3> Es kann Klassen geben, in denen das "Past Participle" erst in Klasse 6 behandelt wird.</h3>
 
 <!-- data-solution-timer="600s"
 data-solution-timer-start="oncheck"
@@ -257,6 +259,12 @@ __$i)\;\;$__
 
 
 **_Excerise 3:_** **Complete** the table. In each row, one form is given. **Write** the missing forms of the adjective.
+
+
+
+
+> [!CAUTION]
+> HINWEIS 1: <h3> Es kann Klassen geben, in denen die Komperation von Adjektiven erst in Klasse 6 behandelt wird.</h3>
 
 <!-- data-solution-timer="300s"
 data-solution-timer-start="oncheck"
