@@ -352,7 +352,7 @@ __$a)\;\;$__ [[    Bodensee    ]]
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-__$b)\;\;$__ [[    Chiemsee    ]]
+__$b)\;\;$__ [[    Weser    ]]
 
 
 @ADetails(BE=1;Topographie)
@@ -400,7 +400,7 @@ __$e)\;\;$__ [[    Elbe    ]]
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-__$f)\;\;$__ [[    Weser    ]]
+__$f)\;\;$__ [[    Chiemsee    ]]
 
 
 @ADetails(BE=1;Topographie)

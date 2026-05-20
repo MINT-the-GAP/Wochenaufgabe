@@ -1,6 +1,10 @@
 <!--
 version:  0.0.1
-language: de
+language: en
+
+
+narrator: UK English Female
+
 
 translateWithGoogle: false
 

@@ -216,7 +216,7 @@ __$a)\;\;$__
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-[[    Waldeidechse    ]]
+[[    Zauneidechse    ]]
 
 </div>
 
@@ -272,7 +272,7 @@ __$e)\;\;$__
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-[[    Zauneidechse    ]]
+[[    Waldeidechse    ]]
 
 </div>
 
