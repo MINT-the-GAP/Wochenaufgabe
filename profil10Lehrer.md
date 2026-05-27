@@ -177,10 +177,10 @@ $$
 
 {{3}}
 > $$
-> \begin{align*} 
-> \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text {nachher}}
-> \end{align*}
-> $$
+ \begin{align*} 
+ \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text {nachher}}
+ \end{align*}
+ $$
 
 
 
@@ -239,10 +239,10 @@ __Aufgabe 2:__ **Interpretiere** die Gleichung $F = \dfrac{p}{t}$ und entwickle 
 
 {{3}}
 > $$
-> \begin{align*} 
-> \underbrace{\vec{p}_1 + \vec{p}_2}_{\text{vorher}} & = \underbrace{\vec{p}'_1 + \vec{p}'_2}_{\text{nachher}}
-> \end{align*}
-> $$
+ \begin{align*} 
+ \underbrace{\vec{p}_1 + \vec{p}_2}_{\text{vorher}} & = \underbrace{\vec{p}'_1 + \vec{p}'_2}_{\text{nachher}}
+ \end{align*}
+ $$
 
 {{3}}
 > {{|>}} Impuls $\vec{p}$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Impuls $\vec{p}$ kann lediglich in andere Teilimpulse zerglegt werden, was durch Kärfte $F$ passiert. Da der Impuls eine vektorielle Größe ist, muss auch immer die Orientierung mit erhalten bleiben.
