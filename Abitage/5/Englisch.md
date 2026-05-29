@@ -134,10 +134,13 @@ style="max-width:900px;" -->
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__
+
 <div class="markerquiz">
+
 @markred(The girl) @markblue(opens) @markgreen(the window) in the classroom.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -147,10 +150,13 @@ __$a)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__
+
 <div class="markerquiz">
+
 After school @markred(my brother) @markblue(carries) @markgreen(his bag) home.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -160,10 +166,13 @@ After school @markred(my brother) @markblue(carries) @markgreen(his bag) home.
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
+
 <div class="markerquiz">
+
 @markred(Our teacher) @markblue(shows) @markgreen(a picture) to the class.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -173,10 +182,13 @@ __$c)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$d)\;\;$__
+
 <div class="markerquiz">
+
 In the garden @markred(the boys) @markblue(build) @markgreen(a snowman) together.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -186,10 +198,13 @@ In the garden @markred(the boys) @markblue(build) @markgreen(a snowman) together
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$e)\;\;$__
+
 <div class="markerquiz">
+
 @markred(My grandmother) @markblue(bakes) @markgreen(a cake) on Sunday.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -199,10 +214,13 @@ __$e)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$f)\;\;$__
+
 <div class="markerquiz">
+
 At the zoo @markred(we) @markblue(feed) @markgreen(the goats) in the morning.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -212,10 +230,13 @@ At the zoo @markred(we) @markblue(feed) @markgreen(the goats) in the morning.
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$g)\;\;$__
+
 <div class="markerquiz">
+
 @markred(The dog) @markblue(chases) @markgreen(the ball) across the field.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -225,10 +246,13 @@ __$g)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$h)\;\;$__
+
 <div class="markerquiz">
+
 After dinner @markred(my parents) @markblue(watch) @markgreen(a film) in the living room.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -238,10 +262,13 @@ After dinner @markred(my parents) @markblue(watch) @markgreen(a film) in the liv
 
 <div class="flex-child">
 
-<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$i)\;\;$__
+
 <div class="markerquiz">
+
 @markred(Lucy) @markblue(writes) @markgreen(a postcard) to her friend in London.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 

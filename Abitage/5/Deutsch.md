@@ -77,10 +77,11 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (wische) entweder weiter od
 
 __$a)\;\;$__ Substantiv
 
+<div class="markerquiz">
+
+Der @mark(Hund) jagt den @mark(Ball) über den @mark(Hof).
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-Der @mark(Hund) jagt den @mark(Ball) über den @mark(Hof).
 @TextmarkerQuiz
 </div>
 
@@ -89,14 +90,14 @@ Der @mark(Hund) jagt den @mark(Ball) über den @mark(Hof).
 </div>
 
 <div class="flex-child">
-
 
 __$b)\;\;$__ Verb
 
+<div class="markerquiz">
+
+Mia @mark(liest) und @mark(schreibt) heute sehr ordentlich.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-Mia @mark(liest) und @mark(schreibt) heute sehr ordentlich.
 @TextmarkerQuiz
 </div>
 
@@ -106,13 +107,13 @@ Mia @mark(liest) und @mark(schreibt) heute sehr ordentlich.
 
 <div class="flex-child">
 
-
 __$c)\;\;$__ Adjektiv
 
+<div class="markerquiz">
+
+Das @mark(kleine) Boot fährt über den @mark(ruhigen) See.
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-Das @mark(kleine) Boot fährt über den @mark(ruhigen) See.
 @TextmarkerQuiz
 </div>
 

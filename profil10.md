@@ -37,7 +37,8 @@ author: Martin Lommatzsch
 
 # Naturwissenschaftliches Profil Klasse 10 - Modellierung der Natur
 
-> Letztes Update am 04.05.2026 gegen 18:00 Uhr
+
+> Letztes Update am 29.05.2026 gegen 12:00 Uhr
 
 
 In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterrichts der Klasse 10. Auch findest du hier Aufgaben und Lösungen zu den Aufgaben. Die Datei wird ständig aktualisiert.
@@ -176,10 +177,10 @@ $$
 
 {{3}}
 > $$
-> \begin{align*} 
-> \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text {nachher}}
-> \end{align*}
-> $$
+ \begin{align*} 
+ \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text {nachher}}
+ \end{align*}
+ $$
 
 
 
@@ -238,10 +239,10 @@ __Aufgabe 2:__ **Interpretiere** die Gleichung $F = \dfrac{p}{t}$ und entwickle 
 
 {{3}}
 > $$
-> \begin{align*} 
-> \underbrace{\vec{p}_1 + \vec{p}_2}_{\text{vorher}} & = \underbrace{\vec{p}'_1 + \vec{p}'_2}_{\text{nachher}}
-> \end{align*}
-> $$
+ \begin{align*} 
+ \underbrace{\vec{p}_1 + \vec{p}_2}_{\text{vorher}} & = \underbrace{\vec{p}'_1 + \vec{p}'_2}_{\text{nachher}}
+ \end{align*}
+ $$
 
 {{3}}
 > {{|>}} Impuls $\vec{p}$ kann niemals verbraucht, erzeugt, produziert, verschwendet, erneuert oder ähnliches werden. Impuls $\vec{p}$ kann lediglich in andere Teilimpulse zerglegt werden, was durch Kärfte $F$ passiert. Da der Impuls eine vektorielle Größe ist, muss auch immer die Orientierung mit erhalten bleiben.
@@ -3016,6 +3017,1727 @@ $$
 ---
 
 ---
+
+
+
+
+
+
+
+
+## Integration
+
+
+Im folgenden Video wird das Beschriebene aus diesem Thema nochmal anhand von Beispielen erklärt:  \
+
+!?[Integration](https://www.youtube.com/watch?v=ppdwq_KDMoE)
+
+
+
+
+### Integration - Übungen - Einstieg
+
+
+
+
+**Aufgabe 1:** Gib den Term nach der Verrechnung des Integrals an.
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$a)\;\;$__ $ \int x^5 \, dx $ = [[    \frac{1}{6} x^{6} + C    ]]  @canvas
+@Algebrite.check(`((1)/(6))*x^(6)+C`)
+******************
+$$
+\begin{align*}
+    \int x^5 \, dx  &= \frac{1}{6} x^{6} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$b)\;\;$__ $ \int 3x^2 \, dx $ = [[    x^{3} + C    ]]  @canvas
+@Algebrite.check(`x^(3)+C`)
+******************
+$$
+\begin{align*}
+    \int 3x^2 \, dx &= 3 \cdot \frac{1}{3} x^{3} = x^{3} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$c)\;\;$__ $ \int t^4 \, dt $ = [[    \frac{1}{5} t^{5} + C    ]]  @canvas
+@Algebrite.check(`((1)/(5))*t^(5)+C`)
+******************
+$$
+\begin{align*}
+    \int t^4 \, dt &= \frac{1}{5} t^{5} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$d)\;\;$__ $ \int 7y^6 \, dy $ = [[    y^{7} + C    ]]  @canvas
+@Algebrite.check(`y^(7)+C`)
+******************
+$$
+\begin{align*}
+    \int 7y^6 \, dy &= 7 \cdot \frac{1}{7} y^{7} = y^{7} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$e)\;\;$__ $ \int 5 \, dx $ = [[    5x + C    ]]  @canvas
+@Algebrite.check(`5*x+C`)
+******************
+$$
+\begin{align*}
+    \int 5 \, dx &= 5x + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$f)\;\;$__ $ \int 9s \, ds $ = [[    \frac{9}{2}s^{2} + C    ]]  @canvas
+@Algebrite.check(`((9)/(2))*s^(2)+C`)
+******************
+$$
+\begin{align*}
+    \int 9s \, ds &= 9 \cdot \frac{1}{2} s^2 = \frac{9}{2}s^{2} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$g)\;\;$__ $ \int \left(4u^3 + 2u\right) \, du $ = [[    u^4 + u^2 + C    ]]  @canvas
+@Algebrite.check(`u^4+u^2+C`)
+******************
+$$
+\begin{align*}
+    \int (4u^3 + 2u) \, du
+    &= 4 \cdot \frac{1}{4} u^4 \;+\; 2 \cdot \frac{1}{2} u^2 + C \\
+    &= u^4 + u^2 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$h)\;\;$__ $ \int \left(2x^3 - 8\right) \, dx $ = [[    \frac{1}{2} x^4 - 8x + C    ]]  @canvas
+@Algebrite.check(`((1)/(2))*x^4-8*x+C`)
+******************
+$$
+\begin{align*}
+    \int (2x^3 - 8) \, dx
+    &= 2 \cdot \frac{1}{4} x^4 \;-\; 8x + C \\
+    &= \frac{1}{2} x^4 - 8x + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$i)\;\;$__ $ \int \left(6z^2 + 4\right) \, dz $ = [[    2 z^3 + 4z + C    ]]  @canvas
+@Algebrite.check(`2*z^3+4*z+C`)
+******************
+$$
+\begin{align*}
+    \int (6z^2 + 4) \, dz
+    &= 6 \cdot \frac{1}{3} z^3 \;+\; 4z + C \\
+    &= 2 z^3 + 4z + C
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+
+---
+
+---
+
+
+
+
+
+
+**Aufgabe 2:** Gib den Term nach der Verrechnung des Integrals an.
+
+
+
+<section class="dynFlex">
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$a)\;\;$__ $ \int x^4 \, dx $ = [[    \frac{1}{5} x^5 + C    ]]  @canvas
+@Algebrite.check(`((1)/(5))*x^5+C`)
+******************
+$$
+\begin{align*}
+    \int x^4 \, dx &= \frac{1}{5} x^5 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$b)\;\;$__ $ \int 4x^3 \, dx $ = [[    x^4 + C    ]]  @canvas
+@Algebrite.check(`x^4+C`)
+******************
+$$
+\begin{align*}
+    \int 4x^3 \, dx &= 4 \cdot \frac{1}{4} x^4 = x^4 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$c)\;\;$__ $ \int (2t + 3) \, dt $ = [[    t^2 + 3t + C    ]]  @canvas
+@Algebrite.check(`t^2+3*t+C`)
+******************
+$$
+\begin{align*}
+    \int (2t + 3) \, dt
+    &= 2 \cdot \frac{1}{2} t^2 + 3t + C \\
+    &= t^2 + 3t + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$d)\;\;$__ $ \int y^2 \, dy $ = [[    \frac{1}{3} y^3 + C    ]]  @canvas
+@Algebrite.check(`((1)/(3))*y^3+C`)
+******************
+$$
+\begin{align*}
+    \int y^2 \, dy &= \frac{1}{3} y^3 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$e)\;\;$__ $ \int (5 - 10x) \, dx $ = [[    5x - 5x^2 + C    ]]  @canvas
+@Algebrite.check(`5*x-5*x^2+C`)
+******************
+$$
+\begin{align*}
+    \int (5 - 10x) \, dx
+    &= 5x - 10 \cdot \frac{1}{2} x^2 + C \\
+    &= 5x - 5x^2 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$f)\;\;$__ $ \int 7 \, du $ = [[    7u + C    ]]  @canvas
+@Algebrite.check(`7*u+C`)
+******************
+$$
+\begin{align*}
+    \int 7 \, du &= 7u + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$g)\;\;$__ $ \int (6z^2 - 4z) \, dz $ = [[    2 z^3 - 2 z^2 + C    ]]  @canvas
+@Algebrite.check(`2*z^3-2*z^2+C`)
+******************
+$$
+\begin{align*}
+    \int (6z^2 - 4z) \, dz
+    &= 6 \cdot \frac{1}{3} z^3 \;-\; 4 \cdot \frac{1}{2} z^2 + C \\
+    &= 2 z^3 - 2 z^2 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$h)\;\;$__ $ \int 9w^4 \, dw $ = [[    \frac{9}{5} w^5 + C    ]]  @canvas
+@Algebrite.check(`((9)/(5))*w^5+C`)
+******************
+$$
+\begin{align*}
+    \int 9w^4 \, dw
+    &= 9 \cdot \frac{1}{5} w^5 + C \\
+    &= \frac{9}{5} w^5 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$i)\;\;$__ $ \int (4 + 8s^3) \, ds $ = [[    4s + 2s^4 + C    ]]  @canvas
+@Algebrite.check(`4*s+2*s^4+C`)
+******************
+$$
+\begin{align*}
+    \int (4 + 8s^3) \, ds
+    &= 4s + 8 \cdot \frac{1}{4} s^4 + C \\
+    &= 4s + 2s^4 + C
+\end{align*}
+$$
+******************
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+---
+
+---
+
+
+
+
+**Aufgabe 3:** Gib den Term nach der Verrechnung des Integrals an.
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$a)\;\;$__ $ \int \sqrt{x} \, dx $ = 
+
+[[    \frac{2}{3} x^{3/2} + C    ]]  @canvas
+@Algebrite.check(`((2)/(3))*x^(3/2)+C`)
+******************
+$$
+\begin{align*}
+    \int x^{1/2} \, dx
+    &= \frac{x^{1/2+1}}{1/2+1} + C \\
+    &= \frac{x^{3/2}}{3/2} + C \\
+    &= \frac{2}{3} x^{3/2} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$b)\;\;$__ $ \int \dfrac{4}{\sqrt[3]{x}} \, dx $ = 
+
+[[    6 x^{2/3} + C    ]]  @canvas
+@Algebrite.check(`6*x^(2/3)+C`)
+******************
+$$
+\begin{align*}
+    \int 4 x^{-1/3} \, dx
+    &= 4 \cdot \frac{x^{-1/3+1}}{-1/3+1} + C \\
+    &= 4 \cdot \frac{x^{2/3}}{2/3} + C \\
+    &= 4 \cdot \frac{3}{2} x^{2/3} + C \\
+    &= 6 x^{2/3} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$c)\;\;$__ $ \int \left(5x^{3/2} - 2x^{1/2}\right) dx $ = 
+
+[[    2 x^{5/2} \;-\; \frac{4}{3} x^{3/2} + C    ]]  @canvas
+@Algebrite.check(`2*x^(5/2)-((4)/(3))*x^(3/2)+C`)
+******************
+$$
+\begin{align*}
+    \int \left(5x^{3/2} - 2x^{1/2}\right) dx
+    &= 5 \cdot \frac{x^{3/2+1}}{3/2+1} \;-\; 2 \cdot \frac{x^{1/2+1}}{1/2+1} + C \\
+    &= 5 \cdot \frac{x^{5/2}}{5/2} \;-\; 2 \cdot \frac{x^{3/2}}{3/2} + C \\
+    &= 2 x^{5/2} \;-\; \frac{4}{3} x^{3/2} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$d)\;\;$__ $ \int \dfrac{3}{y^4} \, dy$ = 
+
+[[    -\frac{1}{y^3} + C    ]]  @canvas
+@Algebrite.check(`-((1)/(y^3))+C`)
+******************
+$$
+\begin{align*}
+    \int 3y^{-4} \, dy
+    &= 3 \cdot \frac{y^{-4+1}}{-4+1} + C \\
+    &= 3 \cdot \frac{y^{-3}}{-3} + C \\
+    &= - y^{-3} + C
+    \;=\; -\frac{1}{y^3} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$e)\;\;$__ $ \int \left(7t^{-1/2} + 2t^{3}\right) dt $ = 
+
+[[    14 t^{1/2} \;+\; \frac{1}{2} t^4 + C    ]]  @canvas
+@Algebrite.check(`14*t^(1/2)+((1)/(2))*t^4+C`)
+******************
+$$
+\begin{align*}
+    \int \left(7t^{-1/2} + 2t^{3}\right) dt
+    &= 7 \cdot \frac{t^{-1/2+1}}{-1/2+1} \;+\; 2 \cdot \frac{t^{3+1}}{3+1} + C \\
+    &= 7 \cdot \frac{t^{1/2}}{1/2} \;+\; 2 \cdot \frac{t^{4}}{4} + C \\
+    &= 14 t^{1/2} \;+\; \frac{1}{2} t^4 + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$f)\;\;$__ $ \int \left(5u^{-3/2} - 4u^{2}\right) du $ = 
+
+[[    -10 u^{-1/2} \;-\; \frac{4}{3} u^{3} + C    ]]  @canvas
+@Algebrite.check(`-10*u^(-1/2)-((4)/(3))*u^(3)+C`)
+******************
+$$
+\begin{align*}
+    \int \left(5u^{-3/2} - 4u^{2}\right) du
+    &= 5 \cdot \frac{u^{-3/2+1}}{-3/2+1}
+    \;-\; 4 \cdot \frac{u^{2+1}}{2+1} + C \\
+    &= 5 \cdot \frac{u^{-1/2}}{-1/2}
+    \;-\; 4 \cdot \frac{u^{3}}{3} + C \\
+    &= -10 u^{-1/2} \;-\; \frac{4}{3} u^{3} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$g)\;\;$__ $ \int \left(6x^{-2} + 9x^{4}\right) dx $ = 
+
+[[    -\frac{6}{x} + \frac{9}{5} x^{5} + C    ]]  @canvas
+@Algebrite.check(`-((6)/(x))+((9)/(5))*x^(5)+C`)
+******************
+$$
+\begin{align*}
+    \int \left(6x^{-2} + 9x^{4}\right) dx
+    &= 6 \cdot \frac{x^{-2+1}}{-2+1}
+    \;+\; 9 \cdot \frac{x^{4+1}}{4+1} + C \\
+    &= 6 \cdot \frac{x^{-1}}{-1}
+    \;+\; 9 \cdot \frac{x^{5}}{5} + C \\
+    &= -6 x^{-1} + \frac{9}{5} x^{5} + C \\
+    &= -\frac{6}{x} + \frac{9}{5} x^{5} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$h)\;\;$__ $ \int \left(\dfrac{4}{\sqrt{z}} - \dfrac{2}{z^{2}}\right) dz $ = 
+
+[[    8\sqrt{z} + \frac{2}{z} + C    ]]  @canvas
+@Algebrite.check(`8*sqrt*(z)+((2)/(z))+C`)
+******************
+$$
+\begin{align*}
+    \int \left(4z^{-1/2} - 2z^{-2}\right) dz
+    &= 4 \cdot \frac{z^{-1/2+1}}{-1/2+1}
+    \;-\; 2 \cdot \frac{z^{-2+1}}{-2+1} + C \\
+    &= 4 \cdot \frac{z^{1/2}}{1/2}
+    \;-\; 2 \cdot \frac{z^{-1}}{-1} + C \\
+    &= 8 z^{1/2} \;+\; 2 z^{-1} + C \\
+    &= 8\sqrt{z} + \frac{2}{z} + C
+\end{align*}
+$$
+******************
+</div>
+
+
+<div class="flex-child">
+
+<!-- data-solution-button="5"-->
+__$i)\;\;$__ $ \int \dfrac{5}{3} w^{2/3} \, dw $ = 
+
+[[    w^{5/3} + C    ]]  @canvas
+@Algebrite.check(`w^(5/3)+C`)
+******************
+$$
+\begin{align*}
+    \int \frac{5}{3} w^{2/3} \, dw
+    &= \frac{5}{3} \cdot \frac{w^{2/3+1}}{2/3+1} + C \\
+    &= \frac{5}{3} \cdot \frac{w^{5/3}}{5/3} + C \\
+    &= w^{5/3} + C
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+
+### Integration - Übungen - Erste Anwendungen
+
+
+
+
+
+**Aufgabe 1:** **Gib** die Gleichung zur Beschreibung der potentiellen Energie durch die gegebene Kraft **an**. Zwischen der potentiellen Energie und der Kraft existiert der folgende Zusammenhang:
+
+$$
+\begin{align*}
+\Delta E_{\mathrm{pot}}(r) = \displaystyle \int F(r)\,dr
+\end{align*}
+$$
+
+<section class="dynFlex">
+
+<div class="flex-child">
+__$a)\;\;$__ (Konstante Kraft) 
+Gegeben: $ F(r) = -F_0 $ mit $F_0>0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+
+[[    -F_0\,r + C    ]]  @canvas
+@Algebrite.check(`-F_0*r+C`)
+******************
+$$
+\begin{align*}
+\int (-F_0)\,dr = -F_0\,r + C.
+\end{align*}
+$$
+******************
+
+</div>
+<div class="flex-child">
+__$b)\;\;$__ (Lineare Feder) 
+Gegeben: $ F(r) = -k\,(r-r_0) $ mit $k>0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[    -\tfrac{k}{2}\,(r-r_0)^2 + C    ]]  @canvas
+@Algebrite.check(`-((k)/(2))*(r-r0)^2+C`)
+******************
+$$
+\begin{align*}
+\int -k\,(r-r_0)\,dr
+&= -k \int (r-r_0)\,dr \\
+&= -k \left(\tfrac{1}{2}(r-r_0)^2\right) + C \\
+&= -\tfrac{k}{2}\,(r-r_0)^2 + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$c)\;\;$__ (Nichtlineare Feder) 
+Gegeben: $ F(r) = -(k\,r + \alpha r^3 + \beta r^5) $ mit $k,\alpha,\beta>0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[    -\tfrac{k}{2}\,r^2 - \tfrac{\alpha}{4}\,r^4 - \tfrac{\beta}{6}\,r^6 + C    ]]  @canvas
+@Algebrite.check(`-((k)/(2))*r^2-((alpha)/(4))*r^4-((beta)/(6))*r^6+C`)
+******************
+$$
+\begin{align*}
+\int \!-\big(k r+\alpha r^3+\beta r^5\big)\,dr
+&= -\left(\tfrac{k}{2}r^2+\tfrac{\alpha}{4}r^4+\tfrac{\beta}{6}r^6\right)+C \\
+&= -\tfrac{k}{2}\,r^2 - \tfrac{\alpha}{4}\,r^4 - \tfrac{\beta}{6}\,r^6 + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$d)\;\;$__ (radial) 
+Gegeben: $ F(r) = -\dfrac{\kappa}{r^2} $ mit $\kappa>0$ und $r\neq 0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[    \frac{\kappa}{r} + C    ]]  @canvas
+@Algebrite.check(`((kappa)/(r))+C`)
+******************
+$$
+\begin{align*}
+\int -\kappa r^{-2}\,dr
+&= -\kappa \int r^{-2}\,dr \\
+&= -\kappa \left(-\,r^{-1}\right) + C \\
+&= \frac{\kappa}{r} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$e)\;\;$__
+Gegeben: $ F(r) = -A\,\sqrt{r} $ mit $A>0$ und $r\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[    -\frac{2A}{3}\,r^{3/2} + C    ]]  @canvas
+@Algebrite.check(`-((2*A)/(3))*r^(3/2)+C`)
+******************
+$$
+\begin{align*}
+\int -A\,\sqrt{r}\,dr
+&= -A \int r^{1/2}\,dr \\
+&= -A \cdot \frac{2}{3}\,r^{3/2} + C \\
+&= -\frac{2A}{3}\,r^{3/2} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$f)\;\;$__
+Gegeben: $ F(r) = -\dfrac{B}{r^3} $ mit $B>0$ und $r>0$.  
+
+<!-- data-solution-button="5"-->
+$\Delta E_{\mathrm{pot}}(r)=$ 
+
+[[    \frac{B}{2\,r^{2}} + C    ]]  @canvas
+@Algebrite.check(`B/(2*r^2)+C`)
+******************
+$$
+\begin{align*}
+\int -\frac{B}{r^3}\,dr
+&= -B \int r^{-3}\,dr \\
+&= -B \left( \frac{r^{-2}}{-2} \right) + C \\
+&= \frac{B}{2}\,r^{-2} + C \\
+&= \frac{B}{2\,r^{2}} + C.
+\end{align*}
+$$
+******************
+</div>
+
+</section>
+
+
+
+
+---
+
+---
+
+
+
+**Aufgabe 2:** **Gib** die Gleichung zur Beschreibung der Energie durch die gegebene Leistung **an**. Zwischen der Energie und der Leistung existiert der folgende Zusammenhang:
+
+$$
+\begin{align*}
+\Delta E = \displaystyle \int P(t)\,dt
+\end{align*}
+$$
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+__$a)\;\;$__ *(Solarzelle unter wandernder Wolke – Parabelverlauf um Mittag)*  
+Gegeben: $ P(t) = \alpha\,t - \beta\,t^{2} $ mit $\alpha,\beta>0$ und $t\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[    \frac{\alpha}{2}\,t^{2} - \frac{\beta}{3}\,t^{3} + C    ]]  @canvas
+@Algebrite.check(`((alpha)/(2))*t^(2)-((beta)/(3))*t^(3)+C`)
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int \big(\alpha\,t - \beta\,t^{2}\big)\,dt
+&= \frac{\alpha}{2}\,t^{2} - \frac{\beta}{3}\,t^{3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$b)\;\;$__ *(Windturbine im Anlauf – kubischer Hochlauf)*  
+Gegeben: $ P(t) = k\,t^{3} $ mit $k>0$ und $t\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[    \frac{k}{4}\,t^{4} + C    ]]  @canvas
+@Algebrite.check(`((k)/(4))*t^(4)+C`)
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int k\,t^{3}\,dt
+&= \frac{k}{4}\,t^{4} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$c)\;\;$__ *(Akku-Entladung mit linearer Leistungsabnahme)*  
+Gegeben: $ P(t) = P_0 - a\,t $ mit $P_0,a>0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[    P_0\,t - \frac{a}{2}\,t^{2} + C    ]]  @canvas
+@Algebrite.check(`P_0*t-((a)/(2))*t^(2)+C`)
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int \big(P_0 - a\,t\big)\,dt
+&= P_0\,t - \frac{a}{2}\,t^{2} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$d)\;\;$__ *(E-Motor mit Softstart – Wurzelanstieg)*  
+Gegeben: $ P(t) = A\,t^{1/2} $ mit $A>0$ und $t\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[    \frac{2A}{3}\,t^{3/2} + C    ]]  @canvas
+@Algebrite.check(`((2*A)/(3))*t^(3/2)+C`)
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int A\,t^{1/2}\,dt
+&= \frac{2A}{3}\,t^{3/2} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$e)\;\;$__ *(Lüfter mit Grundlast und quadratischer Regelung)*  
+Gegeben: $ P(t) = P_{\mathrm{b}} + c\,(t - t_0)^{2} $ mit $P_{\mathrm{b}},c>0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[    P_{\mathrm{b}}\,t + \frac{c}{3}\,(t - t_0)^{3} + C    ]]  @canvas
+@Algebrite.check(`P_b*t+((c)/(3))*(t-t0)^(3)+C`)
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int \big(P_{\mathrm{b}} + c\,(t - t_0)^{2}\big)\,dt
+&= P_{\mathrm{b}}\,t + \frac{c}{3}\,(t - t_0)^{3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$f)\;\;$__ *(Regeneratives Bremsen – abklingende Leistung)*  
+Gegeben: $ P(t) = \dfrac{B}{\sqrt{t}} $ mit $B>0$ und $t>0$.  
+
+<!-- data-solution-button="5"-->
+$E(t)=$ 
+
+[[    2B\,\sqrt{t} + C    ]]  @canvas
+@Algebrite.check(`2*B*sqrt*(t)+C`)
+******************
+$$
+\begin{align*}
+E(t) \;=\; \int B\,t^{-1/2}\,dt
+&= 2B\,t^{1/2} + C
+\;=\; 2B\,\sqrt{t} + C.
+\end{align*}
+$$
+******************
+</div>
+
+
+</section>
+
+---
+
+---
+
+
+
+**Aufgabe 3:** **Gib** die Gleichung zur Beschreibung des Potentials durch die gegebene Feldstärke **an**. Zwischen der Feldstärke und dem Potential existiert der folgende Zusammenhang:
+
+$$
+\begin{align*}
+\Phi(x) = -\displaystyle \int E(r)\,dr
+\end{align*}
+$$
+
+<section class="dynFlex">
+
+<div class="flex-child">
+__$a)\;\;$__ *(Homogenes Feld – z. B. Plattenkondensator näherungsweise)*  
+Gegeben: $ E(r) = E_0 $ mit $E_0>0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[    -E_0\,r + C    ]]  @canvas
+@Algebrite.check(`-E0*r+C`)
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int E_0\,dr
+&= -E_0\,r + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$b)\;\;$__ *(Linear räumlich variierendes Feld – inhomogenes Medium)*  
+Gegeben: $ E(r) = a\,r + b $ mit Konstanten $a,b$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[    -\frac{a}{2}\,r^2 - b\,r + C    ]]  @canvas
+@Algebrite.check(`-((a)/(2))*r^2-b*r+C`)
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int \big(a\,r + b\big)\,dr
+&= -\left(\frac{a}{2}\,r^2 + b\,r\right) + C \\
+&= -\frac{a}{2}\,r^2 - b\,r + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$c)\;\;$__ *(Quadratische Feldverteilung um eine Referenzlage)*  
+Gegeben: $ E(r) = c\,(r - r_0)^{2} $ mit $c>0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[    -\frac{c}{3}\,(r-r_0)^3 + C    ]]  @canvas
+@Algebrite.check(`-((c)/(3))*(r-r0)^3+C`)
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int c\,(r-r_0)^2\,dr
+&= -c\,\frac{(r-r_0)^3}{3} + C \\
+&= -\frac{c}{3}\,(r-r_0)^3 + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$d)\;\;$__ *(Radialfeld einer Punktladung – Betragsmodell entlang $r$)*  
+Gegeben: $ E(r) = \dfrac{K}{r^{2}} $ mit $K>0$ und $r>0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[    \frac{K}{r} + C    ]]  @canvas
+@Algebrite.check(`((K)/(r))+C`)
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int \frac{K}{r^{2}}\,dr
+&= -K \int r^{-2}\,dr
+= -K\left(-\,r^{-1}\right) + C \\
+&= \frac{K}{r} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$e)\;\;$__ *(Fernfeld-Anteil eines Dipols – einfache Potenznäherung)*  
+Gegeben: $ E(r) = \dfrac{B}{r^{3}} $ mit $B>0$ und $r>0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[    \frac{B}{2\,r^{2}} + C    ]]  @canvas
+@Algebrite.check(`B/(2*r^2)+C`)
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int \frac{B}{r^{3}}\,dr
+&= -B \int r^{-3}\,dr
+= -B\left(\frac{r^{-2}}{-2}\right) + C \\
+&= \frac{B}{2}\,r^{-2} + C
+= \frac{B}{2\,r^{2}} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$f)\;\;$__ *(Ansteigendes Feld zum Rand – Wurzelprofil)*  
+Gegeben: $ E(r) = A\,\sqrt{r} = A\,r^{1/2} $ mit $A>0$ und $r\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$\Phi(r)=$ 
+
+[[    -\frac{2A}{3}\,r^{3/2} + C    ]]  @canvas
+@Algebrite.check(`-((2*A)/(3))*r^(3/2)+C`)
+******************
+$$
+\begin{align*}
+\Phi(r) \;=\; -\int A\,r^{1/2}\,dr
+&= -A \cdot \frac{2}{3}\,r^{3/2} + C \\
+&= -\frac{2A}{3}\,r^{3/2} + C.
+\end{align*}
+$$
+******************
+</div>
+
+
+</section>
+
+---
+
+---
+
+
+
+**Aufgabe 4:** **Gib** die Gleichung zur Beschreibung der Geschwindigkeit durch die gegebene Beschleundigung **an**. Zwischen der Beschleundigung und der Geschwindigkeit existiert der folgende Zusammenhang:
+
+$$
+\begin{align*}
+v(t) = \displaystyle \int a(t)\,dt
+\end{align*}
+$$
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+__$a)\;\;$__ *(Schulbus: Grundbeschleunigung mit stärkerem Schub später)*  
+Gegeben: $ a(t) = a_0 + b\,t^{2} $ mit $a_0,b>0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$ 
+
+[[    a_0\,t + \frac{b}{3}\,t^{3} + C    ]]  @canvas
+@Algebrite.check(`a0*t+((b)/(3))*t^(3)+C`)
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int \big(a_0 + b\,t^{2}\big)\,dt
+&= a_0\,t + \frac{b}{3}\,t^{3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$b)\;\;$__ *(Straßenbahn: sanftes Ausblenden der Beschleunigung)*  
+Gegeben: $ a(t) = k\,(t_1 - t) $ mit Konstanten $k,t_1$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[    k\left(t_1\,t - \frac{t^{2}}{2}\right) + C    ]]  @canvas
+@Algebrite.check(`k*(t1*t-t^2/2)+C`)
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int k\,(t_1 - t)\,dt
+&= k\left(t_1\,t - \frac{t^{2}}{2}\right) + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$c)\;\;$__ *(Aufzug: weiches Start/Stop-Profil)*  
+Gegeben: $ a(t) = A - B\,t^{2} $ mit $A,B>0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[    A\,t - \frac{B}{3}\,t^{3} + C    ]]  @canvas
+@Algebrite.check(`A*t-((B)/(3))*t^(3)+C`)
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int \big(A - B\,t^{2}\big)\,dt
+&= A\,t - \frac{B}{3}\,t^{3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$d)\;\;$__ *(Bremsmanöver: zunehmende Bremswirkung)*  
+Gegeben: $ a(t) = -\dfrac{B}{t^{2}} $ mit $B>0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[    \frac{B}{t} + C    ]]  @canvas
+@Algebrite.check(`((B)/(t))+C`)
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int -B\,t^{-2}\,dt
+&= -B\cdot \frac{t^{-1}}{-1} + C \\
+&= \frac{B}{t} + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$e)\;\;$__ *(Roboterarm: S-Kurven-Anlauf als Quadratik)*  
+Gegeben: $ a(t) = c\,t\,(T - t) $ mit $c>0$ und $T>0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[    c\left(\frac{T}{2}\,t^{2} - \frac{1}{3}\,t^{3}\right) + C    ]]  @canvas
+@Algebrite.check(`c*(((T)/(2))*t^(2)-((1)/(3))*t^(3))+C`)
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int c\,t\,(T - t)\,dt
+&= c\int (Tt - t^{2})\,dt \\
+&= c\left(\frac{T}{2}\,t^{2} - \frac{1}{3}\,t^{3}\right) + C.
+\end{align*}
+$$
+******************
+</div>
+
+<div class="flex-child">
+__$f)\;\;$__ *(Schlitten auf Teppich: Bremskraft wächst leicht mit Zeit)*  
+Gegeben: $ a(t) = -D\,t^{1/3} $ mit $D>0$ und $t\ge 0$.  
+
+<!-- data-solution-button="5"-->
+$v(t)=$
+
+[[    -\frac{3D}{4}\,t^{4/3} + C    ]]  @canvas
+@Algebrite.check(`-((3*D)/(4))*t^(4/3)+C`)
+******************
+$$
+\begin{align*}
+v(t)\;=\;\int -D\,t^{1/3}\,dt
+&= -D\cdot \frac{t^{4/3}}{4/3} + C \\
+&= -\frac{3D}{4}\,t^{4/3} + C.
+\end{align*}
+$$
+******************
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Euler-Lagrange-Gleichungen
+
+
+
+
+Die Bahn $x(t)$ auf dem Intervall $[t_0,t_1]$ werde durch die Wirkung
+
+$$
+\begin{align*}
+S[x] \;=\; \int_{t_0}^{t_1} L\!\big(x(t),\,\dot x(t),\,t\big)\,dt ,
+\end{align*}
+$$
+
+bewertet, wobei $L$ hinreichend glatt in ihren Argumenten sei und $\dot x=\tfrac{dx}{dt}$ gilt. Ein Extremum der Wirkung wird über zulässige Variationen charakterisiert. Hierzu wird eine gestörte Bahn $x_\varepsilon(t)=x(t)+\varepsilon\,\eta(t)$ mit glatter Testfunktion $\eta$ eingeführt, die feste Randwerte realisiert, d. h. $\eta(t_0)=\eta(t_1)=0$. Die zugehörige Geschwindigkeitsstörung lautet $\dot x_\varepsilon(t)=\dot x(t)+\varepsilon\,\dot\eta(t)$. Die erste Variation der Wirkung wird als
+
+$$
+\begin{align*}
+\delta S \;\coloneqq\; \left.\frac{d}{d\varepsilon}\,S[x_\varepsilon]\right|_{\varepsilon=0}
+\end{align*}
+$$
+
+definiert. Unter Verwendung der linearen Entwicklung erster Ordnung in $\varepsilon$ ergibt sich
+
+$$
+\begin{align*}
+L\big(x+\varepsilon\eta,\,\dot x+\varepsilon\dot\eta,\,t\big)
+&= L(x,\dot x,t)
+\;+\;\varepsilon\!\left(\frac{\partial L}{\partial x}\,\eta \;+\; \frac{\partial L}{\partial \dot x}\,\dot\eta\right) \;+\; o(\varepsilon) ,
+\end{align*}
+$$
+
+woraus nach Differentiation nach $\varepsilon$ bei $\varepsilon=0$ folgt:
+
+$$
+\begin{align*}
+\delta S \;=\; \int_{t_0}^{t_1}\!\left(\frac{\partial L}{\partial x}\,\eta \;+\; \frac{\partial L}{\partial \dot x}\,\dot\eta\right)\,dt .
+\end{align*}
+$$
+
+Zur Eliminierung der Zeitableitung auf $\eta$ wird einmal partiell integriert:
+
+$$
+\begin{align*}
+\int_{t_0}^{t_1}\frac{\partial L}{\partial \dot x}\,\dot\eta\,dt
+&=\;\Big[\tfrac{\partial L}{\partial \dot x}\,\eta\Big]_{t_0}^{t_1}
+\;-\;\int_{t_0}^{t_1}\frac{d}{dt}\!\left(\frac{\partial L}{\partial \dot x}\right)\eta\,dt .
+\end{align*}
+$$
+
+Der Randterm verschwindet aufgrund $\eta(t_0)=\eta(t_1)=0$. Somit ergibt sich
+
+$$
+\begin{align*}
+\delta S
+\;=\;
+\int_{t_0}^{t_1}\!\left(
+\frac{\partial L}{\partial x}
+\;-\;
+\frac{d}{dt}\frac{\partial L}{\partial \dot x}
+\right)\eta(t)\,dt .
+\end{align*}
+$$
+
+Damit $\delta S=0$ für alle glatten $\eta$ mit verschwindenden Randwerten gilt (Extremalbedingung), muss der Integrand identisch verschwinden; formal handelt es sich um das grundlegende Argument der Variationsrechnung, dass die Nullheit eines Integrals für alle derartigen Testfunktionen die Nullheit des Integranden erzwingt. Es resultiert die Euler–Lagrange-Gleichung
+
+$$
+\begin{align*}
+\frac{d}{dt}\!\left(\frac{\partial L}{\partial \dot x}\right)
+\;-\;
+\frac{\partial L}{\partial x}
+\;=\;0 .
+\end{align*}
+$$
+
+Für Systeme mit mehreren generalisierten Koordinaten $q_i(t)$ entsteht dieselbe Beziehung komponentenweise unter denselben Glattheits- und Randvoraussetzungen:
+
+$$
+\begin{align*}
+\frac{d}{dt}\!\left(\frac{\partial L}{\partial \dot q_i}\right)
+\;-\;
+\frac{\partial L}{\partial q_i}
+\;=\;0,
+\qquad i=1,\dots,n \, .
+\end{align*}
+$$
+
+
+
+### Euler-Lagrange-Gleichungen - Übungen
+
+$$
+\begin{align*}
+ \frac{\partial L}{\partial q} \;-\; \frac{d}{dt}\!\left(\frac{\partial L}{\partial \dot{q}}\right) \;=\;0 
+\end{align*}
+$$
+
+
+
+**Aufgabe 1:** Es ist jeweils ein Lagrangian gegeben. Bestimme die Terme.  
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+$a)\;\; L = c \dot{q}^3 - 4rq $ 
+
+
+$\dfrac{\partial L}{\partial q}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{q}}  =  $ \
+
+
+[[    3 c \dot{q}^2    ]]  @canvas
+@Algebrite.check(`3*c*qdot^2`)
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial x} & =  -4r   \\
+\frac{\partial L}{\partial \dot{x}} & =  3 c \dot{q}^2  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$b)\;\; L = a \dot{z}^2 - 5 b z^4 $ 
+
+
+$\dfrac{\partial L}{\partial z}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{z}}  =  $ \
+
+
+[[    2 a \dot{z}    ]]  @canvas
+@Algebrite.check(`2*a*zdot`)
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial z} & = -20 b z^3  \\
+\frac{\partial L}{\partial \dot{z}} & = 2 a \dot{z}  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$c)\;\; L = \frac{1}{2} m \dot{n}^2 + k n^2 $ 
+
+
+$\dfrac{\partial L}{\partial n}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{n}}  =  $ \
+
+
+[[    m \dot{n}    ]]  @canvas
+@Algebrite.check(`m*ndot`)
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial n} & = 2 k n  \\
+\frac{\partial L}{\partial \dot{n}} & = m \dot{n}  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$d)\;\; L = \alpha a^2 \dot{a} - \beta a $ 
+
+
+$\dfrac{\partial L}{\partial a}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{a}}  =  $ \
+
+
+[[    \alpha a^2    ]]  @canvas
+@Algebrite.check(`alpha*a^2`)
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial a} & = 2 \alpha a \dot{a} - \beta  \\
+\frac{\partial L}{\partial \dot{a}} & = \alpha a^2  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$e)\;\; L = \lambda \dot{s}^3 + \mu s^3 $ 
+
+
+$\dfrac{\partial L}{\partial s}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{s}}  =  $ \
+
+
+[[    3 \lambda \dot{s}^2    ]]  @canvas
+@Algebrite.check(`3*lambda*sdot^2`)
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial s} & = 3 \mu s^2  \\
+\frac{\partial L}{\partial \dot{s}} & = 3 \lambda \dot{s}^2  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$f)\;\; L = p r \dot{r}^2 - s r^2 $ 
+
+
+$\dfrac{\partial L}{\partial r}  =   $ \
+
+
+$\dfrac{\partial L}{\partial \dot{r}}  =  $ \
+
+
+[[    2 p r \dot{r}    ]]  @canvas
+@Algebrite.check(`2*p*r*rdot`)
+******************************
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial r} & = p \dot{r}^2 - 2 s r  \\
+\frac{\partial L}{\partial \dot{r}} & = 2 p r \dot{r}  \\
+\end{align*}
+$$
+
+******************************
+
+</div>
+
+
+</section>
+
+
+
+**Aufgabe 2:** Es ist jeweils ein Lagrangian gegeben. Stelle die Euler-Lagrange-Gleichung für diesen Lagrangian auf.  \
+
+
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+$a)\;\; L = ktx^2 + z\dot{x}^2 $
+
+
+[[    2ktx - 2z\ddot{x}    ]]  @canvas
+@Algebrite.check(`2*ktx-2*zxddot`)
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial x} & = 2ktx  \\
+\frac{\partial L}{\partial \dot{x}} & = 2z\dot{x}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{x}} & = 2z\ddot{x}   \\
+0 = 2ktx - 2z\ddot{x}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$b)\;\; L = a t^2 z^2 + b\dot{z}^2 $
+
+[[    2 a t^2 z - 2 b \ddot{z}    ]]  @canvas
+@Algebrite.check(`2*a*t^2*z-2*b*zddot`)
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial z} & = 2 a t^2 z  \\
+\frac{\partial L}{\partial \dot{z}} & = 2 b \dot{z}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{z}} & = 2 b \ddot{z}   \\
+0 = 2 a t^2 z - 2 b \ddot{z}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$c)\;\; L = c w e^3 + d\dot{e}^2 $
+
+[[    3 c w e^2 - 2 d \ddot{e}    ]]  @canvas
+@Algebrite.check(`3*c*w*e^2-2*d*eddot`)
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial e} & = 3 c w e^2  \\
+\frac{\partial L}{\partial \dot{e}} & = 2 d \dot{e}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{e}} & = 2 d \ddot{e}   \\
+0 = 3 c w e^2 - 2 d \ddot{e}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$d)\;\; L = e d^3 y^2 + f\dot{y}^2 $
+
+[[    2 e d^3 y - 2 f \ddot{y}    ]]  @canvas
+@Algebrite.check(`2*e*d^3*y-2*f*yddot`)
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial y} & = 2 e d^3 y  \\
+\frac{\partial L}{\partial \dot{y}} & = 2 f \dot{y}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{y}} & = 2 f \ddot{y}   \\
+0 = 2 e d^3 y - 2 f \ddot{y}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$e)\;\; L = g k^2 r^4 + h\dot{r}^2 $
+
+[[    4 g k^2 r^3 - 2 h \ddot{r}    ]]  @canvas
+@Algebrite.check(`4*g*k^2*r^3-2*h*rddot`)
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial r} & = 4 g k^2 r^3  \\
+\frac{\partial L}{\partial \dot{r}} & = 2 h \dot{r}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{r}} & = 2 h \ddot{r}   \\
+0 = 4 g k^2 r^3 - 2 h \ddot{r}
+\end{align*}
+$$
+******************************
+
+</div>
+
+<div class="flex-child">
+
+$f)\;\; L = p \cos(t)\, x^2 + q\dot{x}^2 $
+
+[[    2 p \cos(t)\, x - 2 q \ddot{x}    ]]  @canvas
+@Algebrite.check(`2*p*cos*(t)*x-2*q*xddot`)
+******************************
+$$
+\begin{align*}
+\frac{\partial L}{\partial x} & = 2 p \cos(t)\, x  \\
+\frac{\partial L}{\partial \dot{x}} & = 2 q \dot{x}  \\
+\frac{d}{dt} \frac{\partial L}{\partial \dot{x}} & = 2 q \ddot{x}   \\
+0 = 2 p \cos(t)\, x - 2 q \ddot{x}
+\end{align*}
+$$
+******************************
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Probeleistungskontrolle
+
+
+
+**Aufgabe 1:** Erkläre den Unterschied zwischen Prozess- und Zustandsgrößen (Observablen).
+
+
+[[    Zustandsgroesse: pfadunabhaengig; Prozessgroesse: pfadabhaengig    ]]  @canvas
+******************************
+Eine **Zustandsgröße** (auch: **Zustandsvariable**, im schulischen Kontext häufig „Observable“ im Sinne einer *zu einem Zeitpunkt* messbaren Systemgröße) beschreibt den **Zustand** eines Systems zu einem Zeitpunkt. Sie hängt **nicht** davon ab, *wie* dieser Zustand erreicht wurde (weg-/pfadunabhängig). Mathematisch entspricht das der Idee einer **exakten** Differentialform: Die Änderung zwischen zwei Zuständen hängt nur von Anfangs- und Endzustand ab. Beispiele: Ort $z$, Geschwindigkeit $v$, Druck $p$, Temperatur $T$ (thermodynamisch), potentielle Energie $E_{pot}$.
+
+Eine **Prozessgröße** beschreibt dagegen einen **Vorgang zwischen zwei Zuständen** (weg-/pfadabhängig). Sie ist keine „Eigenschaft des Systems zu einem Zeitpunkt“, sondern eine Größe, die erst über einen Verlauf definiert ist. Mathematisch entspricht das einer **nicht-exakten** Differentialform. Beispiele: verrichtete Arbeit $W$ und (thermodynamisch) Wärme $Q$; beides sind Größen, die typischerweise als Integrale über einen Prozess entstehen.
+
+******************************
+
+
+
+**Aufgabe 2:** Gegeben sei ein Feld mit der Feldstärke $E(r)= 4\pi m r^3 $ und die Ladung $Q$. 
+
+$a)\;\;$ Leite den Term des Potentials her. 
+
+[[    -\pi m r^4 + C    ]]  @canvas
+@Algebrite.check(`-pi*m*r^4+C`)
+******************************
+$$
+\begin{align*}
+E(r) &= 4\pi m r^3 \\
+E(r) &= -\frac{d\Phi}{dr} \\
+-\frac{d\Phi}{dr} &= 4\pi m r^3 \\
+\frac{d\Phi}{dr} &= -4\pi m r^3 \\
+\Phi(r) &= \int -4\pi m r^3\,dr \\
+&= -4\pi m\cdot \frac{r^4}{4} + C \\
+&= -\pi m r^4 + C
+\end{align*}
+$$
+******************************
+
+$b)\;\;$ Begründe mathematisch mit den Aufgabenteil $a)$, dass $\Phi(r)= \int E(r) dr$ gilt.
+
+[[    \int -E(r)\,dr + C    ]]  @canvas
+@Algebrite.check(`int-E*(r)*dr+C`)
+******************************
+
+Aus Teil $a)$ folgt, dass $E(r)$ (bis auf das Vorzeichen) die Ableitung des Potentials ist:
+
+$$
+\begin{align*}
+E(r) &= -\frac{d\Phi}{dr} \\
+\Rightarrow\ \frac{d\Phi}{dr} &= -E(r) \\
+\Rightarrow\ \Phi(r) &= \int -E(r)\,dr + C
+\end{align*}
+$$
+
+Wenn in einer Aufgaben-/Konventionswahl stattdessen $E(r)=\dfrac{d\Phi}{dr}$ definiert wird, erhält man unmittelbar  
+$\Phi(r)=\int E(r)\,dr + C$.  
+In beiden Fällen ist die mathematische Kernaussage identisch: Ein Potential ist (bis auf Konstante und ggf. Vorzeichen) eine Stammfunktion des Feldes.
+
+******************************
+
+
+
+
+**Aufgabe 3:** Auf ein ruhendes Objekt mit der Masse $m$ stößt zentral ein Objekt mit einer Masse $M$ und einer Geschwindigkeit $V$. 
+
+$a)\;\;$ Leite eine allgemeine Gleichung zur Berechnung der resultierenden Geschwindigkeit des ruhenden Objektes nach dem Zusammenstoß her.
+
+[[    \frac{M}{m}\,(V - V')    ]]  @canvas
+@Algebrite.check(`(M/m)*(V-V')`)
+******************************
+$$
+\begin{align*}
+\text{Impuls vor} &= \text{Impuls nach} \\
+M V &= M V' + m v' \\
+m v' &= M(V - V') \\
+v' &= \frac{M}{m}\,(V - V')
+\end{align*}
+$$
+******************************
+
+
+$b)\;\;$ Gib die Größe an, die gemessen werden muss, damit aus den bereits bekannten Größen und dieser Observable die Geschwindigkeit aus Aufgabenteil $a)$ mittels Zahlen bestimmt werden kann.
+
+[[    V'    ]]  @canvas
+@Algebrite.check(Vp)
+******************************
+
+In der allgemeinen Gleichung aus $a)$ ist $V'$ nach dem Stoß unbekannt. Damit $v'$ numerisch bestimmbar wird, muss man daher z.B. messen:
+
+$$
+\boxed{V' \text{ (die Geschwindigkeit des Körpers mit Masse } M \text{ nach dem Stoß)}}
+$$
+
+
+******************************
+
+$c)\;\;$ Gib die Geschwindigkeit an, mit der das Objekt mit der Masse $M$ nach dem Zusammenprall sich fortbewegt, wenn $M=m$ gilt.
+
+[[    V - v'    ]]  @canvas
+@Algebrite.check(`V-v'`)
+******************************
+$$
+\begin{align*}
+M=m:\quad mV &= m V' + m v' \\
+V &= V' + v' \\
+V' &= V - v'
+\end{align*}
+$$
+******************************
+
+
+
+**Aufgabe 4:** Erkläre, wieso das Superpositionsprinzip bei jeder vektoriellen Größe angewandt werden kann.
+
+[[    Superposition gilt bei linearer Vektoraddition    ]]  @canvas
+******************************
+Vektoren werden in einem linearen Raum addiert. Wenn mehrere Beiträge derselben vektoriellen Größe gleichzeitig wirken (z.B. mehrere Kräfte, mehrere Feldanteile), dann ergibt sich der Gesamtbeitrag durch komponentenweise Addition, also durch die Vektorsumme:
+
+$$
+\vec{A}_{\text{ges}}=\vec{A}_1+\vec{A}_2+\cdots
+$$
+
+Das ist genau das Superpositionsprinzip. Physikalisch ist es überall dort gültig, wo die zugrunde liegenden Beziehungen **linear** sind (bei nichtlinearen Effekten kann Superposition als Modellannahme scheitern, obwohl „Vektoraddition“ formal weiterhin definiert ist).
+
+******************************
+
+
+
+**Aufgabe 5:** Leite die Euler-Lagrange-Gleichungen her, wenn auf den Körper mit der Masse $m$ eine Kraft $F(z) = \dfrac{m}{z^4}$ wirkt.
+
+[[    \frac{m}{3z^3}+C    ]]  @canvas
+@Algebrite.check(`((m)/(3*z^3))+C)/(3*z^3))+C)/(3*z^3))+C`)
+******************************
+Für ein Potential gilt $F(z)=-\dfrac{dV}{dz}$, wobei $V = E_{pot}$, was der bekannten linearen Gleichung $W=F \cdot s$ entspricht. Also:
+
+$$
+\begin{align*}
+F(z) &= \frac{m}{z^4} \\
+-\frac{dV}{dz} &= \frac{m}{z^4} \\
+\frac{dV}{dz} &= -m z^{-4} \\
+V(z) &= \int -m z^{-4}\,dz \\
+&= -m\cdot \frac{z^{-3}}{-3} + C \\
+&= \frac{m}{3z^3}+C
+\end{align*}
+$$
+
+Die Konstante $C$ kann weggelassen werden.
+
+** Lagrange-Funktion:**  
+
+$T=\dfrac12 m\dot z^{\,2}$ und $L=T-V$:
+
+$$
+L(z,\dot z)=\frac12 m\dot z^{\,2}-\frac{m}{3z^3}
+$$
+
+**Euler-Lagrange-Gleichung:**  
+
+$$
+\begin{align*}
+\frac{\partial L}{\partial z} &= -\frac{\partial}{\partial z}\left(\frac{m}{3}z^{-3}\right)
+= -\frac{m}{3}\cdot(-3)z^{-4}
+= \frac{m}{z^4} \\
+\frac{\partial L}{\partial \dot z} &= m\dot z \\
+\frac{d}{dt}\frac{\partial L}{\partial \dot z} &= m\ddot z \\
+0 &= \frac{\partial L}{\partial z}-\frac{d}{dt}\frac{\partial L}{\partial \dot z} \\
+0 &= \frac{m}{z^4}-m\ddot z \\
+\ddot z &= \frac{1}{z^4}
+\end{align*}
+$$
+
+Damit lautet die Bewegungsgleichung: $\ddot z=\dfrac{1}{z^4}$.
+******************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

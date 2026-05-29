@@ -79,11 +79,12 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (wische) entweder weiter od
 
 __$a)\;\;$__ Numeral
 
-
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
+
 @mark(Zwei) Schüler fehlten, aber die @mark(dritte) Gruppe war vollständig.
 
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -95,11 +96,12 @@ __$a)\;\;$__ Numeral
 
 __$b)\;\;$__ Interjektion
 
-
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 
 @mark(Ach)! Das habe ich völlig vergessen, und @mark(oh) nein, jetzt ist es zu spät.
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -111,11 +113,12 @@ __$b)\;\;$__ Interjektion
 
 __$c)\;\;$__ Adverb
 
-
-<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 <div class="markerquiz">
 
 Wir treffen uns @mark(morgen) @mark(dort) und beginnen @mark(früh).
+
+
+<!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 

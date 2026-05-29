@@ -76,14 +76,14 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (wische) entweder weiter od
 
 <div class="flex-child">
 
-
 __$a)\;\;$__ Konjunktion
 
+<div class="markerquiz">
+
+@mark(Obwohl) es schon spät war, blieb Lea wach, @mark(weil) sie das Kapitel beenden wollte.
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-@mark(Obwohl) es schon spät war, blieb Lea wach, @mark(weil) sie das Kapitel beenden wollte.
 @TextmarkerQuiz
 </div>
 
@@ -92,15 +92,15 @@ __$a)\;\;$__ Konjunktion
 </div>
 
 <div class="flex-child">
-
 
 __$b)\;\;$__ Adverb
 
+<div class="markerquiz">
+
+@mark(Bald) beginnt @mark(hier) @mark(wieder) das Training.
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-@mark(Bald) beginnt @mark(hier) @mark(wieder) das Training.
 @TextmarkerQuiz
 </div>
 
@@ -110,14 +110,14 @@ __$b)\;\;$__ Adverb
 
 <div class="flex-child">
 
-
 __$c)\;\;$__ Präposition
 
+<div class="markerquiz">
+
+@mark(Trotz) des Regens gingen wir @mark(ohne) Schirm @mark(zum) Bahnhof.
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-@mark(Trotz) des Regens gingen wir @mark(ohne) Schirm @mark(zum) Bahnhof.
 @TextmarkerQuiz
 </div>
 

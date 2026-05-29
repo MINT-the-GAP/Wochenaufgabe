@@ -132,10 +132,14 @@ style="max-width:900px;" -->
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__
+
 <div class="markerquiz">
+
 After the long bus ride @markred(the exchange students) @markblue(visited) @markgreen(the old castle) with their teacher.
+
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -145,10 +149,14 @@ After the long bus ride @markred(the exchange students) @markblue(visited) @mark
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__
+
 <div class="markerquiz">
+
 During the project week @markred(our class) @markblue(has prepared) @markgreen(a short presentation) about life in Britain.
+
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -158,10 +166,14 @@ During the project week @markred(our class) @markblue(has prepared) @markgreen(a
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
+
 <div class="markerquiz">
+
 At the youth centre @markred(the new coach) @markblue(was explaining) @markgreen(the rules of the game) to the younger players.
+
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -171,10 +183,13 @@ At the youth centre @markred(the new coach) @markblue(was explaining) @markgreen
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$d)\;\;$__
+
 <div class="markerquiz">
+
 Last Friday @markred(my best friend) @markblue(showed) @markgreen(her photo album) to everyone in the group.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -184,10 +199,13 @@ Last Friday @markred(my best friend) @markblue(showed) @markgreen(her photo albu
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$e)\;\;$__
+
 <div class="markerquiz">
+
 Before the lesson started @markred(the head teacher) @markblue(wrote) @markgreen(an important message) on the board.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -197,10 +215,13 @@ Before the lesson started @markred(the head teacher) @markblue(wrote) @markgreen
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$f)\;\;$__
+
 <div class="markerquiz">
+
 In the computer room @markred(the students from Class 7b) @markblue(were designing) @markgreen(a poster) for the school festival.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -210,10 +231,13 @@ In the computer room @markred(the students from Class 7b) @markblue(were designi
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$g)\;\;$__
+
 <div class="markerquiz">
+
 After the storm @markred(the neighbours) @markblue(found) @markgreen(several broken branches) in their garden.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -223,10 +247,13 @@ After the storm @markred(the neighbours) @markblue(found) @markgreen(several bro
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$h)\;\;$__
+
 <div class="markerquiz">
+
 On the class trip @markred(we) @markblue(have already collected) @markgreen(enough information) for our history project.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -236,10 +263,13 @@ On the class trip @markred(we) @markblue(have already collected) @markgreen(enou
 
 <div class="flex-child">
 
-<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$i)\;\;$__
+
 <div class="markerquiz">
+
 During the break @markred(the girl in the red hoodie) @markblue(handed) @markgreen(a note) to her friend near the window.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 

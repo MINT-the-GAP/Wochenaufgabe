@@ -78,13 +78,14 @@ Wenn du mit den Aufgaben beginnen willst, dann swipe (wische) entweder weiter od
 
 <div class="flex-child">
 
-
 __$a)\;\;$__ Artikel
+
+<div class="markerquiz">
+
+@mark(Die) Kinder bauen @mark(ein) Zelt neben @mark(der) Turnhalle.
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-@mark(Die) Kinder bauen @mark(ein) Zelt neben @mark(der) Turnhalle.
 @TextmarkerQuiz
 </div>
 
@@ -93,14 +94,15 @@ __$a)\;\;$__ Artikel
 </div>
 
 <div class="flex-child">
-
 
 __$b)\;\;$__ Pronomen
 
+<div class="markerquiz">
+
+@mark(Wir) haben @mark(uns) gestern sehr über @mark(euch) gefreut.
+
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-@mark(Wir) haben @mark(uns) gestern sehr über @mark(euch) gefreut.
 @TextmarkerQuiz
 </div>
 
@@ -110,13 +112,14 @@ __$b)\;\;$__ Pronomen
 
 <div class="flex-child">
 
-
 __$c)\;\;$__ Präposition
+
+<div class="markerquiz">
+
+@mark(Hinter) dem Haus führt ein schmaler Weg @mark(durch) den Wald.
 
 
 <!-- data-solution-timer="600s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
-<div class="markerquiz">
-@mark(Hinter) dem Haus führt ein schmaler Weg @mark(durch) den Wald.
 @TextmarkerQuiz
 </div>
 

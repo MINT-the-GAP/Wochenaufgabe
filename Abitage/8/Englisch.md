@@ -133,10 +133,14 @@ style="max-width:900px;" -->
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$a)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(After several weeks of preparation) @markred(the students from our partner school) @markblue(had presented) @markgreen(their final project) @markyellow(with great confidence) @markyellow(in the main hall).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -146,10 +150,14 @@ __$a)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$b)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(During the workshop) @markred(our group) @markblue(was discussing) @markgreen(the results of the survey) @markyellow(very seriously) @markyellow(in the media room).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -159,10 +167,14 @@ __$b)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$c)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(Because of the heavy rain) @markred(the organisers) @markblue(have moved) @markgreen(the open-air concert) @markyellow(at short notice) @markyellow(into the sports hall).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -172,10 +184,14 @@ __$c)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$d)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(At the end of the debate) @markred(the speaker from Class 8a) @markblue(gave) @markgreen(a convincing explanation) @markyellow(calmly) @markyellow(in front of the audience).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -185,10 +201,14 @@ __$d)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$e)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(Before the exchange programme started) @markred(our English teacher) @markblue(had sent) @markgreen(an email with all the details) @markyellow(to the parents) @markyellow(in the evening).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -198,10 +218,14 @@ __$e)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$f)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(In the second lesson) @markred(the class representatives) @markblue(were collecting) @markgreen(new ideas for the charity event) @markyellow(on large sheets of paper) @markyellow(near the windows).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -211,10 +235,14 @@ __$f)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$g)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(After the museum tour) @markred(my friend and I) @markblue(have written) @markgreen(a detailed report) @markyellow(together) @markyellow(in the school library).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -224,10 +252,14 @@ __$g)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$h)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(For the final task) @markred(the students in the front row) @markblue(had prepared) @markgreen(a short video) @markyellow(with remarkable creativity) @markyellow(at home).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
@@ -237,10 +269,14 @@ __$h)\;\;$__
 
 <div class="flex-child">
 
-<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 __$i)\;\;$__
+
 <div class="markerquiz">
+
 @markyellow(During the last rehearsal) @markred(the drama club) @markblue(was practising) @markgreen(the final scene) @markyellow(with a lot of energy) @markyellow(on the small stage).
+
+
+<!-- data-solution-timer="360s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" -->
 @TextmarkerQuiz
 </div>
 
