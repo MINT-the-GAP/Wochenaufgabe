@@ -172,7 +172,7 @@ edit: true
 
 
 {{6}}
-![Wochenaufgaben](WA.jpg)
+![Wochenaufgaben](screenshotWA.png)
 
 
 </div>
@@ -429,14 +429,6 @@ Bespiel: **Gib** den Bruch $\dfrac{23}{35}$ **an**.
 {{7}}
 ---
 
-{{7}}
-Bespiel 1: **Gib** den Bruch $\dfrac{3}{5}$ als ein beliebiges Vielfaches **an**.
-[[  3/5  ]] @canvas
-@Algebrite.check(3/5)
-
-
-{{7}}
----
 
 {{7}}
 Bespiel 2: **Gib** den Term $x^2-2x+1$ in einer beliebigen Umformung in das Lösungsfeld **ein**.
@@ -526,21 +518,6 @@ __$b)\;\;$__ **Zeichne** drei beliebe Punkte in das Koordinatensystem **ein** un
 
 
 
-{{6}}
----
-
-
-{{6}}
----
-
-{{6}}
-**************************
-__$c)\;\;$__ Rekonstruiere oder zeichne die Funktion $f(x) = 2x -1$.
-
-<!--   data-solution-button="2" -->
-@Rekonstruktion(`A9;2x-1;0.1`)
-**************************
-
 </div>
 
 </section>
@@ -602,8 +579,11 @@ __$c)\;\;$__ Rekonstruiere oder zeichne die Funktion $f(x) = 2x -1$.
 {{2}}
 <h3> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40"> Aufgabensammlung ist in der Entstehung: <a href="https://mint-the-gap.github.io/Aufgabensammlung/"> mint-the-gap.github.io/Aufgabensammlung/ </a> </h3> 
 
+
 {{2}}
-??[Sammlung](https://mint-the-gap.github.io/Aufgabensammlung/)
+!?[Sammlung](https://wochenaufgaben.gsg-freiberg.de/Lia/test2.mp4)
+
+
 
 
 
