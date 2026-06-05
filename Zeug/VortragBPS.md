@@ -172,7 +172,7 @@ edit: true
 
 
 {{6}}
-![Wochenaufgaben](screenshotWA.png)
+![Wochenaufgaben](screenshotWA.PNG)
 
 
 </div>
