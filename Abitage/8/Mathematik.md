@@ -3,14 +3,29 @@ version:  0.0.1
 language: de
 
 
-import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@master/README.md
-import: https://cdn.jsdelivr.net/gh/LiaTemplates/JSXGraph@main/README.md
 
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/README.md
 
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/KoordREADME.md
+import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
+import: https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
 
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-timer/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-navigation/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-DynFlex/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-marker/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-orthography/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-board-mode/main/README.md
+
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-annotation/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-canvas-ocr/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Mathe/main/README.md
+
+
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/imports/KoordREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/imports/FreezeREADME.md
 
 
 author: Martin Lommatzsch

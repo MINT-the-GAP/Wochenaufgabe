@@ -8,13 +8,22 @@ narrator: Deutsch Female
 
 mode: Presentation
 
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TafelREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/MarkerREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FlexChildREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/DeutschREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/NavigationREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/TimerREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/FreezeREADME.md
+
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-timer/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-navigation/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-DynFlex/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-marker/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-orthography/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-board-mode/main/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-annotation/main/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/imports/FreezeREADME.md
+
+
+
 
 author: Martin Lommatzsch
 -->
