@@ -24,7 +24,7 @@ author: Martin Lommatzsch
 
 <b>
 - 1. Schritt: Gib diesen Link in die URL-Leiste ein: <big> <big> <big>  [tinyurl.com/LiaMathe](https://tinyurl.com/LiaMathe) </big> </big> </big>
-<!-- style="max-width:800px" -->
+<!-- style="max-width:700px" -->
 ![URL](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/5/Deutsch/pics/url.png)
 
 - 2. Schritt: Klicke den Link zur angegebenen Woche an, die die Aufsicht hier niedergeschrieben hat: @canvas
