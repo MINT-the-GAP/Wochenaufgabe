@@ -1,5 +1,5 @@
 <!--
-version:  0.0.1
+version:  0.5.0
 language: de
 narrator: Deutsch Female
 
@@ -21,7 +21,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Mathe/main/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/imports/FreezeREADME.md
 
-tags: Wochenaufgabe, Mathematik, Klasse 5
+tags: Wochenaufgabe, Sachunterricht, Klasse 5, Grundschulwiederholung
 
 comment: Dies ist eine Einstiegs-Wochenaufgabe für den Anfang der 5. Klasse.
 
@@ -474,64 +474,411 @@ Vogelkirsche: [->[(![](pic/Vogelkirsche.png))]]</div>
 
 
 
-@ADetails(BE=8;Blättern von Bäumen)
+@ADetails(BE=4;Blättern von Bäumen)
 
 
 
 
-## Strom, Magnet, Aggregate
+## Elektrizität
 
-__Aufgabe 1:__ **Fülle** die Lücken **aus**.
+__Aufgabe 1:__ Mias Lampe leuchtet nicht. Batterie, Lampe, Schalter und Kabel sind verbunden. Mia verändert immer nur eine Sache und notiert das Ergebnis.
+
+<!--  data-type="none" data-sortable="false"  -->
+| Versuch | Veränderung | Beobachtung |
+|:--:|:--|:--|
+| 0 | ursprünglicher Aufbau | Lampe leuchtet nicht |
+| 1 | neue Batterie eingesetzt | Lampe leuchtet nicht |
+| 2 | wieder alte Batterie, aber neue Lampe eingesetzt | Lampe leuchtet nicht |
+| 3 | wieder ursprünglicher Aufbau, einen lockeren Kabelkontakt festgedrückt | Lampe leuchtet |
+
+**Werte** die Versuche **aus**. Nutze für die Ursache einen Begriff aus der Tabelle.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+| Frage | Antwort |
+|:--|:--:|
+| War die Batterie die Ursache? Antworte mit *ja* oder *nein*. | [[ nein ]] |
+| War die Lampe die Ursache? Antworte mit *ja* oder *nein*. | [[ nein ]] |
+| Ergänze mit einem Begriff aus Versuch 3: Locker war der ... | [[ Kabelkontakt ]] |
+| War der Stromkreis vor dem Festdrücken *offen* oder *geschlossen*? | [[ offen ]] |
+
+@ADetails(BE=4;Fehlersuche im Stromkreis)
+
+---
+
+---
+
+__Aufgabe 2:__ Der Kontrollversuch
+
+Eine Gruppe prüft drei unbekannte Gegenstände in einem einfachen Stromkreis. Vor und nach jedem Gegenstand setzt sie eine Büroklammer aus Stahl als bekannten Leiter ein. So kann die Gruppe kontrollieren, ob der Stromkreis noch funktioniert. **Sortiere** die Arbeitsschritte für eine zuverlässige Untersuchung.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true" -->
+[->[(Stromkreis mit dem bekannten Leiter prüfen)]] [->[(unbekannten Gegenstand einsetzen und beobachten)]] [->[(Stromkreis erneut mit dem bekannten Leiter prüfen)]] [->[(Beobachtungen vergleichen und Schlussfolgerung ziehen)]]
+
+@ADetails(BE=2;Kontrollversuch)
+
+
+## Magnetismus
+
+
+
+__Aufgabe 1:__ Bei Magnet A sind die Pole bekannt. Die Magnete B und C sind nicht beschriftet.
+
+- Der rechte Pol von Magnet A ist ein **Südpol**.
+- Der rechte Pol von A und der linke Pol von B **stoßen sich ab**.
+- Der rechte Pol von B und der linke Pol von C **ziehen sich an**.
+
+__$a)\;\;$__ **Erschließe** die fehlenden Pole. Trage *Nord* oder *Süd* ein.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+| Magnet | linker Pol | rechter Pol |
+|:--:|:--:|:--:|
+| A | Nord | Süd |
+| B | [[ Süd ]] | [[ Nord ]] |
+| C | [[ Süd ]] | [[ Nord ]] |
+
+@ADetails(BE=2;Magnetpole erschließen)
+
+
+__$b)\;\;$__ **Sage** die Magnetwirkung **voraus**. Nutze *anziehen* oder *abstoßen*.
+
+<!-- data-solution-timer="180s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"-->
+| Begegnung | Wirkung |
+|:--|:--:|
+| rechter Pol von B trifft auf linken Pol von C | [[ anziehen ]] |
+| rechter Pol von B trifft auf rechten Pol von C | [[ abstoßen ]] |
+
+@ADetails(BE=2;Magnetwirkung vorhersagen)
+
+---
+
+---
+
+
+__Aufgabe 2:__ Noah untersucht drei Magnete. Er zählt, wie viele gleichartige Büroklammern jeder Magnet anheben kann. Jeden Versuch führt er dreimal durch.
+
+__$a)\;\;$__ **Sortiere** die Schritte eines fairen und zuverlässigen Vergleichs.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true"  data-type="none" data-sortable="false"  -->
+[->[(gleichartige Büroklammern bereitlegen)]] [->[(alle drei Magnete auf dieselbe Weise einmal testen)]] [->[(jede Messung mehrfach wiederholen)]] [->[(Messwerte vergleichen und Auffälligkeiten prüfen)]]
+
+@ADetails(BE=2;Magnet-Experiment planen)
+
+
+Anschließend erhält Noah diese Messwerte:
+
+| Magnet | 1. Messung | 2. Messung | 3. Messung |
+|:--:|:--:|:--:|:--:|
+| A | 7 | 8 | 7 |
+| B | 9 | 4 | 9 |
+| C | 6 | 6 | 6 |
+
+__$b)\;\;$__ **Werte** die Messreihe **aus**. Nutze nur die Buchstaben *A*, *B*, *C*, *ja*, *nein* oder eine Zahl.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+| Frage | Antwort |
+|:--|:--:|
+| Welcher einzelne Messwert fällt besonders auf? | [[ 4 ]] |
+| Bei welchem Magneten sollte Noah weitere Messungen durchführen? | [[ B ]] |
+| Welcher Magnet lieferte dreimal genau denselben Wert? | [[ C ]] |
+| Kann Noah schon sicher entscheiden, ob A oder B stärker ist? | [[ nein ]] |
+
+@ADetails(BE=4;Messwerte auswerten)
+
+
+## Beobachtungen mit Wasser
+
+Lina stellt eine dicht verschlossene, kalte Trinkflasche auf den Tisch. Nach einigen Minuten bilden sich außen Wassertropfen. Lina vermutet zunächst, dass Wasser durch die Flaschenwand dringt.
+
+__$a)\;\;$__ **Sortiere** die Beobachtungen und Erklärungen zu einer sinnvollen Ursache-Wirkungs-Kette.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true" -->
+[->[(Die Luft enthält unsichtbaren Wasserdampf.)]] [->[(Die Luft an der kalten Flasche kühlt sich ab.)]] [->[(Wasserdampf kondensiert zu flüssigem Wasser.)]] [->[(Außen an der Flasche werden Wassertropfen sichtbar.)]]
+
+@ADetails(BE=4;Kondensation erklären)
+
+
+__$b)\;\;$__ **Benenne** die Zustandsänderung. 
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+| Beobachtung | Zustandsänderung |
+|:--|:--:|
+| An der kalten Flasche entstehen aus Wasserdampf Wassertropfen. | [->[ (Kondensieren) ]] |
+| Eine Pfütze wird an einem warmen Tag immer kleiner. | [->[ (Verdampfen) ]] |
+| Ein Eiswürfel wird zu flüssigem Wasser. | [->[ (Schmelzen) ]] |
+| Wasser wird im Gefrierfach zu Eis. | [->[ (Gefrieren) ]] |
+
+
+@ADetails(BE=2;Zustandsänderungen anwenden)
 
 
 
 
 
-Entweder [[  positiv  ]] oder [[  negativ  ]] oder [[  magnetisch  ]]?
-<script>
-@input.map(s => s.toLowerCase()).sort().join() === "magnetisch,negativ,positiv"
-</script>
+
+## Jahreszeiten
+
+Eine Wetterstation in Sachsen hat vier Beobachtungstage notiert. Die Namen der Jahreszeiten fehlen.
+
+| Tag | Tageslänge | Schatten eines gleich hohen Stabes am Mittag | Beobachtung an Laubbäumen |
+|:--:|:--:|:--:|:--|
+| A | etwa 8 Stunden | sehr lang | Äste sind kahl |
+| B | etwa 13 Stunden | mittellang | Knospen öffnen sich |
+| C | etwa 16 Stunden | sehr kurz | Bäume tragen dichtes grünes Laub |
+| D | etwa 10 Stunden | lang | Blätter verfärben sich und fallen ab |
+
+__$a)\;\;$__ **Bestimme** für jeden Beobachtungstag die Jahreszeit.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+| Tag | Jahreszeit |
+|:--:|:--:|
+| A | [[ Winter ]] |
+| B | [[ Frühling ]] |
+| C | [[ Sommer ]] |
+| D | [[ Herbst ]] |
+
+@ADetails(BE=4;Jahreszeiten aus Beobachtungen bestimmen)
+
+
+__$b)\;\;$__ **Leite** aus der Tabelle weitere Zusammenhänge **ab**.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+| Frage | Antwort |
+|:--|:--:|
+| An welchem Tag steht die Sonne mittags vermutlich am höchsten? | [->[(C)|B|D|stärker|schwächer]] |
+| An welchem Tag steht die Sonne mittags vermutlich am niedrigsten? | [->[(A)]] |
+| Je höher die Sonne steht, desto ... ist der Schatten. | [->[(kürzer)]] |
+| Vom Frühling zum Sommer werden die Tage zunächst ... | [->[(länger)]] |
+
+@ADetails(BE=4;Sonnenstand und Tageslänge)
 
 
 
+## Wind
 
-Entweder [[  Nord  ]] oder [[  Süd  ]]?
-<script>
-@input.map(s => s.toLowerCase()).sort().join() === "Nord,Süd"
-</script>
+Auf einem Versuchstisch werden eine dunkle Fläche und eine helle Fläche von einer Lampe bestrahlt. Die dunkle Fläche erwärmt sich schneller. Ein leichter Papierstreifen zeigt eine Luftbewegung zur wärmeren Fläche.
+
+__$a)\;\;$__ **Sortiere** die Vorgänge zu einer Ursache-Wirkungs-Kette.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true" -->
+[->[(Flächen werden von der Sonne unterschiedlich stark erwärmt.)]] [->[(Die Luft über der wärmeren Fläche erwärmt sich.)]] [->[(Die wärmere Luft dehnt sich aus und steigt auf.)]] [->[(Kühlere Luft strömt zur wärmeren Fläche nach.)]] [->[(Die strömende Luft nehmen wir als Wind wahr.)]]
+
+@ADetails(BE=5;Windentstehung)
 
 
+__$b)\;\;$__ **Übertrage** die Erklärung auf die Küste. 
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+| Beobachtung | Woher strömt die kühlere Luft? |
+|:--|:--:|
+| Am Mittag ist das Land deutlich wärmer als das Meer. | vom [[ Meer ]] |
+| In der Nacht ist das Meer wärmer als das stark abgekühlte Land. | vom [[ Land ]] |
+| Rauch zieht genau nach Osten. | aus dem [[ Westen ]] |
+
+@ADetails(BE=3;Windrichtung erschließen)
 
 
+## Wettervorhersage
+
+Die Klasse plant verschiedene Untersuchungen im Freien. Sie hat folgende Vorhersage:
+
+<!--  data-type="none" data-sortable="false" -->
+| Tag | Temperatur | Niederschlag | Wind | Gewittergefahr |
+|:--:|:--:|:--:|:--:|:--:|
+| Montag | $22\,^{\circ}\text{C}$ | $0\,\text{mm}$ | $5\,\dfrac{\text{km}}{\text{h}}$ | nein |
+| Dienstag | $17\,^{\circ}\text{C}$ | $0\,\text{mm}$ | $18\,\dfrac{\text{km}}{\text{h}}$ | nein |
+| Mittwoch | $13\,^{\circ}\text{C}$ | $12\,\text{mm}$ | $10\,\dfrac{\text{km}}{\text{h}}$ | nein |
+| Donnerstag | $25\,^{\circ}\text{C}$ | $4\,\text{mm}$ | Böen bis $45\,\dfrac{\text{km}}{\text{h}}$ | ja |
+
+__$a)\;\;$__ **Ordne** jedem Vorhaben den geeignetsten Tag **zu**.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"-->
+- [(Montag)   (Dienstag)   (Mittwoch)   (Donnerstag)]
+- [    (X)          ( )            ( )             ( )        ] Wolken im Freien zeichnen, ohne dass Papier vom Wind verweht oder nass wird
+- [    ( )          (X)            ( )             ( )        ] einen Drachen bei mäßigem Wind steigen lassen
+- [    ( )          ( )            (X)             ( )        ] mit einem Regenmesser eine größere Niederschlagsmenge untersuchen
+- [    ( )          ( )            ( )             (X)        ] den geplanten Ausflug wegen Gewitter und starker Böen absagen
+
+@ADetails(BE=2;Wettervorhersage anwenden)
 
 
-## Jahreszeiten und Wind
+__$b)\;\;$__ **Berechne** oder **bestimme** mithilfe der Vorhersage.
 
-Test 1:
-@Kachelfolge(`[->[(rot)]][->[(blau)]][->[(grün)|Haus]]`)
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"-->
+| Frage | Antwort |
+|:--|:--:|
+| Unterschied zwischen höchster und niedrigster Temperatur | [[ 12 ]] $\,^{\circ}\text{C}$ |
+| vorhergesagte Niederschlagsmenge aller vier Tage zusammen | [[ 16 ]] $\,\text{mm}$ |
+| Tag mit der höchsten vorhergesagten Windgeschwindigkeit | [[ Donnerstag ]] |
 
-Test 2:
-@KachelfolgeN(`[->[(Karmesin)]][->[(Scharlach)]][->[(Rubinrot)|Kobalt]]`)
+@ADetails(BE=3;Wettervorhersage auswerten)
+
 
 
 
 ## Straßenverkehr
 
+__Aufgabe 1:__ Verkehrszeichen als Hinweise
+
+
+
+**Untersuche** die Zeichen und **trage** jeweils den passenden Buchstaben A bis F **ein**.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"  data-randomize="true"  -->
+| Verkehrssituation | Zeichen |
+|:--|:--:|
+| Ich muss anderen die Vorfahrt gewähren, aber nur anhalten, wenn es nötig ist. | [->[ ![](pic/SchildA.png) ]] |
+| Ich muss an der Haltlinie vollständig anhalten und danach Vorfahrt gewähren. | [->[ ![](pic/SchildB.png) ]] |
+| Hier befindet sich ein besonders gekennzeichneter Übergang für Fußgängerinnen und Fußgänger. | [->[ ![](pic/SchildC.png) ]] |
+| Hier beginnt ein beschilderter Weg für Fahrräder. | [->[ ![](pic/SchildD.png) ]] |
+| Hier muss ich besonders mit Kindern auf oder neben der Fahrbahn rechnen. | [->[ ![](pic/SchildE.png) ]] |
+| In diese Straße darf ich aus dieser Richtung nicht hineinfahren. | [->[ ![](pic/SchildF.png) ]] |
+
+@ADetails(BE=6;Verkehrszeichen anwenden)
+
+
+---
+
+---
+
+
+
+__Aufgabe 2:__  **Sortiere** die Schritte für ein sicheres Überqueren.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true" -->
+[->[(Am Fahrbahnrand stehen bleiben.)]] [->[(Nach links, rechts und erneut nach links schauen.)]] [->[(Warten, bis herannahende Fahrzeuge erkennbar anhalten.)]] [->[(Zügig überqueren und den Verkehr weiter beobachten.)]]
+
+@ADetails(BE=4;Fahrbahn sicher überqueren)
+
+
+
+
+---
+
+---
+
+
+
+__Aufgabe 3:__  Bei einem Versuch wurden diese Anhaltewege gemessen:
+
+<!--  data-type="none" data-sortable="false"  -->
+| Geschwindigkeit | trockene Fahrbahn | nasse Fahrbahn |
+|:--:|:--:|:--:|
+| $10\,\dfrac{\text{km}}{\text{h}}$ | $3\,\text{m}$ | $5\,\text{m}$ |
+| $20\,\dfrac{\text{km}}{\text{h}}$ | $8\,\text{m}$ | $13\,\text{m}$ |
+| $30\,\dfrac{\text{km}}{\text{h}}$ | $14\,\text{m}$ | $24\,\text{m}$ |
+
+__$a)\;\;$__ **Entscheide** mithilfe der Tabelle, ob das Fahrzeug vor dem Hindernis zum Stehen kommt.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+- [(kommt vorher zum Stehen)   (kommt nicht vorher zum Stehen)]
+- [             (X)                          ( )                ] $10\,\dfrac{\text{km}}{\text{h}}$, trocken, Hindernis in $4\,\text{m}$ Entfernung
+- [             ( )                          (X)                ] $20\,\dfrac{\text{km}}{\text{h}}$, nass, Hindernis in $12\,\text{m}$ Entfernung
+- [             (X)                          ( )                ] $30\,\dfrac{\text{km}}{\text{h}}$, trocken, Hindernis in $18\,\text{m}$ Entfernung
+- [             ( )                          (X)                ] $30\,\dfrac{\text{km}}{\text{h}}$, nass, Hindernis in $18\,\text{m}$ Entfernung
+
+@ADetails(BE=4;Anhalteweg beurteilen)
+
+
+__$b)\;\;$__ **Werte** die Messwerte weiter **aus**. Nutze Zahlen oder die Wörter *länger* und *kürzer*.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"  -->
+| Frage | Antwort |
+|:--|:--:|
+| Auf nasser Fahrbahn ist der Anhalteweg ... als auf trockener. | [[ länger ]] |
+| Um wie viel Meter verlängert Nässe den Anhalteweg bei $30\,\dfrac{\text{km}}{\text{h}}$? | [[ 10 ]] $\,\text{m}$ |
+| Welche höchste Geschwindigkeit aus der Tabelle erlaubt auf nasser Fahrbahn einen Anhalteweg von höchstens $12\,\text{m}$? | [[ 10 ]] $\,\dfrac{\text{km}}{\text{h}}$ |
+| Bei höherer Geschwindigkeit wird der Anhalteweg ... | [[ länger ]] |
+
+@ADetails(BE=4;Anhaltewege auswerten)
 
 
 
 
 
-## Regionale Karte
+
+
+
+## Gesellschaftliches Miteinander
+
+
+__Aufgabe 1:__ Eine Klasse sammelt Vorschläge für neue Klassenregeln.
+
+| Regel | Vorschlag |
+|:--:|:--|
+| A | Im Gespräch sorgt ein Redestein dafür, dass immer nur eine Person spricht. |
+| B | Nur Kinder mit sehr guten Noten dürfen über Klassenfeste mitentscheiden. |
+| C | Niemand darf jemals einen Fehler machen. |
+| D | Ausgeliehene Materialien werden nach der Benutzung zurückgelegt. |
+
+__$a)\;\;$__ **Beurteile** jeden Vorschlag nach seinem wichtigsten Merkmal.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false" -->
+- [(fair und umsetzbar)   (umsetzbar, aber unfair)   (nicht umsetzbar)]
+- [          (X)                    ( )                     ( )       ] Regel A
+- [          ( )                    (X)                     ( )       ] Regel B
+- [          ( )                    ( )                     (X)       ] Regel C
+- [          (X)                    ( )                     ( )       ] Regel D
+
+@ADetails(BE=4;Regeln beurteilen)
+
+
+__$b)\;\;$__ Die Klasse überarbeitet Regel B. **Vervollständige** die Sätze.
+
+<!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"  data-randomize="true" -->
+[->[ (Alle)|Keine|Ausgewählte ]] Kinder dürfen [->[ (Vorschläge)|Regeln|Gesetze ]] machen. Bevor abgestimmt wird, werden die unterschiedlichen Meinungen [->[ (angehört) ]]. Danach entscheidet [->[ (die Mehrheit)|der Klassensprecher|die Klassensprecherin|die laute Gruppe|die coole Gruppe ]] was gilt.
+
+@ADetails(BE=4;Faire Regeln formulieren)
+
+
+
+---
+
+---
 
 
 
 
 
+Aufgabe 2: Entscheidung im Klassenrat
 
-## Geschaftliches miteinander
+Der Klassenrat entscheidet, wofür ein gemeinsamer Geldbetrag verwendet wird. Jedes Kind hat genau eine Stimme.
 
-Multiplechoice
+| Vorschlag | Stimmen |
+|:--|:--:|
+| neue Bücher für die Leseecke | 7 |
+| Spielekiste für die Pause | 12 |
+| Pflanzen für den Klassenraum | 5 |
+
+**Werte** die Abstimmung **aus**.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"  data-randomize="true" -->
+| Frage | Antwort |
+|:--|:--:|
+| Wie viele Kinder haben abgestimmt? | [[ 24 ]] |
+| Wie viele Stimmen mehr erhielt die Spielekiste als die Leseecke? | [[ 5 ]] |
+| Wie viele Kinder stimmten für einen anderen Vorschlag als die Spielekiste? | [[ 12 ]] |
+
+@ADetails(BE=3;Abstimmung auswerten)
+
+
+
+---
+
+---
+
+
+__Aufgabe 3:__ **Ordne** jeder Situation das Kinderrecht **zu**, das besonders betroffen ist. 
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"  data-randomize="true"  -->
+| Situation | betroffenes Kinderrecht |
+|:--|:--:|
+| Ein Kind darf nicht zur Schule gehen, weil es stattdessen arbeiten soll. | [->[ (Bildung) ]] |
+| Ein krankes Kind erhält keine notwendige medizinische Hilfe. | [->[ (Gesundheit) ]] |
+| Ein privates Foto eines Kindes wird ohne Zustimmung veröffentlicht. | [->[ (Privatsphäre) ]] |
+| Bei der Planung des Spielplatzes werden Kinder überhaupt nicht angehört. | [->[ (Mitbestimmung) ]] |
+| Ein Kind wird wegen seiner Herkunft oder Religion ausgeschlossen. | [->[ (Gleichbehandlung) ]] |
+
+@ADetails(BE=5;Kinderrechte anwenden)
 
 
 
