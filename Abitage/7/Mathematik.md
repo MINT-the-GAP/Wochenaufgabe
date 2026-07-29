@@ -5,27 +5,28 @@ language: de
 
 
 
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-DynFlex/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-timer/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-board-mode/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-marker/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-annotation/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-canvas-ocr/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-orthography/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Mathe/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-kachel/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-mathpath/refs/heads/master/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-llm/refs/heads/main/README.md
+
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 import: https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
 
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.md
 
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-timer/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-navigation/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-DynFlex/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-marker/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-orthography/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-board-mode/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
 
-
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-annotation/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-canvas-ocr/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Mathe/main/README.md
-
-
-
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/imports/KoordREADME.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/imports/FreezeREADME.md
 
 
 
