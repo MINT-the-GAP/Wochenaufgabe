@@ -26,6 +26,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-loot/main/README.md
 
 
 tags: Wochenaufgabe, Sachunterricht, Klasse 5, Grundschulwiederholung
@@ -43,12 +44,69 @@ author: Martin Lommatzsch
 
 # LiaScript-Aufgaben für das "Digitale Lernen" zum Beginn der 5. Klasse - Sachunterricht
 
+@Ressourcen(50, 50, 150)
+@achievements
+@Highscore(10000, 100, 250, 20, 500)
+
+@Schatztruhe(annotation; anker)
+@Diamanttruhe(boardmode)
+@Energiekiste(textmarker; anker; zauberstaub)
+
 
 > [!NOTE]
 > Willkommen in der 5. Klasse! In dieser Wochenaufgabe wiederholst du wichtige Grundlagen aus der Grundschule und lernst typische Aufgabenformen für den Unterricht in verschiedenen Fächern kennen. Arbeite sorgfältig und nutze für Notizen ein Blatt Papier. Kontrolliere deine Eingaben, bevor du sie überprüfst. Viel Erfolg! <p align="right">– Martin Lommatzsch</p>
 
 > [!IMPORTANT]
 > <h3>Diese Wochenaufgabe kann abgegeben werden, richte dich nach deiner Lehrkraft. Am Ende des Kurses kannst du den Kurs einfrieren. Dabei entsteht ein Link, den du über LernSax an deine Lehrerin oder deinen Lehrer sendest.</h3>
+
+
+---
+
+---
+
+
+
+
+
+> [!CAUTION]
+> <h2>Gamifizierung</h2>
+
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+Du hast Ressourcen:
+- `Energie` um den Prüfenbutton benutzen zu können
+- `Münzen` um den Hinweisbutton benutzen zu können
+- `Diamanten` um den Auflösenbutton benutzen zu können
+
+Außerdem kannst du `Truhen` finden mit den Ressourcen. Machne Inhalte sind aber verschlossen und du musst zuvor den `Schlüssel` finden. Andere Inhalte sind `versteckt`, dafür brauchst du die Lupe. Mache versteckte Inhalte kannst du schon erahnen anderen nicht. Und mit den Portalen kannst du in andere Folien wechseln.
+
+Schau dich gut um, denn überall könnte etwas versteckt sein. Du bekommst Erfolge, wenn du besonders viel gefunden oder die Aufgaben besonders gut gemacht hast.
+
+</div>
+
+<div class="flex-child">
+
+<center>
+<div style="display: block; max-width:500px; margin-block-end: -2rem; outline: 5px solid rgb(var(--color-highlight)); outline-offset: -3px; border-radius: 8px; display: inline-block;">
+
+<!-- style="display: block; margin-block-end: -2rem; border: 0px solid rgb(var(--color-highlight)); border-radius: 8px; max-width=500px" -->
+![Inhaltsverzeichnis](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/game.gif)
+
+</div>
+</center>
+$\,$
+
+
+
+
+</div>
+
+</section>
+
+
 
 
 ---
@@ -478,6 +536,10 @@ Kastanie: [->[(![](pic/Kastanie.png))]] $\;\quad\;$
 Rotbuche: [->[(![](pic/Rotbuche.png))]] $\;\quad\;$
 Silberpappel: [->[(![](pic/Silberpappel.png))]] $\;\quad\;$
 Vogelkirsche: [->[(![](pic/Vogelkirsche.png))]]</div> 
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 
 
@@ -507,6 +569,10 @@ __Aufgabe 1:__ Mias Lampe leuchtet nicht. Batterie, Lampe, Schalter und Kabel si
 | War die Lampe die Ursache? Antworte mit *ja* oder *nein*. | [[ nein ]] |
 | Ergänze mit einem Begriff aus Versuch 3: Locker war der ... | [[ Kabelkontakt ]] |
 | War der Stromkreis vor dem Festdrücken *offen* oder *geschlossen*? | [[ offen ]] |
+*****************
+@Lupe
+@Schluessel(gelb)
+*****************
 
 @ADetails(BE=4;Fehlersuche im Stromkreis)
 
@@ -520,6 +586,10 @@ Eine Gruppe prüft drei unbekannte Gegenstände in einem einfachen Stromkreis. V
 
 <!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true" -->
 [->[(Stromkreis mit dem bekannten Leiter prüfen)]] [->[(unbekannten Gegenstand einsetzen und beobachten)]] [->[(Stromkreis erneut mit dem bekannten Leiter prüfen)]] [->[(Beobachtungen vergleichen und Schlussfolgerung ziehen)]]
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=2;Kontrollversuch)
 
@@ -542,6 +612,11 @@ __$a)\;\;$__ **Erschließe** die fehlenden Pole. Trage *Nord* oder *Süd* ein.
 | A | Nord | Süd |
 | B | [[ Süd ]] | [[ Nord ]] |
 | C | [[ Süd ]] | [[ Nord ]] |
+*****************
+@Schluessel(blau; unsichtbar)
+@Einwegportal(7)
+@Schloss(portal, gelb)
+*****************
 
 @ADetails(BE=2;Magnetpole erschließen)
 
@@ -553,6 +628,10 @@ __$b)\;\;$__ **Sage** die Magnetwirkung **voraus**. Nutze *anziehen* oder *absto
 |:--|:--:|
 | rechter Pol von B trifft auf linken Pol von C | [[ anziehen ]] |
 | rechter Pol von B trifft auf rechten Pol von C | [[ abstoßen ]] |
+*****************
+@Energiekiste
+@Schluessel(lila; zauberstaub)
+*****************
 
 @ADetails(BE=2;Magnetwirkung vorhersagen)
 
@@ -567,6 +646,10 @@ __$a)\;\;$__ **Sortiere** die Schritte eines fairen und zuverlässigen Vergleich
 
 <!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true"  data-type="none" data-sortable="false"  -->
 [->[(gleichartige Büroklammern bereitlegen)]] [->[(alle drei Magnete auf dieselbe Weise einmal testen)]] [->[(jede Messung mehrfach wiederholen)]] [->[(Messwerte vergleichen und Auffälligkeiten prüfen)]]
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=2;Magnet-Experiment planen)
 
@@ -588,6 +671,11 @@ __$b)\;\;$__ **Werte** die Messreihe **aus**. Nutze nur die Buchstaben *A*, *B*,
 | Bei welchem Magneten sollte Noah weitere Messungen durchführen? | [[ B ]] |
 | Welcher Magnet lieferte dreimal genau denselben Wert? | [[ C ]] |
 | Kann Noah schon sicher entscheiden, ob A oder B stärker ist? | [[ nein ]] |
+*****************
+@Diamanttruhe(unsichtbar)
+@Portal(2; hinundher)
+@Schloss(portal, lila)
+*****************
 
 @ADetails(BE=4;Messwerte auswerten)
 
@@ -600,6 +688,10 @@ __$a)\;\;$__ **Sortiere** die Beobachtungen und Erklärungen zu einer sinnvollen
 
 <!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true" -->
 [->[(Die Luft enthält unsichtbaren Wasserdampf.)]] [->[(Die Luft an der kalten Flasche kühlt sich ab.)]] [->[(Wasserdampf kondensiert zu flüssigem Wasser.)]] [->[(Außen an der Flasche werden Wassertropfen sichtbar.)]]
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=4;Kondensation erklären)
 
@@ -613,6 +705,11 @@ __$b)\;\;$__ **Benenne** die Zustandsänderung.
 | Eine Pfütze wird an einem warmen Tag immer kleiner. | [->[ (Verdampfen) ]] |
 | Ein Eiswürfel wird zu flüssigem Wasser. | [->[ (Schmelzen) ]] |
 | Wasser wird im Gefrierfach zu Eis. | [->[ (Gefrieren) ]] |
+*****************
+@Schluessel(gruen; anker; 15s)
+@Einbahnportal(10)
+@Schloss(portal, blau)
+*****************
 
 
 @ADetails(BE=2;Zustandsänderungen anwenden)
@@ -642,6 +739,11 @@ __$a)\;\;$__ **Bestimme** für jeden Beobachtungstag die Jahreszeit.
 | B | [[ Frühling ]] |
 | C | [[ Sommer ]] |
 | D | [[ Herbst ]] |
+*****************
+@Schatztruhe(zauberstaub)
+@Portal(9)
+@Schloss(portal, gruen)
+*****************
 
 @ADetails(BE=4;Jahreszeiten aus Beobachtungen bestimmen)
 
@@ -655,6 +757,10 @@ __$b)\;\;$__ **Leite** aus der Tabelle weitere Zusammenhänge **ab**.
 | An welchem Tag steht die Sonne mittags vermutlich am niedrigsten? | [->[(A)]] |
 | Je höher die Sonne steht, desto ... ist der Schatten. | [->[(kürzer)]] |
 | Vom Frühling zum Sommer werden die Tage zunächst ... | [->[(länger)]] |
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=4;Sonnenstand und Tageslänge)
 
@@ -668,6 +774,10 @@ __$a)\;\;$__ **Sortiere** die Vorgänge zu einer Ursache-Wirkungs-Kette.
 
 <!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true" -->
 [->[(Flächen werden von der Sonne unterschiedlich stark erwärmt.)]] [->[(Die Luft über der wärmeren Fläche erwärmt sich.)]] [->[(Die wärmere Luft dehnt sich aus und steigt auf.)]] [->[(Kühlere Luft strömt zur wärmeren Fläche nach.)]] [->[(Die strömende Luft nehmen wir als Wind wahr.)]]
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=5;Windentstehung)
 
@@ -680,6 +790,9 @@ __$b)\;\;$__ **Übertrage** die Erklärung auf die Küste.
 | Am Mittag ist das Land deutlich wärmer als das Meer. | vom [[ Meer ]] |
 | In der Nacht ist das Meer wärmer als das stark abgekühlte Land. | vom [[ Land ]] |
 | Rauch zieht genau nach Osten. | aus dem [[ Westen ]] |
+*****************
+@Energiekiste(anker; 10s)
+*****************
 
 @ADetails(BE=3;Windrichtung erschließen)
 
@@ -704,6 +817,10 @@ __$a)\;\;$__ **Ordne** jedem Vorhaben den geeignetsten Tag **zu**.
 - [    ( )          (X)            ( )             ( )        ] einen Drachen bei mäßigem Wind steigen lassen
 - [    ( )          ( )            (X)             ( )        ] mit einem Regenmesser eine größere Niederschlagsmenge untersuchen
 - [    ( )          ( )            ( )             (X)        ] den geplanten Ausflug wegen Gewitter und starker Böen absagen
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=2;Wettervorhersage anwenden)
 
@@ -716,6 +833,9 @@ __$b)\;\;$__ **Berechne** oder **bestimme** mithilfe der Vorhersage.
 | Unterschied zwischen höchster und niedrigster Temperatur | [[ 12 ]] $\,^{\circ}\text{C}$ |
 | vorhergesagte Niederschlagsmenge aller vier Tage zusammen | [[ 16 ]] $\,\text{mm}$ |
 | Tag mit der höchsten vorhergesagten Windgeschwindigkeit | [[ Donnerstag ]] |
+*****************
+@Diamanttruhe
+*****************
 
 @ADetails(BE=3;Wettervorhersage auswerten)
 
@@ -739,6 +859,10 @@ __Aufgabe 1:__ Verkehrszeichen als Hinweise
 | Hier beginnt ein beschilderter Weg für Fahrräder. | [->[ ![](pic/SchildD.png) ]] |
 | Hier muss ich besonders mit Kindern auf oder neben der Fahrbahn rechnen. | [->[ ![](pic/SchildE.png) ]] |
 | In diese Straße darf ich aus dieser Richtung nicht hineinfahren. | [->[ ![](pic/SchildF.png) ]] |
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=6;Verkehrszeichen anwenden)
 
@@ -753,6 +877,10 @@ __Aufgabe 2:__  **Sortiere** die Schritte für ein sicheres Überqueren.
 
 <!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-randomize="true" -->
 [->[(Am Fahrbahnrand stehen bleiben.)]] [->[(Nach links, rechts und erneut nach links schauen.)]] [->[(Warten, bis herannahende Fahrzeuge erkennbar anhalten.)]] [->[(Zügig überqueren und den Verkehr weiter beobachten.)]]
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=4;Fahrbahn sicher überqueren)
 
@@ -782,6 +910,10 @@ __$a)\;\;$__ **Entscheide** mithilfe der Tabelle, ob das Fahrzeug vor dem Hinder
 - [             ( )                          (X)                ] $20\,\dfrac{\text{km}}{\text{h}}$, nass, Hindernis in $12\,\text{m}$ Entfernung
 - [             (X)                          ( )                ] $30\,\dfrac{\text{km}}{\text{h}}$, trocken, Hindernis in $18\,\text{m}$ Entfernung
 - [             ( )                          (X)                ] $30\,\dfrac{\text{km}}{\text{h}}$, nass, Hindernis in $18\,\text{m}$ Entfernung
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=4;Anhalteweg beurteilen)
 
@@ -795,6 +927,9 @@ __$b)\;\;$__ **Werte** die Messwerte weiter **aus**. Nutze Zahlen oder die Wört
 | Um wie viel Meter verlängert Nässe den Anhalteweg bei $30\,\dfrac{\text{km}}{\text{h}}$? | [[ 10 ]] $\,\text{m}$ |
 | Welche höchste Geschwindigkeit aus der Tabelle erlaubt auf nasser Fahrbahn einen Anhalteweg von höchstens $12\,\text{m}$? | [[ 10 ]] $\,\dfrac{\text{km}}{\text{h}}$ |
 | Bei höherer Geschwindigkeit wird der Anhalteweg ... | [[ länger ]] |
+*****************
+@Schatztruhe
+*****************
 
 @ADetails(BE=4;Anhaltewege auswerten)
 
@@ -825,6 +960,10 @@ __$a)\;\;$__ **Beurteile** jeden Vorschlag nach seinem wichtigsten Merkmal.
 - [          ( )                    (X)                     ( )       ] Regel B
 - [          ( )                    ( )                     (X)       ] Regel C
 - [          (X)                    ( )                     ( )       ] Regel D
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=4;Regeln beurteilen)
 
@@ -833,6 +972,10 @@ __$b)\;\;$__ Die Klasse überarbeitet Regel B. **Vervollständige** die Sätze.
 
 <!-- data-solution-timer="240s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true"  data-type="none" data-sortable="false"  data-randomize="true" -->
 [->[ (Alle)|Keine|Ausgewählte ]] Kinder dürfen [->[ (Vorschläge)|Regeln|Gesetze ]] machen. Bevor abgestimmt wird, werden die unterschiedlichen Meinungen [->[ (angehört) ]]. Danach entscheidet [->[ (die Mehrheit)|der Klassensprecher|die Klassensprecherin|die laute Gruppe|die coole Gruppe ]] was gilt.
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=4;Faire Regeln formulieren)
 
@@ -864,6 +1007,10 @@ Der Klassenrat entscheidet, wofür ein gemeinsamer Geldbetrag verwendet wird. Je
 | Wie viele Kinder haben abgestimmt? | [[ 24 ]] |
 | Wie viele Stimmen mehr erhielt die Spielekiste als die Leseecke? | [[ 5 ]] |
 | Wie viele Kinder stimmten für einen anderen Vorschlag als die Spielekiste? | [[ 12 ]] |
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=3;Abstimmung auswerten)
 
@@ -884,6 +1031,10 @@ __Aufgabe 3:__ **Ordne** jeder Situation das Kinderrecht **zu**, das besonders b
 | Ein privates Foto eines Kindes wird ohne Zustimmung veröffentlicht. | [->[ (Privatsphäre) ]] |
 | Bei der Planung des Spielplatzes werden Kinder überhaupt nicht angehört. | [->[ (Mitbestimmung) ]] |
 | Ein Kind wird wegen seiner Herkunft oder Religion ausgeschlossen. | [->[ (Gleichbehandlung) ]] |
+*****************
+@Energiekiste
+@Energiekiste
+*****************
 
 @ADetails(BE=5;Kinderrechte anwenden)
 
