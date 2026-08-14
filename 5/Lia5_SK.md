@@ -14,6 +14,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-canvas-ocr/refs/heads
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-orthography/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Mathe/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-kachel/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-navigation/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-mathpath/refs/heads/master/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-llm/refs/heads/main/README.md
@@ -119,7 +120,7 @@ $\,$
 
 <div class="flex-child">
 
-Du kannst dir die Arbeitsbreite von einigen Aufgaben anpassen. Das erkannst du an der verschiebbaren Linie rechts: 
+Du kannst dir die Arbeitsbreite von einigen Aufgaben anpassen. Das erkennst du an der verschiebbaren Linie rechts: 
 
 Viele der Bediehnungsoptionen sind in kleinen gif-Animationen dargestellt.
 

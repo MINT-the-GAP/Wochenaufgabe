@@ -24,9 +24,68 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
 
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-loot/main/README.md
 
 author: Martin Lommatzsch
 -->
+
+# Minimalbeispiel
+
+
+@Ressourcen(0,0,60)
+@achievements
+@Highscore(10000, 100, 250, 75, 100)
+
+$\,$ 
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+ 
+$\,$
+
+
+<center>
+
+@Schaufel @Giesskanne
+@Puzzleteil(blau; 1) 
+@Puzzleteil(blau; 2)
+
+</center>
+
+@Puzzletor(blau; [[2;1]]; anker)
+@Erdhaufen
+@Schatztruhe
+@EndeErdhaufen
+
+@Pflanze
+@Schatztruhe
+@EndePflanze
+
+
+
+
+
+
+
 
 # Minimalbeispiel
 
