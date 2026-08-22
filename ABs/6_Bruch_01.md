@@ -307,7 +307,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
 
 
 script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js

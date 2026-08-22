@@ -26,7 +26,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-loot/main/README.md
 
 
@@ -547,6 +546,8 @@ Vogelkirsche: [->[(![](pic/Vogelkirsche.png))]]</div>
 @ADetails(BE=4;Blättern von Bäumen)
 
 
+<small> <small> <small><small> Quelle: Mit einem LLM generiert. </small></small></small></small>
+
 
 
 ## Elektrizität
@@ -867,6 +868,10 @@ __Aufgabe 1:__ Verkehrszeichen als Hinweise
 
 @ADetails(BE=6;Verkehrszeichen anwenden)
 
+
+
+
+<small> <small> <small><small> Quelle: Mit einem LLM generiert. </small></small></small></small>
 
 ---
 

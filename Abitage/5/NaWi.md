@@ -26,7 +26,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
 
 
 author: Martin Lommatzsch
@@ -300,6 +299,9 @@ __$e)\;\;$__
 @ADetails(BE=5;Kriechtiere)
 
 
+
+
+<small> <small> <small><small> Quelle: Mit einem LLM generiert. </small></small></small></small>
 
 
 ---

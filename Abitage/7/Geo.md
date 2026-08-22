@@ -26,7 +26,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
 
 
 author: Martin Lommatzsch
@@ -243,6 +242,9 @@ __$h)\;\;$__
 
 
 
+
+
+<small> <small> <small><small> Quelle: wikimedia </small></small></small></small>
 
 
 
@@ -471,6 +473,9 @@ __$e)\;\;$__ **Gib** die Niederschlagsdifferenz zwischen August und April **an**
 
 
 
+<small> <small> <small><small> Quelle: Mit einem LLM generiert. </small></small></small></small>
+
+
 
 ## Aufbau der Erde
 
@@ -525,6 +530,9 @@ __$e)\;\;$__ **Gib** die Niederschlagsdifferenz zwischen August und April **an**
 @ADetails(17=BE;Erdaufbau)
 
 
+
+
+<small> <small> <small><small> Quelle: Mit einem LLM generiert. </small></small></small></small>
 
 
 
