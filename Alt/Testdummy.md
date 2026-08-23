@@ -77,6 +77,17 @@ eingabe: <script input="number" input-always-active modify="false" value="0" def
 
 
 
+# DGS
+
+
+
+
+@Koordinatensystem(`xmin=-1;xmax=10;ymin=-1;ymax=9;width=700;id=L605V1a;1;1;1`)
+@AchsenBeschriftung(`id=L605V1a;xlabel=$x$;ylabel=$y$`)
+
+@DGS(`L605V1a`)
+
+
 
 
 
