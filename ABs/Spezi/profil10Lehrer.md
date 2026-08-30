@@ -265,6 +265,31 @@ __Aufgabe 2:__ **Interpretiere** die Gleichung $F = \dfrac{p}{t}$ und entwickle 
 
 
 
+---
+
+---
+
+
+{{4}}
+__Aufgabe 2:__ **Beweise** durch eine direkte Herleitung, dass jedes Objekt mit der gleichen Geschwindigkeit auf den Boden aufschlägt, wenn es aus der gleichen Höhe fallen gelassen wird und wenn die Reibung vernachlässigt wird. \
+
+
+
+{{5}}
+> $$
+ \begin{align*} 
+ \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text {nachher}}  \\
+ E_{pot} & = E'_{kin}   \\
+ mgh & = \dfrac{1}{2}mv^2  \qquad \mid :m \\
+ gh & = \dfrac{1}{2}v^2 \qquad \mid \cdot 2  \\
+ v^2 & = 2gh \\
+ \Rightarrow \;\; v & = \sqrt{2gh}
+ \end{align*}
+ $$
+
+
+
+
 
 
 ## Superposition

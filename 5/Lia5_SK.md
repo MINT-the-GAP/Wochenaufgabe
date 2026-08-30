@@ -121,7 +121,7 @@ $\,$
 
 Du kannst dir die Arbeitsbreite von einigen Aufgaben anpassen. Das erkennst du an der verschiebbaren Linie rechts: 
 
-Viele der Bediehnungsoptionen sind in kleinen gif-Animationen dargestellt.
+Viele der Bedienungsoptionen sind in kleinen gif-Animationen dargestellt.
 
 
 </div>
@@ -153,7 +153,7 @@ $\,$
 
 > [!CAUTION]
 > <h2>Hier hast du nochmal eine Übersicht über die Menüleiste:</h2>
-> <center> ![Bediehnungsübersicht](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/tutorial.png) </center>
+> <center> ![Bedienungsübersicht](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/pic/tutorial.png) </center>
 $\,$
 
 
@@ -1051,7 +1051,7 @@ __Aufgabe 3:__ **Ordne** jeder Situation das Kinderrecht **zu**, das besonders b
 ## Abschluss: Selbsteinschätzung
 
 
-Wie sicher fühlst du dich bei der Bediehnung von LiaScript nach diesen Wochenaufgaben?
+Wie sicher fühlst du dich bei der Bedienung von LiaScript nach diesen Wochenaufgaben?
 
 [[ sehr sicher | meistens sicher | teilweise sicher | noch unsicher ]]
 

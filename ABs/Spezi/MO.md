@@ -185,6 +185,96 @@ Also ist
 $$
 A_{\mathrm{innen}}=\frac{1}{2}A_{\mathrm{außen}}.
 $$
+<!-- lia-llm:alternative -->
+Die Seitenlänge des äußeren Quadrats sei $a$. Der Durchmesser des einbeschriebenen Kreises ist dann ebenfalls $a$. Da das innere Quadrat maximal groß ist, liegen seine vier Eckpunkte auf dem Kreis. Seine Diagonale stimmt deshalb mit einem Kreisdurchmesser überein und hat die Länge $a$.
+
+Für die Seitenlänge $b$ des inneren Quadrats gilt nach dem Satz des Pythagoras
+$$
+b^2+b^2=a^2.
+$$
+Damit folgt $2b^2=a^2$ und somit
+$$
+A_{\mathrm{innen}}=b^2=\frac{a^2}{2}.
+$$
+Wegen $A_{\mathrm{außen}}=a^2$ gilt daher
+$$
+A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}.
+$$
+<!-- lia-llm:alternative -->
+Es sei $a$ die Seitenlänge des äußeren Quadrats und $b$ die Seitenlänge des inneren Quadrats. Der maximal große Kreis besitzt den Durchmesser $a$. Zugleich ist die Diagonale des einbeschriebenen inneren Quadrats ein Durchmesser dieses Kreises. Daher gilt
+$$
+b\sqrt2=a.
+$$
+Durch Quadrieren ergibt sich $2b^2=a^2$ und damit $b^2=\frac{a^2}{2}$. Also sind
+$$
+A_{\mathrm{innen}}=b^2=\frac{a^2}{2}
+\quad\text{und}\quad
+A_{\mathrm{außen}}=a^2.
+$$
+Folglich ist der Flächeninhalt des inneren Quadrats halb so groß wie der des äußeren Quadrats.
+<!-- lia-llm:alternative -->
+Der Mittelpunkt beider Quadrate und des Kreises werde als Ursprung eines Koordinatensystems gewählt. Hat das äußere Quadrat die Seitenlänge $a$, so beträgt der Kreisradius $\frac a2$. Die Eckpunkte des inneren Quadrats können wegen der Drehsymmetrie bei
+$$
+\left(\frac a2,0\right),\quad
+\left(0,\frac a2\right),\quad
+\left(-\frac a2,0\right),\quad
+\left(0,-\frac a2\right)
+$$
+angesetzt werden. Für eine Seite $b$ des inneren Quadrats gilt dann
+$$
+b^2=\left(\frac a2\right)^2+\left(\frac a2\right)^2=\frac{a^2}{2}.
+$$
+Somit ist $A_{\mathrm{innen}}=b^2=\frac{a^2}{2}$. Da $A_{\mathrm{außen}}=a^2$ gilt, folgt $A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}$.
+<!-- lia-llm:alternative -->
+Die Seitenlänge des äußeren Quadrats sei $a$. Deshalb hat der maximal große Kreis den Radius $\frac a2$ und den Durchmesser $a$. Beide Diagonalen des maximalen inneren Quadrats verbinden gegenüberliegende Punkte des Kreises und sind daher jeweils $a$ lang.
+
+Für ein Quadrat mit den Diagonalen $d_1$ und $d_2$ gilt
+$$
+A=\frac{d_1\cdot d_2}{2}.
+$$
+Damit besitzt das innere Quadrat den Flächeninhalt
+$$
+A_{\mathrm{innen}}=\frac{a\cdot a}{2}=\frac{a^2}{2}.
+$$
+Der Flächeninhalt des äußeren Quadrats ist $A_{\mathrm{außen}}=a^2$. Also gilt $A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}$.
+<!-- lia-llm:alternative -->
+Die Seitenlänge des äußeren Quadrats sei $a$. Der Kreis berührt alle vier Seiten in deren Mittelpunkten. Ein Quadrat, dessen Eckpunkte diese vier Berührpunkte sind, ist im Kreis maximal groß. Die vier Flächen zwischen innerem und äußerem Quadrat sind kongruente rechtwinklige Dreiecke mit den Kathetenlängen $\frac a2$.
+
+Jedes dieser Dreiecke hat den Flächeninhalt
+$$
+\frac12\cdot\frac a2\cdot\frac a2=\frac{a^2}{8}.
+$$
+Zusammen besitzen sie den Flächeninhalt $4\cdot\frac{a^2}{8}=\frac{a^2}{2}$. Vom äußeren Quadrat mit $A_{\mathrm{außen}}=a^2$ bleibt daher
+$$
+A_{\mathrm{innen}}=a^2-\frac{a^2}{2}=\frac{a^2}{2}
+$$
+übrig. Somit gilt $A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}$.
+<!-- lia-llm:alternative -->
+Der Radius des Kreises sei $r$. Weil der Kreis im äußeren Quadrat maximal groß ist, hat dieses Quadrat die Seitenlänge $2r$. Daher beträgt sein Flächeninhalt
+$$
+A_{\mathrm{außen}}=(2r)^2=4r^2.
+$$
+Die Diagonalen des inneren Quadrats sind Durchmesser des Kreises und somit jeweils $2r$ lang. Mit der Flächenformel für ein Quadrat über seine Diagonalen folgt
+$$
+A_{\mathrm{innen}}=\frac{2r\cdot2r}{2}=2r^2.
+$$
+Deshalb ist
+$$
+\frac{A_{\mathrm{innen}}}{A_{\mathrm{außen}}}
+=\frac{2r^2}{4r^2}=\frac12.
+$$
+<!-- lia-llm:alternative -->
+Der Kreisradius werde mit $r$ bezeichnet. Das äußere Quadrat hat wegen des einbeschriebenen Kreises die Seitenlänge $2r$ und somit den Flächeninhalt $4r^2$. Sei $b$ die Seitenlänge des inneren Quadrats. Dessen Diagonale ist der Kreisdurchmesser $2r$.
+
+Die halbe Diagonale bildet mit den halben Seitenlängen ein rechtwinkliges Dreieck. Nach dem Satz des Pythagoras gilt
+$$
+r^2=\left(\frac b2\right)^2+\left(\frac b2\right)^2
+=\frac{b^2}{2}.
+$$
+Daraus folgt $b^2=2r^2$ und damit $A_{\mathrm{innen}}=2r^2$. Im Vergleich zu $A_{\mathrm{außen}}=4r^2$ ergibt sich
+$$
+A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}.
+$$
 ```
 
 @ADetails(5; Aufgabe 3)

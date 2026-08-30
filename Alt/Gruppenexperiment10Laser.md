@@ -37,7 +37,7 @@ Swipe (Wische) entweder weiter oder klicke unten links auf neben der Seitenzahl 
 
 Hier hast du nochmal eine Übersicht über die Menüleiste:
 
-> <center> ![Bediehnungsübersicht](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/5/Deutsch/pics/tutorial.png) </center>
+> <center> ![Bedienungsübersicht](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/5/Deutsch/pics/tutorial.png) </center>
 
 - 1. Inhaltsverzeichnis: Komme schnell zu deiner Aufgabe
 
