@@ -71,7 +71,7 @@ Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? **Erkläre** außer
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? Erkläre außerdem, was die unterschiedlichen Reaktionen über ihre Arbeitsweisen zeigen.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? Erkläre außerdem, was die unterschiedlichen Reaktionen über ihre Arbeitsweisen zeigen.`)
 Leyla verhindert das Aufbrechen, weil sie die Dose nicht beschädigen und zunächst den Zettel genau untersuchen möchte. Sie erkennt auf dessen Rückseite Hinweise, die zu einem passenden Schlüssel führen. Leyla arbeitet deshalb sorgfältig, geduldig und aufmerksam, während Finn anfangs ungeduldig ist und möglichst schnell zu einem Ergebnis kommen möchte.
 <!-- lia-llm:alternative -->
 Leyla hält Finn zurück, weil beim gewaltsamen Öffnen die Dose oder ihr Inhalt beschädigt werden könnte. Stattdessen betrachtet sie den Zettel aufmerksam und entdeckt auf der Rückseite die entscheidende Zeichnung. Daran zeigt sich Leylas vorsichtige und gründliche Arbeitsweise, während Finn hastig handelt und den schnellsten Weg bevorzugt.
@@ -99,7 +99,7 @@ __$b)\;\;$__ Der Weg zum Schlüssel
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Erkläre, wie der Zettel Leyla und Finn zum Schlüssel führt. Warum hätten sie ihn ohne genaues Beobachten vermutlich nicht gefunden?`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Erkläre, wie der Zettel Leyla und Finn zum Schlüssel führt. Warum hätten sie ihn ohne genaues Beobachten vermutlich nicht gefunden?`)
 Die Zeichnung nennt nacheinander die alte Wasserpumpe, den Kastanienbaum und sieben Schritte. Leyla und Finn beginnen deshalb an der Pumpe, gehen zum Baum und zählen von dort sieben Schritte. Erst unter dem dort liegenden flachen Stein finden sie das Glas mit dem Schlüssel. Ohne das sorgfältige Betrachten der Rückseite und das genaue Befolgen der Zeichen hätten sie an der falschen Stelle gesucht.
 <!-- lia-llm:alternative -->
 Auf der Rückseite des Zettels sind eine Wasserpumpe, ein Kastanienbaum und sieben Schritte dargestellt. Die beiden gehen zuerst zur Pumpe, laufen von dort zur Kastanie und zählen anschließend sieben Schritte. An dieser Stelle liegt unter einem flachen Stein das Glas mit dem Schlüssel. Ohne die kleine Zeichnung genau anzusehen, wäre dieser besondere Suchort nicht erkennbar gewesen.
@@ -127,7 +127,7 @@ __$c)\;\;$__ Finns Veränderung
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Erkläre, wie sich Finns Haltung im Verlauf der Geschichte verändert. Belege deine Erklärung mit mindestens zwei Situationen aus dem Text.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Erkläre, wie sich Finns Haltung im Verlauf der Geschichte verändert. Belege deine Erklärung mit mindestens zwei Situationen aus dem Text.`)
 Am Anfang ist Finn ungeduldig und möchte die Dose gewaltsam öffnen. Auch die alten Samen hält er zunächst für nutzlos. Durch das Foto mit der noch vorhandenen Bank versteht er jedoch, dass der Fund wirklich mit der Schule verbunden ist. Später arbeitet er selbst sehr sorgfältig, misst die Beete genau aus und liest kleine Hinweise sogar zweimal.
 <!-- lia-llm:alternative -->
 Zu Beginn möchte Finn schnell fertig werden und die Dose mit einem Schraubenzieher aufbrechen. Später bezeichnet er auch die alten Samen zunächst als nutzlos. Das Foto der noch vorhandenen Bank lässt ihn die Bedeutung des Fundes erkennen. Am Ende misst er die Beete sorgfältig und liest selbst kleine Hinweise zweimal, wodurch seine neue Aufmerksamkeit deutlich wird.
@@ -155,7 +155,7 @@ Warum ist der Fund für Frau Öztürk persönlich bedeutsam? **Erkläre**, welch
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Warum ist der Fund für Frau Öztürk persönlich bedeutsam? Erkläre, welche Erinnerungen und Gefühle die Dose bei ihr auslösen könnte.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Warum ist der Fund für Frau Öztürk persönlich bedeutsam? Erkläre, welche Erinnerungen und Gefühle die Dose bei ihr auslösen könnte.`)
 Der Fund ist für Frau Öztürk persönlich bedeutsam, weil das Heft ihrer älteren Schwester Mara gehörte. Mara musste kurz nach dem Sturm wegziehen und konnte den begonnenen Garten nicht vollenden. Die Dose erinnert Frau Öztürk deshalb an ihre Schwester, deren Schulzeit und einen unerfüllten Wunsch. Ihre stille Reaktion kann Freude über die wiedergefundene Erinnerung, aber auch Traurigkeit über Maras Wegzug ausdrücken.
 <!-- lia-llm:alternative -->
 Frau Öztürk erkennt in dem Heft ein persönliches Erinnerungsstück ihrer älteren Schwester Mara. Da Mara nach dem Sturm wegzog, blieb ihr Vorhaben mit dem Schulgarten unvollendet. Die Dose kann Erinnerungen an die gemeinsame Familie und Maras Schulzeit wecken. Ihr Schweigen lässt sowohl Rührung und Freude über den Fund als auch Traurigkeit über den damaligen Abschied vermuten.
@@ -183,7 +183,7 @@ __$e)\;\;$__ Alte und neue Samen
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Erkläre, warum die Klasse einige alte Samentütchen aufbewahrt und andere alte Samen neben neuen Samen einpflanzt. Warum ist diese Lösung sinnvoll?`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Erkläre, warum die Klasse einige alte Samentütchen aufbewahrt und andere alte Samen neben neuen Samen einpflanzt. Warum ist diese Lösung sinnvoll?`)
 Einige alte Samentütchen werden aufbewahrt, weil sie ein wertvoller Teil von Maras Geschichte und damit der Schulgeschichte sind. Andere alte Samen werden eingepflanzt, damit die Kinder ausprobieren können, ob sie nach so langer Zeit noch keimen. Die neuen Samen derselben Sorten erhöhen zugleich die Chance, dass tatsächlich Blumen wachsen. So bewahrt die Klasse die Erinnerung und kann den Garten trotzdem zuverlässig neu anlegen.
 <!-- lia-llm:alternative -->
 Die aufbewahrten Tütchen bleiben als Erinnerung an Mara und den früheren Schulgarten erhalten. Mit einem Teil der alten Samen prüft die Klasse, ob sie nach vielen Jahren noch keimfähig sind. Zusätzlich gepflanzte neue Samen derselben Sorten sorgen dafür, dass auch bei erfolglosen alten Samen Blumen wachsen können. Diese Lösung verbindet den Schutz des Fundes mit dem praktischen Wiederaufbau des Gartens.
@@ -211,7 +211,7 @@ Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ **E
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ Erkläre, was dieser Satz bedeutet und warum die Herkunft der Kornblume dafür nicht entscheidend ist.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ Erkläre, was dieser Satz bedeutet und warum die Herkunft der Kornblume dafür nicht entscheidend ist.`)
 Der Satz bezieht sich nicht nur auf die gewachsene Kornblume. Maras Wunsch wird viele Jahre später von einer neuen Schulklasse aufgenommen und fortgeführt. Die Kinder legen den zerstörten Garten neu an und beschäftigen sich mit seiner Geschichte. Deshalb ist es nicht entscheidend, ob die Blume aus einem alten oder einem neuen Samen stammt: Maras Idee und ihre Erinnerung leben in jedem Fall weiter.
 <!-- lia-llm:alternative -->
 Das Weiterwachsen ist bildlich zu verstehen und meint neben der Blume vor allem Maras Idee. Die neue Klasse greift ihren Wunsch auf und gestaltet wieder einen Garten an der alten Bank. Dadurch werden ihre Geschichte und ihr Vorhaben fortgesetzt. Ob die Kornblume aus einem alten oder neuen Samen stammt, ändert nichts daran, dass Maras Botschaft die Kinder erreicht hat.
@@ -277,7 +277,7 @@ __$b)\;\;$__ **Erkläre** die Bedeutung des Faktors $2$ in jedem Summanden.
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Es ist zu beachten, wie oft jede Seitenlänge bei einem Rechteck vorkommt.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=erklaeren;Rechtschreibung=1;Satzbau=1,`Erkläre die Bedeutung des Faktors 2 in jedem Summanden.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre die Bedeutung des Faktors 2 in jedem Summanden.`)
 Bei einem Rechteck kommen die Länge und die Breite jeweils zweimal vor. Der Faktor $2$ sorgt deshalb dafür, dass alle vier Seiten des Beetes berücksichtigt werden.
 <!-- lia-llm:alternative -->
 Jedes rechteckige Beet besitzt zwei gleich lange Längsseiten und zwei gleich lange Breitseiten. Der Faktor $2$ verdoppelt daher die Summe aus Länge und Breite, sodass der gesamte Umfang erfasst wird.
@@ -333,7 +333,7 @@ Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? **Erkläre
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? Erkläre, wie trotzdem ein geeigneter Ersatz entstand und welche Bedingung dabei beachtet werden musste.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? Erkläre, wie trotzdem ein geeigneter Ersatz entstand und welche Bedingung dabei beachtet werden musste.`)
 Die Lesung konnte wegen eines geplatzten Heizungsrohres und der dadurch nassen Räume nicht in der Bibliothek stattfinden. Mira schlug die am Wochenende freie Turnhalle als vorübergehenden Lesesaal vor. Die Klasse transportierte die trockenen Bücher dorthin und richtete den Raum mit Tischen, Schildern, Matten und Bänken ein. Herr Kroll erlaubte diese Lösung unter der Bedingung, dass alle Fluchtwege frei blieben.
 <!-- lia-llm:alternative -->
 Ein Rohrbruch hatte Wasser durch die Decke der Bibliothek laufen lassen, deshalb mussten die betroffenen Räume geschlossen werden. Auf Miras Idee hin nutzten die Kinder die leere Turnhalle und bauten dort einen provisorischen Lesesaal auf. Bücher und Sitzmöglichkeiten wurden in die Halle gebracht. Dabei durften die Fluchtwege nicht zugestellt werden.
@@ -361,7 +361,7 @@ Wie verändert sich Niko im Verlauf der Geschichte? **Erkläre** seine Entwicklu
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Wie verändert sich Niko im Verlauf der Geschichte? Erkläre seine Entwicklung und belege sie mit mindestens zwei Situationen.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Wie verändert sich Niko im Verlauf der Geschichte? Erkläre seine Entwicklung und belege sie mit mindestens zwei Situationen.`)
 Zu Beginn ist Niko unsicher, weil er neu in der Klasse ist und sich für zu langsam hält. Später übernimmt er mit den Schildern eine wichtige Aufgabe und gesteht der Gruppe offen seine Verwechslung der Farben. Anschließend verbessert er die Ordnung durch zusätzliche Symbole. Am Ende traut er sich sogar, vor allen Gästen aus dem alten Heft vorzulesen.
 <!-- lia-llm:alternative -->
 Niko steht anfangs abseits und zweifelt daran, dass er der Klasse helfen kann. Beim Beschriften der Bereiche findet er eine Aufgabe, in die er seine Sorgfalt einbringen kann. Er zeigt Mut, als er seinen Fehler nicht versteckt, sondern zugibt und eine bessere Lösung entwickelt. Sein gewachsenes Selbstvertrauen wird deutlich, als er freiwillig vor Publikum liest.
@@ -389,7 +389,7 @@ Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? **
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? Erkläre außerdem, weshalb seine zusätzlichen Bildzeichen besonders hilfreich sind.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? Erkläre außerdem, weshalb seine zusätzlichen Bildzeichen besonders hilfreich sind.`)
 Niko spricht die verwechselten Farben offen an, sodass die falsch abgestellten Naturbücher rechtzeitig entdeckt und richtig sortiert werden können. Danach vergleicht die Gruppe zusätzlich die Buchstaben auf den Buchrücken und verlässt sich nicht mehr nur auf Farben. Nikos Pflanzen- und Kompasszeichen machen die Bereiche noch eindeutiger. Sie helfen besonders Emil, weil er manche Farben nur schwer unterscheiden kann.
 <!-- lia-llm:alternative -->
 Durch Nikos ehrliches Geständnis bleibt der Sortierfehler nicht unbemerkt und kann gemeinsam behoben werden. Die Kinder ergänzen ihre Kontrolle mithilfe der Beschriftungen auf den Buchrücken. Niko kennzeichnet Natur- und Reisebücher außerdem mit leicht erkennbaren Bildern. Dadurch funktioniert die Ordnung auch für Personen, die Farben nicht sicher unterscheiden können.
@@ -417,7 +417,7 @@ Was bedeutet Nikos letzter Satz über Geschichten? **Erkläre**, wie die Ereigni
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren,`Was bedeutet Nikos letzter Satz über Geschichten? Erkläre, wie die Ereignisse in der Turnhalle diese Aussage bestätigen.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Was bedeutet Nikos letzter Satz über Geschichten? Erkläre, wie die Ereignisse in der Turnhalle diese Aussage bestätigen.`)
 Nikos Satz bedeutet, dass Bücher allein noch keine lebendige Gemeinschaft schaffen. Erst Menschen bewahren Geschichten, teilen sie mit anderen und schaffen Orte zum Lesen und Zuhören. Die Klasse rettet die Bücher, richtet gemeinsam einen Ersatzraum ein und macht die alten Empfehlungen als Kopien zugänglich. Auch Evas Lesung und Nikos Vortrag zeigen, wie Geschichten durch gemeinsames Handeln einen neuen Platz erhalten.
 <!-- lia-llm:alternative -->
 Geschichten benötigen Bücher als Träger, doch ihre Bedeutung entsteht erst durch Leserinnen, Leser und Zuhörende. In der Turnhalle sorgen viele Menschen dafür, dass die geplante Lesung trotz des Wasserschadens stattfindet. Die Kinder bewahren außerdem das alte Empfehlungsheft und geben seinen Inhalt weiter. Deshalb wird die Halle durch die Gemeinschaft tatsächlich zu einem Platz für Geschichten.
@@ -664,7 +664,7 @@ Die folgenden Figuren bestehen aus gleich großen Kästchen.
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche zwei aufeinanderfolgende Figuren. Betrachte besonders die vier Enden des Kreuzes.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=beschreiben,`Beschreibe das Muster so, dass danach Figur 5 gezeichnet werden kann. Gehe darauf ein, wo neue Kästchen hinzukommen und wie viele es in jedem Schritt sind. Nenne außerdem die Anzahl der Kästchen in Figur 5.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1,`Beschreibe das Muster so, dass danach Figur 5 gezeichnet werden kann. Gehe darauf ein, wo neue Kästchen hinzukommen und wie viele es in jedem Schritt sind. Nenne außerdem die Anzahl der Kästchen in Figur 5.`)
 Von einer Figur zur nächsten wird jeder der vier Arme des Kreuzes um ein Kästchen verlängert. Dadurch kommen in jedem Schritt vier Kästchen hinzu. Figur 5 besteht deshalb aus $13+4=17$ Kästchen.
 <!-- lia-llm:alternative -->
 Die Figuren bestehen aus $1$, $5$, $9$ und $13$ Kästchen. Die Anzahl erhöht sich jeweils um $4$, weil an jedem Ende des Kreuzes ein neues Kästchen ergänzt wird. Daher besitzt Figur 5 insgesamt $17$ Kästchen.
@@ -698,7 +698,7 @@ An den oberen, unteren, linken und rechten Rand kommt immer je ein neues Kästch
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Du kannst deine Sätze so beginnen: „Auf dem Bild …“, „Vorne …“, „In der Mitte …“, „Hinten …“ und „Das Bild wirkt …“.
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;operator=beschreiben;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Dein Text soll etwa 55 bis 70 Wörter lang sein. Schreibe zuerst, was du auf dem ganzen Bild siehst. Beschreibe dann, was vorne, in der Mitte und hinten zu sehen ist. Nenne wichtige Farben. Sage am Ende, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
+```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Dein Text soll etwa 55 bis 70 Wörter lang sein. Schreibe zuerst, was du auf dem ganzen Bild siehst. Beschreibe dann, was vorne, in der Mitte und hinten zu sehen ist. Nenne wichtige Farben. Sage am Ende, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
 Das Bild zeigt eine grüne Landschaft mit vielen runden Hügeln. Im Vordergrund liegt eine große Wiese mit viel grünem Gras. Rechts steht ein großer Baum und wirft Schatten auf die Wiese. In der Mitte sieht man weitere Hügel und einige kleine Bäume. Hinten liegen Berge unter einem blauen Himmel mit weißen Wolken. Das helle Bild wirkt auf mich ruhig, freundlich und schön.
 <!-- lia-llm:alternative -->
 Auf dem Bild sieht man grüne Wiesen und viele Hügel. Vorne liegt eine große Wiese im hellen Licht der Sonne. Auf der rechten Seite steht ein großer Baum mit grünen Blättern. Sein dunkler Schatten liegt auf dem Gras neben dem Baum. In der Mitte und hinten sieht man kleine Bäume und Berge. Der blaue Himmel und die weißen Wolken wirken ruhig.
@@ -737,7 +737,7 @@ gehört zu diesem Sachzusammenhang. **Erkläre** die Bedeutung der Zahlen und Re
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Betrachte zuerst die $7$ normalen Sitzreihen und anschließend die zusätzliche Reihe. Erkläre auch, wofür die Summe steht.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=erklaeren;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $7\cdot24+18$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $7\cdot24+18$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 Die Zahl $7$ steht für die normalen Sitzreihen und die Zahl $24$ für die Plätze in jeder dieser Reihen. Durch $7\cdot24=168$ wird die Anzahl der Plätze in den normalen Reihen berechnet. Die Addition von $18$ berücksichtigt die Plätze in der zusätzlichen Reihe. Das Ergebnis $186$ gibt die Gesamtzahl aller Sitzplätze an.
 <!-- lia-llm:alternative -->
 In jeder der $7$ normalen Reihen befinden sich $24$ Plätze. Deshalb werden $7$ und $24$ multipliziert. Zu den dadurch berechneten $168$ Plätzen werden die $18$ Plätze der zusätzlichen Reihe addiert. Der Term ergibt $186$ und beschreibt damit sämtliche verfügbaren Sitzplätze im Theater.
@@ -770,7 +770,7 @@ gehört ebenfalls zu diesem Sachzusammenhang. **Erkläre**, wie der Term mit der
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Der Ausdruck in der Klammer gibt alle Sitzplätze an. Überlege anschließend, weshalb $26$ abgezogen wird.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=erklaeren;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(7\cdot24+18)-26$. Gehe auf beide Rechenschritte und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(7\cdot24+18)-26$. Gehe auf beide Rechenschritte und die Bedeutung des Ergebnisses ein.`)
 In der Klammer wird zunächst die Gesamtzahl der Sitzplätze berechnet. Die $7$ normalen Reihen mit jeweils $24$ Plätzen und die $18$ zusätzlichen Plätze ergeben zusammen $186$ Plätze. Danach werden die $26$ für Lehrkräfte und Begleitpersonen reservierten Plätze abgezogen. Das Ergebnis $160$ gibt an, wie viele Plätze für die Schülerinnen und Schüler verbleiben.
 <!-- lia-llm:alternative -->
 Mit $7\cdot24+18=186$ werden zuerst alle Plätze im Theater erfasst. Da $26$ davon für Lehrkräfte und Begleitpersonen vorgesehen sind, werden diese Plätze anschließend subtrahiert. Es gilt $186-26=160$. Somit stehen den Schülerinnen und Schülern $160$ Plätze zur Verfügung.
@@ -804,7 +804,7 @@ $7$ Reihen mit je $24$ Plätzen liefern zunächst $168$ Sitzplätze. Zusammen mi
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Du kannst deine Sätze so beginnen: „Auf dem Bild …“, „Vorne …“, „Oben …“, „Hinten …“, „Am Himmel …“ und „Ich finde …“.
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;operator=beschreiben;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Schreibe etwa 55 bis 70 Wörter. Schreibe zuerst, was du auf dem ganzen Bild siehst. Schreibe danach, was du vorne, oben auf dem Berg und hinten siehst. Nenne auch Farben und das Licht. Schreibe im letzten Satz, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
+```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Schreibe etwa 55 bis 70 Wörter. Schreibe zuerst, was du auf dem ganzen Bild siehst. Schreibe danach, was du vorne, oben auf dem Berg und hinten siehst. Nenne auch Farben und das Licht. Schreibe im letzten Satz, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
 Auf dem Bild sieht man eine alte Burg auf einem hohen Berg. Vorne sind viele graue Felsen und grünes Gras. Oben stehen kaputte Mauern und mehrere Türme ohne Dächer. Hinter der Burg sieht man Wald, Berge und etwas Nebel. Links sind graue Wolken, aber rechts ist der Himmel hell und gelb. Ich finde das Bild schön, aber die alte Burg wirkt auch etwas unheimlich.
 <!-- lia-llm:alternative -->
 Das Bild zeigt eine alte Burg ganz oben auf einem Felsen. Im Vordergrund sieht man Steine, Gras und mehrere kleine Bäume. Die Burg hat hohe Türme, aber keine Dächer mehr. Im Hintergrund liegen viele Berge und ein großer Wald. Rechts kommt helles Licht durch die Wolken und macht den Himmel gelb. Das Bild wirkt auf mich ruhig und ein bisschen spannend.
@@ -918,7 +918,7 @@ Lea schrieb für die Schülerzeitung: Das Messgerät war für sie dabei nicht da
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Denke daran, was bei einer Reparatur mit den Fledermäusen und ihren Schlafplätzen passieren könnte.
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;operator=erklaeren;Rechtschreibung=1;Satzbau=1,`Erkläre in zwei bis vier vollständigen Sätzen, warum die Fledermauszählung vor der Dachreparatur wichtig war. Nenne zwei Gründe aus dem Text.`)
+```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre in zwei bis vier vollständigen Sätzen, warum die Fledermauszählung vor der Dachreparatur wichtig war. Nenne zwei Gründe aus dem Text.`)
 Durch die Zählung wusste die Gemeinde, dass 63 Fledermäuse im Dach lebten und welchen Spalt sie nutzten. So konnte sie die Reparatur verschieben und verhindern, dass Tiere eingeschlossen oder ihre Schlafplätze zerstört wurden.
 <!-- lia-llm:alternative -->
 Die Schlafplätze der Fledermäuse sind geschützt. Vor der Reparatur musste die Gemeinde wissen, ob dort Tiere lebten. Die Zählung zeigte auch, welche Spalten als Ausgänge offen bleiben mussten.
@@ -1153,7 +1153,7 @@ __$d)\;\;$__ **Beschreibe** das Muster der Multiplikationsreihen a) bis c). Gehe
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche jeweils den zweiten Faktor und das Produkt zweier aufeinanderfolgender Zeilen.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=beschreiben,`Beschreibe das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich der zweite Faktor und das Produkt von Zeile zu Zeile verändern.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1,`Beschreibe das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich der zweite Faktor und das Produkt von Zeile zu Zeile verändern.`)
 In jeder Reihe wird der zweite Faktor von Zeile zu Zeile halbiert. Dadurch halbiert sich auch das Produkt. Die erste Zahl bleibt dabei unverändert.
 <!-- lia-llm:alternative -->
 Der zweite Faktor ist jeweils halb so groß wie in der Zeile davor. Deshalb ist auch jedes neue Produkt halb so groß wie das vorherige Produkt.
@@ -1270,7 +1270,7 @@ __$h)\;\;$__ **Beschreibe** das Muster der Divisionsreihen e) bis g). Gehe darau
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche jeweils den Divisor und den Quotienten zweier aufeinanderfolgender Zeilen.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=beschreiben,`Beschreibe das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich der Divisor und der Quotient von Zeile zu Zeile verändern.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1,`Beschreibe das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich der Divisor und der Quotient von Zeile zu Zeile verändern.`)
 In jeder Reihe wird der Divisor von Zeile zu Zeile halbiert. Dadurch verdoppelt sich der Quotient. Der Dividend bleibt dabei unverändert.
 <!-- lia-llm:alternative -->
 Der Divisor ist jeweils halb so groß wie in der Zeile davor. Deshalb ist jeder neue Quotient doppelt so groß wie der vorherige Quotient.
@@ -1307,7 +1307,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Berechne zuerst den Umfang des Rechtecks. Ziehe danach die Breite des Tores ab und berücksichtige zuletzt den Preis pro Meter.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=erklaeren;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(2\cdot6{,}5+2\cdot4-1{,}5)\cdot18{,}40$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(2\cdot6{,}5+2\cdot4-1{,}5)\cdot18{,}40$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 Mit $2\cdot6{,}5+2\cdot4$ wird zunächst der Umfang des rechteckigen Geheges berechnet. Davon werden $1{,}5\,\mathrm{m}$ für die Toröffnung abgezogen, sodass $19{,}5\,\mathrm{m}$ Zaun benötigt werden. Die Multiplikation mit $18{,}40\,€$ pro Meter ergibt $358{,}80\,€$. Das Ergebnis beschreibt die gesamten Kosten für den Zaun.
 <!-- lia-llm:alternative -->
 $6{,}5\,\mathrm{m}$ und $4\,\mathrm{m}$ sind die Seitenlängen des Rechtecks. Beide kommen im Umfang jeweils zweimal vor. Nach dem Abzug der $1{,}5\,\mathrm{m}$ breiten Toröffnung bleiben $19{,}5\,\mathrm{m}$ Zaun. Bei $18{,}40\,€$ je Meter betragen die Kosten insgesamt $358{,}80\,€$.
@@ -1342,7 +1342,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Jedes Produkt beschreibt den Preis einer Produktgruppe. Addiere anschließend die drei Teilpreise.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=erklaeren;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $3\cdot5{,}80+5\cdot3{,}20+4\cdot1{,}25$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $3\cdot5{,}80+5\cdot3{,}20+4\cdot1{,}25$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 Das Produkt $3\cdot5{,}80$ gibt den Preis der drei Nudelgerichte an, $5\cdot3{,}20$ den Preis der fünf Salate und $4\cdot1{,}25$ den Preis der vier Wasserflaschen. Durch die Addition werden die drei Teilpreise zusammengefasst. Der Term ergibt $38{,}40\,€$ und beschreibt den Gesamtpreis der Bestellung.
 <!-- lia-llm:alternative -->
 Die Faktoren $3$, $5$ und $4$ stehen für die bestellten Anzahlen. Die Zahlen $5{,}80$, $3{,}20$ und $1{,}25$ sind die jeweiligen Einzelpreise. Die Produkte ergeben $17{,}40\,€$, $16\,€$ und $5\,€$. Ihre Summe beträgt $38{,}40\,€$ und entspricht den Kosten der gesamten Bestellung.
@@ -1377,7 +1377,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Addiere zuerst die vier Laufzeiten. Erkläre danach, weshalb die Summe durch $4$ geteilt wird.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;operator=erklaeren;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(12{,}4+11{,}8+12{,}1+11{,}7):4$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(12{,}4+11{,}8+12{,}1+11{,}7):4$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 Die vier Summanden sind die gemessenen Zeiten der vier Trainingsläufe. Durch ihre Addition ergibt sich eine Gesamtzeit von $48\,\mathrm{min}$. Die Division durch $4$ verteilt diese Summe gleichmäßig auf die vier Läufe und berechnet damit den Mittelwert. Das Ergebnis $12\,\mathrm{min}$ ist die durchschnittliche Laufzeit.
 <!-- lia-llm:alternative -->
 Zuerst werden die Laufzeiten $12{,}4$, $11{,}8$, $12{,}1$ und $11{,}7$ Minuten addiert. Die Summe beträgt $48$ Minuten. Da vier Läufe gemessen wurden, wird durch $4$ geteilt. Der Termwert $12\,\mathrm{min}$ beschreibt die mittlere Zeit pro Lauf.
@@ -1412,7 +1412,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=5\,\mathrm{cm}$, $b=4\,\m
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=beschreiben;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 Zuerst wird die Grundseite $\overline{AB}$ mit der Länge $c=6\,\mathrm{cm}$ gezeichnet. Danach wird ein Kreis um $A$ mit dem Radius $b=4\,\mathrm{cm}$ und ein Kreis um $B$ mit dem Radius $a=5\,\mathrm{cm}$ gezeichnet. Einer der beiden Schnittpunkte wird als $C$ markiert. Abschließend werden $A$ und $B$ mit $C$ verbunden.
 <!-- lia-llm:alternative -->
 Als Grundseite wird $\overline{AC}$ mit $b=4\,\mathrm{cm}$ gezeichnet. Um $A$ wird ein Kreis mit dem Radius $c=6\,\mathrm{cm}$ geschlagen, um $C$ ein Kreis mit dem Radius $a=5\,\mathrm{cm}$. Ein Schnittpunkt der Kreise wird mit $B$ bezeichnet. Durch das Verbinden von $B$ mit $A$ und $C$ entsteht das gesuchte Dreieck.
@@ -1450,7 +1450,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=6\,\mathrm{cm}$ und $b=4\
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=beschreiben;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 Zuerst wird die Seite $\overline{AC}$ mit der Länge $b=4\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AC}$ der Winkel $\alpha=60^\circ$ konstruiert. Danach wird ein Kreis um $C$ mit dem Radius $a=6\,\mathrm{cm}$ gezeichnet. Sein Schnittpunkt mit dem freien Winkelschenkel wird als $B$ markiert. Abschließend werden $B$ und $C$ verbunden.
 <!-- lia-llm:alternative -->
 Als Ausgangsstrecke wird $\overline{AC}=4\,\mathrm{cm}$ gezeichnet. Anschließend wird bei $A$ ein Winkel von $60^\circ$ angetragen. Um $C$ wird mit dem Zirkel ein Kreis mit dem Radius $6\,\mathrm{cm}$ geschlagen. Der Kreis schneidet den freien Schenkel des Winkels im Punkt $B$. Die Strecke $\overline{BC}$ vervollständigt das Dreieck.
@@ -1488,7 +1488,7 @@ Gegeben sei ein Dreieck $ABC$ mit der Seitenlänge $c=6\,\mathrm{cm}$ sowie den 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=beschreiben;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=6\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AB}$ der Winkel $\alpha=45^\circ$ konstruiert. In $B$ wird auf derselben Seite der Strecke der Winkel $\beta=60^\circ$ abgetragen. Der Schnittpunkt der beiden freien Winkelschenkel wird als $C$ markiert.
 <!-- lia-llm:alternative -->
 Als Grundseite wird $\overline{AB}=6\,\mathrm{cm}$ gezeichnet. Anschließend wird bei $A$ ein Winkel von $45^\circ$ und bei $B$ auf derselben Seite von $\overline{AB}$ ein Winkel von $60^\circ$ angetragen. Die freien Schenkel der beiden Winkel schneiden sich im dritten Eckpunkt $C$. Damit ist das Dreieck vollständig konstruiert.
@@ -1526,7 +1526,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Winkeln $\alpha=60^\circ$ und $\beta=90^\c
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=beschreiben;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 Zuerst wird der dritte Winkel mit $\gamma=180^\circ-60^\circ-90^\circ=30^\circ$ berechnet. Danach wird die Seite $\overline{BC}$ mit der Länge $a=5\,\mathrm{cm}$ gezeichnet. In $B$ wird an $\overline{BC}$ der Winkel $\beta=90^\circ$ konstruiert. In $C$ wird auf derselben Seite der Strecke der Winkel $\gamma=30^\circ$ abgetragen. Der Schnittpunkt der freien Winkelschenkel wird als $A$ markiert.
 <!-- lia-llm:alternative -->
 Aus der Winkelsumme im Dreieck ergibt sich zunächst $\gamma=180^\circ-\alpha-\beta=30^\circ$. Als Grundseite wird $\overline{BC}=5\,\mathrm{cm}$ gezeichnet. Bei $B$ wird ein Winkel von $90^\circ$ und bei $C$ auf derselben Seite ein Winkel von $30^\circ$ angetragen. Die beiden freien Schenkel schneiden sich im dritten Eckpunkt $A$.
@@ -1564,7 +1564,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $b=5\,\mathrm{cm}$ und $c=7\
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=beschreiben;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=7\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AB}$ der Winkel $\alpha=60^\circ$ konstruiert. Auf dem freien Winkelschenkel wird von $A$ aus die Länge $b=5\,\mathrm{cm}$ abgetragen und der Endpunkt als $C$ markiert. Abschließend werden $B$ und $C$ verbunden.
 <!-- lia-llm:alternative -->
 Als Ausgangsseite wird $\overline{AB}=7\,\mathrm{cm}$ gezeichnet. Anschließend wird bei $A$ ein Winkel von $60^\circ$ angetragen. Der Zirkel wird auf $5\,\mathrm{cm}$ eingestellt; ein Kreisbogen um $A$ schneidet den freien Winkelschenkel im Punkt $C$. Die Strecke $\overline{BC}$ vervollständigt das Dreieck.
@@ -1600,7 +1600,7 @@ Als Erstes wird $\overline{AB}=7\,\mathrm{cm}$ gezeichnet. Unterhalb dieser Stre
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=erklaeren;Rechtschreibung=1;Satzbau=1,`Erkläre, warum die Konstruktionen von Dreiecken nach den Kongruenzsätzen WWS und WSW fast gleich ablaufen.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre, warum die Konstruktionen von Dreiecken nach den Kongruenzsätzen WWS und WSW fast gleich ablaufen.`)
 Bei WSW sind eine Seite und die beiden an dieser Seite anliegenden Winkel gegeben. Deshalb wird die Seite gezeichnet, an ihren Endpunkten werden die beiden Winkel konstruiert und der Schnittpunkt der freien Winkelschenkel ergibt den dritten Eckpunkt. Bei WWS liegt die gegebene Seite zunächst nicht zwischen den beiden gegebenen Winkeln. Aus der Winkelsumme wird daher zuerst der fehlende dritte Winkel berechnet. Danach sind ebenfalls eine Seite und ihre beiden anliegenden Winkel bekannt, sodass die weitere Konstruktion genauso wie bei WSW verläuft.
 <!-- lia-llm:alternative -->
 Die Konstruktionen unterscheiden sich nur in einem vorbereitenden Schritt. Beim Kongruenzsatz WSW können die beiden gegebenen Winkel sofort an den Endpunkten der dazwischenliegenden Seite abgetragen werden. Bei WWS wird zuerst der nicht angegebene Winkel mithilfe der Innenwinkelsumme von $180^\circ$ bestimmt. Nun liegt zur gegebenen Seite an jedem Endpunkt ein bekannter Winkel vor. Deshalb werden anschließend in beiden Fällen die Seite und die zwei Winkel gezeichnet; der Schnittpunkt ihrer Schenkel ist der dritte Eckpunkt.
@@ -1636,7 +1636,7 @@ Für ein Dreieck $ABC$ seien die drei Winkel $\alpha=60^\circ$, $\beta=60^\circ$
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=begruenden;Rechtschreibung=1;Satzbau=1,`Begründe, warum diese drei Winkel für die eindeutige Konstruktion des Dreiecks nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum diese drei Winkel für die eindeutige Konstruktion des Dreiecks nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
 Die drei Winkel legen nur die Form eines Dreiecks fest, nicht aber seine Größe. Bei drei Winkeln von jeweils $60^\circ$ entsteht zwar immer ein gleichseitiges Dreieck, seine Seitenlänge kann jedoch beliebig gewählt werden. Beispielsweise besitzen gleichseitige Dreiecke mit den Seitenlängen $4\,\mathrm{cm}$ und $8\,\mathrm{cm}$ dieselben Winkel. Sie sind ähnlich, aber wegen ihrer verschiedenen Seitenlängen nicht kongruent. Ohne eine vorgegebene Seitenlänge fehlt somit der Maßstab, weshalb WWW kein Kongruenzsatz ist.
 <!-- lia-llm:alternative -->
 Winkel bestimmen die Verhältnisse der Seiten, aber keine konkrete Seitenlänge. Daher können zu den Winkeln $60^\circ$, $60^\circ$ und $60^\circ$ beliebig kleine oder große gleichseitige Dreiecke konstruiert werden. Diese Dreiecke haben dieselbe Form und sind zueinander ähnlich, decken sich wegen ihrer unterschiedlichen Größe jedoch nicht und sind somit nicht kongruent. Da die Angaben kein eindeutig großes Dreieck festlegen, reicht WWW nicht als Kongruenzsatz aus.
@@ -1672,7 +1672,7 @@ Ein Dreieck $ABC$ soll mit den Seitenlängen $a=8\,\mathrm{cm}$, $b=3\,\mathrm{c
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;operator=begruenden;Rechtschreibung=1;Satzbau=1,`Begründe, warum ein Dreieck mit diesen Seitenlängen nicht konstruiert werden kann.`)
+```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum ein Dreieck mit diesen Seitenlängen nicht konstruiert werden kann.`)
 In jedem Dreieck muss die Summe der Längen zweier Seiten größer als die Länge der dritten Seite sein. Hier gilt jedoch $b+c=3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}<8\,\mathrm{cm}=a$. Damit ist die Dreiecksungleichung verletzt. Bei der Konstruktion haben der Kreis um $B$ mit dem Radius $4\,\mathrm{cm}$ und der Kreis um $C$ mit dem Radius $3\,\mathrm{cm}$ keinen Schnittpunkt, weil ihre Radien zusammen kleiner als der Abstand $8\,\mathrm{cm}$ ihrer Mittelpunkte sind. Daher kann der Punkt $A$ nicht bestimmt werden.
 <!-- lia-llm:alternative -->
 Für ein Dreieck muss $b+c>a$ gelten. Mit den gegebenen Längen ergibt sich aber $3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}<8\,\mathrm{cm}$. Die beiden kürzeren Seiten reichen somit nicht aus, um die Endpunkte der längsten Seite zu verbinden. Entsprechend schneiden sich die Kreise um $B$ und $C$ mit den Radien $4\,\mathrm{cm}$ und $3\,\mathrm{cm}$ bei einem Mittelpunktabstand von $8\,\mathrm{cm}$ nicht. Deshalb existiert kein Eckpunkt $A$.
