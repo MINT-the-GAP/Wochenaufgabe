@@ -71,22 +71,23 @@ Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? **Erkläre** außer
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? Erkläre außerdem, was die unterschiedlichen Reaktionen über ihre Arbeitsweisen zeigen.`)
-Leyla verhindert das Aufbrechen, weil sie die Dose nicht beschädigen und zunächst den Zettel genau untersuchen möchte. Sie erkennt auf dessen Rückseite Hinweise, die zu einem passenden Schlüssel führen. Leyla arbeitet deshalb sorgfältig, geduldig und aufmerksam, während Finn anfangs ungeduldig ist und möglichst schnell zu einem Ergebnis kommen möchte.
-<!-- lia-llm:alternative -->
-Leyla hält Finn zurück, weil beim gewaltsamen Öffnen die Dose oder ihr Inhalt beschädigt werden könnte. Stattdessen betrachtet sie den Zettel aufmerksam und entdeckt auf der Rückseite die entscheidende Zeichnung. Daran zeigt sich Leylas vorsichtige und gründliche Arbeitsweise, während Finn hastig handelt und den schnellsten Weg bevorzugt.
-<!-- lia-llm:alternative -->
-Die Dose soll nicht sofort mit dem Schraubenzieher aufgebrochen werden, da Leyla zuerst nach einer schonenden Lösung sucht. Durch ihr genaues Hinsehen findet sie die Hinweise mit Pumpe, Kastanienbaum und sieben Schritten. Leyla geht überlegt und geduldig vor, Finn reagiert dagegen zunächst ungeduldig und voreilig.
-<!-- lia-llm:alternative -->
-Leyla verhindert, dass Finn die verschlossene Dose mit Gewalt öffnet. Sie nimmt den Zettel ernst und untersucht auch dessen Rückseite, wodurch der Weg zum Schlüssel sichtbar wird. Ihr Verhalten wirkt aufmerksam und verantwortungsvoll, während Finn möglichst rasch fertig werden will und deshalb unüberlegt handelt.
-<!-- lia-llm:alternative -->
-Beim Aufbrechen könnten die Blechdose und die darin aufbewahrten Dinge Schaden nehmen. Leyla möchte deshalb zunächst alle vorhandenen Hinweise auswerten und entdeckt die Zeichnung auf der Rückseite. Ihre Reaktion zeigt Sorgfalt und Ausdauer, Finns Vorschlag hingegen Ungeduld und eine oberflächliche Arbeitsweise.
-<!-- lia-llm:alternative -->
-Leyla stoppt Finn, weil sie eine Beschädigung der Blechdose und ihres Inhalts vermeiden und den Zettel vollständig untersuchen möchte. Ihre Aufmerksamkeit wird belohnt, denn die Rückseite verrät den Weg zu einem Schlüssel. Während Leyla genau beobachtet und planvoll vorgeht, versucht Finn die Aufgabe zunächst schnell und mit Gewalt zu lösen.
-<!-- lia-llm:alternative -->
-Das Aufbrechen der Dose mit dem Schraubenzieher wäre eine gewaltsame und möglicherweise schädliche Lösung gewesen. Leyla schaut deshalb genauer hin und erkennt, dass der Zettel eine Anleitung zum versteckten Schlüssel enthält. Dadurch wird ihre geduldige, sorgfältige Art deutlich; Finn zeigt am Anfang Eile und wenig Aufmerksamkeit für Einzelheiten.
-<!-- lia-llm:alternative -->
-Leyla möchte die Blechdose und ihren Inhalt erhalten und nicht durch ein voreiliges Aufbrechen gefährden. Sie prüft den Zettel gründlich und entdeckt so die Zeichen, die später zum Schlüssel führen. Der Gegensatz zeigt, dass Leyla besonnen und aufmerksam arbeitet, während Finn zuerst schnell fertig werden möchte und wichtige Hinweise übersieht.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? Erkläre außerdem, was die unterschiedlichen Reaktionen über ihre Arbeitsweisen zeigen.`)
+<!-- lia-llm:criterion -->
+Leyla hält Finn vom Aufbrechen der Dose ab, weil sie Hinweise auf der Rückseite des Zettels entdeckt.
+<!-- lia-llm:criterion -->
+Die Hinweise auf der Zettelrückseite führen zu einem passenden Schlüssel.
+<!-- lia-llm:criterion -->
+Leyla arbeitet sorgfältig.
+<!-- lia-llm:criterion -->
+Leyla arbeitet geduldig.
+<!-- lia-llm:criterion -->
+Leyla arbeitet aufmerksam.
+<!-- lia-llm:criterion -->
+Finn ist anfangs ungeduldig.
+<!-- lia-llm:criterion -->
+Finn möchte möglichst schnell zu einem Ergebnis kommen.
+<!-- lia-llm:solution -->
+Leyla hält Finn vom Aufbrechen ab, weil sie auf der Rückseite des Zettels Hinweise entdeckt und ihnen zuerst folgen will. Ihr genaues Hinsehen führt zu dem passenden Schlüssel, mit dem die Dose ohne Gewalt geöffnet werden kann. Leyla arbeitet sorgfältig, geduldig und aufmerksam, während Finn anfangs ungeduldig ist und möglichst schnell zu einem Ergebnis kommen möchte.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -99,22 +100,19 @@ __$b)\;\;$__ Der Weg zum Schlüssel
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Erkläre, wie der Zettel Leyla und Finn zum Schlüssel führt. Warum hätten sie ihn ohne genaues Beobachten vermutlich nicht gefunden?`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Erkläre, wie der Zettel Leyla und Finn zum Schlüssel führt. Warum hätten sie ihn ohne genaues Beobachten vermutlich nicht gefunden?`)
+<!-- lia-llm:criterion -->
+Die Zeichnung weist zuerst zur alten Wasserpumpe.
+<!-- lia-llm:criterion -->
+Von der Wasserpumpe führt der Weg zur großen Kastanie.
+<!-- lia-llm:criterion -->
+Von der Kastanie aus müssen sieben Schritte gezählt werden.
+<!-- lia-llm:criterion -->
+Unter einem flachen Stein befindet sich das Glas mit dem Schlüssel.
+<!-- lia-llm:criterion -->
+Ohne eine genaue Auswertung der Weganweisung wäre der Suchort nicht erkennbar gewesen.
+<!-- lia-llm:solution -->
 Die Zeichnung nennt nacheinander die alte Wasserpumpe, den Kastanienbaum und sieben Schritte. Leyla und Finn beginnen deshalb an der Pumpe, gehen zum Baum und zählen von dort sieben Schritte. Erst unter dem dort liegenden flachen Stein finden sie das Glas mit dem Schlüssel. Ohne das sorgfältige Betrachten der Rückseite und das genaue Befolgen der Zeichen hätten sie an der falschen Stelle gesucht.
-<!-- lia-llm:alternative -->
-Auf der Rückseite des Zettels sind eine Wasserpumpe, ein Kastanienbaum und sieben Schritte dargestellt. Die beiden gehen zuerst zur Pumpe, laufen von dort zur Kastanie und zählen anschließend sieben Schritte. An dieser Stelle liegt unter einem flachen Stein das Glas mit dem Schlüssel. Ohne die kleine Zeichnung genau anzusehen, wäre dieser besondere Suchort nicht erkennbar gewesen.
-<!-- lia-llm:alternative -->
-Der Zettel gibt den Weg in mehreren Stationen vor. Ausgangspunkt ist die alte Pumpe, danach folgt der große Kastanienbaum und von dort führen sieben gezählte Schritte zum Versteck. Unter dem flachen Stein befindet sich schließlich der Schlüssel in einem Glas. Bei einem flüchtigen Blick wären die Rückseite oder die genaue Reihenfolge der Hinweise übersehen worden.
-<!-- lia-llm:alternative -->
-Die Bilder auf dem Zettel wirken wie eine Wegbeschreibung. Leyla und Finn suchen zunächst die eingezeichnete Wasserpumpe, gehen weiter zum Kastanienbaum und zählen dort sieben Schritte ab. Unter dem Stein am erreichten Ort entdecken sie das Schlüsselglas. Nur durch genaues Beobachten und sorgfältiges Ausführen jeder Angabe gelangen sie zur richtigen Stelle.
-<!-- lia-llm:alternative -->
-Zuerst weist die Zeichnung zur alten Wasserpumpe und anschließend zur großen Kastanie. Vom Baum aus müssen genau sieben Schritte gezählt werden, bevor unter einem flachen Stein gesucht wird. Dort ist das Glas mit dem Messingschlüssel versteckt. Ohne die Rückseite vollständig zu betrachten und die Schrittzahl zu beachten, hätten Leyla und Finn das Versteck verfehlt.
-<!-- lia-llm:alternative -->
-Pumpe, Kastanienbaum und sieben Schritte bilden zusammen eine verschlüsselte Weganweisung. Die Kinder folgen den Zeichen in dieser Reihenfolge und untersuchen nach dem siebten Schritt einen flachen Stein. Darunter finden sie den Schlüssel. Oberflächliches Lesen hätte weder den richtigen Ausgangspunkt noch die genaue Entfernung zum Versteck geliefert.
-<!-- lia-llm:alternative -->
-Die Rückseite zeigt, wo die Suche beginnen und wie sie fortgesetzt werden soll. Von der Wasserpumpe führt der Weg zum Kastanienbaum, danach werden sieben Schritte gezählt. Unter dem dortigen Stein liegt das Glas mit dem Schlüssel. Ohne genaues Hinsehen wären wichtige Einzelheiten wie die Reihenfolge und die Zahl der Schritte verloren gegangen.
-<!-- lia-llm:alternative -->
-Der Zettel enthält keine ausgeschriebene Erklärung, sondern drei bildliche Hinweise. Leyla und Finn deuten sie als Weg von der alten Pumpe zur Kastanie und anschließend sieben Schritte weiter. Am Ziel heben sie den flachen Stein an und finden das Glas mit dem Schlüssel. Ein hastiges Betrachten hätte diese genaue Verbindung der Zeichen nicht erkennen lassen.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -183,22 +181,17 @@ __$e)\;\;$__ Alte und neue Samen
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Erkläre, warum die Klasse einige alte Samentütchen aufbewahrt und andere alte Samen neben neuen Samen einpflanzt. Warum ist diese Lösung sinnvoll?`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Erkläre, warum die Klasse einige alte Samentütchen aufbewahrt und andere alte Samen neben neuen Samen einpflanzt. Warum ist diese Lösung sinnvoll?`)
+<!-- lia-llm:criterion -->
+Einige alte Samentütchen werden als Erinnerungsstücke an Maras Schulgeschichte aufbewahrt.
+<!-- lia-llm:criterion -->
+Mit einem Teil der alten Samen wird erprobt, ob sie noch keimen.
+<!-- lia-llm:criterion -->
+Neue Samen derselben Sorten erhöhen die Chance, dass auch bei nicht keimenden alten Samen Blumen wachsen.
+<!-- lia-llm:criterion -->
+Das teilweise Aufbewahren alter Samentütchen und das Pflanzen alter sowie neuer Samen verbinden Erinnerung und Gartenerneuerung.
+<!-- lia-llm:solution -->
 Einige alte Samentütchen werden aufbewahrt, weil sie ein wertvoller Teil von Maras Geschichte und damit der Schulgeschichte sind. Andere alte Samen werden eingepflanzt, damit die Kinder ausprobieren können, ob sie nach so langer Zeit noch keimen. Die neuen Samen derselben Sorten erhöhen zugleich die Chance, dass tatsächlich Blumen wachsen. So bewahrt die Klasse die Erinnerung und kann den Garten trotzdem zuverlässig neu anlegen.
-<!-- lia-llm:alternative -->
-Die aufbewahrten Tütchen bleiben als Erinnerung an Mara und den früheren Schulgarten erhalten. Mit einem Teil der alten Samen prüft die Klasse, ob sie nach vielen Jahren noch keimfähig sind. Zusätzlich gepflanzte neue Samen derselben Sorten sorgen dafür, dass auch bei erfolglosen alten Samen Blumen wachsen können. Diese Lösung verbindet den Schutz des Fundes mit dem praktischen Wiederaufbau des Gartens.
-<!-- lia-llm:alternative -->
-Einige Samen werden nicht verwendet, damit ein Stück der historischen Entdeckung dauerhaft bewahrt wird. Die übrigen alten Samen kommen in die Erde, weil ihre Keimfähigkeit nur so erprobt werden kann. Neue Samen derselben Arten dienen als Absicherung für den Fall, dass die alten Samen nicht mehr wachsen. Dadurch bleiben Erinnerung und Aussicht auf einen blühenden Garten gleichermaßen erhalten.
-<!-- lia-llm:alternative -->
-Die Klasse möchte weder alle alten Tütchen verbrauchen noch vollständig auf die alten Samen verzichten. Ein Teil wird als Zeugnis von Maras Geschichte aufgehoben, während ein anderer Teil einen Keimversuch ermöglicht. Die neuen Samen erhöhen die Wahrscheinlichkeit, dass die vorgesehenen Blumenarten tatsächlich im Garten erscheinen. Das Vorgehen ist sinnvoll, weil es Vergangenheit und Neuanfang miteinander verbindet.
-<!-- lia-llm:alternative -->
-Durch das Aufbewahren einiger Tütchen schützt die Klasse einen besonderen Teil der Schulgeschichte. Das Einpflanzen anderer alter Samen zeigt, ob sie nach der langen Lagerung noch keimen können. Weil dieses Ergebnis unsicher ist, werden daneben neue Samen derselben Sorten ausgesät. So geht die Erinnerung nicht verloren und der neue Garten kann trotzdem gelingen.
-<!-- lia-llm:alternative -->
-Einige alte Samentütchen bleiben als Erinnerungsstücke an Mara unangetastet. Mit den restlichen alten Samen versuchen die Kinder, den früheren Garten unmittelbar weiterzuführen. Neue Samen derselben Sorten gleichen das Risiko aus, dass die alten Samen nicht mehr keimen. Die Entscheidung schützt daher einen Teil des Fundes und schafft zugleich gute Bedingungen für neue Blumen.
-<!-- lia-llm:alternative -->
-Die alten Tütchen besitzen einen historischen Wert und werden deshalb teilweise aufbewahrt. Gleichzeitig soll erprobt werden, ob einige der jahrzehntealten Samen noch wachsen können. Da darauf kein Verlass besteht, pflanzt die Klasse zusätzlich frische Samen derselben Arten. Diese Mischung ermöglicht sowohl das Bewahren der Vergangenheit als auch eine erfolgreiche Neuanlage des Gartens.
-<!-- lia-llm:alternative -->
-Mit dem Aufheben einiger Tütchen bleibt Maras ursprünglicher Fund für die Zukunft erhalten. Die ausgesäten alten Samen geben die Möglichkeit, ihre Keimfähigkeit zu testen und vielleicht Maras Pflanzen wieder wachsen zu lassen. Die neuen Samen stellen sicher, dass bei einem Misserfolg dennoch Blumen derselben Sorten entstehen. Deshalb ist die Lösung vorsichtig, sinnvoll und der Geschichte des Gartens angemessen.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -211,22 +204,17 @@ Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ **E
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ Erkläre, was dieser Satz bedeutet und warum die Herkunft der Kornblume dafür nicht entscheidend ist.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ Erkläre, was dieser Satz bedeutet und warum die Herkunft der Kornblume dafür nicht entscheidend ist.`)
+<!-- lia-llm:criterion -->
+Das Weiterwachsen ist über das Pflanzenwachstum hinaus bildlich gemeint.
+<!-- lia-llm:criterion -->
+Die neue Klasse greift Maras Gartenidee auf.
+<!-- lia-llm:criterion -->
+Die Kinder legen den zerstörten Garten neu an.
+<!-- lia-llm:criterion -->
+Die Herkunft der Kornblume ist unerheblich, weil die Pflanzung alter wie neuer Samen auf Maras Botschaft zurückgeht.
+<!-- lia-llm:solution -->
 Der Satz bezieht sich nicht nur auf die gewachsene Kornblume. Maras Wunsch wird viele Jahre später von einer neuen Schulklasse aufgenommen und fortgeführt. Die Kinder legen den zerstörten Garten neu an und beschäftigen sich mit seiner Geschichte. Deshalb ist es nicht entscheidend, ob die Blume aus einem alten oder einem neuen Samen stammt: Maras Idee und ihre Erinnerung leben in jedem Fall weiter.
-<!-- lia-llm:alternative -->
-Das Weiterwachsen ist bildlich zu verstehen und meint neben der Blume vor allem Maras Idee. Die neue Klasse greift ihren Wunsch auf und gestaltet wieder einen Garten an der alten Bank. Dadurch werden ihre Geschichte und ihr Vorhaben fortgesetzt. Ob die Kornblume aus einem alten oder neuen Samen stammt, ändert nichts daran, dass Maras Botschaft die Kinder erreicht hat.
-<!-- lia-llm:alternative -->
-Maras Botschaft lebt weiter, weil die Kinder den früheren Plan verstehen und selbst umsetzen. Sie erneuern den Garten und erinnern damit an Mara und ihre damalige Klasse. Die Kornblume ist ein sichtbares Zeichen dieses Neuanfangs. Ihre genaue Herkunft ist unwichtig, da sowohl alte als auch neue Samen aufgrund von Maras Nachricht gepflanzt wurden.
-<!-- lia-llm:alternative -->
-Der Satz verbindet das tatsächliche Wachstum der Kornblume mit dem Fortbestehen einer Erinnerung. Maras Bitte bewegt die heutige Klasse dazu, den zerstörten Garten neu anzulegen. Damit wird ihr unvollendetes Vorhaben Jahrzehnte später weitergeführt. Entscheidend ist diese Wirkung der Botschaft und nicht, ob die Blume aus einem alten oder einem neuen Samen entstanden ist.
-<!-- lia-llm:alternative -->
-Mit der weitergewachsenen Botschaft ist gemeint, dass Maras Wunsch von anderen Kindern übernommen wurde. Die Klasse setzt ihre Idee um, kümmert sich um den Garten und bewahrt die Geschichte des Ortes. Die einzelne Kornblume zeigt, dass daraus etwas Neues entstanden ist. Ob sie aus einem alten oder einem neuen Samen gewachsen ist, spielt keine Rolle, weil beide ohne Maras Fund nicht an dieser Stelle gepflanzt worden wären.
-<!-- lia-llm:alternative -->
-Nicht nur eine Pflanze, sondern auch Maras Hoffnung wächst am Ende weiter. Ihre Nachricht führt dazu, dass eine spätere Schulklasse den Garten wiederherstellt und sich an die frühere Klasse erinnert. Dadurch wird das begonnene Projekt fortgesetzt. Ob die Blume aus dem alten Bestand oder aus neu gekauften Samen stammt, ist für diese Weitergabe der Idee unerheblich.
-<!-- lia-llm:alternative -->
-Die Formulierung besitzt eine wörtliche und eine übertragene Bedeutung. Wörtlich blüht eine Kornblume, übertragen lebt Maras Plan für den Garten in den Handlungen der Kinder weiter. Die Klasse vollendet, was Mara und ihre Mitschülerinnen und Mitschüler begonnen hatten. Darum zählt die erneuerte Verbindung zur Vergangenheit mehr als die Frage, ob die Blume aus einem alten oder einem neuen Samen stammt.
-<!-- lia-llm:alternative -->
-Maras Nachricht hat nach vielen Jahren neue Kinder zum Handeln gebracht. Sie legen wieder einen Garten um die alte Bank an und geben ihrem damaligen Wunsch dadurch eine Zukunft. Die Kornblume steht als Symbol für diese fortgesetzte Idee. Da der Garten in jedem Fall wegen Maras Botschaft entstand, muss nicht geklärt werden, ob die Blume aus einem alten oder neuen Samen gewachsen ist.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -250,22 +238,13 @@ __$a)\;\;$__ **Beschreibe**, was mit dem Term im Sachzusammenhang berechnet wird
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Jeder Summand gehört zu einem Beet. Anschließend werden die drei Ergebnisse addiert.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, was mit dem Term im Sachzusammenhang berechnet wird.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, was mit dem Term im Sachzusammenhang berechnet wird.`)
+<!-- lia-llm:criterion -->
+Jeder der drei Summanden beschreibt den Umfang eines rechteckigen Beetes.
+<!-- lia-llm:criterion -->
+Die Summe beschreibt die insgesamt benötigte Zaunlänge für alle drei Beete.
+<!-- lia-llm:solution -->
 Die drei Summanden beschreiben die Umfänge der drei Beete. Mit dem Term wird die insgesamt benötigte Zaunlänge berechnet.
-<!-- lia-llm:alternative -->
-Jeder der drei Summanden gibt den Umfang eines rechteckigen Beetes an. Durch die Addition dieser Umfänge wird bestimmt, wie viele Meter Zaun für alle drei Beete zusammen benötigt werden.
-<!-- lia-llm:alternative -->
-Mit den drei Produkten werden zunächst die Umfänge und damit die Zaunlängen für das erste, das zweite und das dritte Beet beschrieben. Ihre Summe entspricht der gesamten Länge des Zauns, der alle drei Beete vollständig umgeben soll.
-<!-- lia-llm:alternative -->
-Die Klammern enthalten jeweils die Länge und die Breite eines Beetes. Jeder vollständige Summand steht für den Umfang des zugehörigen Rechtecks. Durch das Addieren der drei Umfänge ergibt sich die insgesamt erforderliche Zaunlänge.
-<!-- lia-llm:alternative -->
-Der erste Summand gehört zum ersten Beet, der zweite zum zweiten Beet und der dritte zum dritten Beet. In jedem Summanden wird der Umfang und damit die Länge des Zauns um ein einzelnes Beet erfasst. Der gesamte Term beschreibt deshalb den Zaunbedarf für alle drei Beete.
-<!-- lia-llm:alternative -->
-Mit dem Term werden die Umfänge der drei rechteckigen Beete zusammengezählt. Dadurch wird berechnet, wie lang der niedrige Zaun insgesamt sein muss, damit jedes Beet vollständig umschlossen werden kann.
-<!-- lia-llm:alternative -->
-Die drei Teile des Terms berücksichtigen nacheinander sämtliche Seiten des ersten, zweiten und dritten Beetes. Nach der Addition steht das Ergebnis für die gesamte Anzahl an Metern Zaun, die im Schulgarten gebraucht wird.
-<!-- lia-llm:alternative -->
-Für jedes der drei Beete wird durch einen Summanden der Umfang und damit die benötigte Zaunlänge angegeben. Anschließend werden diese drei einzelnen Umfänge addiert. Das Ergebnis des Terms bezeichnet die Länge des Zauns für alle Beete zusammen.
 ```
 
 @ADetails(BE=1;Sachaufgabe, Terme, Beschreiben)
@@ -277,22 +256,15 @@ __$b)\;\;$__ **Erkläre** die Bedeutung des Faktors $2$ in jedem Summanden.
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Es ist zu beachten, wie oft jede Seitenlänge bei einem Rechteck vorkommt.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre die Bedeutung des Faktors 2 in jedem Summanden.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre die Bedeutung des Faktors 2 in jedem Summanden.`)
+<!-- lia-llm:criterion -->
+Bei einem Rechteck kommt die Länge zweimal vor.
+<!-- lia-llm:criterion -->
+Bei einem Rechteck kommt die Breite zweimal vor.
+<!-- lia-llm:criterion -->
+Der Faktor 2 berücksichtigt alle vier Seiten des Beetes.
+<!-- lia-llm:solution -->
 Bei einem Rechteck kommen die Länge und die Breite jeweils zweimal vor. Der Faktor $2$ sorgt deshalb dafür, dass alle vier Seiten des Beetes berücksichtigt werden.
-<!-- lia-llm:alternative -->
-Jedes rechteckige Beet besitzt zwei gleich lange Längsseiten und zwei gleich lange Breitseiten. Der Faktor $2$ verdoppelt daher die Summe aus Länge und Breite, sodass der gesamte Umfang erfasst wird.
-<!-- lia-llm:alternative -->
-In der Klammer stehen eine Länge und eine Breite des jeweiligen Beetes. Da die gegenüberliegenden Rechteckseiten gleich lang sind, werden beide Seitenlängen jeweils zweimal benötigt. Diese Verdopplung wird durch den Faktor $2$ ausgedrückt und ergibt den vollständigen Umfang.
-<!-- lia-llm:alternative -->
-Der Faktor $2$ zeigt, dass jede in der Klammer genannte Seitenlänge am rechteckigen Beet doppelt vorkommt. So werden zwei Längen und zwei Breiten und damit alle vier Seiten in die Zaunlänge einbezogen.
-<!-- lia-llm:alternative -->
-Bei jedem Beet gibt es zu jeder Längsseite eine gleich lange gegenüberliegende Seite und ebenso zwei gleich lange Breitseiten. Deshalb wird die Summe aus Länge und Breite mit $2$ multipliziert. Auf diese Weise entsteht der Umfang des Rechtecks.
-<!-- lia-llm:alternative -->
-Die Klammer berücksichtigt zunächst nur die Länge und die Breite des Beetes. Der Faktor $2$ ergänzt die beiden gegenüberliegenden Seiten mit denselben Längen. Dadurch werden alle Seiten des rechteckigen Beetes erfasst.
-<!-- lia-llm:alternative -->
-Ein Rechteck hat seine Länge zweimal und seine Breite ebenfalls zweimal. Mit der Multiplikation durch $2$ wird aus einer Länge und einer Breite die Summe aller vier Beetseiten. Der jeweilige Summand beschreibt somit einen vollständigen Beetumfang.
-<!-- lia-llm:alternative -->
-Der Faktor $2$ steht für die zwei Seitenpaare eines rechteckigen Beetes. Länge und Breite werden verdoppelt, weil jeweils auch die gleich lange gegenüberliegende Seite zum Zaun gehört. Ohne diesen Faktor wäre nur die Hälfte des Umfangs berücksichtigt.
 ```
 
 @ADetails(BE=1;Sachaufgabe, Terme, Erklären)
@@ -333,22 +305,19 @@ Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? **Erkläre
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? Erkläre, wie trotzdem ein geeigneter Ersatz entstand und welche Bedingung dabei beachtet werden musste.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? Erkläre, wie trotzdem ein geeigneter Ersatz entstand und welche Bedingung dabei beachtet werden musste.`)
+<!-- lia-llm:criterion -->
+Ein geplatztes Heizungsrohr verursachte einen Wasserschaden in der Bibliothek.
+<!-- lia-llm:criterion -->
+Wegen des Wasserschadens waren die Bibliotheksräume für die Lesung nicht nutzbar.
+<!-- lia-llm:criterion -->
+Die freie Turnhalle diente als Ersatzort.
+<!-- lia-llm:criterion -->
+Die Klasse richtete die Turnhalle gemeinsam als vorläufigen Leseraum ein.
+<!-- lia-llm:criterion -->
+Alle Fluchtwege mussten frei bleiben.
+<!-- lia-llm:solution -->
 Die Lesung konnte wegen eines geplatzten Heizungsrohres und der dadurch nassen Räume nicht in der Bibliothek stattfinden. Mira schlug die am Wochenende freie Turnhalle als vorübergehenden Lesesaal vor. Die Klasse transportierte die trockenen Bücher dorthin und richtete den Raum mit Tischen, Schildern, Matten und Bänken ein. Herr Kroll erlaubte diese Lösung unter der Bedingung, dass alle Fluchtwege frei blieben.
-<!-- lia-llm:alternative -->
-Ein Rohrbruch hatte Wasser durch die Decke der Bibliothek laufen lassen, deshalb mussten die betroffenen Räume geschlossen werden. Auf Miras Idee hin nutzten die Kinder die leere Turnhalle und bauten dort einen provisorischen Lesesaal auf. Bücher und Sitzmöglichkeiten wurden in die Halle gebracht. Dabei durften die Fluchtwege nicht zugestellt werden.
-<!-- lia-llm:alternative -->
-Wegen des Wasserschadens war der Lesesaal der Bibliothek vorerst nicht benutzbar. Mira erkannte, dass die benachbarte Turnhalle frei war, und die Klasse richtete sie gemeinsam für die Veranstaltung her. Eva Kern konnte dort zwischen Büchern, Matten und Bänken lesen. Voraussetzung für die Zustimmung des Hausmeisters waren freie Fluchtwege.
-<!-- lia-llm:alternative -->
-Das geplatzte Heizungsrohr hatte den Lesesaal durchnässt, weshalb die Bibliothek die Veranstaltung dort nicht durchführen konnte. Mira brachte die freie Turnhalle als Ersatzort ins Gespräch. Die Kinder schufen mit den trockenen Büchern, Schildern und Sitzplätzen einen neuen Leseraum. Dabei musste nach Herrn Krolls Vorgabe jeder Fluchtweg offen bleiben.
-<!-- lia-llm:alternative -->
-In der Bibliothek standen nach dem Rohrbruch Pfützen, und die nassen Räume mussten geschlossen werden. Statt die Lesung abzusagen, schlug Mira einen Umzug in die benachbarte Turnhalle vor. Dort richtete die Klasse aus Büchern, Tischen, Matten und Bänken einen vorläufigen Lesesaal ein. Der Hausmeister verlangte aus Sicherheitsgründen freie Fluchtwege.
-<!-- lia-llm:alternative -->
-Der Wasserschaden machte den ursprünglichen Lesesaal unbrauchbar, obwohl die Bücher im unteren Magazin trocken geblieben waren. Die leere Turnhalle bot deshalb eine Möglichkeit, die Veranstaltung zu retten. Gemeinsam transportierten und ordneten die Kinder die Bücher und bereiteten Sitzplätze für die Gäste vor. Herr Kroll stimmte nur zu, wenn die Fluchtwege nicht versperrt wurden.
-<!-- lia-llm:alternative -->
-Weil Wasser aus einem beschädigten Heizungsrohr durch die Decke gelaufen war, durfte die Bibliothek vorerst nicht genutzt werden. Mira entwickelte die Idee, die Lesung in der freien Turnhalle stattfinden zu lassen. Durch die gemeinsame Arbeit der Klasse entstand dort ein provisorischer Lesesaal mit geordneten Büchern und Sitzgelegenheiten. Alle Aufbauten mussten so stehen, dass die Fluchtwege frei blieben.
-<!-- lia-llm:alternative -->
-Die nassen Räume der Bibliothek waren nach dem nächtlichen Rohrbruch geschlossen, daher fehlte zunächst ein Veranstaltungsort. Mira schlug die Turnhalle vor, und Herr Kroll gab dafür unter einer Sicherheitsauflage seine Zustimmung. Die Klasse verwandelte die Halle mit Büchern, Beschilderung, Bänken und Kissen in einen geeigneten Ersatz. Als wichtige Bedingung durften keine Fluchtwege blockiert werden.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -389,22 +358,17 @@ Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? **
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? Erkläre außerdem, weshalb seine zusätzlichen Bildzeichen besonders hilfreich sind.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? Erkläre außerdem, weshalb seine zusätzlichen Bildzeichen besonders hilfreich sind.`)
+<!-- lia-llm:criterion -->
+Nikos offenes Eingeständnis ermöglicht die Korrektur der falsch sortierten Bücher.
+<!-- lia-llm:criterion -->
+Die Gruppe überprüft zusätzlich die Buchstaben auf den Buchrücken.
+<!-- lia-llm:criterion -->
+Die Bildzeichen ermöglichen eine Orientierung ohne sichere Farberkennung.
+<!-- lia-llm:criterion -->
+Die Bildzeichen erleichtern Emil die Orientierung, weil er manche Farben schwer unterscheiden kann.
+<!-- lia-llm:solution -->
 Niko spricht die verwechselten Farben offen an, sodass die falsch abgestellten Naturbücher rechtzeitig entdeckt und richtig sortiert werden können. Danach vergleicht die Gruppe zusätzlich die Buchstaben auf den Buchrücken und verlässt sich nicht mehr nur auf Farben. Nikos Pflanzen- und Kompasszeichen machen die Bereiche noch eindeutiger. Sie helfen besonders Emil, weil er manche Farben nur schwer unterscheiden kann.
-<!-- lia-llm:alternative -->
-Durch Nikos ehrliches Geständnis bleibt der Sortierfehler nicht unbemerkt und kann gemeinsam behoben werden. Die Kinder ergänzen ihre Kontrolle mithilfe der Beschriftungen auf den Buchrücken. Niko kennzeichnet Natur- und Reisebücher außerdem mit leicht erkennbaren Bildern. Dadurch funktioniert die Ordnung auch für Personen, die Farben nicht sicher unterscheiden können.
-<!-- lia-llm:alternative -->
-Hätte Niko die falschen Schilder nur überklebt, wären die beiden vertauschten Kisten möglicherweise am falschen Ort geblieben. Seine Offenheit führt zu einer genaueren Prüfung und zu einem verbesserten Ordnungssystem. Pflanze und Kompass geben neben Farbe und Schrift einen weiteren Hinweis. Davon profitiert Emil, und zugleich können alle Besucher die Bereiche schneller erkennen.
-<!-- lia-llm:alternative -->
-Weil Niko seinen Fehler zugibt, kann die Gruppe die falsch eingeordneten Bücher finden und neu sortieren. Zusätzlich werden nun die Buchstaben auf den Buchrücken kontrolliert. Mit Pflanze und Kompass ergänzt Niko das Farbsystem um verständliche Bilder. Diese Zeichen ermöglichen besonders Emil eine sichere Unterscheidung der beiden Bereiche.
-<!-- lia-llm:alternative -->
-Nikos Ehrlichkeit verhindert, dass die Natur- und Reisebücher dauerhaft vertauscht bleiben. Die Klasse entwickelt aus dem Fehler eine genauere Kontrolle mit Farben, Schrift und Bildern. Das Pflanzensymbol weist auf Naturbücher hin, während der Kompass die Reisebücher kennzeichnet. Emil kann sich daran orientieren, obwohl ihm die Unterscheidung bestimmter Farben schwerfällt.
-<!-- lia-llm:alternative -->
-Durch das offene Ansprechen des Versehens wird nicht nur der aktuelle Sortierfehler berichtigt. Die Kinder erkennen zugleich, dass Farben allein keine zuverlässige Kennzeichnung für alle Personen sind. Nikos Bildzeichen schaffen deshalb einen zweiten sichtbaren Zugang zu den Bereichen. Vor allem Emil findet die Bücher dadurch unabhängig von der Farbe richtig.
-<!-- lia-llm:alternative -->
-Das verschwiegene Überkleben hätte die Ursache der falsch stehenden Kisten nicht beseitigt. Durch Nikos Erklärung prüft die Gruppe dagegen alle Angaben erneut und ordnet die Bücher korrekt ein. Pflanze und Kompass unterscheiden Natur- und Reisebücher auch ohne Farberkennung. So wird das System genauer und zugleich für Emil leichter zugänglich.
-<!-- lia-llm:alternative -->
-Niko übernimmt Verantwortung, sodass die Gruppe den Fehler gemeinsam korrigieren und ihre Arbeitsweise verbessern kann. Künftig werden neben den Klebezetteln auch die Beschriftungen der Bücher beachtet. Die gezeichneten Symbole liefern eine weitere eindeutige Orientierung. Besonders für Emil sind sie nützlich, da er sich nicht allein auf die schwer unterscheidbaren Farben verlassen muss.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -417,22 +381,15 @@ Was bedeutet Nikos letzter Satz über Geschichten? **Erkläre**, wie die Ereigni
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Was bedeutet Nikos letzter Satz über Geschichten? Erkläre, wie die Ereignisse in der Turnhalle diese Aussage bestätigen.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Was bedeutet Nikos letzter Satz über Geschichten? Erkläre, wie die Ereignisse in der Turnhalle diese Aussage bestätigen.`)
+<!-- lia-llm:criterion -->
+Menschen halten Geschichten lebendig, indem sie sie anderen vermitteln.
+<!-- lia-llm:criterion -->
+Die Klasse verwandelt die Turnhalle durch gemeinsames Handeln in einen Ort für Geschichten.
+<!-- lia-llm:criterion -->
+In der Turnhalle werden Geschichten einem Publikum präsentiert.
+<!-- lia-llm:solution -->
 Nikos Satz bedeutet, dass Bücher allein noch keine lebendige Gemeinschaft schaffen. Erst Menschen bewahren Geschichten, teilen sie mit anderen und schaffen Orte zum Lesen und Zuhören. Die Klasse rettet die Bücher, richtet gemeinsam einen Ersatzraum ein und macht die alten Empfehlungen als Kopien zugänglich. Auch Evas Lesung und Nikos Vortrag zeigen, wie Geschichten durch gemeinsames Handeln einen neuen Platz erhalten.
-<!-- lia-llm:alternative -->
-Geschichten benötigen Bücher als Träger, doch ihre Bedeutung entsteht erst durch Leserinnen, Leser und Zuhörende. In der Turnhalle sorgen viele Menschen dafür, dass die geplante Lesung trotz des Wasserschadens stattfindet. Die Kinder bewahren außerdem das alte Empfehlungsheft und geben seinen Inhalt weiter. Deshalb wird die Halle durch die Gemeinschaft tatsächlich zu einem Platz für Geschichten.
-<!-- lia-llm:alternative -->
-Der letzte Satz hebt hervor, dass ein Lesesaal nicht nur aus Regalen und Büchern besteht. Die Klasse gestaltet aus einer Turnhalle einen lebendigen Ort, indem sie zusammenarbeitet, Bücher ordnet und alte Empfehlungen zeigt. Eva Kern liest dort vor, und Niko teilt später selbst einen Text mit den Gästen. Diese Handlungen geben den Geschichten Raum und führen Menschen zusammen.
-<!-- lia-llm:alternative -->
-Niko drückt aus, dass Geschichten erst durch Menschen bewahrt, gelesen und weitergegeben werden. Die Kinder lassen die Lesung trotz der geschlossenen Bibliothek nicht ausfallen, sondern richten gemeinsam die Turnhalle her. Durch die Kopien bleibt auch das alte Empfehlungsheft für Besucher zugänglich. Evas und Nikos Vorträge erfüllen den Ersatzraum schließlich mit Geschichten.
-<!-- lia-llm:alternative -->
-Der Satz meint, dass ein Buch einen Gegenstand darstellt, während Menschen seinen Inhalt lebendig werden lassen. Genau das geschieht in der Turnhalle: Die Klasse schafft einen neuen Leseort und lädt Familien zum Zuhören ein. Außerdem schützt sie das alte Heft und teilt dessen Empfehlungen mithilfe von Kopien. So erhalten neue und alte Geschichten erneut Aufmerksamkeit.
-<!-- lia-llm:alternative -->
-Für Geschichten reicht ihr gedrucktes Vorhandensein nicht aus; sie brauchen eine Gemeinschaft, die sie liest und weiterträgt. Die Schülerinnen und Schüler retten die Veranstaltung durch ihre gemeinsame Arbeit in der Turnhalle. Eva Kern erzählt dort ihre Geschichte, und Niko liest aus den früheren Empfehlungen vor. Dadurch wird selbst die Sporthalle vorübergehend zu einem echten Ort des Lesens.
-<!-- lia-llm:alternative -->
-Nikos Schild verdeutlicht, dass Menschen jedem Raum durch Lesen, Erzählen und Zuhören eine Bedeutung geben können. Die Turnhalle war zunächst kein Lesesaal, wurde aber durch die Arbeit der Klasse entsprechend gestaltet. Die Autorin, die Familien und Niko teilen dort Geschichten miteinander. Auch das alte Heft bekommt durch die angefertigten Kopien ein neues Publikum.
-<!-- lia-llm:alternative -->
-Der Schlusssatz beschreibt die gemeinsame Verantwortung für Geschichten. Die Klasse schützt Bücher, ordnet sie und ermöglicht trotz des Wasserschadens eine öffentliche Lesung. Zugleich wird der Inhalt des empfindlichen alten Heftes bewahrt und für andere sichtbar gemacht. Damit zeigen die Ereignisse, dass engagierte Menschen Geschichten erhalten und ihnen immer wieder neue Orte geben können.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -454,22 +411,19 @@ $$
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Zuerst wird die Anzahl der Bücher in den sechs Kisten berechnet. Danach werden die einzelnen Bücher addiert. Zum Schluss ist zu erklären, wofür das Ergebnis steht.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wie mit dem Term $6\cdot24+35$ gerechnet wird, und interpretiere das Ergebnis im Sachzusammenhang. Gehe dabei auf beide Rechenschritte ein.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wie mit dem Term $6\cdot24+35$ gerechnet wird, und interpretiere das Ergebnis im Sachzusammenhang. Gehe dabei auf beide Rechenschritte ein.`)
+<!-- lia-llm:criterion -->
+Die sechs Kisten mit jeweils 24 Büchern werden durch 6 · 24 erfasst.
+<!-- lia-llm:criterion -->
+Das Produkt 144 ist die Anzahl der Bücher in den Kisten.
+<!-- lia-llm:criterion -->
+Die 35 einzeln gelieferten Bücher werden addiert.
+<!-- lia-llm:criterion -->
+Die Rechnung ergibt 144 + 35 = 179.
+<!-- lia-llm:criterion -->
+Das Ergebnis 179 ist die Gesamtzahl der neuen Bücher für die Schulbibliothek.
+<!-- lia-llm:solution -->
 Zuerst wird die Anzahl der Bücher in den sechs Kisten berechnet. Dazu werden $6$ und $24$ multipliziert. Das Produkt beträgt $144$. Anschließend werden die $35$ einzelnen Bücher addiert. Es gilt $144+35=179$. Das Ergebnis $179$ gibt die Gesamtzahl der neuen Bücher für die Schulbibliothek an.
-<!-- lia-llm:alternative -->
-In jeder der $6$ Kisten liegen $24$ Bücher. Deshalb wird zuerst $6\cdot24=144$ gerechnet. Zu diesen $144$ Büchern kommen noch $35$ einzelne Bücher hinzu. Durch $144+35=179$ erhält man die Gesamtzahl. Die Schulbibliothek bekommt insgesamt $179$ neue Bücher.
-<!-- lia-llm:alternative -->
-Der Term wird in zwei Schritten berechnet. Zuerst werden die Bücher aus den Kisten mit $6\cdot24=144$ bestimmt. Danach werden die weiteren $35$ Bücher addiert: $144+35=179$. Insgesamt werden also $179$ neue Bücher an die Schulbibliothek geliefert.
-<!-- lia-llm:alternative -->
-Die Zahl $24$ wird sechsmal genommen, weil es $6$ Kisten mit gleich vielen Büchern gibt. Das ergibt $144$ Bücher. Danach kommen noch $35$ Bücher dazu. $144+35$ ergibt $179$. Das bedeutet, dass die Schulbibliothek insgesamt $179$ neue Bücher erhält.
-<!-- lia-llm:alternative -->
-Mit $6\cdot24$ wird berechnet, wie viele Bücher sich zusammen in allen Kisten befinden. Das sind $144$ Bücher. Die Addition $144+35$ berücksichtigt anschließend die einzelnen Bücher. Das Ergebnis $179$ steht für alle neuen Bücher der Schulbibliothek zusammen.
-<!-- lia-llm:alternative -->
-Zunächst werden sechs Gruppen mit jeweils $24$ Büchern zusammengefasst. Das Produkt $6\cdot24$ beträgt $144$. Anschließend werden die $35$ zusätzlichen Bücher hinzugerechnet. So entsteht die Rechnung $144+35=179$. Daher erhält die Schulbibliothek insgesamt $179$ neue Bücher.
-<!-- lia-llm:alternative -->
-Der erste Rechenschritt ist eine Multiplikation: $6\cdot24=144$. Damit wird die Anzahl der Bücher in den sechs Kisten berechnet. Der zweite Rechenschritt ist die Addition von $35$ weiteren Büchern: $144+35=179$. Die Zahl $179$ ist die Gesamtzahl der gelieferten neuen Bücher für die Schulbibliothek.
-<!-- lia-llm:alternative -->
-Es werden zuerst die $6$ Kisten mit je $24$ Büchern berechnet. Zusammen enthalten sie $144$ Bücher. Danach werden die $35$ Bücher, die nicht in den Kisten sind, dazugerechnet. Insgesamt ergibt sich $179$. Somit kommen $179$ neue Bücher in die Schulbibliothek.
 ```
 
 @ADetails(BE=2;Sachaufgabe, Terme, Beschreiben, Interpretieren)
@@ -664,22 +618,15 @@ Die folgenden Figuren bestehen aus gleich großen Kästchen.
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche zwei aufeinanderfolgende Figuren. Betrachte besonders die vier Enden des Kreuzes.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1,`Beschreibe das Muster so, dass danach Figur 5 gezeichnet werden kann. Gehe darauf ein, wo neue Kästchen hinzukommen und wie viele es in jedem Schritt sind. Nenne außerdem die Anzahl der Kästchen in Figur 5.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Beschreibe das Muster so, dass danach Figur 5 gezeichnet werden kann. Gehe darauf ein, wo neue Kästchen hinzukommen und wie viele es in jedem Schritt sind. Nenne außerdem die Anzahl der Kästchen in Figur 5.`)
+<!-- lia-llm:criterion -->
+Von einer Figur zur nächsten wird jeder der vier Arme des Kreuzes um ein Kästchen verlängert.
+<!-- lia-llm:criterion -->
+Das Verlängern der vier Kreuzarme vergrößert jede folgende Figur um vier Kästchen.
+<!-- lia-llm:criterion -->
+Figur 5 besteht aus 17 Kästchen.
+<!-- lia-llm:solution -->
 Von einer Figur zur nächsten wird jeder der vier Arme des Kreuzes um ein Kästchen verlängert. Dadurch kommen in jedem Schritt vier Kästchen hinzu. Figur 5 besteht deshalb aus $13+4=17$ Kästchen.
-<!-- lia-llm:alternative -->
-Die Figuren bestehen aus $1$, $5$, $9$ und $13$ Kästchen. Die Anzahl erhöht sich jeweils um $4$, weil an jedem Ende des Kreuzes ein neues Kästchen ergänzt wird. Daher besitzt Figur 5 insgesamt $17$ Kästchen.
-<!-- lia-llm:alternative -->
-Oben, unten, links und rechts wird bei jedem Schritt je ein Kästchen angefügt. Das Kreuz wächst also in alle vier Richtungen und erhält immer vier neue Kästchen. Die nächste Figur hat somit $17$ Kästchen.
-<!-- lia-llm:alternative -->
-Bei jeder neuen Figur kommt oben, unten, links und rechts jeweils ein Kästchen dazu. Das sind zusammen vier neue Kästchen. Figur 5 hat deshalb $17$ Kästchen.
-<!-- lia-llm:alternative -->
-Das Kreuz wird bei jedem Schritt an allen vier Enden um ein Kästchen länger. Es kommen also immer vier Kästchen dazu. Nach $13$ Kästchen in Figur 4 folgen $17$ Kästchen in Figur 5.
-<!-- lia-llm:alternative -->
-Für die nächste Figur wird an jede der vier Seiten des Kreuzes noch ein Kästchen gesetzt. So wächst die Anzahl jedes Mal um $4$. Für Figur 5 ergibt sich $13+4=17$.
-<!-- lia-llm:alternative -->
-Figur 1 hat ein Kästchen, Figur 2 hat fünf, Figur 3 hat neun und Figur 4 hat dreizehn. Die Zahl wird immer um vier größer, weil das Kreuz oben, unten, rechts und links erweitert wird. Deshalb hat Figur 5 siebzehn Kästchen.
-<!-- lia-llm:alternative -->
-An den oberen, unteren, linken und rechten Rand kommt immer je ein neues Kästchen. Dadurch sind es in jeder Figur vier Kästchen mehr als vorher. In der fünften Figur sind es $17$ Kästchen.
 ```
 
 @ADetails(BE=2;Geometrische Muster, Figurenfolgen, Beschreiben, LLM-Quiz)
@@ -737,22 +684,19 @@ gehört zu diesem Sachzusammenhang. **Erkläre** die Bedeutung der Zahlen und Re
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Betrachte zuerst die $7$ normalen Sitzreihen und anschließend die zusätzliche Reihe. Erkläre auch, wofür die Summe steht.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $7\cdot24+18$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $7\cdot24+18$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+<!-- lia-llm:criterion -->
+Die Zahl 7 steht für die normalen Sitzreihen.
+<!-- lia-llm:criterion -->
+Die Zahl 24 steht für die Plätze in jeder normalen Sitzreihe.
+<!-- lia-llm:criterion -->
+Die Multiplikation 7 · 24 ergibt 168 Plätze in den normalen Reihen.
+<!-- lia-llm:criterion -->
+Durch die Addition von 18 werden die Plätze der zusätzlichen Reihe berücksichtigt.
+<!-- lia-llm:criterion -->
+Das Ergebnis 186 ist die Gesamtzahl aller Sitzplätze.
+<!-- lia-llm:solution -->
 Die Zahl $7$ steht für die normalen Sitzreihen und die Zahl $24$ für die Plätze in jeder dieser Reihen. Durch $7\cdot24=168$ wird die Anzahl der Plätze in den normalen Reihen berechnet. Die Addition von $18$ berücksichtigt die Plätze in der zusätzlichen Reihe. Das Ergebnis $186$ gibt die Gesamtzahl aller Sitzplätze an.
-<!-- lia-llm:alternative -->
-In jeder der $7$ normalen Reihen befinden sich $24$ Plätze. Deshalb werden $7$ und $24$ multipliziert. Zu den dadurch berechneten $168$ Plätzen werden die $18$ Plätze der zusätzlichen Reihe addiert. Der Term ergibt $186$ und beschreibt damit sämtliche verfügbaren Sitzplätze im Theater.
-<!-- lia-llm:alternative -->
-Der Faktor $7$ bezeichnet die Anzahl der normalen Reihen, der Faktor $24$ die Sitzplätze pro Reihe. Das Produkt $168$ steht somit für alle Plätze dieser Reihen. Der Summand $18$ gehört zur zusätzlichen Reihe. Mit $7\cdot24+18=186$ wird die Gesamtzahl der Sitzplätze berechnet.
-<!-- lia-llm:alternative -->
-Die Multiplikation $7\cdot24$ fasst sieben gleich große Sitzreihen mit je $24$ Plätzen zusammen und ergibt $168$. Das Pluszeichen zeigt, dass die $18$ Plätze vor der Bühne hinzukommen. Insgesamt beschreibt der Term daher $168+18=186$ Sitzplätze.
-<!-- lia-llm:alternative -->
-Die $24$ Plätze einer normalen Reihe werden wegen der $7$ vorhandenen Reihen siebenmal berücksichtigt. Danach werden mit $+18$ die Plätze der zusätzlichen Reihe ergänzt. Der Wert des Terms ist $186$; diese Zahl steht für alle Plätze der Theateraufführung zusammen.
-<!-- lia-llm:alternative -->
-Im Produkt $7\cdot24$ gibt der erste Faktor die Zahl der normalen Reihen und der zweite Faktor deren jeweilige Platzzahl an. So werden zunächst $168$ Plätze berechnet. Zusammen mit den $18$ Plätzen in der vorderen Reihe stehen insgesamt $186$ Sitzplätze zur Verfügung.
-<!-- lia-llm:alternative -->
-Zuerst werden die Plätze der gleich großen Reihen ermittelt: $7$ Reihen mit jeweils $24$ Plätzen ergeben $168$ Plätze. Das Additionszeichen verbindet diese Anzahl mit den weiteren $18$ Plätzen vor der Bühne. Die Summe $186$ bezeichnet die Gesamtzahl der Sitzplätze.
-<!-- lia-llm:alternative -->
-Der Term besteht aus einem Produkt und einer anschließenden Summe. Das Produkt $7\cdot24=168$ beschreibt sämtliche Plätze in den normalen Reihen. Der Summand $18$ erfasst die zusätzliche Reihe. Das Endergebnis $186$ gibt an, wie viele Sitzplätze insgesamt vorhanden sind.
 ```
 
 @ADetails(BE=1;Sachaufgabe, Terme, Erklären, LLM-Quiz)
@@ -770,22 +714,19 @@ gehört ebenfalls zu diesem Sachzusammenhang. **Erkläre**, wie der Term mit der
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Der Ausdruck in der Klammer gibt alle Sitzplätze an. Überlege anschließend, weshalb $26$ abgezogen wird.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(7\cdot24+18)-26$. Gehe auf beide Rechenschritte und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(7\cdot24+18)-26$. Gehe auf beide Rechenschritte und die Bedeutung des Ergebnisses ein.`)
+<!-- lia-llm:criterion -->
+Die Multiplikation 7 · 24 ergibt 168 Plätze in den normalen Reihen.
+<!-- lia-llm:criterion -->
+Durch die Addition von 18 werden die Plätze der zusätzlichen Reihe berücksichtigt.
+<!-- lia-llm:criterion -->
+Der Ausdruck 7 · 24 + 18 ergibt insgesamt 186 Sitzplätze.
+<!-- lia-llm:criterion -->
+Die 26 für Lehrkräfte und Begleitpersonen reservierten Plätze werden abgezogen.
+<!-- lia-llm:criterion -->
+Das Ergebnis 160 ist die Zahl der verbleibenden Plätze für Schülerinnen und Schüler.
+<!-- lia-llm:solution -->
 In der Klammer wird zunächst die Gesamtzahl der Sitzplätze berechnet. Die $7$ normalen Reihen mit jeweils $24$ Plätzen und die $18$ zusätzlichen Plätze ergeben zusammen $186$ Plätze. Danach werden die $26$ für Lehrkräfte und Begleitpersonen reservierten Plätze abgezogen. Das Ergebnis $160$ gibt an, wie viele Plätze für die Schülerinnen und Schüler verbleiben.
-<!-- lia-llm:alternative -->
-Mit $7\cdot24+18=186$ werden zuerst alle Plätze im Theater erfasst. Da $26$ davon für Lehrkräfte und Begleitpersonen vorgesehen sind, werden diese Plätze anschließend subtrahiert. Es gilt $186-26=160$. Somit stehen den Schülerinnen und Schülern $160$ Plätze zur Verfügung.
-<!-- lia-llm:alternative -->
-Das Produkt $7\cdot24$ beschreibt die Plätze in den normalen Reihen. Durch die Addition von $18$ kommen die Plätze der zusätzlichen Reihe hinzu. Von dieser Gesamtzahl werden die $26$ reservierten Plätze abgezogen. Der Wert des Terms beträgt $160$ und entspricht der Anzahl der verbleibenden Plätze für die Schülerinnen und Schüler.
-<!-- lia-llm:alternative -->
-Zunächst werden mit $7\cdot24=168$ die Plätze der normalen Reihen bestimmt. Die zusätzlichen $18$ Plätze erhöhen diese Anzahl auf $186$. Das Minuszeichen zeigt anschließend, dass die $26$ reservierten Plätze nicht für Schülerinnen und Schüler verfügbar sind. Deshalb verbleiben $160$ Plätze.
-<!-- lia-llm:alternative -->
-Der Klammerausdruck fasst alle Sitzplätze zusammen: In den $7$ normalen Reihen mit jeweils $24$ Plätzen befinden sich $168$ Plätze. Dazu kommen $18$ Plätze vor der Bühne. Von den insgesamt $186$ Plätzen werden $26$ Plätze für Lehrkräfte und Begleitpersonen abgezogen. Das Ergebnis $160$ beschreibt die Plätze für die Schülerinnen und Schüler.
-<!-- lia-llm:alternative -->
-Die Faktoren $7$ und $24$ stehen für die Anzahl der normalen Reihen und die Plätze je Reihe. Nach der Addition der $18$ weiteren Plätze ergibt sich die Gesamtzahl $186$. Durch die Subtraktion von $26$ werden die reservierten Plätze berücksichtigt. Übrig bleiben $160$ Plätze für Schülerinnen und Schüler.
-<!-- lia-llm:alternative -->
-Im ersten Rechenschritt wird die gesamte Kapazität des Theaters berechnet: $7\cdot24+18=186$. Im zweiten Schritt werden davon die $26$ Plätze für Lehrkräfte und Begleitpersonen abgezogen. Der Term ergibt $160$ und gibt damit die Zahl der noch verfügbaren Schülerplätze an.
-<!-- lia-llm:alternative -->
-$7$ Reihen mit je $24$ Plätzen liefern zunächst $168$ Sitzplätze. Zusammen mit den $18$ Plätzen der zusätzlichen Reihe sind es $186$ Plätze. Da $26$ Plätze bereits für Begleitpersonen und Lehrkräfte vorgesehen sind, gilt $186-26=160$. Diese $160$ Plätze können von den Schülerinnen und Schülern genutzt werden.
 ```
 
 @ADetails(BE=1;Sachaufgabe, Terme, Erklären, LLM-Quiz)
@@ -844,22 +785,13 @@ __$a)\;\;$__ **Beschreibe**, wie in der Rechnung vorgegangen wird. Nenne beide R
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Nenne zuerst die Multiplikation und danach die Subtraktion.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wie in der Rechnung vorgegangen wird. Nenne beide Rechenschritte.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wie in der Rechnung vorgegangen wird. Nenne beide Rechenschritte.`)
+<!-- lia-llm:criterion -->
+Im ersten Rechenschritt gilt 24 · 36 = 864.
+<!-- lia-llm:criterion -->
+Im zweiten Rechenschritt gilt 864 − 158 = 706.
+<!-- lia-llm:solution -->
 Zuerst werden $24$ und $36$ miteinander multipliziert. Das Produkt ist $864$. Anschließend wird $158$ von $864$ subtrahiert. Das Ergebnis ist $706$.
-<!-- lia-llm:alternative -->
-Im ersten Rechenschritt wird $24\cdot36=864$ berechnet. Dadurch wird die Gesamtzahl der gelieferten Flaschen bestimmt. Danach werden die $158$ verbrauchten Flaschen mit $864-158=706$ abgezogen.
-<!-- lia-llm:alternative -->
-Zunächst werden die $24$ Kisten mit den jeweils $36$ Flaschen multipliziert. So ergeben sich insgesamt $864$ gelieferte Flaschen. Im zweiten Schritt werden davon $158$ Flaschen subtrahiert, sodass $706$ Flaschen verbleiben.
-<!-- lia-llm:alternative -->
-Die Rechnung beginnt mit einer Multiplikation: $24$ Kisten mal $36$ Flaschen ergeben $864$ Flaschen. Anschließend folgt die Subtraktion $864-158$. Nach dem Abzug der verbrauchten Flaschen ergibt sich $706$.
-<!-- lia-llm:alternative -->
-Zuerst wird mit $24\cdot36$ die Anzahl aller Flaschen in den gelieferten Kisten berechnet. Das Produkt beträgt $864$. Danach wird die verbrauchte Menge von $158$ Flaschen abgezogen. Die Differenz beträgt $706$.
-<!-- lia-llm:alternative -->
-Im ersten Schritt werden die Anzahl der Kisten und die Flaschenzahl je Kiste miteinander multipliziert: $24\cdot36=864$. Im zweiten Schritt wird der Verbrauch berücksichtigt: $864-158=706$.
-<!-- lia-llm:alternative -->
-Die $36$ Flaschen einer Kiste werden wegen der $24$ Kisten vierundzwanzigmal berücksichtigt. Das ergibt zunächst $864$ Flaschen. Von dieser Gesamtzahl werden anschließend die $158$ bereits verbrauchten Flaschen subtrahiert. Übrig bleibt das Ergebnis $706$.
-<!-- lia-llm:alternative -->
-Durch die Multiplikation von $24$ und $36$ wird zuerst der gesamte Getränkevorrat von $864$ Flaschen ermittelt. Danach wird mit der Rechnung $864-158$ die am Vormittag verbrauchte Anzahl abgezogen. Als Ergebnis werden $706$ erhalten.
 ```
 
 ---
@@ -869,22 +801,11 @@ __$b)\;\;$__ **Interpretiere** das Ergebnis $706$ auf Grundlage des Textes.
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Formuliere, wofür die Zahl $706$ im Zusammenhang mit dem Schulfest steht.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Interpretiere das Ergebnis $706$ auf Grundlage des Textes.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Interpretiere das Ergebnis $706$ auf Grundlage des Textes.`)
+<!-- lia-llm:criterion -->
+Nach dem Verbrauch am Vormittag sind noch 706 Flaschen Mineralwasser für das Schulfest übrig.
+<!-- lia-llm:solution -->
 Nach dem Verbrauch am Vormittag sind noch $706$ Flaschen Mineralwasser für das Schulfest übrig.
-<!-- lia-llm:alternative -->
-Die Zahl $706$ gibt an, wie viele Mineralwasserflaschen nach dem Verbrauch von $158$ Flaschen noch für das Schulfest vorhanden sind.
-<!-- lia-llm:alternative -->
-Für den weiteren Verlauf des Schulfestes stehen nach dem Vormittag noch $706$ Flaschen Mineralwasser zur Verfügung.
-<!-- lia-llm:alternative -->
-Von den ursprünglich gelieferten Mineralwasserflaschen verbleiben nach dem Verbrauch am Vormittag insgesamt $706$ Flaschen.
-<!-- lia-llm:alternative -->
-Das Ergebnis bedeutet, dass nach Abzug der am Vormittag verbrauchten Flaschen noch ein Vorrat von $706$ Mineralwasserflaschen vorhanden ist.
-<!-- lia-llm:alternative -->
-Nach dem Ende des Vormittags sind von der gesamten Lieferung noch $706$ Flaschen Mineralwasser für die weitere Feier verfügbar.
-<!-- lia-llm:alternative -->
-Die berechneten $706$ Flaschen bilden den Restbestand an Mineralwasser, nachdem beim Schulfest bereits $158$ Flaschen verbraucht wurden.
-<!-- lia-llm:alternative -->
-Mit der Zahl $706$ wird die Anzahl der noch nicht verbrauchten Mineralwasserflaschen beschrieben, die beim Schulfest übrig bleibt.
 ```
 
 ## Aufgabe 5: Leseverständnis
@@ -1008,42 +929,43 @@ Vor der Reparatur musste die Gemeinde wissen, ob Fledermäuse im Dach waren. Ohn
 <!-- data-solution-button="off" data-llm-textarea="10" -->
 [[Antwort]]
 [[?]] Notiere vor dem Schreiben Stichpunkte: Dienstag, 10:25 Uhr, Schulhof, Mira und Ben, Ball, Mülltonnen, Bremsen, Fahrradständer, Verletzungen und Hilfe. Schreibe dann kurze Sätze in dieser Reihenfolge.
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Schreibe aus der Zeugenaussage einen sachlichen Unfallbericht mit einer Überschrift und etwa 100 bis 130 Wörtern. Nenne zuerst den Tag, die Uhrzeit, den Ort und wer dabei war. Schreibe dann der Reihe nach, wie es zu dem Unfall kam, was genau geschah und was danach passierte. Nenne auch Miras Verletzungen und die Hilfe. Nutze das Präteritum. Verwende keine wörtliche Rede. Erfinde nichts und schreibe nicht deine Meinung.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Schreibe aus der Zeugenaussage einen sachlichen Unfallbericht mit einer Überschrift und etwa 100 bis 130 Wörtern. Nenne zuerst den Tag, die Uhrzeit, den Ort und wer dabei war. Schreibe dann der Reihe nach, wie es zu dem Unfall kam, was genau geschah und was danach passierte. Nenne auch Miras Verletzungen und die Hilfe. Nutze das Präteritum. Verwende keine wörtliche Rede. Erfinde nichts und schreibe nicht deine Meinung.`)
+<!-- lia-llm:criterion -->
+Der Unfall geschah am Dienstag, dem 17. September.
+<!-- lia-llm:criterion -->
+Der Unfall geschah gegen 10:25 Uhr.
+<!-- lia-llm:criterion -->
+Der Unfallort war der gepflasterte Weg zwischen Sporthalle und Fahrradständern.
+<!-- lia-llm:criterion -->
+Mira aus der 6b war mit ihrem Tretroller beteiligt.
+<!-- lia-llm:criterion -->
+Ben aus der 6a lief einem roten Ball auf den Weg nach.
+<!-- lia-llm:criterion -->
+Zwei Mülltonnen verdeckten Mira die Sicht auf Ben.
+<!-- lia-llm:criterion -->
+Mira bemerkte Ben erst spät.
+<!-- lia-llm:criterion -->
+Mira bremste sofort.
+<!-- lia-llm:criterion -->
+Mira lenkte stark nach rechts.
+<!-- lia-llm:criterion -->
+Der Roller berührte Ben nicht.
+<!-- lia-llm:criterion -->
+Das Vorderrad des Rollers stieß gegen einen Fahrradständer.
+<!-- lia-llm:criterion -->
+Mira fiel auf die rechte Seite.
+<!-- lia-llm:criterion -->
+Mira erlitt eine Schürfwunde am rechten Knie.
+<!-- lia-llm:criterion -->
+Miras linke Hand schmerzte.
+<!-- lia-llm:criterion -->
+Herr Lenz versorgte Mira.
+<!-- lia-llm:criterion -->
+Miras Mutter holte sie später ab.
+<!-- lia-llm:solution -->
 Unfall mit dem Tretroller
 
-Am Dienstag, dem 17. September, passierte gegen 10:25 Uhr ein Unfall auf dem Schulhof. Es war die erste große Pause. Mira aus der 6b fuhr mit ihrem Tretroller vom Schultor zu den Fahrradständern. Ben aus der 6a lief einem roten Ball nach. Zwei Mülltonnen verdeckten Mira die Sicht. Deshalb sah sie Ben erst spät. Sie klingelte, bremste und lenkte nach rechts. Der Roller traf Ben nicht. Das Vorderrad stieß aber gegen einen Fahrradständer. Mira fiel hin und schürfte sich das rechte Knie auf. Ihre linke Hand tat weh. Herr Lenz half ihr und brachte sie ins Sekretariat. Miras Mutter holte sie später ab. Der Hausmeister stellte die Mülltonnen an einen anderen Platz.
-<!-- lia-llm:alternative -->
-Sturz auf dem Schulhof
-
-Am Dienstag, dem 17. September, passierte in der ersten großen Pause ein Unfall. Es war etwa 10:25 Uhr. Mira aus der 6b fuhr mit ihrem Tretroller vom Schultor zu den Fahrradständern. Ben aus der 6a rannte einem roten Ball von der Wiese nach. Zwei Mülltonnen verdeckten die Sicht. Deshalb sah Mira Ben erst spät. Mira klingelte, bremste und wich nach rechts aus. Sie traf Ben nicht. Das Vorderrad des Rollers stieß aber gegen einen Fahrradständer. Mira fiel auf die rechte Seite. Ihr rechtes Knie war aufgeschürft, und ihre linke Hand tat weh. Herr Lenz versorgte die Wunde und brachte Mira ins Sekretariat. Ihre Mutter holte sie später ab. Ben blieb unverletzt.
-<!-- lia-llm:alternative -->
-Unfall am Fahrradständer
-
-Am Dienstag, dem 17. September, war gegen 10:25 Uhr die erste große Pause. Auf dem Weg zwischen Sporthalle und Fahrradständern passierte ein Unfall. Mira aus der 6b fuhr dort mit ihrem Tretroller vom Schultor zu den Fahrradständern. Ein roter Ball rollte von der Wiese auf den Weg. Ben aus der 6a lief hinterher. Wegen der zwei Mülltonnen sah Mira ihn erst spät. Sie klingelte, bremste und drehte den Lenker nach rechts. Das Vorderrad stieß gegen einen Fahrradständer. Mira fiel hin, traf Ben aber nicht. Sie hatte eine Schürfwunde am rechten Knie. Ihre linke Hand tat weh. Herr Lenz klebte ein Pflaster auf die Wunde und brachte Mira ins Sekretariat. Dort rief man ihre Mutter an. Sie holte Mira später ab.
-<!-- lia-llm:alternative -->
-Mira stürzt mit dem Roller
-
-Am Dienstag, dem 17. September, fuhr Mira aus der 6b gegen 10:25 Uhr mit ihrem Tretroller über den Schulhof. Es war die erste große Pause. Auf dem Weg vor der Sporthalle lief Ben aus der 6a einem roten Ball nach. Zwei Mülltonnen standen so, dass Mira ihn nicht rechtzeitig sehen konnte. Als sie Ben bemerkte, klingelte sie und bremste. Dann lenkte sie nach rechts. Mira fuhr nicht gegen Ben. Ihr Vorderrad traf aber den Rand eines Fahrradständers. Sie fiel auf die rechte Seite. Ihr Knie war aufgeschürft, und ihre linke Hand tat weh. Der Griff des Rollers bekam Kratzer. Herr Lenz half Mira und brachte sie ins Sekretariat. Ein Rettungswagen musste nicht kommen. Ihre Mutter holte sie später ab.
-<!-- lia-llm:alternative -->
-Unfall in der großen Pause
-
-In der ersten großen Pause am Dienstag, dem 17. September, passierte gegen 10:25 Uhr ein Unfall. Mira aus der 6b fuhr mit ihrem Tretroller vom Schultor zu den Fahrradständern. Ben aus der 6a kam von der Wiese und lief einem roten Ball hinterher. Wegen der zwei Mülltonnen sah Mira ihn erst spät. Sie klingelte, bremste und wich nach rechts aus. Das Vorderrad des Rollers stieß gegen einen Fahrradständer. Mira fiel hin. Ben blieb unverletzt. Mira schürfte sich das rechte Knie auf, und ihre linke Hand tat weh. Herr Lenz versorgte sie und brachte sie ins Sekretariat. Später holte ihre Mutter sie ab. Der Hausmeister stellte die Mülltonnen um. Der Weg wurde an diesem Vormittag für Roller gesperrt.
-<!-- lia-llm:alternative -->
-Roller stößt gegen Fahrradständer
-
-Am Dienstag, dem 17. September, passierte gegen 10:25 Uhr ein Unfall in der ersten großen Pause. Mira aus der 6b fuhr mit ihrem Tretroller vom Schultor zu den Fahrradständern. Ein roter Ball rollte von der Wiese auf den Weg. Ben aus der 6a lief ihm nach. Wegen der Mülltonnen sah Mira Ben erst spät. Sie klingelte, bremste und lenkte nach rechts. So traf sie Ben nicht. Das Vorderrad des Rollers stieß gegen einen Fahrradständer. Mira fiel auf die rechte Seite. Der Roller rutschte noch etwa einen Meter. Mira schürfte sich das rechte Knie auf. Ihre linke Hand tat weh. Herr Lenz versorgte sie und brachte sie ins Sekretariat. Ihre Mutter holte sie später ab.
-<!-- lia-llm:alternative -->
-Sturz vor der Sporthalle
-
-Am Dienstag, dem 17. September, war es auf dem Schulhof trocken. Gegen 10:25 Uhr fuhr Mira aus der 6b mit ihrem Tretroller über den Weg vor der Sporthalle. Es war die erste große Pause. Ben aus der 6a rannte einem roten Ball von der Wiese nach. Zwei Mülltonnen verdeckten Miras Sicht. Deshalb sah sie Ben erst spät. Mira klingelte, bremste und bog nach rechts. Ihr Roller traf Ben nicht, stieß aber gegen einen Fahrradständer. Mira fiel hin. Sie hatte eine Schürfwunde am rechten Knie und Schmerzen an der linken Hand. Herr Lenz reinigte die Wunde und klebte ein Pflaster darauf. Danach brachte er Mira ins Sekretariat. Ein Rettungswagen musste nicht kommen.
-<!-- lia-llm:alternative -->
-Sturz nach dem Bremsen
-
-Am Dienstag, dem 17. September, rollte gegen 10:25 Uhr ein roter Ball von der Wiese auf den Weg. Es war die erste große Pause. Ben aus der 6a lief dem Ball hinterher. Zur gleichen Zeit fuhr Mira aus der 6b mit ihrem Tretroller vom Schultor zu den Fahrradständern. Zwei Mülltonnen verdeckten ihre Sicht auf Ben. Mira sah ihn erst spät. Sie klingelte, bremste und lenkte nach rechts. Mira traf Ben nicht. Das Vorderrad stieß aber gegen einen Fahrradständer. Mira fiel auf die rechte Seite. Ihr rechtes Knie war aufgeschürft. Ihre linke Hand tat weh. Herr Lenz versorgte Mira und brachte sie ins Sekretariat. Das Sekretariat rief ihre Mutter an. Sie holte Mira später ab.
-<!-- lia-llm:alternative -->
-Unfall auf dem Weg zu den Fahrradständern
-
-Am Dienstag, dem 17. September, passierte gegen 10:25 Uhr ein Unfall zwischen der Sporthalle und den Fahrradständern. Mira aus der 6b fuhr dort mit ihrem Tretroller. Ben aus der 6a lief einem roten Ball von der Wiese nach. Wegen der Mülltonnen sah Mira ihn erst spät. Sie klingelte, bremste und lenkte nach rechts. So traf sie Ben nicht. Das Vorderrad des Rollers stieß aber gegen einen Fahrradständer. Mira fiel hin. Ihr rechtes Knie war aufgeschürft, und ihre linke Hand tat weh. Herr Lenz sperrte den Weg kurz ab. Danach reinigte er die Wunde und brachte Mira ins Sekretariat. Miras Mutter holte sie später ab. Der Hausmeister stellte die Mülltonnen um.
+Am Dienstag, dem 17. September, ereignete sich gegen 10:25 Uhr auf dem gepflasterten Weg zwischen Sporthalle und Fahrradständern ein Unfall. Mira aus der 6b fuhr mit ihrem Tretroller, während Ben aus der 6a einem roten Ball von der Wiese auf den Weg folgte. Zwei Mülltonnen verdeckten Mira die Sicht. Als sie Ben spät bemerkte, klingelte sie, bremste sofort und lenkte stark nach rechts. Der Roller berührte Ben nicht, doch sein Vorderrad stieß gegen den Fahrradständer. Mira fiel auf die rechte Seite und schürfte sich das rechte Knie auf. Ihre linke Hand schmerzte, war aber beweglich. Herr Lenz sperrte den Weg kurz ab, reinigte die Wunde, klebte ein Pflaster darauf und brachte Mira ins Sekretariat. Dort wurde ihre Mutter angerufen, die sie später abholte.
 ```
 
 @ADetails(BE=10;Unfallbericht)
@@ -1153,20 +1075,15 @@ __$d)\;\;$__ **Beschreibe** das Muster der Multiplikationsreihen a) bis c). Gehe
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche jeweils den zweiten Faktor und das Produkt zweier aufeinanderfolgender Zeilen.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1,`Beschreibe das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich der zweite Faktor und das Produkt von Zeile zu Zeile verändern.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Beschreibe das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich der zweite Faktor und das Produkt von Zeile zu Zeile verändern.`)
+<!-- lia-llm:criterion -->
+Der erste Faktor bleibt innerhalb jeder Reihe unverändert.
+<!-- lia-llm:criterion -->
+Der zweite Faktor wird von Zeile zu Zeile halbiert.
+<!-- lia-llm:criterion -->
+Das Produkt wird von Zeile zu Zeile halbiert.
+<!-- lia-llm:solution -->
 In jeder Reihe wird der zweite Faktor von Zeile zu Zeile halbiert. Dadurch halbiert sich auch das Produkt. Die erste Zahl bleibt dabei unverändert.
-<!-- lia-llm:alternative -->
-Der zweite Faktor ist jeweils halb so groß wie in der Zeile davor. Deshalb ist auch jedes neue Produkt halb so groß wie das vorherige Produkt.
-<!-- lia-llm:alternative -->
-In a) bis c) wird der zweite Faktor fortlaufend durch $2$ geteilt. Da der erste Faktor gleich bleibt, wird das Ergebnis ebenfalls jeweils durch $2$ geteilt.
-<!-- lia-llm:alternative -->
-Die zweiten Faktoren bilden eine Halbierungsfolge. Die zugehörigen Produkte bilden deshalb ebenfalls eine Halbierungsfolge.
-<!-- lia-llm:alternative -->
-Von einer Zeile zur nächsten halbiert sich der zweite Faktor. Entsprechend wird das Produkt mit jeder Zeile halbiert.
-<!-- lia-llm:alternative -->
-Beim Halbieren des zweiten Faktors halbiert sich auch das Ergebnis der Multiplikation, während der erste Faktor unverändert bleibt.
-<!-- lia-llm:alternative -->
-Die Nenner der zweiten Faktoren werden schrittweise verdoppelt. Dadurch werden die zweiten Faktoren und zugleich die Produkte jeweils halbiert.
 ```
 
 @ADetails(BE=1;Bruchrechnung, Multiplikation, Permanenzreihe, Beschreiben, LLM-Quiz)
@@ -1270,20 +1187,15 @@ __$h)\;\;$__ **Beschreibe** das Muster der Divisionsreihen e) bis g). Gehe darau
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche jeweils den Divisor und den Quotienten zweier aufeinanderfolgender Zeilen.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1,`Beschreibe das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich der Divisor und der Quotient von Zeile zu Zeile verändern.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Beschreibe das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich der Divisor und der Quotient von Zeile zu Zeile verändern.`)
+<!-- lia-llm:criterion -->
+Der Dividend bleibt innerhalb jeder Reihe unverändert.
+<!-- lia-llm:criterion -->
+Der Divisor wird von Zeile zu Zeile halbiert.
+<!-- lia-llm:criterion -->
+Der Quotient wird von Zeile zu Zeile verdoppelt.
+<!-- lia-llm:solution -->
 In jeder Reihe wird der Divisor von Zeile zu Zeile halbiert. Dadurch verdoppelt sich der Quotient. Der Dividend bleibt dabei unverändert.
-<!-- lia-llm:alternative -->
-Der Divisor ist jeweils halb so groß wie in der Zeile davor. Deshalb ist jeder neue Quotient doppelt so groß wie der vorherige Quotient.
-<!-- lia-llm:alternative -->
-In e) bis g) wird der Divisor fortlaufend durch $2$ geteilt. Da der Dividend gleich bleibt, wird das Ergebnis jeweils mit $2$ multipliziert.
-<!-- lia-llm:alternative -->
-Die Divisoren bilden eine Halbierungsfolge. Die zugehörigen Quotienten bilden dagegen eine Verdopplungsfolge.
-<!-- lia-llm:alternative -->
-Von einer Zeile zur nächsten halbiert sich der Divisor. Entsprechend wird der Quotient mit jeder Zeile verdoppelt.
-<!-- lia-llm:alternative -->
-Beim Halbieren des Divisors verdoppelt sich das Ergebnis der Division, während der Dividend unverändert bleibt.
-<!-- lia-llm:alternative -->
-Die Nenner der Divisoren werden schrittweise verdoppelt. Dadurch halbieren sich die Divisoren und die Quotienten verdoppeln sich.
 ```
 
 @ADetails(BE=1;Bruchrechnung, Division, Permanenzreihe, Beschreiben, LLM-Quiz)
@@ -1307,22 +1219,29 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Berechne zuerst den Umfang des Rechtecks. Ziehe danach die Breite des Tores ab und berücksichtige zuletzt den Preis pro Meter.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(2\cdot6{,}5+2\cdot4-1{,}5)\cdot18{,}40$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
-Mit $2\cdot6{,}5+2\cdot4$ wird zunächst der Umfang des rechteckigen Geheges berechnet. Davon werden $1{,}5\,\mathrm{m}$ für die Toröffnung abgezogen, sodass $19{,}5\,\mathrm{m}$ Zaun benötigt werden. Die Multiplikation mit $18{,}40\,€$ pro Meter ergibt $358{,}80\,€$. Das Ergebnis beschreibt die gesamten Kosten für den Zaun.
-<!-- lia-llm:alternative -->
-$6{,}5\,\mathrm{m}$ und $4\,\mathrm{m}$ sind die Seitenlängen des Rechtecks. Beide kommen im Umfang jeweils zweimal vor. Nach dem Abzug der $1{,}5\,\mathrm{m}$ breiten Toröffnung bleiben $19{,}5\,\mathrm{m}$ Zaun. Bei $18{,}40\,€$ je Meter betragen die Kosten insgesamt $358{,}80\,€$.
-<!-- lia-llm:alternative -->
-Der Klammerausdruck bestimmt zuerst die einzuzäunende Länge: Der Rechteckumfang beträgt $21\,\mathrm{m}$, die Toröffnung reduziert ihn auf $19{,}5\,\mathrm{m}$. Der zweite Faktor ist der Meterpreis des Zauns. Der Termwert $358{,}80\,€$ gibt den zu zahlenden Gesamtpreis an.
-<!-- lia-llm:alternative -->
-Die beiden Produkte $2\cdot6{,}5$ und $2\cdot4$ stehen für die jeweils doppelt vorhandenen Seiten des rechteckigen Geheges. Nach dem Abzug der $1{,}5\,\mathrm{m}$ breiten Öffnung werden $19{,}5\,\mathrm{m}$ Zaun benötigt. Durch die Multiplikation mit dem Preis von $18{,}40\,€$ je Meter entstehen Gesamtkosten von $358{,}80\,€$.
-<!-- lia-llm:alternative -->
-Zuerst wird aus den Seitenlängen $6{,}5\,\mathrm{m}$ und $4\,\mathrm{m}$ der Umfang $21\,\mathrm{m}$ gebildet. Die Subtraktion von $1{,}5\,\mathrm{m}$ berücksichtigt das Tor. Der verbleibende Zaun wird mit dem Meterpreis multipliziert. Das Ergebnis bedeutet, dass der Zaun $358{,}80\,€$ kostet.
-<!-- lia-llm:alternative -->
-Der Ausdruck in der Klammer gibt die tatsächliche Zaunlänge an. Beide Längen und beide Breiten werden addiert, die nicht einzuzäunende Torbreite wird abgezogen. So ergeben sich $19{,}5\,\mathrm{m}$. Der Faktor $18{,}40\,€$ bezeichnet den Preis eines Meters, weshalb der gesamte Term die Kosten von $358{,}80\,€$ beschreibt.
-<!-- lia-llm:alternative -->
-Mit $2\cdot6{,}5+2\cdot4$ werden alle vier Seiten des Geheges erfasst. Wegen des Tores werden davon $1{,}5\,\mathrm{m}$ abgezogen. Die verbleibenden $19{,}5\,\mathrm{m}$ werden zu je $18{,}40\,€$ berechnet. Insgesamt müssen $358{,}80\,€$ für den Zaun bezahlt werden.
-<!-- lia-llm:alternative -->
-Die Länge $6{,}5\,\mathrm{m}$ und die Breite $4\,\mathrm{m}$ treten beim Rechteck jeweils zweimal auf. Nach der Berechnung des Umfangs bleibt durch die Toröffnung eine Zaunlänge von $19{,}5\,\mathrm{m}$. Das anschließende Produkt mit $18{,}40\,€$ liefert den Gesamtpreis von $358{,}80\,€$.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(2\cdot6{,}5+2\cdot4-1{,}5)\cdot18{,}40$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+<!-- lia-llm:criterion -->
+Die Zahl 6,5 steht für die Länge des rechteckigen Geheges in Metern.
+<!-- lia-llm:criterion -->
+Die Zahl 4 steht für die Breite des rechteckigen Geheges in Metern.
+<!-- lia-llm:criterion -->
+Das Produkt 2 · 6,5 erfasst die beiden Längsseiten des Geheges.
+<!-- lia-llm:criterion -->
+Das Produkt 2 · 4 erfasst die beiden Breitseiten des Geheges.
+<!-- lia-llm:criterion -->
+Das Pluszeichen addiert die Längen der beiden Seitenpaare zum Umfang des Geheges.
+<!-- lia-llm:criterion -->
+Durch die Subtraktion von 1,5 Metern wird die Toröffnung berücksichtigt.
+<!-- lia-llm:criterion -->
+Es werden 19,5 Meter Zaun benötigt.
+<!-- lia-llm:criterion -->
+Die Zahl 18,40 steht für den Preis eines Zaunmeters in Euro.
+<!-- lia-llm:criterion -->
+Die benötigte Zaunlänge wird mit dem Meterpreis multipliziert.
+<!-- lia-llm:criterion -->
+Das Ergebnis 358,80 Euro gibt die gesamten Zaunkosten an.
+<!-- lia-llm:solution -->
+Die Zahl 6,5 steht für die Länge und die Zahl 4 für die Breite des rechteckigen Geheges in Metern. Das Produkt 2 · 6,5 erfasst die beiden Längsseiten, das Produkt 2 · 4 die beiden Breitseiten. Das Pluszeichen addiert die Längen beider Seitenpaare zum Umfang. Davon werden 1,5 Meter für die Toröffnung abgezogen, sodass 19,5 Meter Zaun benötigt werden. Die Zahl 18,40 ist der Preis eines Zaunmeters in Euro. Die benötigte Zaunlänge wird mit diesem Meterpreis multipliziert. Das Ergebnis 358,80 Euro gibt die gesamten Zaunkosten an.
 ```
 
 @ADetails(BE=1;Sachaufgabe, Terme, Rechteck, Kosten, Interpretieren, LLM-Quiz)
@@ -1342,22 +1261,19 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Jedes Produkt beschreibt den Preis einer Produktgruppe. Addiere anschließend die drei Teilpreise.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $3\cdot5{,}80+5\cdot3{,}20+4\cdot1{,}25$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $3\cdot5{,}80+5\cdot3{,}20+4\cdot1{,}25$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+<!-- lia-llm:criterion -->
+Das Produkt 3 · 5,80 berechnet den Preis der drei Nudelgerichte.
+<!-- lia-llm:criterion -->
+Das Produkt 5 · 3,20 berechnet den Preis der fünf Salate.
+<!-- lia-llm:criterion -->
+Das Produkt 4 · 1,25 berechnet den Preis der vier Wasserflaschen.
+<!-- lia-llm:criterion -->
+Die drei Produktwerte des Terms werden addiert.
+<!-- lia-llm:criterion -->
+Das Ergebnis 38,40 Euro ist der Gesamtpreis der Bestellung.
+<!-- lia-llm:solution -->
 Das Produkt $3\cdot5{,}80$ gibt den Preis der drei Nudelgerichte an, $5\cdot3{,}20$ den Preis der fünf Salate und $4\cdot1{,}25$ den Preis der vier Wasserflaschen. Durch die Addition werden die drei Teilpreise zusammengefasst. Der Term ergibt $38{,}40\,€$ und beschreibt den Gesamtpreis der Bestellung.
-<!-- lia-llm:alternative -->
-Die Faktoren $3$, $5$ und $4$ stehen für die bestellten Anzahlen. Die Zahlen $5{,}80$, $3{,}20$ und $1{,}25$ sind die jeweiligen Einzelpreise. Die Produkte ergeben $17{,}40\,€$, $16\,€$ und $5\,€$. Ihre Summe beträgt $38{,}40\,€$ und entspricht den Kosten der gesamten Bestellung.
-<!-- lia-llm:alternative -->
-Für jede Produktgruppe wird die Anzahl mit dem zugehörigen Stückpreis multipliziert. Anschließend werden die Kosten für Nudelgerichte, Salate und Wasser addiert. Mit dem Term wird daher der Rechnungsbetrag von $38{,}40\,€$ berechnet.
-<!-- lia-llm:alternative -->
-Die drei Produkte stehen nacheinander für die Kosten der Nudelgerichte, der Salate und der Wasserflaschen. Sie betragen $17{,}40\,€$, $16\,€$ und $5\,€$. Das Pluszeichen verbindet diese Teilbeträge. Der Termwert $38{,}40\,€$ ist der Preis der vollständigen Kantinenbestellung.
-<!-- lia-llm:alternative -->
-Mit $3\cdot5{,}80$ werden drei gleich teure Nudelgerichte berechnet. Entsprechend erfassen $5\cdot3{,}20$ die Salate und $4\cdot1{,}25$ die Getränke. Durch die Addition aller Produktpreise ergibt sich ein Gesamtbetrag von $38{,}40\,€$.
-<!-- lia-llm:alternative -->
-Jeder erste Faktor nennt eine bestellte Stückzahl, jeder zweite Faktor den passenden Einzelpreis. Die Multiplikationen bestimmen die Kosten der einzelnen Warengruppen. Ihre Summe beträgt $38{,}40\,€$ und gibt an, wie viel die Lerngruppe insgesamt bezahlen muss.
-<!-- lia-llm:alternative -->
-Die Nudelgerichte kosten zusammen $3\cdot5{,}80\,€=17{,}40\,€$. Für die Salate werden $5\cdot3{,}20\,€=16\,€$ und für das Wasser $4\cdot1{,}25\,€=5\,€$ berechnet. Addiert ergeben diese Beträge den Rechnungsbetrag $38{,}40\,€$.
-<!-- lia-llm:alternative -->
-Der Term fasst drei Teilbestellungen zusammen. Zuerst wird für jede Speise- oder Getränkeart Anzahl mal Preis gerechnet. Danach werden die Ergebnisse addiert. Der Wert $38{,}40\,€$ beschreibt die Gesamtkosten für alle bestellten Gerichte, Salate und Wasserflaschen.
 ```
 
 @ADetails(BE=1;Sachaufgabe, Terme, Preise, Interpretieren, LLM-Quiz)
@@ -1377,22 +1293,19 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Addiere zuerst die vier Laufzeiten. Erkläre danach, weshalb die Summe durch $4$ geteilt wird.
-```text @LLMQuiz.question(0.5;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(12{,}4+11{,}8+12{,}1+11{,}7):4$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(12{,}4+11{,}8+12{,}1+11{,}7):4$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+<!-- lia-llm:criterion -->
+Die vier Summanden sind die gemessenen Zeiten der vier Trainingsläufe.
+<!-- lia-llm:criterion -->
+Die Summe der vier Laufzeiten beträgt 48 Minuten.
+<!-- lia-llm:criterion -->
+Der Divisor 4 steht für die Anzahl der Trainingsläufe.
+<!-- lia-llm:criterion -->
+Die Division berechnet das arithmetische Mittel.
+<!-- lia-llm:criterion -->
+Das Ergebnis 12 Minuten ist die durchschnittliche Laufzeit.
+<!-- lia-llm:solution -->
 Die vier Summanden sind die gemessenen Zeiten der vier Trainingsläufe. Durch ihre Addition ergibt sich eine Gesamtzeit von $48\,\mathrm{min}$. Die Division durch $4$ verteilt diese Summe gleichmäßig auf die vier Läufe und berechnet damit den Mittelwert. Das Ergebnis $12\,\mathrm{min}$ ist die durchschnittliche Laufzeit.
-<!-- lia-llm:alternative -->
-Zuerst werden die Laufzeiten $12{,}4$, $11{,}8$, $12{,}1$ und $11{,}7$ Minuten addiert. Die Summe beträgt $48$ Minuten. Da vier Läufe gemessen wurden, wird durch $4$ geteilt. Der Termwert $12\,\mathrm{min}$ beschreibt die mittlere Zeit pro Lauf.
-<!-- lia-llm:alternative -->
-Die Klammer enthält die Summe aller vier Messwerte. Der Divisor $4$ steht für die Anzahl der Trainingsläufe. Mit der Division wird das arithmetische Mittel berechnet. Es beträgt $12\,\mathrm{min}$ und gibt die durchschnittlich benötigte Zeit für einen Lauf an.
-<!-- lia-llm:alternative -->
-Die vier Laufzeiten werden zunächst zur Gesamtzeit $48\,\mathrm{min}$ addiert. Weil diese Gesamtzeit aus vier Läufen stammt, wird sie durch $4$ geteilt. Das Ergebnis $12\,\mathrm{min}$ beschreibt die durchschnittliche Dauer eines Trainingslaufs.
-<!-- lia-llm:alternative -->
-Jeder Summand gehört zu einem der vier gemessenen Läufe. Ihre Summe wird gleichmäßig auf die vier Läufe verteilt. Dadurch entsteht der Mittelwert $12\,\mathrm{min}$, also die mittlere Laufzeit.
-<!-- lia-llm:alternative -->
-Mit der Addition werden alle vier Messwerte zusammengefasst. Der Doppelpunkt zeigt anschließend eine Division durch die Anzahl der Messungen. Aus $48:4=12$ folgt, dass ein Lauf im Durchschnitt $12\,\mathrm{min}$ dauerte.
-<!-- lia-llm:alternative -->
-Die Zahlen $12{,}4$, $11{,}8$, $12{,}1$ und $11{,}7$ sind die einzelnen Laufzeiten. Nach ihrer Addition wird durch $4$ geteilt, da vier Werte vorliegen. Der Term berechnet somit das arithmetische Mittel von $12\,\mathrm{min}$.
-<!-- lia-llm:alternative -->
-Der Zähler des beschriebenen Rechenwegs ist die Gesamtzeit aller Trainingsläufe und beträgt $48\,\mathrm{min}$. Die Division durch vier liefert die Zeit, die rechnerisch auf einen Lauf entfällt. Diese durchschnittliche Laufzeit beträgt $12\,\mathrm{min}$.
 ```
 
 @ADetails(BE=1;Sachaufgabe, Terme, Mittelwert, Interpretieren, LLM-Quiz)
@@ -1412,22 +1325,19 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=5\,\mathrm{cm}$, $b=4\,\m
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+<!-- lia-llm:criterion -->
+Die Konstruktion verwendet die vorgegebenen Seitenlängen 4 cm, 5 cm und 6 cm.
+<!-- lia-llm:criterion -->
+Eine der drei gegebenen Seiten wird maßstabsgerecht als Grundseite gezeichnet.
+<!-- lia-llm:criterion -->
+Um jeden Endpunkt der Grundseite wird ein Kreisbogen mit dem Radius der an diesem Endpunkt anliegenden vorgegebenen Seitenlänge gezeichnet.
+<!-- lia-llm:criterion -->
+Einer der Kreisschnittpunkte wird als dritter Eckpunkt markiert.
+<!-- lia-llm:criterion -->
+Der dritte Eckpunkt wird mit beiden Endpunkten der Grundseite verbunden.
+<!-- lia-llm:solution -->
 Zuerst wird die Grundseite $\overline{AB}$ mit der Länge $c=6\,\mathrm{cm}$ gezeichnet. Danach wird ein Kreis um $A$ mit dem Radius $b=4\,\mathrm{cm}$ und ein Kreis um $B$ mit dem Radius $a=5\,\mathrm{cm}$ gezeichnet. Einer der beiden Schnittpunkte wird als $C$ markiert. Abschließend werden $A$ und $B$ mit $C$ verbunden.
-<!-- lia-llm:alternative -->
-Als Grundseite wird $\overline{AC}$ mit $b=4\,\mathrm{cm}$ gezeichnet. Um $A$ wird ein Kreis mit dem Radius $c=6\,\mathrm{cm}$ geschlagen, um $C$ ein Kreis mit dem Radius $a=5\,\mathrm{cm}$. Ein Schnittpunkt der Kreise wird mit $B$ bezeichnet. Durch das Verbinden von $B$ mit $A$ und $C$ entsteht das gesuchte Dreieck.
-<!-- lia-llm:alternative -->
-Zunächst wird $\overline{BC}$ mit der Länge $a=5\,\mathrm{cm}$ konstruiert. Anschließend werden ein Kreis um $B$ mit dem Radius $c=6\,\mathrm{cm}$ und ein Kreis um $C$ mit dem Radius $b=4\,\mathrm{cm}$ gezeichnet. Ein gemeinsamer Schnittpunkt ist der Eckpunkt $A$. Zum Schluss wird $A$ mit den Endpunkten der Grundseite verbunden.
-<!-- lia-llm:alternative -->
-Die Strecke $\overline{AB}$ wird $6\,\mathrm{cm}$ lang gezeichnet. Mit dem Zirkel wird um $A$ ein Kreisbogen mit dem Radius $4\,\mathrm{cm}$ und um $B$ ein Kreisbogen mit dem Radius $5\,\mathrm{cm}$ geschlagen. Der oberhalb der Strecke liegende Schnittpunkt der Bögen wird als $C$ gewählt. Danach werden die Strecken $\overline{AC}$ und $\overline{BC}$ eingezeichnet.
-<!-- lia-llm:alternative -->
-Es wird mit der Seite $c$ begonnen, indem $\overline{AB}=6\,\mathrm{cm}$ abgetragen wird. Der Zirkel wird auf $4\,\mathrm{cm}$ eingestellt und ein Bogen um $A$ gezeichnet. Mit der Einstellung $5\,\mathrm{cm}$ wird ein weiterer Bogen um $B$ gezeichnet. Der unterhalb von $\overline{AB}$ liegende Schnittpunkt wird mit $C$ bezeichnet und mit $A$ sowie $B$ verbunden.
-<!-- lia-llm:alternative -->
-Zuerst wird die Seite $\overline{AC}=4\,\mathrm{cm}$ gezeichnet. Von $A$ aus wird mit der Zirkelöffnung $6\,\mathrm{cm}$ ein Kreisbogen gezogen. Von $C$ aus wird ein zweiter Kreisbogen mit der Zirkelöffnung $5\,\mathrm{cm}$ gezeichnet. Einer ihrer Schnittpunkte legt $B$ fest. Die Verbindungen $\overline{AB}$ und $\overline{BC}$ vervollständigen das Dreieck.
-<!-- lia-llm:alternative -->
-Als Ausgangsstrecke dient $\overline{BC}$ mit $5\,\mathrm{cm}$. Um $B$ wird mit $6\,\mathrm{cm}$ Radius ein Kreisbogen konstruiert, um $C$ mit $4\,\mathrm{cm}$ Radius ein zweiter. Der Schnittpunkt auf einer Seite von $\overline{BC}$ wird $A$ genannt. Werden $A$ und $B$ sowie $A$ und $C$ verbunden, ist das Dreieck $ABC$ konstruiert.
-<!-- lia-llm:alternative -->
-Mit dem Lineal wird zunächst $\overline{AB}=c=6\,\mathrm{cm}$ gezeichnet. Dann wird mit dem Zirkel der Abstand $b=4\,\mathrm{cm}$ von $A$ und der Abstand $a=5\,\mathrm{cm}$ von $B$ durch zwei sich schneidende Kreisbögen markiert. Einer der Schnittpunkte wird als $C$ verwendet. Durch das Zeichnen von $\overline{AC}$ und $\overline{BC}$ erhält das Dreieck alle drei vorgegebenen Seitenlängen.
 ```
 
 
@@ -1450,22 +1360,19 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=6\,\mathrm{cm}$ und $b=4\
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+<!-- lia-llm:criterion -->
+Zuerst wird die Seite AC mit b = 4 cm gezeichnet.
+<!-- lia-llm:criterion -->
+Bei A wird an AC der Winkel α = 60° konstruiert.
+<!-- lia-llm:criterion -->
+Um C wird ein Kreis mit dem Radius a = 6 cm gezeichnet.
+<!-- lia-llm:criterion -->
+Der Schnittpunkt des Kreises mit dem freien Winkelschenkel wird als B markiert.
+<!-- lia-llm:criterion -->
+Zum Abschluss wird B mit C verbunden.
+<!-- lia-llm:solution -->
 Zuerst wird die Seite $\overline{AC}$ mit der Länge $b=4\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AC}$ der Winkel $\alpha=60^\circ$ konstruiert. Danach wird ein Kreis um $C$ mit dem Radius $a=6\,\mathrm{cm}$ gezeichnet. Sein Schnittpunkt mit dem freien Winkelschenkel wird als $B$ markiert. Abschließend werden $B$ und $C$ verbunden.
-<!-- lia-llm:alternative -->
-Als Ausgangsstrecke wird $\overline{AC}=4\,\mathrm{cm}$ gezeichnet. Anschließend wird bei $A$ ein Winkel von $60^\circ$ angetragen. Um $C$ wird mit dem Zirkel ein Kreis mit dem Radius $6\,\mathrm{cm}$ geschlagen. Der Kreis schneidet den freien Schenkel des Winkels im Punkt $B$. Die Strecke $\overline{BC}$ vervollständigt das Dreieck.
-<!-- lia-llm:alternative -->
-Zunächst wird die gegebene Seite $b$ als Strecke von $A$ nach $C$ mit einer Länge von $4\,\mathrm{cm}$ abgetragen. Von $A$ aus wird ein Strahl gezeichnet, der mit $\overline{AC}$ einen Winkel von $60^\circ$ bildet. Auf diesem Strahl wird mithilfe eines Kreises um $C$ der Punkt mit dem Abstand $6\,\mathrm{cm}$ bestimmt und $B$ genannt. Zum Schluss wird $B$ mit $C$ verbunden.
-<!-- lia-llm:alternative -->
-Mit dem Lineal wird zuerst $\overline{AC}=b=4\,\mathrm{cm}$ gezeichnet. An ihrem Endpunkt $A$ wird auf einer Seite der Strecke der Winkel $\alpha=60^\circ$ konstruiert. Der Zirkel wird auf $a=6\,\mathrm{cm}$ eingestellt und um $C$ ein Kreisbogen bis zum freien Winkelschenkel gezogen. Der Schnittpunkt ist $B$; anschließend wird die Seite $\overline{BC}$ eingezeichnet.
-<!-- lia-llm:alternative -->
-Es wird mit der Seite $b$ begonnen: Die Punkte $A$ und $C$ werden im Abstand $4\,\mathrm{cm}$ eingezeichnet. Bei $A$ wird an diese Strecke ein $60^\circ$-Winkel angelegt. Von $C$ aus wird mit der Zirkelöffnung $6\,\mathrm{cm}$ ein Bogen gezeichnet, der den zweiten Schenkel des Winkels trifft. Der Treffpunkt wird als $B$ bezeichnet und mit $C$ verbunden.
-<!-- lia-llm:alternative -->
-Die Strecke $\overline{CA}$ wird mit $4\,\mathrm{cm}$ Länge gezeichnet. In $A$ wird zur Strecke $\overline{AC}$ ein Winkel von $60^\circ$ abgetragen. Anschließend wird um $C$ ein Kreis gezeichnet, dessen Radius der Seitenlänge $a=6\,\mathrm{cm}$ entspricht. Der Schnitt des Kreises mit dem freien Strahl legt den Eckpunkt $B$ fest. Durch $\overline{BC}$ wird die Konstruktion abgeschlossen.
-<!-- lia-llm:alternative -->
-Zuerst werden $A$ und $C$ so festgelegt, dass ihr Abstand $4\,\mathrm{cm}$ beträgt. An $A$ wird über der Strecke $\overline{AC}$ der Winkel $60^\circ$ gezeichnet. Danach wird um $C$ ein Kreis mit $6\,\mathrm{cm}$ Radius konstruiert. Der auf dem freien Winkelschenkel liegende Schnittpunkt wird $B$ genannt. Abschließend wird die Verbindung zwischen $B$ und $C$ gezogen.
-<!-- lia-llm:alternative -->
-Als Basis dient $\overline{AC}$ mit der vorgegebenen Länge $b=4\,\mathrm{cm}$. Bei $A$ wird auf der anderen Seite der Basis ein $60^\circ$-Winkel konstruiert. Ein Kreisbogen mit dem Mittelpunkt $C$ und dem Radius $a=6\,\mathrm{cm}$ bestimmt auf dem freien Winkelschenkel den Punkt $B$. Werden $B$ und $C$ verbunden, entsteht das gesuchte Dreieck spiegelbildlich zur Konstruktion auf der ersten Seite der Basis.
 ```
 
 
@@ -1488,22 +1395,17 @@ Gegeben sei ein Dreieck $ABC$ mit der Seitenlänge $c=6\,\mathrm{cm}$ sowie den 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+<!-- lia-llm:criterion -->
+Zuerst wird die Seite AB mit c = 6 cm gezeichnet.
+<!-- lia-llm:criterion -->
+Bei A wird an AB der Winkel α = 45° konstruiert.
+<!-- lia-llm:criterion -->
+Bei B wird auf derselben Seite der Strecke der Winkel β = 60° konstruiert.
+<!-- lia-llm:criterion -->
+Der Schnittpunkt der freien Winkelschenkel wird als C markiert.
+<!-- lia-llm:solution -->
 Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=6\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AB}$ der Winkel $\alpha=45^\circ$ konstruiert. In $B$ wird auf derselben Seite der Strecke der Winkel $\beta=60^\circ$ abgetragen. Der Schnittpunkt der beiden freien Winkelschenkel wird als $C$ markiert.
-<!-- lia-llm:alternative -->
-Als Grundseite wird $\overline{AB}=6\,\mathrm{cm}$ gezeichnet. Anschließend wird bei $A$ ein Winkel von $45^\circ$ und bei $B$ auf derselben Seite von $\overline{AB}$ ein Winkel von $60^\circ$ angetragen. Die freien Schenkel der beiden Winkel schneiden sich im dritten Eckpunkt $C$. Damit ist das Dreieck vollständig konstruiert.
-<!-- lia-llm:alternative -->
-Zunächst werden die Punkte $A$ und $B$ im Abstand $6\,\mathrm{cm}$ festgelegt und verbunden. Von $A$ aus wird ein Strahl gezeichnet, der mit $\overline{AB}$ einen Winkel von $45^\circ$ bildet. Von $B$ aus wird auf derselben Seite ein Strahl mit einem Winkel von $60^\circ$ zur Seite $\overline{BA}$ gezeichnet. Ihr Schnittpunkt ist $C$.
-<!-- lia-llm:alternative -->
-Mit dem Lineal wird zuerst $\overline{AB}=c=6\,\mathrm{cm}$ gezeichnet. Danach wird in $A$ der Innenwinkel $\alpha=45^\circ$ abgetragen. Am anderen Endpunkt $B$ wird in derselben Halbebene der Innenwinkel $\beta=60^\circ$ konstruiert. Wo sich die beiden Winkelschenkel treffen, liegt der Punkt $C$.
-<!-- lia-llm:alternative -->
-Die Konstruktion beginnt mit der vorgegebenen Seite $c$: Die Strecke von $A$ nach $B$ wird $6\,\mathrm{cm}$ lang gezeichnet. An ihrem linken Endpunkt $A$ wird ein $45^\circ$-Winkel und an ihrem rechten Endpunkt $B$ ein $60^\circ$-Winkel nach oben abgetragen. Der gemeinsame Punkt der freien Schenkel wird mit $C$ bezeichnet.
-<!-- lia-llm:alternative -->
-Es wird die Basis $\overline{AB}$ mit $6\,\mathrm{cm}$ Länge konstruiert. Auf einer Seite dieser Basis wird durch $A$ ein Strahl im Winkel von $45^\circ$ zu $\overline{AB}$ gezeichnet. Durch $B$ wird ein zweiter Strahl im Winkel von $60^\circ$ zu $\overline{BA}$ gezeichnet. Der Schnitt beider Strahlen bestimmt den Eckpunkt $C$ und damit das Dreieck.
-<!-- lia-llm:alternative -->
-Zuerst wird $c=6\,\mathrm{cm}$ als Strecke $\overline{AB}$ abgetragen. Bei $A$ wird mit Zirkel und Lineal der Winkel $45^\circ$ konstruiert. Bei $B$ wird auf derselben Seite von $\overline{AB}$ der Winkel $60^\circ$ eingezeichnet. Die beiden noch freien Schenkel laufen im Punkt $C$ zusammen; die Schenkel bilden zugleich die Seiten $\overline{AC}$ und $\overline{BC}$.
-<!-- lia-llm:alternative -->
-Als Erstes wird die Strecke $\overline{AB}$ mit der vorgegebenen Länge $6\,\mathrm{cm}$ gezeichnet. Unterhalb der Strecke wird bei $A$ ein Winkel von $45^\circ$ und bei $B$ ein Winkel von $60^\circ$ konstruiert. Der Schnittpunkt ihrer freien Schenkel wird $C$ genannt. Diese spiegelbildliche Lage ergibt ebenfalls das gesuchte Dreieck $ABC$.
 ```
 
 
@@ -1526,22 +1428,19 @@ Gegeben sei ein Dreieck $ABC$ mit den Winkeln $\alpha=60^\circ$ und $\beta=90^\c
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+<!-- lia-llm:criterion -->
+Zuerst wird γ = 180° − 60° − 90° = 30° berechnet.
+<!-- lia-llm:criterion -->
+Danach wird die Seite BC mit a = 5 cm gezeichnet.
+<!-- lia-llm:criterion -->
+Bei B wird an BC der Winkel β = 90° konstruiert.
+<!-- lia-llm:criterion -->
+Bei C wird auf derselben Seite der Strecke der Winkel γ = 30° konstruiert.
+<!-- lia-llm:criterion -->
+Der Schnittpunkt der freien Winkelschenkel wird als A markiert.
+<!-- lia-llm:solution -->
 Zuerst wird der dritte Winkel mit $\gamma=180^\circ-60^\circ-90^\circ=30^\circ$ berechnet. Danach wird die Seite $\overline{BC}$ mit der Länge $a=5\,\mathrm{cm}$ gezeichnet. In $B$ wird an $\overline{BC}$ der Winkel $\beta=90^\circ$ konstruiert. In $C$ wird auf derselben Seite der Strecke der Winkel $\gamma=30^\circ$ abgetragen. Der Schnittpunkt der freien Winkelschenkel wird als $A$ markiert.
-<!-- lia-llm:alternative -->
-Aus der Winkelsumme im Dreieck ergibt sich zunächst $\gamma=180^\circ-\alpha-\beta=30^\circ$. Als Grundseite wird $\overline{BC}=5\,\mathrm{cm}$ gezeichnet. Bei $B$ wird ein Winkel von $90^\circ$ und bei $C$ auf derselben Seite ein Winkel von $30^\circ$ angetragen. Die beiden freien Schenkel schneiden sich im dritten Eckpunkt $A$.
-<!-- lia-llm:alternative -->
-Zunächst wird der fehlende Winkel berechnet: $\gamma=180^\circ-(60^\circ+90^\circ)=30^\circ$. Anschließend werden $B$ und $C$ im Abstand $5\,\mathrm{cm}$ festgelegt. Von $B$ aus wird ein Strahl im Winkel von $90^\circ$ zu $\overline{BC}$ gezeichnet. Von $C$ aus wird in derselben Halbebene ein Strahl im Winkel von $30^\circ$ zu $\overline{CB}$ konstruiert. Ihr Schnittpunkt ist $A$.
-<!-- lia-llm:alternative -->
-Da die Innenwinkelsumme $180^\circ$ beträgt, wird zuerst $\gamma=30^\circ$ bestimmt. Mit dem Lineal wird dann $\overline{BC}=a=5\,\mathrm{cm}$ gezeichnet. Am Punkt $B$ wird der Innenwinkel $\beta=90^\circ$ abgetragen. Am Punkt $C$ wird auf derselben Seite der Grundstrecke der Innenwinkel $\gamma=30^\circ$ konstruiert. Wo sich die Winkelschenkel treffen, liegt $A$.
-<!-- lia-llm:alternative -->
-Vor der Konstruktion wird der noch unbekannte Winkel mithilfe der Winkelsumme berechnet: $\gamma=180^\circ-60^\circ-90^\circ=30^\circ$. Danach wird die Seite $a$ als $5\,\mathrm{cm}$ lange Strecke von $B$ nach $C$ gezeichnet. In $B$ entsteht ein rechter Winkel zur Grundseite, während in $C$ auf derselben Seite ein $30^\circ$-Winkel angelegt wird. Der gemeinsame Punkt der freien Schenkel wird mit $A$ bezeichnet.
-<!-- lia-llm:alternative -->
-Als Erstes wird $\gamma=30^\circ$ aus $\alpha+\beta+\gamma=180^\circ$ berechnet. Es folgt die Konstruktion der Basis $\overline{BC}$ mit $5\,\mathrm{cm}$ Länge. Durch $B$ wird ein Strahl gezeichnet, der mit $\overline{BC}$ einen Winkel von $90^\circ$ bildet. Durch $C$ wird auf derselben Seite ein Strahl im Winkel von $30^\circ$ zu $\overline{CB}$ gezeichnet. Der Schnitt der Strahlen bestimmt $A$.
-<!-- lia-llm:alternative -->
-Der dritte Winkel hat die Größe $\gamma=180^\circ-(\alpha+\beta)=30^\circ$. Nach dieser Berechnung wird $\overline{BC}=5\,\mathrm{cm}$ abgetragen. Bei $B$ wird mit Zirkel und Lineal der Winkel $90^\circ$ und bei $C$ der Winkel $30^\circ$ konstruiert. Beide Winkel werden zur gleichen Seite von $\overline{BC}$ geöffnet. Ihre freien Schenkel laufen im Eckpunkt $A$ zusammen.
-<!-- lia-llm:alternative -->
-Zuerst wird der fehlende Winkel $\gamma$ zu $30^\circ$ berechnet, weil die drei Innenwinkel zusammen $180^\circ$ ergeben. Dann wird die Strecke $\overline{BC}$ mit der vorgegebenen Länge $5\,\mathrm{cm}$ gezeichnet. Unterhalb der Strecke wird bei $B$ ein $90^\circ$-Winkel und bei $C$ ein $30^\circ$-Winkel abgetragen. Der Schnittpunkt ihrer freien Schenkel wird $A$ genannt. Diese Lage ist die Spiegelung der Konstruktion oberhalb der Grundseite.
 ```
 
 
@@ -1564,22 +1463,21 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $b=5\,\mathrm{cm}$ und $c=7\
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+<!-- lia-llm:criterion -->
+Die Konstruktion verwendet die vorgegebenen Seitenlängen 5 cm und 7 cm.
+<!-- lia-llm:criterion -->
+Eine der beiden am Winkel α anliegenden Seiten wird in ihrer angegebenen Länge vom Punkt A aus gezeichnet.
+<!-- lia-llm:criterion -->
+Bei A wird zwischen den beiden gegebenen Seiten der eingeschlossene Winkel α = 60° konstruiert.
+<!-- lia-llm:criterion -->
+Auf dem freien Winkelschenkel des Winkels α wird von A aus die noch nicht gezeichnete gegebene Seitenlänge abgetragen.
+<!-- lia-llm:criterion -->
+Der Endpunkt der auf dem freien Winkelschenkel abgetragenen zweiten Seitenlänge wird als fehlender Eckpunkt markiert.
+<!-- lia-llm:criterion -->
+Die beiden noch nicht verbundenen Eckpunkte werden miteinander verbunden.
+<!-- lia-llm:solution -->
 Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=7\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AB}$ der Winkel $\alpha=60^\circ$ konstruiert. Auf dem freien Winkelschenkel wird von $A$ aus die Länge $b=5\,\mathrm{cm}$ abgetragen und der Endpunkt als $C$ markiert. Abschließend werden $B$ und $C$ verbunden.
-<!-- lia-llm:alternative -->
-Als Ausgangsseite wird $\overline{AB}=7\,\mathrm{cm}$ gezeichnet. Anschließend wird bei $A$ ein Winkel von $60^\circ$ angetragen. Der Zirkel wird auf $5\,\mathrm{cm}$ eingestellt; ein Kreisbogen um $A$ schneidet den freien Winkelschenkel im Punkt $C$. Die Strecke $\overline{BC}$ vervollständigt das Dreieck.
-<!-- lia-llm:alternative -->
-Zunächst werden $A$ und $B$ im Abstand $7\,\mathrm{cm}$ festgelegt und verbunden. Von $A$ aus wird ein Strahl gezeichnet, der mit $\overline{AB}$ einen Winkel von $60^\circ$ bildet. Auf diesem Strahl wird der Punkt $C$ so bestimmt, dass $\overline{AC}=5\,\mathrm{cm}$ gilt. Zum Schluss wird $C$ mit $B$ verbunden.
-<!-- lia-llm:alternative -->
-Mit dem Lineal wird zuerst $\overline{AC}=b=5\,\mathrm{cm}$ gezeichnet. In $A$ wird an dieser Strecke der eingeschlossene Winkel $\alpha=60^\circ$ konstruiert. Auf dem freien Schenkel wird von $A$ aus die Strecke $\overline{AB}=c=7\,\mathrm{cm}$ abgetragen. Durch das Verbinden von $B$ und $C$ entsteht das gesuchte Dreieck.
-<!-- lia-llm:alternative -->
-Die Konstruktion beginnt mit der Seite $b$: Die Strecke von $A$ nach $C$ wird $5\,\mathrm{cm}$ lang gezeichnet. Bei $A$ wird ein $60^\circ$-Winkel angelegt. Mit einem Kreisbogen um $A$ und dem Radius $7\,\mathrm{cm}$ wird auf dem freien Schenkel der Punkt $B$ bestimmt. Danach wird die Seite $\overline{BC}$ eingezeichnet.
-<!-- lia-llm:alternative -->
-Es wird zunächst die Basis $\overline{AB}$ mit der vorgegebenen Länge $7\,\mathrm{cm}$ konstruiert. Oberhalb der Basis wird bei $A$ der Winkel $60^\circ$ gezeichnet. Ein Kreis mit dem Mittelpunkt $A$ und dem Radius $5\,\mathrm{cm}$ legt auf dem freien Winkelschenkel den Eckpunkt $C$ fest. Die Verbindung $\overline{BC}$ schließt die Konstruktion ab.
-<!-- lia-llm:alternative -->
-Zuerst wird $c=7\,\mathrm{cm}$ als Strecke $\overline{AB}$ abgetragen. In ihrem Endpunkt $A$ wird mit Zirkel und Lineal der Winkel $\alpha=60^\circ$ konstruiert. Vom Scheitelpunkt $A$ aus werden auf dem zweiten Schenkel $5\,\mathrm{cm}$ abgemessen; dort liegt $C$. Anschließend wird die fehlende Dreiecksseite von $C$ nach $B$ gezeichnet.
-<!-- lia-llm:alternative -->
-Als Erstes wird $\overline{AB}=7\,\mathrm{cm}$ gezeichnet. Unterhalb dieser Strecke wird bei $A$ ein Winkel von $60^\circ$ konstruiert. Auf seinem freien Schenkel wird mithilfe eines Kreisbogens um $A$ die Länge $\overline{AC}=5\,\mathrm{cm}$ markiert. Der so erhaltene Punkt $C$ wird mit $B$ verbunden. Diese spiegelbildliche Lage ergibt ebenfalls das gesuchte Dreieck.
 ```
 
 
@@ -1600,22 +1498,23 @@ Als Erstes wird $\overline{AB}=7\,\mathrm{cm}$ gezeichnet. Unterhalb dieser Stre
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre, warum die Konstruktionen von Dreiecken nach den Kongruenzsätzen WWS und WSW fast gleich ablaufen.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre, warum die Konstruktionen von Dreiecken nach den Kongruenzsätzen WWS und WSW fast gleich ablaufen.`)
+<!-- lia-llm:criterion -->
+Bei WSW liegt die gegebene Seite zwischen den beiden gegebenen Winkeln.
+<!-- lia-llm:criterion -->
+Bei WSW werden die beiden gegebenen Winkel an den Endpunkten der gegebenen Seite konstruiert.
+<!-- lia-llm:criterion -->
+Der Schnittpunkt der freien Winkelschenkel ergibt den dritten Eckpunkt.
+<!-- lia-llm:criterion -->
+Bei WWS liegt die gegebene Seite nicht zwischen den beiden gegebenen Winkeln.
+<!-- lia-llm:criterion -->
+Bei WWS wird zuerst der fehlende dritte Winkel mit der Winkelsumme 180° berechnet.
+<!-- lia-llm:criterion -->
+Nach der Berechnung des fehlenden WWS-Winkels sind bei WWS eine Seite und ihre beiden anliegenden Winkel bekannt.
+<!-- lia-llm:criterion -->
+Nach der Berechnung des fehlenden WWS-Winkels verläuft die weitere WWS-Konstruktion wie die WSW-Konstruktion.
+<!-- lia-llm:solution -->
 Bei WSW sind eine Seite und die beiden an dieser Seite anliegenden Winkel gegeben. Deshalb wird die Seite gezeichnet, an ihren Endpunkten werden die beiden Winkel konstruiert und der Schnittpunkt der freien Winkelschenkel ergibt den dritten Eckpunkt. Bei WWS liegt die gegebene Seite zunächst nicht zwischen den beiden gegebenen Winkeln. Aus der Winkelsumme wird daher zuerst der fehlende dritte Winkel berechnet. Danach sind ebenfalls eine Seite und ihre beiden anliegenden Winkel bekannt, sodass die weitere Konstruktion genauso wie bei WSW verläuft.
-<!-- lia-llm:alternative -->
-Die Konstruktionen unterscheiden sich nur in einem vorbereitenden Schritt. Beim Kongruenzsatz WSW können die beiden gegebenen Winkel sofort an den Endpunkten der dazwischenliegenden Seite abgetragen werden. Bei WWS wird zuerst der nicht angegebene Winkel mithilfe der Innenwinkelsumme von $180^\circ$ bestimmt. Nun liegt zur gegebenen Seite an jedem Endpunkt ein bekannter Winkel vor. Deshalb werden anschließend in beiden Fällen die Seite und die zwei Winkel gezeichnet; der Schnittpunkt ihrer Schenkel ist der dritte Eckpunkt.
-<!-- lia-llm:alternative -->
-Bei WSW ist die gegebene Seite von den beiden bekannten Winkeln eingeschlossen. Sie kann daher als Grundseite gezeichnet werden, bevor an beiden Endpunkten die Winkel konstruiert werden. Bei WWS befindet sich die gegebene Seite nicht zwischen den zwei vorgegebenen Winkeln. Der dritte Winkel wird deshalb über die Winkelsumme berechnet. Damit entsteht dieselbe Ausgangslage wie bei WSW: Bekannt sind die Grundseite und beide anliegenden Winkel. Ab diesem Zeitpunkt ist der Konstruktionsablauf identisch.
-<!-- lia-llm:alternative -->
-WSW liefert unmittelbar eine Seite mit den beiden Winkeln an ihren Endpunkten. Ihre freien Schenkel schneiden sich im fehlenden Eckpunkt. Bei WWS muss diese Situation erst hergestellt werden, weil einer der an der gegebenen Seite liegenden Winkel nicht direkt vorgegeben ist. Er ergibt sich aus $180^\circ$ minus den beiden bekannten Winkeln. Nach dieser Berechnung werden ebenfalls die gegebene Seite und die zwei anliegenden Winkel konstruiert. Daher laufen beide Verfahren bis auf die Winkelberechnung gleich ab.
-<!-- lia-llm:alternative -->
-In beiden Konstruktionen wird schließlich dieselbe Information verwendet: eine bekannte Seite und je ein bekannter Winkel an ihren beiden Endpunkten. Bei WSW sind genau diese Angaben bereits vorhanden. Bei WWS gehört einer der vorgegebenen Winkel nicht zu einem Endpunkt der gegebenen Seite; der dort benötigte Winkel wird zunächst mit der Winkelsumme im Dreieck berechnet. Danach wird in beiden Fällen die Seite gezeichnet, es werden die beiden Winkel angetragen und ihr Schnittpunkt wird als dritter Eckpunkt festgelegt.
-<!-- lia-llm:alternative -->
-Der eigentliche Zeichenweg ist bei WWS und WSW gleich. Zuerst dient eine bekannte Seite als Basis, dann werden an ihren Endpunkten zwei bekannte Winkel konstruiert. Der Schnittpunkt der Winkelschenkel vervollständigt das Dreieck. Beim WSW-Satz sind diese beiden anliegenden Winkel direkt gegeben. Beim WWS-Satz muss einer davon vorher aus der Innenwinkelsumme von $180^\circ$ und den beiden vorgegebenen Winkeln berechnet werden. Nur dieser zusätzliche Rechenschritt unterscheidet WWS von WSW.
-<!-- lia-llm:alternative -->
-Beim Kongruenzsatz WSW liegt die bekannte Seite zwischen den beiden gegebenen Winkeln. Deshalb kann die Konstruktion sofort mit dieser Seite und den Winkeln an ihren Endpunkten ausgeführt werden. Beim Kongruenzsatz WWS liegt die bekannte Seite einem der gegebenen Winkel gegenüber. Der noch fehlende Winkel an einem Endpunkt der Seite wird aus der Winkelsumme bestimmt. Sobald dieser Wert vorliegt, entsprechen die Angaben der WSW-Situation und die restlichen Konstruktionsschritte stimmen überein.
-<!-- lia-llm:alternative -->
-Für beide Sätze wird letztlich eine Grundseite mit zwei anliegenden Winkeln benötigt. WSW stellt diese Angaben direkt bereit. Bei WWS werden zwar ebenfalls zwei Winkel und eine Seite vorgegeben, aber die Seite liegt nicht zwischen den beiden bekannten Winkeln. Deshalb wird zunächst der dritte Winkel mithilfe der Winkelsumme im Dreieck berechnet. Dieser liegt zusammen mit einem der gegebenen Winkel an der vorgegebenen Seite. Danach werden wie bei WSW die Seite und beide Winkel gezeichnet; der Schnittpunkt der freien Schenkel bestimmt den letzten Eckpunkt.
 ```
 
 
@@ -1636,22 +1535,17 @@ Für ein Dreieck $ABC$ seien die drei Winkel $\alpha=60^\circ$, $\beta=60^\circ$
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum diese drei Winkel für die eindeutige Konstruktion des Dreiecks nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum diese drei Winkel für die eindeutige Konstruktion des Dreiecks nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
+<!-- lia-llm:criterion -->
+Drei Winkel legen nur die Form und nicht die Größe eines Dreiecks fest.
+<!-- lia-llm:criterion -->
+Drei Winkel von jeweils 60° erlauben gleichseitige Dreiecke mit beliebiger Seitenlänge.
+<!-- lia-llm:criterion -->
+Gleichseitige Dreiecke unterschiedlicher Größe sind nicht kongruent.
+<!-- lia-llm:criterion -->
+Ohne vorgegebene Seitenlänge fehlt der Maßstab, weshalb WWW kein Kongruenzsatz ist.
+<!-- lia-llm:solution -->
 Die drei Winkel legen nur die Form eines Dreiecks fest, nicht aber seine Größe. Bei drei Winkeln von jeweils $60^\circ$ entsteht zwar immer ein gleichseitiges Dreieck, seine Seitenlänge kann jedoch beliebig gewählt werden. Beispielsweise besitzen gleichseitige Dreiecke mit den Seitenlängen $4\,\mathrm{cm}$ und $8\,\mathrm{cm}$ dieselben Winkel. Sie sind ähnlich, aber wegen ihrer verschiedenen Seitenlängen nicht kongruent. Ohne eine vorgegebene Seitenlänge fehlt somit der Maßstab, weshalb WWW kein Kongruenzsatz ist.
-<!-- lia-llm:alternative -->
-Winkel bestimmen die Verhältnisse der Seiten, aber keine konkrete Seitenlänge. Daher können zu den Winkeln $60^\circ$, $60^\circ$ und $60^\circ$ beliebig kleine oder große gleichseitige Dreiecke konstruiert werden. Diese Dreiecke haben dieselbe Form und sind zueinander ähnlich, decken sich wegen ihrer unterschiedlichen Größe jedoch nicht und sind somit nicht kongruent. Da die Angaben kein eindeutig großes Dreieck festlegen, reicht WWW nicht als Kongruenzsatz aus.
-<!-- lia-llm:alternative -->
-Aus den drei angegebenen Winkeln folgt lediglich, dass das Dreieck gleichseitig ist. Ob seine Seiten beispielsweise $3\,\mathrm{cm}$ oder $9\,\mathrm{cm}$ lang sind, bleibt offen. Beide Dreiecke erfüllen dieselben Winkelangaben und sind ähnlich, aufgrund der verschiedenen Seitenlängen aber nicht kongruent. Für eine eindeutige Konstruktion müsste zusätzlich mindestens eine Seitenlänge bekannt sein. Deshalb ist WWW kein Kongruenzsatz.
-<!-- lia-llm:alternative -->
-Ein mit den Winkeln $60^\circ$, $60^\circ$ und $60^\circ$ konstruiertes Dreieck kann beliebig vergrößert oder verkleinert werden, ohne dass sich seine Winkel ändern. Durch eine solche Streckung entstehen ähnlich geformte Dreiecke mit unterschiedlichen Seitenlängen. Sie sind nicht kongruent, weil sie nicht durch eine Deckbewegung zur Deckung gebracht werden können. Da die Winkel keinen Maßstab vorgeben, bestimmen sie kein eindeutiges Dreieck und WWW ist kein Kongruenzsatz.
-<!-- lia-llm:alternative -->
-Die Summe der Innenwinkel beträgt immer $180^\circ$, sodass der dritte Winkel bereits durch die beiden anderen festgelegt ist. Drei Winkel enthalten daher keine Information über die absolute Größe des Dreiecks. Zu den drei Winkeln von $60^\circ$ passen unendlich viele gleichseitige Dreiecke mit verschiedenen Seitenlängen. Diese sind zwar ähnlich, aber nicht kongruent. Erst eine zusätzliche Seitenlänge würde den Maßstab festlegen; deshalb genügt WWW nicht.
-<!-- lia-llm:alternative -->
-Werden nur die drei Winkel vorgegeben, bleibt die Länge einer Grundseite frei wählbar. Nach der Wahl dieser Seite können die beiden $60^\circ$-Winkel an ihren Endpunkten konstruiert werden. Jede andere Länge der Grundseite führt zu einem weiteren Dreieck mit denselben Winkeln. Die entstehenden Dreiecke sind wegen gleicher Winkel ähnlich, wegen unterschiedlicher Größe jedoch nicht kongruent. Somit ermöglichen die WWW-Angaben keine eindeutige Konstruktion.
-<!-- lia-llm:alternative -->
-Bei WWW fehlt eine Längenangabe. Deshalb kann ein gleichseitiges Dreieck mit $60^\circ$ großen Winkeln in jedem beliebigen Maßstab gezeichnet werden. Ein Dreieck mit $2\,\mathrm{cm}$ langen Seiten und eines mit $6\,\mathrm{cm}$ langen Seiten erfüllen beispielsweise dieselben Winkelbedingungen. Trotzdem sind sie nur ähnlich und nicht kongruent. Weil mehrere unterschiedlich große Dreiecke zu denselben Angaben gehören, ist WWW kein Kongruenzsatz.
-<!-- lia-llm:alternative -->
-Kongruenz verlangt, dass Form und Größe eines Dreiecks eindeutig festgelegt sind. Die drei Winkel von jeweils $60^\circ$ bestimmen jedoch nur die gleichseitige Form. Eine Seitenlänge und damit der Maßstab bleiben unbekannt. Daher existieren unendlich viele unterschiedlich große Dreiecke mit diesen Winkeln. Sie stimmen in ihrer Form überein und sind ähnlich, können wegen ihrer verschiedenen Größen aber nicht kongruent sein. Aus diesem Grund reichen drei Winkel nicht als Kongruenzangaben aus.
 ```
 
 
@@ -1672,24 +1566,158 @@ Ein Dreieck $ABC$ soll mit den Seitenlängen $a=8\,\mathrm{cm}$, $b=3\,\mathrm{c
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.66;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum ein Dreieck mit diesen Seitenlängen nicht konstruiert werden kann.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum ein Dreieck mit diesen Seitenlängen nicht konstruiert werden kann.`)
+<!-- lia-llm:criterion -->
+Die Summe der beiden kürzeren Seitenlängen beträgt 7 cm und ist kleiner als die längste Seitenlänge von 8 cm.
+<!-- lia-llm:criterion -->
+Weil 3 cm + 4 cm kleiner als 8 cm ist, kann kein Dreieck mit den angegebenen Seitenlängen konstruiert werden.
+<!-- lia-llm:solution -->
 In jedem Dreieck muss die Summe der Längen zweier Seiten größer als die Länge der dritten Seite sein. Hier gilt jedoch $b+c=3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}<8\,\mathrm{cm}=a$. Damit ist die Dreiecksungleichung verletzt. Bei der Konstruktion haben der Kreis um $B$ mit dem Radius $4\,\mathrm{cm}$ und der Kreis um $C$ mit dem Radius $3\,\mathrm{cm}$ keinen Schnittpunkt, weil ihre Radien zusammen kleiner als der Abstand $8\,\mathrm{cm}$ ihrer Mittelpunkte sind. Daher kann der Punkt $A$ nicht bestimmt werden.
-<!-- lia-llm:alternative -->
-Für ein Dreieck muss $b+c>a$ gelten. Mit den gegebenen Längen ergibt sich aber $3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}<8\,\mathrm{cm}$. Die beiden kürzeren Seiten reichen somit nicht aus, um die Endpunkte der längsten Seite zu verbinden. Entsprechend schneiden sich die Kreise um $B$ und $C$ mit den Radien $4\,\mathrm{cm}$ und $3\,\mathrm{cm}$ bei einem Mittelpunktabstand von $8\,\mathrm{cm}$ nicht. Deshalb existiert kein Eckpunkt $A$.
-<!-- lia-llm:alternative -->
-Die längste Seite hat die Länge $8\,\mathrm{cm}$. Die beiden anderen Seiten sind zusammen nur $3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}$ lang und damit kürzer als die längste Seite. Dies widerspricht der Dreiecksungleichung. Wird $\overline{BC}=8\,\mathrm{cm}$ gezeichnet, erreichen sich die Kreisbögen mit den Radien $4\,\mathrm{cm}$ um $B$ und $3\,\mathrm{cm}$ um $C$ nicht. Ohne Schnittpunkt kann $A$ nicht festgelegt und kein Dreieck konstruiert werden.
-<!-- lia-llm:alternative -->
-Nach der Dreiecksungleichung muss die Summe jeder zweier Seiten größer als die dritte Seite sein. Für die gegebenen Werte ist $b+c=7\,\mathrm{cm}<a=8\,\mathrm{cm}$. Daher ist die notwendige Bedingung nicht erfüllt. Geometrisch zeigt sich dies daran, dass sich ein Kreis um $B$ mit $4\,\mathrm{cm}$ Radius und ein Kreis um $C$ mit $3\,\mathrm{cm}$ Radius bei $8\,\mathrm{cm}$ Abstand nicht schneiden. Somit gibt es keine mögliche Lage für $A$.
-<!-- lia-llm:alternative -->
-Es gilt $3+4=7<8$. Die Summe der beiden kürzeren Seiten ist also kleiner als die längste Seite, obwohl sie nach der Dreiecksungleichung größer sein müsste. Bei einer $8\,\mathrm{cm}$ langen Grundseite bleiben die Kreise von ihren Endpunkten mit $3\,\mathrm{cm}$ und $4\,\mathrm{cm}$ Radius voneinander getrennt. Da kein gemeinsamer Schnittpunkt als dritter Eckpunkt vorhanden ist, lässt sich das Dreieck nicht schließen.
-<!-- lia-llm:alternative -->
-Wird die Seite $a=8\,\mathrm{cm}$ als Strecke $\overline{BC}$ gezeichnet, müsste $A$ zugleich $4\,\mathrm{cm}$ von $B$ und $3\,\mathrm{cm}$ von $C$ entfernt liegen. Die entsprechenden Kreise können sich nicht schneiden, denn die Summe ihrer Radien beträgt nur $7\,\mathrm{cm}$ und ist kleiner als der Mittelpunktabstand von $8\,\mathrm{cm}$. Damit ist zugleich $b+c>a$ verletzt. Ein Punkt $A$ mit beiden geforderten Abständen existiert deshalb nicht.
-<!-- lia-llm:alternative -->
-Die Dreiecksungleichung fordert für die größte Seite $a$, dass $a<b+c$ gilt. Hier steht jedoch $8\,\mathrm{cm}>3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}$. Deshalb können die beiden kürzeren Seiten die Endpunkte der längsten Seite nicht in einem gemeinsamen Punkt verbinden. Auch die zugehörigen Kreisbögen um $B$ und $C$ mit $4\,\mathrm{cm}$ beziehungsweise $3\,\mathrm{cm}$ Radius besitzen keinen Schnittpunkt. Die Konstruktion eines Dreiecks ist somit unmöglich.
-<!-- lia-llm:alternative -->
-Ein Dreieck entsteht nur, wenn die zwei kürzeren Seiten zusammen länger als die längste Seite sind. Bei diesen Angaben beträgt ihre Summe $7\,\mathrm{cm}$, während die längste Seite $8\,\mathrm{cm}$ misst. Die Dreiecksungleichung ist daher nicht erfüllt. Nach dem Zeichnen von $\overline{BC}=8\,\mathrm{cm}$ bleiben der $4\,\mathrm{cm}$-Kreis um $B$ und der $3\,\mathrm{cm}$-Kreis um $C$ ohne gemeinsamen Schnittpunkt. Folglich kann kein dritter Eckpunkt $A$ konstruiert werden.
 ```
 
 @resetter
 
 @ADetails(BE=2; Dreieck, Konstruktion, Kongruenz, SSS, Dreiecksungleichung)
+
+## Quadrat im Kreis
+
+> Quelle: Mathematische Olympiade — `ABs/Spezi/MO.md`.
+
+In einem Quadrat befindet sich ein maximal großer Kreis, in dem wiederum ein maximal großes Quadrat liegt.
+
+**Beweise**, dass der Flächeninhalt des inneren Quadrats genau halb so groß ist wie der des äußeren Quadrats. Schreibe einen vollständigen Beweis.
+
+
+@Koordinatensystem(`xmin=-4.6;xmax=4.6;ymin=-4.6;ymax=4.6;width=430;id=MO3FIGUR;achsen=0;grid=0;border=0`)
+
+@Flaeche(`MO3FIGUR;[[-4;-4];[4;-4];[4;4];[-4;4]];#f0decc;1;inhalt=0;umfang=0`)
+@Punkt(`MO3FIGUR;M3=0;0;0;#000000;0;fix`)
+@Kreis(`MO3FIGUR;k3fill=0;M3;#92dcec;1;radius=4;inhalt=0;umfang=0`)
+@Flaeche(`MO3FIGUR;[[-2.828427;-2.828427];[2.828427;-2.828427];[2.828427;2.828427];[-2.828427;2.828427]];#ffabab;1;inhalt=0;umfang=0`)
+
+@Strecke(`MO3FIGUR;[[-4;-4];[4;-4];[4;4];[-4;4];[-4;-4]];#222222;qa3=0;design=-;3px`)
+@Kreis(`MO3FIGUR;k3rand=0;M3;#222222;0;radius=4;inhalt=0;umfang=0`)
+@Strecke(`MO3FIGUR;[[-2.828427;-2.828427];[2.828427;-2.828427];[2.828427;2.828427];[-2.828427;2.828427];[-2.828427;-2.828427]];#222222;qi3=0;design=-;3px`)
+
+
+
+
+Formuliere nun deinen Beweis im Antwortfeld und ergänze es gerne durch eine Zeichnung in der Canvas.
+
+
+@canvas
+
+<!-- data-solution-button="off" data-llm-textarea="7" -->
+[[Antwort]]
+```text @LLMQuiz(0.66;solution=1;feedback=1)
+Bezeichne die Seitenlänge des äußeren Quadrats mit $a$. Weil der Kreis im äußeren Quadrat maximal groß ist, besitzt er den Durchmesser $a$.
+
+Das innere Quadrat ist in den Kreis eingeschrieben. Seine beiden Diagonalen sind deshalb ebenfalls Durchmesser des Kreises und jeweils $a$ lang. Die Diagonalen zerlegen das innere Quadrat in vier kongruente rechtwinklige Dreiecke. Jedes dieser Dreiecke hat die Kathetenlängen $\frac a2$ und $\frac a2$ und damit den Flächeninhalt
+$$
+\frac{1}{2}\cdot\frac{ a}{2}\cdot\frac{ a}{2}=\frac{a^2}{8}.
+$$
+Somit gilt
+$$
+A_{\mathrm{innen}}=4\cdot\frac{a^2}{8}=\frac{a^2}{2}.
+$$
+Das äußere Quadrat besitzt den Flächeninhalt
+$$
+A_{\mathrm{außen}}=a^2.
+$$
+Also ist
+$$
+A_{\mathrm{innen}}=\frac{1}{2}A_{\mathrm{außen}}.
+$$
+<!-- lia-llm:alternative -->
+Die Seitenlänge des äußeren Quadrats sei $a$. Der Durchmesser des einbeschriebenen Kreises ist dann ebenfalls $a$. Da das innere Quadrat maximal groß ist, liegen seine vier Eckpunkte auf dem Kreis. Seine Diagonale stimmt deshalb mit einem Kreisdurchmesser überein und hat die Länge $a$.
+
+Für die Seitenlänge $b$ des inneren Quadrats gilt nach dem Satz des Pythagoras
+$$
+b^2+b^2=a^2.
+$$
+Damit folgt $2b^2=a^2$ und somit
+$$
+A_{\mathrm{innen}}=b^2=\frac{a^2}{2}.
+$$
+Wegen $A_{\mathrm{außen}}=a^2$ gilt daher
+$$
+A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}.
+$$
+<!-- lia-llm:alternative -->
+Es sei $a$ die Seitenlänge des äußeren Quadrats und $b$ die Seitenlänge des inneren Quadrats. Der maximal große Kreis besitzt den Durchmesser $a$. Zugleich ist die Diagonale des einbeschriebenen inneren Quadrats ein Durchmesser dieses Kreises. Daher gilt
+$$
+b\sqrt2=a.
+$$
+Durch Quadrieren ergibt sich $2b^2=a^2$ und damit $b^2=\frac{a^2}{2}$. Also sind
+$$
+A_{\mathrm{innen}}=b^2=\frac{a^2}{2}
+\quad\text{und}\quad
+A_{\mathrm{außen}}=a^2.
+$$
+Folglich ist der Flächeninhalt des inneren Quadrats halb so groß wie der des äußeren Quadrats.
+<!-- lia-llm:alternative -->
+Der Mittelpunkt beider Quadrate und des Kreises werde als Ursprung eines Koordinatensystems gewählt. Hat das äußere Quadrat die Seitenlänge $a$, so beträgt der Kreisradius $\frac a2$. Die Eckpunkte des inneren Quadrats können wegen der Drehsymmetrie bei
+$$
+\left(\frac a2,0\right),\quad
+\left(0,\frac a2\right),\quad
+\left(-\frac a2,0\right),\quad
+\left(0,-\frac a2\right)
+$$
+angesetzt werden. Für eine Seite $b$ des inneren Quadrats gilt dann
+$$
+b^2=\left(\frac a2\right)^2+\left(\frac a2\right)^2=\frac{a^2}{2}.
+$$
+Somit ist $A_{\mathrm{innen}}=b^2=\frac{a^2}{2}$. Da $A_{\mathrm{außen}}=a^2$ gilt, folgt $A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}$.
+<!-- lia-llm:alternative -->
+Die Seitenlänge des äußeren Quadrats sei $a$. Deshalb hat der maximal große Kreis den Radius $\frac a2$ und den Durchmesser $a$. Beide Diagonalen des maximalen inneren Quadrats verbinden gegenüberliegende Punkte des Kreises und sind daher jeweils $a$ lang.
+
+Für ein Quadrat mit den Diagonalen $d_1$ und $d_2$ gilt
+$$
+A=\frac{d_1\cdot d_2}{2}.
+$$
+Damit besitzt das innere Quadrat den Flächeninhalt
+$$
+A_{\mathrm{innen}}=\frac{a\cdot a}{2}=\frac{a^2}{2}.
+$$
+Der Flächeninhalt des äußeren Quadrats ist $A_{\mathrm{außen}}=a^2$. Also gilt $A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}$.
+<!-- lia-llm:alternative -->
+Die Seitenlänge des äußeren Quadrats sei $a$. Der Kreis berührt alle vier Seiten in deren Mittelpunkten. Ein Quadrat, dessen Eckpunkte diese vier Berührpunkte sind, ist im Kreis maximal groß. Die vier Flächen zwischen innerem und äußerem Quadrat sind kongruente rechtwinklige Dreiecke mit den Kathetenlängen $\frac a2$.
+
+Jedes dieser Dreiecke hat den Flächeninhalt
+$$
+\frac12\cdot\frac a2\cdot\frac a2=\frac{a^2}{8}.
+$$
+Zusammen besitzen sie den Flächeninhalt $4\cdot\frac{a^2}{8}=\frac{a^2}{2}$. Vom äußeren Quadrat mit $A_{\mathrm{außen}}=a^2$ bleibt daher
+$$
+A_{\mathrm{innen}}=a^2-\frac{a^2}{2}=\frac{a^2}{2}
+$$
+übrig. Somit gilt $A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}$.
+<!-- lia-llm:alternative -->
+Der Radius des Kreises sei $r$. Weil der Kreis im äußeren Quadrat maximal groß ist, hat dieses Quadrat die Seitenlänge $2r$. Daher beträgt sein Flächeninhalt
+$$
+A_{\mathrm{außen}}=(2r)^2=4r^2.
+$$
+Die Diagonalen des inneren Quadrats sind Durchmesser des Kreises und somit jeweils $2r$ lang. Mit der Flächenformel für ein Quadrat über seine Diagonalen folgt
+$$
+A_{\mathrm{innen}}=\frac{2r\cdot2r}{2}=2r^2.
+$$
+Deshalb ist
+$$
+\frac{A_{\mathrm{innen}}}{A_{\mathrm{außen}}}
+=\frac{2r^2}{4r^2}=\frac12.
+$$
+<!-- lia-llm:alternative -->
+Der Kreisradius werde mit $r$ bezeichnet. Das äußere Quadrat hat wegen des einbeschriebenen Kreises die Seitenlänge $2r$ und somit den Flächeninhalt $4r^2$. Sei $b$ die Seitenlänge des inneren Quadrats. Dessen Diagonale ist der Kreisdurchmesser $2r$.
+
+Die halbe Diagonale bildet mit den halben Seitenlängen ein rechtwinkliges Dreieck. Nach dem Satz des Pythagoras gilt
+$$
+r^2=\left(\frac b2\right)^2+\left(\frac b2\right)^2
+=\frac{b^2}{2}.
+$$
+Daraus folgt $b^2=2r^2$ und damit $A_{\mathrm{innen}}=2r^2$. Im Vergleich zu $A_{\mathrm{außen}}=4r^2$ ergibt sich
+$$
+A_{\mathrm{innen}}=\frac12A_{\mathrm{außen}}.
+$$
+```
+
+@ADetails(5; Aufgabe 3)
