@@ -31,6 +31,13 @@ mode: Presentation
 
 # LLM-Testungen
 
+Hier soll eine komplett freie Antwortsformulierung erprobt werden. Dabei wurden alle bis jetzt erstellten LLM-Aufgaben hier gesammelt.
+
+Sollte eine Lösung, die eigentlich richtig sei, nicht akzeptiert werden, dann wäre es gut, wenn dieser Text seinen Weg zu Martin Lommatzsch finden könnte, sodass er dies analysieren kann. 
+
+Vielen lieben Dank an jeden Tester.
+
+
 ## Aufgabe 1: Die Botschaft in der Blechdose
 
 > Quelle: Wochenaufgabe 3, Klasse 5, Deutsch — `5/Deutsch/Lia5_03.md`.
