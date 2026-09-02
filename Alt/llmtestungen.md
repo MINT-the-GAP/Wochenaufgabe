@@ -1,5 +1,5 @@
 <!--
-version: 0.0.1
+version: 0.0.3
 language: de
 narrator: Deutsch Female
 
@@ -125,22 +125,21 @@ __$c)\;\;$__ Finns Veränderung
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Erkläre, wie sich Finns Haltung im Verlauf der Geschichte verändert. Belege deine Erklärung mit mindestens zwei Situationen aus dem Text.`)
-Am Anfang ist Finn ungeduldig und möchte die Dose gewaltsam öffnen. Auch die alten Samen hält er zunächst für nutzlos. Durch das Foto mit der noch vorhandenen Bank versteht er jedoch, dass der Fund wirklich mit der Schule verbunden ist. Später arbeitet er selbst sehr sorgfältig, misst die Beete genau aus und liest kleine Hinweise sogar zweimal.
-<!-- lia-llm:alternative -->
-Zu Beginn möchte Finn schnell fertig werden und die Dose mit einem Schraubenzieher aufbrechen. Später bezeichnet er auch die alten Samen zunächst als nutzlos. Das Foto der noch vorhandenen Bank lässt ihn die Bedeutung des Fundes erkennen. Am Ende misst er die Beete sorgfältig und liest selbst kleine Hinweise zweimal, wodurch seine neue Aufmerksamkeit deutlich wird.
-<!-- lia-llm:alternative -->
-Finn handelt anfangs hastig und bevorzugt beim Öffnen der Dose eine gewaltsame Lösung. Auch den Wert der alten Samen erkennt er zunächst nicht. Als er auf dem Foto die rissige Bank vom Schulhof wiedererkennt, beginnt er den Fund ernst zu nehmen. Danach arbeitet er genau, vermisst jedes Beet und kontrolliert Hinweise mehrfach.
-<!-- lia-llm:alternative -->
-Am Anfang fehlt Finn die Geduld für eine sorgfältige Suche, weshalb er die Blechdose sofort aufbrechen will. Seine ablehnende Haltung zeigt sich erneut, als er die alten Samen für unbrauchbar hält. Die Verbindung zwischen dem Foto und der noch stehenden Bank verändert seinen Blick auf die Geschichte. Später übernimmt er selbst eine gründliche Arbeitsweise und liest kleine Angaben sogar zweimal.
-<!-- lia-llm:alternative -->
-Zunächst achtet Finn vor allem darauf, rasch fertig zu werden. Deshalb greift er zum Schraubenzieher und beurteilt später auch die Samen vorschnell als nutzlos. Durch die erkennbare Bank auf dem alten Foto versteht er die Bedeutung von Maras Hinterlassenschaft. Beim Anlegen des Gartens misst er schließlich genau und prüft Hinweise sorgfältig.
-<!-- lia-llm:alternative -->
-Finn entwickelt sich von einem ungeduldigen zu einem aufmerksamen Helfer. Sein früheres Verhalten wird durch den Versuch belegt, die Dose gewaltsam zu öffnen, und durch seine Geringschätzung der Samen. Das Foto mit der noch vorhandenen Bank macht die Vergangenheit für ihn greifbar. Danach arbeitet er gewissenhaft, misst die Beete aus und liest Hinweise erneut.
-<!-- lia-llm:alternative -->
-Zu Beginn übersieht Finn leicht Einzelheiten, weil er möglichst schnell vorankommen möchte. Er will die Dose aufbrechen und hält die jahrzehntealten Samen zuerst für wertlos. Die wiedererkannte Bank auf dem Foto überzeugt ihn jedoch von der Bedeutung des Fundes. Seine Veränderung zeigt sich später daran, dass er beim Gartenbau genau misst und kleine Hinweise doppelt liest.
-<!-- lia-llm:alternative -->
-Finns Haltung wird im Verlauf deutlich sorgfältiger. Anfangs reagiert er impulsiv mit dem Schraubenzieher und zweifelt außerdem am Nutzen der alten Samen. Nachdem er die rissige Bank auf dem Foto erkennt, nimmt er Maras Geschichte ernst. Am Schluss arbeitet er geduldig, vermisst die Beete genau und kontrolliert selbst unscheinbare Hinweise zweimal.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Erkläre, wie sich Finns Haltung im Verlauf der Geschichte verändert. Belege deine Erklärung mit mindestens zwei Situationen aus dem Text.`)
+<!-- lia-llm:criterion -->
+Die Antwort besteht aus mindestens drei Sätzen.
+<!-- lia-llm:criterion -->
+Alle Sätze sind vollständig.
+<!-- lia-llm:criterion -->
+Zu Beginn wird Finn als ungeduldig oder auf ein schnelles Ergebnis bedacht beschrieben.
+<!-- lia-llm:criterion -->
+Im weiteren Verlauf wird Finns Haltung als sorgfältiger oder aufmerksamer beschrieben.
+<!-- lia-llm:criterion -->
+Die anfängliche Haltung wird mit mindestens einer passenden Situation aus dem Text belegt, etwa mit dem Schraubenzieher oder der Geringschätzung der alten Samen.
+<!-- lia-llm:criterion -->
+Die spätere Haltung wird mit mindestens einer passenden Situation aus dem Text belegt, etwa mit dem genauen Ausmessen der Beete oder dem zweimaligen Lesen kleiner Hinweise.
+<!-- lia-llm:solution -->
+Am Anfang ist Finn ungeduldig und möchte schnell fertig werden. Deshalb will er die Dose mit einem Schraubenzieher aufbrechen; auch die alten Samen hält er zunächst für nutzlos. Als er auf dem Foto die noch vorhandene rissige Bank erkennt, wird ihm die Bedeutung des Fundes deutlich. Später arbeitet er selbst sorgfältig, misst beim Anlegen des Gartens jedes Beet genau aus und liest kleine Hinweise sogar zweimal.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -153,22 +152,29 @@ Warum ist der Fund für Frau Öztürk persönlich bedeutsam? **Erkläre**, welch
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Warum ist der Fund für Frau Öztürk persönlich bedeutsam? Erkläre, welche Erinnerungen und Gefühle die Dose bei ihr auslösen könnte.`)
-Der Fund ist für Frau Öztürk persönlich bedeutsam, weil das Heft ihrer älteren Schwester Mara gehörte. Mara musste kurz nach dem Sturm wegziehen und konnte den begonnenen Garten nicht vollenden. Die Dose erinnert Frau Öztürk deshalb an ihre Schwester, deren Schulzeit und einen unerfüllten Wunsch. Ihre stille Reaktion kann Freude über die wiedergefundene Erinnerung, aber auch Traurigkeit über Maras Wegzug ausdrücken.
-<!-- lia-llm:alternative -->
-Frau Öztürk erkennt in dem Heft ein persönliches Erinnerungsstück ihrer älteren Schwester Mara. Da Mara nach dem Sturm wegzog, blieb ihr Vorhaben mit dem Schulgarten unvollendet. Die Dose kann Erinnerungen an die gemeinsame Familie und Maras Schulzeit wecken. Ihr Schweigen lässt sowohl Rührung und Freude über den Fund als auch Traurigkeit über den damaligen Abschied vermuten.
-<!-- lia-llm:alternative -->
-Das Heft verbindet Frau Öztürk unmittelbar mit ihrer Schwester, die 1986 diese Schule besucht hatte. Maras Garten wurde vom Sturm zerstört und konnte wegen des späteren Wegzugs nicht wiederhergestellt werden. Der Fund erinnert daher an Mara und ihren unerfüllten Wunsch. Frau Öztürk könnte über die wiederentdeckte Spur glücklich, zugleich aber wegen der Trennung von ihrer Schwester traurig sein.
-<!-- lia-llm:alternative -->
-Für Frau Öztürk ist die Dose mehr als ein alter Gegenstand, denn sie stammt von ihrer älteren Schwester Mara. Darin sind Erinnerungen an Maras Schulzeit, den zerstörten Garten und den plötzlichen Wegzug bewahrt. Die Nachricht macht einen lange unerfüllten Plan wieder sichtbar. Deshalb kann ihre stille Reaktion Überraschung, Rührung, Freude und Trauer zugleich ausdrücken.
-<!-- lia-llm:alternative -->
-Frau Öztürk erfährt durch den Fund etwas über ein wichtiges Erlebnis ihrer Schwester. Mara hatte den Garten nach dem Sturm nicht vollenden können, weil ihre Familie kurz darauf wegzog. Heft, Fotos und Samen führen diese Vergangenheit wieder vor Augen. Dabei könnten schöne Erinnerungen an Mara ebenso entstehen wie Traurigkeit über den Abschied und den zerstörten Garten.
-<!-- lia-llm:alternative -->
-Die Initialen und das Heft gehören zu Mara, der älteren Schwester von Frau Öztürk. Maras Arbeit am Schulgarten wurde durch den Sturm und den anschließenden Umzug beendet. Mit der Dose kehren Erinnerungen an ihre Schwester und deren damalige Hoffnung zurück. Frau Öztürk könnte deshalb gerührt und erfreut über das Wiederfinden, aber auch wehmütig oder traurig sein.
-<!-- lia-llm:alternative -->
-Der Inhalt der Dose bewahrt einen Teil von Maras Vergangenheit an derselben Schule. Für Frau Öztürk ist dieser Teil persönlich, weil Mara ihre ältere Schwester ist und kurz nach dem Unglück wegziehen musste. Die Fundstücke erinnern an den Garten, den Mara nicht mehr neu anlegen konnte. Das kann Stolz und Freude über Maras Idee sowie Trauer über den Wegzug auslösen.
-<!-- lia-llm:alternative -->
-Durch die Dose begegnet Frau Öztürk unvermittelt einer Nachricht ihrer älteren Schwester aus deren Schulzeit. Mara hatte Samen und Fotos zurückgelassen, nachdem der Sturm den Garten zerstört hatte und ihre Familie weggezogen war. Dadurch wird ein lange zurückliegender, nicht erfüllter Wunsch wieder lebendig. Ihre Stille kann als Zeichen von Überraschung, Rührung und schmerzlicher Erinnerung verstanden werden.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Warum ist der Fund für Frau Öztürk persönlich bedeutsam? Erkläre, welche Erinnerungen und Gefühle die Dose bei ihr auslösen könnte.`)
+<!-- lia-llm:criterion -->
+Die Antwort besteht aus mindestens drei Sätzen.
+<!-- lia-llm:criterion -->
+Alle Sätze sind vollständig.
+<!-- lia-llm:criterion -->
+Das Heft in der Dose gehörte Mara.
+<!-- lia-llm:criterion -->
+Mara ist Frau Öztürks ältere Schwester.
+<!-- lia-llm:criterion -->
+Ein Sturm zerstörte den von Maras Klasse angelegten Garten.
+<!-- lia-llm:criterion -->
+Mara zog kurz nach dem Sturm mit ihrer Familie weg.
+<!-- lia-llm:criterion -->
+Mara hinterließ die Nachricht „Vielleicht beendet ihr, was wir begonnen haben.“
+<!-- lia-llm:criterion -->
+Die Antwort nennt mindestens zwei konkrete, zum Text passende Erinnerungen, die die Dose auslösen kann, etwa an Mara, ihre Schulzeit, den zerstörten Garten oder ihre hinterlassene Nachricht.
+<!-- lia-llm:criterion -->
+Die Antwort nennt mindestens zwei plausible Gefühle, die der Fund auslösen kann.
+<!-- lia-llm:criterion -->
+Die genannten Gefühle werden nachvollziehbar mit dem Fund oder mit Maras Geschichte begründet.
+<!-- lia-llm:solution -->
+Der Fund ist für Frau Öztürk persönlich bedeutsam, weil das Heft ihrer älteren Schwester Mara gehörte. Ein Sturm hatte den von Maras Klasse angelegten Garten zerstört; Mara versteckte die übrigen Samen, hinterließ eine Nachricht und zog kurz danach mit ihrer Familie weg. Die Dose erinnert Frau Öztürk daher an ihre Schwester, deren Schulzeit, den zerstörten Garten und Maras hinterlassene Nachricht. Ihre stille Reaktion kann Freude oder Rührung über die wiedergefundene Erinnerung, zugleich aber auch Traurigkeit oder Wehmut über Maras Wegzug ausdrücken.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -330,22 +336,23 @@ Wie verändert sich Niko im Verlauf der Geschichte? **Erkläre** seine Entwicklu
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.66;solution=1;feedback=1,`Wie verändert sich Niko im Verlauf der Geschichte? Erkläre seine Entwicklung und belege sie mit mindestens zwei Situationen.`)
-Zu Beginn ist Niko unsicher, weil er neu in der Klasse ist und sich für zu langsam hält. Später übernimmt er mit den Schildern eine wichtige Aufgabe und gesteht der Gruppe offen seine Verwechslung der Farben. Anschließend verbessert er die Ordnung durch zusätzliche Symbole. Am Ende traut er sich sogar, vor allen Gästen aus dem alten Heft vorzulesen.
-<!-- lia-llm:alternative -->
-Niko steht anfangs abseits und zweifelt daran, dass er der Klasse helfen kann. Beim Beschriften der Bereiche findet er eine Aufgabe, in die er seine Sorgfalt einbringen kann. Er zeigt Mut, als er seinen Fehler nicht versteckt, sondern zugibt und eine bessere Lösung entwickelt. Sein gewachsenes Selbstvertrauen wird deutlich, als er freiwillig vor Publikum liest.
-<!-- lia-llm:alternative -->
-Am Anfang fühlt sich Niko noch nicht als Teil der Gruppe und bleibt deshalb an der Tür stehen. Durch Miras Auftrag beteiligt er sich an der gemeinsamen Arbeit und übernimmt Verantwortung für seinen Fehler. Mit den Bildzeichen hilft er anschließend sogar Emil und der ganzen Gruppe. Beim Vorlesen am Schluss wird seine Stimme sicherer, was seine Entwicklung zeigt.
-<!-- lia-llm:alternative -->
-Niko wirkt zu Beginn zurückhaltend und glaubt, beim Tragen keine Hilfe zu sein. Beim Schreiben der Schilder entdeckt er jedoch, dass seine sorgfältige Arbeit gebraucht wird. Er übernimmt Verantwortung, indem er die Farbverwechslung zugibt und mit Bildzeichen eine Verbesserung entwickelt. Schließlich liest er freiwillig vor der Klasse und den Gästen vor.
-<!-- lia-llm:alternative -->
-Als neues Klassenmitglied hält Niko zunächst Abstand und unterschätzt seine eigenen Fähigkeiten. Die Aufgabe mit den Schildern gibt ihm die Möglichkeit, sich einzubringen. Sein offenes Eingeständnis des Fehlers und die hilfreichen Symbole zeigen zunehmenden Mut und Verantwortungsbewusstsein. Am Ende hebt er selbst die Hand und gewinnt beim Vorlesen hörbar an Sicherheit.
-<!-- lia-llm:alternative -->
-Zu Beginn steht Niko unsicher an der Tür, weil er die anderen kaum kennt und sich für zu langsam hält. Danach arbeitet er sorgfältig an der Beschilderung und wird zu einem wichtigen Teil der Gruppe. Statt seinen Fehler zu verbergen, informiert er alle und hilft bei einer besseren Lösung. Sein freiwilliger Vortrag am Schluss belegt, dass sein Selbstvertrauen gewachsen ist.
-<!-- lia-llm:alternative -->
-Niko entwickelt sich von einem zögernden Beobachter zu einem aktiven Mitglied der Klasse. Anfangs beteiligt er sich nicht am Tragen, doch beim Gestalten der Schilder übernimmt er eine passende Aufgabe. Er beweist Ehrlichkeit, als er die verwechselten Farben meldet, und verbessert anschließend das System für Emil. Später wagt er sogar das Vorlesen vor Publikum.
-<!-- lia-llm:alternative -->
-Am Anfang zweifelt Niko an seinem Nutzen für die Gruppe und bleibt deshalb abseits. Mit Miras Unterstützung erkennt er beim Beschriften seine eigene Stärke. Nach der Farbverwechslung entscheidet er sich gegen das heimliche Überkleben und übernimmt offen Verantwortung. Dass er zuletzt eine alte Empfehlung vorträgt und dabei sicherer spricht, zeigt seinen gewonnenen Mut.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Wie verändert sich Niko im Verlauf der Geschichte? Erkläre seine Entwicklung und belege sie mit mindestens zwei Situationen.`)
+<!-- lia-llm:criterion -->
+Die Antwort besteht aus mindestens drei Sätzen.
+<!-- lia-llm:criterion -->
+Alle Sätze sind vollständig.
+<!-- lia-llm:criterion -->
+Zu Beginn wird Niko als unsicher oder zurückhaltend beschrieben.
+<!-- lia-llm:criterion -->
+Im Verlauf der Geschichte beteiligt sich Niko aktiv.
+<!-- lia-llm:criterion -->
+Im Verlauf der Geschichte übernimmt Niko Verantwortung.
+<!-- lia-llm:criterion -->
+Am Ende wird Niko als mutiger oder selbstsicherer beschrieben.
+<!-- lia-llm:criterion -->
+Die Entwicklung wird mit mindestens zwei unterschiedlichen passenden Situationen aus dem Text belegt.
+<!-- lia-llm:solution -->
+Zu Beginn ist Niko unsicher, weil er neu in der Klasse ist, die anderen Kinder kaum kennt und sich beim Tragen für zu langsam hält. Mit dem Schreiben der Schilder übernimmt er jedoch eine wichtige Aufgabe. Er gesteht der Gruppe seine Verwechslung der Farben offen ein und verbessert die Ordnung anschließend durch zusätzliche Bildzeichen. Am Ende meldet er sich freiwillig, um eine alte Buchempfehlung vor Publikum vorzulesen; dabei wird seine anfangs leise Stimme zunehmend sicherer.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -438,22 +445,17 @@ __$a)\;\;$__ **Erkläre**, was ein Personalpronomen ist. **Nenne** außerdem min
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=compact,`Erkläre, was ein Personalpronomen ist. Nenne außerdem mindestens drei verschiedene Personalpronomen.`)
-Ein Personalpronomen ist ein persönliches Fürwort. Es steht für die sprechende oder angesprochene Person oder verweist auf bereits genannte Personen, Tiere oder Sachen; dabei kann es eine Nomengruppe ersetzen. Beispiele sind ich, du, er, sie, es und wir.
-<!-- lia-llm:alternative -->
-Personalpronomen bezeichnen Beteiligte an einem Gespräch oder bereits genannte Personen, Tiere und Dinge. Sie verhindern oft Wiederholungen von Namen und Nomengruppen. Dazu gehören zum Beispiel ich, du, er, sie, es, wir, ihr und sie.
-<!-- lia-llm:alternative -->
-Ein Personalpronomen steht für eine Person, ein Tier oder eine Sache oder zeigt, wer spricht und wer angesprochen wird. Personalpronomen sind zum Beispiel ich, du, er, sie, es und wir.
-<!-- lia-llm:alternative -->
-Persönliche Fürwörter nennt man Personalpronomen. Sie verweisen auf Sprecher, Zuhörer oder etwas bereits Genanntes. Beispiele dafür sind ich, du, wir, ihr, er und sie.
-<!-- lia-llm:alternative -->
-Mit Personalpronomen kann man Namen oder Nomengruppen ersetzen: Aus „Samira findet den Plan.“ wird „Sie findet ihn.“ Personalpronomen sind unter anderem ich, du, sie, er, ihn und wir.
-<!-- lia-llm:alternative -->
-Wörter, die für Personen, Tiere oder Dinge stehen und sich nach Person, Zahl und Fall verändern können, heißen Personalpronomen. Dazu zählen beispielsweise ich, mich, du, dich, er und ihm.
-<!-- lia-llm:alternative -->
-Ein Personalpronomen nimmt im Satz den Platz einer Nomengruppe ein oder benennt Gesprächsteilnehmende ohne Namen. In „Ben kommt. Er wartet.“ ersetzt „er“ den Namen Ben; weitere Beispiele sind ich, du, sie und wir.
-<!-- lia-llm:alternative -->
-Personalpronomen sind Wörter wie „ich“ für den Sprecher, „du“ für die angesprochene Person und „er“, „sie“ oder „es“ für etwas bereits Genanntes. Deshalb nennt man sie auch persönliche Fürwörter.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre, was ein Personalpronomen ist. Nenne außerdem mindestens drei verschiedene Personalpronomen.`)
+<!-- lia-llm:criterion -->
+Die Antwort besteht aus vollständigen Sätzen.
+<!-- lia-llm:criterion -->
+Ein Personalpronomen ist ein persönliches Fürwort.
+<!-- lia-llm:criterion -->
+Ein Personalpronomen kann einen Namen oder eine Nomengruppe ersetzen.
+<!-- lia-llm:criterion -->
+Die Antwort nennt mindestens drei verschiedene Personalpronomen.
+<!-- lia-llm:solution -->
+Ein Personalpronomen ist ein persönliches Fürwort. Es kann für die sprechende oder angesprochene Person sowie für eine bereits genannte Person, ein Tier oder eine Sache stehen und dabei einen Namen oder eine Nomengruppe ersetzen. Beispiele für Personalpronomen sind ich, du, er, sie, es und wir.
 ```
 
 @ADetails(BE=2;Fachbegriff Personalpronomen)
@@ -464,22 +466,19 @@ __$b)\;\;$__ **Erkläre** den Nominativ. **Nenne** die passende Frageprobe und e
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Nominativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
-Der Nominativ ist der erste Fall und kennzeichnet häufig das Subjekt. Man fragt „Wer oder was?“. Im Satz „Der Hausmeister kommt.“ steht „der Hausmeister“ im Nominativ und kann durch „er“ ersetzt werden.
-<!-- lia-llm:alternative -->
-Der Nominativ ist der erste Fall. Er antwortet auf die Frage „Wer oder was?“ und bezeichnet oft das Subjekt. Im vollständigen Satz „Die Taschenlampe leuchtet.“ steht „die Taschenlampe“ im Nominativ.
-<!-- lia-llm:alternative -->
-Im ersten Fall, dem Nominativ, steht meistens das Subjekt eines Satzes. Man erfragt es mit „Wer oder was?“. Im Satz „Samira wartet vor der Schule.“ lautet die Antwort „Samira“; dieser Name steht im Nominativ.
-<!-- lia-llm:alternative -->
-Der Nominativ heißt auch erster Fall und nennt häufig die Person oder Sache, über die etwas ausgesagt wird. Die Frageprobe lautet „Wer oder was?“. In „Das Licht flackert.“ steht „das Licht“ im Nominativ.
-<!-- lia-llm:alternative -->
-Ein Satzglied steht im Nominativ, wenn es den ersten Fall hat und meist die Rolle des Subjekts übernimmt. Gefragt wird „Wer oder was?“. Im Satz „Die Kinder lachen.“ ist „die Kinder“ der Nominativ.
-<!-- lia-llm:alternative -->
-Der erste Fall wird Nominativ genannt. Man findet ihn mit der Frage „Wer oder was?“. Bei „Ben öffnet die Tür.“ fragt man „Wer öffnet die Tür?“; die Antwort „Ben“ steht im Nominativ.
-<!-- lia-llm:alternative -->
-Der Nominativ ist häufig der Fall des Subjekts und wird als erster Fall bezeichnet. Seine Frage heißt „Wer oder was?“. Im Satz „Der Sturm beginnt.“ ist „der Sturm“ die Wortgruppe im Nominativ.
-<!-- lia-llm:alternative -->
-Mit „Wer oder was?“ fragt man nach dem Nominativ, also nach dem ersten Fall. Im vollständigen Satz „Unsere Taschenlampen leuchten.“ steht „unsere Taschenlampen“ im Nominativ.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Nominativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
+<!-- lia-llm:criterion -->
+Die Antwort besteht aus vollständigen Sätzen.
+<!-- lia-llm:criterion -->
+Der Nominativ ist der erste Fall.
+<!-- lia-llm:criterion -->
+Der Nominativ kennzeichnet häufig das Subjekt.
+<!-- lia-llm:criterion -->
+Die Frageprobe für den Nominativ lautet „Wer oder was?“.
+<!-- lia-llm:criterion -->
+Ein vollständiger Beispielsatz enthält eine korrekt als Nominativ bestimmte Person, Sache oder Wortgruppe.
+<!-- lia-llm:solution -->
+Der Nominativ ist der erste Fall und kennzeichnet häufig das Subjekt. Die passende Frageprobe lautet „Wer oder was?“. Im vollständigen Satz „Der Hausmeister kommt.“ steht die Wortgruppe „der Hausmeister“ im Nominativ.
 ```
 
 @ADetails(BE=3;Fachbegriff Nominativ)
@@ -490,22 +489,19 @@ __$c)\;\;$__ **Erkläre** den Akkusativ. **Nenne** die passende Frageprobe und e
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Akkusativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
-Der Akkusativ ist der vierte Fall und kennzeichnet häufig das direkte Objekt. Man fragt „Wen oder was?“. Im Satz „Samira schützt den Plan.“ steht „den Plan“ im Akkusativ und kann durch „ihn“ ersetzt werden.
-<!-- lia-llm:alternative -->
-Der Akkusativ ist der vierte Fall und bezeichnet häufig das direkte Objekt. Er antwortet auf „Wen oder was?“. Im vollständigen Satz „Ben trägt die Taschenlampe.“ steht „die Taschenlampe“ im Akkusativ.
-<!-- lia-llm:alternative -->
-Im vierten Fall, dem Akkusativ, steht oft die Person oder Sache, auf die eine Handlung gerichtet ist. Die Frageprobe lautet „Wen oder was?“. In „Nele holt das Brettspiel.“ ist „das Brettspiel“ der Akkusativ.
-<!-- lia-llm:alternative -->
-Der Akkusativ heißt auch vierter Fall und ist häufig der Fall des direkten Objekts. Man fragt „Wen oder was?“. Im Satz „Frau Brenner zählt die Kinder.“ steht „die Kinder“ im Akkusativ.
-<!-- lia-llm:alternative -->
-Ein Satzglied im Akkusativ steht im vierten Fall. Man erkennt es mit der Frage „Wen oder was?“. Bei „Der Hausmeister prüft die Leitung.“ lautet die Antwort „die Leitung“; sie steht im Akkusativ.
-<!-- lia-llm:alternative -->
-Der vierte Fall wird Akkusativ genannt. Seine Frage lautet „Wen oder was?“. Im vollständigen Satz „Die Klasse gestaltet ein Plakat.“ ist „ein Plakat“ das Akkusativobjekt.
-<!-- lia-llm:alternative -->
-Der Akkusativ kennzeichnet oft das direkte Objekt eines Satzes und ist der vierte Fall. Man fragt danach mit „Wen oder was?“. In „Samira ruft den Hausmeister.“ steht „den Hausmeister“ im Akkusativ.
-<!-- lia-llm:alternative -->
-Mit der Frage „Wen oder was?“ findet man häufig den Akkusativ, also den vierten Fall. Im Satz „Ben öffnet die Tür.“ antwortet „die Tür“ auf „Was öffnet Ben?“ und steht im Akkusativ.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Akkusativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
+<!-- lia-llm:criterion -->
+Die Antwort besteht aus vollständigen Sätzen.
+<!-- lia-llm:criterion -->
+Der Akkusativ ist der vierte Fall.
+<!-- lia-llm:criterion -->
+Der Akkusativ kennzeichnet häufig das direkte Objekt.
+<!-- lia-llm:criterion -->
+Die Frageprobe für den Akkusativ lautet „Wen oder was?“.
+<!-- lia-llm:criterion -->
+Ein vollständiger Beispielsatz enthält eine korrekt als Akkusativ bestimmte Person, Sache oder Wortgruppe.
+<!-- lia-llm:solution -->
+Der Akkusativ ist der vierte Fall und kennzeichnet häufig das direkte Objekt. Die passende Frageprobe lautet „Wen oder was?“. Im vollständigen Satz „Samira schützt den Plan.“ steht die Wortgruppe „den Plan“ im Akkusativ.
 ```
 
 @ADetails(BE=3;Fachbegriff Akkusativ)
@@ -516,22 +512,19 @@ __$d)\;\;$__ **Erkläre** den Dativ. **Nenne** die passende Frageprobe und ein B
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Dativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
-Der Dativ ist der dritte Fall und kennzeichnet häufig das indirekte Objekt. Man fragt „Wem?“. Im Satz „Samira zeigt Ben den Plan.“ steht „Ben“ im Dativ und kann durch „ihm“ ersetzt werden.
-<!-- lia-llm:alternative -->
-Der Dativ ist der dritte Fall und bezeichnet häufig das indirekte Objekt. Er antwortet auf die Frage „Wem?“. Im vollständigen Satz „Die Lehrerin gibt Nele eine Taschenlampe.“ steht „Nele“ im Dativ und kann durch „ihr“ ersetzt werden.
-<!-- lia-llm:alternative -->
-Im dritten Fall, dem Dativ, steht oft die Person oder Gruppe, die etwas erhält oder der etwas erklärt wird. Man fragt „Wem?“. In „Der Hausmeister erklärt den Kindern die Störung.“ steht „den Kindern“ im Dativ.
-<!-- lia-llm:alternative -->
-Der Dativ heißt auch dritter Fall und ist häufig der Fall des indirekten Objekts. Seine Frage lautet „Wem?“. Im Satz „Frau Winter hilft dem Team.“ ist „dem Team“ der Dativ.
-<!-- lia-llm:alternative -->
-Ein Satzglied im Dativ steht im dritten Fall. Man findet es mit der Frage „Wem?“. Bei „Ben erzählt seinem Freund die Geschichte.“ lautet die Antwort „seinem Freund“; diese Wortgruppe steht im Dativ.
-<!-- lia-llm:alternative -->
-Der dritte Fall wird Dativ genannt. Die passende Frageprobe ist „Wem?“. Im vollständigen Satz „Samira antwortet der Lehrerin.“ steht „der Lehrerin“ im Dativ.
-<!-- lia-llm:alternative -->
-Der Dativ kennzeichnet häufig das indirekte Objekt eines Satzes und ist der dritte Fall. Man fragt danach mit „Wem?“. In „Die Kinder danken dem Hausmeister.“ ist „dem Hausmeister“ der Dativ.
-<!-- lia-llm:alternative -->
-Mit „Wem?“ ermittelt man den Dativ, also den dritten Fall. Im Satz „Nele vertraut ihrer Freundin.“ antwortet „ihrer Freundin“ auf diese Frage und steht im Dativ.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Dativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
+<!-- lia-llm:criterion -->
+Die Antwort besteht aus vollständigen Sätzen.
+<!-- lia-llm:criterion -->
+Der Dativ ist der dritte Fall.
+<!-- lia-llm:criterion -->
+Der Dativ kennzeichnet häufig das indirekte Objekt.
+<!-- lia-llm:criterion -->
+Die Frageprobe für den Dativ lautet „Wem?“.
+<!-- lia-llm:criterion -->
+Ein vollständiger Beispielsatz enthält eine korrekt als Dativ bestimmte Person oder Wortgruppe.
+<!-- lia-llm:solution -->
+Der Dativ ist der dritte Fall und kennzeichnet häufig das indirekte Objekt. Die passende Frageprobe lautet „Wem?“. Im vollständigen Satz „Samira zeigt Ben den Plan.“ steht „Ben“ im Dativ.
 ```
 
 @ADetails(BE=3;Fachbegriff Dativ)
@@ -645,24 +638,31 @@ Von einer Figur zur nächsten wird jeder der vier Arme des Kreuzes um ein Kästc
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Du kannst deine Sätze so beginnen: „Auf dem Bild …“, „Vorne …“, „In der Mitte …“, „Hinten …“ und „Das Bild wirkt …“.
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Dein Text soll etwa 55 bis 70 Wörter lang sein. Schreibe zuerst, was du auf dem ganzen Bild siehst. Beschreibe dann, was vorne, in der Mitte und hinten zu sehen ist. Nenne wichtige Farben. Sage am Ende, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Dein Text soll etwa 55 bis 70 Wörter lang sein. Schreibe zuerst, was du auf dem ganzen Bild siehst. Beschreibe dann, was vorne, in der Mitte und hinten zu sehen ist. Nenne wichtige Farben. Sage am Ende, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
+<!-- lia-llm:criterion -->
+Die Bildbeschreibung besteht aus genau sechs Sätzen.
+<!-- lia-llm:criterion -->
+Alle sechs Sätze sind vollständig.
+<!-- lia-llm:criterion -->
+Die Bildbeschreibung umfasst etwa 55 bis 70 Wörter.
+<!-- lia-llm:criterion -->
+Der erste Satz vermittelt einen zutreffenden Gesamtüberblick über das Bild.
+<!-- lia-llm:criterion -->
+Im Vordergrund wird mindestens ein passendes sichtbares Detail beschrieben, etwa die große grüne Wiese oder der große Baum auf der rechten Seite.
+<!-- lia-llm:criterion -->
+In der Bildmitte wird mindestens ein passendes sichtbares Detail beschrieben, etwa weitere Hügel oder kleinere Bäume.
+<!-- lia-llm:criterion -->
+Im Hintergrund wird mindestens ein passendes sichtbares Detail beschrieben, etwa entfernte Berge, der blaue Himmel oder weiße Wolken.
+<!-- lia-llm:criterion -->
+Die Antwort nennt mindestens zwei wichtige passende Farben, etwa Grün, Blau oder Weiß.
+<!-- lia-llm:criterion -->
+Der letzte Satz beschreibt die persönliche Wirkung des Bildes.
+<!-- lia-llm:criterion -->
+Die Bildbeschreibung ist in der Gegenwart verfasst.
+<!-- lia-llm:criterion -->
+Die Antwort enthält keine erfundene Handlung oder Geschichte.
+<!-- lia-llm:solution -->
 Das Bild zeigt eine grüne Landschaft mit vielen runden Hügeln. Im Vordergrund liegt eine große Wiese mit viel grünem Gras. Rechts steht ein großer Baum und wirft Schatten auf die Wiese. In der Mitte sieht man weitere Hügel und einige kleine Bäume. Hinten liegen Berge unter einem blauen Himmel mit weißen Wolken. Das helle Bild wirkt auf mich ruhig, freundlich und schön.
-<!-- lia-llm:alternative -->
-Auf dem Bild sieht man grüne Wiesen und viele Hügel. Vorne liegt eine große Wiese im hellen Licht der Sonne. Auf der rechten Seite steht ein großer Baum mit grünen Blättern. Sein dunkler Schatten liegt auf dem Gras neben dem Baum. In der Mitte und hinten sieht man kleine Bäume und Berge. Der blaue Himmel und die weißen Wolken wirken ruhig.
-<!-- lia-llm:alternative -->
-Das Foto zeigt eine große Wiese mit Hügeln und Bäumen. Im Vordergrund sieht man viel grünes Gras auf der Wiese. Rechts steht der größte Baum auf dem ganzen Bild. Unter dem Baum liegt ein dunkler Schatten auf dem Gras. In der Mitte liegen Hügel und hinten erkennt man Berge und Wolken. Der blaue Himmel und das viele Grün wirken ruhig und schön.
-<!-- lia-llm:alternative -->
-Auf dem Bild sieht man eine helle Landschaft an einem sonnigen Tag. Vorne liegt eine große Wiese mit kurzem grünem Gras. Rechts steht ein großer Baum mit einem dicken Stamm. In der Mitte stehen kleine Bäume zwischen den grünen Hügeln. Hinten liegen Berge unter einem blauen Himmel mit weißen Wolken. Das Bild wirkt still und freundlich und gefällt mir gut.
-<!-- lia-llm:alternative -->
-Man sieht auf dem Bild viele grüne Hügel und eine Wiese. Im Vordergrund geht die Wiese auf der rechten Seite bergauf. Dort steht ein großer Baum und wirft einen dunklen Schatten. In der Mitte stehen mehrere kleine Bäume auf den Hügeln. Hinten sieht man Berge, einen blauen Himmel und weiße Wolken. Die Landschaft ist hell und wirkt ruhig und freundlich.
-<!-- lia-llm:alternative -->
-Das Bild zeigt eine grüne Landschaft mit Wiesen und Hügeln. Vorne sieht man eine große Wiese mit viel Gras. Rechts steht ein großer Baum mit vielen grünen Blättern. In der Mitte liegen Hügel mit einigen kleinen Bäumen. Hinten sieht man Berge unter einem blauen Himmel mit weißen Wolken. Ohne Menschen und Häuser wirkt das ganze Bild ruhig und still.
-<!-- lia-llm:alternative -->
-Auf dem Foto sieht man grüne Wiesen, Bäume und viele Hügel. Im Vordergrund liegt eine breite Wiese im hellen Sonnenlicht. Rechts steht ein großer Baum und wirft einen dunklen Schatten. In der Mitte wachsen kleine Bäume zwischen den Hügeln. Im Hintergrund liegen Berge unter einem blauen Himmel mit weißen Wolken. Die hellen Farben machen das Bild ruhig und schön.
-<!-- lia-llm:alternative -->
-Das Bild zeigt viele grüne Hügel unter einem großen blauen Himmel. Vorne ist das Gras im Licht der Sonne hellgrün. Auf der rechten Seite steht ein großer Baum mit vielen Blättern. In der Mitte sieht man weitere Hügel und kleinere Bäume. Hinten liegen Berge und am Himmel sind viele weiße Wolken. Die Landschaft wirkt auf mich ruhig, hell und freundlich.
-<!-- lia-llm:alternative -->
-Das Foto zeigt grüne Wiesen und viele Hügel an einem hellen Tag. Im Vordergrund liegt eine große Wiese mit grünem Gras. Rechts steht ein großer Baum und wirft einen dunklen Schatten. In der Mitte stehen mehrere kleine Bäume zwischen den Hügeln. Im Hintergrund sieht man Berge unter einem blauen Himmel mit weißen Wolken. Das Bild sieht freundlich aus und macht mich ganz ruhig.
 ```
 
 @ADetails(BE=5;Bildbeschreibung)
@@ -745,22 +745,33 @@ In der Klammer wird zunächst die Gesamtzahl der Sitzplätze berechnet. Die $7$ 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Du kannst deine Sätze so beginnen: „Auf dem Bild …“, „Vorne …“, „Oben …“, „Hinten …“, „Am Himmel …“ und „Ich finde …“.
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Schreibe etwa 55 bis 70 Wörter. Schreibe zuerst, was du auf dem ganzen Bild siehst. Schreibe danach, was du vorne, oben auf dem Berg und hinten siehst. Nenne auch Farben und das Licht. Schreibe im letzten Satz, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
-Auf dem Bild sieht man eine alte Burg auf einem hohen Berg. Vorne sind viele graue Felsen und grünes Gras. Oben stehen kaputte Mauern und mehrere Türme ohne Dächer. Hinter der Burg sieht man Wald, Berge und etwas Nebel. Links sind graue Wolken, aber rechts ist der Himmel hell und gelb. Ich finde das Bild schön, aber die alte Burg wirkt auch etwas unheimlich.
-<!-- lia-llm:alternative -->
-Das Bild zeigt eine alte Burg ganz oben auf einem Felsen. Im Vordergrund sieht man Steine, Gras und mehrere kleine Bäume. Die Burg hat hohe Türme, aber keine Dächer mehr. Im Hintergrund liegen viele Berge und ein großer Wald. Rechts kommt helles Licht durch die Wolken und macht den Himmel gelb. Das Bild wirkt auf mich ruhig und ein bisschen spannend.
-<!-- lia-llm:alternative -->
-Auf dem Bild steht eine kaputte Burg auf einem hohen Berg. Vorne sieht man große graue Steine und viel grünes Gras. Oben sind alte Mauern und Türme mit vielen großen Löchern. Hinten sieht man Wald, Berge und weißen Nebel. Links ist der Himmel dunkel, aber rechts kommt helles Licht durch die Wolken. Ich finde die Landschaft schön und die Burg etwas gruselig.
-<!-- lia-llm:alternative -->
-Ich sehe auf dem Bild eine alte Burg auf einem Felsen. Unten wachsen Gras, Büsche und kleine Bäume. Die Burg ist kaputt und hat keine Dächer mehr. Dahinter sieht man einen Wald und weitere Berge. Über der Landschaft hängen viele Wolken, doch rechts ist es sehr hell. Für mich sieht das Bild ruhig aus, aber auch ein wenig unheimlich.
-<!-- lia-llm:alternative -->
-In der Mitte des Bildes steht eine alte Burg auf einem Berg. Im Vordergrund sieht man einen steilen Felsen mit Gras. Oben stehen hohe Mauern und Türme mit großen Löchern. Hinten sieht man Wälder, Berge und Nebel. Der Himmel ist grau, aber von rechts kommt gelbes Licht. Mir gefällt das Bild, weil die Landschaft schön und ruhig aussieht.
-<!-- lia-llm:alternative -->
-Das Bild zeigt einen hohen Felsen mit einer alten Burg. Vorne sieht man graue Steine, grünes Gras und einige Bäume. Ganz oben stehen mehrere kaputte Türme und dicke Mauern. Hinter dem Felsen liegen ein großer Wald und viele weitere Berge. Links ist der Himmel grau, aber rechts ist er hell. Ich finde die alte Burg interessant und das ganze Bild sehr schön.
-<!-- lia-llm:alternative -->
-Auf dem Bild sieht man die Reste einer alten Burg. Sie steht oben auf einem großen Felsen mit Gras und Bäumen. Im Vordergrund sind viele Steine und ein steiler Hang. Im Hintergrund erkennt man Berge, Wald und etwas Nebel. Rechts ist der Himmel viel heller als auf der linken Seite. Das Bild sieht ruhig aus, aber die Burg macht es auch spannend.
-<!-- lia-llm:alternative -->
-Auf einem hohen Berg steht eine alte Burg ohne Dächer. Im Vordergrund sieht man viele graue Felsen und grüne Pflanzen. Oben stehen noch mehrere Mauern und Türme. Hinten sieht man einen Wald, Berge und etwas Nebel. Am Himmel sind graue Wolken und rechts kommt helles Licht durch. Für mich ist die Landschaft schön und die Burg ein bisschen gruselig.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Schreibe etwa 55 bis 70 Wörter. Schreibe zuerst, was du auf dem ganzen Bild siehst. Schreibe danach, was du vorne, oben auf dem Berg und hinten siehst. Nenne auch Farben und das Licht. Schreibe im letzten Satz, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
+<!-- lia-llm:criterion -->
+Die Bildbeschreibung besteht aus genau sechs Sätzen.
+<!-- lia-llm:criterion -->
+Alle sechs Sätze sind vollständig.
+<!-- lia-llm:criterion -->
+Die Bildbeschreibung umfasst etwa 55 bis 70 Wörter.
+<!-- lia-llm:criterion -->
+Der erste Satz beschreibt als Gesamtmotiv eine alte Burg oder Burgruine auf einem hohen Berg.
+<!-- lia-llm:criterion -->
+Im Vordergrund wird mindestens ein passendes sichtbares Detail beschrieben, etwa graue Felsen oder grüne Vegetation.
+<!-- lia-llm:criterion -->
+Oben auf dem Berg wird mindestens ein passendes sichtbares Detail der Ruine beschrieben, etwa beschädigte Mauern oder dachlose Türme.
+<!-- lia-llm:criterion -->
+Im Hintergrund wird mindestens ein passendes sichtbares Detail beschrieben, etwa der Wald, weitere Berge oder Nebel.
+<!-- lia-llm:criterion -->
+Die Antwort nennt mindestens zwei wichtige passende Farben, etwa Grau, Grün oder Gelb.
+<!-- lia-llm:criterion -->
+Die Lichtsituation wird passend beschrieben, etwa durch den Gegensatz zwischen dunkleren Wolken links und hellem gelbem Licht rechts.
+<!-- lia-llm:criterion -->
+Der letzte Satz beschreibt die persönliche Wirkung des Bildes.
+<!-- lia-llm:criterion -->
+Die Bildbeschreibung ist in der Gegenwart verfasst.
+<!-- lia-llm:criterion -->
+Die Antwort enthält keine erfundene Handlung oder Geschichte.
+<!-- lia-llm:solution -->
+Auf dem Bild sieht man eine alte Burg auf einem hohen Berg. Vorne sind viele graue Felsen und grünes Gras. Oben stehen kaputte Mauern und mehrere Türme ohne Dächer. Hinter der Burg sieht man Wald, Berge und etwas Nebel. Links sind graue Wolken, aber rechts fällt helles gelbes Licht durch die Wolken. Ich finde das Bild schön, aber die alte Burg wirkt auch etwas unheimlich.
 ```
 
 @ADetails(6;Bildbeschreibung)
@@ -839,22 +850,17 @@ Lea schrieb für die Schülerzeitung: Das Messgerät war für sie dabei nicht da
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Denke daran, was bei einer Reparatur mit den Fledermäusen und ihren Schlafplätzen passieren könnte.
-```text @LLMQuiz.question(0.62;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre in zwei bis vier vollständigen Sätzen, warum die Fledermauszählung vor der Dachreparatur wichtig war. Nenne zwei Gründe aus dem Text.`)
-Durch die Zählung wusste die Gemeinde, dass 63 Fledermäuse im Dach lebten und welchen Spalt sie nutzten. So konnte sie die Reparatur verschieben und verhindern, dass Tiere eingeschlossen oder ihre Schlafplätze zerstört wurden.
-<!-- lia-llm:alternative -->
-Die Schlafplätze der Fledermäuse sind geschützt. Vor der Reparatur musste die Gemeinde wissen, ob dort Tiere lebten. Die Zählung zeigte auch, welche Spalten als Ausgänge offen bleiben mussten.
-<!-- lia-llm:alternative -->
-Ohne die Zählung hätten Arbeiter die Tiere vielleicht gestört oder im Dach eingeschlossen. Die Beobachtung zeigte außerdem, wie viele Fledermäuse dort lebten und wo sie ausflogen.
-<!-- lia-llm:alternative -->
-Die Klasse fand heraus, dass eine große Fledermausgruppe das Dach als Sommerquartier nutzte. Deshalb durfte erst später repariert werden, und für verlorene Schlafplätze sollten Fledermauskästen aufgehängt werden.
-<!-- lia-llm:alternative -->
-Fledermäuse und ihre Schlafplätze sind geschützt. Die Klasse zählte die Tiere und fand ihren Ausgang. Deshalb konnte die Gemeinde später bauen und zusätzlich Fledermauskästen aufhängen.
-<!-- lia-llm:alternative -->
-Vor dem Bauen musste klar sein, ob das Dach von Fledermäusen genutzt wurde. Durch die Zählung wusste die Gemeinde, wie viele Tiere dort lebten und welchen Ausgang sie nutzten. So konnte sie die Reparatur ohne Gefahr für die Tiere planen.
-<!-- lia-llm:alternative -->
-Die Beobachtung zeigte den Fachleuten, wo 63 Fledermäuse aus dem Dach kamen. Deshalb konnten sie prüfen, welche Spalten offen bleiben mussten. Mit der Reparatur warteten sie, bis die Tiere ihr Sommerquartier verlassen hatten.
-<!-- lia-llm:alternative -->
-Vor der Reparatur musste die Gemeinde wissen, ob Fledermäuse im Dach waren. Ohne die Zählung hätten Arbeiter die Tiere vielleicht gestört oder eingeschlossen. Die Beobachtung zeigte auch, welche Öffnungen im Dach für sie wichtig waren.
+```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre in zwei bis vier vollständigen Sätzen, warum die Fledermauszählung vor der Dachreparatur wichtig war. Nenne zwei Gründe aus dem Text.`)
+<!-- lia-llm:criterion -->
+Die Antwort besteht aus zwei bis vier Sätzen.
+<!-- lia-llm:criterion -->
+Alle Sätze sind vollständig.
+<!-- lia-llm:criterion -->
+Die Antwort nennt mindestens zwei unterschiedliche, im Text belegte Gründe für die Bedeutung der Zählung, etwa die Anzahl der Tiere, den benutzten Ausgang, das Verschieben der Reparatur, das Verhindern des Einschließens oder den Erhalt der Schlafplätze.
+<!-- lia-llm:criterion -->
+Die Antwort erklärt nachvollziehbar, wie die Erkenntnisse aus der Zählung eine fledermausgerechte Planung der Dachreparatur ermöglichten.
+<!-- lia-llm:solution -->
+Durch die Zählung wusste die Gemeinde, dass 63 Fledermäuse im Dach lebten und welchen Spalt sie als Ausgang nutzten. Deshalb konnte die Reparatur warten, bis die Tiere ihr Sommerquartier verlassen hatten, sodass keine Fledermäuse eingeschlossen wurden. Außerdem konnten die Fachleute erkennen, welche Dachspalten erhalten bleiben mussten. So ließen sich die geschützten Schlafplätze bei der Dachreparatur bewahren.
 ```
 
 @ADetails(BE=2;Leseverständnis, Erklären)
@@ -1312,7 +1318,7 @@ Die vier Summanden sind die gemessenen Zeiten der vier Trainingsläufe. Durch ih
 
 ## Dreieckskonstruktion mit dem Kongruenzsatz SSS
 
-> Quelle: Lokale Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0021.md`; uncommittierter Arbeitsstand auf Basis von `fc2e5cf4bb871941adf5fc8de15ee96a4d7560eb`.
+> Quelle: Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0021.md`; Commit `5457cddf3b26bcaa164463e091efb8d1a755db11`.
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
@@ -1327,13 +1333,13 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=5\,\mathrm{cm}$, $b=4\,\m
 [[?]] @Explain
 ```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
-Die Konstruktion verwendet die vorgegebenen Seitenlängen 4 cm, 5 cm und 6 cm.
+Eine der drei gegebenen Seiten wird in ihrer vorgegebenen Länge als Grundseite gezeichnet.
 <!-- lia-llm:criterion -->
-Eine der drei gegebenen Seiten wird maßstabsgerecht als Grundseite gezeichnet.
+Um einen Endpunkt der Grundseite wird ein Kreis oder Kreisbogen mit dem Radius der zugehörigen zweiten Seitenlänge konstruiert.
 <!-- lia-llm:criterion -->
-Um jeden Endpunkt der Grundseite wird ein Kreisbogen mit dem Radius der an diesem Endpunkt anliegenden vorgegebenen Seitenlänge gezeichnet.
+Um den anderen Endpunkt der Grundseite wird ein Kreis oder Kreisbogen mit dem Radius der verbleibenden dritten Seitenlänge konstruiert.
 <!-- lia-llm:criterion -->
-Einer der Kreisschnittpunkte wird als dritter Eckpunkt markiert.
+Ein Schnittpunkt der Kreise oder Kreisbögen wird als dritter Eckpunkt gewählt.
 <!-- lia-llm:criterion -->
 Der dritte Eckpunkt wird mit beiden Endpunkten der Grundseite verbunden.
 <!-- lia-llm:solution -->
@@ -1347,7 +1353,7 @@ Zuerst wird die Grundseite $\overline{AB}$ mit der Länge $c=6\,\mathrm{cm}$ gez
 
 ## Dreieckskonstruktion mit dem Kongruenzsatz SsW
 
-> Quelle: Lokale Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0022.md`; uncommittierter Arbeitsstand auf Basis von `fc2e5cf4bb871941adf5fc8de15ee96a4d7560eb`.
+> Quelle: Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0022.md`; Commit `5457cddf3b26bcaa164463e091efb8d1a755db11`.
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
@@ -1362,15 +1368,15 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=6\,\mathrm{cm}$ und $b=4\
 [[?]] @Explain
 ```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
-Zuerst wird die Seite AC mit b = 4 cm gezeichnet.
+Die Seite $\overline{AC}$ wird mit der Länge $b=4\,\mathrm{cm}$ gezeichnet.
 <!-- lia-llm:criterion -->
-Bei A wird an AC der Winkel α = 60° konstruiert.
+In $A$ wird an $\overline{AC}$ der Winkel $\alpha=60^\circ$ konstruiert.
 <!-- lia-llm:criterion -->
-Um C wird ein Kreis mit dem Radius a = 6 cm gezeichnet.
+Um $C$ wird ein Kreis oder Kreisbogen mit dem Radius $a=6\,\mathrm{cm}$ konstruiert.
 <!-- lia-llm:criterion -->
-Der Schnittpunkt des Kreises mit dem freien Winkelschenkel wird als B markiert.
+Der Schnittpunkt des Kreises oder Kreisbogens mit dem freien Winkelschenkel wird als $B$ markiert.
 <!-- lia-llm:criterion -->
-Zum Abschluss wird B mit C verbunden.
+$B$ und $C$ werden verbunden.
 <!-- lia-llm:solution -->
 Zuerst wird die Seite $\overline{AC}$ mit der Länge $b=4\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AC}$ der Winkel $\alpha=60^\circ$ konstruiert. Danach wird ein Kreis um $C$ mit dem Radius $a=6\,\mathrm{cm}$ gezeichnet. Sein Schnittpunkt mit dem freien Winkelschenkel wird als $B$ markiert. Abschließend werden $B$ und $C$ verbunden.
 ```
@@ -1382,7 +1388,7 @@ Zuerst wird die Seite $\overline{AC}$ mit der Länge $b=4\,\mathrm{cm}$ gezeichn
 
 ## Dreieckskonstruktion mit dem Kongruenzsatz WSW
 
-> Quelle: Lokale Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0023.md`; uncommittierter Arbeitsstand auf Basis von `fc2e5cf4bb871941adf5fc8de15ee96a4d7560eb`.
+> Quelle: Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0023.md`; Commit `5457cddf3b26bcaa164463e091efb8d1a755db11`.
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
@@ -1397,13 +1403,13 @@ Gegeben sei ein Dreieck $ABC$ mit der Seitenlänge $c=6\,\mathrm{cm}$ sowie den 
 [[?]] @Explain
 ```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
-Zuerst wird die Seite AB mit c = 6 cm gezeichnet.
+Die Seite $\overline{AB}$ wird mit der Länge $c=6\,\mathrm{cm}$ gezeichnet.
 <!-- lia-llm:criterion -->
-Bei A wird an AB der Winkel α = 45° konstruiert.
+In $A$ wird an $\overline{AB}$ der Winkel $\alpha=45^\circ$ konstruiert.
 <!-- lia-llm:criterion -->
-Bei B wird auf derselben Seite der Strecke der Winkel β = 60° konstruiert.
+In $B$ wird auf derselben Seite der Strecke der Winkel $\beta=60^\circ$ konstruiert.
 <!-- lia-llm:criterion -->
-Der Schnittpunkt der freien Winkelschenkel wird als C markiert.
+Der Schnittpunkt der beiden freien Winkelschenkel wird als $C$ markiert.
 <!-- lia-llm:solution -->
 Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=6\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AB}$ der Winkel $\alpha=45^\circ$ konstruiert. In $B$ wird auf derselben Seite der Strecke der Winkel $\beta=60^\circ$ abgetragen. Der Schnittpunkt der beiden freien Winkelschenkel wird als $C$ markiert.
 ```
@@ -1415,7 +1421,7 @@ Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=6\,\mathrm{cm}$ gezeichn
 
 ## Dreieckskonstruktion mit dem Kongruenzsatz WWS
 
-> Quelle: Lokale Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0024.md`; uncommittierter Arbeitsstand auf Basis von `fc2e5cf4bb871941adf5fc8de15ee96a4d7560eb`.
+> Quelle: Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0024.md`; Commit `5457cddf3b26bcaa164463e091efb8d1a755db11`.
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
@@ -1430,15 +1436,15 @@ Gegeben sei ein Dreieck $ABC$ mit den Winkeln $\alpha=60^\circ$ und $\beta=90^\c
 [[?]] @Explain
 ```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
-Zuerst wird γ = 180° − 60° − 90° = 30° berechnet.
+Der dritte Winkel wird mit $\gamma=180^\circ-60^\circ-90^\circ=30^\circ$ berechnet.
 <!-- lia-llm:criterion -->
-Danach wird die Seite BC mit a = 5 cm gezeichnet.
+Die Seite $\overline{BC}$ wird mit der Länge $a=5\,\mathrm{cm}$ gezeichnet.
 <!-- lia-llm:criterion -->
-Bei B wird an BC der Winkel β = 90° konstruiert.
+In $B$ wird an $\overline{BC}$ der Winkel $\beta=90^\circ$ konstruiert.
 <!-- lia-llm:criterion -->
-Bei C wird auf derselben Seite der Strecke der Winkel γ = 30° konstruiert.
+In $C$ wird auf derselben Seite der Strecke der Winkel $\gamma=30^\circ$ konstruiert.
 <!-- lia-llm:criterion -->
-Der Schnittpunkt der freien Winkelschenkel wird als A markiert.
+Der Schnittpunkt der beiden freien Winkelschenkel wird als $A$ markiert.
 <!-- lia-llm:solution -->
 Zuerst wird der dritte Winkel mit $\gamma=180^\circ-60^\circ-90^\circ=30^\circ$ berechnet. Danach wird die Seite $\overline{BC}$ mit der Länge $a=5\,\mathrm{cm}$ gezeichnet. In $B$ wird an $\overline{BC}$ der Winkel $\beta=90^\circ$ konstruiert. In $C$ wird auf derselben Seite der Strecke der Winkel $\gamma=30^\circ$ abgetragen. Der Schnittpunkt der freien Winkelschenkel wird als $A$ markiert.
 ```
@@ -1450,7 +1456,7 @@ Zuerst wird der dritte Winkel mit $\gamma=180^\circ-60^\circ-90^\circ=30^\circ$ 
 
 ## Dreieckskonstruktion mit dem Kongruenzsatz SWS
 
-> Quelle: Lokale Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0025.md`; uncommittierter Arbeitsstand auf Basis von `fc2e5cf4bb871941adf5fc8de15ee96a4d7560eb`.
+> Quelle: Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0025.md`; Commit `5457cddf3b26bcaa164463e091efb8d1a755db11`.
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
@@ -1465,17 +1471,15 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $b=5\,\mathrm{cm}$ und $c=7\
 [[?]] @Explain
 ```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
-Die Konstruktion verwendet die vorgegebenen Seitenlängen 5 cm und 7 cm.
+Eine der beiden gegebenen Seiten, die den Winkel $\alpha$ einschließen, wird in ihrer vorgegebenen Länge mit dem Endpunkt $A$ gezeichnet.
 <!-- lia-llm:criterion -->
-Eine der beiden am Winkel α anliegenden Seiten wird in ihrer angegebenen Länge vom Punkt A aus gezeichnet.
+In $A$ wird an dieser Seite der Winkel $\alpha=60^\circ$ konstruiert.
 <!-- lia-llm:criterion -->
-Bei A wird zwischen den beiden gegebenen Seiten der eingeschlossene Winkel α = 60° konstruiert.
+Auf dem freien Winkelschenkel wird von $A$ aus die Länge der anderen gegebenen Seite abgetragen.
 <!-- lia-llm:criterion -->
-Auf dem freien Winkelschenkel des Winkels α wird von A aus die noch nicht gezeichnete gegebene Seitenlänge abgetragen.
+Der Endpunkt der abgetragenen Strecke wird als dritter Eckpunkt markiert.
 <!-- lia-llm:criterion -->
-Der Endpunkt der auf dem freien Winkelschenkel abgetragenen zweiten Seitenlänge wird als fehlender Eckpunkt markiert.
-<!-- lia-llm:criterion -->
-Die beiden noch nicht verbundenen Eckpunkte werden miteinander verbunden.
+Die beiden noch nicht verbundenen Eckpunkte $B$ und $C$ werden verbunden.
 <!-- lia-llm:solution -->
 Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=7\,\mathrm{cm}$ gezeichnet. In $A$ wird an $\overline{AB}$ der Winkel $\alpha=60^\circ$ konstruiert. Auf dem freien Winkelschenkel wird von $A$ aus die Länge $b=5\,\mathrm{cm}$ abgetragen und der Endpunkt als $C$ markiert. Abschließend werden $B$ und $C$ verbunden.
 ```
@@ -1488,7 +1492,7 @@ Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=7\,\mathrm{cm}$ gezeichn
 
 ## Zusammenhang zwischen WWS und WSW
 
-> Quelle: Lokale Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0026.md`; uncommittierter Arbeitsstand auf Basis von `fc2e5cf4bb871941adf5fc8de15ee96a4d7560eb`.
+> Quelle: Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0026.md`; Commit `5457cddf3b26bcaa164463e091efb8d1a755db11`.
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
@@ -1502,17 +1506,19 @@ Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=7\,\mathrm{cm}$ gezeichn
 <!-- lia-llm:criterion -->
 Bei WSW liegt die gegebene Seite zwischen den beiden gegebenen Winkeln.
 <!-- lia-llm:criterion -->
-Bei WSW werden die beiden gegebenen Winkel an den Endpunkten der gegebenen Seite konstruiert.
+Bei WSW wird die gegebene Seite zuerst gezeichnet.
+<!-- lia-llm:criterion -->
+An den beiden Endpunkten der Seite werden die gegebenen Winkel konstruiert.
 <!-- lia-llm:criterion -->
 Der Schnittpunkt der freien Winkelschenkel ergibt den dritten Eckpunkt.
 <!-- lia-llm:criterion -->
 Bei WWS liegt die gegebene Seite nicht zwischen den beiden gegebenen Winkeln.
 <!-- lia-llm:criterion -->
-Bei WWS wird zuerst der fehlende dritte Winkel mit der Winkelsumme 180° berechnet.
+Bei WWS wird der fehlende anliegende Winkel mit der Innenwinkelsumme von $180^\circ$ berechnet.
 <!-- lia-llm:criterion -->
-Nach der Berechnung des fehlenden WWS-Winkels sind bei WWS eine Seite und ihre beiden anliegenden Winkel bekannt.
+Nach der Winkelberechnung sind auch bei WWS eine Seite und die beiden an ihr anliegenden Winkel bekannt.
 <!-- lia-llm:criterion -->
-Nach der Berechnung des fehlenden WWS-Winkels verläuft die weitere WWS-Konstruktion wie die WSW-Konstruktion.
+Die weitere Konstruktion verläuft bei WWS genauso wie bei WSW.
 <!-- lia-llm:solution -->
 Bei WSW sind eine Seite und die beiden an dieser Seite anliegenden Winkel gegeben. Deshalb wird die Seite gezeichnet, an ihren Endpunkten werden die beiden Winkel konstruiert und der Schnittpunkt der freien Winkelschenkel ergibt den dritten Eckpunkt. Bei WWS liegt die gegebene Seite zunächst nicht zwischen den beiden gegebenen Winkeln. Aus der Winkelsumme wird daher zuerst der fehlende dritte Winkel berechnet. Danach sind ebenfalls eine Seite und ihre beiden anliegenden Winkel bekannt, sodass die weitere Konstruktion genauso wie bei WSW verläuft.
 ```
@@ -1524,7 +1530,7 @@ Bei WSW sind eine Seite und die beiden an dieser Seite anliegenden Winkel gegebe
 
 ## Warum WWW kein Kongruenzsatz ist
 
-> Quelle: Lokale Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0027.md`; uncommittierter Arbeitsstand auf Basis von `fc2e5cf4bb871941adf5fc8de15ee96a4d7560eb`.
+> Quelle: Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0027.md`; Commit `5457cddf3b26bcaa164463e091efb8d1a755db11`.
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
@@ -1537,13 +1543,17 @@ Für ein Dreieck $ABC$ seien die drei Winkel $\alpha=60^\circ$, $\beta=60^\circ$
 [[?]] @Explain
 ```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum diese drei Winkel für die eindeutige Konstruktion des Dreiecks nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
 <!-- lia-llm:criterion -->
-Drei Winkel legen nur die Form und nicht die Größe eines Dreiecks fest.
+Die drei Winkel von jeweils $60^\circ$ legen fest, dass das Dreieck gleichseitig ist.
 <!-- lia-llm:criterion -->
-Drei Winkel von jeweils 60° erlauben gleichseitige Dreiecke mit beliebiger Seitenlänge.
+Die Winkel legen keine Seitenlänge und damit nicht die Größe des Dreiecks fest.
 <!-- lia-llm:criterion -->
-Gleichseitige Dreiecke unterschiedlicher Größe sind nicht kongruent.
+Zu denselben drei Winkeln können Dreiecke mit unterschiedlichen Seitenlängen konstruiert werden.
 <!-- lia-llm:criterion -->
-Ohne vorgegebene Seitenlänge fehlt der Maßstab, weshalb WWW kein Kongruenzsatz ist.
+Die unterschiedlich großen Dreiecke sind nicht kongruent.
+<!-- lia-llm:criterion -->
+Ohne eine vorgegebene Seitenlänge ist die Konstruktion nicht eindeutig.
+<!-- lia-llm:criterion -->
+Deshalb ist WWW kein Kongruenzsatz.
 <!-- lia-llm:solution -->
 Die drei Winkel legen nur die Form eines Dreiecks fest, nicht aber seine Größe. Bei drei Winkeln von jeweils $60^\circ$ entsteht zwar immer ein gleichseitiges Dreieck, seine Seitenlänge kann jedoch beliebig gewählt werden. Beispielsweise besitzen gleichseitige Dreiecke mit den Seitenlängen $4\,\mathrm{cm}$ und $8\,\mathrm{cm}$ dieselben Winkel. Sie sind ähnlich, aber wegen ihrer verschiedenen Seitenlängen nicht kongruent. Ohne eine vorgegebene Seitenlänge fehlt somit der Maßstab, weshalb WWW kein Kongruenzsatz ist.
 ```
@@ -1555,7 +1565,7 @@ Die drei Winkel legen nur die Form eines Dreiecks fest, nicht aber seine Größe
 
 ## Nicht konstruierbares Dreieck
 
-> Quelle: Lokale Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0028.md`; uncommittierter Arbeitsstand auf Basis von `fc2e5cf4bb871941adf5fc8de15ee96a4d7560eb`.
+> Quelle: Aufgabensammlung — `02_Geometrie/07_Kongruenz/Aufgabe_0028.md`; Commit `5457cddf3b26bcaa164463e091efb8d1a755db11`.
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
@@ -1568,9 +1578,13 @@ Ein Dreieck $ABC$ soll mit den Seitenlängen $a=8\,\mathrm{cm}$, $b=3\,\mathrm{c
 [[?]] @Explain
 ```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum ein Dreieck mit diesen Seitenlängen nicht konstruiert werden kann.`)
 <!-- lia-llm:criterion -->
-Die Summe der beiden kürzeren Seitenlängen beträgt 7 cm und ist kleiner als die längste Seitenlänge von 8 cm.
+In einem Dreieck muss die Summe der beiden kürzeren Seiten größer als die längste Seite sein.
 <!-- lia-llm:criterion -->
-Weil 3 cm + 4 cm kleiner als 8 cm ist, kann kein Dreieck mit den angegebenen Seitenlängen konstruiert werden.
+Hier gilt jedoch $b+c=3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}<8\,\mathrm{cm}=a$.
+<!-- lia-llm:criterion -->
+Damit ist die Dreiecksungleichung verletzt.
+<!-- lia-llm:criterion -->
+Wegen der verletzten Dreiecksungleichung kann kein Dreieck konstruiert werden.
 <!-- lia-llm:solution -->
 In jedem Dreieck muss die Summe der Längen zweier Seiten größer als die Länge der dritten Seite sein. Hier gilt jedoch $b+c=3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}<8\,\mathrm{cm}=a$. Damit ist die Dreiecksungleichung verletzt. Bei der Konstruktion haben der Kreis um $B$ mit dem Radius $4\,\mathrm{cm}$ und der Kreis um $C$ mit dem Radius $3\,\mathrm{cm}$ keinen Schnittpunkt, weil ihre Radien zusammen kleiner als der Abstand $8\,\mathrm{cm}$ ihrer Mittelpunkte sind. Daher kann der Punkt $A$ nicht bestimmt werden.
 ```
