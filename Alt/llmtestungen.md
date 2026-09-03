@@ -1,5 +1,5 @@
 <!--
-version: 0.0.3
+version: 0.0.5
 language: de
 narrator: Deutsch Female
 
@@ -63,7 +63,7 @@ Sechs Wochen später blühte neben der alten Bank eine einzelne Kornblume. Niema
 
 ---
 
-**Beantworte** jede der folgenden Fragen in mindestens drei vollständigen Sätzen. **Begründe** deine Antwort und **beziehe** dich auf passende Stellen der Geschichte. Ein paar einzelne Wörter reichen nicht aus.
+**Beantworte** jede der folgenden Fragen so, dass deine Gedanken gut nachvollziehbar sind. **Begründe** deine Antwort und **beziehe** dich auf passende Stellen der Geschichte.
 
 __$a)\;\;$__ Leyla und Finn
 
@@ -71,23 +71,17 @@ Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? **Erkläre** außer
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? Erkläre außerdem, was die unterschiedlichen Reaktionen über ihre Arbeitsweisen zeigen.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? Erkläre außerdem, was die unterschiedlichen Reaktionen über ihre Arbeitsweisen zeigen.`)
 <!-- lia-llm:criterion -->
-Leyla hält Finn vom Aufbrechen der Dose ab, weil sie Hinweise auf der Rückseite des Zettels entdeckt.
+Leyla hält Finn vom Aufbrechen ab, weil sie die Hinweise auf der Rückseite des Zettels zuerst untersuchen will.
 <!-- lia-llm:criterion -->
-Die Hinweise auf der Zettelrückseite führen zu einem passenden Schlüssel.
+Die Hinweise führen zu einem passenden Schlüssel, mit dem die Dose ohne Gewalt geöffnet werden kann.
 <!-- lia-llm:criterion -->
-Leyla arbeitet sorgfältig.
+Leyla handelt überlegt und untersucht die Hinweise genau.
 <!-- lia-llm:criterion -->
-Leyla arbeitet geduldig.
-<!-- lia-llm:criterion -->
-Leyla arbeitet aufmerksam.
-<!-- lia-llm:criterion -->
-Finn ist anfangs ungeduldig.
-<!-- lia-llm:criterion -->
-Finn möchte möglichst schnell zu einem Ergebnis kommen.
+Finn handelt anfangs ungeduldig und möchte die Dose möglichst schnell öffnen.
 <!-- lia-llm:solution -->
-Leyla hält Finn vom Aufbrechen ab, weil sie auf der Rückseite des Zettels Hinweise entdeckt und ihnen zuerst folgen will. Ihr genaues Hinsehen führt zu dem passenden Schlüssel, mit dem die Dose ohne Gewalt geöffnet werden kann. Leyla arbeitet sorgfältig, geduldig und aufmerksam, während Finn anfangs ungeduldig ist und möglichst schnell zu einem Ergebnis kommen möchte.
+Leyla hält Finn vom Aufbrechen ab, weil sie auf der Rückseite des Zettels Hinweise entdeckt und ihnen zuerst folgen will. Ihr überlegtes und genaues Vorgehen führt zu dem passenden Schlüssel, mit dem die Dose ohne Gewalt geöffnet werden kann. Finn handelt dagegen anfangs ungeduldig und möchte die Dose möglichst schnell öffnen.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -100,7 +94,7 @@ __$b)\;\;$__ Der Weg zum Schlüssel
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Erkläre, wie der Zettel Leyla und Finn zum Schlüssel führt. Warum hätten sie ihn ohne genaues Beobachten vermutlich nicht gefunden?`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Erkläre, wie der Zettel Leyla und Finn zum Schlüssel führt. Warum hätten sie ihn ohne genaues Beobachten vermutlich nicht gefunden?`)
 <!-- lia-llm:criterion -->
 Die Zeichnung weist zuerst zur alten Wasserpumpe.
 <!-- lia-llm:criterion -->
@@ -121,25 +115,21 @@ Die Zeichnung nennt nacheinander die alte Wasserpumpe, den Kastanienbaum und sie
 
 __$c)\;\;$__ Finns Veränderung
 
-**Erkläre**, wie sich Finns Haltung im Verlauf der Geschichte verändert. **Belege** deine Erklärung mit mindestens zwei Situationen aus dem Text.
+**Erkläre**, wie sich Finns Haltung im Verlauf der Geschichte verändert. **Gehe** darauf ein, wie er zuerst mit der Dose und später beim Anlegen des Gartens arbeitet.
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Erkläre, wie sich Finns Haltung im Verlauf der Geschichte verändert. Belege deine Erklärung mit mindestens zwei Situationen aus dem Text.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Erkläre, wie sich Finns Haltung im Verlauf der Geschichte verändert. Gehe darauf ein, wie er zuerst mit der Dose und später beim Anlegen des Gartens arbeitet.`)
 <!-- lia-llm:criterion -->
-Die Antwort besteht aus mindestens drei Sätzen.
+Zu Beginn ist Finn ungeduldig und möchte schnell fertig werden.
 <!-- lia-llm:criterion -->
-Alle Sätze sind vollständig.
+Finn versucht, die Dose mit einem Schraubenzieher zu öffnen.
 <!-- lia-llm:criterion -->
-Zu Beginn wird Finn als ungeduldig oder auf ein schnelles Ergebnis bedacht beschrieben.
+Später arbeitet Finn sorgfältiger und aufmerksamer.
 <!-- lia-llm:criterion -->
-Im weiteren Verlauf wird Finns Haltung als sorgfältiger oder aufmerksamer beschrieben.
-<!-- lia-llm:criterion -->
-Die anfängliche Haltung wird mit mindestens einer passenden Situation aus dem Text belegt, etwa mit dem Schraubenzieher oder der Geringschätzung der alten Samen.
-<!-- lia-llm:criterion -->
-Die spätere Haltung wird mit mindestens einer passenden Situation aus dem Text belegt, etwa mit dem genauen Ausmessen der Beete oder dem zweimaligen Lesen kleiner Hinweise.
+Beim Anlegen des Gartens misst Finn jedes Beet genau aus.
 <!-- lia-llm:solution -->
-Am Anfang ist Finn ungeduldig und möchte schnell fertig werden. Deshalb will er die Dose mit einem Schraubenzieher aufbrechen; auch die alten Samen hält er zunächst für nutzlos. Als er auf dem Foto die noch vorhandene rissige Bank erkennt, wird ihm die Bedeutung des Fundes deutlich. Später arbeitet er selbst sorgfältig, misst beim Anlegen des Gartens jedes Beet genau aus und liest kleine Hinweise sogar zweimal.
+Am Anfang ist Finn ungeduldig und möchte schnell fertig werden. Deshalb will er die Dose mit einem Schraubenzieher aufbrechen; auch die alten Samen hält er zunächst für nutzlos. Später arbeitet er sorgfältiger: Beim Anlegen des Gartens misst er jedes Beet genau aus und liest kleine Hinweise sogar zweimal.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -148,33 +138,23 @@ Am Anfang ist Finn ungeduldig und möchte schnell fertig werden. Deshalb will er
 
 __$d)\;\;$__ Frau Öztürks Reaktion
 
-Warum ist der Fund für Frau Öztürk persönlich bedeutsam? **Erkläre**, welche Erinnerungen und Gefühle die Dose bei ihr auslösen könnte.
+Warum ist der Fund für Frau Öztürk persönlich bedeutsam? **Erkläre** mithilfe der Geschichte, woran die Dose sie erinnert und welches Gefühl sie dabei haben könnte.
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Warum ist der Fund für Frau Öztürk persönlich bedeutsam? Erkläre, welche Erinnerungen und Gefühle die Dose bei ihr auslösen könnte.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Warum ist der Fund für Frau Öztürk persönlich bedeutsam? Erkläre mithilfe der Geschichte, woran die Dose sie erinnert und welches Gefühl sie dabei haben könnte.`)
 <!-- lia-llm:criterion -->
-Die Antwort besteht aus mindestens drei Sätzen.
+Das Heft in der Dose gehörte Mara, Frau Öztürks älterer Schwester.
 <!-- lia-llm:criterion -->
-Alle Sätze sind vollständig.
+Ein Sturm zerstörte den Garten, den Maras Klasse angelegt hatte.
 <!-- lia-llm:criterion -->
-Das Heft in der Dose gehörte Mara.
+Mara hinterließ eine Nachricht für spätere Kinder.
 <!-- lia-llm:criterion -->
-Mara ist Frau Öztürks ältere Schwester.
+Die Dose erinnert Frau Öztürk an Mara und deren Schulgeschichte.
 <!-- lia-llm:criterion -->
-Ein Sturm zerstörte den von Maras Klasse angelegten Garten.
-<!-- lia-llm:criterion -->
-Mara zog kurz nach dem Sturm mit ihrer Familie weg.
-<!-- lia-llm:criterion -->
-Mara hinterließ die Nachricht „Vielleicht beendet ihr, was wir begonnen haben.“
-<!-- lia-llm:criterion -->
-Die Antwort nennt mindestens zwei konkrete, zum Text passende Erinnerungen, die die Dose auslösen kann, etwa an Mara, ihre Schulzeit, den zerstörten Garten oder ihre hinterlassene Nachricht.
-<!-- lia-llm:criterion -->
-Die Antwort nennt mindestens zwei plausible Gefühle, die der Fund auslösen kann.
-<!-- lia-llm:criterion -->
-Die genannten Gefühle werden nachvollziehbar mit dem Fund oder mit Maras Geschichte begründet.
+Der wiedergefundene Teil von Maras Geschichte kann Frau Öztürk beispielsweise rühren, freuen, traurig oder wehmütig machen.
 <!-- lia-llm:solution -->
-Der Fund ist für Frau Öztürk persönlich bedeutsam, weil das Heft ihrer älteren Schwester Mara gehörte. Ein Sturm hatte den von Maras Klasse angelegten Garten zerstört; Mara versteckte die übrigen Samen, hinterließ eine Nachricht und zog kurz danach mit ihrer Familie weg. Die Dose erinnert Frau Öztürk daher an ihre Schwester, deren Schulzeit, den zerstörten Garten und Maras hinterlassene Nachricht. Ihre stille Reaktion kann Freude oder Rührung über die wiedergefundene Erinnerung, zugleich aber auch Traurigkeit oder Wehmut über Maras Wegzug ausdrücken.
+Der Fund ist für Frau Öztürk persönlich bedeutsam, weil das Heft ihrer älteren Schwester Mara gehörte. Ein Sturm hatte den Garten von Maras Klasse zerstört. Mara versteckte daraufhin die übrigen Samen und hinterließ eine Nachricht für spätere Kinder. Die Dose erinnert Frau Öztürk an ihre Schwester und deren Schulgeschichte. Diese wiedergefundene Erinnerung kann sie beispielsweise rühren oder freuen, aber auch traurig oder wehmütig machen.
 ```
 
 @ADetails(BE=3;Leseverstehen)
@@ -187,9 +167,9 @@ __$e)\;\;$__ Alte und neue Samen
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Erkläre, warum die Klasse einige alte Samentütchen aufbewahrt und andere alte Samen neben neuen Samen einpflanzt. Warum ist diese Lösung sinnvoll?`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Erkläre, warum die Klasse einige alte Samentütchen aufbewahrt und andere alte Samen neben neuen Samen einpflanzt. Warum ist diese Lösung sinnvoll?`)
 <!-- lia-llm:criterion -->
-Einige alte Samentütchen werden als Erinnerungsstücke an Maras Schulgeschichte aufbewahrt.
+Einige alte Samentütchen werden aufbewahrt, damit ein Teil von Maras Fund und Geschichte erhalten bleibt.
 <!-- lia-llm:criterion -->
 Mit einem Teil der alten Samen wird erprobt, ob sie noch keimen.
 <!-- lia-llm:criterion -->
@@ -210,13 +190,13 @@ Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ **E
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ Erkläre, was dieser Satz bedeutet und warum die Herkunft der Kornblume dafür nicht entscheidend ist.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ Erkläre, was dieser Satz bedeutet und warum die Herkunft der Kornblume dafür nicht entscheidend ist.`)
 <!-- lia-llm:criterion -->
 Das Weiterwachsen ist über das Pflanzenwachstum hinaus bildlich gemeint.
 <!-- lia-llm:criterion -->
 Die neue Klasse greift Maras Gartenidee auf.
 <!-- lia-llm:criterion -->
-Die Kinder legen den zerstörten Garten neu an.
+Die Kinder pflanzen sowohl alte als auch neue Samen, weil unklar ist, ob die alten Samen noch keimen.
 <!-- lia-llm:criterion -->
 Die Herkunft der Kornblume ist unerheblich, weil die Pflanzung alter wie neuer Samen auf Maras Botschaft zurückgeht.
 <!-- lia-llm:solution -->
@@ -224,6 +204,8 @@ Der Satz bezieht sich nicht nur auf die gewachsene Kornblume. Maras Wunsch wird 
 ```
 
 @ADetails(BE=3;Leseverstehen)
+
+---
 
 ## Aufgabe 6: Einen Term beschreiben und berechnen
 
@@ -239,12 +221,12 @@ $$
 +2\cdot(5\,\mathrm{m}+3\,\mathrm{m})
 $$
 
-__$a)\;\;$__ **Beschreibe**, was mit dem Term im Sachzusammenhang berechnet wird.
+__$a)\;\;$__ **Beschreibe**, wofür die drei Summanden stehen und was mit ihrer Summe im Sachzusammenhang berechnet wird.
 
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Jeder Summand gehört zu einem Beet. Anschließend werden die drei Ergebnisse addiert.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, was mit dem Term im Sachzusammenhang berechnet wird.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wofür die drei Summanden stehen und was mit ihrer Summe im Sachzusammenhang berechnet wird.`)
 <!-- lia-llm:criterion -->
 Jeder der drei Summanden beschreibt den Umfang eines rechteckigen Beetes.
 <!-- lia-llm:criterion -->
@@ -257,23 +239,99 @@ Die drei Summanden beschreiben die Umfänge der drei Beete. Mit dem Term wird di
 
 ---
 
-__$b)\;\;$__ **Erkläre** die Bedeutung des Faktors $2$ in jedem Summanden.
+__$b)\;\;$__ **Erkläre**, was in den Klammern addiert wird und warum jede Klammer mit dem Faktor $2$ multipliziert wird.
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-[[?]] Es ist zu beachten, wie oft jede Seitenlänge bei einem Rechteck vorkommt.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre die Bedeutung des Faktors 2 in jedem Summanden.`)
+[[?]] Betrachte zuerst eine Klammer. Überlege anschließend, wie oft die Länge und die Breite bei einem Rechteck vorkommen.
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre, was in den Klammern addiert wird und warum jede Klammer mit dem Faktor 2 multipliziert wird.`)
 <!-- lia-llm:criterion -->
-Bei einem Rechteck kommt die Länge zweimal vor.
+In jeder Klammer werden die Länge und die Breite eines Beetes addiert.
 <!-- lia-llm:criterion -->
-Bei einem Rechteck kommt die Breite zweimal vor.
+Jedes rechteckige Beet hat zwei Seiten mit der angegebenen Länge.
 <!-- lia-llm:criterion -->
-Der Faktor 2 berücksichtigt alle vier Seiten des Beetes.
+Jedes rechteckige Beet hat zwei Seiten mit der angegebenen Breite.
+<!-- lia-llm:criterion -->
+Der Faktor 2 verdoppelt die Summe aus Länge und Breite, sodass alle vier Seiten des Beetes berücksichtigt werden.
 <!-- lia-llm:solution -->
-Bei einem Rechteck kommen die Länge und die Breite jeweils zweimal vor. Der Faktor $2$ sorgt deshalb dafür, dass alle vier Seiten des Beetes berücksichtigt werden.
+In jeder Klammer werden die Länge und die Breite eines Beetes addiert. Ein Rechteck hat zwei Seiten mit der angegebenen Länge und zwei Seiten mit der angegebenen Breite. Der Faktor $2$ verdoppelt deshalb die Summe aus Länge und Breite, sodass alle vier Seiten des Beetes berücksichtigt werden.
 ```
 
 @ADetails(BE=1;Sachaufgabe, Terme, Erklären)
+
+<section class="dynFlex">
+
+<div class="flex-child">
+
+__$c)\;\;$__ **Berechne** die benötigte Zaunlänge für jedes einzelne Beet.
+
+<!-- data-solution-timer="180s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution data-hint-button="2" data-solution-button="3" -->
+Erstes Beet: [[ 10 ]] $\,\mathrm{m}$ \
+Zweites Beet: [[ 12 ]] $\,\mathrm{m}$ \
+Drittes Beet: [[ 16 ]] $\,\mathrm{m}$
+@Algebrite.check([10;12;16])
+[[?]] Für jedes Beet wird der zugehörige Summand des gegebenen Terms berechnet.
+*****************
+Die drei Umfänge werden folgendermaßen berechnet:
+
+$$
+2\cdot(3\,\mathrm{m}+2\,\mathrm{m})=10\,\mathrm{m},
+$$
+
+$$
+2\cdot(4\,\mathrm{m}+2\,\mathrm{m})=12\,\mathrm{m},
+$$
+
+$$
+2\cdot(5\,\mathrm{m}+3\,\mathrm{m})=16\,\mathrm{m}.
+$$
+*****************
+
+@ADetails(BE=3;Sachaufgabe, Umfang, Rechteck)
+
+</div>
+
+<div class="flex-child">
+
+__$d)\;\;$__ **Berechne** die gesamte benötigte Zaunlänge.
+
+<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-hint-button="2" data-solution-button="3" -->
+Insgesamt werden [[ 38 ]] $\,\mathrm{m}$ Zaun benötigt.
+@Algebrite.check(38)
+[[?]] Die drei in Teilaufgabe c) berechneten Umfänge werden addiert.
+*****************
+Die gesamte Zaunlänge wird durch Addition der drei Umfänge berechnet:
+
+$$
+10\,\mathrm{m}+12\,\mathrm{m}+16\,\mathrm{m}=38\,\mathrm{m}.
+$$
+*****************
+
+@ADetails(BE=1;Sachaufgabe, Addition, Umfang)
+
+</div>
+
+<div class="flex-child">
+
+__$e)\;\;$__ Ein Meter Zaun kostet $7\,$€. **Berechne** die Kosten für den gesamten Zaun.
+
+<!-- data-solution-timer="120s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-hint-button="2" data-solution-button="3" -->
+Der gesamte Zaun kostet [[ 266 ]] $\,$€.
+@Algebrite.check(266)
+[[?]] Die gesamte Zaunlänge wird mit dem Preis für einen Meter Zaun multipliziert.
+*****************
+Die Kosten werden durch Multiplikation der gesamten Zaunlänge mit dem Meterpreis berechnet:
+
+$$
+38\,\mathrm{m}\cdot7\,\frac{\text{€}}{\mathrm{m}}=266\,\text{€}.
+$$
+*****************
+
+@ADetails(BE=2;Sachaufgabe, Multiplikation, Größen)
+
+</div>
+
+</section>
 
 ## Aufgabe 1: Ein Platz für Geschichten
 
@@ -303,7 +361,7 @@ Nach der Lesung fragte Frau Aydin, wer eine Empfehlung aus dem alten Heft vortra
 
 ---
 
-**Beantworte** jede Frage in mindestens drei vollständigen Sätzen. **Begründe** deine Antwort und **beziehe** dich auf passende Stellen der Geschichte.
+**Beantworte** jede Frage so, dass deine Gedanken gut nachvollziehbar sind. **Begründe** deine Antwort und **beziehe** dich auf passende Stellen der Geschichte.
 
 __$a)\;\;$__ Die Turnhalle als Lesesaal
 
@@ -311,13 +369,11 @@ Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? **Erkläre
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? Erkläre, wie trotzdem ein geeigneter Ersatz entstand und welche Bedingung dabei beachtet werden musste.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? Erkläre, wie trotzdem ein geeigneter Ersatz entstand und welche Bedingung dabei beachtet werden musste.`)
 <!-- lia-llm:criterion -->
-Ein geplatztes Heizungsrohr verursachte einen Wasserschaden in der Bibliothek.
+Ein geplatztes Heizungsrohr verursachte einen Wasserschaden, sodass die Bibliotheksräume geschlossen werden mussten.
 <!-- lia-llm:criterion -->
-Wegen des Wasserschadens waren die Bibliotheksräume für die Lesung nicht nutzbar.
-<!-- lia-llm:criterion -->
-Die freie Turnhalle diente als Ersatzort.
+Mira schlug die am Wochenende freie Turnhalle als Ersatzort vor.
 <!-- lia-llm:criterion -->
 Die Klasse richtete die Turnhalle gemeinsam als vorläufigen Leseraum ein.
 <!-- lia-llm:criterion -->
@@ -332,25 +388,21 @@ Die Lesung konnte wegen eines geplatzten Heizungsrohres und der dadurch nassen R
 
 __$b)\;\;$__ Nikos Entwicklung
 
-Wie verändert sich Niko im Verlauf der Geschichte? **Erkläre** seine Entwicklung und **belege** sie mit mindestens zwei Situationen.
+Wie verändert sich Niko im Verlauf der Geschichte? **Erkläre** anhand passender Situationen, wie er sich zu Beginn verhält, wie er Verantwortung übernimmt und wie er am Ende auftritt.
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Wie verändert sich Niko im Verlauf der Geschichte? Erkläre seine Entwicklung und belege sie mit mindestens zwei Situationen.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Wie verändert sich Niko im Verlauf der Geschichte? Erkläre anhand passender Situationen, wie er sich zu Beginn verhält, wie er Verantwortung übernimmt und wie er am Ende auftritt.`)
 <!-- lia-llm:criterion -->
-Die Antwort besteht aus mindestens drei Sätzen.
+Zu Beginn ist Niko unsicher oder zurückhaltend, weil er neu in der Klasse ist und sich beim Tragen für zu langsam hält.
 <!-- lia-llm:criterion -->
-Alle Sätze sind vollständig.
+Mit dem sorgfältigen Schreiben der Schilder beteiligt sich Niko an der gemeinsamen Aufgabe.
 <!-- lia-llm:criterion -->
-Zu Beginn wird Niko als unsicher oder zurückhaltend beschrieben.
+Niko übernimmt Verantwortung, indem er seinen Fehler offen zugibt.
 <!-- lia-llm:criterion -->
-Im Verlauf der Geschichte beteiligt sich Niko aktiv.
+Niko ergänzt Pflanzen- und Kompasszeichen, damit die Buchbereiche leichter zu erkennen sind.
 <!-- lia-llm:criterion -->
-Im Verlauf der Geschichte übernimmt Niko Verantwortung.
-<!-- lia-llm:criterion -->
-Am Ende wird Niko als mutiger oder selbstsicherer beschrieben.
-<!-- lia-llm:criterion -->
-Die Entwicklung wird mit mindestens zwei unterschiedlichen passenden Situationen aus dem Text belegt.
+Am Ende meldet sich Niko freiwillig zum Vorlesen und spricht zunehmend selbstsicher.
 <!-- lia-llm:solution -->
 Zu Beginn ist Niko unsicher, weil er neu in der Klasse ist, die anderen Kinder kaum kennt und sich beim Tragen für zu langsam hält. Mit dem Schreiben der Schilder übernimmt er jedoch eine wichtige Aufgabe. Er gesteht der Gruppe seine Verwechslung der Farben offen ein und verbessert die Ordnung anschließend durch zusätzliche Bildzeichen. Am Ende meldet er sich freiwillig, um eine alte Buchempfehlung vor Publikum vorzulesen; dabei wird seine anfangs leise Stimme zunehmend sicherer.
 ```
@@ -365,13 +417,13 @@ Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? **
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? Erkläre außerdem, weshalb seine zusätzlichen Bildzeichen besonders hilfreich sind.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? Erkläre außerdem, weshalb seine zusätzlichen Bildzeichen besonders hilfreich sind.`)
 <!-- lia-llm:criterion -->
 Nikos offenes Eingeständnis ermöglicht die Korrektur der falsch sortierten Bücher.
 <!-- lia-llm:criterion -->
 Die Gruppe überprüft zusätzlich die Buchstaben auf den Buchrücken.
 <!-- lia-llm:criterion -->
-Die Bildzeichen ermöglichen eine Orientierung ohne sichere Farberkennung.
+Niko ergänzt die Naturbücher mit einem Pflanzenzeichen und die Reisebücher mit einem Kompasszeichen.
 <!-- lia-llm:criterion -->
 Die Bildzeichen erleichtern Emil die Orientierung, weil er manche Farben schwer unterscheiden kann.
 <!-- lia-llm:solution -->
@@ -388,18 +440,22 @@ Was bedeutet Nikos letzter Satz über Geschichten? **Erkläre**, wie die Ereigni
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Was bedeutet Nikos letzter Satz über Geschichten? Erkläre, wie die Ereignisse in der Turnhalle diese Aussage bestätigen.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Was bedeutet Nikos letzter Satz über Geschichten? Erkläre, wie die Ereignisse in der Turnhalle diese Aussage bestätigen.`)
 <!-- lia-llm:criterion -->
 Menschen halten Geschichten lebendig, indem sie sie anderen vermitteln.
 <!-- lia-llm:criterion -->
 Die Klasse verwandelt die Turnhalle durch gemeinsames Handeln in einen Ort für Geschichten.
 <!-- lia-llm:criterion -->
-In der Turnhalle werden Geschichten einem Publikum präsentiert.
+Eva Kern liest ihre Geschichte den Familien in der Turnhalle vor.
+<!-- lia-llm:criterion -->
+Niko trägt eine alte Buchempfehlung vor der Klasse vor.
 <!-- lia-llm:solution -->
 Nikos Satz bedeutet, dass Bücher allein noch keine lebendige Gemeinschaft schaffen. Erst Menschen bewahren Geschichten, teilen sie mit anderen und schaffen Orte zum Lesen und Zuhören. Die Klasse rettet die Bücher, richtet gemeinsam einen Ersatzraum ein und macht die alten Empfehlungen als Kopien zugänglich. Auch Evas Lesung und Nikos Vortrag zeigen, wie Geschichten durch gemeinsames Handeln einen neuen Platz erhalten.
 ```
 
 @ADetails(BE=3;Leseverstehen)
+
+---
 
 ## Aufgabe 5: Einen Term beschreiben und interpretieren
 
@@ -413,12 +469,12 @@ $$
 6\cdot24+35
 $$
 
-**Beschreibe**, wie mit dem Term gerechnet wird, und **interpretiere** das Ergebnis im Sachzusammenhang. Gehe dabei auf beide Rechenschritte ein.
+**Beschreibe**, wofür $6\cdot24$ und die Addition von $35$ stehen. **Berechne** den Term und **erkläre**, was das Ergebnis im Sachzusammenhang bedeutet.
 
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Zuerst wird die Anzahl der Bücher in den sechs Kisten berechnet. Danach werden die einzelnen Bücher addiert. Zum Schluss ist zu erklären, wofür das Ergebnis steht.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wie mit dem Term $6\cdot24+35$ gerechnet wird, und interpretiere das Ergebnis im Sachzusammenhang. Gehe dabei auf beide Rechenschritte ein.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wofür $6\cdot24$ und die Addition von $35$ stehen. Berechne den Term und erkläre, was das Ergebnis im Sachzusammenhang bedeutet.`)
 <!-- lia-llm:criterion -->
 Die sechs Kisten mit jeweils 24 Büchern werden durch 6 · 24 erfasst.
 <!-- lia-llm:criterion -->
@@ -439,36 +495,30 @@ Zuerst wird die Anzahl der Bücher in den sechs Kisten berechnet. Dazu werden $6
 
 > Quelle: Wochenaufgabe 7, Klasse 5, Deutsch — `5/Deutsch/Lia5_07.md`.
 
-**Erkläre** jeden Fachbegriff in vollständigen Sätzen mit deinen eigenen Worten. **Beachte** auch die jeweils verlangte Frageprobe oder das Beispiel.
+**Erkläre** jeden Fachbegriff mit deinen eigenen Worten. **Beachte** auch die jeweils verlangte Frageprobe und zeige am Beispiel, woran du den Fall erkennst.
 
 __$a)\;\;$__ **Erkläre**, was ein Personalpronomen ist. **Nenne** außerdem mindestens drei verschiedene Personalpronomen.
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre, was ein Personalpronomen ist. Nenne außerdem mindestens drei verschiedene Personalpronomen.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;assessmentengine=compact,`Erkläre, was ein Personalpronomen ist. Nenne außerdem mindestens drei verschiedene Personalpronomen.`)
 <!-- lia-llm:criterion -->
-Die Antwort besteht aus vollständigen Sätzen.
-<!-- lia-llm:criterion -->
-Ein Personalpronomen ist ein persönliches Fürwort.
-<!-- lia-llm:criterion -->
-Ein Personalpronomen kann einen Namen oder eine Nomengruppe ersetzen.
+Die Erklärung beschreibt zutreffend, wofür Personalpronomen verwendet werden, zum Beispiel als Ersatz für Namen oder Nomengruppen oder als Bezeichnung für Sprechende, Angesprochene und andere Personen oder Dinge.
 <!-- lia-llm:criterion -->
 Die Antwort nennt mindestens drei verschiedene Personalpronomen.
 <!-- lia-llm:solution -->
-Ein Personalpronomen ist ein persönliches Fürwort. Es kann für die sprechende oder angesprochene Person sowie für eine bereits genannte Person, ein Tier oder eine Sache stehen und dabei einen Namen oder eine Nomengruppe ersetzen. Beispiele für Personalpronomen sind ich, du, er, sie, es und wir.
+Ein Personalpronomen ist ein Fürwort, das einen Namen oder eine Nomengruppe ersetzen kann. Es kann für eine Person, ein Tier oder eine Sache stehen. Beispiele für Personalpronomen sind ich, du, er, sie, es und wir.
 ```
 
 @ADetails(BE=2;Fachbegriff Personalpronomen)
 
 ---
 
-__$b)\;\;$__ **Erkläre** den Nominativ. **Nenne** die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.
+__$b)\;\;$__ **Erkläre** den Nominativ. **Nenne** die passende Frageprobe und **zeige** an einem eigenen Beispiel, welches Satzglied im Nominativ steht.
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Nominativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
-<!-- lia-llm:criterion -->
-Die Antwort besteht aus vollständigen Sätzen.
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Nominativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Nominativ steht.`)
 <!-- lia-llm:criterion -->
 Der Nominativ ist der erste Fall.
 <!-- lia-llm:criterion -->
@@ -476,22 +526,20 @@ Der Nominativ kennzeichnet häufig das Subjekt.
 <!-- lia-llm:criterion -->
 Die Frageprobe für den Nominativ lautet „Wer oder was?“.
 <!-- lia-llm:criterion -->
-Ein vollständiger Beispielsatz enthält eine korrekt als Nominativ bestimmte Person, Sache oder Wortgruppe.
+Im eigenen Beispiel ist eine Person, Sache oder Wortgruppe korrekt als Nominativ gekennzeichnet.
 <!-- lia-llm:solution -->
-Der Nominativ ist der erste Fall und kennzeichnet häufig das Subjekt. Die passende Frageprobe lautet „Wer oder was?“. Im vollständigen Satz „Der Hausmeister kommt.“ steht die Wortgruppe „der Hausmeister“ im Nominativ.
+Der Nominativ ist der erste Fall und kennzeichnet häufig das Subjekt. Die passende Frageprobe lautet „Wer oder was?“. Im Beispiel „Der Hausmeister kommt.“ steht die Wortgruppe „der Hausmeister“ im Nominativ.
 ```
 
 @ADetails(BE=3;Fachbegriff Nominativ)
 
 ---
 
-__$c)\;\;$__ **Erkläre** den Akkusativ. **Nenne** die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.
+__$c)\;\;$__ **Erkläre** den Akkusativ. **Nenne** die passende Frageprobe und **zeige** an einem eigenen Beispiel, welches Satzglied im Akkusativ steht.
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Akkusativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
-<!-- lia-llm:criterion -->
-Die Antwort besteht aus vollständigen Sätzen.
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Akkusativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Akkusativ steht.`)
 <!-- lia-llm:criterion -->
 Der Akkusativ ist der vierte Fall.
 <!-- lia-llm:criterion -->
@@ -499,22 +547,20 @@ Der Akkusativ kennzeichnet häufig das direkte Objekt.
 <!-- lia-llm:criterion -->
 Die Frageprobe für den Akkusativ lautet „Wen oder was?“.
 <!-- lia-llm:criterion -->
-Ein vollständiger Beispielsatz enthält eine korrekt als Akkusativ bestimmte Person, Sache oder Wortgruppe.
+Im eigenen Beispiel ist eine Person, Sache oder Wortgruppe korrekt als Akkusativ gekennzeichnet.
 <!-- lia-llm:solution -->
-Der Akkusativ ist der vierte Fall und kennzeichnet häufig das direkte Objekt. Die passende Frageprobe lautet „Wen oder was?“. Im vollständigen Satz „Samira schützt den Plan.“ steht die Wortgruppe „den Plan“ im Akkusativ.
+Der Akkusativ ist der vierte Fall und kennzeichnet häufig das direkte Objekt. Die passende Frageprobe lautet „Wen oder was?“. Im Beispiel „Samira schützt den Plan.“ steht die Wortgruppe „den Plan“ im Akkusativ.
 ```
 
 @ADetails(BE=3;Fachbegriff Akkusativ)
 
 ---
 
-__$d)\;\;$__ **Erkläre** den Dativ. **Nenne** die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.
+__$d)\;\;$__ **Erkläre** den Dativ. **Nenne** die passende Frageprobe und **zeige** an einem eigenen Beispiel, welches Satzglied im Dativ steht.
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Dativ. Nenne die passende Frageprobe und ein Beispiel aus einem vollständigen Satz.`)
-<!-- lia-llm:criterion -->
-Die Antwort besteht aus vollständigen Sätzen.
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Dativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Dativ steht.`)
 <!-- lia-llm:criterion -->
 Der Dativ ist der dritte Fall.
 <!-- lia-llm:criterion -->
@@ -522,9 +568,9 @@ Der Dativ kennzeichnet häufig das indirekte Objekt.
 <!-- lia-llm:criterion -->
 Die Frageprobe für den Dativ lautet „Wem?“.
 <!-- lia-llm:criterion -->
-Ein vollständiger Beispielsatz enthält eine korrekt als Dativ bestimmte Person oder Wortgruppe.
+Im eigenen Beispiel ist eine Person oder Wortgruppe korrekt als Dativ gekennzeichnet.
 <!-- lia-llm:solution -->
-Der Dativ ist der dritte Fall und kennzeichnet häufig das indirekte Objekt. Die passende Frageprobe lautet „Wem?“. Im vollständigen Satz „Samira zeigt Ben den Plan.“ steht „Ben“ im Dativ.
+Der Dativ ist der dritte Fall und kennzeichnet häufig das indirekte Objekt. Die passende Frageprobe lautet „Wem?“. Im Beispiel „Samira zeigt Ben den Plan.“ steht „Ben“ im Dativ.
 ```
 
 @ADetails(BE=3;Fachbegriff Dativ)
@@ -606,12 +652,14 @@ Die folgenden Figuren bestehen aus gleich großen Kästchen.
 @KoordText(`L507M6;[13.5;-4];Figur 3;currentColor;1`)
 @KoordText(`L507M6;[22.5;-4];Figur 4;currentColor;1`)
 
-**Beschreibe** das Muster so, dass danach Figur 5 gezeichnet werden kann. Gehe darauf ein, **wo** neue Kästchen hinzukommen und **wie viele** es in jedem Schritt sind. **Nenne** außerdem die Anzahl der Kästchen in Figur 5.
+**Beschreibe** das Muster so, dass danach Figur 5 gezeichnet werden kann. **Nenne** die Form der Figuren und beschreibe, **wo** neue Kästchen hinzukommen und **wie viele** es in jedem Schritt sind. **Nenne** außerdem die Anzahl der Kästchen in Figur 5.
 
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche zwei aufeinanderfolgende Figuren. Betrachte besonders die vier Enden des Kreuzes.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Beschreibe das Muster so, dass danach Figur 5 gezeichnet werden kann. Gehe darauf ein, wo neue Kästchen hinzukommen und wie viele es in jedem Schritt sind. Nenne außerdem die Anzahl der Kästchen in Figur 5.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Beschreibe das Muster so, dass danach Figur 5 gezeichnet werden kann. Nenne die Form der Figuren und beschreibe, wo neue Kästchen hinzukommen und wie viele es in jedem Schritt sind. Nenne außerdem die Anzahl der Kästchen in Figur 5.`)
+<!-- lia-llm:criterion -->
+Die Figuren haben die Form eines Kreuzes.
 <!-- lia-llm:criterion -->
 Von einer Figur zur nächsten wird jeder der vier Arme des Kreuzes um ein Kästchen verlängert.
 <!-- lia-llm:criterion -->
@@ -619,7 +667,7 @@ Das Verlängern der vier Kreuzarme vergrößert jede folgende Figur um vier Käs
 <!-- lia-llm:criterion -->
 Figur 5 besteht aus 17 Kästchen.
 <!-- lia-llm:solution -->
-Von einer Figur zur nächsten wird jeder der vier Arme des Kreuzes um ein Kästchen verlängert. Dadurch kommen in jedem Schritt vier Kästchen hinzu. Figur 5 besteht deshalb aus $13+4=17$ Kästchen.
+Die Figuren haben die Form eines Kreuzes. Von einer Figur zur nächsten wird jeder der vier Arme um ein Kästchen verlängert. Dadurch kommen in jedem Schritt vier Kästchen hinzu. Figur 5 besteht deshalb aus $13+4=17$ Kästchen.
 ```
 
 @ADetails(BE=2;Geometrische Muster, Figurenfolgen, Beschreiben, LLM-Quiz)
@@ -629,24 +677,18 @@ Von einer Figur zur nächsten wird jeder der vier Arme des Kreuzes um ein Kästc
 > Quelle: Wochenaufgabe 9, Klasse 5, Deutsch — `5/Deutsch/Lia5_09.md`.
 
 <!-- style="max-width:900px;" -->
-![Grüne Wiesen mit Hügeln und Bäumen unter einem blauen Himmel](../5/Deutsch/pics/Bildbeschreibung5_1.png)
+![Grüne Wiesen mit Hügeln und Bäumen unter einem blauen Himmel](pics/Bildbeschreibung5_1.png)
 
 <small> <small> <small><small> Bildquelle: Erstellt mit einem LLM. </small></small></small></small>
 
-**Beschreibe** das Bild in **sechs vollständigen Sätzen**. Dein Text soll etwa **55 bis 70 Wörter** lang sein. **Schreibe** zuerst, was du auf dem ganzen Bild siehst. **Beschreibe** dann, was vorne, in der Mitte und hinten zu sehen ist. **Nenne** wichtige Farben. **Sage** am Ende, wie das Bild auf dich wirkt. **Nutze** die Gegenwart und **erfinde** keine Geschichte.
+**Beschreibe** das Bild so, dass jemand ohne das Bild es sich gut vorstellen kann. **Gib** zuerst einen Überblick. **Beschreibe** dann passende Details im Vordergrund, in der Mitte und im Hintergrund. **Nenne** wichtige Farben und **erkläre**, wie das Bild auf dich wirkt. **Nutze** die Gegenwart und **erfinde** keine Geschichte.
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-[[?]] Du kannst deine Sätze so beginnen: „Auf dem Bild …“, „Vorne …“, „In der Mitte …“, „Hinten …“ und „Das Bild wirkt …“.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Dein Text soll etwa 55 bis 70 Wörter lang sein. Schreibe zuerst, was du auf dem ganzen Bild siehst. Beschreibe dann, was vorne, in der Mitte und hinten zu sehen ist. Nenne wichtige Farben. Sage am Ende, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
+[[?]] Ordne deine Beschreibung vom Überblick zu den Bildbereichen. Formulierungen wie „Im Vordergrund …“, „In der Mitte …“, „Im Hintergrund …“ und „Das Bild wirkt …“ können dir helfen.
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild so, dass jemand ohne das Bild es sich gut vorstellen kann. Gib zuerst einen Überblick. Beschreibe dann passende Details im Vordergrund, in der Mitte und im Hintergrund. Nenne wichtige Farben und erkläre, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
 <!-- lia-llm:criterion -->
-Die Bildbeschreibung besteht aus genau sechs Sätzen.
-<!-- lia-llm:criterion -->
-Alle sechs Sätze sind vollständig.
-<!-- lia-llm:criterion -->
-Die Bildbeschreibung umfasst etwa 55 bis 70 Wörter.
-<!-- lia-llm:criterion -->
-Der erste Satz vermittelt einen zutreffenden Gesamtüberblick über das Bild.
+Die Beschreibung vermittelt einen zutreffenden Gesamtüberblick über eine grüne Landschaft mit Wiesen und Hügeln.
 <!-- lia-llm:criterion -->
 Im Vordergrund wird mindestens ein passendes sichtbares Detail beschrieben, etwa die große grüne Wiese oder der große Baum auf der rechten Seite.
 <!-- lia-llm:criterion -->
@@ -654,9 +696,9 @@ In der Bildmitte wird mindestens ein passendes sichtbares Detail beschrieben, et
 <!-- lia-llm:criterion -->
 Im Hintergrund wird mindestens ein passendes sichtbares Detail beschrieben, etwa entfernte Berge, der blaue Himmel oder weiße Wolken.
 <!-- lia-llm:criterion -->
-Die Antwort nennt mindestens zwei wichtige passende Farben, etwa Grün, Blau oder Weiß.
+Die Antwort nennt passende wichtige Farben des Bildes, etwa Grün, Blau oder Weiß.
 <!-- lia-llm:criterion -->
-Der letzte Satz beschreibt die persönliche Wirkung des Bildes.
+Die Antwort beschreibt die persönliche Wirkung des Bildes.
 <!-- lia-llm:criterion -->
 Die Bildbeschreibung ist in der Gegenwart verfasst.
 <!-- lia-llm:criterion -->
@@ -684,7 +726,7 @@ gehört zu diesem Sachzusammenhang. **Erkläre** die Bedeutung der Zahlen und Re
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Betrachte zuerst die $7$ normalen Sitzreihen und anschließend die zusätzliche Reihe. Erkläre auch, wofür die Summe steht.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $7\cdot24+18$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $7\cdot24+18$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 <!-- lia-llm:criterion -->
 Die Zahl 7 steht für die normalen Sitzreihen.
 <!-- lia-llm:criterion -->
@@ -709,12 +751,12 @@ $$
 (7\cdot24+18)-26
 $$
 
-gehört ebenfalls zu diesem Sachzusammenhang. **Erkläre**, wie der Term mit der Situation zusammenhängt und welche Bedeutung sein Ergebnis besitzt.
+gehört ebenfalls zu diesem Sachzusammenhang. **Erkläre**, wie zuerst die insgesamt $186$ Plätze berechnet werden, warum danach $26$ Plätze abgezogen werden und was das Ergebnis $160$ bedeutet.
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Der Ausdruck in der Klammer gibt alle Sitzplätze an. Überlege anschließend, weshalb $26$ abgezogen wird.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(7\cdot24+18)-26$. Gehe auf beide Rechenschritte und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre, wie mit dem Term $(7\cdot24+18)-26$ zuerst die insgesamt 186 Plätze berechnet werden, warum danach 26 Plätze abgezogen werden und was das Ergebnis 160 bedeutet.`)
 <!-- lia-llm:criterion -->
 Die Multiplikation 7 · 24 ergibt 168 Plätze in den normalen Reihen.
 <!-- lia-llm:criterion -->
@@ -736,24 +778,18 @@ In der Klammer wird zunächst die Gesamtzahl der Sitzplätze berechnet. Die $7$ 
 > Quelle: Wochenaufgabe 5, Klasse 6, Deutsch — `6/Deutsch/Lia6_05.md`.
 
 <!-- style="max-width:900px;" -->
-![Alte Burgruine auf einem steilen Felsen vor Bergen und Nebel](../6/Deutsch/pics/Bildbeschreibung6_1.png)
+![Alte Burgruine auf einem steilen Felsen vor Bergen und Nebel](pics/Bildbeschreibung6_1.png)
 
 <small> <small> <small><small> Bildquelle: Erstellt mit einem LLM. </small></small></small></small>
 
-**Beschreibe** das Bild in **sechs vollständigen Sätzen**. Schreibe etwa **55 bis 70 Wörter**. **Schreibe** zuerst, was du auf dem ganzen Bild siehst. Schreibe danach, was du vorne, oben auf dem Berg und hinten siehst. **Nenne** auch Farben und das Licht. **Schreibe** im letzten Satz, wie das Bild auf dich wirkt. **Nutze** die Gegenwart und **erfinde** keine Geschichte.
+**Beschreibe** das Bild so, dass jemand ohne das Bild es sich gut vorstellen kann. **Gib** zuerst einen Überblick. **Beschreibe** danach passende Details im Vordergrund, an der Ruine oben auf dem Berg und im Hintergrund. **Gehe** auch auf Farben und Licht ein und **erkläre**, wie das Bild auf dich wirkt. **Nutze** die Gegenwart und **erfinde** keine Geschichte.
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-[[?]] Du kannst deine Sätze so beginnen: „Auf dem Bild …“, „Vorne …“, „Oben …“, „Hinten …“, „Am Himmel …“ und „Ich finde …“.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild in sechs vollständigen Sätzen. Schreibe etwa 55 bis 70 Wörter. Schreibe zuerst, was du auf dem ganzen Bild siehst. Schreibe danach, was du vorne, oben auf dem Berg und hinten siehst. Nenne auch Farben und das Licht. Schreibe im letzten Satz, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
+[[?]] Ordne deine Beschreibung vom Überblick zu den Bildbereichen. Formulierungen wie „Im Vordergrund …“, „Oben auf dem Berg …“, „Im Hintergrund …“ und „Das Bild wirkt …“ können dir helfen.
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Bild so, dass jemand ohne das Bild es sich gut vorstellen kann. Gib zuerst einen Überblick. Beschreibe danach passende Details im Vordergrund, an der Ruine oben auf dem Berg und im Hintergrund. Gehe auch auf Farben und Licht ein und erkläre, wie das Bild auf dich wirkt. Nutze die Gegenwart und erfinde keine Geschichte.`)
 <!-- lia-llm:criterion -->
-Die Bildbeschreibung besteht aus genau sechs Sätzen.
-<!-- lia-llm:criterion -->
-Alle sechs Sätze sind vollständig.
-<!-- lia-llm:criterion -->
-Die Bildbeschreibung umfasst etwa 55 bis 70 Wörter.
-<!-- lia-llm:criterion -->
-Der erste Satz beschreibt als Gesamtmotiv eine alte Burg oder Burgruine auf einem hohen Berg.
+Die Beschreibung nennt als Gesamtmotiv eine alte Burg oder Burgruine auf einem hohen Berg.
 <!-- lia-llm:criterion -->
 Im Vordergrund wird mindestens ein passendes sichtbares Detail beschrieben, etwa graue Felsen oder grüne Vegetation.
 <!-- lia-llm:criterion -->
@@ -761,11 +797,11 @@ Oben auf dem Berg wird mindestens ein passendes sichtbares Detail der Ruine besc
 <!-- lia-llm:criterion -->
 Im Hintergrund wird mindestens ein passendes sichtbares Detail beschrieben, etwa der Wald, weitere Berge oder Nebel.
 <!-- lia-llm:criterion -->
-Die Antwort nennt mindestens zwei wichtige passende Farben, etwa Grau, Grün oder Gelb.
+Die Antwort nennt passende wichtige Farben des Bildes, etwa Grau, Grün oder Gelb.
 <!-- lia-llm:criterion -->
 Die Lichtsituation wird passend beschrieben, etwa durch den Gegensatz zwischen dunkleren Wolken links und hellem gelbem Licht rechts.
 <!-- lia-llm:criterion -->
-Der letzte Satz beschreibt die persönliche Wirkung des Bildes.
+Die Antwort beschreibt die persönliche Wirkung des Bildes.
 <!-- lia-llm:criterion -->
 Die Bildbeschreibung ist in der Gegenwart verfasst.
 <!-- lia-llm:criterion -->
@@ -791,18 +827,22 @@ $$
 \end{aligned}
 $$
 
-__$a)\;\;$__ **Beschreibe**, wie in der Rechnung vorgegangen wird. Nenne beide Rechenschritte.
+__$a)\;\;$__ **Beschreibe** beide Rechenschritte. Nenne dabei auch das Zwischenergebnis und das Endergebnis.
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Nenne zuerst die Multiplikation und danach die Subtraktion.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wie in der Rechnung vorgegangen wird. Nenne beide Rechenschritte.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe beide Rechenschritte. Nenne dabei auch das Zwischenergebnis und das Endergebnis.`)
 <!-- lia-llm:criterion -->
-Im ersten Rechenschritt gilt 24 · 36 = 864.
+Zuerst wird mit 24 · 36 die Anzahl aller gelieferten Flaschen berechnet.
 <!-- lia-llm:criterion -->
-Im zweiten Rechenschritt gilt 864 − 158 = 706.
+Die Multiplikation ergibt als Zwischenergebnis 864 Flaschen.
+<!-- lia-llm:criterion -->
+Danach werden die 158 verbrauchten Flaschen von den 864 gelieferten Flaschen abgezogen.
+<!-- lia-llm:criterion -->
+Die Subtraktion ergibt als Endergebnis 706 Flaschen.
 <!-- lia-llm:solution -->
-Zuerst werden $24$ und $36$ miteinander multipliziert. Das Produkt ist $864$. Anschließend wird $158$ von $864$ subtrahiert. Das Ergebnis ist $706$.
+Zuerst wird mit $24\cdot36$ die Anzahl aller gelieferten Flaschen berechnet. Das Zwischenergebnis sind $864$ Flaschen. Anschließend werden die $158$ am Vormittag verbrauchten Flaschen von $864$ abgezogen. Das Endergebnis sind $706$ Flaschen.
 ```
 
 ---
@@ -812,7 +852,7 @@ __$b)\;\;$__ **Interpretiere** das Ergebnis $706$ auf Grundlage des Textes.
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Formuliere, wofür die Zahl $706$ im Zusammenhang mit dem Schulfest steht.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Interpretiere das Ergebnis $706$ auf Grundlage des Textes.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Interpretiere das Ergebnis $706$ auf Grundlage des Textes.`)
 <!-- lia-llm:criterion -->
 Nach dem Verbrauch am Vormittag sind noch 706 Flaschen Mineralwasser für das Schulfest übrig.
 <!-- lia-llm:solution -->
@@ -822,6 +862,12 @@ Nach dem Verbrauch am Vormittag sind noch $706$ Flaschen Mineralwasser für das 
 ## Aufgabe 5: Leseverständnis
 
 > Quelle: Wochenaufgabe 6, Klasse 6, Deutsch — `6/Deutsch/Lia6_06.md`.
+
+**Lies** die Geschichte aufmerksam. **Entscheide** danach bei jeder Behauptung, ob sie wahr oder falsch ist. **Beantworte** anschließend die Erklärungsfrage mit eigenen Worten.
+
+---
+
+---
 
 <h2> Die Fledermausnacht an der alten Mühle </h2>
 
@@ -843,22 +889,56 @@ Am Montag schickte Herr Ebert seinen Bericht an die Gemeinde. Darin stand nicht 
 
 Lea schrieb für die Schülerzeitung: Das Messgerät war für sie dabei nicht das Spannendste. Viel wichtiger fand sie jedoch, wie aufmerksam alle zusammengearbeitet hatten. Durch die Zählung kannte die Gemeinde nun die Größe der Gruppe und ihren genauen Ausgang. So konnte das alte Dach repariert werden, ohne die Tiere einzuschließen oder ihren Schlafplatz unbemerkt zu zerstören.
 
-**Erklärungsfrage**
+---
 
-**Erkläre** in zwei bis vier vollständigen Sätzen, warum die Fledermauszählung vor der Dachreparatur wichtig war. **Nenne** zwei Gründe aus dem Text.
+---
+
+**Gib** nun an, ob die Behauptungen wahr oder falsch sind.
+
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-show-partial-solution="true" data-hint-button="2" data-solution-button="3" -->
+__$a)\;\;$__ [[(wahr)|falsch]] Das Dach der alten Mühle sollte im Herbst repariert werden.  \
+__$b)\;\;$__ [[wahr|(falsch)]] Fledermäuse finden sich in der Dunkelheit nur mit ihren Augen zurecht.  \
+__$c)\;\;$__ [[(wahr)|falsch]] Jede Gruppe erhielt einen Zähler und eine Lampe mit rotem Licht.  \
+__$d)\;\;$__ [[wahr|(falsch)]] Die Gruppen sollten während der Beobachtung häufig ihre Plätze wechseln.  \
+__$e)\;\;$__ [[(wahr)|falsch]] Samir bemerkte eine Bewegung in einem grünen Kunststoffnetz.  \
+__$f)\;\;$__ [[wahr|(falsch)]] Der Flügel der gefangenen Fledermaus war schwer verletzt.  \
+__$g)\;\;$__ [[(wahr)|falsch]] Bis 21.30 Uhr wurden insgesamt 63 Fledermäuse gezählt.  \
+__$h)\;\;$__ [[wahr|(falsch)]] Die Dacharbeiten sollten bereits am nächsten Morgen beginnen.
+
+[[?]] Prüfe jede Behauptung genau am Text. Achte besonders auf Uhrzeiten, Zahlen und Wörter wie „nur“, „häufig“ oder „schwer“.
+****************
+
+**Lösung mit Begründung:**
+
+1. **wahr** – Das Dach sollte im Herbst repariert werden.
+2. **falsch** – Fledermäuse sind nicht blind und nutzen in der Dunkelheit vor allem ihre hohen Rufe.
+3. **wahr** – Jede Gruppe bekam einen Zähler, einen Stift und eine Lampe mit rotem Licht.
+4. **falsch** – Die Gruppen durften ihre Plätze nicht verlassen, damit kein Tier doppelt gezählt wurde.
+5. **wahr** – Samir sah im roten Licht, dass sich etwas im grünen Netz bewegte.
+6. **falsch** – Der Flügel war nicht verletzt; die Fledermaus war nur erschöpft.
+7. **wahr** – Bis 21.30 Uhr kamen 63 Fledermäuse aus dem Dach.
+8. **falsch** – Die Reparatur sollte erst nach dem Verlassen des Sommerquartiers beginnen.
+
+****************
+
+@ADetails(BE=8;Leseverständnis, Wahr oder falsch)
+
+### Erklärungsfrage
+
+**Erkläre** anhand des Textes, warum die Fledermauszählung vor der Dachreparatur wichtig war. **Beschreibe**, was die Gemeinde durch die Zählung über die Fledermäuse und ihre genutzten Dachspalten erfuhr und welche Folgen das für den Zeitpunkt und die Planung der Reparatur hatte.
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Denke daran, was bei einer Reparatur mit den Fledermäusen und ihren Schlafplätzen passieren könnte.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre in zwei bis vier vollständigen Sätzen, warum die Fledermauszählung vor der Dachreparatur wichtig war. Nenne zwei Gründe aus dem Text.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre anhand des Textes, warum die Fledermauszählung vor der Dachreparatur wichtig war. Beschreibe, was die Gemeinde durch die Zählung über die Fledermäuse und ihre genutzten Dachspalten erfuhr und welche Folgen das für den Zeitpunkt und die Planung der Reparatur hatte.`)
 <!-- lia-llm:criterion -->
-Die Antwort besteht aus zwei bis vier Sätzen.
+Durch die Zählung erfuhr die Gemeinde, dass 63 Fledermäuse im Dach lebten.
 <!-- lia-llm:criterion -->
-Alle Sätze sind vollständig.
+Die Zählung zeigte, welchen Spalt die Fledermäuse als Ausgang nutzten.
 <!-- lia-llm:criterion -->
-Die Antwort nennt mindestens zwei unterschiedliche, im Text belegte Gründe für die Bedeutung der Zählung, etwa die Anzahl der Tiere, den benutzten Ausgang, das Verschieben der Reparatur, das Verhindern des Einschließens oder den Erhalt der Schlafplätze.
+Die Reparatur wurde bis nach dem Verlassen des Sommerquartiers verschoben, damit keine Fledermäuse eingeschlossen wurden.
 <!-- lia-llm:criterion -->
-Die Antwort erklärt nachvollziehbar, wie die Erkenntnisse aus der Zählung eine fledermausgerechte Planung der Dachreparatur ermöglichten.
+Bei der Planung konnten genutzte Dachspalten und geschützte Schlafplätze erhalten bleiben.
 <!-- lia-llm:solution -->
 Durch die Zählung wusste die Gemeinde, dass 63 Fledermäuse im Dach lebten und welchen Spalt sie als Ausgang nutzten. Deshalb konnte die Reparatur warten, bis die Tiere ihr Sommerquartier verlassen hatten, sodass keine Fledermäuse eingeschlossen wurden. Außerdem konnten die Fachleute erkennen, welche Dachspalten erhalten bleiben mussten. So ließen sich die geschützten Schlafplätze bei der Dachreparatur bewahren.
 ```
@@ -930,12 +1010,14 @@ Durch die Zählung wusste die Gemeinde, dass 63 Fledermäuse im Dach lebten und 
 **ELIF:** Es war trocken, und ich stand etwa vier Meter entfernt.
 ```
 
-**Schreibe** aus der Zeugenaussage einen sachlichen Unfallbericht mit einer Überschrift und etwa **100 bis 130 Wörtern**. **Nenne** zuerst den Tag, die Uhrzeit, den Ort und wer dabei war. **Schreibe** dann der Reihe nach, wie es zu dem Unfall kam, was genau geschah und was danach passierte. **Nenne** auch Miras Verletzungen und die Hilfe. **Nutze** das Präteritum. **Verwende** keine wörtliche Rede. **Erfinde** nichts und **schreibe** nicht deine Meinung.
+**Schreibe** aus der Zeugenaussage einen sachlichen und chronologisch geordneten Unfallbericht mit einer passenden Überschrift. **Nenne** zuerst den Tag, die Uhrzeit, den Ort und die Beteiligten. **Beschreibe** danach die Ursache, den genauen Unfallhergang, Miras Verletzungen und die Hilfe. **Nutze** das Präteritum. **Verwende** keine wörtliche Rede. **Erfinde** nichts und **schreibe** nicht deine Meinung.
 
 <!-- data-solution-button="off" data-llm-textarea="10" -->
 [[Antwort]]
-[[?]] Notiere vor dem Schreiben Stichpunkte: Dienstag, 10:25 Uhr, Schulhof, Mira und Ben, Ball, Mülltonnen, Bremsen, Fahrradständer, Verletzungen und Hilfe. Schreibe dann kurze Sätze in dieser Reihenfolge.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Schreibe aus der Zeugenaussage einen sachlichen Unfallbericht mit einer Überschrift und etwa 100 bis 130 Wörtern. Nenne zuerst den Tag, die Uhrzeit, den Ort und wer dabei war. Schreibe dann der Reihe nach, wie es zu dem Unfall kam, was genau geschah und was danach passierte. Nenne auch Miras Verletzungen und die Hilfe. Nutze das Präteritum. Verwende keine wörtliche Rede. Erfinde nichts und schreibe nicht deine Meinung.`)
+[[?]] Notiere vor dem Schreiben Stichpunkte: Dienstag, 10:25 Uhr, Schulhof, Mira und Ben, Ball, Mülltonnen, Bremsen, Fahrradständer, Verletzungen und Hilfe. Ordne die Informationen anschließend chronologisch.
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Schreibe aus der Zeugenaussage einen sachlichen und chronologisch geordneten Unfallbericht mit einer passenden Überschrift. Nenne zuerst den Tag, die Uhrzeit, den Ort und die Beteiligten. Beschreibe danach die Ursache, den genauen Unfallhergang, Miras Verletzungen und die Hilfe. Nutze das Präteritum. Verwende keine wörtliche Rede. Erfinde nichts und schreibe nicht deine Meinung.`)
+<!-- lia-llm:criterion -->
+Die Überschrift passt zum geschilderten Unfall, etwa „Unfall mit dem Tretroller“ oder „Unfall in der großen Pause“.
 <!-- lia-llm:criterion -->
 Der Unfall geschah am Dienstag, dem 17. September.
 <!-- lia-llm:criterion -->
@@ -963,11 +1045,27 @@ Mira fiel auf die rechte Seite.
 <!-- lia-llm:criterion -->
 Mira erlitt eine Schürfwunde am rechten Knie.
 <!-- lia-llm:criterion -->
-Miras linke Hand schmerzte.
+Mira hatte Schmerzen an der linken Hand.
 <!-- lia-llm:criterion -->
-Herr Lenz versorgte Mira.
+Herr Lenz reinigte die Schürfwunde.
+<!-- lia-llm:criterion -->
+Herr Lenz klebte ein Pflaster auf die Schürfwunde.
+<!-- lia-llm:criterion -->
+Herr Lenz brachte Mira ins Sekretariat.
+<!-- lia-llm:criterion -->
+Das Sekretariat rief Miras Mutter an.
 <!-- lia-llm:criterion -->
 Miras Mutter holte sie später ab.
+<!-- lia-llm:criterion -->
+Der Bericht stellt Ursache, Unfallhergang und Folgen in chronologischer Reihenfolge dar.
+<!-- lia-llm:criterion -->
+Der Bericht ist im Präteritum verfasst.
+<!-- lia-llm:criterion -->
+Der Bericht bleibt bei den Angaben aus der Zeugenaussage und erfindet nichts hinzu.
+<!-- lia-llm:criterion -->
+Der Bericht enthält keine wörtliche Rede.
+<!-- lia-llm:criterion -->
+Der Bericht enthält keine persönliche Meinung.
 <!-- lia-llm:solution -->
 Unfall mit dem Tretroller
 
@@ -1076,20 +1174,22 @@ Durch die Halbierung des zweiten Faktors wird auch das jeweilige Produkt halbier
 </section>
 
 
-__$d)\;\;$__ **Beschreibe** das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich der zweite Faktor und das Produkt von Zeile zu Zeile verändern.
+__$d)\;\;$__ **Beschreibe** das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich die beiden Faktoren und das Produkt von Zeile zu Zeile verändern. **Erkläre** auch, warum sich das Produkt so verändert.
 
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche jeweils den zweiten Faktor und das Produkt zweier aufeinanderfolgender Zeilen.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Beschreibe das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich der zweite Faktor und das Produkt von Zeile zu Zeile verändern.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Beschreibe das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich die beiden Faktoren und das Produkt von Zeile zu Zeile verändern. Erkläre auch, warum sich das Produkt so verändert.`)
 <!-- lia-llm:criterion -->
 Der erste Faktor bleibt innerhalb jeder Reihe unverändert.
 <!-- lia-llm:criterion -->
 Der zweite Faktor wird von Zeile zu Zeile halbiert.
 <!-- lia-llm:criterion -->
 Das Produkt wird von Zeile zu Zeile halbiert.
+<!-- lia-llm:criterion -->
+Wenn der erste Faktor gleich bleibt und der zweite Faktor halbiert wird, halbiert sich auch das Produkt.
 <!-- lia-llm:solution -->
-In jeder Reihe wird der zweite Faktor von Zeile zu Zeile halbiert. Dadurch halbiert sich auch das Produkt. Die erste Zahl bleibt dabei unverändert.
+In jeder Reihe bleibt der erste Faktor unverändert, während der zweite Faktor von Zeile zu Zeile halbiert wird. Deshalb halbiert sich auch das Produkt.
 ```
 
 @ADetails(BE=1;Bruchrechnung, Multiplikation, Permanenzreihe, Beschreiben, LLM-Quiz)
@@ -1188,20 +1288,22 @@ Durch die Halbierung des Divisors wird der zugehörige Kehrwert verdoppelt. Desh
 </section>
 
 
-__$h)\;\;$__ **Beschreibe** das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich der Divisor und der Quotient von Zeile zu Zeile verändern.
+__$h)\;\;$__ **Beschreibe** das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich Dividend, Divisor und Quotient von Zeile zu Zeile verändern. **Erkläre** auch, warum sich der Quotient so verändert.
 
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche jeweils den Divisor und den Quotienten zweier aufeinanderfolgender Zeilen.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1,`Beschreibe das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich der Divisor und der Quotient von Zeile zu Zeile verändern.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1,`Beschreibe das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich Dividend, Divisor und Quotient von Zeile zu Zeile verändern. Erkläre auch, warum sich der Quotient so verändert.`)
 <!-- lia-llm:criterion -->
 Der Dividend bleibt innerhalb jeder Reihe unverändert.
 <!-- lia-llm:criterion -->
 Der Divisor wird von Zeile zu Zeile halbiert.
 <!-- lia-llm:criterion -->
 Der Quotient wird von Zeile zu Zeile verdoppelt.
+<!-- lia-llm:criterion -->
+Ein halb so großer Divisor passt doppelt so oft in denselben Dividend, deshalb verdoppelt sich der Quotient.
 <!-- lia-llm:solution -->
-In jeder Reihe wird der Divisor von Zeile zu Zeile halbiert. Dadurch verdoppelt sich der Quotient. Der Dividend bleibt dabei unverändert.
+In jeder Reihe bleibt der Dividend unverändert, während der Divisor von Zeile zu Zeile halbiert wird. Ein halb so großer Divisor passt doppelt so oft in denselben Dividend. Deshalb verdoppelt sich der Quotient.
 ```
 
 @ADetails(BE=1;Bruchrechnung, Division, Permanenzreihe, Beschreiben, LLM-Quiz)
@@ -1225,7 +1327,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Berechne zuerst den Umfang des Rechtecks. Ziehe danach die Breite des Tores ab und berücksichtige zuletzt den Preis pro Meter.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(2\cdot6{,}5+2\cdot4-1{,}5)\cdot18{,}40$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(2\cdot6{,}5+2\cdot4-1{,}5)\cdot18{,}40$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 <!-- lia-llm:criterion -->
 Die Zahl 6,5 steht für die Länge des rechteckigen Geheges in Metern.
 <!-- lia-llm:criterion -->
@@ -1267,7 +1369,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Jedes Produkt beschreibt den Preis einer Produktgruppe. Addiere anschließend die drei Teilpreise.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $3\cdot5{,}80+5\cdot3{,}20+4\cdot1{,}25$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $3\cdot5{,}80+5\cdot3{,}20+4\cdot1{,}25$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 <!-- lia-llm:criterion -->
 Das Produkt 3 · 5,80 berechnet den Preis der drei Nudelgerichte.
 <!-- lia-llm:criterion -->
@@ -1299,7 +1401,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Addiere zuerst die vier Laufzeiten. Erkläre danach, weshalb die Summe durch $4$ geteilt wird.
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(12{,}4+11{,}8+12{,}1+11{,}7):4$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(12{,}4+11{,}8+12{,}1+11{,}7):4$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 <!-- lia-llm:criterion -->
 Die vier Summanden sind die gemessenen Zeiten der vier Trainingsläufe.
 <!-- lia-llm:criterion -->
@@ -1331,7 +1433,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=5\,\mathrm{cm}$, $b=4\,\m
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $a=5\,\mathrm{cm}$, $b=4\,\mathrm{cm}$ und $c=6\,\mathrm{cm}$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Eine der drei gegebenen Seiten wird in ihrer vorgegebenen Länge als Grundseite gezeichnet.
 <!-- lia-llm:criterion -->
@@ -1366,7 +1468,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=6\,\mathrm{cm}$ und $b=4\
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $a=6\,\mathrm{cm}$ und $b=4\,\mathrm{cm}$ sowie dem Winkel $\alpha=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Die Seite $\overline{AC}$ wird mit der Länge $b=4\,\mathrm{cm}$ gezeichnet.
 <!-- lia-llm:criterion -->
@@ -1401,7 +1503,7 @@ Gegeben sei ein Dreieck $ABC$ mit der Seitenlänge $c=6\,\mathrm{cm}$ sowie den 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit der Seitenlänge $c=6\,\mathrm{cm}$ sowie den Winkeln $\alpha=45^\circ$ und $\beta=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Die Seite $\overline{AB}$ wird mit der Länge $c=6\,\mathrm{cm}$ gezeichnet.
 <!-- lia-llm:criterion -->
@@ -1434,7 +1536,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Winkeln $\alpha=60^\circ$ und $\beta=90^\c
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Winkeln $\alpha=60^\circ$ und $\beta=90^\circ$ sowie der Seitenlänge $a=5\,\mathrm{cm}$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Der dritte Winkel wird mit $\gamma=180^\circ-60^\circ-90^\circ=30^\circ$ berechnet.
 <!-- lia-llm:criterion -->
@@ -1469,7 +1571,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $b=5\,\mathrm{cm}$ und $c=7\
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe schrittweise, wie das gegebene Dreieck mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $b=5\,\mathrm{cm}$ und $c=7\,\mathrm{cm}$ sowie dem Winkel $\alpha=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Eine der beiden gegebenen Seiten, die den Winkel $\alpha$ einschließen, wird in ihrer vorgegebenen Länge mit dem Endpunkt $A$ gezeichnet.
 <!-- lia-llm:criterion -->
@@ -1496,29 +1598,23 @@ Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=7\,\mathrm{cm}$ gezeichn
 
 
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="30" height="30"> <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/sgrad/2.png" width="120" height="30">  \
-**Erkläre**, warum die Konstruktionen von Dreiecken nach den Kongruenzsätzen WWS und WSW fast gleich ablaufen.
+**Erkläre** den Unterschied zwischen den Angaben bei WSW und WWS. **Beschreibe** anschließend, warum nach der Berechnung des fehlenden Winkels dieselben Konstruktionsschritte möglich sind.
 
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre, warum die Konstruktionen von Dreiecken nach den Kongruenzsätzen WWS und WSW fast gleich ablaufen.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre den Unterschied zwischen den Angaben bei WSW und WWS. Beschreibe anschließend, warum nach der Berechnung des fehlenden Winkels dieselben Konstruktionsschritte möglich sind.`)
 <!-- lia-llm:criterion -->
-Bei WSW liegt die gegebene Seite zwischen den beiden gegebenen Winkeln.
+Bei WSW liegt die gegebene Seite zwischen den beiden gegebenen Winkeln, bei WWS zunächst nicht.
 <!-- lia-llm:criterion -->
-Bei WSW wird die gegebene Seite zuerst gezeichnet.
+Bei WWS wird der fehlende an der gegebenen Seite liegende Winkel mit der Innenwinkelsumme von $180^\circ$ berechnet.
 <!-- lia-llm:criterion -->
-An den beiden Endpunkten der Seite werden die gegebenen Winkel konstruiert.
+Danach sind bei WSW und WWS jeweils eine Seite und die beiden an ihr liegenden Winkel bekannt.
 <!-- lia-llm:criterion -->
-Der Schnittpunkt der freien Winkelschenkel ergibt den dritten Eckpunkt.
+In beiden Fällen wird die bekannte Seite gezeichnet und an ihren Endpunkten werden die beiden anliegenden Winkel konstruiert.
 <!-- lia-llm:criterion -->
-Bei WWS liegt die gegebene Seite nicht zwischen den beiden gegebenen Winkeln.
-<!-- lia-llm:criterion -->
-Bei WWS wird der fehlende anliegende Winkel mit der Innenwinkelsumme von $180^\circ$ berechnet.
-<!-- lia-llm:criterion -->
-Nach der Winkelberechnung sind auch bei WWS eine Seite und die beiden an ihr anliegenden Winkel bekannt.
-<!-- lia-llm:criterion -->
-Die weitere Konstruktion verläuft bei WWS genauso wie bei WSW.
+Der Schnittpunkt der freien Winkelschenkel bildet den dritten Eckpunkt.
 <!-- lia-llm:solution -->
 Bei WSW sind eine Seite und die beiden an dieser Seite anliegenden Winkel gegeben. Deshalb wird die Seite gezeichnet, an ihren Endpunkten werden die beiden Winkel konstruiert und der Schnittpunkt der freien Winkelschenkel ergibt den dritten Eckpunkt. Bei WWS liegt die gegebene Seite zunächst nicht zwischen den beiden gegebenen Winkeln. Aus der Winkelsumme wird daher zuerst der fehlende dritte Winkel berechnet. Danach sind ebenfalls eine Seite und ihre beiden anliegenden Winkel bekannt, sodass die weitere Konstruktion genauso wie bei WSW verläuft.
 ```
@@ -1541,19 +1637,17 @@ Für ein Dreieck $ABC$ seien die drei Winkel $\alpha=60^\circ$, $\beta=60^\circ$
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum diese drei Winkel für die eindeutige Konstruktion des Dreiecks nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Für ein Dreieck $ABC$ gelten $\alpha=60^\circ$, $\beta=60^\circ$ und $\gamma=60^\circ$. Begründe, warum diese Winkel für eine eindeutige Konstruktion nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
 <!-- lia-llm:criterion -->
 Die drei Winkel von jeweils $60^\circ$ legen fest, dass das Dreieck gleichseitig ist.
 <!-- lia-llm:criterion -->
 Die Winkel legen keine Seitenlänge und damit nicht die Größe des Dreiecks fest.
 <!-- lia-llm:criterion -->
-Zu denselben drei Winkeln können Dreiecke mit unterschiedlichen Seitenlängen konstruiert werden.
+Zum Beispiel können gleichseitige Dreiecke mit den Seitenlängen $4\,\mathrm{cm}$ und $8\,\mathrm{cm}$ dieselben Winkel haben.
 <!-- lia-llm:criterion -->
-Die unterschiedlich großen Dreiecke sind nicht kongruent.
+Solche unterschiedlich großen Dreiecke sind ähnlich, aber nicht kongruent.
 <!-- lia-llm:criterion -->
-Ohne eine vorgegebene Seitenlänge ist die Konstruktion nicht eindeutig.
-<!-- lia-llm:criterion -->
-Deshalb ist WWW kein Kongruenzsatz.
+Ohne eine vorgegebene Seitenlänge ist die Konstruktion nicht eindeutig, deshalb ist WWW kein Kongruenzsatz.
 <!-- lia-llm:solution -->
 Die drei Winkel legen nur die Form eines Dreiecks fest, nicht aber seine Größe. Bei drei Winkeln von jeweils $60^\circ$ entsteht zwar immer ein gleichseitiges Dreieck, seine Seitenlänge kann jedoch beliebig gewählt werden. Beispielsweise besitzen gleichseitige Dreiecke mit den Seitenlängen $4\,\mathrm{cm}$ und $8\,\mathrm{cm}$ dieselben Winkel. Sie sind ähnlich, aber wegen ihrer verschiedenen Seitenlängen nicht kongruent. Ohne eine vorgegebene Seitenlänge fehlt somit der Maßstab, weshalb WWW kein Kongruenzsatz ist.
 ```
@@ -1576,15 +1670,15 @@ Ein Dreieck $ABC$ soll mit den Seitenlängen $a=8\,\mathrm{cm}$, $b=3\,\mathrm{c
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz.question(0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Begründe, warum ein Dreieck mit diesen Seitenlängen nicht konstruiert werden kann.`)
+```text @LLMQuiz(0.55;coverage=0.75;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Ein Dreieck $ABC$ soll mit den Seitenlängen $a=8\,\mathrm{cm}$, $b=3\,\mathrm{cm}$ und $c=4\,\mathrm{cm}$ konstruiert werden. Begründe, warum das nicht möglich ist.`)
 <!-- lia-llm:criterion -->
 In einem Dreieck muss die Summe der beiden kürzeren Seiten größer als die längste Seite sein.
 <!-- lia-llm:criterion -->
 Hier gilt jedoch $b+c=3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}<8\,\mathrm{cm}=a$.
 <!-- lia-llm:criterion -->
-Damit ist die Dreiecksungleichung verletzt.
+Bei der Konstruktion auf der Grundseite $a=8\,\mathrm{cm}$ schneiden sich die Kreisbögen mit den Radien $b=3\,\mathrm{cm}$ und $c=4\,\mathrm{cm}$ nicht.
 <!-- lia-llm:criterion -->
-Wegen der verletzten Dreiecksungleichung kann kein Dreieck konstruiert werden.
+Ohne einen Schnittpunkt kann der dritte Eckpunkt nicht bestimmt und kein Dreieck konstruiert werden.
 <!-- lia-llm:solution -->
 In jedem Dreieck muss die Summe der Längen zweier Seiten größer als die Länge der dritten Seite sein. Hier gilt jedoch $b+c=3\,\mathrm{cm}+4\,\mathrm{cm}=7\,\mathrm{cm}<8\,\mathrm{cm}=a$. Damit ist die Dreiecksungleichung verletzt. Bei der Konstruktion haben der Kreis um $B$ mit dem Radius $4\,\mathrm{cm}$ und der Kreis um $C$ mit dem Radius $3\,\mathrm{cm}$ keinen Schnittpunkt, weil ihre Radien zusammen kleiner als der Abstand $8\,\mathrm{cm}$ ihrer Mittelpunkte sind. Daher kann der Punkt $A$ nicht bestimmt werden.
 ```
@@ -1623,7 +1717,7 @@ Formuliere nun deinen Beweis im Antwortfeld und ergänze es gerne durch eine Zei
 
 <!-- data-solution-button="off" data-llm-textarea="7" -->
 [[Antwort]]
-```text @LLMQuiz(0.66;solution=1;feedback=1)
+```text @LLMQuiz(0.66;solution=1;feedback=1,`Beweise, dass der Flächeninhalt des inneren Quadrats genau halb so groß ist wie der des äußeren Quadrats. Schreibe einen vollständigen Beweis.`)
 Bezeichne die Seitenlänge des äußeren Quadrats mit $a$. Weil der Kreis im äußeren Quadrat maximal groß ist, besitzt er den Durchmesser $a$.
 
 Das innere Quadrat ist in den Kreis eingeschrieben. Seine beiden Diagonalen sind deshalb ebenfalls Durchmesser des Kreises und jeweils $a$ lang. Die Diagonalen zerlegen das innere Quadrat in vier kongruente rechtwinklige Dreiecke. Jedes dieser Dreiecke hat die Kathetenlängen $\frac a2$ und $\frac a2$ und damit den Flächeninhalt
