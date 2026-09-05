@@ -71,7 +71,7 @@ Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? **Erkläre** außer
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? Erkläre außerdem, was die unterschiedlichen Reaktionen über ihre Arbeitsweisen zeigen.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Warum hält Leyla Finn davon ab, die Blechdose aufzubrechen? Erkläre außerdem, was die unterschiedlichen Reaktionen über ihre Arbeitsweisen zeigen.`)
 <!-- lia-llm:criterion -->
 Leyla hält Finn vom Aufbrechen ab, weil sie die Hinweise auf der Rückseite des Zettels zuerst untersuchen will.
 <!-- lia-llm:criterion -->
@@ -94,7 +94,7 @@ __$b)\;\;$__ Der Weg zum Schlüssel
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Erkläre, wie der Zettel Leyla und Finn zum Schlüssel führt. Warum hätten sie ihn ohne genaues Beobachten vermutlich nicht gefunden?`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre, wie der Zettel Leyla und Finn zum Schlüssel führt. Warum hätten sie ihn ohne genaues Beobachten vermutlich nicht gefunden?`)
 <!-- lia-llm:criterion -->
 Die Zeichnung weist zuerst zur alten Wasserpumpe.
 <!-- lia-llm:criterion -->
@@ -119,7 +119,7 @@ __$c)\;\;$__ Finns Veränderung
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Erkläre, wie sich Finns Haltung im Verlauf der Geschichte verändert. Gehe darauf ein, wie er zuerst mit der Dose und später beim Anlegen des Gartens arbeitet.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre, wie sich Finns Haltung im Verlauf der Geschichte verändert. Gehe darauf ein, wie er zuerst mit der Dose und später beim Anlegen des Gartens arbeitet.`)
 <!-- lia-llm:criterion -->
 Zu Beginn ist Finn ungeduldig und möchte schnell fertig werden.
 <!-- lia-llm:criterion -->
@@ -142,7 +142,7 @@ Warum ist der Fund für Frau Öztürk persönlich bedeutsam? **Erkläre** mithil
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Warum ist der Fund für Frau Öztürk persönlich bedeutsam? Erkläre mithilfe der Geschichte, woran die Dose sie erinnert und welches Gefühl sie dabei haben könnte.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Warum ist der Fund für Frau Öztürk persönlich bedeutsam? Erkläre mithilfe der Geschichte, woran die Dose sie erinnert und welches Gefühl sie dabei haben könnte.`)
 <!-- lia-llm:criterion -->
 Das Heft in der Dose gehörte Mara, Frau Öztürks älterer Schwester.
 <!-- lia-llm:criterion -->
@@ -167,7 +167,7 @@ __$e)\;\;$__ Alte und neue Samen
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Erkläre, warum die Klasse einige alte Samentütchen aufbewahrt und andere alte Samen neben neuen Samen einpflanzt. Warum ist diese Lösung sinnvoll?`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre, warum die Klasse einige alte Samentütchen aufbewahrt und andere alte Samen neben neuen Samen einpflanzt. Warum ist diese Lösung sinnvoll?`)
 <!-- lia-llm:criterion -->
 Einige alte Samentütchen werden aufbewahrt, damit ein Teil von Maras Fund und Geschichte erhalten bleibt.
 <!-- lia-llm:criterion -->
@@ -190,7 +190,7 @@ Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ **E
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ Erkläre, was dieser Satz bedeutet und warum die Herkunft der Kornblume dafür nicht entscheidend ist.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Am Ende heißt es: „Maras Botschaft war auf jeden Fall weitergewachsen.“ Erkläre, was dieser Satz bedeutet und warum die Herkunft der Kornblume dafür nicht entscheidend ist.`)
 <!-- lia-llm:criterion -->
 Das Weiterwachsen ist über das Pflanzenwachstum hinaus bildlich gemeint.
 <!-- lia-llm:criterion -->
@@ -226,7 +226,7 @@ __$a)\;\;$__ **Beschreibe**, wofür die drei Summanden stehen und was mit ihrer 
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Jeder Summand gehört zu einem Beet. Anschließend werden die drei Ergebnisse addiert.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wofür die drei Summanden stehen und was mit ihrer Summe im Sachzusammenhang berechnet wird.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe, wofür die drei Summanden stehen und was mit ihrer Summe im Sachzusammenhang berechnet wird.`)
 <!-- lia-llm:criterion -->
 Jeder der drei Summanden beschreibt den Umfang eines rechteckigen Beetes.
 <!-- lia-llm:criterion -->
@@ -244,7 +244,7 @@ __$b)\;\;$__ **Erkläre**, was in den Klammern addiert wird und warum jede Klamm
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Betrachte zuerst eine Klammer. Überlege anschließend, wie oft die Länge und die Breite bei einem Rechteck vorkommen.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre, was in den Klammern addiert wird und warum jede Klammer mit dem Faktor 2 multipliziert wird.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre, was in den Klammern addiert wird und warum jede Klammer mit dem Faktor 2 multipliziert wird.`)
 <!-- lia-llm:criterion -->
 In jeder Klammer werden die Länge und die Breite eines Beetes addiert.
 <!-- lia-llm:criterion -->
@@ -369,7 +369,7 @@ Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? **Erkläre
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? Erkläre, wie trotzdem ein geeigneter Ersatz entstand und welche Bedingung dabei beachtet werden musste.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Warum konnte die geplante Lesung nicht in der Bibliothek stattfinden? Erkläre, wie trotzdem ein geeigneter Ersatz entstand und welche Bedingung dabei beachtet werden musste.`)
 <!-- lia-llm:criterion -->
 Ein geplatztes Heizungsrohr verursachte einen Wasserschaden, sodass die Bibliotheksräume geschlossen werden mussten.
 <!-- lia-llm:criterion -->
@@ -392,7 +392,7 @@ Wie verändert sich Niko im Verlauf der Geschichte? **Erkläre** anhand passende
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Wie verändert sich Niko im Verlauf der Geschichte? Erkläre anhand passender Situationen, wie er sich zu Beginn verhält, wie er Verantwortung übernimmt und wie er am Ende auftritt.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Wie verändert sich Niko im Verlauf der Geschichte? Erkläre anhand passender Situationen, wie er sich zu Beginn verhält, wie er Verantwortung übernimmt und wie er am Ende auftritt.`)
 <!-- lia-llm:criterion -->
 Zu Beginn ist Niko unsicher oder zurückhaltend, weil er neu in der Klasse ist und sich beim Tragen für zu langsam hält.
 <!-- lia-llm:criterion -->
@@ -417,7 +417,7 @@ Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? **
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? Erkläre außerdem, weshalb seine zusätzlichen Bildzeichen besonders hilfreich sind.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Warum verbessert Nikos Umgang mit seinem Fehler die Ordnung in der Turnhalle? Erkläre außerdem, weshalb seine zusätzlichen Bildzeichen besonders hilfreich sind.`)
 <!-- lia-llm:criterion -->
 Nikos offenes Eingeständnis ermöglicht die Korrektur der falsch sortierten Bücher.
 <!-- lia-llm:criterion -->
@@ -440,7 +440,7 @@ Was bedeutet Nikos letzter Satz über Geschichten? **Erkläre**, wie die Ereigni
 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Was bedeutet Nikos letzter Satz über Geschichten? Erkläre, wie die Ereignisse in der Turnhalle diese Aussage bestätigen.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Was bedeutet Nikos letzter Satz über Geschichten? Erkläre, wie die Ereignisse in der Turnhalle diese Aussage bestätigen.`)
 <!-- lia-llm:criterion -->
 Menschen halten Geschichten lebendig, indem sie sie anderen vermitteln.
 <!-- lia-llm:criterion -->
@@ -474,7 +474,7 @@ $$
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Zuerst wird die Anzahl der Bücher in den sechs Kisten berechnet. Danach werden die einzelnen Bücher addiert. Zum Schluss ist zu erklären, wofür das Ergebnis steht.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe, wofür $6\cdot24$ und die Addition von $35$ stehen. Berechne den Term und erkläre, was das Ergebnis im Sachzusammenhang bedeutet.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe, wofür $6\cdot24$ und die Addition von $35$ stehen. Berechne den Term und erkläre, was das Ergebnis im Sachzusammenhang bedeutet.`)
 <!-- lia-llm:criterion -->
 Die sechs Kisten mit jeweils 24 Büchern werden durch 6 · 24 erfasst.
 <!-- lia-llm:criterion -->
@@ -501,7 +501,7 @@ __$a)\;\;$__ **Erkläre**, was ein Personalpronomen ist. **Nenne** außerdem min
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre, was ein Personalpronomen ist. Nenne außerdem mindestens drei verschiedene Personalpronomen.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre, was ein Personalpronomen ist. Nenne außerdem mindestens drei verschiedene Personalpronomen.`)
 <!-- lia-llm:criterion -->
 Die Erklärung beschreibt zutreffend, wofür Personalpronomen verwendet werden, zum Beispiel als Ersatz für Namen oder Nomengruppen oder als Bezeichnung für Sprechende, Angesprochene und andere Personen oder Dinge.
 <!-- lia-llm:criterion -->
@@ -518,7 +518,7 @@ __$b)\;\;$__ **Erkläre** den Nominativ. **Nenne** die passende Frageprobe und *
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Nominativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Nominativ steht.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre den Nominativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Nominativ steht.`)
 <!-- lia-llm:criterion -->
 Der Nominativ ist der erste Fall.
 <!-- lia-llm:criterion -->
@@ -539,7 +539,7 @@ __$c)\;\;$__ **Erkläre** den Akkusativ. **Nenne** die passende Frageprobe und *
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Akkusativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Akkusativ steht.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre den Akkusativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Akkusativ steht.`)
 <!-- lia-llm:criterion -->
 Der Akkusativ ist der vierte Fall.
 <!-- lia-llm:criterion -->
@@ -560,7 +560,7 @@ __$d)\;\;$__ **Erkläre** den Dativ. **Nenne** die passende Frageprobe und **zei
 
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=compact,`Erkläre den Dativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Dativ steht.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre den Dativ. Nenne die passende Frageprobe und zeige an einem eigenen Beispiel, welches Satzglied im Dativ steht.`)
 <!-- lia-llm:criterion -->
 Der Dativ ist der dritte Fall.
 <!-- lia-llm:criterion -->
@@ -657,7 +657,7 @@ Die folgenden Figuren bestehen aus gleich großen Kästchen.
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche zwei aufeinanderfolgende Figuren. Betrachte besonders die vier Enden des Kreuzes.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Beschreibe das Muster so, dass danach Figur 5 gezeichnet werden kann. Nenne die Form der Figuren und beschreibe, wo neue Kästchen hinzukommen und wie viele es in jedem Schritt sind. Nenne außerdem die Anzahl der Kästchen in Figur 5.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Muster so, dass danach Figur 5 gezeichnet werden kann. Nenne die Form der Figuren und beschreibe, wo neue Kästchen hinzukommen und wie viele es in jedem Schritt sind. Nenne außerdem die Anzahl der Kästchen in Figur 5.`)
 <!-- lia-llm:criterion -->
 Die Figuren haben die Form eines Kreuzes.
 <!-- lia-llm:criterion -->
@@ -726,7 +726,7 @@ gehört zu diesem Sachzusammenhang. **Erkläre** die Bedeutung der Zahlen und Re
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Betrachte zuerst die $7$ normalen Sitzreihen und anschließend die zusätzliche Reihe. Erkläre auch, wofür die Summe steht.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $7\cdot24+18$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $7\cdot24+18$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 <!-- lia-llm:criterion -->
 Die Zahl 7 steht für die normalen Sitzreihen.
 <!-- lia-llm:criterion -->
@@ -756,7 +756,7 @@ gehört ebenfalls zu diesem Sachzusammenhang. **Erkläre**, wie zuerst die insge
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Der Ausdruck in der Klammer gibt alle Sitzplätze an. Überlege anschließend, weshalb $26$ abgezogen wird.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre, wie mit dem Term $(7\cdot24+18)-26$ zuerst die insgesamt 186 Plätze berechnet werden, warum danach 26 Plätze abgezogen werden und was das Ergebnis 160 bedeutet.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre, wie mit dem Term $(7\cdot24+18)-26$ zuerst die insgesamt 186 Plätze berechnet werden, warum danach 26 Plätze abgezogen werden und was das Ergebnis 160 bedeutet.`)
 <!-- lia-llm:criterion -->
 Die Multiplikation 7 · 24 ergibt 168 Plätze in den normalen Reihen.
 <!-- lia-llm:criterion -->
@@ -832,7 +832,7 @@ __$a)\;\;$__ **Beschreibe** beide Rechenschritte. Nenne dabei auch das Zwischene
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Nenne zuerst die Multiplikation und danach die Subtraktion.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Beschreibe beide Rechenschritte. Nenne dabei auch das Zwischenergebnis und das Endergebnis.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe beide Rechenschritte. Nenne dabei auch das Zwischenergebnis und das Endergebnis.`)
 <!-- lia-llm:criterion -->
 Zuerst wird mit 24 · 36 die Anzahl aller gelieferten Flaschen berechnet.
 <!-- lia-llm:criterion -->
@@ -852,7 +852,7 @@ __$b)\;\;$__ **Interpretiere** das Ergebnis $706$ auf Grundlage des Textes.
 <!-- data-solution-button="off" data-llm-textarea="4" -->
 [[Antwort]]
 [[?]] Formuliere, wofür die Zahl $706$ im Zusammenhang mit dem Schulfest steht.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Interpretiere das Ergebnis $706$ auf Grundlage des Textes.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Interpretiere das Ergebnis $706$ auf Grundlage des Textes.`)
 <!-- lia-llm:criterion -->
 Nach dem Verbrauch am Vormittag sind noch 706 Flaschen Mineralwasser für das Schulfest übrig.
 <!-- lia-llm:solution -->
@@ -1179,7 +1179,7 @@ __$d)\;\;$__ **Beschreibe** das Muster der Multiplikationsreihen a) bis c). Gehe
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche jeweils den zweiten Faktor und das Produkt zweier aufeinanderfolgender Zeilen.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Beschreibe das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich die beiden Faktoren und das Produkt von Zeile zu Zeile verändern. Erkläre auch, warum sich das Produkt so verändert.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Muster der Multiplikationsreihen a) bis c). Gehe darauf ein, wie sich die beiden Faktoren und das Produkt von Zeile zu Zeile verändern. Erkläre auch, warum sich das Produkt so verändert.`)
 <!-- lia-llm:criterion -->
 Der erste Faktor bleibt innerhalb jeder Reihe unverändert.
 <!-- lia-llm:criterion -->
@@ -1293,7 +1293,7 @@ __$h)\;\;$__ **Beschreibe** das Muster der Divisionsreihen e) bis g). Gehe darau
 <!-- data-solution-button="off" data-llm-textarea="5" -->
 [[Antwort]]
 [[?]] Vergleiche jeweils den Divisor und den Quotienten zweier aufeinanderfolgender Zeilen.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1,`Beschreibe das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich Dividend, Divisor und Quotient von Zeile zu Zeile verändern. Erkläre auch, warum sich der Quotient so verändert.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe das Muster der Divisionsreihen e) bis g). Gehe darauf ein, wie sich Dividend, Divisor und Quotient von Zeile zu Zeile verändern. Erkläre auch, warum sich der Quotient so verändert.`)
 <!-- lia-llm:criterion -->
 Der Dividend bleibt innerhalb jeder Reihe unverändert.
 <!-- lia-llm:criterion -->
@@ -1327,7 +1327,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Berechne zuerst den Umfang des Rechtecks. Ziehe danach die Breite des Tores ab und berücksichtige zuletzt den Preis pro Meter.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(2\cdot6{,}5+2\cdot4-1{,}5)\cdot18{,}40$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(2\cdot6{,}5+2\cdot4-1{,}5)\cdot18{,}40$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 <!-- lia-llm:criterion -->
 Die Zahl 6,5 steht für die Länge des rechteckigen Geheges in Metern.
 <!-- lia-llm:criterion -->
@@ -1369,7 +1369,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Jedes Produkt beschreibt den Preis einer Produktgruppe. Addiere anschließend die drei Teilpreise.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $3\cdot5{,}80+5\cdot3{,}20+4\cdot1{,}25$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $3\cdot5{,}80+5\cdot3{,}20+4\cdot1{,}25$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 <!-- lia-llm:criterion -->
 Das Produkt 3 · 5,80 berechnet den Preis der drei Nudelgerichte.
 <!-- lia-llm:criterion -->
@@ -1401,7 +1401,7 @@ gehört zu diesem Sachzusammenhang. **Interpretiere** den Term und sein Ergebnis
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] Addiere zuerst die vier Laufzeiten. Erkläre danach, weshalb die Summe durch $4$ geteilt wird.
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(12{,}4+11{,}8+12{,}1+11{,}7):4$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre im beschriebenen Sachzusammenhang die Bedeutung des Terms $(12{,}4+11{,}8+12{,}1+11{,}7):4$. Gehe auf die Zahlen, die Rechenzeichen und die Bedeutung des Ergebnisses ein.`)
 <!-- lia-llm:criterion -->
 Die vier Summanden sind die gemessenen Zeiten der vier Trainingsläufe.
 <!-- lia-llm:criterion -->
@@ -1433,7 +1433,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=5\,\mathrm{cm}$, $b=4\,\m
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $a=5\,\mathrm{cm}$, $b=4\,\mathrm{cm}$ und $c=6\,\mathrm{cm}$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $a=5\,\mathrm{cm}$, $b=4\,\mathrm{cm}$ und $c=6\,\mathrm{cm}$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Eine der drei gegebenen Seiten wird in ihrer vorgegebenen Länge als Grundseite gezeichnet.
 <!-- lia-llm:criterion -->
@@ -1468,7 +1468,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $a=6\,\mathrm{cm}$ und $b=4\
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $a=6\,\mathrm{cm}$ und $b=4\,\mathrm{cm}$ sowie dem Winkel $\alpha=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $a=6\,\mathrm{cm}$ und $b=4\,\mathrm{cm}$ sowie dem Winkel $\alpha=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Die Seite $\overline{AC}$ wird mit der Länge $b=4\,\mathrm{cm}$ gezeichnet.
 <!-- lia-llm:criterion -->
@@ -1503,7 +1503,7 @@ Gegeben sei ein Dreieck $ABC$ mit der Seitenlänge $c=6\,\mathrm{cm}$ sowie den 
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit der Seitenlänge $c=6\,\mathrm{cm}$ sowie den Winkeln $\alpha=45^\circ$ und $\beta=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit der Seitenlänge $c=6\,\mathrm{cm}$ sowie den Winkeln $\alpha=45^\circ$ und $\beta=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Die Seite $\overline{AB}$ wird mit der Länge $c=6\,\mathrm{cm}$ gezeichnet.
 <!-- lia-llm:criterion -->
@@ -1536,7 +1536,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Winkeln $\alpha=60^\circ$ und $\beta=90^\c
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Winkeln $\alpha=60^\circ$ und $\beta=90^\circ$ sowie der Seitenlänge $a=5\,\mathrm{cm}$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Winkeln $\alpha=60^\circ$ und $\beta=90^\circ$ sowie der Seitenlänge $a=5\,\mathrm{cm}$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Der dritte Winkel wird mit $\gamma=180^\circ-60^\circ-90^\circ=30^\circ$ berechnet.
 <!-- lia-llm:criterion -->
@@ -1571,7 +1571,7 @@ Gegeben sei ein Dreieck $ABC$ mit den Seitenlängen $b=5\,\mathrm{cm}$ und $c=7\
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $b=5\,\mathrm{cm}$ und $c=7\,\mathrm{cm}$ sowie dem Winkel $\alpha=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Gegeben ist ein Dreieck $ABC$ mit den Seitenlängen $b=5\,\mathrm{cm}$ und $c=7\,\mathrm{cm}$ sowie dem Winkel $\alpha=60^\circ$. Beschreibe schrittweise, wie es mit Zirkel und Lineal konstruiert wird.`)
 <!-- lia-llm:criterion -->
 Eine der beiden gegebenen Seiten, die den Winkel $\alpha$ einschließen, wird in ihrer vorgegebenen Länge mit dem Endpunkt $A$ gezeichnet.
 <!-- lia-llm:criterion -->
@@ -1604,7 +1604,7 @@ Zuerst wird die Seite $\overline{AB}$ mit der Länge $c=7\,\mathrm{cm}$ gezeichn
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Erkläre den Unterschied zwischen den Angaben bei WSW und WWS. Beschreibe anschließend, warum nach der Berechnung des fehlenden Winkels dieselben Konstruktionsschritte möglich sind.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Erkläre den Unterschied zwischen den Angaben bei WSW und WWS. Beschreibe anschließend, warum nach der Berechnung des fehlenden Winkels dieselben Konstruktionsschritte möglich sind.`)
 <!-- lia-llm:criterion -->
 Bei WSW liegt die gegebene Seite zwischen den beiden gegebenen Winkeln, bei WWS zunächst nicht.
 <!-- lia-llm:criterion -->
@@ -1637,7 +1637,7 @@ Für ein Dreieck $ABC$ seien die drei Winkel $\alpha=60^\circ$, $\beta=60^\circ$
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Für ein Dreieck $ABC$ gelten $\alpha=60^\circ$, $\beta=60^\circ$ und $\gamma=60^\circ$. Begründe, warum diese Winkel für eine eindeutige Konstruktion nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Für ein Dreieck $ABC$ gelten $\alpha=60^\circ$, $\beta=60^\circ$ und $\gamma=60^\circ$. Begründe, warum diese Winkel für eine eindeutige Konstruktion nicht ausreichen und WWW deshalb kein Kongruenzsatz ist.`)
 <!-- lia-llm:criterion -->
 Die drei Winkel von jeweils $60^\circ$ legen fest, dass das Dreieck gleichseitig ist.
 <!-- lia-llm:criterion -->
@@ -1670,7 +1670,7 @@ Ein Dreieck $ABC$ soll mit den Seitenlängen $a=8\,\mathrm{cm}$, $b=3\,\mathrm{c
 <!-- data-solution-button="off" data-llm-textarea="6" -->
 [[Antwort]]
 [[?]] @Explain
-```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;Rechtschreibung=1;Satzbau=1,`Ein Dreieck $ABC$ soll mit den Seitenlängen $a=8\,\mathrm{cm}$, $b=3\,\mathrm{cm}$ und $c=4\,\mathrm{cm}$ konstruiert werden. Begründe, warum das nicht möglich ist.`)
+```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Ein Dreieck $ABC$ soll mit den Seitenlängen $a=8\,\mathrm{cm}$, $b=3\,\mathrm{cm}$ und $c=4\,\mathrm{cm}$ konstruiert werden. Begründe, warum das nicht möglich ist.`)
 <!-- lia-llm:criterion -->
 In einem Dreieck muss die Summe der beiden kürzeren Seiten größer als die längste Seite sein.
 <!-- lia-llm:criterion -->
@@ -1717,7 +1717,7 @@ Formuliere nun deinen Beweis im Antwortfeld und ergänze es gerne durch eine Zei
 
 <!-- data-solution-button="off" data-llm-textarea="7" -->
 [[Antwort]]
-```text @LLMQuiz(0.66;solution=1;feedback=1,`Beweise, dass der Flächeninhalt des inneren Quadrats genau halb so groß ist wie der des äußeren Quadrats. Schreibe einen vollständigen Beweis.`)
+```text @LLMQuiz(0.66;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beweise, dass der Flächeninhalt des inneren Quadrats genau halb so groß ist wie der des äußeren Quadrats. Schreibe einen vollständigen Beweis.`)
 Bezeichne die Seitenlänge des äußeren Quadrats mit $a$. Weil der Kreis im äußeren Quadrat maximal groß ist, besitzt er den Durchmesser $a$.
 
 Das innere Quadrat ist in den Kreis eingeschrieben. Seine beiden Diagonalen sind deshalb ebenfalls Durchmesser des Kreises und jeweils $a$ lang. Die Diagonalen zerlegen das innere Quadrat in vier kongruente rechtwinklige Dreiecke. Jedes dieser Dreiecke hat die Kathetenlängen $\frac a2$ und $\frac a2$ und damit den Flächeninhalt
