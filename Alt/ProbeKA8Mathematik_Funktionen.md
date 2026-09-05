@@ -1461,7 +1461,7 @@ Die obere linke Ecke entsteht durch den Schnittpunkt der Funktion $f$ mit
 $h(x)=\dfrac{3}{2}x+1$.
 
 Der Graph von $f$ verläuft durch die Punkte $A\left(-1\middle|\dfrac{17}{8}\right)$ und $B\left(3\middle|-\dfrac{7}{8}\right)$.  
-Die obere rechte Ecke liegt senkrecht über der Polstelle von $g$ auf gleicher Höhe wie der Schnittpunkt von $f$ und $h$.
+Die obere rechte Ecke liegt orthogonal über der Polstelle von $g$ auf gleicher Höhe wie der Schnittpunkt von $f$ und $h$.
 
 **Berechne** den Flächeninhalt der trapezförmigen Fläche.
 
@@ -1586,7 +1586,7 @@ P\left(\dfrac{3}{4}\middle|0\right)
 \end{align*}
 $$
 
-Die obere rechte Ecke liegt senkrecht über $P$ auf gleicher Höhe wie $S$:
+Die obere rechte Ecke liegt orthogonal über $P$ auf gleicher Höhe wie $S$:
 
 $$
 \begin{align*}

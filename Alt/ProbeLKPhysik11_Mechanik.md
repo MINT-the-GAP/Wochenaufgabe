@@ -424,7 +424,7 @@ Auf einer schiefen Ebene zerlegt man die Gewichtskraft in zwei Komponenten:
 
 - **Hangabtriebskraft** entlang der Ebene:
   $$F_\text{H} = F_\text{G} \cdot \sin(\alpha)$$
-- **Normalkraft** senkrecht zur Ebene:
+- **Normalkraft** orthogonal zur Ebene:
   $$F_\text{N} = F_\text{G} \cdot \cos(\alpha)$$
 
 Mit $F_\text{G} = 784{,}8~\text{N}$ und $\alpha = 10^\circ$:
@@ -563,7 +563,7 @@ $F_\text{H}\approx$ [[  142,773  ]] N
 @Algebrite.check(142.773)
 ******************
 Auf der schiefen Ebene wird die Gewichtskraft $F_\text{G}$ in eine Komponente
-entlang der Ebene (Hangabtriebskraft) und eine senkrecht zur Ebene (Normalkraft)
+entlang der Ebene (Hangabtriebskraft) und eine orthogonal zur Ebene (Normalkraft)
 zerlegt.
 
 Zunächst die Gewichtskraft:

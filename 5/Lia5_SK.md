@@ -46,7 +46,7 @@ author: Martin Lommatzsch
 
 @Ressourcen(50, 50, 150)
 @achievements
-@Highscore(10000, 100, 250, 20, 500)
+@Highscore(10000, 50, 100, 25, 100)
 
 @Schatztruhe(annotation; anker)
 @Diamanttruhe(boardmode)
