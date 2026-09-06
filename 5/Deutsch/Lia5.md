@@ -40,6 +40,8 @@ author: Martin Lommatzsch
 
 # Übersicht um digitalgestützen Üben - Deutsch
 
+@tooltip(off)
+
 
 
 
