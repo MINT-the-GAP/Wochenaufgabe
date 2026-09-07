@@ -205,6 +205,31 @@ $$
 
 
 
+---
+
+---
+
+
+{{4}}
+__Aufgabe 2:__ **Beweise** durch eine direkte Herleitung, dass jedes Objekt mit der gleichen Geschwindigkeit auf den Boden aufschlägt, wenn es aus der gleichen Höhe fallen gelassen wird und wenn die Reibung vernachlässigt wird. \
+
+
+
+{{5}}
+ $$
+ \begin{align*} 
+ \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text {nachher}}  \\
+ E_{pot} & = E'_{kin}   \\
+ mgh & = \dfrac{1}{2}mv^2  \qquad \mid :m \\
+ gh & = \dfrac{1}{2}v^2 \qquad \mid \cdot 2  \\
+ v^2 & = 2gh \\
+ \Rightarrow \;\; v & = \sqrt{2gh}
+ \end{align*}
+ $$
+
+
+
+
 ## Der Impuls $\vec{p}$
 
 
@@ -265,29 +290,6 @@ __Aufgabe 2:__ **Interpretiere** die Gleichung $F = \dfrac{p}{t}$ und entwickle 
 
 
 
----
-
----
-
-
-{{4}}
-__Aufgabe 2:__ **Beweise** durch eine direkte Herleitung, dass jedes Objekt mit der gleichen Geschwindigkeit auf den Boden aufschlägt, wenn es aus der gleichen Höhe fallen gelassen wird und wenn die Reibung vernachlässigt wird. \
-
-
-
-{{5}}
-> $$
- \begin{align*} 
- \underbrace{E_{kin} + E_{pot}}_{\text{vorher}} & = \underbrace{E'_{kin} + E'_{pot}}_{\text {nachher}}  \\
- E_{pot} & = E'_{kin}   \\
- mgh & = \dfrac{1}{2}mv^2  \qquad \mid :m \\
- gh & = \dfrac{1}{2}v^2 \qquad \mid \cdot 2  \\
- v^2 & = 2gh \\
- \Rightarrow \;\; v & = \sqrt{2gh}
- \end{align*}
- $$
-
-
 
 
 
@@ -304,8 +306,22 @@ __Aufgabe 2:__ **Beweise** durch eine direkte Herleitung, dass jedes Objekt mit 
 
 
 <center>
-<!-- style="width:400px" -->
-![](Bilder/Superposi1.png)
+
+@Koordinatensystem(`xmin=-0.6;xmax=6.6;ymin=-0.6;ymax=6.6;width=500;id=P10Superposition;achsen=1;grid=1;border=0;static=1`)
+@AchsenBeschriftung(`id=P10Superposition;xlabel=$\Large x$;ylabel=$\Large y$`)
+
+@Vektor(`P10Superposition;[[0;0];[3;0]];#0000ff;a=0`)
+@Vektor(`P10Superposition;[[3;0];[3;4]];#ff8800;b=0`)
+@Vektor(`P10Superposition;[[0;4];[3;4]];#0000ff;aParallel=0;linestyle=dashed`)
+@Vektor(`P10Superposition;[[0;0];[0;4]];#ff8800;bParallel=0;linestyle=dashed`)
+@Vektor(`P10Superposition;[[0;0];[3;4]];#ff0000;c=0`)
+
+@KoordText(`P10Superposition;[1.5;0.5];$\Large \vec{a}$;#0000ff;1`)
+@KoordText(`P10Superposition;[3.3;2];$\Large \vec{b}$;#ff8800;1`)
+@KoordText(`P10Superposition;[1.5;4.5];$\Large \vec{a}$;#0000ff;1`)
+@KoordText(`P10Superposition;[0.3;2];$\Large \vec{b}$;#ff8800;1`)
+@KoordText(`P10Superposition;[1.35;2.3];$\Large \vec{c}$;#ff0000;1`)
+
 </center>
 
 
@@ -338,8 +354,27 @@ $$
 
 {{3}} 
 <center>
-<!-- style="width:400px" -->
-![](Bilder/Superposi2.png)
+
+@Koordinatensystem(`xmin=-1.8;xmax=8.5;ymin=-4.5;ymax=5.2;width=500;id=P10Superposition2;achsen=0;grid=0;border=0;static=1`)
+
+@Vektor(`P10Superposition2;[[0;0];[5;0]];#0000ff;a=0`)
+@Vektor(`P10Superposition2;[[3;4];[8;4]];#0000ff;aParallel=0`)
+@Vektor(`P10Superposition2;[[0;0];[3;4]];#ff0000;b=0`)
+@Vektor(`P10Superposition2;[[5;0];[8;4]];#ff0000;bParallel=0`)
+@Vektor(`P10Superposition2;[[0;0];[8;4]];#ff8800;summe=0`)
+@Vektor(`P10Superposition2;[[3;4];[5;0]];#c00046;differenz=0`)
+@Vektor(`P10Superposition2;[[5;0];[2;-4]];#ff0000;minusB=0;linestyle=dashed`)
+@Vektor(`P10Superposition2;[[0;0];[2;-4]];#c00046;differenzParallel=0;linestyle=dashed`)
+
+@KoordText(`P10Superposition2;[2.5;0.6];$\Large \vec{a}$;#0000ff;1`)
+@KoordText(`P10Superposition2;[5.5;4.6];$\Large \vec{a}$;#0000ff;1`)
+@KoordText(`P10Superposition2;[1.15;2.5];$\Large \vec{b}$;#ff0000;1`)
+@KoordText(`P10Superposition2;[7;1.5];$\Large \vec{b}$;#ff0000;1`)
+@KoordText(`P10Superposition2;[5.05;3.35];$\Large \vec{a} + \vec{b}$;#ff8800;1`)
+@KoordText(`P10Superposition2;[5.25;1.9];$\Large \vec{a} - \vec{b}$;#c00046;1`)
+@KoordText(`P10Superposition2;[3;-1.5];$\Large -\vec{b}$;#ff0000;1`)
+@KoordText(`P10Superposition2;[-0.2;-2.7];$\Large \vec{a} + (-\vec{b})$;#c00046;1`)
+
 </center>
 
 
@@ -349,8 +384,17 @@ $$
 
 {{4}} 
 <center>
-<!-- style="width:400px" -->
-![](Bilder/Superposi3.png)
+
+@Koordinatensystem(`xmin=-0.6;xmax=6.6;ymin=-0.6;ymax=6.6;width=500;id=P10Superposition3;achsen=1;grid=1;border=0;static=1`)
+@AchsenBeschriftung(`id=P10Superposition3;xlabel=$\Large x$;ylabel=$\Large y$`)
+
+@Vektor(`P10Superposition3;[[1;1];[3;5]];#ff0000;a=0`)
+@Vektor(`P10Superposition3;[[1;1];[5;2]];#ff8800;b=0`)
+@Vektor(`P10Superposition3;[[5;2];[3;5]];#0000ff;differenz=0`)
+
+@KoordText(`P10Superposition3;[1.7;3.05];$\Large \vec{a}$;#ff0000;1`)
+@KoordText(`P10Superposition3;[3;2.1];$\Large \vec{b}$;#ff8800;1`)
+@KoordText(`P10Superposition3;[4.9;3.5];$\Large \vec{a} - \vec{b}$;#0000ff;1`)
 
 </center>
 
@@ -443,8 +487,53 @@ Unter der Annahme, dass sich die Masse $m$ eines betrachteten Objektes nicht ver
 
 {{2}}
 <center>
-<!-- style="width:600px" -->
-![](Bilder/pvEnergie1.png)
+
+@Koordinatensystem(`xmin=-0.8;xmax=9.4;ymin=-0.8;ymax=8.2;width=600;id=P10PvEnergie1;achsen=0;grid=0;border=0;static=1`)
+
+@Strecke(`P10PvEnergie1;[[1;-0.5];[1;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.5;1];[7;1]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[2;-0.5];[2;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.5;2];[7;2]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[3;-0.5];[3;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.5;3];[7;3]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[4;-0.5];[4;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.5;4];[7;4]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[5;-0.5];[5;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.5;5];[7;5]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[6;-0.5];[6;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.5;6];[7;6]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[7;-0.5];[7;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.5;7];[7;7]];#777777;;-;1px`)
+
+@Strecke(`P10PvEnergie1;[[0.5;-0.5];[0.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[-0.5;0.5];[7;0.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[1.5;-0.5];[1.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[-0.5;1.5];[7;1.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[2.5;-0.5];[2.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[-0.5;2.5];[7;2.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[3.5;-0.5];[3.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[-0.5;3.5];[7;3.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[4.5;-0.5];[4.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[-0.5;4.5];[7;4.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[5.5;-0.5];[5.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[-0.5;5.5];[7;5.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[6.5;-0.5];[6.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie1;[[-0.5;6.5];[7;6.5]];#999999;;-;1px;linestyle=dashed`)
+
+@Vektor(`P10PvEnergie1;[[-0.5;0];[7.5;0]];#000000;vAchse=0`)
+@Vektor(`P10PvEnergie1;[[0;-0.5];[0;7.5]];#000000;pAchse=0`)
+@Strecke(`P10PvEnergie1;[[2;-0.08];[2;0.08]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.08;2];[0.08;2]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie1;[[4;-0.08];[4;0.08]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.08;4];[0.08;4]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie1;[[6;-0.08];[6;0.08]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.08;6];[0.08;6]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie1;[[-0.5;-0.5];[7.3;7.3]];#0000ff;;-;2px`)
+
+@KoordText(`P10PvEnergie1;[7.8;0];$\Large v$;#000000;1`)
+@KoordText(`P10PvEnergie1;[0;7.85];$\Large p(v)$;#000000;1`)
+@KoordText(`P10PvEnergie1;[7.9;7.8];$\Large p(v) = mv$;#0000ff;1`)
+
 </center>
 
 
@@ -458,8 +547,58 @@ Der Flächeninhalt zwischen der Abszisse und dem Graphen entspricht dem Wert der
 
 {{3}}
 <center>
-<!-- style="width:600px" -->
-![](Bilder/pvEnergie2.png)
+
+@Koordinatensystem(`xmin=-0.8;xmax=9.4;ymin=-0.8;ymax=8.2;width=600;id=P10PvEnergie2;achsen=0;grid=0;border=0;static=1`)
+
+@Strecke(`P10PvEnergie2;[[1;-0.5];[1;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.5;1];[7;1]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[2;-0.5];[2;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.5;2];[7;2]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[3;-0.5];[3;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.5;3];[7;3]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[4;-0.5];[4;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.5;4];[7;4]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[5;-0.5];[5;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.5;5];[7;5]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[6;-0.5];[6;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.5;6];[7;6]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[7;-0.5];[7;7]];#777777;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.5;7];[7;7]];#777777;;-;1px`)
+
+@Strecke(`P10PvEnergie2;[[0.5;-0.5];[0.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[-0.5;0.5];[7;0.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[1.5;-0.5];[1.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[-0.5;1.5];[7;1.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[2.5;-0.5];[2.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[-0.5;2.5];[7;2.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[3.5;-0.5];[3.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[-0.5;3.5];[7;3.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[4.5;-0.5];[4.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[-0.5;4.5];[7;4.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[5.5;-0.5];[5.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[-0.5;5.5];[7;5.5]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[6.5;-0.5];[6.5;7]];#999999;;-;1px;linestyle=dashed`)
+@Strecke(`P10PvEnergie2;[[-0.5;6.5];[7;6.5]];#999999;;-;1px;linestyle=dashed`)
+
+@Flaeche(`P10PvEnergie2;[[0;0];[6;0];[6;6]];#00ff00;0.25`)
+
+@Vektor(`P10PvEnergie2;[[-0.5;0];[7.5;0]];#000000;vAchse=0`)
+@Vektor(`P10PvEnergie2;[[0;-0.5];[0;7.5]];#000000;pAchse=0`)
+@Strecke(`P10PvEnergie2;[[2;-0.08];[2;0.08]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.08;2];[0.08;2]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie2;[[4;-0.08];[4;0.08]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.08;4];[0.08;4]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie2;[[6;-0.08];[6;0.08]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie2;[[-0.08;6];[0.08;6]];#000000;;-;1px`)
+@Strecke(`P10PvEnergie2;[[6;-0.1];[6;6]];#ff0000;;-;2px`)
+@Strecke(`P10PvEnergie2;[[-0.5;-0.5];[7.3;7.3]];#0000ff;;-;2px`)
+
+@KoordText(`P10PvEnergie2;[7.8;0];$\Large v$;#000000;1`)
+@KoordText(`P10PvEnergie2;[0;7.85];$\Large p(v)$;#000000;1`)
+@KoordText(`P10PvEnergie2;[7.9;7.8];$\Large p(v) = mv$;#0000ff;1`)
+@KoordText(`P10PvEnergie2;[3.8;1.6];$\Large A$;#000000;1`)
+@KoordText(`P10PvEnergie2;[6;-0.35];$\Large v_0$;#ff0000;1`)
+
 </center>
 
 
