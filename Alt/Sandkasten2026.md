@@ -1,5 +1,5 @@
 <!--
-version: 1.1.0
+version: 1.1.1
 language: de
 narrator: Deutsch Female
 
@@ -1186,16 +1186,21 @@ Zur besseren Fokussierung kann man auch nur den aktuellen Inhalt einblenden und 
 
 ## Freie Antworten mit LLM-Prüfung
 
-Hier wird deine Antwort sinngemäß mit einer Musterlösung verglichen. Du kannst eigene Worte verwenden.
+Hier wird deine Antwort sinngemäß anhand der Seitenlängen und Winkel geprüft. Du kannst eigene Worte verwenden. Nach der Inhaltsprüfung kannst du über **Sprache prüfen** zusätzlich Rechtschreibung, Grammatik und Satzbau prüfen lassen.
 
-> **Hinweis zum Download:** Beim ersten Aufruf dieses Quiz lädt dein Browser ein KI-Modell für die Auswertung herunter. Das kann je nach Internetverbindung etwas dauern. Die Modelldateien werden im Browser zwischengespeichert und bei späteren Aufrufen normalerweise wiederverwendet. Deine Antwort wird auf deinem Gerät ausgewertet.
+> **Hinweis zum Download:** Beim ersten Aufruf bereitet dein Browser zunächst ein kompaktes KI-Modell vor (**ca. 379 MB einschließlich Laufzeit**). Für die gründliche Prüfung benötigt dieses Quiz zusätzlich ein größeres Modell (**ca. 984 MB**). Wenn beide Modelle noch fehlen, sind insgesamt **rund 1,4 GB** Download zu erwarten. Ist das größere Modell noch nicht gespeichert, fragt dich der Browser vor dem zusätzlichen Download nach deiner Zustimmung und zeigt die Downloadgröße an. Das Laden kann je nach Internetverbindung etwas dauern. Die Modelldateien werden im Browser zwischengespeichert und bei späteren Aufrufen normalerweise wiederverwendet. Deine Antwort wird auf deinem Gerät ausgewertet.
 
 **Aufgabe:** **Beschreibe** die Seitenlängen und die Innenwinkel eines Quadrats.
 
 <!-- data-solution-button="off" data-llm-textarea="3" -->
 [[Antwort]]
 [[?]] Denke an die Längen aller vier Seiten und an die Größe der Winkel.
-```text @LLMQuiz(0.66;solution=1;feedback=1,`Beschreibe die Seitenlängen und die Innenwinkel eines Quadrats.`)
+```text @LLMQuiz(0.55;coverage=0.60;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beschreibe die Seitenlängen und die Innenwinkel eines Quadrats.`)
+<!-- lia-llm:criterion -->
+Alle vier Seiten eines Quadrats sind gleich lang.
+<!-- lia-llm:criterion -->
+Alle vier Innenwinkel eines Quadrats sind jeweils 90 Grad groß.
+<!-- lia-llm:solution -->
 Ein Quadrat hat vier gleich lange Seiten. Alle vier Innenwinkel sind rechte Winkel, also jeweils 90 Grad groß.
 ```
 
