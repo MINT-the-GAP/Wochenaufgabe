@@ -164,7 +164,7 @@ Formuliere nun deinen Beweis im Antwortfeld und ergänze es gerne durch eine Zei
 
 @canvas
 
-<!-- data-solution-button="off" data-llm-textarea="7" -->
+<!-- data-solution-timer="300s" data-solution-timer-start="oncheck" data-solution-timer-badge="off" data-solution-button="5" data-hint-button="3" data-llm-textarea="7" -->
 [[Antwort]]
 ```text @LLMQuiz(0.55;coverage=0.55;solution=1;feedback=1;assessmentengine=quality;Rechtschreibung=1;Satzbau=1,`Beweise, dass der Flächeninhalt des inneren Quadrats genau halb so groß ist wie der des äußeren Quadrats. Schreibe einen vollständigen Beweis.`)
 <!-- lia-llm:criterion -->
