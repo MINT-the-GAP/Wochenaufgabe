@@ -54,6 +54,27 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 
 **Aufgaben 5–7:** mit Taschenrechner.
 
+---
+
+---
+
+---
+
+---
+
+
+> [!CAUTION]
+> <h2> @Explain(Tutorial) </h2>
+
+
+---
+
+---
+
+---
+
+---
+
 ## Aufgabe 1: Potenzgesetze und Wurzeln
 
 **Vereinfache** die Terme so weit wie möglich. Alle Variablen stehen für positive reelle Zahlen.

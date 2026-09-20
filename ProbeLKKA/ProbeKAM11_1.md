@@ -56,6 +56,27 @@ Diese Probearbeit hat mehr Aufgaben als die richtige Arbeit, damit du genug zum 
 **Aufgaben 6–10:** mit Taschenrechner und zugelassener Formelsammlung.
 
 
+---
+
+---
+
+---
+
+---
+
+
+> [!CAUTION]
+> <h2> @Explain(Tutorial) </h2>
+
+
+---
+
+---
+
+---
+
+---
+
 
 ## Aufgabe 1: Grundlegende Ableitungen
 
