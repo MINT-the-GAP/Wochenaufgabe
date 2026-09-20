@@ -1,0 +1,6 @@
+# Local test runs, browser profiles, screenshots, and diagnostic files.
+/.local-stresstests/
+
+# Keep all generated test reports and their evidence out of Git.
+/Alt/Testbericht_*.md
+/Alt/Testbericht_*/

@@ -28,7 +28,6 @@ import: https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-loot/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/README.md
 
@@ -120,7 +119,6 @@ in a LiaScript course.
 <img src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="80" height="80"> 
 
 </center>
-
 
 
 
