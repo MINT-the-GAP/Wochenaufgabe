@@ -7,8 +7,6 @@ narrator: Deutsch Female
 language: de
 
 
-
-
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-DynFlex/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-timer/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-board-mode/refs/heads/main/README.md
@@ -18,6 +16,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-canvas-ocr/refs/heads
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-orthography/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Mathe/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-kachel/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-navigation/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-mathpath/refs/heads/master/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-llm/refs/heads/main/README.md
@@ -29,14 +28,11 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/main/imports/RedirecterREADME.md
 
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-loot/main/README.md
 
-script: https://cdn.jsdelivr.net/gh/LiaTemplates/Tikz-Jax@main/dist/index.js
-
-
-
-
-
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/README.md
 
 
 tags: Profil, NaWi
@@ -54,7 +50,7 @@ author: Martin Lommatzsch
 # Naturwissenschaftliches Profil Klasse 10 - Modellierung der Natur
 
 
-> Letztes Update am 06.09.2026 gegen 12:00 Uhr
+> Letztes Update am 20.09.2026 gegen 12:00 Uhr
 
 
 In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterrichts der Klasse 10. Auch findest du hier Aufgaben und Lösungen zu den Aufgaben. Die Datei wird ständig aktualisiert.
@@ -635,158 +631,6 @@ $b)\;\;$ **Leite** daraus allgemeine Ausdrücke für $v_1'$ und $v_2'$ in Abhän
 
 ---
 
-{{1}}
-$a)\;\;$ **Schritt 1: Impuls- und Energieerhaltung**
-
-{{1}}
-$$
-\begin{align*}
-m_1 v_1 + m_2 v_2 &= m_1 v_1' + m_2 v_2' \quad &(1) \\
-\frac12 m_1 v_1^2 + \frac12 m_2 v_2^2 &= \frac12 m_1 {v_1'}^{2} + \frac12 m_2 {v_2'}^{2} \quad &(2)
-\end{align*}
-$$
-
----
-
-{{2}}
-$b)\;\;$ **Schritt 2: Relativgeschwindigkeitsregel**
-
-{{2}}
-Gleichung (2) wird mit 2 multipliziert und mit (1) kombiniert.  
-Nach Umformung folgt die Relativgeschwindigkeitsregel:
-
-
-{{2}}
-**********************
-**Schritt 1: Impulserhaltung umstellen**
-
-$$
-m_1(v_1 - v_1') = m_2(v_2' - v_2). \qquad (A)
-$$
-
----
-
-**Schritt 2: Energieerhaltung als Differenz der Quadrate schreiben**
-
-$$
-\begin{align*}
-m_1(v_1^2 - {v_1'}^{2}) + m_2(v_2^2 - {v_2'}^{2}) &= 0 \\
-m_1(v_1 - v_1')(v_1 + v_1') + m_2(v_2 - v_2')(v_2 + v_2') &= 0. \qquad (B)
-\end{align*}
-$$
-
----
-
-**Schritt 3: Vorzeichen anpassen und (A) einsetzen**
-
-$$
-m_1(v_1 - v_1')(v_1 + v_1') = m_2(v_2' - v_2)(v_2 + v_2').
-$$
-
-Aus (A) folgt:
-
-$$
-m_2(v_2' - v_2) = m_1(v_1 - v_1'),
-$$
-
-damit:
-
-$$
-m_1(v_1 - v_1')(v_1 + v_1') = m_1(v_1 - v_1')(v_2 + v_2').
-$$
-
----
-
-**Schritt 4: Gemeinsamen Faktor kürzen**
-
-Für einen nichttrivialen Stoß ($v_1 \neq v_1'$) kürzen wir:
-
-$$
-v_1 + v_1' = v_2 + v_2'.
-$$
-
-Dies ist äquivalent zu:
-
-
-
-$$
-v_1 - v_2 = -\,(v_1' - v_2') \quad (3)
-$$
-**********************
-
----
-
-{{3}}
-**Schritt 3: Aus (3) $v_1'$ ausdrücken und in (1) einsetzen**
-
-{{3}}
-Aus (3) ergibt sich:
-
-{{3}}
-$$
-v_1' = v_2' + v_2 - v_1
-$$
-
-{{3}}
-In (1) eingesetzt:
-
-{{3}}
-$$
-m_1 v_1 + m_2 v_2 = m_1 (v_2' + v_2 - v_1) + m_2 v_2'
-$$
-
----
-
-{{4}}
-**Schritt 4: $v_2'$ bestimmen**
-
-{{4}}
-Nach Umformen:
-
-{{4}}
-$$
-(m_1 + m_2) v_2' = 2 m_1 v_1 + (m_2 - m_1) v_2
-$$
-
-{{4}}
-Damit:
-
-{{4}}
-$$
-v_2' = \frac{2 m_1}{m_1 + m_2} v_1 + \frac{m_2 - m_1}{m_1 + m_2} v_2
-$$
-
----
-
-{{5}}
-**Schritt 5: $v_1'$ bestimmen**
-
-{{5}}
-Einsetzen in $v_1' = v_2' + v_2 - v_1$:
-
-{{5}}
-$$
-v_1' = \frac{m_1 - m_2}{m_1 + m_2} v_1 + \frac{2 m_2}{m_1 + m_2} v_2
-$$
-
----
-
-{{6}}
-**Schritt 6: Präsentation der Lösung**
-
-{{6}}
-$$
-\begin{align*}
-v_1' &= \frac{m_1 - m_2}{m_1 + m_2} v_1 + \frac{2 m_2}{m_1 + m_2} v_2 \\
-v_2' &= \frac{2 m_1}{m_1 + m_2} v_1 + \frac{m_2 - m_1}{m_1 + m_2} v_2
-\end{align*}
-$$
-
-{{6}}
-Damit liegen die allgemeinen Geschwindigkeitsausdrücke für den eindimensionalen elastischen Stoß vor.
-
----
-
 ---
 
 __Aufgabe 2:__ Vollständig inelastischer Stoß (Verkleben)
@@ -800,83 +644,6 @@ $b)\;\;$ **Bestimme** die kinetische Energie vor und nach dem Stoß und leite de
 $c)\;\;$ **Gib** optional den relativen "Verlust" $\dfrac{\Delta E_{kin}}{E_{kin,\text{vor}}}$ **an**.
 
 $d)\;\;$ **Erkläre**, wo die Energie aus dem relativen "Verlust" der kinetischen Energie hin ist.
-
----
-
-{{7}}
-$a)\;\;$ Schritt 1: Impulserhaltung und gemeinsame Geschwindigkeit
-
-{{7}}
-$$
-\begin{align*}
-m_1 v_1 + m_2 v_2 &= (m_1 + m_2) \, v' \\
-\Rightarrow\quad
-v' &= \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
-\end{align*}
-$$
-
----
-
-{{8}}
-$b)\;\;$ Schritt 2: Kinetische Energien vor und nach dem Stoß
-
-{{8}}
-$$
-\begin{align*}
-E_{kin,\text{vor}} &= \dfrac12 m_1 v_1^2 + \dfrac12 m_2 v_2^2 \\
-E_{kin,\text{nach}} &= \dfrac12 (m_1 + m_2)\,{v'}^{2}
-= \dfrac{(m_1 v_1 + m_2 v_2)^2}{2 (m_1 + m_2)}
-\end{align*}
-$$
-
----
-
-{{9}}
-$c)\;\;$ Schritt 3: "Energieverlust" $\Delta E_{kin} =  E_{kin,\text{vor}} - E_{kin,\text{nach}}$
-
-{{9}}
-Nach Ausmultiplizieren und Zusammenfassen ergibt sich die Standardform:
-
-{{9}}
-$$
-\Delta E_{kin}
-= \dfrac12 \,\frac{m_1 m_2}{m_1 + m_2}\,(v_1 - v_2)^2
-$$
-
-{{9}}
-Diese Darstellung macht die Abhängigkeit von der Relativgeschwindigkeit $(v_1 - v_2)$ und der reduzierten Masse $\mu = \dfrac{m_1 m_2}{m_1 + m_2}$ sichtbar.
-
----
-
-{{10}}
-Schritt 4 (optional): Relativer "Verlust"
-
-{{10}}
-$$ 
-\frac{\Delta E_{kin}}{E_{kin,\text{vor}}}
-= 1 - \frac{(m_1 v_1 + m_2 v_2)^2}{(m_1 + m_2)\,(m_1 v_1^2 + m_2 v_2^2)}
-$$
-
----
-
-{{10}}
-Zusammenfassung
-
-{{10}}
-$$
-\begin{align*}
-v' &= \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2} \\
-\Delta E_{kin} &= \frac12 \,\frac{m_1 m_2}{m_1 + m_2}\,(v_1 - v_2)^2
-\end{align*}
-$$
-
-
----
-
-{{11}}
-$d)\;\;$ Diese Energie wird in Umformungs- und somit auch Wärmeenergie umgewandelt. Somit der erste Hauptsatz der Thermodynamik nicht verletzt.
-
-
 
 
 ---
@@ -896,67 +663,6 @@ $b)\;\;$ **Leite** daraus $v(y)$ **her** und **zeige** die Unabhängigkeit von $
 
 $c)\;\;$ **Zeige** die Übereinstimmung mit der kinematischen Beziehung für gleichmäßige Beschleunigung.
 
----
-
-{{12}}
-$a)\;\;$ Schritt 1: Energieerhaltung
-
-{{12}}
-$$
-\begin{align*}
-E_{\text{pot}}(h) + E_{\text{kin}}(h) &= E_{\text{pot}}(y) + E_{\text{kin}}(y) \\
-m g h + 0 &= m g y + \dfrac12 m v^2
-\end{align*}
-$$
-
----
-
-{{13}}
-$b)\;\;$ Schritt 2: Umformen auf $v(y)$
-
-{{13}}
-$$
-\begin{align*}
-\dfrac12 m v^2 &= m g (h - y) \\
-v^2 &= 2 g (h - y) \\
-v &= \sqrt{\,2 g (h - y)\,}
-\end{align*}
-$$
-
----
-
-{{14}}
-Schritt 3: Unabhängigkeit von der Masse
-
-{{14}}
-$$
-\begin{align*}
-\dfrac12 \,\cancel{m}\, v^2 &= \cancel{m}\, g (h - y)
-\end{align*}
-$$
-
-{{14}}
-Die Masse kürzt sich; $v$ hängt nicht von $m$ ab.
-
----
-
-{{15}}
-$c)\;\;$ Schritt 4: Konsistenz mit der Kinematik
-
-{{15}}
-Mit der Fallstrecke $s = h - y$ und konstanter Beschleunigung $g$ gilt kinematisch
-
-{{15}}
-$$
-\begin{align*}
-v^2 &= 2 g s = 2 g (h - y),
-\end{align*}
-$$
-
-{{15}}
-also identisch zum Ergebnis aus der Energieerhaltung.
-
-
 
 ---
 
@@ -971,65 +677,6 @@ Eine Person der Masse $M$ steht reibungsfrei auf einem Rollbrett. Sie wirft eine
 $a)\;\;$  **Gib** die Impulserhaltung **an** und **leite** die Geschwindigkeit $V'$ der Person nach dem Wurf **her**.
 
 $b)\;\;$  **Gib** die Richtung und Betrag von $V'$ **an**.
-
----
-
-{{16}}
-$a)\;\;$ Schritt 1: Impulserhaltung (gesamter Anfangsimpuls ist null)
-
-{{16}}
-$$
-\begin{align*}
-0 \;=\; M\,V' \;+\; m\,u
-\end{align*}
-$$
-
-{{16}}
-Vorzeichenkonvention: $u>0$ in Wurfrichtung (nach vorne).
-
----
-
-{{17}}
-$b)\;\;$ Schritt 2: Auflösen nach $V'$
-
-{{17}}
-$$
-\begin{align*}
-M\,V' &= -\,m\,u \quad \left| : M  \right.\\
-V' &= -\,\dfrac{m}{M}\,u
-\end{align*}
-$$
-
----
-
-{{18}}
-Schritt 3: Interpretation
-
-{{18}}
-Das Minuszeichen zeigt: Die Person bewegt sich **entgegen** der Wurfrichtung.  
-Der Betrag lautet
-
-{{18}}
-$$
-\begin{align*}
-\lvert V' \rvert \;=\; \dfrac{m}{M}\,u \,.
-\end{align*}
-$$
-
----
-
-{{19}}
-Zusammenfassung
-
-{{19}}
-$$
-\begin{align*}
-V' \;=\; -\,\dfrac{m}{M}\,u, \qquad \lvert V' \rvert \;=\; \dfrac{m}{M}\,u \,.
-\end{align*}
-$$
-
-{{19}}
-Hinweis: Der Gesamtimpuls bleibt erhalten; die (später betrachtbare) Zunahme von $E_{\text{kin}}$ des Systems stammt aus der beim Wurf aufgewendeten inneren Arbeit.
 
 
 
@@ -1048,83 +695,6 @@ $b)\;\;$ **Leite** daraus die Endgeschwindigkeit $v'$ des Körpers **her**.
 $c)\;\;$ **Gib** die kinetische Energie $E_{\text{kin}}'$ nach den beiden Impulsstößen in Abhängigkeit von $p_1, p_2, \varphi$ und $m$ **an**.
 
 ---
-
-{{20}}
-$a)\;\;$ Schritt 1: Resultierenden Impulsbetrag via Kosinussatz
-
-{{20}}
-Die Vektorsumme $\vec p = \vec p_1 + \vec p_2$ bildet ein Dreieck mit eingeschlossenem Winkel $\varphi$ zwischen $\vec p_1$ und $\vec p_2$. Für die Beträge gilt:
-
-{{20}}
-$$
-\begin{align*}
-p^2 &= p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi) \,.
-\end{align*}
-$$
-
----
-
-{{21}}
-$b)\;\;$ Schritt 2: Zusammenhang zwischen Impuls und Geschwindigkeit
-
-{{21}}
-Mit $\vec p' = \vec p$ und Anfangsruhe ($\vec p_0 = \vec 0$) gilt:
-
-{{21}}
-$$
-\begin{align*}
-v' &= \dfrac{p}{m}
-= \dfrac{\sqrt{\,p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi)\,}}{m} \,.
-\end{align*}
-$$
-
----
-
-{{22}}
-$c)\;\;$ Schritt 3: Kinetische Energie nach den Impulsstößen
-
-{{22}}
-Mit $E_{\text{kin}}' = \dfrac{p^2}{2m}$ und dem Ergebnis aus Schritt 1 folgt:
-
-{{22}}
-$$
-\begin{align*}
-E_{\text{kin}}' 
-&= \dfrac{p_1^2 + p_2^2 + 2\,p_1 p_2 \cos(\varphi)}{2m} \,.
-\end{align*}
-$$
-
----
-
-{{23}}
-Zusatz (optional): Spezialfälle zur Interpretation
-
-
-{{23}}
-- Konstruktive Überlagerung ($\varphi = 0$):
-
-{{23}}
-$$
-\begin{align*}
-p = p_1 + p_2,\quad 
-v' = \dfrac{p_1 + p_2}{m},\quad
-E_{\text{kin}}' = \dfrac{(p_1 + p_2)^2}{2m}.
-\end{align*}
-$$
-
-
-{{23}}
-- Destruktive Überlagerung ($\varphi = \pi$):
-
-{{23}}
-$$
-\begin{align*}
-p = \lvert p_1 - p_2\rvert,\quad 
-v' = \dfrac{\lvert p_1 - p_2\rvert}{m},\quad
-E_{\text{kin}}' = \dfrac{(p_1 - p_2)^2}{2m}.
-\end{align*}
-$$
-
 
 
 

@@ -735,7 +735,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 > <h3> Die mathematische Schrifterkennung lässt auch Rechenwege automatisch korrigierbar werden: </h3>
 
 
-!?[Schrifterkennung mit automatisierter Computer-Algebra-System-Korrektur](wochenaufgaben.gsg-freiberg.de/Lia/ocrplus.mp4)
+!?[Schrifterkennung mit automatisierter Computer-Algebra-System-Korrektur](https://wochenaufgaben.gsg-freiberg.de/Lia/ocrplus.mp4)
 
 
 *******************
