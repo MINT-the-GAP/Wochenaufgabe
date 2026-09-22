@@ -538,7 +538,7 @@ $$
 
 @resetter
 
-@ADetails(`2=BE;Spitzkörper, Volumen, Höhe, Gleichung umstellen`)
+@ADetails(`2=BE;Spitzkörper, Volumen, Höhe, Äquivalenzumformung`)
 
 </div>
 
@@ -656,7 +656,7 @@ __$f)\;\;$__ Ein Zylinder mit $r_Z=4\,\mathrm{cm}$ und $h_Z=6\,\mathrm{cm}$ hat 
 <!-- data-hint-button="2" data-solution-button="3" -->
 $h_K=$ [[ 8 ]] $\mathrm{cm}$ @canvas
 @Algebrite.check(8)
-[[?]] Setze die Volumenformeln gleich. Der Faktor $\pi$ kürzt sich.
+[[?]] Setze die Volumengleichungen gleich. Der Faktor $\pi$ kürzt sich.
 *****************
 $$
 \pi r_Z^2h_Z
@@ -673,7 +673,7 @@ $$
 
 @resetter
 
-@ADetails(`4=BE;Kegel, Zylinder, Gleiches Volumen, Höhe, Gleichung umstellen`)
+@ADetails(`4=BE;Kegel, Zylinder, Gleiches Volumen, Höhe, Äquivalenzumformung`)
 
 </div>
 
@@ -1021,7 +1021,7 @@ __$b)\;\;$__ Die Körperhöhe des Zylinders beträgt $h_Z=15{,}4\,\mathrm{cm}$. 
 <!-- data-hint-button="2" data-solution-button="3" -->
 $R\approx$ [[ 4,24 ]] $\mathrm{cm}$ @canvas
 @Algebrite.check2(`sqrt((6840/7.85)/(pi*15.4))`,0.005)
-[[?]] Setze das Volumen aus a) in $V_Z=\pi R^2h_Z$ ein und stelle die Formel nach $R$ um.
+[[?]] Setze das Volumen aus a) in $V_Z=\pi R^2h_Z$ ein und stelle die Gleichung nach $R$ um.
 *****************
 Für den Zylinder gilt:
 
@@ -1041,7 +1041,7 @@ $$
 
 @resetter
 
-@ADetails(`4=BE;Zylinder, Volumen, Radius, Formel umstellen`)
+@ADetails(`4=BE;Zylinder, Volumen, Radius, Äquivalenzumformung`)
 
 </div>
 
@@ -1082,7 +1082,7 @@ Der Radius ist also nicht einfach um $20\,\%$ kleiner, weil sich die Prozentanga
 
 @resetter
 
-@ADetails(`3=BE;Kreisfläche, Prozentrechnung, Radius, Formel umstellen`)
+@ADetails(`3=BE;Kreisfläche, Prozentrechnung, Radius, Äquivalenzumformung`)
 
 </div>
 
@@ -1285,7 +1285,7 @@ $$
 
 @resetter
 
-@ADetails(`4=BE;Kegel, Volumen, Radius, Formel umstellen`)
+@ADetails(`4=BE;Kegel, Volumen, Radius, Äquivalenzumformung`)
 
 </div>
 

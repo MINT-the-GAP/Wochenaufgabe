@@ -172,7 +172,7 @@ Die Antwort stellt einen korrekten Größenbezug zwischen dem äußeren Quadrat 
 <!-- lia-llm:criterion -->
 Die Antwort stellt einen korrekten Größenbezug zwischen dem inneren Quadrat und dem Kreis her, etwa dass die innere Diagonale dem Kreisdurchmesser entspricht; eine gleichwertige geometrische Beschreibung ist ebenfalls zulässig.
 <!-- lia-llm:criterion -->
-Die Antwort wendet einen gültigen mathematischen Zusammenhang zur Flächenbestimmung korrekt an, etwa den Satz des Pythagoras, die Diagonalformel, einen Koordinatenabstand oder eine Flächenzerlegung.
+Die Antwort wendet einen gültigen mathematischen Zusammenhang zur Flächenbestimmung korrekt an, etwa den Satz des Pythagoras, die Diagonalgleichung, einen Koordinatenabstand oder eine Flächenzerlegung.
 <!-- lia-llm:criterion -->
 Der Flächeninhalt des äußeren Quadrats wird korrekt bestimmt, etwa als $a^2$ bei äußerer Seitenlänge $a$ oder als $4r^2$ bei Kreisradius $r$; eine gleichwertige geometrische Flächendarstellung ist ebenfalls zulässig.
 <!-- lia-llm:criterion -->
