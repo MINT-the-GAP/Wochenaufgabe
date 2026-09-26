@@ -268,7 +268,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
----
 
 
 
@@ -297,7 +296,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
----
 
 
 
@@ -327,7 +325,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
----
 
 
 
@@ -356,7 +353,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
----
 
 
 
@@ -383,7 +379,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 </section>
 
 
----
 
 
 
@@ -524,7 +519,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
----
 
 
 
@@ -557,8 +551,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
----
-
 
 
 <section class="dynFlex" data-basis="49">
@@ -588,7 +580,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
----
 
 
 
@@ -618,7 +609,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
----
 
 
 
@@ -647,7 +637,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 </section>
 
 
----
 
 
 <section class="dynFlex" data-basis="49">
@@ -674,9 +663,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 </section>
 
----
-
----
 
 
 
