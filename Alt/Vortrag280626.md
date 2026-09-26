@@ -883,37 +883,14 @@ $\,$
 
 <section class="dynFlex">
 
+
+
 <div class="flex-child">
+
+
 
 
 {{1}}
-******************
-> <h2> Automatisierte Bewertungen </h2>
-
-
-<!-- style="max-width:500px" -->
-![Freeze](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/frozen.png)
-
-******************
-
-
-</div>
-
-
-<div class="flex-child">
-
-
-
-{{2}}
-> <h2> Schrifterkennung auf alle Schulinhalte ausweiten </h2>
-
-
-{{3}}
-> <h2> Automatisierte Erklärungen von Vokabeln in der Sprache, in der die Vokabeln geschrieben sind. </h2>
-
-
-
-{{4}}
 *******************
 
 
@@ -938,8 +915,34 @@ Ein Quadrat hat vier gleich lange Seiten. Alle vier Innenwinkel sind rechte Wink
 
 
 
+{{2}}
+> <h2> Schrifterkennung auf alle Schulinhalte ausweiten </h2>
+
+
+{{3}}
+> <h2> Automatisierte Erklärungen von Vokabeln in der Sprache, in der die Vokabeln geschrieben sind. </h2>
+
+
+
 
 </div>
+
+<div class="flex-child">
+
+
+{{4}}
+******************
+> <h2> Automatisierte Bewertungen </h2>
+
+
+<!-- style="max-width:500px" -->
+![Freeze](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Bilder/frozen.png)
+
+******************
+
+
+</div>
+
 
 </section>
 
