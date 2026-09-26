@@ -991,6 +991,14 @@ Ein Quadrat hat vier gleich lange Seiten. Alle vier Innenwinkel sind rechte Wink
 
 
 
+</div>
+
+
+<div class="flex-child">
+
+
+
+
 {{2}}
 ******************
 > <h3> Zeichnungen als Quiz erkennen </h3>
@@ -1000,16 +1008,14 @@ Ein Quadrat hat vier gleich lange Seiten. Alle vier Innenwinkel sind rechte Wink
 ******************
 
 
-</div>
-
-
-<div class="flex-child">
-
-
 
 
 {{3}}
 ******************
+
+---
+
+
 > <h3> Dreidimensionales Geometriesystem </h3>
 
 <h4> Schülerinnen und Schüler sollen auch im dreidimensionalen Raum vektoriell arbeiten können. </h4>
@@ -1022,6 +1028,11 @@ Ein Quadrat hat vier gleich lange Seiten. Alle vier Innenwinkel sind rechte Wink
 
 {{4}}
 ******************
+
+
+---
+
+
 > <h3>Remote-Labor-Umgebung 'edrys'</h3>
 
 <h4>'edrys' ermöglicht einen Zugang zu Robotern und somit auch zu Experimenten über den Browser. Aufbau, Aufgabenstellungen und vieles mehr werden bei edrys ebenfalls mit LiaScript realisiert. </h4>
@@ -1032,6 +1043,11 @@ Ein Quadrat hat vier gleich lange Seiten. Alle vier Innenwinkel sind rechte Wink
 
 {{5}}
 ******************
+
+
+---
+
+
 > <h3>Kurserstellung ohne Syntaxschulung für Lehrkräfte</h3>
 
 <h4>Der Editor braucht aktuell noch eine Scripting-Umgebung, aber LLM-Agents/Skills lassen es schon zu, dass Kurse mittels Prompts generiert werden können. Ziel ist die Anpassung sowie Erstellung von Kursen in einer intuitiven Umgebung. </h4>
