@@ -182,7 +182,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 <h2> Beobachtungen als Lehrkraft </h2> 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 
 <div class="flex-child">
@@ -247,7 +247,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -272,7 +272,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -302,7 +302,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -329,7 +329,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -356,7 +356,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -382,7 +382,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -492,7 +492,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -522,7 +522,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -553,7 +553,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -583,7 +583,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -612,7 +612,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -639,7 +639,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 
@@ -669,7 +669,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 {{19}}
 *****************
 
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 <h3>LiaScript-Inhalte sind in Lernmanagementsysteme (LMS) wie OPAL oder Moodle integrierbar.</h3>
@@ -681,7 +681,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 </div>
 
 </section>
-<section class="dynFlex" data-basis="49">
+<section class="dynFlex" >
 
 <div class="flex-child">
 <h3>LiaScript-Inhalte können automatisch in jede Sprache übersetzt werden. </h3>
