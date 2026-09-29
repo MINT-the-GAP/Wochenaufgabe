@@ -13,22 +13,20 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-timer/refs/heads/main
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-board-mode/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-marker/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-annotation/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-canvas-ocr/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-orthography/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Mathe/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-kachel/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-navigation/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-mathpath/refs/heads/master/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-llm/refs/heads/main/README.md
 
-import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 import: https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
 
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-resetter/main/README.md
-
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-freeze-v2/main/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-loot/main/README.md
 
@@ -62,7 +60,7 @@ Diese Probearbeit enthält neue Aufgaben zu denselben Themenbereichen wie die er
 __$a)\;\;$__ $f(x)=3x^5-4x^3+2x-6$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$f'(x)=$ [[ 15*x^4-12*x^2+2 ]]
+$f'(x)=$ [[ 15*x^4-12*x^2+2 ]] @canvas
 @Algebrite.check(`15*x^4-12*x^2+2`)
 [[?]] Leite jeden Summanden mit der Potenzregel ab. Der konstante Summand fällt weg.
 [[?]] @Explain
@@ -71,8 +69,6 @@ $$
 f'(x)=15x^4-12x^2+2.
 $$
 *****************
-
-@resetter
 
 @ADetails(`1=BE;Potenzen, Ableitungen, Potenzregel`)
 
@@ -83,7 +79,7 @@ $$
 __$b)\;\;$__ $g(x)=\dfrac23x^6+3x^4-7x+5$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$g'(x)=$ [[ 4*x^5+12*x^3-7 ]]
+$g'(x)=$ [[ 4*x^5+12*x^3-7 ]] @canvas
 @Algebrite.check(`4*x^5+12*x^3-7`)
 [[?]] Multipliziere jeden Koeffizienten mit dem zugehörigen Exponenten.
 [[?]] @Explain
@@ -92,8 +88,6 @@ $$
 g'(x)=4x^5+12x^3-7.
 $$
 *****************
-
-@resetter
 
 @ADetails(`1=BE;Potenzen, Ableitungen, Bruchkoeffizienten`)
 
@@ -108,7 +102,7 @@ $$
 __$c)\;\;$__ $h(x)=-\dfrac34x^4+\dfrac52x^2-9$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$h'(x)=$ [[ -3*x^3+5*x ]]
+$h'(x)=$ [[ -3*x^3+5*x ]] @canvas
 @Algebrite.check(`-3*x^3+5*x`)
 [[?]] Konstante Faktoren bleiben beim Ableiten erhalten. Die Ableitung einer Konstanten ist null.
 [[?]] @Explain
@@ -117,8 +111,6 @@ $$
 h'(x)=-3x^3+5x.
 $$
 *****************
-
-@resetter
 
 @ADetails(`1=BE;Potenzen, Ableitungen, Potenzregel`)
 
@@ -129,7 +121,7 @@ $$
 __$d)\;\;$__ $k(x)=\dfrac27x^7-5x^3+4x$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$k'(x)=$ [[ 2*x^6-15*x^2+4 ]]
+$k'(x)=$ [[ 2*x^6-15*x^2+4 ]] @canvas
 @Algebrite.check(`2*x^6-15*x^2+4`)
 [[?]] Verringere nach dem Multiplizieren den jeweiligen Exponenten um eins.
 [[?]] @Explain
@@ -138,8 +130,6 @@ $$
 k'(x)=2x^6-15x^2+4.
 $$
 *****************
-
-@resetter
 
 @ADetails(`1=BE;Potenzen, Ableitungen, Potenzregel`)
 
@@ -160,7 +150,7 @@ p(x)=\frac13x^6-2x^4+3x^2-5.
 $$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$p'(x)=$ [[ 2*x^5-8*x^3+6*x ]], $\qquad p''(x)=$ [[ 10*x^4-24*x^2+6 ]]
+$p'(x)=$ [[ 2*x^5-8*x^3+6*x ]] @canvas, $\qquad p''(x)=$ [[ 10*x^4-24*x^2+6 ]] @canvas
 @Algebrite.check(`[2*x^5-8*x^3+6*x;10*x^4-24*x^2+6]`)
 [[?]] Leite die Polynomfunktion zunächst einmal und das Ergebnis anschließend ein zweites Mal ab.
 [[?]] @Explain
@@ -172,8 +162,6 @@ p''(x)&=10x^4-24x^2+6.
 \end{aligned}
 $$
 *****************
-
-@resetter
 
 @ADetails(`2=BE;Potenzen, Ableitungen, Erste und zweite Ableitung`)
 
@@ -188,7 +176,7 @@ q(x)=-\frac12x^5+3x^3-4x+2.
 $$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$q'(x)=$ [[ -5/2*x^4+9*x^2-4 ]], $\qquad q''(x)=$ [[ -10*x^3+18*x ]]
+$q'(x)=$ [[ -5/2*x^4+9*x^2-4 ]] @canvas, $\qquad q''(x)=$ [[ -10*x^3+18*x ]] @canvas
 @Algebrite.check(`[-5/2*x^4+9*x^2-4;-10*x^3+18*x]`)
 [[?]] Beachte, dass die Ableitung des konstanten Summanden null ist.
 [[?]] @Explain
@@ -200,8 +188,6 @@ q''(x)&=-10x^3+18x.
 \end{aligned}
 $$
 *****************
-
-@resetter
 
 @ADetails(`2=BE;Potenzen, Ableitungen, Erste und zweite Ableitung`)
 
@@ -220,7 +206,7 @@ $$
 **Bestimme** die Gleichung der Tangente an den Graphen von $p$ an der Stelle $x_0=2$.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$t(x)=$ [[ 6*x-8 ]]
+$t(x)=$ [[ 6*x-8 ]] @canvas
 @Algebrite.check(`6*x-8`)
 [[?]] Berechne $p(2)$ und $p'(2)$. Verwende anschließend die Punkt-Steigungs-Gleichung.
 [[?]] @Explain
@@ -235,8 +221,6 @@ $$
 t(x)=6(x-2)+4=6x-8.
 $$
 *****************
-
-@resetter
 
 @ADetails(`4=BE;Gleichung, Tangente, Ableitungswert`)
 
@@ -263,8 +247,6 @@ Für $x<-4$ sind beide Faktoren negativ, also ist $f'(x)>0$. Zwischen $-4$ und $
 Damit wechselt $f'$ bei $x=-4$ von positiv zu negativ und bei $x=2$ von negativ zu positiv. Folglich liegt bei $x=-4$ ein lokaler Hochpunkt und bei $x=2$ ein lokaler Tiefpunkt vor.
 *****************
 
-@resetter
-
 @ADetails(`4=BE;Negative Zahlen, Ableitung, Monotonie, Extremstellen`)
 
 ## Aufgabe 5: Tangenten, Extrempunkte und Wendepunkte
@@ -283,8 +265,6 @@ Richtig sind die erste, dritte und vierte Aussage.
 
 Ein Wendepunkt beschreibt einen Wechsel des Krümmungsverhaltens; seine Tangente muss nicht waagerecht sein. Ein Vorzeichenwechsel von $f'$ von negativ zu positiv kennzeichnet einen lokalen Tiefpunkt. An einer inneren differenzierbaren lokalen Extremstelle ist die Ableitung null.
 *****************
-
-@resetter
 
 @ADetails(`4=BE;Gleichung, Tangente, Wendepunkt, Extremstelle`)
 
@@ -310,8 +290,6 @@ $D_f=$ [[($\mathbb{R}$)|$[-2;6]$|$[0;\infty)$]], $W_f=$ [[($\mathbb{R}$)|$[-4;4]
 Für eine Polynomfunktion gilt $D_f=\mathbb R$. Wegen des ungeraden Grades und des positiven Leitkoeffizienten nimmt $f$ beliebig kleine und beliebig große Werte an. Daher ist auch $W_f=\mathbb R$.
 *****************
 
-@resetter
-
 @ADetails(`2=BE;Mengen, Kurvendiskussion, Definitionsbereich, Wertebereich`)
 
 </div>
@@ -321,7 +299,7 @@ Für eine Polynomfunktion gilt $D_f=\mathbb R$. Wegen des ungeraden Grades und d
 __$b)\;\;$__ **Berechne** den Schnittpunkt des Graphen mit der Ordinatenachse.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$S_y=(0\mid$ [[ 11/4 ]] $)$
+$S_y=(0\mid$ [[ 11/4 ]] @canvas $)$
 @Algebrite.check(`11/4`)
 [[?]] Setze $x=0$ in den Funktionsterm ein.
 [[?]] @Explain
@@ -336,8 +314,6 @@ $$
 S_y\left(0\,\middle|\,\frac{11}{4}\right).
 $$
 *****************
-
-@resetter
 
 @ADetails(`1=BE;Terme, Kurvendiskussion, Ordinatenachsenabschnitt`)
 
@@ -362,8 +338,6 @@ $$
 
 Dieser Term stimmt weder mit $f(x)$ noch mit $-f(x)$ überein. Der Graph ist weder zur Ordinatenachse noch zum Ursprung symmetrisch.
 *****************
-
-@resetter
 
 @ADetails(`2=BE;Terme, Kurvendiskussion, Symmetrie`)
 
@@ -391,8 +365,6 @@ $$
 $$
 *****************
 
-@resetter
-
 @ADetails(`2=BE;Potenzen, Kurvendiskussion, Verhalten im Unendlichen`)
 
 </div>
@@ -406,7 +378,7 @@ $$
 __$e)\;\;$__ **Berechne** die Nullstellen von $f$.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$x_1=$ [[ 1-2*sqrt(3) ]], $\quad x_2=$ [[ 1 ]], $\quad x_3=$ [[ 1+2*sqrt(3) ]]
+$x_1=$ [[ 1-2*sqrt(3) ]] @canvas, $\quad x_2=$ [[ 1 ]] @canvas, $\quad x_3=$ [[ 1+2*sqrt(3) ]] @canvas
 @Algebrite.check(`[1-2*sqrt(3);1;1+2*sqrt(3)]`)
 [[?]] Schreibe den Funktionsterm mithilfe der Substitution $u=x-1$ um und faktorisiere.
 [[?]] @Explain
@@ -424,8 +396,6 @@ x_1=1-2\sqrt3,\qquad x_2=1,\qquad x_3=1+2\sqrt3.
 $$
 *****************
 
-@resetter
-
 @ADetails(`4=BE;Gleichung, Kurvendiskussion, Nullstellen, Faktorisieren`)
 
 </div>
@@ -435,7 +405,7 @@ $$
 __$f)\;\;$__ **Berechne** die Extrempunkte von $f$ und **bestimme** ihre Art.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$H($ [[ -1 ]] $\mid$ [[ 4 ]] $)$, $\qquad T($ [[ 3 ]] $\mid$ [[ -4 ]] $)$
+$H($ [[ -1 ]] @canvas $\mid$ [[ 4 ]] @canvas $)$, $\qquad T($ [[ 3 ]] @canvas $\mid$ [[ -4 ]] @canvas $)$
 @Algebrite.check(`[-1;4;3;-4]`)
 [[?]] Löse $f'(x)=0$ und untersuche das Vorzeichen von $f''$ an den beiden Stellen.
 [[?]] @Explain
@@ -454,8 +424,6 @@ H(-1\mid4),\qquad T(3\mid-4).
 $$
 *****************
 
-@resetter
-
 @ADetails(`5=BE;Gleichung, Kurvendiskussion, Extrempunkte, Ableitungen`)
 
 </div>
@@ -465,7 +433,7 @@ $$
 __$g)\;\;$__ **Berechne** den Wendepunkt von $f$.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$W($ [[ 1 ]] $\mid$ [[ 0 ]] $)$
+$W($ [[ 1 ]] @canvas $\mid$ [[ 0 ]] @canvas $)$
 @Algebrite.check(`[1;0]`)
 [[?]] Löse $f''(x)=0$ und prüfe die Stelle mit $f'''(x)$.
 [[?]] @Explain
@@ -484,8 +452,6 @@ $$
 
 Mit $u=x-1$ gilt $f(x)=\frac14u^3-3u$. Daher ist der Graph punktsymmetrisch zum Wendepunkt $W$.
 *****************
-
-@resetter
 
 @ADetails(`4=BE;Gleichung, Kurvendiskussion, Wendepunkt, Ableitungen`)
 
@@ -512,7 +478,7 @@ In der sechsten Woche wird eine Prognose für die neunte Woche erstellt.
 __$a)\;\;$__ **Berechne** die Modellwerte zum Start und nach sechs Wochen.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$N(0)=$ [[ 1 ]], $\qquad N(6)=$ [[ 10 ]]
+$N(0)=$ [[ 1 ]] @canvas, $\qquad N(6)=$ [[ 10 ]] @canvas
 @Algebrite.check(`[1;10]`)
 [[?]] Setze $t=0$ beziehungsweise $t=6$ in die Funktionsgleichung ein.
 [[?]] @Explain
@@ -525,8 +491,6 @@ $$
 Zum Start entspricht der Modellwert $1000$ Besuchen pro Woche, nach sechs Wochen $10\,000$ Besuchen pro Woche.
 *****************
 
-@resetter
-
 @ADetails(`3=BE;Terme, Modellierung, Funktionswerte`)
 
 </div>
@@ -536,7 +500,7 @@ Zum Start entspricht der Modellwert $1000$ Besuchen pro Woche, nach sechs Wochen
 __$b)\;\;$__ **Bestimme** im Modellzeitraum den Zeitpunkt, zu dem die Besucherzahl maximal ist, und **berechne** den maximalen Modellwert. Runde auf zwei Nachkommastellen.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$t_{\max}\approx$ [[ 8,90 ]], $\qquad N_{\max}\approx$ [[ 12,48 ]]
+$t_{\max}\approx$ [[ 8,90 ]] @canvas, $\qquad N_{\max}\approx$ [[ 12,48 ]] @canvas
 @Algebrite.check2(`[8.8989794856;12.4787753827]`,`[0.015;0.015]`,units=0)
 [[?]] Löse $N'(t)=0$, berücksichtige nur Lösungen im Modellzeitraum und vergleiche mit den Randwerten.
 [[?]] @Explain
@@ -566,8 +530,6 @@ $$
 Die maximale Besucherzahl beträgt nach dem Modell etwa $12\,480$ Besuche pro Woche.
 *****************
 
-@resetter
-
 @ADetails(`5=BE;Runden, Modellierung, Maximum, Ableitungen`)
 
 </div>
@@ -581,7 +543,7 @@ Die maximale Besucherzahl beträgt nach dem Modell etwa $12\,480$ Besuche pro Wo
 __$c)\;\;$__ **Bestimme** den Wendepunkt des Modells und die momentane Änderungsrate an dieser Stelle. **Interpretiere** die Ergebnisse im Sachzusammenhang.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$t_W=$ [[ 4 ]], $\quad N(t_W)=$ [[ 6,6 ]], $\quad N'(t_W)=$ [[ 1,8 ]]
+$t_W=$ [[ 4 ]] @canvas, $\quad N(t_W)=$ [[ 6,6 ]] @canvas, $\quad N'(t_W)=$ [[ 1,8 ]] @canvas
 @Algebrite.check2(`[4;6.6;1.8]`,`[0.005;0.005;0.005]`,units=0)
 [[?]] Löse $N''(t)=0$. Setze den Zeitpunkt anschließend in $N$ und $N'$ ein.
 [[?]] @Explain
@@ -599,8 +561,6 @@ $$
 Nach vier Wochen entspricht der Modellwert $6600$ Besuchen pro Woche. Zu diesem Zeitpunkt ist die Zunahme der wöchentlichen Besucherzahl mit $1800$ Besuchen pro Woche und Woche am größten. Danach steigt die Besucherzahl zunächst weiter, die momentane Zunahme wird jedoch kleiner.
 *****************
 
-@resetter
-
 @ADetails(`4=BE;Terme, Modellierung, Wendepunkt, Änderungsrate`)
 
 </div>
@@ -610,7 +570,7 @@ Nach vier Wochen entspricht der Modellwert $6600$ Besuchen pro Woche. Zu diesem 
 __$d)\;\;$__ **Bestimme** die Tangente an den Graphen von $N$ an der Stelle $t=6$. **Verwende** diese Tangente als lineare Prognose für die neunte Woche.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$T(t)=$ [[ 1.5*t+1 ]], $\qquad T(9)=$ [[ 14,5 ]]
+$T(t)=$ [[ 1.5*t+1 ]] @canvas, $\qquad T(9)=$ [[ 14,5 ]] @canvas
 @Algebrite.check(`[1.5*t+1;14.5]`)
 [[?]] Berechne $N(6)$ und $N'(6)$. Setze beide Werte in $T(t)=N'(6)(t-6)+N(6)$ ein.
 [[?]] @Explain
@@ -634,8 +594,6 @@ $$
 Die Tangente prognostiziert somit $14\,500$ Besuche pro Woche.
 *****************
 
-@resetter
-
 @ADetails(`5=BE;Gleichung, Modellierung, Tangente, Lineare Prognose`)
 
 </div>
@@ -649,7 +607,7 @@ Die Tangente prognostiziert somit $14\,500$ Besuche pro Woche.
 __$e)\;\;$__ **Vergleiche** die tangentiale Prognose aus d) mit dem Modellwert $N(9)$. **Berechne** die absolute Abweichung der Modellwerte und **beurteile** die Prognose. Runde auf zwei Nachkommastellen.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$N(9)\approx$ [[ 12,48 ]], $\qquad$ absolute Abweichung: [[ 2,03 ]]
+$N(9)\approx$ [[ 12,48 ]] @canvas, $\qquad$ absolute Abweichung: [[ 2,03 ]] @canvas
 @Algebrite.check2(`[12.475;2.025]`,`[0.015;0.015]`,units=0)
 [[?]] Berechne zuerst $N(9)$ und bilde anschließend den Betrag der Differenz zu $T(9)$.
 [[?]] @Explain
@@ -667,8 +625,6 @@ $$
 Die Tangente überschätzt den Modellwert um etwa $2030$ Besuche pro Woche.
 *****************
 
-@resetter
-
 **Wähle** die passende Beurteilung aus.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
@@ -682,8 +638,6 @@ Für $t>6$ ist $N''(t)<0$. Die Steigung des Modellgraphen nimmt also ab. Die Tan
 
 Eine Tangente ist nur eine lokale lineare Näherung. Mit wachsendem Abstand vom Berührpunkt kann die Abweichung größer werden.
 *****************
-
-@resetter
 
 @ADetails(`3=BE;Negative Zahlen, Modellierung, Prognose, Abweichung`)
 
@@ -702,7 +656,7 @@ Eine Tangente ist nur eine lokale lineare Näherung. Mit wachsendem Abstand vom 
 __$a)\;\;$__ $f(x)=x^3-12x+1$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$H($ [[ -2 ]] $\mid$ [[ 17 ]] $)$, $\qquad T($ [[ 2 ]] $\mid$ [[ -15 ]] $)$
+$H($ [[ -2 ]] @canvas $\mid$ [[ 17 ]] @canvas $)$, $\qquad T($ [[ 2 ]] @canvas $\mid$ [[ -15 ]] @canvas $)$
 @Algebrite.check(`[-2;17;2;-15]`)
 [[?]] Löse $f'(x)=0$ und untersuche das Vorzeichen von $f''$ an den gefundenen Stellen.
 [[?]] @Explain
@@ -724,8 +678,6 @@ H(-2\mid17),\qquad T(2\mid-15).
 $$
 *****************
 
-@resetter
-
 @ADetails(`3=BE;Gleichung, Extrempunkte, Ableitungen, Klassifikation`)
 
 </div>
@@ -735,7 +687,7 @@ $$
 __$b)\;\;$__ $g(x)=\dfrac14x^4-\dfrac92x^2+2$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$T_1($ [[ -3 ]] $\mid$ [[ -73/4 ]] $)$, $\quad H($ [[ 0 ]] $\mid$ [[ 2 ]] $)$, $\quad T_2($ [[ 3 ]] $\mid$ [[ -73/4 ]] $)$
+$T_1($ [[ -3 ]] @canvas $\mid$ [[ -73/4 ]] @canvas $)$, $\quad H($ [[ 0 ]] @canvas $\mid$ [[ 2 ]] @canvas $)$, $\quad T_2($ [[ 3 ]] @canvas $\mid$ [[ -73/4 ]] @canvas $)$
 @Algebrite.check(`[-3;-73/4;0;2;3;-73/4]`)
 [[?]] Faktorisiere $g'(x)$ vollständig. Es entstehen drei mögliche Extremstellen.
 [[?]] @Explain
@@ -759,8 +711,6 @@ T_2\left(3\,\middle|\,-\frac{73}{4}\right).
 $$
 *****************
 
-@resetter
-
 @ADetails(`3=BE;Potenzen, Extrempunkte, Polynomfunktion vierten Grades`)
 
 </div>
@@ -776,7 +726,7 @@ __$c)\;\;$__ $h(x)=\dfrac13x^3-\dfrac32x^2-4x+1$
 Runde die Ordinaten der Extrempunkte auf zwei Nachkommastellen.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$H($ [[ -1 ]] $\mid$ [[ 3,17 ]] $)$, $\qquad T($ [[ 4 ]] $\mid$ [[ -17,67 ]] $)$
+$H($ [[ -1 ]] @canvas $\mid$ [[ 3,17 ]] @canvas $)$, $\qquad T($ [[ 4 ]] @canvas $\mid$ [[ -17,67 ]] @canvas $)$
 @Algebrite.check2(`[-1;3.1666666667;4;-17.6666666667]`,`[0.015;0.015;0.015;0.015]`,units=0)
 [[?]] Die Gleichung $h'(x)=0$ lässt sich faktorisieren.
 [[?]] @Explain
@@ -799,8 +749,6 @@ H(-1\mid3{,}17),\qquad T(4\mid-17{,}67).
 $$
 *****************
 
-@resetter
-
 @ADetails(`3=BE;Runden, Extrempunkte, Faktorisieren`)
 
 </div>
@@ -818,7 +766,7 @@ $$
 __$a)\;\;$__ $p(x)=x^3-3x^2+2x+4$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$W($ [[ 1 ]] $\mid$ [[ 4 ]] $)$
+$W($ [[ 1 ]] @canvas $\mid$ [[ 4 ]] @canvas $)$
 @Algebrite.check(`[1;4]`)
 [[?]] Löse $p''(x)=0$ und überprüfe die Stelle mithilfe von $p'''(x)$.
 [[?]] @Explain
@@ -836,8 +784,6 @@ W(1\mid4).
 $$
 *****************
 
-@resetter
-
 @ADetails(`3=BE;Gleichung, Wendepunkt, Zweite und dritte Ableitung`)
 
 </div>
@@ -849,7 +795,7 @@ __$b)\;\;$__ $q(x)=\dfrac14x^4-\dfrac{27}{8}x^2+2x+1$
 Runde die Koordinaten auf zwei Nachkommastellen.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$W_1($ [[ -1,5 ]] $\mid$ [[ -8,33 ]] $)$, $\qquad W_2($ [[ 1,5 ]] $\mid$ [[ -2,33 ]] $)$
+$W_1($ [[ -1,5 ]] @canvas $\mid$ [[ -8,33 ]] @canvas $)$, $\qquad W_2($ [[ 1,5 ]] @canvas $\mid$ [[ -2,33 ]] @canvas $)$
 @Algebrite.check2(`[-1.5;-8.328125;1.5;-2.328125]`,`[0.015;0.015;0.015;0.015]`,units=0)
 [[?]] Aus $q''(x)=0$ entstehen zwei Lösungen. Berechne anschließend beide Funktionswerte.
 [[?]] @Explain
@@ -875,8 +821,6 @@ W_2(1{,}50\mid-2{,}33).
 $$
 *****************
 
-@resetter
-
 @ADetails(`3=BE;Runden, Wendepunkte, Polynomfunktion vierten Grades`)
 
 </div>
@@ -890,7 +834,7 @@ $$
 __$c)\;\;$__ $r(x)=-\dfrac13x^3+2x^2+x-3$
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$W($ [[ 2 ]] $\mid$ [[ 13/3 ]] $)$
+$W($ [[ 2 ]] @canvas $\mid$ [[ 13/3 ]] @canvas $)$
 @Algebrite.check(`[2;13/3]`)
 [[?]] Löse $r''(x)=0$ und setze die gefundene Stelle anschließend in $r$ ein.
 [[?]] @Explain
@@ -907,8 +851,6 @@ $$
 W\left(2\,\middle|\,\frac{13}{3}\right).
 $$
 *****************
-
-@resetter
 
 @ADetails(`3=BE;Gleichung, Wendepunkt, Bruchkoordinaten`)
 
@@ -927,7 +869,7 @@ __$a)\;\;$__ Gegeben ist $p(x)=\dfrac13x^3-x^2-2x+5$.
 **Bestimme** die Tangente an den Graphen von $p$ an der Stelle $x_0=3$.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$t(x)=$ [[ x-4 ]]
+$t(x)=$ [[ x-4 ]] @canvas
 @Algebrite.check(`x-4`)
 [[?]] Berechne $p(3)$ und $p'(3)$ und verwende die Punkt-Steigungs-Gleichung.
 [[?]] @Explain
@@ -943,8 +885,6 @@ t(x)=x-3-1=x-4.
 $$
 *****************
 
-@resetter
-
 @ADetails(`3=BE;Gleichung, Tangente, Ableitungswert`)
 
 </div>
@@ -956,7 +896,7 @@ __$b)\;\;$__ Gegeben ist $q(x)=-\dfrac12x^4+x^2-3x+2$.
 **Bestimme** die Tangente an den Graphen von $q$ an der Stelle $x_0=-1$.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$t(x)=$ [[ -3*x+5/2 ]]
+$t(x)=$ [[ -3*x+5/2 ]] @canvas
 @Algebrite.check(`-3*x+5/2`)
 [[?]] Bestimme den Berührpunkt und die Steigung der Tangente bei $x_0=-1$.
 [[?]] @Explain
@@ -973,8 +913,6 @@ $$
 t(x)=-3(x+1)+\frac{11}{2}=-3x+\frac52.
 $$
 *****************
-
-@resetter
 
 @ADetails(`3=BE;Gleichung, Tangente, Polynomfunktion vierten Grades`)
 
@@ -997,7 +935,7 @@ und die Gerade $k(x)=-x+2$.
 **Bestimme** die beiden Stellen, an denen die Tangenten an den Graphen von $r$ parallel zu $k$ verlaufen. Die Tangenten haben die Form $t_i(x)=-x+b_i$. Runde die gesuchten Werte auf zwei Nachkommastellen.
 
 <!-- data-hint-button="2" data-solution-button="3" -->
-$x_1\approx$ [[ -0,41 ]], $\quad b_1\approx$ [[ 2,66 ]], $\qquad x_2\approx$ [[ 2,41 ]], $\quad b_2\approx$ [[ -8,66 ]]
+$x_1\approx$ [[ -0,41 ]] @canvas, $\quad b_1\approx$ [[ 2,66 ]] @canvas, $\qquad x_2\approx$ [[ 2,41 ]] @canvas, $\quad b_2\approx$ [[ -8,66 ]] @canvas
 @Algebrite.check2(`[-0.4142135624;2.6568542495;2.4142135624;-8.6568542495]`,`[0.015;0.015;0.015;0.015]`,units=0)
 [[?]] Parallele Geraden besitzen dieselbe Steigung. Löse daher $r'(x)=-1$.
 [[?]] @Explain
@@ -1028,8 +966,6 @@ x_1\approx-0{,}41,\quad b_1\approx2{,}66,\qquad
 x_2\approx2{,}41,\quad b_2\approx-8{,}66.
 $$
 *****************
-
-@resetter
 
 @ADetails(`3=BE;Runden, Tangenten, Parallelität, Ableitungswert`)
 
