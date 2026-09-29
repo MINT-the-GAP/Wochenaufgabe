@@ -28,7 +28,6 @@ import: https://raw.githubusercontent.com/liaTemplates/JSXGraph/main/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-coordinate/refs/heads/main/README.md
 
-import: https://raw.githubusercontent.com/MINT-the-GAP/lia-loot/main/README.md
 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/README.md
 
