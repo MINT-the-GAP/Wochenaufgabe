@@ -124,6 +124,7 @@ in a LiaScript course.
 
 ## Agenda
 
+
 <img alt="Step 1" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40">  <big><big><b> LiaScript: the foundation </b></big></big>
 
 ---
@@ -142,13 +143,14 @@ in a LiaScript course.
 
 ---
 
-<img alt="Step 4" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="40" height="40">  <big><big><b> Create and export in the DGS </b></big></big>
+<img alt="Step 4" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="40" height="40">  <big><big><b> Create and export via macros </b></big></big>
 
 ---
 
 ---
 
-<img alt="Step 5" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40">  <big><big><b> Key Outlook </b></big></big>
+<img alt="Step 5" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40">  <big><big><b> Outlook </b></big></big>
+
 
 
 

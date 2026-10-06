@@ -43,13 +43,6 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
 
-    --{{0}}--
-LiaScript supports interactive mathematics tasks in browser-based courses.
-The underlying dynamic-geometry technology is JSXGraph; the `lia-coordinate`
-template exposes its functions through reusable macros. This course first
-presents tasks from the learners' perspective and then documents how a visual
-construction can be created, exported and embedded in a LiaScript course.
-
 
 
 > <h2> LiaScript - OER-eLearning with JSXGraph </h2>
@@ -141,13 +134,13 @@ construction can be created, exported and embedded in a LiaScript course.
 
 ---
 
-<img alt="Step 4" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="40" height="40">  <big><big><b> Create and export in the DGS </b></big></big>
+<img alt="Step 4" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="40" height="40">  <big><big><b> Create and export via macros </b></big></big>
 
 ---
 
 ---
 
-<img alt="Step 5" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40">  <big><big><b> Key Outlook </b></big></big>
+<img alt="Step 5" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40">  <big><big><b> Outlook </b></big></big>
 
 
 
@@ -155,6 +148,11 @@ construction can be created, exported and embedded in a LiaScript course.
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> LiaScript: the foundation for interactive courses
 
     --{{0}}--
+LiaScript supports interactive mathematics tasks in browser-based courses.
+The underlying dynamic-geometry technology is JSXGraph; the `lia-coordinate`
+template exposes its functions through reusable macros. This course first
+presents tasks from the learners' perspective and then documents how a visual
+construction can be created, exported and embedded in a LiaScript course.
 LiaScript is an open-source scripting language for interactive courses based
 on Markdown. Courses can be published as Open Educational Resources so that
 others may use, adapt and further develop them under the chosen open licence.
