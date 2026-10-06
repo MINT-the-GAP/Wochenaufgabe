@@ -51,7 +51,7 @@ in a LiaScript course.
 
 
 
-> <h2> LiaScript - OER-eLearning with JXSGraph </h2>
+> <h2> LiaScript - OER-eLearning with JSXGraph </h2>
 > <h2> Quizzes $\cdot$ Dynamic Geometry System $\cdot$ Export to Courses </h2>
 
 <h3> September 2026, Freiberg </h3>
