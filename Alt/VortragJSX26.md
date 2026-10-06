@@ -1,7 +1,7 @@
 <!--
-version:  0.2.0
+version:  0.3.1
 language: en
-narrator: Deutsch Female
+narrator: US English Female
 
 tags: Presentation, Teacher training, LiaScript, lia-coordinate, DGS, Mathematics, OER
 comment:  lia-coordinate in the classroom: representations, tasks, teaching choices
@@ -42,15 +42,15 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
     --{{0}}--
-Hallo mein Name ist Martin Lommatzsch und ich Ihnen heute zeigen, wie wir mit LiaScript interaktive Mathematikaufgaben
-erstellen können. Die Grundlage dafür ist JSXGraph. Das Template lia-coordinate von mir ermöglicht dabei einen Zugang über Makros.
-Ich zeige zuerst einige Aufgaben aus Sicht der Lernenden. Danach wechseln wir 
-in die Rolle der Lehrkraft und bauen selbst eine Konstruktion, die wir in einen
-LiaScript-Kurs übernehmen können.
+LiaScript supports interactive mathematics tasks in browser-based courses.
+The underlying dynamic-geometry technology is JSXGraph; the `lia-coordinate`
+template exposes its functions through reusable macros. This course first
+presents tasks from the learners' perspective and then documents how a visual
+construction can be created, exported and embedded in a LiaScript course.
 
 
 
-> <h2> LiaScript - OER-eLearning with JXSGraph </h2>
+> <h2> LiaScript - OER-eLearning with JSXGraph </h2>
 > <h2> Quizzes $\cdot$ Dynamic Geometry System $\cdot$ Export to Courses </h2>
 
 <h3> September 2026, Freiberg </h3>
@@ -94,7 +94,7 @@ LiaScript-Kurs übernehmen können.
 
 
 <!-- style="max-width:600px" -->
-![partner_map](https://github.com/LiaPlayground/Saechsischer_Schulinformatik_Tag_2026/blob/main/pic/LiaScript_Meets_OER.png?raw=true "OER-Logo - Quelle: Jonathasmello - Eigenes Werk, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156) erweitert um LiaScript-Logo")
+![partner_map](https://github.com/LiaPlayground/Saechsischer_Schulinformatik_Tag_2026/blob/main/pic/LiaScript_Meets_OER.png?raw=true "OER logo - Source: Jonathasmello - Own work, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156) with the LiaScript logo added")
 </div>
 
 </section>
@@ -119,17 +119,33 @@ LiaScript-Kurs übernehmen können.
 
 </center>
 
+## Agenda
 
+<img alt="Step 1" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40">  <big><big><b> LiaScript: the foundation </b></big></big>
 
+---
 
+---
 
+<img alt="Step 2" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40">  <big><big><b> What STEM teachers need </b></big></big>
 
+---
 
+---
 
+<img alt="Step 3" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40">  <big><big><b> Interactive tasks with lia-coordinate </b></big></big>
 
+---
 
+---
 
+<img alt="Step 4" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="40" height="40">  <big><big><b> Create and export in the DGS </b></big></big>
 
+---
+
+---
+
+<img alt="Step 5" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40">  <big><big><b> Key Outlook </b></big></big>
 
 
 
@@ -137,22 +153,17 @@ LiaScript-Kurs übernehmen können.
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40"> LiaScript: the foundation for interactive courses
 
     --{{0}}--
-Bevor wir in die Mathematik in der Schule einsteigen, kurz zur Grundlage: LiaScript ist eine
-Scriptsprache für interaktive Kurse und basiert auf Markdown. 
-LiaScript ist kostenfrei und Open Source. Wenn wir unsere Materialien unter einer
-offenen Lizenz als OER veröffentlichen, können andere sie nutzen, anpassen und
-weiterentwickeln. Für den Unterricht ist außerdem praktisch, dass die Lernenden
-ihre eigenen Geräte verwenden können: Smartphone, Tablet oder Laptop.
-Ein moderner Browser genügt. Es braucht keine vorherige App-Installation und
-keinen eigenen Schulserver oder ein Lernmanagementsystem. Es gibt auch kein
-Pflichtkonto; der Lernfortschritt kann lokal im Browser gespeichert werden. Und LiaScript ist Datenschutzkonform.
-Die Kursdateien können an unterschiedlichen Orten liegen. Wir sind also nicht an
-eine Plattform gebunden. Bereits geladene Inhalte lassen sich auch offline
-weiterbearbeiten, soweit die benötigten Ressourcen lokal verfügbar sind.
-Online-Dienste brauchen weiterhin eine Verbindung. Der für mich entscheidende
-Punkt sind die Makros: Darin lassen sich auch komplexe Anwendungen verpacken. 
-Wie das bei JSXGraph aussieht, veranschauliche ich in den nächsten Folien nachdem 
-ich die Bedarfe aus der Sicht einer Lehrkraft dargestellt habe.
+LiaScript is an open-source scripting language for interactive courses based
+on Markdown. Courses can be published as Open Educational Resources so that
+others may use, adapt and further develop them under the chosen open licence.
+Learners can access a course with a modern browser on a smartphone, tablet or
+laptop. A dedicated app, school server, learning management system or compulsory
+user account is not required. Learning progress can be stored locally in the
+browser, and course files can be hosted on different platforms. Previously
+loaded content can remain available offline when all required resources are
+stored locally; external online services still require a connection. LiaScript
+macros package complex applications such as JSXGraph into reusable building
+blocks that can be used without programming knowledge.
 
 
 <section class="dynFlex" data-basis="49%">
@@ -246,14 +257,14 @@ Use ready-made macros **without programming knowledge**.
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40"> What do STEM teachers need?
 
     --{{0}}--
-Was brauchen wir im MINT-Unterricht eigentlich? 
-Wir brauchen Darstellungen von Graphen und geometrischen Figuren.
-Die Lernenden sollten Längen und Winkel mit dem Geodreick messen können.
-Die Lernenden sollte auch selbst geometrische Figuren mit Geodreieck und Zirkel konstruieren können. Die Lernenden brauchen an dieser Stelle auch eine Rückmeldung bezüglich der Korrektheit ihrer Konstruktion. 
-Bei beim Setzen von Punkten oder beim Zeichnen von Graphen sollte eine Rückmeldung erfolgen. 
-Aber auch komplett freie Aufgabenstellungen brauchen ein dynamisches Geometriesystem zur Unterstützung. 
-Und wie Sie sehen können ist alles über LiaScript-Makros ohne große Programmierkenntnisse einbettbar.
-Ich möchte Ihnen im folgenden ein paar Beispiele zeigen.
+Digital STEM tasks need suitable representations of graphs and geometric
+figures as well as tools for measuring lengths and angles. Learners should be
+able to construct figures with instruments such as a set square and compass
+and receive feedback on the completed construction. Comparable feedback is
+useful when placing points, adjusting graphs or working on open-ended geometry
+tasks. The `lia-coordinate` macros connect these requirements with a dynamic
+geometry system and embed the resulting activities in LiaScript without
+requiring extensive programming knowledge.
 
 <div class="coord-slide">
 
@@ -294,8 +305,10 @@ Start with a drawing board: `@CoordinateSystem`
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> CreatePoint: place a point at a target position
 
     --{{0}}--
-Wir beginnen mit einer einfachen Aufgabe: Der Punkt A soll die Koordinaten zwei
-und drei haben. Ich erzeuge den Punkt und ziehe ihn auf seine Position, was LiaScript dann überprüft und rückmeldet.
+`@CreatePoint` creates a movable point and checks its position against target
+coordinates. In this example, point $A$ must be placed at $(2|3)$. The macro
+connects the point to the coordinate system, evaluates its position and returns
+feedback when the learner checks the task.
 
 <div class="coord-slide">
 
@@ -366,8 +379,10 @@ $A(2,3)$: abscissa 2, ordinate 3. In $(3|2)$, the coordinates are reversed.
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> Reconstruction: adjust the graph
 
     --{{0}}--
-Jetzt soll ein ganzer Graph zu vorgegebenen Eigenschaften passen. Über Schieberegler und durch das Panning 
-kann der Graph an die gewünschte Position gebracht werden und LiaScript überprüft dann wieder alles.
+`@Reconstruction` checks whether an entire graph matches a target expression.
+Parameters can be changed with sliders, while panning supports the adjustment
+of the displayed graph. The example combines a prescribed vertex with an
+additional point and verifies the resulting parabola within a defined tolerance.
 
 <div class="coord-slide">
 
@@ -436,13 +451,12 @@ since $0= a\cdot(3-1)^2-2$ gives $a=0.5$.
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> ConstructionQuiz: sides and angles
 
     --{{0}}--
-Bei der nächsten Aufgabe sollen mehrere Eigenschaften gleichzeitig stimmen:
-Wir brauchen ein rechtwinkliges Dreieck mit den Seitenlängen drei, vier und fünf. Das zeichne ich mal so ein.
-Ich schließe das Dreieck, indem ich den ersten Punkt noch einmal
-anklicke, und lasse es prüfen. Mit der Einstellung offen gebe ich keine
-feste Reihenfolge der Merkmale vor. Rechts stehen außerdem die Toleranzen für
-Längen und Winkel. Über das DGS-Makro wähle ich aus, welche Werkzeuge zur Verfügung
-stehen. Die automatische Prüfung bewertet die fertige Figur.
+`@ConstructionQuiz` evaluates several geometric properties of one construction.
+The example requires a right-angled triangle with side lengths of $3$, $4$ and
+$5$ units. A polygon is completed by selecting its first point again. The open
+setting accepts the required features in any order, while separate tolerances
+control the assessment of lengths and angles. The accompanying `@DGS` macro
+determines which construction tools are available.
 
 <div class="coord-slide">
 
@@ -508,12 +522,11 @@ Example: $A(0,0)$, $B(4,0)$, $C(4,3)$. Side lengths: $4$, $3$, $5$ units; angle 
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> AreaQuiz: from area to shape
 
     --{{0}}--
-Hier drehen wir eine bekannte Aufgabenstellung um. Vorgegeben ist ein
-Flächeninhalt von zwölf Flächeneinheiten; die Lernenden sollen ein passendes
-Viereck herstellen. Ich zeichne als Beispiel so ein Rechteck mit den Seitenlängen, schließe es und prüfe. 
-Die Aufgabe lässt also verschiedene Lösungen zu. Dabei muss die Figur
-überhaupt kein Rechteck sein: Geprüft werden vier Eckpunkte und der Flächeninhalt.
-Im Makro sind das die Angaben vier und zwölf, gefolgt von der Toleranz.
+`@AreaQuiz` specifies a target area and asks learners to construct a suitable
+polygon. The example requires a quadrilateral with an area of $12$ square units.
+Different shapes are accepted because the check evaluates only the number of
+vertices and the area within the stated tolerance. The principal parameters
+therefore define the board, four vertices, the target area and the tolerance.
 
 <div class="coord-slide">
 
@@ -575,12 +588,11 @@ A rectangle with sides of $4$ units and $3$ units has an area of $12$ square uni
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> PerimeterQuiz: specify the perimeter
 
     --{{0}}--
-Auf dieser Folie ist der Umfang vorgegeben: vierzehn Längeneinheiten.
-Die beiden Aufgaben zusammen machen den Unterschied zwischen Umfang und
-Flächeninhalt gut sichtbar. Technisch tausche ich dafür AreaQuiz gegen
-PerimeterQuiz aus und gebe den gewünschten Umfang an. Die Zahl der Eckpunkte
-und die Toleranz bleiben eigene Angaben. Auch hier sind Rechtecke lediglich
-unsere Beispiele; verlangt ist allgemein ein Viereck.
+`@PerimeterQuiz` checks a polygon against a target perimeter. The example asks
+for any quadrilateral with a perimeter of $14$ units; the rectangle shown in
+the solution is only one possible construction. Comparing this task with
+`@AreaQuiz` highlights that equal perimeters do not imply equal areas. The
+number of vertices, target perimeter and tolerance remain independent settings.
 
 <div class="coord-slide">
 
@@ -644,16 +656,13 @@ A rectangle with sides of $4$ units and $3$ units has a perimeter of $14$ units;
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> CoordinateQuiz: all conditions on one shape
 
     --{{0}}--
-Mit CoordinateQuiz können wir mehrere Bedingungen an dieselbe Figur stellen.
-Hier soll ein Parallelogramm entstehen, das zwölf Flächeneinheiten groß ist und
-ausdrücklich kein Rechteck sein darf. Ich nehme eine Grundseite der Länge vier
-und eine Höhe von drei. Ich schließe die Figur und prüfe. Gegenüberliegende Seiten sind
-parallel; Grundseite mal Höhe ergibt zwölf. Durch die Verschiebung haben wir
-keine rechten Winkel. Der Ausschluss ist hier eine bewusste Aufgabenentscheidung:
-Ein Rechteck ist mathematisch ebenfalls ein Parallelogramm. Wenn ich es nicht
-zulassen möchte, muss ich das zusätzlich angeben. Genau das steht rechts im Code.
-Form und Flächeninhalt werden gemeinsam geprüft. Auf diese Weise lassen sich
-auch Bedingungen zu Seiten, Winkeln und Umfang miteinander verbinden.
+`@CoordinateQuiz` combines several conditions that must hold for the same
+shape. The example requires a parallelogram with an area of $12$ square units
+and explicitly excludes rectangles. This exclusion is necessary because every
+rectangle is also a parallelogram. A base of $4$ units and a height of $3$ units
+provide the required area; shifting the upper side avoids right angles. Shape
+class and area are checked together, and comparable combinations can include
+conditions for side lengths, angles or perimeter.
 
 <div class="coord-slide">
 
@@ -731,17 +740,12 @@ Also available as: `@GeometryQuiz`
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> PlotInput: from handwriting to a graph
 
     --{{0}}--
-Bevor wir selbst Materialien erstellen, noch eine weitere Verbindung:
-Wir können einen Funktionsterm auch handschriftlich eingeben und daraus den
-Graphen zeichnen lassen. Ich öffne über den Stift die Zeichenfläche und schreibe
-den Funktionsterm nieder, markiere ihn und kontrolliere
-kurz, ob alles richtig erkannt wurde. Falls nötig, kann ich den Term im Feld
-korrigieren. Mit Plot zeichne ich anschließend den Graphen.
-Hier wird sichtbar, wie sich die Vorlagen ergänzen: PlotInput liefert das
-Funktionsfeld, canvas ergänzt die Handschrifterkennung. Beide nutzen wir zusammen
-mit unserem Koordinatensystem. Für den Unterricht
-kann ich so direkt von einem handgeschriebenen Term zu seinem Graphen wechseln.
-Jetzt gehen wir einen Schritt weiter und erstellen selbst eine geometrische Szene.
+`@PlotInput` provides an input field for a function expression and draws the
+corresponding graph in the connected coordinate system. Combined with `@canvas`,
+the expression can be entered by hand: the written expression is selected,
+recognised and transferred to the input field, where it can be corrected before
+plotting. The two templates therefore support a direct workflow from a
+handwritten mathematical expression to its graphical representation.
 
 <div class="coord-slide">
 
@@ -790,23 +794,16 @@ Jetzt gehen wir einen Schritt weiter und erstellen selbst eine geometrische Szen
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="40" height="40"> Create and export in the DGS
 
     --{{0}}--
-Bis hierher haben wir Aufgaben aus Sicht der Lernenden betrachtet. Jetzt möchte
-ich als Lehrkraft selbst etwas erstellen. Dafür öffne ich im DGS die passenden
-Werkzeuge. Über einen Rechtsklick öffne ich die
-Eigenschaften eines Objekts. Ich kann beispielsweise den Namen ändern oder die
-Höhe farblich hervorheben. So gestalte ich die Darstellung passend zu meiner
-Aufgabe. Wenn die Konstruktion fertig ist, öffne ich die Objektliste und wähle
-den Export. Dort lege ich fest, welche Werkzeuge und Änderungsmöglichkeiten
-im späteren Kurs verfügbar sein sollen. Anschließend kopiere ich den erzeugten
-LiaScript-Code. Im vorbereiteten LiveEditor sind der Kurskopf mit den benötigten
-Importen und ein kurzer Arbeitsauftrag bereits vorhanden. Ich füge die
-Konstruktion ein und öffne die Vorschau. 
-Für eine automatische Bewertung würde ich noch ein passendes Quiz ergänzen.
-Zum Weitergeben veröffentliche ich die Kursdatei an einem erreichbaren Ort
-wie die Homepage meiner Schule oder ein Lernmanagementsystem und
-kann den Lernenden anschließend den LiaScript-Link schicken. So wird aus der
-Konstruktion ein Material, das ich wiederverwenden und für andere Lerngruppen
-anpassen kann.
+The dynamic geometry system can also serve as a visual authoring environment.
+After a construction has been created, an object's properties can be opened
+with a right-click to change its name, colour or other attributes. The export
+dialog in the object list defines the tools and editing options available in
+the course and generates the corresponding LiaScript code. This code can be
+pasted into a course in the LiaScript LiveEditor together with the required
+imports, task instructions and, where appropriate, a quiz for automatic
+assessment. Publishing the course file on an accessible website or learning
+management system provides a reusable link that can be shared and adapted for
+different groups of learners.
 
 <div class="coord-slide">
 
@@ -860,21 +857,17 @@ anpassen kann.
 
 
 
-## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40"> Closing
+## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40"> Outlook
 
     --{{0}}--
-Was haben wir heute gesehen? Mit wenigen Makros entstehen in LiaScript Aufgaben,
-bei denen Lernende Punkte setzen, Graphen anpassen und Figuren konstruieren.
-Dabei lassen sich Positionen, Seiten, Winkel, Flächeninhalte und Umfänge prüfen
-und mehrere Bedingungen miteinander verbinden. Wir haben außerdem einen
-handschriftlichen Terme und Skizzen erkannt.
-Anschließend haben wir im DGS selbst eine Konstruktion erstellt, ihre
-Eigenschaften angepasst und sie über den Export in den LiveEditor übernommen.
-Damit haben wir den Weg von der einzelnen interaktiven Aufgabe zum eigenen,
-wiederverwendbaren Kurs durchgespielt. 
-Als Nächstes würde ich versuchen Animationen und dreidimensionale Geometrie im DGS zu realisieren. Doch bevor ich mich daran neben meiner Lehrertätigkeit machen werden, werde ich versuchen mehr Skizzen direkt in Grafiken zu übersetzen, sodass jede Lehrkraft dieses Template ohne Vorkenntnisse nutzen kann.
-Auch weitere LiaScript-Quizze sind denkbar.
-Vielen Dank fürs Zuhören.
+The examples show how a small set of macros supports point placement, graph
+adjustment and geometric construction in LiaScript. Automatic checks can cover
+positions, side lengths, angles, areas, perimeters and combinations of several
+conditions. Handwriting recognition connects written expressions with plotted
+graphs. The DGS export workflow turns a visual construction into LiaScript code
+that can be included in a reusable course. Possible extensions include
+animations, three-dimensional geometry, direct conversion of sketches into
+graphics and additional LiaScript quiz formats.
 
 <div class="coord-slide">
 
@@ -896,11 +889,6 @@ Vielen Dank fürs Zuhören.
 
 
 </div>
-
-
-
-
-
 
 
 

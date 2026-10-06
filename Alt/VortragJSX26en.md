@@ -1,5 +1,5 @@
 <!--
-version:  0.2.0
+version:  0.3.0
 language: en
 narrator: US English Female
 
@@ -120,16 +120,33 @@ in a LiaScript course.
 
 </center>
 
+## Agenda
 
+<img alt="Step 1" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/1.png" width="40" height="40">  <big><big><b> LiaScript: the foundation </b></big></big>
 
+---
 
+---
 
+<img alt="Step 2" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40">  <big><big><b> What STEM teachers need </b></big></big>
 
+---
 
+---
 
+<img alt="Step 3" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40">  <big><big><b> Interactive tasks with lia-coordinate </b></big></big>
 
+---
 
+---
 
+<img alt="Step 4" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/4.png" width="40" height="40">  <big><big><b> Create and export in the DGS </b></big></big>
+
+---
+
+---
+
+<img alt="Step 5" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40">  <big><big><b> Key Outlook </b></big></big>
 
 
 
@@ -863,7 +880,7 @@ and adapt for other groups of learners.
 
 
 
-## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40"> Closing
+## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/5.png" width="40" height="40"> Outlook
 
     --{{0}}--
 What have we seen today? With just a few macros, we can create LiaScript tasks
@@ -900,8 +917,6 @@ Thank you for listening.
 
 
 </div>
-
-
 
 
 
