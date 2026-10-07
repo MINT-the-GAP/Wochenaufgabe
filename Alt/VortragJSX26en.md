@@ -44,7 +44,9 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-pentominos/main/READM
 
 
     --{{0}}--
-Hello, my name is Martin Lommatzsch, and today I'd like to show you how we can create
+Hello, my name is Martin Lommatzsch, I'm a teacher in a school
+from a rural town in saxony, which is called Geschwister-Scholl-Gymnasium Freiberg and 
+today I'd like to show you how we can create
 interactive mathematics tasks with LiaScript. The underlying technology is JSXGraph.
 My lia-coordinate template makes it accessible through macros.
 I'll start with a few tasks from the learners' perspective. Then we'll switch
@@ -166,15 +168,13 @@ Another practical benefit for teaching is that learners can use their own device
 a smartphone, tablet or laptop. All they need is a modern browser.
 There is no need to install an app beforehand, run a dedicated school server
 or use a learning management system. There is no compulsory account either;
-learning progress can be stored locally in the browser. And LiaScript complies
-with data protection requirements.
+learning progress can be stored locally in the browser. And LiaScript does not collect
+any data, so that it fullfills the data protection requirements.
 The course files can be hosted in different places, so we are not tied to a
 single platform. Learners can continue working offline with content they have
 already loaded, provided the required resources are available locally.
 Online services still need a connection. For me, the key feature is macros:
-they can package even complex applications.
-I'll show you what this looks like with JSXGraph in the next few slides,
-after outlining what we need from a teacher's perspective.
+they can package even complex applications and make it accessable for the ordinary teachers.
 
 
 <section class="dynFlex" data-basis="49%">
@@ -268,7 +268,7 @@ Use ready-made macros **without programming knowledge**.
 ## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/2.png" width="40" height="40"> What do STEM teachers need?
 
     --{{0}}--
-What do we actually need in STEM teaching?
+Before heading forward, we must understand, what do teachers actually need in STEM teaching?
 We need ways to display graphs and geometric figures.
 Learners should be able to measure lengths and angles with a set square.
 They should also be able to construct geometric figures themselves with a set
@@ -591,65 +591,6 @@ A rectangle with sides of $4$ units and $3$ units has an area of $12$ square uni
 
 
 
-
-
-
-
-
-
-
-## <img alt="" src="https://raw.githubusercontent.com/MINT-the-GAP/Aufgabensammlung/refs/heads/main/pics/grad/3.png" width="40" height="40"> PerimeterQuiz: specify the perimeter
-
-    --{{0}}--
-On this slide, we specify the perimeter: fourteen units.
-Together, these two tasks clearly show the difference between perimeter
-and area. In the code, I simply replace AreaQuiz with PerimeterQuiz and enter
-the required perimeter. The number of vertices and the tolerance remain
-separate settings. Here too, rectangles are just our examples;
-the task asks for any quadrilateral.
-
-<div class="coord-slide">
-
-<section class="dynFlex" data-basis="49%">
-
-<div class="flex-child">
-
-@CoordinateSystem(`xmin=-1;xmax=7;ymin=-1;ymax=5;width=800;id=slide5;achsen=1;grid=1;border=1`)
-@DGS(`slide5;tools=[200;510;920]`)
-
-</div>
-<div class="flex-child">
-
-**Construct** a quadrilateral with a perimeter of $14$ units.
-
-@PerimeterQuiz(`slide5;4;14;0.5`,`<!-- data-hint-button="1" data-solution-button="3" -->`)
-[[?]] For a rectangle, the perimeter is $P=2a+2b$. Choose side lengths whose sum is 7.
-**************************************************
-A rectangle with sides of $4$ units and $3$ units has a perimeter of $14$ units; so does one with sides of $5$ units and $2$ units.
-**************************************************
-
-> **The same perimeter does not determine the area.**
-
-**Options:** number of vertices · target perimeter · tolerance
-
-**Code example**
-
-``` markdown
-@CoordinateSystem(`xmin=-1;xmax=7;ymin=-1;ymax=5;width=800;id=slide5;achsen=1;grid=1;border=1`)
-@DGS(`slide5;tools=[200;510;920]`)
-@PerimeterQuiz(`slide5;4;14;0.15`,`<!-- -->`)
-```
-
-- `slide5` connects the board, tools and quiz; `200;510;920` enables points, polygons and the eraser.
-- `4` requires a closed polygon with four vertices.
-- `14;0.15` sets the target perimeter to $14$ units, with an absolute tolerance of $0.15$ units.
-- Only the perimeter and vertex count are prescribed; the area and shape may vary.
-
-</div>
-
-</section>
-
-</div>
 
 
 

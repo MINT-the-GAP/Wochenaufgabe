@@ -311,11 +311,7 @@ __$a)\;\;$__ **Vervollständige** die Wertetabelle für $f$.
 | $f(x)$ | [[ -5/2 ]] @canvas | $\frac12$ | [[ 3/2 ]] @canvas | $\frac72$ |
 @Algebrite.check([3/2;6;-5/2;3/2])
 *****************
-$
-f(-3)=-\frac52,
-\qquad
-f(3)=\frac32.
-$
+$ f(-3)=-\frac52, \qquad f(3)=\frac32. $
 
 Aus $f(x)=\frac12$ folgt $x=\frac32$; aus $f(x)=\frac72$ folgt $x=6$.
 *****************
@@ -340,16 +336,9 @@ $x_{N_f}=$ [[ 3/4 ]]; $x_{N_g}=$ [[ 10/3 ]] @canvas
 @Algebrite.check([3/4;10/3])
 [[?]] Setze den jeweiligen Funktionsterm gleich null.
 *****************
-$
-\frac23x-\frac12=0
-\quad\Longrightarrow\quad
-x_{N_f}=\frac34,
-$
-$
--\frac34x+\frac52=0
-\quad\Longrightarrow\quad
-x_{N_g}=\frac{10}{3}.
-$
+$ \frac23x-\frac12=0 \quad\Longrightarrow\quad x_{N_f}=\frac34, $
+
+$ -\frac34x+\frac52=0 \quad\Longrightarrow\quad x_{N_g}=\frac{10}{3}.$
 *****************
 
 @resetter
@@ -367,19 +356,9 @@ $S\bigl($ [[ 36/17 ]] $\mid$ [[ 31/34 ]] $\bigr)$ @canvas
 @Algebrite.check([36/17;31/34])
 [[?]] Setze $f(x)=g(x)$. Setze die gefundene Stelle danach in einen Funktionsterm ein.
 *****************
-$
-\frac23x-\frac12=-\frac34x+\frac52
-\quad\Longrightarrow\quad
-\frac{17}{12}x=3
-\quad\Longrightarrow\quad
-x=\frac{36}{17}.
-$
+$ \frac23x-\frac12=-\frac34x+\frac52  \quad\Longrightarrow\quad  \frac{17}{12}x=3 \quad\Longrightarrow\quad x=\frac{36}{17}. $
 
-$
-f\left(\frac{36}{17}\right)
-=\frac{24}{17}-\frac12
-=\frac{31}{34}.
-$
+$ f\left(\frac{36}{17}\right) =\frac{24}{17}-\frac12 =\frac{31}{34}. $
 
 Damit ist $S\left(\frac{36}{17}\mid\frac{31}{34}\right)$.
 *****************
@@ -400,16 +379,12 @@ $h(x)=$ [[ 4/3*x+20/3 ]] @canvas
 [[?]] Für orthogonale Geraden gilt $m_g\cdot m_h=-1$. Berechne außerdem $g(-2)$.
 *****************
 Aus $m_g=-\frac34$ folgt $m_h=\frac43$. Der gemeinsame Punkt ist
-$
-(-2\mid g(-2))=(-2\mid4).
-$
+
+$ (-2 \mid g(-2)) = (-2 \mid 4). $
 
 Mit $h(x)=\frac43x+b$ erhält man
-$
-4=\frac43\cdot(-2)+b
-\quad\Longrightarrow\quad
-b=\frac{20}{3}.
-$
+
+$ 4=\frac43\cdot(-2)+b  \quad\Longrightarrow\quad b=\frac{20}{3}. $
 
 Also gilt $h(x)=\frac43x+\frac{20}{3}$.
 *****************
@@ -435,16 +410,10 @@ $k(x)=$ [[ -2/3*x+1 ]] @canvas
 @Algebrite.check(`-2/3*x+1`)
 [[?]] Berechne zuerst die Steigung aus den Koordinatenunterschieden.
 *****************
-$
-m_k=\frac{-\frac53-\frac73}{4-(-2)}
-=\frac{-4}{6}
-=-\frac23.
-$
+$  m_k=\frac{-\frac53-\frac73}{4-(-2)} =\frac{-4}{6}  =-\frac23. $
 
 Einsetzen von $P$ in $k(x)=-\frac23x+b$ ergibt $b=1$. Somit gilt
-$
-k(x)=-\frac23x+1.
-$
+$ k(x)=-\frac23x+1. $
 *****************
 
 @resetter
@@ -463,14 +432,10 @@ $p(x)=$ [[ 2/3*x+5/2 ]] @canvas
 [[?]] Parallele Geraden haben dieselbe Steigung. Auf der Ordinatenachse gilt $x=0$.
 *****************
 Wegen der Parallelität ist $m_p=\frac23$. Der gemeinsame Punkt auf der Ordinatenachse ist
-$
-(0\mid g(0))=\left(0\mid\frac52\right).
-$
+$ (0\mid g(0))=\left(0\mid\frac52\right). $
 
 Daher lautet der Funktionsterm
-$
-p(x)=\frac23x+\frac52.
-$
+$ p(x)=\frac23x+\frac52. $
 *****************
 
 @resetter
@@ -495,14 +460,10 @@ $u(x)=$ [[ -2/3*x+1 ]] @canvas
 [[?]] Lies die Punkte $P$ und $Q$ ab. Berechne daraus die Steigung und anschließend den Ordinatenabschnitt.
 *****************
 Aus $P(-3\mid3)$ und $Q(3\mid-1)$ folgt
-$
-m_u=\frac{-1-3}{3-(-3)}=-\frac23.
-$
+$ m_u=\frac{-1-3}{3-(-3)}=-\frac23. $
 
 Mit $P$ erhält man $3=-\frac23\cdot(-3)+b$, also $b=1$. Daher gilt
-$
-u(x)=-\frac23x+1.
-$
+$ u(x)=-\frac23x+1. $
 *****************
 
 @resetter
