@@ -7,7 +7,7 @@ tags: Presentation, Teacher training, LiaScript, lia-coordinate, DGS, Mathematic
 comment:  lia-coordinate in the classroom: representations, tasks, teaching choices
           and the path from a visual DGS construction to a reusable worksheet.
 author:   Martin Lommatzsch
-mode: Presentation
+mode: textbook
 persistent: true
 edit: true
 
