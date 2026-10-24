@@ -847,11 +847,11 @@
         "Marker":  "# Probeleistungskontrolle fÃ¼r Physik - Klasse 12: Wellenoptik"
     },
     {
-        "Path":  ".\\ProbeLKPhysik12_Wellen.md",
+        "Path":  ".\\ProbeLKKA\\ProbeLKPhysik12_Wellen.md",
         "Ext":  ".md",
-        "Size":  17817,
-        "Lines":  770,
-        "Marker":  "# Probeleistungskontrolle fÃ¼r Physik - Klasse 12: Wellenoptik"
+        "Size":  29522,
+        "Lines":  745,
+        "Marker":  "# Probeleistungskontrolle für Physik – Klasse 12: Schwingungen und Wellen"
     },
     {
         "Path":  ".\\ProbeLKPhysik7_Elektrik.md",
@@ -1118,5 +1118,12 @@
         "Size":  2734984,
         "Lines":  null,
         "Marker":  null
+    },
+    {
+        "Path":  ".\\11\\Mathematik\\Lia11_01.md",
+        "Ext":  ".md",
+        "Size":  23972,
+        "Lines":  527,
+        "Marker":  "# Wochenaufgabe 1 Klasse 11 – Mathematik"
     }
 ]
