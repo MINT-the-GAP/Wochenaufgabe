@@ -49,7 +49,7 @@ author: Martin Lommatzsch
 # Naturwissenschaftliches Profil Klasse 10 - Modellierung der Natur
 
 
-> Letztes Update am 04.05.2026 gegen 18:00 Uhr
+> Letztes Update am 01.11.2026 gegen 18:00 Uhr
 
 
 In diesem LiaScript findest du eine gesamte Zusammenfassung des Profilunterrichts der Klasse 10. Auch findest du hier Aufgaben und Lösungen zu den Aufgaben. Die Datei wird ständig aktualisiert.
