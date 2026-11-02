@@ -1180,7 +1180,7 @@ Um das Feld sichtbar zu machen, wird zunächst eine zweidimensionale Draufsicht 
 {{2}}
 <center>
 <!-- style="width:500px" -->
-![](Bilder/Feldoben.png)
+![](../../Bilder/Feldoben.png)
 </center>
 
 {{2}}
@@ -1194,7 +1194,7 @@ Noch deutlicher wird dieses Feldlinienmodell in einer dreidimensionalen Darstell
 {{3}}
 <center>
 <!-- style="width:750px" -->
-![](Bilder/Kugelober.png)
+![](../../Bilder/Kugelober.png)
 </center>
 
 {{3}}
@@ -1269,14 +1269,14 @@ Oftmals kann bei einem genügend großen Abstand jedes Feld auf eine Punktquelle
 
 <center>
 <!-- style="width:500px" -->
-![](Bilder/Feldseite.png)
+![](../../Bilder/Feldseite.png)
 </center>
 
 Wenn man die Feldlinien in zwei Dimensionen betrachtet würde das Potential dazu die dritte Dimension darstellen.
 
 <center>
 <!-- style="width:500px" -->
-![](Bilder/Feld3D.png)
+![](../../Bilder/Feld3D.png)
 </center>
 
 In diesem Bild wird schon die Grunderkenntnis der allgemeinen Relativitätstheorie deutlich, da die Linien stets alle gerade sind, jedoch durch ihre Abbildung von der Draufsicht erscheinen die daraus resultierenden Flächen unterschiedlich groß. Das bedeutet, dass diese geometrischen Interpretationen in vielen Bereichen ähnlich sind und mächtige Vorhersagen treffen lassen können.
